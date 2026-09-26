@@ -92,23 +92,20 @@ function compareTeams() {
   const away = document.getElementById("away").value;
   const home = document.getElementById("home").value;
 
-  if (away === home) {
-    document.getElementById("results").textContent =
-      "Please select two different teams.";
-    return;
-  }
-
-  document.getElementById("results").innerHTML =
-    "<h3>Matchup</h3>" +
-    "<p>" + away + " vs " + home + "</p>" +
-    "<p>Statistical analysis coming next!</p>";
+ 
+if (away === home) {
+  document.getElementById("results").textContent =
+    "Please select two different teams.";
+  return;
 }
-<script src="teams.js"></script>
 
-<script>
-function compareTeams() {
+document.getElementById("results").innerHTML =
+  "<h3>Matchup</h3>" +
+  "<p>" + away + " vs " + home + "</p>" +
+  "<p>Statistical analysis coming next!</p>";
+}
 </script>
-
 
 </body>
 </html>
+ 
