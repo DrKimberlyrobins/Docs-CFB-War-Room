@@ -87,6 +87,8 @@ Analyze Matchup
 
 <script>
 function compareTeams() {
+  console.log("Database connected:", teams);
+  
   const away = document.getElementById("away").value;
   const home = document.getElementById("home").value;
 
@@ -101,7 +103,12 @@ function compareTeams() {
     "<p>" + away + " vs " + home + "</p>" +
     "<p>Statistical analysis coming next!</p>";
 }
+<script src="teams.js"></script>
+
+<script>
+function compareTeams() {
 </script>
+
 
 </body>
 </html>
