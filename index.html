@@ -182,11 +182,16 @@ metrics.forEach(([label, category, metric]) => {
   const home = document.getElementById("home").value;
 
  
+
 if (away === home) {
   document.getElementById("results").textContent =
     "Please select two different teams.";
+
+  document.getElementById("statsBody").innerHTML = "";
+
   return;
 }
+
 
 document.getElementById("results").innerHTML =
   "<h3>Matchup</h3>" +
