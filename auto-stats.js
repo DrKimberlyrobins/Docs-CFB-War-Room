@@ -115,7 +115,64 @@ async function loadAutomaticStats() {
   }
 }
 
-// Wait until the original War Room has initialized.
+
+// WAR ROOM 4.1
+// Strength of Schedule loader
+
+async function loadSOS() {
+  try {
+    const response = await fetch(
+      "data/fpi-2026.json?t=" + Date.now(),
+      { cache: "no-store" }
+    );
+
+    if (!response.ok) {
+      throw new Error("SOS download failed.");
+    }
+
+    const records = await response.json();
+
+    if (!Array.isArray(records)) {
+      throw new Error("Unexpected SOS data format.");
+    }
+
+    let matched = 0;
+
+    records.forEach(record => {
+      if (
+        !record.team ||
+        !Number.isFinite(record.strengthOfSchedule)
+      ) {
+        return;
+      }
+
+      const name = Object.keys(warRoomTeams).find(
+        team => team.toLowerCase() ===
+          record.team.toLowerCase()
+      );
+
+      if (!name) return;
+
+      warRoomTeams[name].sos = {
+        rank: record.strengthOfSchedule,
+        remainingRank:
+          record.remainingStrengthOfSchedule ?? null,
+        season: record.year,
+        source: "CollegeFootballData FPI"
+      };
+
+      matched++;
+    });
+
+    console.log(
+      "War Room: SOS matched for " +
+      matched + " teams."
+    );
+
+  } catch (error) {
+    console.error("SOS unavailable:", error);
+  }
+}
 document.addEventListener("DOMContentLoaded", () => {
-  loadAutomaticStats();
+  loadAutomaticStats().then(() => loadSOS());
 });
