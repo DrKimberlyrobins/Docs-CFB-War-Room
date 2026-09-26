@@ -31,3 +31,13 @@ const teams = {
     }
   }
 };
+
+// DATA VERIFICATION
+// Keep historical data separate from current data.
+
+const dataInfo = {
+  season: 2026,
+  source: "CollegeFootballData",
+  lastUpdated: null,
+  verified: false
+};
