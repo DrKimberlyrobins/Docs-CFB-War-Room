@@ -1,0 +1,47 @@
+
+name: Update College Football Statistics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get repository files
+        uses: actions/checkout@v4
+
+      - name: Download college football statistics
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: |
+          mkdir -p data
+
+          curl --fail --silent --show-error \
+            --retry 3 \
+            -H "Authorization: Bearer $CFBD_API_KEY" \
+            -H "Accept: application/json" \
+            "https://api.collegefootballdata.com/stats/season/advanced?year=2026" \
+            -o data/advanced-2026.json
+
+          python3 -m json.tool \
+            data/advanced-2026.json > /dev/null
+
+      - name: Save updated statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/advanced-2026.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update college football statistics"
+            git push
+          fi
