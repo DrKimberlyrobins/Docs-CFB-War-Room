@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +8,16 @@
 <title>Doc's CFB War Room</title>
 
 <style>
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #101b2b;
   color: white;
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 25px;
+  padding: 20px;
 }
 
 h1 {
@@ -28,28 +33,97 @@ h1 {
 .panel {
   background: #1c3048;
   border-radius: 12px;
-  padding: 20px;
+  padding: 22px;
   margin: 20px auto;
-  max-width: 850px;
+  max-width: 950px;
+}
+
+h2 {
+  color: #50e3a4;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
 }
 
 select, input {
+  background: white;
+  color: #101b2b;
   padding: 12px;
+  border: none;
   border-radius: 6px;
-  margin: 8px;
+  margin: 8px 0;
+  width: 100%;
 }
 
 button {
   background: #50e3a4;
+  color: #101b2b;
   border: none;
   padding: 12px 20px;
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
+  margin: 8px 8px 8px 0;
+}
+
+button:hover {
+  background: #8bf5c6;
+}
+
+.secondary {
+  background: #dbe7f5;
+}
+
+.warning {
+  color: #ffd37a;
+}
+
+.note {
+  color: #aab8ca;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 #results {
   margin-top: 20px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #45617e;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background: #284664;
+}
+
+tr:nth-child(even) {
+  background: #243b55;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 600px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 </head>
@@ -57,149 +131,703 @@ button {
 <body>
 
 <h1>DOC'S CFB WAR ROOM</h1>
+
 <p class="subtitle">
 College Football Research & Matchup Analysis
 </p>
 
 <div class="panel">
+
 <h2>Team Comparison</h2>
 
 <label for="away">Away Team</label>
-<select id="away">
-  <option>Sam Houston</option>
-  <option>Texas Tech</option>
-</select>
+<select id="away"></select>
 
 <label for="home">Home Team</label>
-<select id="home">
-  <option>Texas Tech</option>
-  <option>Sam Houston</option>
-</select>
-
-<br><br>
+<select id="home"></select>
 
 <button onclick="compareTeams()">
 Analyze Matchup
 </button>
 
 <div id="results"></div>
-  
-<div id="statsTable" style="margin-top:25px;">
-  <h2>Statistical Comparison</h2>
 
-  <table border="1" cellpadding="12"
-         style="width:100%; border-collapse:collapse;">
-    <thead>
-      <tr>
-        <th>Metric</th>
-        <th>Away Team</th>
-        <th>Home Team</th>
-      </tr>
-    </thead>
-    <tbody id="statsBody">
-      <tr>
-        <td>Offensive PPA</td>
-        <td>Awaiting data</td>
-        <td>Awaiting data</td>
-      </tr>
-      <tr>
-        <td>Defensive PPA</td>
-        <td>Awaiting data</td>
-        <td>Awaiting data</td>
-      </tr>
-      <tr>
-        <td>Success Rate</td>
-        <td>Awaiting data</td>
-        <td>Awaiting data</td>
-      </tr>
-      <tr>
-        <td>Explosiveness</td>
-        <td>Awaiting data</td>
-        <td>Awaiting data</td>
-      </tr>
-    </tbody>
-  </table>
+<h2>Statistical Comparison</h2>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Away Team</th>
+<th>Home Team</th>
+</tr>
+</thead>
+
+<tbody id="statsBody">
+<tr>
+<td colspan="3">
+Select two teams and analyze the matchup.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p class="note">
+PPA = Predicted Points Added per play.
+Success rate and explosiveness are entered
+as decimals. For example, 45% = 0.45.
+</p>
+
 </div>
 
 
+<div class="panel">
+
+<h2>Team Statistics Editor</h2>
+
+<p class="note">
+Enter your verified statistics here.
+Your changes will be saved in this browser.
+</p>
+
+<label for="editTeam">Select Team</label>
+<select id="editTeam" onchange="loadTeamEditor()">
+</select>
+
+<div class="form-grid">
+
+<div>
+<label for="offPPA">Offensive PPA</label>
+<input id="offPPA" type="number" step="any">
 </div>
+
+<div>
+<label for="defPPA">Defensive PPA</label>
+<input id="defPPA" type="number" step="any">
+</div>
+
+<div>
+<label for="successRate">Offensive Success Rate</label>
+<input id="successRate" type="number"
+       min="0" max="1" step="any">
+</div>
+
+<div>
+<label for="explosiveness">Offensive Explosiveness</label>
+<input id="explosiveness" type="number"
+       step="any">
+</div>
+
+<div>
+<label for="pointsPerOpportunity">
+Points per Scoring Opportunity
+</label>
+<input id="pointsPerOpportunity"
+       type="number" step="any">
+</div>
+
+<div>
+<label for="defSuccessRate">
+Defensive Success Rate Allowed
+</label>
+<input id="defSuccessRate"
+       type="number" min="0" max="1"
+       step="any">
+</div>
+
+</div>
+
+<label for="source">Data Source</label>
+<input id="source"
+       placeholder="Example: CollegeFootballData">
+
+<label for="season">Season</label>
+<input id="season" type="number"
+       min="2000" max="2100" value="2026">
+
+<label for="verifiedDate">Date Verified</label>
+<input id="verifiedDate" type="date">
+
+<button onclick="saveTeamStats()">
+Save Team Statistics
+</button>
+
+<button class="secondary" onclick="exportData()">
+Export Data Backup
+</button>
+
+<p id="saveMessage" class="note"></p>
+
+</div>
+
+
+<div class="panel">
+
+<h2>Add a New Team</h2>
+
+<label for="newTeam">Team Name</label>
+
+<input id="newTeam"
+       placeholder="Example: Alabama">
+
+<button onclick="addTeam()">
+Add Team
+</button>
+
+<p id="addMessage" class="note"></p>
+
+</div>
+
 
 <script src="teams.js"></script>
 
 <script>
-function compareTeams() {
-  
-// Read the selected teams
-const awayName =
-  document.getElementById("away").value;
 
-const homeName =
-  document.getElementById("home").value;
+// -----------------------------
+// DATABASE
+// -----------------------------
 
-// Find both teams in our database
-const awayData = teams[awayName];
-const homeData = teams[homeName];
+const STORAGE_KEY = "docsCFBWarRoomData";
 
-// Display verified statistics when available
+let warRoomTeams = {};
+
+function emptyTeam() {
+  return {
+    offense: {
+      ppa: null,
+      successRate: null,
+      explosiveness: null,
+      pointsPerOpportunity: null
+    },
+    defense: {
+      ppa: null,
+      successRate: null,
+      explosiveness: null
+    },
+    dataInfo: {
+      season: 2026,
+      source: "",
+      lastUpdated: null,
+      verified: false
+    }
+  };
+}
+
+function initializeDatabase() {
+
+  // Import existing teams.js data.
+
+  if (
+    typeof teams !== "undefined" &&
+    teams &&
+    typeof teams === "object"
+  ) {
+    warRoomTeams =
+      JSON.parse(JSON.stringify(teams));
+  }
+
+  // Restore previously saved browser data.
+
+  try {
+    const saved =
+      localStorage.getItem(STORAGE_KEY);
+
+    if (saved) {
+      const parsed = JSON.parse(saved);
+
+      if (
+        parsed &&
+        typeof parsed === "object" &&
+        !Array.isArray(parsed)
+      ) {
+        warRoomTeams = {
+          ...warRoomTeams,
+          ...parsed
+        };
+      }
+    }
+  } catch (error) {
+    console.warn(
+      "Saved browser data unavailable.",
+      error
+    );
+  }
+
+  refreshMenus();
+  loadTeamEditor();
+}
+
+function persistData() {
+  try {
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify(warRoomTeams)
+    );
+    return true;
+  } catch (error) {
+    console.error(error);
+    return false;
+  }
+}
+
+
+// -----------------------------
+// TEAM MENUS
+// -----------------------------
+
+function refreshMenus() {
+
+  const names =
+    Object.keys(warRoomTeams).sort();
+
+  const away =
+    document.getElementById("away");
+
+  const home =
+    document.getElementById("home");
+
+  const editor =
+    document.getElementById("editTeam");
+
+  const oldAway = away.value;
+  const oldHome = home.value;
+  const oldEditor = editor.value;
+
+  [away, home, editor].forEach(menu => {
+
+    menu.innerHTML = "";
+
+    names.forEach(name => {
+      const option =
+        document.createElement("option");
+
+      option.value = name;
+      option.textContent = name;
+
+      menu.appendChild(option);
+    });
+
+  });
+
+  if (names.includes(oldAway)) {
+    away.value = oldAway;
+  }
+
+  if (names.includes(oldHome)) {
+    home.value = oldHome;
+  } else if (names.length > 1) {
+    home.value = names[1];
+  }
+
+  if (names.includes(oldEditor)) {
+    editor.value = oldEditor;
+  }
+}
+
+
+// -----------------------------
+// MATCHUP ANALYSIS
+// -----------------------------
+
 function displayStat(value) {
-  return typeof value === "number"
+
+  return typeof value === "number" &&
+         Number.isFinite(value)
     ? value.toFixed(3)
     : "Awaiting data";
 }
 
-const metrics = [
-  ["Offensive PPA", "offense", "ppa"],
-  ["Defensive PPA", "defense", "ppa"],
-  ["Success Rate", "offense", "successRate"],
-  ["Explosiveness", "offense", "explosiveness"]
-];
+function compareTeams() {
 
-const statsBody =
-  document.getElementById("statsBody");
+  const awayName =
+    document.getElementById("away").value;
 
-statsBody.innerHTML = "";
+  const homeName =
+    document.getElementById("home").value;
 
-metrics.forEach(([label, category, metric]) => {
-  const row = document.createElement("tr");
+  const results =
+    document.getElementById("results");
 
-  [label,
-   displayStat(awayData?.[category]?.[metric]),
-   displayStat(homeData?.[category]?.[metric])
-  ].forEach(value => {
-    const cell = document.createElement("td");
-    cell.textContent = value;
-    cell.style.padding = "12px";
-    row.appendChild(cell);
-  });
+  const statsBody =
+    document.getElementById("statsBody");
 
-  statsBody.appendChild(row);
-});
+  // Check teams BEFORE building the table.
 
+  if (!awayName || !homeName) {
+    results.textContent =
+      "Please add at least two teams.";
+    return;
+  }
 
-  console.log("Database connected:", teams);
-  
-  const away = document.getElementById("away").value;
-  const home = document.getElementById("home").value;
+  if (awayName === homeName) {
+    results.textContent =
+      "Please select two different teams.";
 
- 
+    statsBody.innerHTML = "";
+    return;
+  }
 
-if (away === home) {
-  document.getElementById("results").textContent =
-    "Please select two different teams.";
+  const awayData = warRoomTeams[awayName];
+  const homeData = warRoomTeams[homeName];
 
-  document.getElementById("statsBody").innerHTML = "";
+  results.innerHTML = "";
 
-  return;
+  const heading =
+    document.createElement("h3");
+
+  heading.textContent =
+    awayName + " vs " + homeName;
+
+  results.appendChild(heading);
+
+  const metrics = [
+    ["Offensive PPA",
+      "offense", "ppa"],
+
+    ["Defensive PPA",
+      "defense", "ppa"],
+
+    ["Offensive Success Rate",
+      "offense", "successRate"],
+
+    ["Offensive Explosiveness",
+      "offense", "explosiveness"],
+
+    ["Points per Opportunity",
+      "offense", "pointsPerOpportunity"],
+
+    ["Defensive Success Rate Allowed",
+      "defense", "successRate"],
+
+    ["Defensive Explosiveness Allowed",
+      "defense", "explosiveness"]
+  ];
+
+  statsBody.innerHTML = "";
+
+  metrics.forEach(
+    ([label, category, metric]) => {
+
+      const row =
+        document.createElement("tr");
+
+      const values = [
+        label,
+        displayStat(
+          awayData?.[category]?.[metric]
+        ),
+        displayStat(
+          homeData?.[category]?.[metric]
+        )
+      ];
+
+      values.forEach(value => {
+        const cell =
+          document.createElement("td");
+
+        cell.textContent = value;
+
+        row.appendChild(cell);
+      });
+
+      statsBody.appendChild(row);
+
+    }
+  );
 }
 
 
-document.getElementById("results").innerHTML =
-  "<h3>Matchup</h3>" +
-  "<p>" + away + " vs " + home + "</p>" +
-  "<p>Statistical analysis coming next!</p>";
+// -----------------------------
+// STATISTICS EDITOR
+// -----------------------------
+
+function loadTeamEditor() {
+
+  const name =
+    document.getElementById("editTeam").value;
+
+  const team = warRoomTeams[name];
+
+  if (!team) return;
+
+  const offense = team.offense || {};
+  const defense = team.defense || {};
+
+  const info = {
+    ...emptyTeam().dataInfo,
+    ...(typeof dataInfo !== "undefined"
+      ? dataInfo : {}),
+    ...(team.dataInfo || {})
+  };
+
+  const fields = {
+    offPPA: offense.ppa,
+    defPPA: defense.ppa,
+    successRate: offense.successRate,
+    explosiveness: offense.explosiveness,
+    pointsPerOpportunity:
+      offense.pointsPerOpportunity,
+    defSuccessRate: defense.successRate
+  };
+
+  Object.entries(fields).forEach(
+    ([id, value]) => {
+      document.getElementById(id).value =
+        typeof value === "number"
+          ? value
+          : "";
+    }
+  );
+
+  document.getElementById("source").value =
+    info.source || "";
+
+  document.getElementById("season").value =
+    info.season || 2026;
+
+  document.getElementById(
+    "verifiedDate"
+  ).value = info.lastUpdated || "";
+
+  document.getElementById(
+    "saveMessage"
+  ).textContent = "";
 }
+
+function readNumber(id) {
+
+  const raw =
+    document.getElementById(id)
+      .value.trim();
+
+  if (raw === "") return null;
+
+  const value = Number(raw);
+
+  if (!Number.isFinite(value)) {
+    throw new Error(
+      "Invalid number in " + id
+    );
+  }
+
+  return value;
+}
+
+function saveTeamStats() {
+
+  const name =
+    document.getElementById("editTeam").value;
+
+  if (!name) return;
+
+  const message =
+    document.getElementById("saveMessage");
+
+  let values;
+
+  try {
+
+    values = {
+      offPPA: readNumber("offPPA"),
+      defPPA: readNumber("defPPA"),
+      successRate:
+        readNumber("successRate"),
+      explosiveness:
+        readNumber("explosiveness"),
+      pointsPerOpportunity:
+        readNumber("pointsPerOpportunity"),
+      defSuccessRate:
+        readNumber("defSuccessRate")
+    };
+
+  } catch (error) {
+    message.textContent = error.message;
+    return;
+  }
+
+  for (
+    const key of [
+      "successRate",
+      "defSuccessRate"
+    ]
+  ) {
+    const value = values[key];
+
+    if (
+      value !== null &&
+      (value < 0 || value > 1)
+    ) {
+      message.textContent =
+        "Success rates must be between 0 and 1.";
+      return;
+    }
+  }
+
+  const original =
+    warRoomTeams[name] || emptyTeam();
+
+  const source =
+    document.getElementById("source")
+      .value.trim();
+
+  const season =
+    Number(
+      document.getElementById("season").value
+    );
+
+  const date =
+    document.getElementById(
+      "verifiedDate"
+    ).value;
+
+  if (
+    !Number.isInteger(season) ||
+    season < 2000 ||
+    season > 2100
+  ) {
+    message.textContent =
+      "Please enter a valid season.";
+    return;
+  }
+
+  warRoomTeams[name] = {
+
+    ...original,
+
+    offense: {
+      ...original.offense,
+      ppa: values.offPPA,
+      successRate: values.successRate,
+      explosiveness:
+        values.explosiveness,
+      pointsPerOpportunity:
+        values.pointsPerOpportunity
+    },
+
+    defense: {
+      ...original.defense,
+      ppa: values.defPPA,
+      successRate:
+        values.defSuccessRate
+    },
+
+    dataInfo: {
+      season: season,
+      source: source,
+      lastUpdated: date || null,
+      verified:
+        Boolean(source && date)
+    }
+  };
+
+  if (persistData()) {
+    message.textContent =
+      name + " saved successfully!";
+  } else {
+    message.textContent =
+      "Browser storage failed. Export a backup.";
+  }
+
+  compareTeams();
+}
+
+
+// -----------------------------
+// ADD NEW TEAMS
+// -----------------------------
+
+function addTeam() {
+
+  const input =
+    document.getElementById("newTeam");
+
+  const message =
+    document.getElementById("addMessage");
+
+  const name = input.value.trim();
+
+  if (!name) {
+    message.textContent =
+      "Enter a team name.";
+    return;
+  }
+
+  const existing =
+    Object.keys(warRoomTeams).find(
+      team =>
+        team.toLowerCase() ===
+        name.toLowerCase()
+    );
+
+  if (existing) {
+    message.textContent =
+      "That team already exists.";
+    return;
+  }
+
+  warRoomTeams[name] = emptyTeam();
+
+  const saved = persistData();
+
+  refreshMenus();
+
+  document.getElementById(
+    "editTeam"
+  ).value = name;
+
+  loadTeamEditor();
+
+  message.textContent = saved
+    ? name + " added successfully!"
+    : "Team added for this session. Export a backup.";
+
+  input.value = "";
+}
+
+
+// -----------------------------
+// EXPORT BACKUP
+// -----------------------------
+
+function exportData() {
+
+  const content =
+    JSON.stringify(
+      warRoomTeams,
+      null,
+      2
+    );
+
+  const blob = new Blob(
+    [content],
+    { type: "application/json" }
+  );
+
+  const url =
+    URL.createObjectURL(blob);
+
+  const link =
+    document.createElement("a");
+
+  link.href = url;
+  link.download =
+    "docs-cfb-war-room-backup.json";
+
+  link.click();
+
+  URL.revokeObjectURL(url);
+}
+
+
+// -----------------------------
+// START APPLICATION
+// -----------------------------
+
+initializeDatabase();
+
 </script>
 
 </body>
 </html>
- 
