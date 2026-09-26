@@ -128,6 +128,53 @@ Analyze Matchup
 
 <script>
 function compareTeams() {
+  
+// Read the selected teams
+const awayName =
+  document.getElementById("away").value;
+
+const homeName =
+  document.getElementById("home").value;
+
+// Find both teams in our database
+const awayData = teams[awayName];
+const homeData = teams[homeName];
+
+// Display verified statistics when available
+function displayStat(value) {
+  return typeof value === "number"
+    ? value.toFixed(3)
+    : "Awaiting data";
+}
+
+const metrics = [
+  ["Offensive PPA", "offense", "ppa"],
+  ["Defensive PPA", "defense", "ppa"],
+  ["Success Rate", "offense", "successRate"],
+  ["Explosiveness", "offense", "explosiveness"]
+];
+
+const statsBody =
+  document.getElementById("statsBody");
+
+statsBody.innerHTML = "";
+
+metrics.forEach(([label, category, metric]) => {
+  const row = document.createElement("tr");
+
+  [label,
+   displayStat(awayData?.[category]?.[metric]),
+   displayStat(homeData?.[category]?.[metric])
+  ].forEach(value => {
+    const cell = document.createElement("td");
+    cell.textContent = value;
+    cell.style.padding = "12px";
+    row.appendChild(cell);
+  });
+
+  statsBody.appendChild(row);
+});
+
 
   console.log("Database connected:", teams);
   
