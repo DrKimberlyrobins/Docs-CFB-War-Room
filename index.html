@@ -1,10 +1,11 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+
 <title>Doc's CFB War Room</title>
 
 <style>
@@ -76,18 +77,10 @@ button:hover {
   background: #dbe7f5;
 }
 
-.warning {
-  color: #ffd37a;
-}
-
 .note {
-  color: #aab8ca;
+  color: #b7c6d9;
   font-size: 14px;
   line-height: 1.6;
-}
-
-#results {
-  margin-top: 20px;
 }
 
 .table-wrap {
@@ -112,6 +105,26 @@ th {
 
 tr:nth-child(even) {
   background: #243b55;
+}
+
+/* NEW: Highlight statistical advantages */
+
+.advantage {
+  background: #176b49 !important;
+  color: white;
+  font-weight: bold;
+}
+
+.tie {
+  color: #ffe08a;
+}
+
+.legend {
+  display: inline-block;
+  background: #176b49;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-top: 10px;
 }
 
 .form-grid {
@@ -174,10 +187,20 @@ Select two teams and analyze the matchup.
 </table>
 </div>
 
+<p class="legend">
+Green = Statistical Advantage
+</p>
+
+<p class="note">
+Green identifies the stronger value for
+an individual statistic. It does not
+predict which team will win.
+</p>
+
 <p class="note">
 PPA = Predicted Points Added per play.
-Success rate and explosiveness are entered
-as decimals. For example, 45% = 0.45.
+Enter success rates as decimals.
+For example, 45% = 0.45.
 </p>
 
 </div>
@@ -188,36 +211,48 @@ as decimals. For example, 45% = 0.45.
 <h2>Team Statistics Editor</h2>
 
 <p class="note">
-Enter your verified statistics here.
-Your changes will be saved in this browser.
+Enter verified statistics.
+Changes are saved in this browser.
 </p>
 
 <label for="editTeam">Select Team</label>
-<select id="editTeam" onchange="loadTeamEditor()">
-</select>
+
+<select id="editTeam"
+onchange="loadTeamEditor()"></select>
 
 <div class="form-grid">
 
 <div>
-<label for="offPPA">Offensive PPA</label>
-<input id="offPPA" type="number" step="any">
+<label for="offPPA">
+Offensive PPA
+</label>
+<input id="offPPA"
+type="number" step="any">
 </div>
 
 <div>
-<label for="defPPA">Defensive PPA</label>
-<input id="defPPA" type="number" step="any">
+<label for="defPPA">
+Defensive PPA
+</label>
+<input id="defPPA"
+type="number" step="any">
 </div>
 
 <div>
-<label for="successRate">Offensive Success Rate</label>
-<input id="successRate" type="number"
-       min="0" max="1" step="any">
+<label for="successRate">
+Offensive Success Rate
+</label>
+<input id="successRate"
+type="number" min="0" max="1"
+step="any">
 </div>
 
 <div>
-<label for="explosiveness">Offensive Explosiveness</label>
-<input id="explosiveness" type="number"
-       step="any">
+<label for="explosiveness">
+Offensive Explosiveness
+</label>
+<input id="explosiveness"
+type="number" step="any">
 </div>
 
 <div>
@@ -225,7 +260,7 @@ Your changes will be saved in this browser.
 Points per Scoring Opportunity
 </label>
 <input id="pointsPerOpportunity"
-       type="number" step="any">
+type="number" step="any">
 </div>
 
 <div>
@@ -233,28 +268,39 @@ Points per Scoring Opportunity
 Defensive Success Rate Allowed
 </label>
 <input id="defSuccessRate"
-       type="number" min="0" max="1"
-       step="any">
+type="number" min="0" max="1"
+step="any">
+</div>
+
+<div>
+<label for="defExplosiveness">
+Defensive Explosiveness Allowed
+</label>
+<input id="defExplosiveness"
+type="number" step="any">
 </div>
 
 </div>
 
 <label for="source">Data Source</label>
 <input id="source"
-       placeholder="Example: CollegeFootballData">
+placeholder="Example: CollegeFootballData">
 
 <label for="season">Season</label>
 <input id="season" type="number"
-       min="2000" max="2100" value="2026">
+min="2000" max="2100" value="2026">
 
-<label for="verifiedDate">Date Verified</label>
+<label for="verifiedDate">
+Date Verified
+</label>
 <input id="verifiedDate" type="date">
 
 <button onclick="saveTeamStats()">
 Save Team Statistics
 </button>
 
-<button class="secondary" onclick="exportData()">
+<button class="secondary"
+onclick="exportData()">
 Export Data Backup
 </button>
 
@@ -270,7 +316,7 @@ Export Data Backup
 <label for="newTeam">Team Name</label>
 
 <input id="newTeam"
-       placeholder="Example: Alabama">
+placeholder="Example: Alabama">
 
 <button onclick="addTeam()">
 Add Team
@@ -285,9 +331,7 @@ Add Team
 
 <script>
 
-// -----------------------------
 // DATABASE
-// -----------------------------
 
 const STORAGE_KEY = "docsCFBWarRoomData";
 
@@ -317,8 +361,6 @@ function emptyTeam() {
 
 function initializeDatabase() {
 
-  // Import existing teams.js data.
-
   if (
     typeof teams !== "undefined" &&
     teams &&
@@ -327,8 +369,6 @@ function initializeDatabase() {
     warRoomTeams =
       JSON.parse(JSON.stringify(teams));
   }
-
-  // Restore previously saved browser data.
 
   try {
     const saved =
@@ -373,9 +413,7 @@ function persistData() {
 }
 
 
-// -----------------------------
 // TEAM MENUS
-// -----------------------------
 
 function refreshMenus() {
 
@@ -400,6 +438,7 @@ function refreshMenus() {
     menu.innerHTML = "";
 
     names.forEach(name => {
+
       const option =
         document.createElement("option");
 
@@ -407,8 +446,8 @@ function refreshMenus() {
       option.textContent = name;
 
       menu.appendChild(option);
-    });
 
+    });
   });
 
   if (names.includes(oldAway)) {
@@ -427,17 +466,77 @@ function refreshMenus() {
 }
 
 
-// -----------------------------
-// MATCHUP ANALYSIS
-// -----------------------------
+// STATISTICAL COMPARISON
 
 function displayStat(value) {
-
-  return typeof value === "number" &&
-         Number.isFinite(value)
+  return (
+    typeof value === "number" &&
+    Number.isFinite(value)
+  )
     ? value.toFixed(3)
     : "Awaiting data";
 }
+
+/*
+Direction rules:
+
+higher = higher number has advantage
+lower  = lower number has advantage
+none   = no automatic highlighting
+*/
+
+const metrics = [
+
+  {
+    label: "Offensive PPA",
+    category: "offense",
+    key: "ppa",
+    direction: "higher"
+  },
+
+  {
+    label: "Defensive PPA",
+    category: "defense",
+    key: "ppa",
+    direction: "lower"
+  },
+
+  {
+    label: "Offensive Success Rate",
+    category: "offense",
+    key: "successRate",
+    direction: "higher"
+  },
+
+  {
+    label: "Offensive Explosiveness",
+    category: "offense",
+    key: "explosiveness",
+    direction: "none"
+  },
+
+  {
+    label: "Points per Opportunity",
+    category: "offense",
+    key: "pointsPerOpportunity",
+    direction: "higher"
+  },
+
+  {
+    label: "Defensive Success Rate Allowed",
+    category: "defense",
+    key: "successRate",
+    direction: "lower"
+  },
+
+  {
+    label: "Defensive Explosiveness Allowed",
+    category: "defense",
+    key: "explosiveness",
+    direction: "none"
+  }
+
+];
 
 function compareTeams() {
 
@@ -453,11 +552,13 @@ function compareTeams() {
   const statsBody =
     document.getElementById("statsBody");
 
-  // Check teams BEFORE building the table.
+  // Validate selections first.
 
   if (!awayName || !homeName) {
     results.textContent =
       "Please add at least two teams.";
+
+    statsBody.innerHTML = "";
     return;
   }
 
@@ -469,8 +570,17 @@ function compareTeams() {
     return;
   }
 
-  const awayData = warRoomTeams[awayName];
-  const homeData = warRoomTeams[homeName];
+  const awayData =
+    warRoomTeams[awayName];
+
+  const homeData =
+    warRoomTeams[homeName];
+
+  if (!awayData || !homeData) {
+    results.textContent =
+      "Team data could not be found.";
+    return;
+  }
 
   results.innerHTML = "";
 
@@ -482,71 +592,99 @@ function compareTeams() {
 
   results.appendChild(heading);
 
-  const metrics = [
-    ["Offensive PPA",
-      "offense", "ppa"],
-
-    ["Defensive PPA",
-      "defense", "ppa"],
-
-    ["Offensive Success Rate",
-      "offense", "successRate"],
-
-    ["Offensive Explosiveness",
-      "offense", "explosiveness"],
-
-    ["Points per Opportunity",
-      "offense", "pointsPerOpportunity"],
-
-    ["Defensive Success Rate Allowed",
-      "defense", "successRate"],
-
-    ["Defensive Explosiveness Allowed",
-      "defense", "explosiveness"]
-  ];
-
   statsBody.innerHTML = "";
 
-  metrics.forEach(
-    ([label, category, metric]) => {
+  metrics.forEach(metric => {
 
-      const row =
-        document.createElement("tr");
+    const awayValue =
+      awayData?.[metric.category]
+        ?.[metric.key];
 
-      const values = [
-        label,
-        displayStat(
-          awayData?.[category]?.[metric]
-        ),
-        displayStat(
-          homeData?.[category]?.[metric]
-        )
-      ];
+    const homeValue =
+      homeData?.[metric.category]
+        ?.[metric.key];
 
-      values.forEach(value => {
-        const cell =
-          document.createElement("td");
+    const row =
+      document.createElement("tr");
 
-        cell.textContent = value;
+    const labelCell =
+      document.createElement("td");
 
-        row.appendChild(cell);
-      });
+    labelCell.textContent =
+      metric.label;
 
-      statsBody.appendChild(row);
+    const awayCell =
+      document.createElement("td");
 
+    const homeCell =
+      document.createElement("td");
+
+    awayCell.textContent =
+      displayStat(awayValue);
+
+    homeCell.textContent =
+      displayStat(homeValue);
+
+    const valid =
+      typeof awayValue === "number" &&
+      Number.isFinite(awayValue) &&
+      typeof homeValue === "number" &&
+      Number.isFinite(homeValue);
+
+    if (
+      valid &&
+      metric.direction !== "none"
+    ) {
+
+      if (awayValue === homeValue) {
+
+        awayCell.classList.add("tie");
+        homeCell.classList.add("tie");
+
+      } else {
+
+        let awayAdvantage = false;
+
+        if (metric.direction === "higher") {
+          awayAdvantage =
+            awayValue > homeValue;
+        }
+
+        if (metric.direction === "lower") {
+          awayAdvantage =
+            awayValue < homeValue;
+        }
+
+        if (awayAdvantage) {
+          awayCell.classList.add(
+            "advantage"
+          );
+        } else {
+          homeCell.classList.add(
+            "advantage"
+          );
+        }
+      }
     }
-  );
+
+    row.appendChild(labelCell);
+    row.appendChild(awayCell);
+    row.appendChild(homeCell);
+
+    statsBody.appendChild(row);
+
+  });
 }
 
 
-// -----------------------------
 // STATISTICS EDITOR
-// -----------------------------
 
 function loadTeamEditor() {
 
   const name =
-    document.getElementById("editTeam").value;
+    document.getElementById(
+      "editTeam"
+    ).value;
 
   const team = warRoomTeams[name];
 
@@ -563,29 +701,48 @@ function loadTeamEditor() {
   };
 
   const fields = {
-    offPPA: offense.ppa,
-    defPPA: defense.ppa,
-    successRate: offense.successRate,
-    explosiveness: offense.explosiveness,
+
+    offPPA:
+      offense.ppa,
+
+    defPPA:
+      defense.ppa,
+
+    successRate:
+      offense.successRate,
+
+    explosiveness:
+      offense.explosiveness,
+
     pointsPerOpportunity:
       offense.pointsPerOpportunity,
-    defSuccessRate: defense.successRate
+
+    defSuccessRate:
+      defense.successRate,
+
+    defExplosiveness:
+      defense.explosiveness
+
   };
 
   Object.entries(fields).forEach(
     ([id, value]) => {
+
       document.getElementById(id).value =
         typeof value === "number"
           ? value
           : "";
+
     }
   );
 
-  document.getElementById("source").value =
-    info.source || "";
+  document.getElementById(
+    "source"
+  ).value = info.source || "";
 
-  document.getElementById("season").value =
-    info.season || 2026;
+  document.getElementById(
+    "season"
+  ).value = info.season || 2026;
 
   document.getElementById(
     "verifiedDate"
@@ -618,32 +775,55 @@ function readNumber(id) {
 function saveTeamStats() {
 
   const name =
-    document.getElementById("editTeam").value;
+    document.getElementById(
+      "editTeam"
+    ).value;
 
   if (!name) return;
 
   const message =
-    document.getElementById("saveMessage");
+    document.getElementById(
+      "saveMessage"
+    );
 
   let values;
 
   try {
 
     values = {
-      offPPA: readNumber("offPPA"),
-      defPPA: readNumber("defPPA"),
+
+      offPPA:
+        readNumber("offPPA"),
+
+      defPPA:
+        readNumber("defPPA"),
+
       successRate:
         readNumber("successRate"),
+
       explosiveness:
         readNumber("explosiveness"),
+
       pointsPerOpportunity:
-        readNumber("pointsPerOpportunity"),
+        readNumber(
+          "pointsPerOpportunity"
+        ),
+
       defSuccessRate:
-        readNumber("defSuccessRate")
+        readNumber(
+          "defSuccessRate"
+        ),
+
+      defExplosiveness:
+        readNumber(
+          "defExplosiveness"
+        )
+
     };
 
   } catch (error) {
-    message.textContent = error.message;
+    message.textContent =
+      error.message;
     return;
   }
 
@@ -653,6 +833,7 @@ function saveTeamStats() {
       "defSuccessRate"
     ]
   ) {
+
     const value = values[key];
 
     if (
@@ -669,12 +850,15 @@ function saveTeamStats() {
     warRoomTeams[name] || emptyTeam();
 
   const source =
-    document.getElementById("source")
-      .value.trim();
+    document.getElementById(
+      "source"
+    ).value.trim();
 
   const season =
     Number(
-      document.getElementById("season").value
+      document.getElementById(
+        "season"
+      ).value
     );
 
   const date =
@@ -697,29 +881,52 @@ function saveTeamStats() {
     ...original,
 
     offense: {
+
       ...original.offense,
-      ppa: values.offPPA,
-      successRate: values.successRate,
+
+      ppa:
+        values.offPPA,
+
+      successRate:
+        values.successRate,
+
       explosiveness:
         values.explosiveness,
+
       pointsPerOpportunity:
         values.pointsPerOpportunity
+
     },
 
     defense: {
+
       ...original.defense,
-      ppa: values.defPPA,
+
+      ppa:
+        values.defPPA,
+
       successRate:
-        values.defSuccessRate
+        values.defSuccessRate,
+
+      explosiveness:
+        values.defExplosiveness
+
     },
 
     dataInfo: {
+
       season: season,
+
       source: source,
-      lastUpdated: date || null,
+
+      lastUpdated:
+        date || null,
+
       verified:
         Boolean(source && date)
+
     }
+
   };
 
   if (persistData()) {
@@ -734,17 +941,19 @@ function saveTeamStats() {
 }
 
 
-// -----------------------------
 // ADD NEW TEAMS
-// -----------------------------
 
 function addTeam() {
 
   const input =
-    document.getElementById("newTeam");
+    document.getElementById(
+      "newTeam"
+    );
 
   const message =
-    document.getElementById("addMessage");
+    document.getElementById(
+      "addMessage"
+    );
 
   const name = input.value.trim();
 
@@ -787,9 +996,7 @@ function addTeam() {
 }
 
 
-// -----------------------------
 // EXPORT BACKUP
-// -----------------------------
 
 function exportData() {
 
@@ -802,7 +1009,9 @@ function exportData() {
 
   const blob = new Blob(
     [content],
-    { type: "application/json" }
+    {
+      type: "application/json"
+    }
   );
 
   const url =
@@ -812,18 +1021,24 @@ function exportData() {
     document.createElement("a");
 
   link.href = url;
+
   link.download =
     "docs-cfb-war-room-backup.json";
 
+  document.body.appendChild(link);
+
   link.click();
 
-  URL.revokeObjectURL(url);
+  link.remove();
+
+  setTimeout(
+    () => URL.revokeObjectURL(url),
+    1000
+  );
 }
 
 
-// -----------------------------
-// START APPLICATION
-// -----------------------------
+// START WAR ROOM
 
 initializeDatabase();
 
