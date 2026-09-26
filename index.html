@@ -486,66 +486,56 @@ lower  = lower number has advantage
 none   = no automatic highlighting
 */
 
+
 const metrics = [
-
- 
   {
-    label: "Defensive Explosiveness Allowed",
-    category: "defense",
-    key: "explosiveness",
-    direction: "none"
+    label: "Offensive PPA",
+    category: "offense",
+    key: "ppa",
+    direction: "higher"
   },
-
-  {
-    label: "Strength of Schedule (Rank)",
-    category: "sos",
-    key: "rank",
-    direction: "lower"
-  }
-
-
   {
     label: "Defensive PPA",
     category: "defense",
     key: "ppa",
     direction: "lower"
   },
-
   {
     label: "Offensive Success Rate",
     category: "offense",
     key: "successRate",
     direction: "higher"
   },
-
   {
     label: "Offensive Explosiveness",
     category: "offense",
     key: "explosiveness",
     direction: "none"
   },
-
   {
     label: "Points per Opportunity",
     category: "offense",
     key: "pointsPerOpportunity",
     direction: "higher"
   },
-
   {
     label: "Defensive Success Rate Allowed",
     category: "defense",
     key: "successRate",
     direction: "lower"
   },
-
   {
     label: "Defensive Explosiveness Allowed",
     category: "defense",
     key: "explosiveness",
     direction: "none"
+  },
+  {
+    label: "Strength of Schedule (Rank)",
+    category: "sos",
+    key: "rank",
+    direction: "lower"
   }
-
 ];
 
 function compareTeams() {
