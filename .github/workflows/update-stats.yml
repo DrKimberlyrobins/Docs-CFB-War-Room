@@ -47,15 +47,52 @@ jobs:
           python3 -m json.tool \
             data/fpi-2026.json > /dev/null
 
+      - name: Download betting lines
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: |
+          # Odds are optional. A failed odds request
+          # must not interrupt the statistics update.
+
+          if curl --fail --silent --show-error \
+            --retry 3 \
+            -H "Authorization: Bearer $CFBD_API_KEY" \
+            -H "Accept: application/json" \
+            "https://api.collegefootballdata.com/lines?year=2026" \
+            -o /tmp/cfbd-lines.json; then
+
+            if python3 -c '
+          import json
+          with open("/tmp/cfbd-lines.json") as f:
+              records = json.load(f)
+          if not isinstance(records, list):
+              raise ValueError("Expected an array")
+          print("Downloaded", len(records), "games")
+          '; then
+              cp /tmp/cfbd-lines.json data/lines-2026.json
+            else
+              echo "::warning::Invalid odds data. Keeping existing file."
+            fi
+
+          else
+            echo "::warning::Odds download failed. Statistics are unaffected."
+          fi
+
       - name: Save updated statistics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email \
             "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/advanced-2026.json data/fpi-2026.json
+          git add \
+            data/advanced-2026.json \
+            data/fpi-2026.json
+
+          if [ -f data/lines-2026.json ]; then
+            git add data/lines-2026.json
+          fi
 
           if ! git diff --cached --quiet; then
-            git commit -m "Update college football statistics"
+            git commit -m "Update football statistics and odds"
             git push
           fi
