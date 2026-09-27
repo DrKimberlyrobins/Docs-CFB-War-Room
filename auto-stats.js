@@ -195,15 +195,17 @@ async function loadSOS() {
         return;
       }
 
-      const rank =
-        validStatNumber(
-          record.strengthOfSchedule
-        );
+      
+const rank =
+  validStatNumber(
+    record.resumeRanks?.strengthOfSchedule
+  );
 
-      const remainingRank =
-        validStatNumber(
-          record.remainingStrengthOfSchedule
-        );
+const remainingRank =
+  validStatNumber(
+    record.resumeRanks?.remainingStrengthOfSchedule
+  );
+
 
       // Do not create a ranking when data is missing.
       if (rank === null) {
