@@ -1,98 +1,1972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-name: Update College Football Statistics
+<title>Doc's CFB War Room</title>
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 12 * * *"
+<style>
+* {
+  box-sizing: border-box;
+}
 
-permissions:
-  contents: write
+body {
+  background: #101b2b;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
 
-jobs:
-  update-stats:
-    runs-on: ubuntu-latest
+h1 {
+  text-align: center;
+  color: #50e3a4;
+}
 
-    steps:
-      - name: Get repository files
-        uses: actions/checkout@v4
+.subtitle {
+  text-align: center;
+  color: #aab8ca;
+}
 
-      - name: Download college football statistics
-        env:
-          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
-        run: |
-          mkdir -p data
+.panel {
+  background: #1c3048;
+  border-radius: 12px;
+  padding: 22px;
+  margin: 20px auto;
+  max-width: 950px;
+}
 
-          curl --fail --silent --show-error \
-            --retry 3 \
-            -H "Authorization: Bearer $CFBD_API_KEY" \
-            -H "Accept: application/json" \
-            "https://api.collegefootballdata.com/stats/season/advanced?year=2026" \
-            -o data/advanced-2026.json
+h2 {
+  color: #50e3a4;
+}
 
-          python3 -m json.tool \
-            data/advanced-2026.json > /dev/null
+label {
+  display: block;
+  margin-top: 12px;
+}
 
-      - name: Download strength of schedule data
-        env:
-          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
-        run: |
-          curl --fail --silent --show-error \
-            --retry 3 \
-            -H "Authorization: Bearer $CFBD_API_KEY" \
-            -H "Accept: application/json" \
-            "https://api.collegefootballdata.com/ratings/fpi?year=2026" \
-            -o data/fpi-2026.json
+select,
+input {
+  background: white;
+  color: #101b2b;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  margin: 8px 0;
+  width: 100%;
+}
 
-          python3 -m json.tool \
-            data/fpi-2026.json > /dev/null
+button {
+  background: #50e3a4;
+  color: #101b2b;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 8px 8px 8px 0;
+}
 
-      - name: Download betting lines
-        env:
-          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
-        run: |
-          # Odds are optional. A failed odds request
-          # must not interrupt the statistics update.
+button:hover {
+  background: #8bf5c6;
+}
 
-          if curl --fail --silent --show-error \
-            --retry 3 \
-            -H "Authorization: Bearer $CFBD_API_KEY" \
-            -H "Accept: application/json" \
-            "https://api.collegefootballdata.com/lines?year=2026" \
-            -o /tmp/cfbd-lines.json; then
+.secondary {
+  background: #dbe7f5;
+}
 
-            if python3 -c '
-          import json
-          with open("/tmp/cfbd-lines.json") as f:
-              records = json.load(f)
-          if not isinstance(records, list):
-              raise ValueError("Expected an array")
-          print("Downloaded", len(records), "games")
-          '; then
-              cp /tmp/cfbd-lines.json data/lines-2026.json
-            else
-              echo "::warning::Invalid odds data. Keeping existing file."
-            fi
+.note {
+  color: #b7c6d9;
+  font-size: 14px;
+  line-height: 1.6;
+}
 
-          else
-            echo "::warning::Odds download failed. Statistics are unaffected."
-          fi
+.table-wrap {
+  overflow-x: auto;
+}
 
-      - name: Save updated statistics
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email \
-            "41898282+github-actions[bot]@users.noreply.github.com"
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
 
-          git add \
-            data/advanced-2026.json \
-            data/fpi-2026.json
+th,
+td {
+  border: 1px solid #45617e;
+  padding: 12px;
+  text-align: left;
+}
 
-          if [ -f data/lines-2026.json ]; then
-            git add data/lines-2026.json
-          fi
+th {
+  background: #284664;
+}
 
-          if ! git diff --cached --quiet; then
-            git commit -m "Update football statistics and odds"
-            git push
-          fi
+tr:nth-child(even) {
+  background: #243b55;
+}
+
+/* Statistical advantage */
+
+.advantage {
+  background: #176b49 !important;
+  color: white;
+  font-weight: bold;
+}
+
+.tie {
+  color: #ffe08a;
+}
+
+.legend {
+  display: inline-block;
+  background: #176b49;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+/* =========================================================
+   SCHEDULE CONTEXT
+   ========================================================= */
+
+.schedule-context {
+  margin-top: 24px;
+  border: 1px solid #45617e;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #15283d;
+}
+
+.schedule-context-title {
+  background: #284664;
+  color: #50e3a4;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 16px;
+}
+
+.schedule-context-body {
+  padding: 16px;
+}
+
+.context-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.context-card {
+  background: #1c3048;
+  border: 1px solid #45617e;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.context-label {
+  color: #aab8ca;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 7px;
+}
+
+.context-value {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.context-value.good {
+  color: #50e3a4;
+}
+
+.context-value.caution {
+  color: #ffe08a;
+}
+
+.context-value.strong-caution {
+  color: #ff9f7a;
+}
+
+.context-note {
+  margin-top: 14px;
+  background: #101b2b;
+  border-left: 4px solid #ffe08a;
+  border-radius: 6px;
+  padding: 14px;
+  color: #dbe7f5;
+  line-height: 1.6;
+}
+
+.context-explanation {
+  margin-top: 10px;
+  color: #aab8ca;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .form-grid,
+  .context-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<h1>DOC'S CFB WAR ROOM</h1>
+
+<p class="subtitle">
+College Football Research & Matchup Analysis
+</p>
+
+
+<!-- ======================================================
+     TEAM COMPARISON
+     ====================================================== -->
+
+<div class="panel">
+
+<h2>Team Comparison</h2>
+
+<label for="away">Away Team</label>
+<select id="away"></select>
+
+<label for="home">Home Team</label>
+<select id="home"></select>
+
+<button onclick="compareTeams()">
+Analyze Matchup
+</button>
+
+<div id="results"></div>
+
+
+<!-- SPORTSBOOK PANEL -->
+
+<div id="oddsPanel" style="display:none">
+  <h2>Sportsbook Lines & Movement</h2>
+  <p id="oddsStatus"></p>
+  <div id="oddsTables"></div>
+</div>
+
+
+<!-- STATISTICAL COMPARISON -->
+
+<h2>Statistical Comparison</h2>
+
+<div class="table-wrap">
+
+<table>
+
+<thead>
+<tr>
+  <th>Metric</th>
+  <th>Away Team</th>
+  <th>Home Team</th>
+</tr>
+</thead>
+
+<tbody id="statsBody">
+
+<tr>
+<td colspan="3">
+Select two teams and analyze the matchup.
+</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<p class="legend">
+Green = Statistical Advantage
+</p>
+
+<p class="note">
+Green identifies the stronger value for an individual statistic.
+It does not predict which team will win.
+</p>
+
+<p class="note">
+PPA = Predicted Points Added per play.
+Enter success rates as decimals.
+For example, 45% = 0.45.
+</p>
+
+
+<!-- NEW SCHEDULE CONTEXT -->
+
+<div id="scheduleContext" class="schedule-context" style="display:none">
+
+  <div class="schedule-context-title">
+    Schedule Context
+  </div>
+
+  <div class="schedule-context-body">
+
+    <div class="context-grid">
+
+      <div class="context-card">
+        <div class="context-label">
+          Raw Statistical Advantage
+        </div>
+
+        <div
+          id="rawAdvantage"
+          class="context-value">
+          —
+        </div>
+      </div>
+
+
+      <div class="context-card">
+        <div class="context-label">
+          Stronger Schedule
+        </div>
+
+        <div
+          id="scheduleAdvantage"
+          class="context-value">
+          —
+        </div>
+      </div>
+
+
+      <div class="context-card">
+        <div class="context-label">
+          SOS Rank Gap
+        </div>
+
+        <div
+          id="sosGap"
+          class="context-value">
+          —
+        </div>
+      </div>
+
+
+      <div class="context-card">
+        <div class="context-label">
+          Confidence in Raw Comparison
+        </div>
+
+        <div
+          id="rawConfidence"
+          class="context-value">
+          —
+        </div>
+      </div>
+
+    </div>
+
+
+    <div
+      id="scheduleNote"
+      class="context-note">
+    </div>
+
+
+    <div class="context-explanation">
+      Schedule Context does not change the underlying statistics.
+      It identifies when raw statistical advantages should be
+      interpreted cautiously because the teams have faced
+      substantially different levels of competition.
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+
+<!-- ======================================================
+     TEAM STATISTICS EDITOR
+     ====================================================== -->
+
+<div class="panel">
+
+<h2>Team Statistics Editor</h2>
+
+<p class="note">
+Enter verified statistics.
+Changes are saved in this browser.
+</p>
+
+<label for="editTeam">Select Team</label>
+
+<select
+  id="editTeam"
+  onchange="loadTeamEditor()">
+</select>
+
+<div class="form-grid">
+
+<div>
+<label for="offPPA">
+Offensive PPA
+</label>
+
+<input
+  id="offPPA"
+  type="number"
+  step="any">
+</div>
+
+
+<div>
+<label for="defPPA">
+Defensive PPA
+</label>
+
+<input
+  id="defPPA"
+  type="number"
+  step="any">
+</div>
+
+
+<div>
+<label for="successRate">
+Offensive Success Rate
+</label>
+
+<input
+  id="successRate"
+  type="number"
+  min="0"
+  max="1"
+  step="any">
+</div>
+
+
+<div>
+<label for="explosiveness">
+Offensive Explosiveness
+</label>
+
+<input
+  id="explosiveness"
+  type="number"
+  step="any">
+</div>
+
+
+<div>
+<label for="pointsPerOpportunity">
+Points per Scoring Opportunity
+</label>
+
+<input
+  id="pointsPerOpportunity"
+  type="number"
+  step="any">
+</div>
+
+
+<div>
+<label for="defSuccessRate">
+Defensive Success Rate Allowed
+</label>
+
+<input
+  id="defSuccessRate"
+  type="number"
+  min="0"
+  max="1"
+  step="any">
+</div>
+
+
+<div>
+<label for="defExplosiveness">
+Defensive Explosiveness Allowed
+</label>
+
+<input
+  id="defExplosiveness"
+  type="number"
+  step="any">
+</div>
+
+</div>
+
+
+<label for="source">
+Data Source
+</label>
+
+<input
+  id="source"
+  placeholder="Example: CollegeFootballData">
+
+
+<label for="season">
+Season
+</label>
+
+<input
+  id="season"
+  type="number"
+  min="2000"
+  max="2100"
+  value="2026">
+
+
+<label for="verifiedDate">
+Date Verified
+</label>
+
+<input
+  id="verifiedDate"
+  type="date">
+
+
+<button onclick="saveTeamStats()">
+Save Team Statistics
+</button>
+
+<button
+  class="secondary"
+  onclick="exportData()">
+Export Data Backup
+</button>
+
+<p
+  id="saveMessage"
+  class="note">
+</p>
+
+</div>
+
+
+<!-- ======================================================
+     ADD TEAM
+     ====================================================== -->
+
+<div class="panel">
+
+<h2>Add a New Team</h2>
+
+<label for="newTeam">
+Team Name
+</label>
+
+<input
+  id="newTeam"
+  placeholder="Example: Alabama">
+
+<button onclick="addTeam()">
+Add Team
+</button>
+
+<p
+  id="addMessage"
+  class="note">
+</p>
+
+</div>
+
+
+<!-- ======================================================
+     DATA FILES
+     ====================================================== -->
+
+<script src="teams.js"></script>
+<script src="auto-stats.js"></script>
+
+<script>
+
+/* =========================================================
+   DATABASE
+   ========================================================= */
+
+const STORAGE_KEY =
+  "docsCFBWarRoomData";
+
+let warRoomTeams = {};
+
+
+function emptyTeam() {
+
+  return {
+
+    offense: {
+      ppa: null,
+      successRate: null,
+      explosiveness: null,
+      pointsPerOpportunity: null
+    },
+
+    defense: {
+      ppa: null,
+      successRate: null,
+      explosiveness: null
+    },
+
+    dataInfo: {
+      season: 2026,
+      source: "",
+      lastUpdated: null,
+      verified: false
+    }
+
+  };
+}
+
+
+function initializeDatabase() {
+
+  if (
+    typeof teams !== "undefined" &&
+    teams &&
+    typeof teams === "object"
+  ) {
+
+    warRoomTeams =
+      JSON.parse(
+        JSON.stringify(teams)
+      );
+
+  }
+
+  try {
+
+    const saved =
+      localStorage.getItem(
+        STORAGE_KEY
+      );
+
+    if (saved) {
+
+      const parsed =
+        JSON.parse(saved);
+
+      if (
+        parsed &&
+        typeof parsed === "object" &&
+        !Array.isArray(parsed)
+      ) {
+
+        warRoomTeams = {
+          ...warRoomTeams,
+          ...parsed
+        };
+
+      }
+    }
+
+  } catch (error) {
+
+    console.warn(
+      "Saved browser data unavailable.",
+      error
+    );
+
+  }
+
+  refreshMenus();
+  loadTeamEditor();
+}
+
+
+function persistData() {
+
+  try {
+
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify(warRoomTeams)
+    );
+
+    return true;
+
+  } catch (error) {
+
+    console.error(error);
+    return false;
+
+  }
+}
+
+
+/* =========================================================
+   TEAM MENUS
+   ========================================================= */
+
+function refreshMenus() {
+
+  const names =
+    Object.keys(warRoomTeams).sort();
+
+  const away =
+    document.getElementById("away");
+
+  const home =
+    document.getElementById("home");
+
+  const editor =
+    document.getElementById("editTeam");
+
+  const oldAway = away.value;
+  const oldHome = home.value;
+  const oldEditor = editor.value;
+
+  [away, home, editor].forEach(menu => {
+
+    menu.innerHTML = "";
+
+    names.forEach(name => {
+
+      const option =
+        document.createElement(
+          "option"
+        );
+
+      option.value = name;
+      option.textContent = name;
+
+      menu.appendChild(option);
+
+    });
+
+  });
+
+
+  if (names.includes(oldAway)) {
+    away.value = oldAway;
+  }
+
+
+  if (names.includes(oldHome)) {
+
+    home.value = oldHome;
+
+  } else if (names.length > 1) {
+
+    home.value = names[1];
+
+  }
+
+
+  if (names.includes(oldEditor)) {
+    editor.value = oldEditor;
+  }
+
+}
+
+
+/* =========================================================
+   STATISTICAL COMPARISON
+   ========================================================= */
+
+function displayStat(value) {
+
+  return (
+    typeof value === "number" &&
+    Number.isFinite(value)
+  )
+    ? value.toFixed(3)
+    : "Awaiting data";
+
+}
+
+
+/*
+Direction rules:
+
+higher = higher number has advantage
+lower  = lower number has advantage
+none   = no automatic highlighting
+*/
+
+const metrics = [
+
+  {
+    label: "Offensive PPA",
+    category: "offense",
+    key: "ppa",
+    direction: "higher"
+  },
+
+  {
+    label: "Defensive PPA",
+    category: "defense",
+    key: "ppa",
+    direction: "lower"
+  },
+
+  {
+    label: "Offensive Success Rate",
+    category: "offense",
+    key: "successRate",
+    direction: "higher"
+  },
+
+  {
+    label: "Offensive Explosiveness",
+    category: "offense",
+    key: "explosiveness",
+    direction: "none"
+  },
+
+  {
+    label: "Points per Opportunity",
+    category: "offense",
+    key: "pointsPerOpportunity",
+    direction: "higher"
+  },
+
+  {
+    label: "Defensive Success Rate Allowed",
+    category: "defense",
+    key: "successRate",
+    direction: "lower"
+  },
+
+  {
+    label: "Defensive Explosiveness Allowed",
+    category: "defense",
+    key: "explosiveness",
+    direction: "none"
+  },
+
+  {
+    label: "Strength of Schedule (Rank)",
+    category: "sos",
+    key: "rank",
+    direction: "lower"
+  }
+
+];
+
+
+/* =========================================================
+   SCHEDULE CONTEXT ENGINE
+   ========================================================= */
+
+function calculateScheduleContext(
+  awayName,
+  homeName,
+  awayData,
+  homeData
+) {
+
+  const panel =
+    document.getElementById(
+      "scheduleContext"
+    );
+
+  const rawElement =
+    document.getElementById(
+      "rawAdvantage"
+    );
+
+  const scheduleElement =
+    document.getElementById(
+      "scheduleAdvantage"
+    );
+
+  const gapElement =
+    document.getElementById(
+      "sosGap"
+    );
+
+  const confidenceElement =
+    document.getElementById(
+      "rawConfidence"
+    );
+
+  const noteElement =
+    document.getElementById(
+      "scheduleNote"
+    );
+
+
+  /*
+  Count only metrics where the comparison
+  direction is known.
+
+  SOS itself is excluded from the raw-stat
+  advantage count because it is being used
+  separately as context.
+  */
+
+  let awayWins = 0;
+  let homeWins = 0;
+  let comparableStats = 0;
+
+
+  metrics.forEach(metric => {
+
+    if (
+      metric.direction === "none" ||
+      metric.category === "sos"
+    ) {
+      return;
+    }
+
+
+    const awayValue =
+      awayData?.[metric.category]
+        ?.[metric.key];
+
+    const homeValue =
+      homeData?.[metric.category]
+        ?.[metric.key];
+
+
+    const valid =
+      typeof awayValue === "number" &&
+      Number.isFinite(awayValue) &&
+      typeof homeValue === "number" &&
+      Number.isFinite(homeValue);
+
+
+    if (!valid) {
+      return;
+    }
+
+
+    comparableStats++;
+
+
+    if (awayValue === homeValue) {
+      return;
+    }
+
+
+    if (metric.direction === "higher") {
+
+      if (awayValue > homeValue) {
+        awayWins++;
+      } else {
+        homeWins++;
+      }
+
+    }
+
+
+    if (metric.direction === "lower") {
+
+      if (awayValue < homeValue) {
+        awayWins++;
+      } else {
+        homeWins++;
+      }
+
+    }
+
+  });
+
+
+  /*
+  Determine raw statistical advantage.
+  */
+
+  let rawWinner = "Even";
+
+  if (awayWins > homeWins) {
+    rawWinner = awayName;
+  }
+
+  if (homeWins > awayWins) {
+    rawWinner = homeName;
+  }
+
+
+  rawElement.textContent =
+    rawWinner === "Even"
+      ? "Even"
+      : rawWinner +
+        " (" +
+        Math.max(
+          awayWins,
+          homeWins
+        ) +
+        "–" +
+        Math.min(
+          awayWins,
+          homeWins
+        ) +
+        ")";
+
+
+  /*
+  SOS ranks:
+  LOWER rank = stronger schedule.
+  */
+
+  const awaySOS =
+    awayData?.sos?.rank;
+
+  const homeSOS =
+    homeData?.sos?.rank;
+
+
+  const validSOS =
+    typeof awaySOS === "number" &&
+    Number.isFinite(awaySOS) &&
+    typeof homeSOS === "number" &&
+    Number.isFinite(homeSOS);
+
+
+  if (!validSOS) {
+
+    panel.style.display = "block";
+
+    scheduleElement.textContent =
+      "SOS unavailable";
+
+    gapElement.textContent =
+      "—";
+
+    confidenceElement.textContent =
+      "Cannot evaluate";
+
+    confidenceElement.className =
+      "context-value caution";
+
+    noteElement.textContent =
+      "Strength-of-schedule data is unavailable for one or both teams. Raw statistics are shown without schedule context.";
+
+    return;
+  }
+
+
+  const sosGap =
+    Math.abs(
+      awaySOS - homeSOS
+    );
+
+
+  let scheduleWinner = "Even";
+
+  if (awaySOS < homeSOS) {
+    scheduleWinner = awayName;
+  }
+
+  if (homeSOS < awaySOS) {
+    scheduleWinner = homeName;
+  }
+
+
+  scheduleElement.textContent =
+    scheduleWinner === "Even"
+      ? "Even"
+      : scheduleWinner +
+        " (#" +
+        Math.min(
+          awaySOS,
+          homeSOS
+        ) +
+        ")";
+
+
+  gapElement.textContent =
+    sosGap.toFixed(0) +
+    " ranking positions";
+
+
+  /*
+  Confidence categories.
+
+  These are context flags — NOT score
+  adjustments and NOT predictions.
+
+  0–14  = similar schedules
+  15–29 = moderate difference
+  30+   = major difference
+  */
+
+  let confidence =
+    "Normal";
+
+  let confidenceClass =
+    "context-value good";
+
+
+  if (sosGap >= 15) {
+
+    confidence =
+      "Caution";
+
+    confidenceClass =
+      "context-value caution";
+
+  }
+
+
+  if (sosGap >= 30) {
+
+    confidence =
+      "Strong Caution";
+
+    confidenceClass =
+      "context-value strong-caution";
+
+  }
+
+
+  /*
+  If raw-stat leader also played the
+  stronger schedule, confidence improves.
+
+  If the raw-stat leader played the weaker
+  schedule, the warning remains.
+  */
+
+  if (
+    rawWinner !== "Even" &&
+    rawWinner === scheduleWinner
+  ) {
+
+    if (sosGap >= 30) {
+
+      confidence =
+        "Supported by Schedule";
+
+      confidenceClass =
+        "context-value good";
+
+    } else if (sosGap >= 15) {
+
+      confidence =
+        "Good";
+
+      confidenceClass =
+        "context-value good";
+
+    }
+
+  }
+
+
+  confidenceElement.textContent =
+    confidence;
+
+  confidenceElement.className =
+    confidenceClass;
+
+
+  /*
+  Build explanatory War Room note.
+  */
+
+  let note = "";
+
+
+  if (rawWinner === "Even") {
+
+    if (sosGap < 15) {
+
+      note =
+        "The teams are close in the comparable raw statistics and their schedule strength is also relatively similar.";
+
+    } else {
+
+      note =
+        "The comparable raw statistics are close, but " +
+        scheduleWinner +
+        " has faced the stronger schedule. Schedule context may therefore be important when interpreting the matchup.";
+
+    }
+
+  } else if (
+    rawWinner === scheduleWinner
+  ) {
+
+    note =
+      rawWinner +
+      " holds the raw statistical advantage and has also faced the stronger schedule. The schedule context supports rather than weakens the raw comparison.";
+
+  } else {
+
+    if (sosGap >= 30) {
+
+      note =
+        rawWinner +
+        " holds the raw statistical advantage, but " +
+        scheduleWinner +
+        " has faced the substantially stronger schedule. Treat the raw advantage with strong caution until opponent-adjusted performance is incorporated.";
+
+    } else if (sosGap >= 15) {
+
+      note =
+        rawWinner +
+        " holds the raw statistical advantage, but " +
+        scheduleWinner +
+        " has faced the stronger schedule. The raw comparison should be interpreted cautiously.";
+
+    } else {
+
+      note =
+        rawWinner +
+        " holds the raw statistical advantage. " +
+        scheduleWinner +
+        " has the stronger schedule, but the SOS gap is relatively small.";
+
+    }
+
+  }
+
+
+  noteElement.textContent = note;
+
+  panel.style.display = "block";
+
+}
+
+
+/* =========================================================
+   MAIN MATCHUP ANALYSIS
+   ========================================================= */
+
+function compareTeams() {
+
+  const awayName =
+    document.getElementById(
+      "away"
+    ).value;
+
+  const homeName =
+    document.getElementById(
+      "home"
+    ).value;
+
+  const results =
+    document.getElementById(
+      "results"
+    );
+
+  const statsBody =
+    document.getElementById(
+      "statsBody"
+    );
+
+  const scheduleContext =
+    document.getElementById(
+      "scheduleContext"
+    );
+
+
+  scheduleContext.style.display =
+    "none";
+
+
+  if (!awayName || !homeName) {
+
+    results.textContent =
+      "Please add at least two teams.";
+
+    statsBody.innerHTML = "";
+
+    return;
+  }
+
+
+  if (awayName === homeName) {
+
+    results.textContent =
+      "Please select two different teams.";
+
+    statsBody.innerHTML = "";
+
+    return;
+  }
+
+
+  const awayData =
+    warRoomTeams[awayName];
+
+  const homeData =
+    warRoomTeams[homeName];
+
+
+  if (!awayData || !homeData) {
+
+    results.textContent =
+      "Team data could not be found.";
+
+    return;
+  }
+
+
+  results.innerHTML = "";
+
+
+  const heading =
+    document.createElement("h3");
+
+  heading.textContent =
+    awayName +
+    " vs " +
+    homeName;
+
+  results.appendChild(heading);
+
+
+  statsBody.innerHTML = "";
+
+
+  metrics.forEach(metric => {
+
+    const awayValue =
+      awayData?.[metric.category]
+        ?.[metric.key];
+
+    const homeValue =
+      homeData?.[metric.category]
+        ?.[metric.key];
+
+
+    const row =
+      document.createElement("tr");
+
+    const labelCell =
+      document.createElement("td");
+
+    labelCell.textContent =
+      metric.label;
+
+
+    const awayCell =
+      document.createElement("td");
+
+    const homeCell =
+      document.createElement("td");
+
+
+    awayCell.textContent =
+      displayStat(awayValue);
+
+    homeCell.textContent =
+      displayStat(homeValue);
+
+
+    const valid =
+      typeof awayValue === "number" &&
+      Number.isFinite(awayValue) &&
+      typeof homeValue === "number" &&
+      Number.isFinite(homeValue);
+
+
+    if (
+      valid &&
+      metric.direction !== "none"
+    ) {
+
+      if (awayValue === homeValue) {
+
+        awayCell.classList.add(
+          "tie"
+        );
+
+        homeCell.classList.add(
+          "tie"
+        );
+
+      } else {
+
+        let awayAdvantage = false;
+
+
+        if (
+          metric.direction ===
+          "higher"
+        ) {
+
+          awayAdvantage =
+            awayValue >
+            homeValue;
+
+        }
+
+
+        if (
+          metric.direction ===
+          "lower"
+        ) {
+
+          awayAdvantage =
+            awayValue <
+            homeValue;
+
+        }
+
+
+        if (awayAdvantage) {
+
+          awayCell.classList.add(
+            "advantage"
+          );
+
+        } else {
+
+          homeCell.classList.add(
+            "advantage"
+          );
+
+        }
+
+      }
+
+    }
+
+
+    row.appendChild(
+      labelCell
+    );
+
+    row.appendChild(
+      awayCell
+    );
+
+    row.appendChild(
+      homeCell
+    );
+
+    statsBody.appendChild(row);
+
+  });
+
+
+  /*
+  Run schedule-context analysis AFTER
+  the normal comparison table is built.
+  */
+
+  calculateScheduleContext(
+    awayName,
+    homeName,
+    awayData,
+    homeData
+  );
+
+}
+
+
+/* =========================================================
+   STATISTICS EDITOR
+   ========================================================= */
+
+function loadTeamEditor() {
+
+  const name =
+    document.getElementById(
+      "editTeam"
+    ).value;
+
+  const team =
+    warRoomTeams[name];
+
+  if (!team) {
+    return;
+  }
+
+
+  const offense =
+    team.offense || {};
+
+  const defense =
+    team.defense || {};
+
+
+  const info = {
+
+    ...emptyTeam().dataInfo,
+
+    ...(typeof dataInfo !==
+      "undefined"
+      ? dataInfo
+      : {}),
+
+    ...(team.dataInfo || {})
+
+  };
+
+
+  const fields = {
+
+    offPPA:
+      offense.ppa,
+
+    defPPA:
+      defense.ppa,
+
+    successRate:
+      offense.successRate,
+
+    explosiveness:
+      offense.explosiveness,
+
+    pointsPerOpportunity:
+      offense.pointsPerOpportunity,
+
+    defSuccessRate:
+      defense.successRate,
+
+    defExplosiveness:
+      defense.explosiveness
+
+  };
+
+
+  Object.entries(fields).forEach(
+    ([id, value]) => {
+
+      document.getElementById(
+        id
+      ).value =
+        typeof value === "number"
+          ? value
+          : "";
+
+    }
+  );
+
+
+  document.getElementById(
+    "source"
+  ).value =
+    info.source || "";
+
+
+  document.getElementById(
+    "season"
+  ).value =
+    info.season || 2026;
+
+
+  document.getElementById(
+    "verifiedDate"
+  ).value =
+    info.lastUpdated || "";
+
+
+  document.getElementById(
+    "saveMessage"
+  ).textContent = "";
+
+}
+
+
+function readNumber(id) {
+
+  const raw =
+    document.getElementById(id)
+      .value.trim();
+
+
+  if (raw === "") {
+    return null;
+  }
+
+
+  const value =
+    Number(raw);
+
+
+  if (!Number.isFinite(value)) {
+
+    throw new Error(
+      "Invalid number in " +
+      id
+    );
+
+  }
+
+
+  return value;
+}
+
+
+function saveTeamStats() {
+
+  const name =
+    document.getElementById(
+      "editTeam"
+    ).value;
+
+
+  if (!name) {
+    return;
+  }
+
+
+  const message =
+    document.getElementById(
+      "saveMessage"
+    );
+
+
+  let values;
+
+
+  try {
+
+    values = {
+
+      offPPA:
+        readNumber(
+          "offPPA"
+        ),
+
+      defPPA:
+        readNumber(
+          "defPPA"
+        ),
+
+      successRate:
+        readNumber(
+          "successRate"
+        ),
+
+      explosiveness:
+        readNumber(
+          "explosiveness"
+        ),
+
+      pointsPerOpportunity:
+        readNumber(
+          "pointsPerOpportunity"
+        ),
+
+      defSuccessRate:
+        readNumber(
+          "defSuccessRate"
+        ),
+
+      defExplosiveness:
+        readNumber(
+          "defExplosiveness"
+        )
+
+    };
+
+  } catch (error) {
+
+    message.textContent =
+      error.message;
+
+    return;
+
+  }
+
+
+  for (
+    const key of [
+      "successRate",
+      "defSuccessRate"
+    ]
+  ) {
+
+    const value =
+      values[key];
+
+
+    if (
+      value !== null &&
+      (
+        value < 0 ||
+        value > 1
+      )
+    ) {
+
+      message.textContent =
+        "Success rates must be between 0 and 1.";
+
+      return;
+
+    }
+
+  }
+
+
+  const original =
+    warRoomTeams[name] ||
+    emptyTeam();
+
+
+  const source =
+    document.getElementById(
+      "source"
+    ).value.trim();
+
+
+  const season =
+    Number(
+      document.getElementById(
+        "season"
+      ).value
+    );
+
+
+  const date =
+    document.getElementById(
+      "verifiedDate"
+    ).value;
+
+
+  if (
+    !Number.isInteger(season) ||
+    season < 2000 ||
+    season > 2100
+  ) {
+
+    message.textContent =
+      "Please enter a valid season.";
+
+    return;
+
+  }
+
+
+  warRoomTeams[name] = {
+
+    ...original,
+
+    offense: {
+
+      ...original.offense,
+
+      ppa:
+        values.offPPA,
+
+      successRate:
+        values.successRate,
+
+      explosiveness:
+        values.explosiveness,
+
+      pointsPerOpportunity:
+        values.pointsPerOpportunity
+
+    },
+
+    defense: {
+
+      ...original.defense,
+
+      ppa:
+        values.defPPA,
+
+      successRate:
+        values.defSuccessRate,
+
+      explosiveness:
+        values.defExplosiveness
+
+    },
+
+    dataInfo: {
+
+      season: season,
+
+      source: source,
+
+      lastUpdated:
+        date || null,
+
+      verified:
+        Boolean(
+          source &&
+          date
+        )
+
+    }
+
+  };
+
+
+  if (persistData()) {
+
+    message.textContent =
+      name +
+      " saved successfully!";
+
+  } else {
+
+    message.textContent =
+      "Browser storage failed. Export a backup.";
+
+  }
+
+
+  compareTeams();
+
+}
+
+
+/* =========================================================
+   ADD NEW TEAMS
+   ========================================================= */
+
+function addTeam() {
+
+  const input =
+    document.getElementById(
+      "newTeam"
+    );
+
+  const message =
+    document.getElementById(
+      "addMessage"
+    );
+
+  const name =
+    input.value.trim();
+
+
+  if (!name) {
+
+    message.textContent =
+      "Enter a team name.";
+
+    return;
+
+  }
+
+
+  const existing =
+    Object.keys(
+      warRoomTeams
+    ).find(
+
+      team =>
+        team.toLowerCase() ===
+        name.toLowerCase()
+
+    );
+
+
+  if (existing) {
+
+    message.textContent =
+      "That team already exists.";
+
+    return;
+
+  }
+
+
+  warRoomTeams[name] =
+    emptyTeam();
+
+
+  const saved =
+    persistData();
+
+
+  refreshMenus();
+
+
+  document.getElementById(
+    "editTeam"
+  ).value = name;
+
+
+  loadTeamEditor();
+
+
+  message.textContent =
+    saved
+      ? name +
+        " added successfully!"
+      : "Team added for this session. Export a backup.";
+
+
+  input.value = "";
+
+}
+
+
+/* =========================================================
+   EXPORT BACKUP
+   ========================================================= */
+
+function exportData() {
+
+  const content =
+    JSON.stringify(
+      warRoomTeams,
+      null,
+      2
+    );
+
+
+  const blob =
+    new Blob(
+      [content],
+      {
+        type:
+          "application/json"
+      }
+    );
+
+
+  const url =
+    URL.createObjectURL(
+      blob
+    );
+
+
+  const link =
+    document.createElement(
+      "a"
+    );
+
+
+  link.href = url;
+
+  link.download =
+    "docs-cfb-war-room-backup.json";
+
+
+  document.body.appendChild(
+    link
+  );
+
+
+  link.click();
+
+  link.remove();
+
+
+  setTimeout(
+    () =>
+      URL.revokeObjectURL(
+        url
+      ),
+    1000
+  );
+
+}
+
+
+/* =========================================================
+   START WAR ROOM
+   ========================================================= */
+
+initializeDatabase();
+
+</script>
+
+<script src="odds.js"></script>
+
+</body>
+</html>
