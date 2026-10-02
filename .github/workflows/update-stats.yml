@@ -3,13 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <title>Doc's CFB War Room</title>
 
 <style>
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   background: #101b2b;
@@ -37,9 +34,7 @@ h1 {
   max-width: 950px;
 }
 
-h2 {
-  color: #50e3a4;
-}
+h2 { color: #50e3a4; }
 
 label {
   display: block;
@@ -68,13 +63,9 @@ button {
   margin: 8px 8px 8px 0;
 }
 
-button:hover {
-  background: #8bf5c6;
-}
+button:hover { background: #8bf5c6; }
 
-.secondary {
-  background: #dbe7f5;
-}
+.secondary { background: #dbe7f5; }
 
 .note {
   color: #b7c6d9;
@@ -82,9 +73,7 @@ button:hover {
   line-height: 1.6;
 }
 
-.table-wrap {
-  overflow-x: auto;
-}
+.table-wrap { overflow-x: auto; }
 
 table {
   width: 100%;
@@ -99,15 +88,9 @@ td {
   text-align: left;
 }
 
-th {
-  background: #284664;
-}
+th { background: #284664; }
 
-tr:nth-child(even) {
-  background: #243b55;
-}
-
-/* Statistical advantage */
+tr:nth-child(even) { background: #243b55; }
 
 .advantage {
   background: #176b49 !important;
@@ -115,9 +98,7 @@ tr:nth-child(even) {
   font-weight: bold;
 }
 
-.tie {
-  color: #ffe08a;
-}
+.tie { color: #ffe08a; }
 
 .legend {
   display: inline-block;
@@ -133,16 +114,16 @@ tr:nth-child(even) {
   gap: 12px;
 }
 
-/* =========================================================
+/* ================================
    SCHEDULE CONTEXT
-   ========================================================= */
+   ================================ */
 
 .schedule-context {
   margin-top: 24px;
+  background: #15283d;
   border: 1px solid #45617e;
   border-radius: 12px;
   overflow: hidden;
-  background: #15283d;
 }
 
 .schedule-context-title {
@@ -175,26 +156,25 @@ tr:nth-child(even) {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: .5px;
   margin-bottom: 7px;
 }
 
 .context-value {
   font-size: 20px;
   font-weight: bold;
-  color: white;
 }
 
-.context-value.good {
+.context-value.aligned {
   color: #50e3a4;
 }
 
-.context-value.caution {
+.context-value.conflict {
   color: #ffe08a;
 }
 
-.context-value.strong-caution {
-  color: #ff9f7a;
+.context-value.even {
+  color: #dbe7f5;
 }
 
 .context-note {
@@ -226,15 +206,9 @@ tr:nth-child(even) {
 <body>
 
 <h1>DOC'S CFB WAR ROOM</h1>
+<p class="subtitle">College Football Research & Matchup Analysis</p>
 
-<p class="subtitle">
-College Football Research & Matchup Analysis
-</p>
-
-
-<!-- ======================================================
-     TEAM COMPARISON
-     ====================================================== -->
+<!-- TEAM COMPARISON -->
 
 <div class="panel">
 
@@ -246,12 +220,9 @@ College Football Research & Matchup Analysis
 <label for="home">Home Team</label>
 <select id="home"></select>
 
-<button onclick="compareTeams()">
-Analyze Matchup
-</button>
+<button onclick="compareTeams()">Analyze Matchup</button>
 
 <div id="results"></div>
-
 
 <!-- SPORTSBOOK PANEL -->
 
@@ -261,15 +232,12 @@ Analyze Matchup
   <div id="oddsTables"></div>
 </div>
 
-
 <!-- STATISTICAL COMPARISON -->
 
 <h2>Statistical Comparison</h2>
 
 <div class="table-wrap">
-
 <table>
-
 <thead>
 <tr>
   <th>Metric</th>
@@ -279,22 +247,14 @@ Analyze Matchup
 </thead>
 
 <tbody id="statsBody">
-
 <tr>
-<td colspan="3">
-Select two teams and analyze the matchup.
-</td>
+<td colspan="3">Select two teams and analyze the matchup.</td>
 </tr>
-
 </tbody>
-
 </table>
-
 </div>
 
-<p class="legend">
-Green = Statistical Advantage
-</p>
+<p class="legend">Green = Statistical Advantage</p>
 
 <p class="note">
 Green identifies the stronger value for an individual statistic.
@@ -303,14 +263,14 @@ It does not predict which team will win.
 
 <p class="note">
 PPA = Predicted Points Added per play.
-Enter success rates as decimals.
-For example, 45% = 0.45.
+Enter success rates as decimals. For example, 45% = 0.45.
 </p>
 
+<!-- SCHEDULE CONTEXT -->
 
-<!-- NEW SCHEDULE CONTEXT -->
-
-<div id="scheduleContext" class="schedule-context" style="display:none">
+<div id="scheduleContext"
+     class="schedule-context"
+     style="display:none">
 
   <div class="schedule-context-title">
     Schedule Context
@@ -324,287 +284,205 @@ For example, 45% = 0.45.
         <div class="context-label">
           Raw Statistical Advantage
         </div>
-
-        <div
-          id="rawAdvantage"
-          class="context-value">
+        <div id="rawAdvantage"
+             class="context-value">
           —
         </div>
       </div>
-
 
       <div class="context-card">
         <div class="context-label">
           Stronger Schedule
         </div>
-
-        <div
-          id="scheduleAdvantage"
-          class="context-value">
+        <div id="scheduleAdvantage"
+             class="context-value">
           —
         </div>
       </div>
-
 
       <div class="context-card">
         <div class="context-label">
           SOS Rank Gap
         </div>
-
-        <div
-          id="sosGap"
-          class="context-value">
+        <div id="sosGap"
+             class="context-value">
           —
         </div>
       </div>
-
 
       <div class="context-card">
         <div class="context-label">
-          Confidence in Raw Comparison
+          Schedule Alignment
         </div>
-
-        <div
-          id="rawConfidence"
-          class="context-value">
+        <div id="scheduleAlignment"
+             class="context-value">
           —
         </div>
       </div>
 
     </div>
 
-
-    <div
-      id="scheduleNote"
-      class="context-note">
+    <div id="scheduleNote"
+         class="context-note">
     </div>
 
-
     <div class="context-explanation">
-      Schedule Context does not change the underlying statistics.
-      It identifies when raw statistical advantages should be
-      interpreted cautiously because the teams have faced
-      substantially different levels of competition.
+      Schedule Context compares the direction of the raw statistical
+      results with strength of schedule. It does not adjust the
+      underlying statistics and is not an opponent-adjusted rating.
     </div>
 
   </div>
-
 </div>
 
 </div>
 
-
-<!-- ======================================================
-     TEAM STATISTICS EDITOR
-     ====================================================== -->
+<!-- TEAM STATISTICS EDITOR -->
 
 <div class="panel">
 
 <h2>Team Statistics Editor</h2>
 
 <p class="note">
-Enter verified statistics.
-Changes are saved in this browser.
+Enter verified statistics. Changes are saved in this browser.
 </p>
 
 <label for="editTeam">Select Team</label>
-
-<select
-  id="editTeam"
-  onchange="loadTeamEditor()">
+<select id="editTeam"
+        onchange="loadTeamEditor()">
 </select>
 
 <div class="form-grid">
 
 <div>
-<label for="offPPA">
-Offensive PPA
-</label>
-
-<input
-  id="offPPA"
-  type="number"
-  step="any">
+<label for="offPPA">Offensive PPA</label>
+<input id="offPPA" type="number" step="any">
 </div>
-
 
 <div>
-<label for="defPPA">
-Defensive PPA
-</label>
-
-<input
-  id="defPPA"
-  type="number"
-  step="any">
+<label for="defPPA">Defensive PPA</label>
+<input id="defPPA" type="number" step="any">
 </div>
-
 
 <div>
 <label for="successRate">
 Offensive Success Rate
 </label>
-
-<input
-  id="successRate"
-  type="number"
-  min="0"
-  max="1"
-  step="any">
+<input id="successRate"
+       type="number"
+       min="0"
+       max="1"
+       step="any">
 </div>
-
 
 <div>
 <label for="explosiveness">
 Offensive Explosiveness
 </label>
-
-<input
-  id="explosiveness"
-  type="number"
-  step="any">
+<input id="explosiveness"
+       type="number"
+       step="any">
 </div>
-
 
 <div>
 <label for="pointsPerOpportunity">
 Points per Scoring Opportunity
 </label>
-
-<input
-  id="pointsPerOpportunity"
-  type="number"
-  step="any">
+<input id="pointsPerOpportunity"
+       type="number"
+       step="any">
 </div>
-
 
 <div>
 <label for="defSuccessRate">
 Defensive Success Rate Allowed
 </label>
-
-<input
-  id="defSuccessRate"
-  type="number"
-  min="0"
-  max="1"
-  step="any">
+<input id="defSuccessRate"
+       type="number"
+       min="0"
+       max="1"
+       step="any">
 </div>
-
 
 <div>
 <label for="defExplosiveness">
 Defensive Explosiveness Allowed
 </label>
-
-<input
-  id="defExplosiveness"
-  type="number"
-  step="any">
+<input id="defExplosiveness"
+       type="number"
+       step="any">
 </div>
 
 </div>
 
+<label for="source">Data Source</label>
+<input id="source"
+       placeholder="Example: CollegeFootballData">
 
-<label for="source">
-Data Source
-</label>
+<label for="season">Season</label>
+<input id="season"
+       type="number"
+       min="2000"
+       max="2100"
+       value="2026">
 
-<input
-  id="source"
-  placeholder="Example: CollegeFootballData">
-
-
-<label for="season">
-Season
-</label>
-
-<input
-  id="season"
-  type="number"
-  min="2000"
-  max="2100"
-  value="2026">
-
-
-<label for="verifiedDate">
-Date Verified
-</label>
-
-<input
-  id="verifiedDate"
-  type="date">
-
+<label for="verifiedDate">Date Verified</label>
+<input id="verifiedDate"
+       type="date">
 
 <button onclick="saveTeamStats()">
 Save Team Statistics
 </button>
 
-<button
-  class="secondary"
-  onclick="exportData()">
+<button class="secondary"
+        onclick="exportData()">
 Export Data Backup
 </button>
 
-<p
-  id="saveMessage"
-  class="note">
+<p id="saveMessage"
+   class="note">
 </p>
 
 </div>
 
-
-<!-- ======================================================
-     ADD TEAM
-     ====================================================== -->
+<!-- ADD TEAM -->
 
 <div class="panel">
 
 <h2>Add a New Team</h2>
 
-<label for="newTeam">
-Team Name
-</label>
+<label for="newTeam">Team Name</label>
 
-<input
-  id="newTeam"
-  placeholder="Example: Alabama">
+<input id="newTeam"
+       placeholder="Example: Alabama">
 
 <button onclick="addTeam()">
 Add Team
 </button>
 
-<p
-  id="addMessage"
-  class="note">
+<p id="addMessage"
+   class="note">
 </p>
 
 </div>
 
-
-<!-- ======================================================
-     DATA FILES
-     ====================================================== -->
+<!-- EXISTING DATA FILES -->
 
 <script src="teams.js"></script>
 <script src="auto-stats.js"></script>
 
 <script>
 
-/* =========================================================
+/* ================================
    DATABASE
-   ========================================================= */
+   ================================ */
 
-const STORAGE_KEY =
-  "docsCFBWarRoomData";
+const STORAGE_KEY = "docsCFBWarRoomData";
 
 let warRoomTeams = {};
 
-
 function emptyTeam() {
-
   return {
-
     offense: {
       ppa: null,
       successRate: null,
@@ -624,10 +502,8 @@ function emptyTeam() {
       lastUpdated: null,
       verified: false
     }
-
   };
 }
-
 
 function initializeDatabase() {
 
@@ -636,58 +512,45 @@ function initializeDatabase() {
     teams &&
     typeof teams === "object"
   ) {
-
     warRoomTeams =
-      JSON.parse(
-        JSON.stringify(teams)
-      );
-
+      JSON.parse(JSON.stringify(teams));
   }
 
   try {
 
     const saved =
-      localStorage.getItem(
-        STORAGE_KEY
-      );
+      localStorage.getItem(STORAGE_KEY);
 
     if (saved) {
 
-      const parsed =
-        JSON.parse(saved);
+      const parsed = JSON.parse(saved);
 
       if (
         parsed &&
         typeof parsed === "object" &&
         !Array.isArray(parsed)
       ) {
-
         warRoomTeams = {
           ...warRoomTeams,
           ...parsed
         };
-
       }
     }
 
   } catch (error) {
-
     console.warn(
       "Saved browser data unavailable.",
       error
     );
-
   }
 
   refreshMenus();
   loadTeamEditor();
 }
 
-
 function persistData() {
 
   try {
-
     localStorage.setItem(
       STORAGE_KEY,
       JSON.stringify(warRoomTeams)
@@ -696,17 +559,14 @@ function persistData() {
     return true;
 
   } catch (error) {
-
     console.error(error);
     return false;
-
   }
 }
 
-
-/* =========================================================
+/* ================================
    TEAM MENUS
-   ========================================================= */
+   ================================ */
 
 function refreshMenus() {
 
@@ -733,46 +593,33 @@ function refreshMenus() {
     names.forEach(name => {
 
       const option =
-        document.createElement(
-          "option"
-        );
+        document.createElement("option");
 
       option.value = name;
       option.textContent = name;
 
       menu.appendChild(option);
-
     });
-
   });
-
 
   if (names.includes(oldAway)) {
     away.value = oldAway;
   }
 
-
   if (names.includes(oldHome)) {
-
     home.value = oldHome;
-
   } else if (names.length > 1) {
-
     home.value = names[1];
-
   }
-
 
   if (names.includes(oldEditor)) {
     editor.value = oldEditor;
   }
-
 }
 
-
-/* =========================================================
+/* ================================
    STATISTICAL COMPARISON
-   ========================================================= */
+   ================================ */
 
 function displayStat(value) {
 
@@ -782,16 +629,12 @@ function displayStat(value) {
   )
     ? value.toFixed(3)
     : "Awaiting data";
-
 }
 
-
 /*
-Direction rules:
-
 higher = higher number has advantage
 lower  = lower number has advantage
-none   = no automatic highlighting
+none   = displayed without automatic advantage
 */
 
 const metrics = [
@@ -854,10 +697,9 @@ const metrics = [
 
 ];
 
-
-/* =========================================================
-   SCHEDULE CONTEXT ENGINE
-   ========================================================= */
+/* ================================
+   SCHEDULE CONTEXT
+   ================================ */
 
 function calculateScheduleContext(
   awayName,
@@ -886,9 +728,9 @@ function calculateScheduleContext(
       "sosGap"
     );
 
-  const confidenceElement =
+  const alignmentElement =
     document.getElementById(
-      "rawConfidence"
+      "scheduleAlignment"
     );
 
   const noteElement =
@@ -896,20 +738,17 @@ function calculateScheduleContext(
       "scheduleNote"
     );
 
-
-  /*
-  Count only metrics where the comparison
-  direction is known.
-
-  SOS itself is excluded from the raw-stat
-  advantage count because it is being used
-  separately as context.
-  */
-
   let awayWins = 0;
   let homeWins = 0;
-  let comparableStats = 0;
+  let ties = 0;
 
+  /*
+  Count only directional performance
+  metrics.
+
+  SOS is intentionally excluded because
+  it is the separate schedule signal.
+  */
 
   metrics.forEach(metric => {
 
@@ -920,7 +759,6 @@ function calculateScheduleContext(
       return;
     }
 
-
     const awayValue =
       awayData?.[metric.category]
         ?.[metric.key];
@@ -929,26 +767,20 @@ function calculateScheduleContext(
       homeData?.[metric.category]
         ?.[metric.key];
 
-
     const valid =
       typeof awayValue === "number" &&
       Number.isFinite(awayValue) &&
       typeof homeValue === "number" &&
       Number.isFinite(homeValue);
 
-
     if (!valid) {
       return;
     }
 
-
-    comparableStats++;
-
-
     if (awayValue === homeValue) {
+      ties++;
       return;
     }
-
 
     if (metric.direction === "higher") {
 
@@ -958,58 +790,45 @@ function calculateScheduleContext(
         homeWins++;
       }
 
-    }
-
-
-    if (metric.direction === "lower") {
+    } else if (
+      metric.direction === "lower"
+    ) {
 
       if (awayValue < homeValue) {
         awayWins++;
       } else {
         homeWins++;
       }
-
     }
-
   });
-
-
-  /*
-  Determine raw statistical advantage.
-  */
 
   let rawWinner = "Even";
 
   if (awayWins > homeWins) {
     rawWinner = awayName;
-  }
-
-  if (homeWins > awayWins) {
+  } else if (homeWins > awayWins) {
     rawWinner = homeName;
   }
 
+  if (rawWinner === "Even") {
 
-  rawElement.textContent =
-    rawWinner === "Even"
-      ? "Even"
-      : rawWinner +
-        " (" +
-        Math.max(
-          awayWins,
-          homeWins
-        ) +
-        "–" +
-        Math.min(
-          awayWins,
-          homeWins
-        ) +
-        ")";
+    rawElement.textContent =
+      "Even (" +
+      awayWins +
+      "–" +
+      homeWins +
+      ")";
 
+  } else {
 
-  /*
-  SOS ranks:
-  LOWER rank = stronger schedule.
-  */
+    rawElement.textContent =
+      rawWinner +
+      " (" +
+      Math.max(awayWins, homeWins) +
+      "–" +
+      Math.min(awayWins, homeWins) +
+      ")";
+  }
 
   const awaySOS =
     awayData?.sos?.rank;
@@ -1017,174 +836,133 @@ function calculateScheduleContext(
   const homeSOS =
     homeData?.sos?.rank;
 
-
   const validSOS =
     typeof awaySOS === "number" &&
     Number.isFinite(awaySOS) &&
     typeof homeSOS === "number" &&
     Number.isFinite(homeSOS);
 
+  panel.style.display = "block";
 
   if (!validSOS) {
-
-    panel.style.display = "block";
 
     scheduleElement.textContent =
       "SOS unavailable";
 
-    gapElement.textContent =
-      "—";
+    gapElement.textContent = "—";
 
-    confidenceElement.textContent =
-      "Cannot evaluate";
+    alignmentElement.textContent =
+      "Unavailable";
 
-    confidenceElement.className =
-      "context-value caution";
+    alignmentElement.className =
+      "context-value even";
 
     noteElement.textContent =
-      "Strength-of-schedule data is unavailable for one or both teams. Raw statistics are shown without schedule context.";
+      "Strength-of-schedule data is unavailable for one or both teams. The War Room can display the raw statistical comparison, but it cannot compare that result with schedule strength.";
 
     return;
   }
 
-
   const sosGap =
-    Math.abs(
-      awaySOS - homeSOS
-    );
-
+    Math.abs(awaySOS - homeSOS);
 
   let scheduleWinner = "Even";
 
   if (awaySOS < homeSOS) {
     scheduleWinner = awayName;
-  }
-
-  if (homeSOS < awaySOS) {
+  } else if (homeSOS < awaySOS) {
     scheduleWinner = homeName;
   }
 
+  if (scheduleWinner === "Even") {
 
-  scheduleElement.textContent =
-    scheduleWinner === "Even"
-      ? "Even"
-      : scheduleWinner +
-        " (#" +
-        Math.min(
-          awaySOS,
-          homeSOS
-        ) +
-        ")";
+    scheduleElement.textContent =
+      "Even (#" +
+      awaySOS +
+      ")";
 
+  } else {
+
+    const strongerRank =
+      Math.min(awaySOS, homeSOS);
+
+    scheduleElement.textContent =
+      scheduleWinner +
+      " (#" +
+      strongerRank +
+      ")";
+  }
 
   gapElement.textContent =
     sosGap.toFixed(0) +
     " ranking positions";
 
-
   /*
-  Confidence categories.
+  Alignment is descriptive only.
 
-  These are context flags — NOT score
-  adjustments and NOT predictions.
+  ALIGNED:
+  raw-stat leader also owns stronger SOS.
 
-  0–14  = similar schedules
-  15–29 = moderate difference
-  30+   = major difference
+  CONFLICT:
+  raw-stat leader and stronger-SOS team
+  are different.
+
+  EVEN:
+  raw stats or SOS do not identify
+  different leaders.
   */
 
-  let confidence =
-    "Normal";
-
-  let confidenceClass =
-    "context-value good";
-
-
-  if (sosGap >= 15) {
-
-    confidence =
-      "Caution";
-
-    confidenceClass =
-      "context-value caution";
-
-  }
-
-
-  if (sosGap >= 30) {
-
-    confidence =
-      "Strong Caution";
-
-    confidenceClass =
-      "context-value strong-caution";
-
-  }
-
-
-  /*
-  If raw-stat leader also played the
-  stronger schedule, confidence improves.
-
-  If the raw-stat leader played the weaker
-  schedule, the warning remains.
-  */
+  let alignment = "EVEN";
+  let alignmentClass =
+    "context-value even";
 
   if (
     rawWinner !== "Even" &&
-    rawWinner === scheduleWinner
+    scheduleWinner !== "Even"
   ) {
 
-    if (sosGap >= 30) {
+    if (rawWinner === scheduleWinner) {
 
-      confidence =
-        "Supported by Schedule";
-
-      confidenceClass =
-        "context-value good";
-
-    } else if (sosGap >= 15) {
-
-      confidence =
-        "Good";
-
-      confidenceClass =
-        "context-value good";
-
-    }
-
-  }
-
-
-  confidenceElement.textContent =
-    confidence;
-
-  confidenceElement.className =
-    confidenceClass;
-
-
-  /*
-  Build explanatory War Room note.
-  */
-
-  let note = "";
-
-
-  if (rawWinner === "Even") {
-
-    if (sosGap < 15) {
-
-      note =
-        "The teams are close in the comparable raw statistics and their schedule strength is also relatively similar.";
+      alignment = "ALIGNED";
+      alignmentClass =
+        "context-value aligned";
 
     } else {
 
-      note =
-        "The comparable raw statistics are close, but " +
-        scheduleWinner +
-        " has faced the stronger schedule. Schedule context may therefore be important when interpreting the matchup.";
-
+      alignment = "CONFLICT";
+      alignmentClass =
+        "context-value conflict";
     }
+  }
+
+  alignmentElement.textContent =
+    alignment;
+
+  alignmentElement.className =
+    alignmentClass;
+
+  let note = "";
+
+  if (
+    rawWinner === "Even" &&
+    scheduleWinner === "Even"
+  ) {
+
+    note =
+      "The comparable raw metrics are even and the teams have the same SOS rank.";
+
+  } else if (rawWinner === "Even") {
+
+    note =
+      "The comparable raw metrics do not produce a clear leader, while " +
+      scheduleWinner +
+      " has faced the stronger schedule.";
+
+  } else if (scheduleWinner === "Even") {
+
+    note =
+      rawWinner +
+      " leads the comparable raw metrics, while the teams have the same SOS rank.";
 
   } else if (
     rawWinner === scheduleWinner
@@ -1192,66 +970,34 @@ function calculateScheduleContext(
 
     note =
       rawWinner +
-      " holds the raw statistical advantage and has also faced the stronger schedule. The schedule context supports rather than weakens the raw comparison.";
+      " leads the comparable raw metrics and has also faced the stronger schedule. The raw-stat and schedule signals point in the same direction.";
 
   } else {
 
-    if (sosGap >= 30) {
-
-      note =
-        rawWinner +
-        " holds the raw statistical advantage, but " +
-        scheduleWinner +
-        " has faced the substantially stronger schedule. Treat the raw advantage with strong caution until opponent-adjusted performance is incorporated.";
-
-    } else if (sosGap >= 15) {
-
-      note =
-        rawWinner +
-        " holds the raw statistical advantage, but " +
-        scheduleWinner +
-        " has faced the stronger schedule. The raw comparison should be interpreted cautiously.";
-
-    } else {
-
-      note =
-        rawWinner +
-        " holds the raw statistical advantage. " +
-        scheduleWinner +
-        " has the stronger schedule, but the SOS gap is relatively small.";
-
-    }
-
+    note =
+      rawWinner +
+      " leads the comparable raw metrics, while " +
+      scheduleWinner +
+      " has faced the stronger schedule. The raw-stat and schedule signals therefore point in different directions.";
   }
 
-
   noteElement.textContent = note;
-
-  panel.style.display = "block";
-
 }
 
-
-/* =========================================================
+/* ================================
    MAIN MATCHUP ANALYSIS
-   ========================================================= */
+   ================================ */
 
 function compareTeams() {
 
   const awayName =
-    document.getElementById(
-      "away"
-    ).value;
+    document.getElementById("away").value;
 
   const homeName =
-    document.getElementById(
-      "home"
-    ).value;
+    document.getElementById("home").value;
 
   const results =
-    document.getElementById(
-      "results"
-    );
+    document.getElementById("results");
 
   const statsBody =
     document.getElementById(
@@ -1263,10 +1009,8 @@ function compareTeams() {
       "scheduleContext"
     );
 
-
   scheduleContext.style.display =
     "none";
-
 
   if (!awayName || !homeName) {
 
@@ -1278,7 +1022,6 @@ function compareTeams() {
     return;
   }
 
-
   if (awayName === homeName) {
 
     results.textContent =
@@ -1289,13 +1032,11 @@ function compareTeams() {
     return;
   }
 
-
   const awayData =
     warRoomTeams[awayName];
 
   const homeData =
     warRoomTeams[homeName];
-
 
   if (!awayData || !homeData) {
 
@@ -1305,9 +1046,7 @@ function compareTeams() {
     return;
   }
 
-
   results.innerHTML = "";
-
 
   const heading =
     document.createElement("h3");
@@ -1319,9 +1058,7 @@ function compareTeams() {
 
   results.appendChild(heading);
 
-
   statsBody.innerHTML = "";
-
 
   metrics.forEach(metric => {
 
@@ -1333,16 +1070,11 @@ function compareTeams() {
       homeData?.[metric.category]
         ?.[metric.key];
 
-
     const row =
       document.createElement("tr");
 
     const labelCell =
       document.createElement("td");
-
-    labelCell.textContent =
-      metric.label;
-
 
     const awayCell =
       document.createElement("td");
@@ -1350,6 +1082,8 @@ function compareTeams() {
     const homeCell =
       document.createElement("td");
 
+    labelCell.textContent =
+      metric.label;
 
     awayCell.textContent =
       displayStat(awayValue);
@@ -1357,13 +1091,11 @@ function compareTeams() {
     homeCell.textContent =
       displayStat(homeValue);
 
-
     const valid =
       typeof awayValue === "number" &&
       Number.isFinite(awayValue) &&
       typeof homeValue === "number" &&
       Number.isFinite(homeValue);
-
 
     if (
       valid &&
@@ -1372,83 +1104,45 @@ function compareTeams() {
 
       if (awayValue === homeValue) {
 
-        awayCell.classList.add(
-          "tie"
-        );
-
-        homeCell.classList.add(
-          "tie"
-        );
+        awayCell.classList.add("tie");
+        homeCell.classList.add("tie");
 
       } else {
 
         let awayAdvantage = false;
 
-
         if (
-          metric.direction ===
-          "higher"
+          metric.direction === "higher"
         ) {
-
           awayAdvantage =
-            awayValue >
-            homeValue;
-
+            awayValue > homeValue;
         }
 
-
         if (
-          metric.direction ===
-          "lower"
+          metric.direction === "lower"
         ) {
-
           awayAdvantage =
-            awayValue <
-            homeValue;
-
+            awayValue < homeValue;
         }
-
 
         if (awayAdvantage) {
-
           awayCell.classList.add(
             "advantage"
           );
-
         } else {
-
           homeCell.classList.add(
             "advantage"
           );
-
         }
-
       }
-
     }
 
-
-    row.appendChild(
-      labelCell
-    );
-
-    row.appendChild(
-      awayCell
-    );
-
-    row.appendChild(
-      homeCell
-    );
+    row.appendChild(labelCell);
+    row.appendChild(awayCell);
+    row.appendChild(homeCell);
 
     statsBody.appendChild(row);
-
   });
-
-
-  /*
-  Run schedule-context analysis AFTER
-  the normal comparison table is built.
-  */
 
   calculateScheduleContext(
     awayName,
@@ -1456,13 +1150,11 @@ function compareTeams() {
     awayData,
     homeData
   );
-
 }
 
-
-/* =========================================================
+/* ================================
    STATISTICS EDITOR
-   ========================================================= */
+   ================================ */
 
 function loadTeamEditor() {
 
@@ -1478,27 +1170,19 @@ function loadTeamEditor() {
     return;
   }
 
-
   const offense =
     team.offense || {};
 
   const defense =
     team.defense || {};
 
-
   const info = {
-
     ...emptyTeam().dataInfo,
-
-    ...(typeof dataInfo !==
-      "undefined"
+    ...(typeof dataInfo !== "undefined"
       ? dataInfo
       : {}),
-
     ...(team.dataInfo || {})
-
   };
-
 
   const fields = {
 
@@ -1522,48 +1206,37 @@ function loadTeamEditor() {
 
     defExplosiveness:
       defense.explosiveness
-
   };
-
 
   Object.entries(fields).forEach(
     ([id, value]) => {
 
-      document.getElementById(
-        id
-      ).value =
+      document.getElementById(id).value =
         typeof value === "number"
           ? value
           : "";
-
     }
   );
-
 
   document.getElementById(
     "source"
   ).value =
     info.source || "";
 
-
   document.getElementById(
     "season"
   ).value =
     info.season || 2026;
-
 
   document.getElementById(
     "verifiedDate"
   ).value =
     info.lastUpdated || "";
 
-
   document.getElementById(
     "saveMessage"
   ).textContent = "";
-
 }
-
 
 function readNumber(id) {
 
@@ -1571,29 +1244,20 @@ function readNumber(id) {
     document.getElementById(id)
       .value.trim();
 
-
   if (raw === "") {
     return null;
   }
 
-
-  const value =
-    Number(raw);
-
+  const value = Number(raw);
 
   if (!Number.isFinite(value)) {
-
     throw new Error(
-      "Invalid number in " +
-      id
+      "Invalid number in " + id
     );
-
   }
-
 
   return value;
 }
-
 
 function saveTeamStats() {
 
@@ -1602,44 +1266,32 @@ function saveTeamStats() {
       "editTeam"
     ).value;
 
-
   if (!name) {
     return;
   }
-
 
   const message =
     document.getElementById(
       "saveMessage"
     );
 
-
   let values;
-
 
   try {
 
     values = {
 
       offPPA:
-        readNumber(
-          "offPPA"
-        ),
+        readNumber("offPPA"),
 
       defPPA:
-        readNumber(
-          "defPPA"
-        ),
+        readNumber("defPPA"),
 
       successRate:
-        readNumber(
-          "successRate"
-        ),
+        readNumber("successRate"),
 
       explosiveness:
-        readNumber(
-          "explosiveness"
-        ),
+        readNumber("explosiveness"),
 
       pointsPerOpportunity:
         readNumber(
@@ -1655,7 +1307,6 @@ function saveTeamStats() {
         readNumber(
           "defExplosiveness"
         )
-
     };
 
   } catch (error) {
@@ -1664,9 +1315,7 @@ function saveTeamStats() {
       error.message;
 
     return;
-
   }
-
 
   for (
     const key of [
@@ -1675,38 +1324,28 @@ function saveTeamStats() {
     ]
   ) {
 
-    const value =
-      values[key];
-
+    const value = values[key];
 
     if (
       value !== null &&
-      (
-        value < 0 ||
-        value > 1
-      )
+      (value < 0 || value > 1)
     ) {
 
       message.textContent =
         "Success rates must be between 0 and 1.";
 
       return;
-
     }
-
   }
-
 
   const original =
     warRoomTeams[name] ||
     emptyTeam();
 
-
   const source =
     document.getElementById(
       "source"
     ).value.trim();
-
 
   const season =
     Number(
@@ -1715,12 +1354,10 @@ function saveTeamStats() {
       ).value
     );
 
-
   const date =
     document.getElementById(
       "verifiedDate"
     ).value;
-
 
   if (
     !Number.isInteger(season) ||
@@ -1732,16 +1369,13 @@ function saveTeamStats() {
       "Please enter a valid season.";
 
     return;
-
   }
-
 
   warRoomTeams[name] = {
 
     ...original,
 
     offense: {
-
       ...original.offense,
 
       ppa:
@@ -1755,11 +1389,9 @@ function saveTeamStats() {
 
       pointsPerOpportunity:
         values.pointsPerOpportunity
-
     },
 
     defense: {
-
       ...original.defense,
 
       ppa:
@@ -1770,28 +1402,17 @@ function saveTeamStats() {
 
       explosiveness:
         values.defExplosiveness
-
     },
 
     dataInfo: {
-
       season: season,
-
       source: source,
-
-      lastUpdated:
-        date || null,
-
-      verified:
-        Boolean(
-          source &&
-          date
-        )
-
+      lastUpdated: date || null,
+      verified: Boolean(
+        source && date
+      )
     }
-
   };
-
 
   if (persistData()) {
 
@@ -1803,18 +1424,14 @@ function saveTeamStats() {
 
     message.textContent =
       "Browser storage failed. Export a backup.";
-
   }
 
-
   compareTeams();
-
 }
 
-
-/* =========================================================
-   ADD NEW TEAMS
-   ========================================================= */
+/* ================================
+   ADD NEW TEAM
+   ================================ */
 
 function addTeam() {
 
@@ -1831,28 +1448,20 @@ function addTeam() {
   const name =
     input.value.trim();
 
-
   if (!name) {
 
     message.textContent =
       "Enter a team name.";
 
     return;
-
   }
 
-
   const existing =
-    Object.keys(
-      warRoomTeams
-    ).find(
-
+    Object.keys(warRoomTeams).find(
       team =>
         team.toLowerCase() ===
         name.toLowerCase()
-
     );
-
 
   if (existing) {
 
@@ -1860,28 +1469,21 @@ function addTeam() {
       "That team already exists.";
 
     return;
-
   }
-
 
   warRoomTeams[name] =
     emptyTeam();
 
-
   const saved =
     persistData();
 
-
   refreshMenus();
-
 
   document.getElementById(
     "editTeam"
   ).value = name;
 
-
   loadTeamEditor();
-
 
   message.textContent =
     saved
@@ -1889,15 +1491,12 @@ function addTeam() {
         " added successfully!"
       : "Team added for this session. Export a backup.";
 
-
   input.value = "";
-
 }
 
-
-/* =========================================================
+/* ================================
    EXPORT BACKUP
-   ========================================================= */
+   ================================ */
 
 function exportData() {
 
@@ -1908,59 +1507,40 @@ function exportData() {
       2
     );
 
-
   const blob =
     new Blob(
       [content],
       {
-        type:
-          "application/json"
+        type: "application/json"
       }
     );
 
-
   const url =
-    URL.createObjectURL(
-      blob
-    );
-
+    URL.createObjectURL(blob);
 
   const link =
-    document.createElement(
-      "a"
-    );
-
+    document.createElement("a");
 
   link.href = url;
 
   link.download =
     "docs-cfb-war-room-backup.json";
 
-
-  document.body.appendChild(
-    link
-  );
-
+  document.body.appendChild(link);
 
   link.click();
-
   link.remove();
-
 
   setTimeout(
     () =>
-      URL.revokeObjectURL(
-        url
-      ),
+      URL.revokeObjectURL(url),
     1000
   );
-
 }
 
-
-/* =========================================================
+/* ================================
    START WAR ROOM
-   ========================================================= */
+   ================================ */
 
 initializeDatabase();
 
