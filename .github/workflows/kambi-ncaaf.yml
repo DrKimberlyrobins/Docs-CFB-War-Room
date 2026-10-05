@@ -1,0 +1,43 @@
+name: Update Kambi NCAAF Markets
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-kambi-ncaaf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run Kambi NCAAF collector
+        run: node scripts/kambi-ncaaf.js
+
+      - name: Show Kambi NCAAF index
+        run: |
+          echo "===== KAMBI NCAAF INDEX ====="
+          cat data/kambi/ncaaf-index-2026.json
+
+      - name: Commit updated Kambi NCAAF data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/kambi/
+
+          if git diff --cached --quiet; then
+            echo "No Kambi NCAAF changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update Kambi NCAAF markets"
+          git push
