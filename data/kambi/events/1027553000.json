@@ -1,0 +1,314 @@
+{
+  "generatedAt": "2026-10-05T14:05:46.403Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1027553000",
+    "name": "Nevada @ UTEP",
+    "away": "Nevada",
+    "home": "UTEP",
+    "start": "2026-10-10T23:00:00Z"
+  },
+  "counts": {
+    "betOffers": 4,
+    "events": 1,
+    "prePacks": 0
+  },
+  "betOffers": [
+    {
+      "id": 2699996451,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553000,
+      "outcomes": [
+        {
+          "id": 4362304534,
+          "label": "UTEP",
+          "englishLabel": "UTEP Miners",
+          "odds": 3850,
+          "participant": "UTEP",
+          "type": "OT_ONE",
+          "betOfferId": 2699996451,
+          "changedDate": "2026-10-04T21:34:20Z",
+          "participantId": 1000059550,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362304535,
+          "label": "Nevada",
+          "englishLabel": "Nevada Wolf Pack",
+          "odds": 1270,
+          "participant": "Nevada",
+          "type": "OT_TWO",
+          "betOfferId": 2699996451,
+          "changedDate": "2026-10-04T21:34:20Z",
+          "participantId": 1000020834,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699996453,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553000,
+      "outcomes": [
+        {
+          "id": 4362304538,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699996453,
+          "changedDate": "2026-10-04T21:34:20Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362304539,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1920,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2699996453,
+          "changedDate": "2026-10-04T21:34:20Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700030581,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553000,
+      "outcomes": [
+        {
+          "id": 4362264234,
+          "label": "UTEP",
+          "englishLabel": "UTEP Miners",
+          "odds": 1920,
+          "line": 9500,
+          "participant": "UTEP",
+          "type": "OT_ONE",
+          "betOfferId": 2700030581,
+          "changedDate": "2026-10-04T21:34:20Z",
+          "participantId": 1000059550,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362264235,
+          "label": "Nevada",
+          "englishLabel": "Nevada Wolf Pack",
+          "odds": 1910,
+          "line": -9500,
+          "participant": "Nevada",
+          "type": "OT_TWO",
+          "betOfferId": 2700030581,
+          "changedDate": "2026-10-04T21:34:20Z",
+          "participantId": 1000020834,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700030584,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553000,
+      "outcomes": [
+        {
+          "id": 4362264240,
+          "label": "UTEP",
+          "englishLabel": "UTEP Miners",
+          "odds": 1850,
+          "line": 10000,
+          "participant": "UTEP",
+          "type": "OT_ONE",
+          "betOfferId": 2700030584,
+          "changedDate": "2026-10-04T21:34:20Z",
+          "participantId": 1000059550,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362264241,
+          "label": "Nevada",
+          "englishLabel": "Nevada Wolf Pack",
+          "odds": 1980,
+          "line": -10000,
+          "participant": "Nevada",
+          "type": "OT_TWO",
+          "betOfferId": 2700030584,
+          "changedDate": "2026-10-04T21:34:20Z",
+          "participantId": 1000020834,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1027553000,
+      "name": "Nevada @ UTEP",
+      "nameDelimiter": "@",
+      "englishName": "UTEP Miners - Nevada Wolf Pack",
+      "homeName": "UTEP",
+      "awayName": "Nevada",
+      "start": "2026-10-10T23:00:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 4,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1000059550,
+          "name": "UTEP",
+          "englishName": "UTEP Miners",
+          "termKey": "utep_miners",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000020834,
+          "name": "Nevada",
+          "englishName": "Nevada Wolf Pack",
+          "termKey": "nevada_wolf_pack",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-10T23:00:00Z"
+    }
+  ],
+  "prePacks": []
+}

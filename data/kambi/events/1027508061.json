@@ -1,0 +1,314 @@
+{
+  "generatedAt": "2026-10-05T14:05:49.749Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1027508061",
+    "name": "Hawai’i @ Arizona State",
+    "away": "Hawai’i",
+    "home": "Arizona State",
+    "start": "2026-10-11T02:30:00Z"
+  },
+  "counts": {
+    "betOffers": 4,
+    "events": 1,
+    "prePacks": 0
+  },
+  "betOffers": [
+    {
+      "id": 2699812059,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508061,
+      "outcomes": [
+        {
+          "id": 4361710352,
+          "label": "Arizona State",
+          "englishLabel": "Arizona State Sun Devils",
+          "odds": 1050,
+          "participant": "Arizona State",
+          "type": "OT_ONE",
+          "betOfferId": 2699812059,
+          "changedDate": "2026-10-04T17:02:35Z",
+          "participantId": 1000024380,
+          "oddsFractional": "1/20",
+          "oddsAmerican": "-2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361710353,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 10000,
+          "participant": "Hawai’i",
+          "type": "OT_TWO",
+          "betOfferId": 2699812059,
+          "changedDate": "2026-10-04T17:02:35Z",
+          "participantId": 1000060175,
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699817936,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508061,
+      "outcomes": [
+        {
+          "id": 4361716072,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1950,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699817936,
+          "changedDate": "2026-10-04T20:34:10Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361716073,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1880,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2699817936,
+          "changedDate": "2026-10-04T20:34:10Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699990391,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508061,
+      "outcomes": [
+        {
+          "id": 4362261476,
+          "label": "Arizona State",
+          "englishLabel": "Arizona State Sun Devils",
+          "odds": 1980,
+          "line": -21500,
+          "participant": "Arizona State",
+          "type": "OT_ONE",
+          "betOfferId": 2699990391,
+          "changedDate": "2026-10-04T20:34:10Z",
+          "participantId": 1000024380,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362261477,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1850,
+          "line": 21500,
+          "participant": "Hawai’i",
+          "type": "OT_TWO",
+          "betOfferId": 2699990391,
+          "changedDate": "2026-10-04T20:34:10Z",
+          "participantId": 1000060175,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700001443,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508061,
+      "outcomes": [
+        {
+          "id": 4362252581,
+          "label": "Arizona State",
+          "englishLabel": "Arizona State Sun Devils",
+          "odds": 1910,
+          "line": -21000,
+          "participant": "Arizona State",
+          "type": "OT_ONE",
+          "betOfferId": 2700001443,
+          "changedDate": "2026-10-04T20:34:10Z",
+          "participantId": 1000024380,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362252582,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1920,
+          "line": 21000,
+          "participant": "Hawai’i",
+          "type": "OT_TWO",
+          "betOfferId": 2700001443,
+          "changedDate": "2026-10-04T20:34:10Z",
+          "participantId": 1000060175,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1027508061,
+      "name": "Hawai’i @ Arizona State",
+      "nameDelimiter": "@",
+      "englishName": "Arizona State Sun Devils - Hawaii Rainbow Warriors",
+      "homeName": "Arizona State",
+      "awayName": "Hawai’i",
+      "start": "2026-10-11T02:30:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 4,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1000060175,
+          "name": "Hawai’i",
+          "englishName": "Hawaii Rainbow Warriors",
+          "termKey": "hawaii_rainbow_warriors",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000024380,
+          "name": "Arizona State",
+          "englishName": "Arizona State Sun Devils",
+          "termKey": "arizona_state_sun_devils",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-11T02:30:00Z"
+    }
+  ],
+  "prePacks": []
+}

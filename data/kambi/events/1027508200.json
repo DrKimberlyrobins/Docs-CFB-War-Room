@@ -1,0 +1,3275 @@
+{
+  "generatedAt": "2026-10-05T14:05:42.226Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1027508200",
+    "name": "(9) Ole Miss @ Vanderbilt",
+    "away": "Ole Miss",
+    "home": "Vanderbilt",
+    "start": "2026-10-10T19:30:00Z"
+  },
+  "counts": {
+    "betOffers": 46,
+    "events": 1,
+    "prePacks": 2
+  },
+  "betOffers": [
+    {
+      "id": 2699796988,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4361661208,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 1770,
+          "line": 11000,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2699796988,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361661209,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 2080,
+          "line": -11000,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2699796988,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699828824,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4361678807,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1790,
+          "line": 57500,
+          "type": "OT_OVER",
+          "betOfferId": 2699828824,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361678810,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2040,
+          "line": 57500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699828824,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699828825,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4361678808,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 3950,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2699828825,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "29/10",
+          "oddsAmerican": "295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361678809,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 1260,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2699828825,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699834494,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4361711392,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 1870,
+          "line": 10000,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2699834494,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361711393,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 1950,
+          "line": -10000,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2699834494,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699834495,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4361711394,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 1810,
+          "line": 10500,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2699834495,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361711395,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 2020,
+          "line": -10500,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2699834495,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700005224,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362334173,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1720,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2700005224,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362334174,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2160,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700005224,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700005225,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362334175,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1940,
+          "line": 59000,
+          "type": "OT_OVER",
+          "betOfferId": 2700005225,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362334176,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1880,
+          "line": 59000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700005225,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700005226,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362334177,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 56000,
+          "type": "OT_OVER",
+          "betOfferId": 2700005226,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362334178,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2200,
+          "line": 56000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700005226,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700005227,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362334179,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 1730,
+          "line": 11500,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700005227,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362334180,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 2140,
+          "line": -11500,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700005227,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700005228,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362334181,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 1960,
+          "line": 9000,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700005228,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362334182,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 1860,
+          "line": -9000,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700005228,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700005229,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by (9) Ole Miss",
+        "englishLabel": "Total Points by (9) Ole Miss Rebels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362334183,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1880,
+          "line": 34500,
+          "type": "OT_OVER",
+          "betOfferId": 2700005229,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362334184,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 34500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700005229,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700005230,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362334185,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2000,
+          "line": 59500,
+          "type": "OT_OVER",
+          "betOfferId": 2700005230,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362334186,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1830,
+          "line": 59500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700005230,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700012032,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362237550,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 58500,
+          "type": "OT_OVER",
+          "betOfferId": 2700012032,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362237551,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1930,
+          "line": 58500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700012032,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700013889,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002970941,
+        "label": "First Team to Score",
+        "englishLabel": "First Team to Score - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "SCORING_PLAY",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362345607,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2200,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700013889,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362345608,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1600,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700013889,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700013890,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362345609,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 1980,
+          "line": 8500,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700013890,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362345611,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 1840,
+          "line": -8500,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700013890,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700013891,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362345613,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 2080,
+          "line": 7500,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700013891,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362345616,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 1760,
+          "line": -7500,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700013891,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700013892,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362345610,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 1940,
+          "line": 9500,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700013892,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362345612,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 1880,
+          "line": -9500,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700013892,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700013893,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362345614,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 1700,
+          "line": 12000,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700013893,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362345615,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 2180,
+          "line": -12000,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700013893,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700013894,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362345617,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1750,
+          "line": 57000,
+          "type": "OT_OVER",
+          "betOfferId": 2700013894,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362345618,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2100,
+          "line": 57000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700013894,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700013895,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362345619,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 4200,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700013895,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "16/5",
+          "oddsAmerican": "320",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362345620,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 17000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700013895,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362345621,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1270,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700013895,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700013897,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362345623,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2040,
+          "line": 60000,
+          "type": "OT_OVER",
+          "betOfferId": 2700013897,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362345625,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 60000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700013897,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700013898,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "SCORING_PLAY",
+        "occurrenceNumberInLifetime": 1
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362345626,
+          "label": "(9) Ole Miss Field Goal",
+          "englishLabel": "(9) Ole Miss Rebels Field Goal",
+          "odds": 7500,
+          "participant": "(9) Ole Miss",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700013898,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          },
+          "displayOrder": 5
+        },
+        {
+          "id": 4362345627,
+          "label": "(9) Ole Miss Safety",
+          "englishLabel": "(9) Ole Miss Rebels Safety",
+          "odds": 91000,
+          "participant": "(9) Ole Miss",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700013898,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "90/1",
+          "oddsAmerican": "9000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TWO_POINT_SAFETIES",
+            "occurrenceTypeLabel": "Two point safety"
+          },
+          "displayOrder": 6
+        },
+        {
+          "id": 4362345628,
+          "label": "Vanderbilt Touchdown",
+          "englishLabel": "Vanderbilt Commodores Touchdown",
+          "odds": 3000,
+          "participant": "Vanderbilt",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700013898,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          },
+          "displayOrder": 0
+        },
+        {
+          "id": 4362345629,
+          "label": "Vanderbilt Field Goal",
+          "englishLabel": "Vanderbilt Commodores Field Goal",
+          "odds": 8000,
+          "participant": "Vanderbilt",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700013898,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          },
+          "displayOrder": 1
+        },
+        {
+          "id": 4362345630,
+          "label": "Vanderbilt Safety",
+          "englishLabel": "Vanderbilt Commodores Safety",
+          "odds": 121000,
+          "participant": "Vanderbilt",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700013898,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "120/1",
+          "oddsAmerican": "12000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TWO_POINT_SAFETIES",
+            "occurrenceTypeLabel": "Two point safety"
+          },
+          "displayOrder": 2
+        },
+        {
+          "id": 4362345631,
+          "label": "(9) Ole Miss Touchdown",
+          "englishLabel": "(9) Ole Miss Rebels Touchdown",
+          "odds": 2040,
+          "participant": "(9) Ole Miss",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700013898,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          },
+          "displayOrder": 4
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700028503,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362340027,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1840,
+          "line": 58000,
+          "type": "OT_OVER",
+          "betOfferId": 2700028503,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362340028,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 58000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700028503,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700028504,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362340029,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 2040,
+          "line": 8000,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700028504,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362340030,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 1800,
+          "line": -8000,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700028504,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700028505,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362340031,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2070,
+          "line": 60500,
+          "type": "OT_OVER",
+          "betOfferId": 2700028505,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362340032,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 60500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700028505,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700028506,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362340033,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2330,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700028506,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362340034,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1560,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700028506,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700028507,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362340037,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 5750,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700028507,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362340040,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 31000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700028507,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362340043,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 6100,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700028507,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "5/1",
+          "oddsAmerican": "510",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4362340046,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 34000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700028507,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4362340049,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 81000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700028507,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "80/1",
+          "oddsAmerican": "8000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4362340052,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 17000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700028507,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4362340055,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 12000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700028507,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4362340058,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 34000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700028507,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4362340061,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 1420,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700028507,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700198984,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4363036941,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1780,
+          "type": "OT_ODD",
+          "betOfferId": 2700198984,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363036942,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 2040,
+          "type": "OT_EVEN",
+          "betOfferId": 2700198984,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700199017,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Vanderbilt - 1st Half",
+        "englishLabel": "Total Points by Vanderbilt Commodores - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4363037037,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1950,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700199017,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363037038,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1780,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700199017,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700239694,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4363034039,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1730,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700239694,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363034040,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2020,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700239694,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700239695,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4363034041,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 30500,
+          "type": "OT_OVER",
+          "betOfferId": 2700239695,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363034042,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 30500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700239695,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700239696,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1005347341,
+        "label": "First to 35 points (Tie: Neither Team to reach 35)",
+        "englishLabel": "First to 35 Points (Draw: No Teams to Reach 35) - Including Overtime",
+        "order": [
+          35
+        ],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 35
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4363034043,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 2040,
+          "type": "OT_CROSS",
+          "betOfferId": 2700239696,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363034044,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 7500,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700239696,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363034045,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2020,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700239696,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700239698,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1005347341,
+        "label": "First to 20 points (Tie: Neither Team to reach 20)",
+        "englishLabel": "First to 20 Points (Draw: No Teams to Reach 20) - Including Overtime",
+        "order": [
+          20
+        ],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 20
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4363034048,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 30000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700239698,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "29/1",
+          "oddsAmerican": "2900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363034049,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3150,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700239698,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363034050,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1300,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700239698,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700239699,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4363034051,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2850,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700239699,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363034052,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1400,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700239699,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700239701,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "(9) Ole Miss to Score in every Quarter - Regular Time",
+        "englishLabel": "(9) Ole Miss Rebels to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4363034059,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1870,
+          "type": "OT_YES",
+          "betOfferId": 2700239701,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363034064,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1870,
+          "type": "OT_NO",
+          "betOfferId": 2700239701,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700239731,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4363034182,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2200,
+          "line": 61500,
+          "type": "OT_OVER",
+          "betOfferId": 2700239731,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363034183,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 61500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700239731,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700239732,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4363034184,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2140,
+          "line": 61000,
+          "type": "OT_OVER",
+          "betOfferId": 2700239732,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363034185,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1720,
+          "line": 61000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700239732,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700254204,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362994221,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1340,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700254204,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362994222,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3150,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700254204,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700254205,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1005347341,
+        "label": "First to 30 points (Tie: Neither Team to reach 30)",
+        "englishLabel": "First to 30 Points (Draw: No Teams to Reach 30) - Including Overtime",
+        "order": [
+          30
+        ],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 30
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362994223,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 3850,
+          "type": "OT_CROSS",
+          "betOfferId": 2700254205,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362994224,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 4800,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700254205,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "19/5",
+          "oddsAmerican": "380",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362994225,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1530,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700254205,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700254209,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Vanderbilt to Score in Both Halves",
+        "englishLabel": "Vanderbilt Commodores to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362994234,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1110,
+          "type": "OT_YES",
+          "betOfferId": 2700254209,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-910",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362994237,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 6000,
+          "type": "OT_NO",
+          "betOfferId": 2700254209,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "5/1",
+          "oddsAmerican": "500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700254210,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Vanderbilt to Score in every Quarter - Regular Time",
+        "englishLabel": "Vanderbilt Commodores to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362994243,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3450,
+          "type": "OT_YES",
+          "betOfferId": 2700254210,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362994248,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1280,
+          "type": "OT_NO",
+          "betOfferId": 2700254210,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700254211,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1005347341,
+        "label": "First to 25 points (Tie: Neither Team to reach 25)",
+        "englishLabel": "First to 25 Points (Draw: No Teams to Reach 25) - Including Overtime",
+        "order": [
+          25
+        ],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 25
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362994249,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 8000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700254211,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362994250,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3850,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700254211,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362994251,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1360,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700254211,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700254221,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362994270,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 1820,
+          "line": 6500,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700254221,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362994271,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 1890,
+          "line": -6500,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700254221,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700254240,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Vanderbilt",
+        "englishLabel": "Total Points by Vanderbilt Commodores - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362994313,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1950,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2700254240,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362994314,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700254240,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700254241,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4362994315,
+          "label": "Vanderbilt",
+          "englishLabel": "Vanderbilt Commodores",
+          "odds": 1770,
+          "line": 3500,
+          "participant": "Vanderbilt",
+          "type": "OT_ONE",
+          "betOfferId": 2700254241,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000049302,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362994316,
+          "label": "(9) Ole Miss",
+          "englishLabel": "(9) Ole Miss Rebels",
+          "odds": 1950,
+          "line": -3500,
+          "participant": "(9) Ole Miss",
+          "type": "OT_TWO",
+          "betOfferId": 2700254241,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "participantId": 1000081861,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700255126,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by (9) Ole Miss - 1st Half",
+        "englishLabel": "Total Points by (9) Ole Miss Rebels - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508200,
+      "outcomes": [
+        {
+          "id": 4363054264,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 18500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700255126,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363054265,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 18500,
+          "type": "OT_OVER",
+          "betOfferId": 2700255126,
+          "changedDate": "2026-10-05T13:26:45Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1027508200,
+      "name": "(9) Ole Miss @ Vanderbilt",
+      "nameDelimiter": "@",
+      "englishName": "Vanderbilt Commodores - (9) Ole Miss Rebels",
+      "homeName": "Vanderbilt",
+      "awayName": "(9) Ole Miss",
+      "start": "2026-10-10T19:30:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 46,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1000049302,
+          "name": "Vanderbilt",
+          "englishName": "Vanderbilt Commodores",
+          "termKey": "vanderbilt_commodores",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000081861,
+          "name": "(9) Ole Miss",
+          "englishName": "(9) Ole Miss Rebels",
+          "termKey": "_9__ole_miss_rebels",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-10T19:30:00Z"
+    }
+  ],
+  "prePacks": [
+    {
+      "id": 7191491,
+      "label": "Game Winner and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8117746,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 2150,
+                "american": "115",
+                "fractional": "23/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361678809,
+                          "eventId": 1027508200,
+                          "betOfferId": 2699828825
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362237551,
+                          "eventId": 1027508200,
+                          "betOfferId": 2700012032
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8117745,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 7500,
+                "american": "650",
+                "fractional": "13/2"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361678808,
+                          "eventId": 1027508200,
+                          "betOfferId": 2699828825
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362237551,
+                          "eventId": 1027508200,
+                          "betOfferId": 2700012032
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8117744,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 2230,
+                "american": "123",
+                "fractional": "6/5"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361678809,
+                          "eventId": 1027508200,
+                          "betOfferId": 2699828825
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362237550,
+                          "eventId": 1027508200,
+                          "betOfferId": 2700012032
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8117743,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 6250,
+                "american": "525",
+                "fractional": "21/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361678808,
+                          "eventId": 1027508200,
+                          "betOfferId": 2699828825
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362237550,
+                          "eventId": 1027508200,
+                          "betOfferId": 2700012032
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    },
+    {
+      "id": 7196495,
+      "label": "Spread and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8123011,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3150,
+                "american": "215",
+                "fractional": "43/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362345612,
+                          "eventId": 1027508200,
+                          "betOfferId": 2700013892
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362237551,
+                          "eventId": 1027508200,
+                          "betOfferId": 2700012032
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8123010,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3550,
+                "american": "255",
+                "fractional": "5/2"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362345610,
+                          "eventId": 1027508200,
+                          "betOfferId": 2700013892
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362237551,
+                          "eventId": 1027508200,
+                          "betOfferId": 2700012032
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8123009,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362345612,
+                          "eventId": 1027508200,
+                          "betOfferId": 2700013892
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362237550,
+                          "eventId": 1027508200,
+                          "betOfferId": 2700012032
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8123008,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3200,
+                "american": "220",
+                "fractional": "11/5"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362345610,
+                          "eventId": 1027508200,
+                          "betOfferId": 2700013892
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362237550,
+                          "eventId": 1027508200,
+                          "betOfferId": 2700012032
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    }
+  ]
+}

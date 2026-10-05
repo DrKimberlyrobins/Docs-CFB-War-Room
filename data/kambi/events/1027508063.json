@@ -1,0 +1,314 @@
+{
+  "generatedAt": "2026-10-05T14:05:36.377Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1027508063",
+    "name": "Washington State @ Utah State",
+    "away": "Washington State",
+    "home": "Utah State",
+    "start": "2026-10-10T01:00:00Z"
+  },
+  "counts": {
+    "betOffers": 4,
+    "events": 1,
+    "prePacks": 0
+  },
+  "betOffers": [
+    {
+      "id": 2699800560,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4361584422,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1580,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2699800560,
+          "changedDate": "2026-10-05T04:19:33Z",
+          "participantId": 1000046343,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361584423,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2430,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2699800560,
+          "changedDate": "2026-10-05T04:19:33Z",
+          "participantId": 1000071439,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700068881,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4362565392,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1910,
+          "line": -3500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700068881,
+          "changedDate": "2026-10-05T04:19:35Z",
+          "participantId": 1000046343,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362565393,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1910,
+          "line": 3500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700068881,
+          "changedDate": "2026-10-05T04:19:35Z",
+          "participantId": 1000071439,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700083056,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4362522142,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1880,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700083056,
+          "changedDate": "2026-10-05T04:19:35Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362522143,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1940,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700083056,
+          "changedDate": "2026-10-05T04:19:35Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700083057,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4362522144,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1810,
+          "line": -3000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700083057,
+          "changedDate": "2026-10-05T04:19:35Z",
+          "participantId": 1000046343,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362522145,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2020,
+          "line": 3000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700083057,
+          "changedDate": "2026-10-05T04:19:35Z",
+          "participantId": 1000071439,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1027508063,
+      "name": "Washington State @ Utah State",
+      "nameDelimiter": "@",
+      "englishName": "Utah State Aggies - Washington State Cougars",
+      "homeName": "Utah State",
+      "awayName": "Washington State",
+      "start": "2026-10-10T01:00:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 4,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1000071439,
+          "name": "Washington State",
+          "englishName": "Washington State Cougars",
+          "termKey": "washington_state_cougars",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000046343,
+          "name": "Utah State",
+          "englishName": "Utah State Aggies",
+          "termKey": "utah_state_aggies",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-10T01:00:00Z"
+    }
+  ],
+  "prePacks": []
+}

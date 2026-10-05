@@ -1,0 +1,314 @@
+{
+  "generatedAt": "2026-10-05T14:05:46.953Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1027552995",
+    "name": "North Dakota State @ UNLV",
+    "away": "North Dakota State",
+    "home": "UNLV",
+    "start": "2026-10-10T23:00:00Z"
+  },
+  "counts": {
+    "betOffers": 4,
+    "events": 1,
+    "prePacks": 0
+  },
+  "betOffers": [
+    {
+      "id": 2699996462,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552995,
+      "outcomes": [
+        {
+          "id": 4362304593,
+          "label": "UNLV",
+          "englishLabel": "UNLV Rebels",
+          "odds": 1830,
+          "line": 4000,
+          "participant": "UNLV",
+          "type": "OT_ONE",
+          "betOfferId": 2699996462,
+          "changedDate": "2026-10-04T23:54:28Z",
+          "participantId": 1000071151,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362304594,
+          "label": "North Dakota State",
+          "englishLabel": "North Dakota State Bison (FBS)",
+          "odds": 2000,
+          "line": -4000,
+          "participant": "North Dakota State",
+          "type": "OT_TWO",
+          "betOfferId": 2699996462,
+          "changedDate": "2026-10-04T23:54:28Z",
+          "participantId": 1000903561,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700002331,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552995,
+      "outcomes": [
+        {
+          "id": 4362255290,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700002331,
+          "changedDate": "2026-10-04T21:36:10Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362255291,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1910,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2700002331,
+          "changedDate": "2026-10-04T21:36:10Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700030594,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552995,
+      "outcomes": [
+        {
+          "id": 4362264286,
+          "label": "UNLV",
+          "englishLabel": "UNLV Rebels",
+          "odds": 2320,
+          "participant": "UNLV",
+          "type": "OT_ONE",
+          "betOfferId": 2700030594,
+          "changedDate": "2026-10-04T23:54:28Z",
+          "participantId": 1000071151,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362264287,
+          "label": "North Dakota State",
+          "englishLabel": "North Dakota State Bison (FBS)",
+          "odds": 1620,
+          "participant": "North Dakota State",
+          "type": "OT_TWO",
+          "betOfferId": 2700030594,
+          "changedDate": "2026-10-04T23:54:28Z",
+          "participantId": 1000903561,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700030595,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552995,
+      "outcomes": [
+        {
+          "id": 4362264288,
+          "label": "UNLV",
+          "englishLabel": "UNLV Rebels",
+          "odds": 1880,
+          "line": 3500,
+          "participant": "UNLV",
+          "type": "OT_ONE",
+          "betOfferId": 2700030595,
+          "changedDate": "2026-10-04T23:54:28Z",
+          "participantId": 1000071151,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362264289,
+          "label": "North Dakota State",
+          "englishLabel": "North Dakota State Bison (FBS)",
+          "odds": 1950,
+          "line": -3500,
+          "participant": "North Dakota State",
+          "type": "OT_TWO",
+          "betOfferId": 2700030595,
+          "changedDate": "2026-10-04T23:54:28Z",
+          "participantId": 1000903561,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1027552995,
+      "name": "North Dakota State @ UNLV",
+      "nameDelimiter": "@",
+      "englishName": "UNLV Rebels - North Dakota State Bison (FBS)",
+      "homeName": "UNLV",
+      "awayName": "North Dakota State",
+      "start": "2026-10-10T23:00:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 4,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1000071151,
+          "name": "UNLV",
+          "englishName": "UNLV Rebels",
+          "termKey": "unlv_rebels",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000903561,
+          "name": "North Dakota State",
+          "englishName": "North Dakota State Bison (FBS)",
+          "termKey": "north_dakota_state_bison__fbs_",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-10T23:00:00Z"
+    }
+  ],
+  "prePacks": []
+}

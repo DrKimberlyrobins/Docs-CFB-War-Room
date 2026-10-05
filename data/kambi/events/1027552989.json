@@ -1,0 +1,314 @@
+{
+  "generatedAt": "2026-10-05T14:05:47.224Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1027552989",
+    "name": "Coastal Carolina @ Marshall",
+    "away": "Coastal Carolina",
+    "home": "Marshall",
+    "start": "2026-10-10T23:00:00Z"
+  },
+  "counts": {
+    "betOffers": 4,
+    "events": 1,
+    "prePacks": 0
+  },
+  "betOffers": [
+    {
+      "id": 2699925359,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552989,
+      "outcomes": [
+        {
+          "id": 4361988093,
+          "label": "Marshall",
+          "englishLabel": "Marshall Thundering Herd",
+          "odds": 1650,
+          "participant": "Marshall",
+          "type": "OT_ONE",
+          "betOfferId": 2699925359,
+          "changedDate": "2026-10-04T23:17:17Z",
+          "participantId": 1000437750,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361988094,
+          "label": "Coastal Carolina",
+          "englishLabel": "Coastal Carolina Chanticleers",
+          "odds": 2280,
+          "participant": "Coastal Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2699925359,
+          "changedDate": "2026-10-04T23:17:17Z",
+          "participantId": 1000903559,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699925360,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552989,
+      "outcomes": [
+        {
+          "id": 4361988095,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2020,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699925360,
+          "changedDate": "2026-10-04T23:16:36Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361988096,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1810,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2699925360,
+          "changedDate": "2026-10-04T23:16:36Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699925362,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552989,
+      "outcomes": [
+        {
+          "id": 4361988099,
+          "label": "Marshall",
+          "englishLabel": "Marshall Thundering Herd",
+          "odds": 1780,
+          "line": -2000,
+          "participant": "Marshall",
+          "type": "OT_ONE",
+          "betOfferId": 2699925362,
+          "changedDate": "2026-10-04T23:17:17Z",
+          "participantId": 1000437750,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361988100,
+          "label": "Coastal Carolina",
+          "englishLabel": "Coastal Carolina Chanticleers",
+          "odds": 2060,
+          "line": 2000,
+          "participant": "Coastal Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2699925362,
+          "changedDate": "2026-10-04T23:17:17Z",
+          "participantId": 1000903559,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699928224,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552989,
+      "outcomes": [
+        {
+          "id": 4361990840,
+          "label": "Marshall",
+          "englishLabel": "Marshall Thundering Herd",
+          "odds": 1850,
+          "line": -2500,
+          "participant": "Marshall",
+          "type": "OT_ONE",
+          "betOfferId": 2699928224,
+          "changedDate": "2026-10-04T23:17:17Z",
+          "participantId": 1000437750,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361990841,
+          "label": "Coastal Carolina",
+          "englishLabel": "Coastal Carolina Chanticleers",
+          "odds": 1980,
+          "line": 2500,
+          "participant": "Coastal Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2699928224,
+          "changedDate": "2026-10-04T23:17:17Z",
+          "participantId": 1000903559,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1027552989,
+      "name": "Coastal Carolina @ Marshall",
+      "nameDelimiter": "@",
+      "englishName": "Marshall Thundering Herd - Coastal Carolina Chanticleers",
+      "homeName": "Marshall",
+      "awayName": "Coastal Carolina",
+      "start": "2026-10-10T23:00:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 4,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1000903559,
+          "name": "Coastal Carolina",
+          "englishName": "Coastal Carolina Chanticleers",
+          "termKey": "coastal_carolina_chanticleers",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000437750,
+          "name": "Marshall",
+          "englishName": "Marshall Thundering Herd",
+          "termKey": "marshall_thundering_herd",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-10T23:00:00Z"
+    }
+  ],
+  "prePacks": []
+}
