@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:42.504Z",
+  "generatedAt": "2026-10-08T22:55:41.997Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,7 +10,7 @@
     "start": "2026-10-10T19:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 75,
     "events": 1,
     "prePacks": 0
   },
@@ -37,14 +37,14 @@
           "id": 4361609720,
           "label": "Navy",
           "englishLabel": "Navy Midshipmen",
-          "odds": 1680,
+          "odds": 1850,
           "participant": "Navy",
           "type": "OT_ONE",
           "betOfferId": 2699775182,
-          "changedDate": "2026-10-04T21:49:34Z",
+          "changedDate": "2026-10-08T22:52:57Z",
           "participantId": 1000080315,
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-148",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +53,14 @@
           "id": 4361609721,
           "label": "Tulsa",
           "englishLabel": "Tulsa Golden Hurricane",
-          "odds": 2200,
+          "odds": 1960,
           "participant": "Tulsa",
           "type": "OT_TWO",
           "betOfferId": 2699775182,
-          "changedDate": "2026-10-04T21:49:34Z",
+          "changedDate": "2026-10-08T22:52:57Z",
           "participantId": 1000005651,
-          "oddsFractional": "6/5",
-          "oddsAmerican": "120",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,6 +70,61 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699775186,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4361609728,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2350,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2699775186,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361609729,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1610,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699775186,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -95,15 +150,15 @@
           "id": 4361609740,
           "label": "Navy",
           "englishLabel": "Navy Midshipmen",
-          "odds": 1890,
+          "odds": 2060,
           "line": -2500,
           "participant": "Navy",
           "type": "OT_ONE",
           "betOfferId": 2699775189,
-          "changedDate": "2026-10-04T21:49:34Z",
+          "changedDate": "2026-10-08T22:52:58Z",
           "participantId": 1000080315,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -112,15 +167,15 @@
           "id": 4361609741,
           "label": "Tulsa",
           "englishLabel": "Tulsa Golden Hurricane",
-          "odds": 1940,
+          "odds": 1790,
           "line": 2500,
           "participant": "Tulsa",
           "type": "OT_TWO",
           "betOfferId": 2699775189,
-          "changedDate": "2026-10-04T21:49:34Z",
+          "changedDate": "2026-10-08T22:52:58Z",
           "participantId": 1000005651,
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -128,7 +183,643 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699775190,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4361609742,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 2320,
+          "line": -3500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2699775190,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361609743,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1620,
+          "line": 3500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2699775190,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699775191,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4361609744,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1600,
+          "line": 3000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2699775191,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361609745,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 2380,
+          "line": -3000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2699775191,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699775192,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4361609746,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1400,
+          "line": 6000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2699775192,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361609747,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 3000,
+          "line": -6000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2699775192,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699777647,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4361595480,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2650,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2699777647,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361595481,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699777647,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699777648,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4361595482,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2500,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2699777648,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361595483,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1550,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699777648,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699777649,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4361595484,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1720,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2699777649,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361595485,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2160,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699777649,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699777653,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4361595492,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 2630,
+          "line": -5500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2699777653,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361595493,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1500,
+          "line": 5500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2699777653,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699777654,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4361595494,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1440,
+          "line": 5500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2699777654,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361595495,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 2800,
+          "line": -5500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2699777654,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699795549,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4361600919,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1680,
+          "line": 2500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2699795549,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361600920,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 2200,
+          "line": -2500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2699795549,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699795550,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4361600921,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 2600,
+          "line": -5000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2699795550,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361600922,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1520,
+          "line": 5000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2699795550,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699795551,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4361600923,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 2200,
+          "line": -3000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2699795551,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361600924,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1680,
+          "line": 3000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2699795551,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -155,15 +846,15 @@
           "id": 4361600925,
           "label": "Navy",
           "englishLabel": "Navy Midshipmen",
-          "odds": 1830,
+          "odds": 2000,
           "line": -2000,
           "participant": "Navy",
           "type": "OT_ONE",
           "betOfferId": 2699795552,
-          "changedDate": "2026-10-04T21:49:34Z",
+          "changedDate": "2026-10-08T22:52:58Z",
           "participantId": 1000080315,
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -172,15 +863,70 @@
           "id": 4361600926,
           "label": "Tulsa",
           "englishLabel": "Tulsa Golden Hurricane",
-          "odds": 2000,
+          "odds": 1830,
           "line": 2000,
           "participant": "Tulsa",
           "type": "OT_TWO",
           "betOfferId": 2699795552,
-          "changedDate": "2026-10-04T21:49:34Z",
+          "changedDate": "2026-10-08T22:52:58Z",
           "participantId": 1000005651,
-          "oddsFractional": "Evens",
-          "oddsAmerican": "100",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700013225,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4362290553,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2170,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700013225,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362290554,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1710,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700013225,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -214,13 +960,13 @@
           "id": 4362290560,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1880,
+          "odds": 2040,
           "line": 49500,
           "type": "OT_OVER",
           "betOfferId": 2700013228,
-          "changedDate": "2026-10-04T21:49:34Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "changedDate": "2026-10-08T22:52:58Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -229,13 +975,3499 @@
           "id": 4362290561,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1950,
+          "odds": 1790,
           "line": 49500,
           "type": "OT_UNDER",
           "betOfferId": 2700013228,
-          "changedDate": "2026-10-04T21:49:34Z",
+          "changedDate": "2026-10-08T22:52:58Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608155,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220391,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1950,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700608155,
+          "changedDate": "2026-10-08T22:52:57Z",
           "oddsFractional": "19/20",
           "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220392,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1880,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700608155,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608156,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220393,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1930,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700608156,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220394,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1830,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700608156,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608157,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220395,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700608157,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220396,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2280,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700608157,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608158,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220397,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700608158,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000080315,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220398,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 9500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700608158,
+          "changedDate": "2026-10-06T20:10:35Z",
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364220399,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2080,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700608158,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000005651,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608160,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220402,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700608160,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220403,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2650,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700608160,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608164,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220410,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1790,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700608164,
+          "changedDate": "2026-10-08T22:12:58Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220411,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1950,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700608164,
+          "changedDate": "2026-10-08T22:12:58Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608165,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Navy to Score in every Quarter - Regular Time",
+        "englishLabel": "Navy Midshipmen to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220416,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2550,
+          "type": "OT_YES",
+          "betOfferId": 2700608165,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220421,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1440,
+          "type": "OT_NO",
+          "betOfferId": 2700608165,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608167,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220424,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1710,
+          "line": 500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700608167,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000080315,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220425,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 2060,
+          "line": -500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700608167,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000005651,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608169,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Tulsa",
+        "englishLabel": "Total Points by Tulsa Golden Hurricane - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220428,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1740,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700608169,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220429,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1950,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700608169,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608173,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220438,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 2550,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700608173,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220441,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 26000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700608173,
+          "changedDate": "2026-10-08T13:15:53Z",
+          "oddsFractional": "25/1",
+          "oddsAmerican": "2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364220444,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 9500,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700608173,
+          "changedDate": "2026-10-06T20:10:35Z",
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364220447,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 18000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700608173,
+          "changedDate": "2026-10-08T13:15:53Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364220450,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 67000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700608173,
+          "changedDate": "2026-10-08T13:15:53Z",
+          "oddsFractional": "66/1",
+          "oddsAmerican": "6600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364220453,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 21000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700608173,
+          "changedDate": "2026-10-08T13:15:53Z",
+          "oddsFractional": "20/1",
+          "oddsAmerican": "2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364220456,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 8500,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700608173,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364220459,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 25000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700608173,
+          "changedDate": "2026-10-08T13:15:53Z",
+          "oddsFractional": "24/1",
+          "oddsAmerican": "2400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364220462,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 2750,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700608173,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608174,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220464,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 2880,
+          "line": -6500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700608174,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220465,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1430,
+          "line": 6500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700608174,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608175,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220466,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 2500,
+          "line": -4500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700608175,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220467,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1550,
+          "line": 4500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700608175,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608176,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220468,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1550,
+          "line": 3500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700608176,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220469,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 2500,
+          "line": -3500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700608176,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608177,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220470,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1460,
+          "line": 5000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700608177,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220471,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 2800,
+          "line": -5000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700608177,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608178,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220472,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 2430,
+          "line": -4000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700608178,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220473,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1570,
+          "line": 4000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700608178,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608179,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220474,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1500,
+          "line": 4000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700608179,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220475,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 2600,
+          "line": -4000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700608179,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608180,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220476,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 3750,
+          "line": -8000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700608180,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220477,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1280,
+          "line": 8000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700608180,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700608209,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364220575,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 4500,
+          "line": -10000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700608209,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364220576,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1210,
+          "line": 10000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700608209,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-480",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622570,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Tulsa to win both halves",
+        "englishLabel": "Tulsa Golden Hurricane to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231663,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4500,
+          "type": "OT_YES",
+          "betOfferId": 2700622570,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231666,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1150,
+          "type": "OT_NO",
+          "betOfferId": 2700622570,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "oddsFractional": "1/7",
+          "oddsAmerican": "-670",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622573,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231671,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700622573,
+          "changedDate": "2026-10-08T22:12:58Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231672,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1970,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700622573,
+          "changedDate": "2026-10-08T22:12:58Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622574,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Tulsa to Score in every Quarter - Regular Time",
+        "englishLabel": "Tulsa Golden Hurricane to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231677,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2650,
+          "type": "OT_YES",
+          "betOfferId": 2700622574,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231682,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1400,
+          "type": "OT_NO",
+          "betOfferId": 2700622574,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622575,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231683,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1920,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622575,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000080315,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231684,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 11500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700622575,
+          "changedDate": "2026-10-08T22:12:58Z",
+          "oddsFractional": "21/2",
+          "oddsAmerican": "1050",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364231685,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2070,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622575,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000005651,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622577,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231688,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700622577,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231689,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2430,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700622577,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622578,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Navy - 1st Half",
+        "englishLabel": "Total Points by Navy Midshipmen - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231690,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2070,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700622578,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231691,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1650,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700622578,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622580,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231694,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1750,
+          "type": "OT_ODD",
+          "betOfferId": 2700622580,
+          "changedDate": "2026-10-08T13:15:53Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231695,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1920,
+          "type": "OT_EVEN",
+          "betOfferId": 2700622580,
+          "changedDate": "2026-10-08T13:15:53Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622581,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231697,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 9500,
+          "type": "OT_YES",
+          "betOfferId": 2700622581,
+          "changedDate": "2026-10-08T13:15:53Z",
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231699,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1040,
+          "type": "OT_NO",
+          "betOfferId": 2700622581,
+          "changedDate": "2026-10-08T13:15:53Z",
+          "oddsFractional": "1/25",
+          "oddsAmerican": "-2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622582,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231700,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 2700,
+          "participant": "Tulsa",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700622582,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000005651,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364231701,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 2700,
+          "participant": "Navy",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700622582,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000080315,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364231702,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 5750,
+          "participant": "Navy",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700622582,
+          "changedDate": "2026-10-08T13:15:52Z",
+          "participantId": 1000080315,
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364231703,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 181000,
+          "participant": "Tulsa",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700622582,
+          "changedDate": "2026-10-08T13:15:52Z",
+          "participantId": 1000005651,
+          "oddsFractional": "180/1",
+          "oddsAmerican": "18000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364231704,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 4800,
+          "participant": "Tulsa",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700622582,
+          "changedDate": "2026-10-08T22:12:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "19/5",
+          "oddsAmerican": "380",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364231705,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 151000,
+          "participant": "Navy",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700622582,
+          "changedDate": "2026-10-08T13:15:52Z",
+          "participantId": 1000080315,
+          "oddsFractional": "150/1",
+          "oddsAmerican": "15000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622583,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231706,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1800,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622583,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000080315,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231707,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1870,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622583,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000005651,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700622584,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231708,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1980,
+          "line": -500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622584,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000080315,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231709,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1770,
+          "line": 500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622584,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000005651,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622587,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Tulsa to Score in Both Halves",
+        "englishLabel": "Tulsa Golden Hurricane to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231716,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1070,
+          "type": "OT_YES",
+          "betOfferId": 2700622587,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "oddsFractional": "1/16",
+          "oddsAmerican": "-1430",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231719,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 6250,
+          "type": "OT_NO",
+          "betOfferId": 2700622587,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "oddsFractional": "21/4",
+          "oddsAmerican": "525",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622590,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231724,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1920,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622590,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364231725,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1840,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622590,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622591,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231726,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 2450,
+          "line": -500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622591,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231727,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1520,
+          "line": 500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622591,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622592,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231728,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1860,
+          "line": 500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622592,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231729,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1970,
+          "line": -500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622592,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622593,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231730,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1790,
+          "line": 1500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622593,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231731,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 2060,
+          "line": -1500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622593,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622594,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231732,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 3850,
+          "line": -8500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622594,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231733,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1270,
+          "line": 8500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622594,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622595,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231734,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1490,
+          "line": 4500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622595,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231735,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 2650,
+          "line": -4500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622595,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622596,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231736,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1940,
+          "line": -1500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622596,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231737,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1890,
+          "line": 1500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622596,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622597,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231738,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1890,
+          "line": -1000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622597,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231739,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1930,
+          "line": 1000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622597,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622598,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231740,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1740,
+          "line": 2000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622598,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231741,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 2120,
+          "line": -2000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622598,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622599,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231742,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 3300,
+          "line": -7000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622599,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231743,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1340,
+          "line": 7000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622599,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622600,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231744,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1820,
+          "line": 1000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622600,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231745,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 2020,
+          "line": -1000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622600,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622628,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231833,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 4000,
+          "line": -9500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700622628,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231834,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1250,
+          "line": 9500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700622628,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700622645,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364231877,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1440,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700622645,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364231878,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2850,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700622645,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625558,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Tulsa to score first and win",
+        "englishLabel": "Tulsa Golden Hurricane to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206145,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2750,
+          "type": "OT_YES",
+          "betOfferId": 2700625558,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206148,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1370,
+          "type": "OT_NO",
+          "betOfferId": 2700625558,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625561,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206166,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4400,
+          "type": "OT_YES",
+          "betOfferId": 2700625561,
+          "changedDate": "2026-10-08T13:15:53Z",
+          "oddsFractional": "17/5",
+          "oddsAmerican": "340",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206171,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1160,
+          "type": "OT_NO",
+          "betOfferId": 2700625561,
+          "changedDate": "2026-10-06T20:10:35Z",
+          "oddsFractional": "2/13",
+          "oddsAmerican": "-625",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625564,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Navy",
+        "englishLabel": "Total Points by Navy Midshipmen - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206176,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1960,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2700625564,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206177,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1720,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700625564,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625568,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Navy to win both halves",
+        "englishLabel": "Navy Midshipmen to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206186,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4000,
+          "type": "OT_YES",
+          "betOfferId": 2700625568,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206189,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1180,
+          "type": "OT_NO",
+          "betOfferId": 2700625568,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-560",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625569,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Navy to Score in Both Halves",
+        "englishLabel": "Navy Midshipmen to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206192,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1050,
+          "type": "OT_YES",
+          "betOfferId": 2700625569,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "1/20",
+          "oddsAmerican": "-2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206195,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 7500,
+          "type": "OT_NO",
+          "betOfferId": 2700625569,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625571,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206200,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 2100,
+          "line": -1500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700625571,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000080315,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206201,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1700,
+          "line": 1500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700625571,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000005651,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625572,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206202,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1650,
+          "line": 1500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700625572,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000080315,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206203,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 2160,
+          "line": -1500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700625572,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000005651,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625573,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Tulsa - 1st Half",
+        "englishLabel": "Total Points by Tulsa Golden Hurricane - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206204,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700625573,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364206205,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1820,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700625573,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625576,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206210,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2450,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700625576,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000080315,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206211,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 3850,
+          "type": "OT_CROSS",
+          "betOfferId": 2700625576,
+          "changedDate": "2026-10-08T13:15:52Z",
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364206212,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2330,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700625576,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "participantId": 1000005651,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625577,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Navy to score first and win",
+        "englishLabel": "Navy Midshipmen to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206215,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2750,
+          "type": "OT_YES",
+          "betOfferId": 2700625577,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206218,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1380,
+          "type": "OT_NO",
+          "betOfferId": 2700625577,
+          "changedDate": "2026-10-08T22:52:57Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625578,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206219,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 1860,
+          "line": -500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700625578,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206220,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1970,
+          "line": 500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700625578,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625579,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206221,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 3500,
+          "line": -7500,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700625579,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206222,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1320,
+          "line": 7500,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700625579,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625580,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206223,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 2800,
+          "line": -6000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700625580,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206224,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1450,
+          "line": 6000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700625580,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625581,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206225,
+          "label": "Navy",
+          "englishLabel": "Navy Midshipmen",
+          "odds": 4000,
+          "line": -9000,
+          "participant": "Navy",
+          "type": "OT_ONE",
+          "betOfferId": 2700625581,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000080315,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206226,
+          "label": "Tulsa",
+          "englishLabel": "Tulsa Golden Hurricane",
+          "odds": 1260,
+          "line": 9000,
+          "participant": "Tulsa",
+          "type": "OT_TWO",
+          "betOfferId": 2700625581,
+          "changedDate": "2026-10-08T22:52:58Z",
+          "participantId": 1000005651,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700625625,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552998,
+      "outcomes": [
+        {
+          "id": 4364206470,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1790,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700625625,
+          "changedDate": "2026-10-08T22:12:58Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364206471,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1960,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700625625,
+          "changedDate": "2026-10-08T22:12:58Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -274,7 +4506,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 75,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

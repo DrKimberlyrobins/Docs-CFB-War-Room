@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:47.501Z",
+  "generatedAt": "2026-10-08T22:55:46.634Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,11 +10,239 @@
     "start": "2026-10-10T23:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 92,
     "events": 1,
     "prePacks": 0
   },
   "betOffers": [
+    {
+      "id": 2699996426,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4362304474,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1760,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699996426,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362304475,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2100,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2699996426,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699996427,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4362304476,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1530,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699996427,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362304477,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2550,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2699996427,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699996428,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4362304478,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1430,
+          "line": 14000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2699996428,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362304479,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2900,
+          "line": -14000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2699996428,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000025114,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699996429,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4362304480,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1500,
+          "line": 13000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2699996429,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362304481,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2630,
+          "line": -13000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2699996429,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000025114,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2700002294,
       "closed": "2026-10-10T23:30:00Z",
@@ -37,13 +265,13 @@
           "id": 4362255177,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1910,
+          "odds": 1850,
           "line": 47500,
           "type": "OT_UNDER",
           "betOfferId": 2700002294,
-          "changedDate": "2026-10-05T02:42:19Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "changedDate": "2026-10-06T23:18:30Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -52,13 +280,13 @@
           "id": 4362255178,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1920,
+          "odds": 1980,
           "line": 47500,
           "type": "OT_OVER",
           "betOfferId": 2700002294,
-          "changedDate": "2026-10-05T02:42:19Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "changedDate": "2026-10-06T23:18:30Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -66,7 +294,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -93,15 +320,15 @@
           "id": 4362255179,
           "label": "Northern Illinois",
           "englishLabel": "Northern Illinois Huskies",
-          "odds": 1890,
+          "odds": 1580,
           "line": 11500,
           "participant": "Northern Illinois",
           "type": "OT_ONE",
           "betOfferId": 2700002295,
-          "changedDate": "2026-10-05T02:42:19Z",
+          "changedDate": "2026-10-06T23:18:30Z",
           "participantId": 1000064347,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -110,15 +337,15 @@
           "id": 4362255180,
           "label": "Air Force",
           "englishLabel": "Air Force Falcons",
-          "odds": 1940,
+          "odds": 2430,
           "line": -11500,
           "participant": "Air Force",
           "type": "OT_TWO",
           "betOfferId": 2700002295,
-          "changedDate": "2026-10-05T02:42:19Z",
+          "changedDate": "2026-10-08T13:18:38Z",
           "participantId": 1000025114,
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -126,7 +353,65 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700002296,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4362255181,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1530,
+          "line": 12500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700002296,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362255182,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2550,
+          "line": -12500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700002296,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -153,15 +438,15 @@
           "id": 4362255183,
           "label": "Northern Illinois",
           "englishLabel": "Northern Illinois Huskies",
-          "odds": 1860,
+          "odds": 1550,
           "line": 12000,
           "participant": "Northern Illinois",
           "type": "OT_ONE",
           "betOfferId": 2700002297,
-          "changedDate": "2026-10-05T02:42:19Z",
+          "changedDate": "2026-10-08T13:18:39Z",
           "participantId": 1000064347,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-117",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -170,15 +455,15 @@
           "id": 4362255184,
           "label": "Air Force",
           "englishLabel": "Air Force Falcons",
-          "odds": 1970,
+          "odds": 2500,
           "line": -12000,
           "participant": "Air Force",
           "type": "OT_TWO",
           "betOfferId": 2700002297,
-          "changedDate": "2026-10-05T02:42:19Z",
+          "changedDate": "2026-10-06T23:18:30Z",
           "participantId": 1000025114,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-104",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -212,14 +497,14 @@
           "id": 4362264154,
           "label": "Northern Illinois",
           "englishLabel": "Northern Illinois Huskies",
-          "odds": 4200,
+          "odds": 3550,
           "participant": "Northern Illinois",
           "type": "OT_ONE",
           "betOfferId": 2700030554,
-          "changedDate": "2026-10-05T02:42:10Z",
+          "changedDate": "2026-10-08T13:18:38Z",
           "participantId": 1000064347,
-          "oddsFractional": "16/5",
-          "oddsAmerican": "320",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -228,14 +513,14 @@
           "id": 4362264155,
           "label": "Air Force",
           "englishLabel": "Air Force Falcons",
-          "odds": 1240,
+          "odds": 1300,
           "participant": "Air Force",
           "type": "OT_TWO",
           "betOfferId": 2700030554,
-          "changedDate": "2026-10-05T02:42:10Z",
+          "changedDate": "2026-10-06T23:18:29Z",
           "participantId": 1000025114,
-          "oddsFractional": "6/25",
-          "oddsAmerican": "-420",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -245,6 +530,4915 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700030555,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4362264156,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1480,
+          "line": 13500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700030555,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362264157,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2700,
+          "line": -13500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700030555,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700040786,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4362426966,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1680,
+          "line": 10000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700040786,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000064347,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362426967,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2200,
+          "line": -10000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700040786,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700049603,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4362432919,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1770,
+          "line": 9500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700049603,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362432920,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2080,
+          "line": -9500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700049603,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000025114,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700328220,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4363400936,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1820,
+          "line": 8500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700328220,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000064347,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363400937,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2020,
+          "line": -8500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700328220,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700328259,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4363401017,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1930,
+          "line": 7500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700328259,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000064347,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363401018,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1900,
+          "line": -7500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700328259,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700331220,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4363406745,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1790,
+          "line": 9000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700331220,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000064347,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363406746,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2060,
+          "line": -9000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700331220,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000025114,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700331262,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4363406866,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1870,
+          "line": 8000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700331262,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000064347,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363406867,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1960,
+          "line": -8000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700331262,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756382,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729259,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4300,
+          "type": "OT_YES",
+          "betOfferId": 2700756382,
+          "changedDate": "2026-10-06T19:49:46Z",
+          "oddsFractional": "33/10",
+          "oddsAmerican": "330",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729264,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1170,
+          "type": "OT_NO",
+          "betOfferId": 2700756382,
+          "changedDate": "2026-10-06T19:49:46Z",
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-590",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756383,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729265,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3150,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756383,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000064347,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729266,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700756383,
+          "changedDate": "2026-10-06T19:49:59Z",
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364729267,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1810,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756383,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000025114,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756384,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Air Force",
+        "englishLabel": "Total Points by Air Force Falcons - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729268,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1630,
+          "line": 26500,
+          "type": "OT_OVER",
+          "betOfferId": 2700756384,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729269,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2100,
+          "line": 26500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700756384,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756387,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Northern Illinois - 1st Half",
+        "englishLabel": "Total Points by Northern Illinois Huskies - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729274,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1800,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700756387,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729275,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700756387,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756390,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729280,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1430,
+          "line": 4500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756390,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000064347,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729281,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2700,
+          "line": -4500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756390,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000025114,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756391,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Northern Illinois",
+        "englishLabel": "Total Points by Northern Illinois Huskies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729282,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2080,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2700756391,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729283,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1640,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700756391,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756392,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Air Force",
+        "englishLabel": "Total Points by Air Force Falcons - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729284,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1550,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2700756392,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729285,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2250,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700756392,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756393,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729286,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1610,
+          "line": 3500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756393,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000064347,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729287,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2230,
+          "line": -3500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756393,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000025114,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756394,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Northern Illinois",
+        "englishLabel": "Total Points by Northern Illinois Huskies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729288,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 17500,
+          "type": "OT_OVER",
+          "betOfferId": 2700756394,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729289,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 17500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700756394,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756400,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729310,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1480,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700756400,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364729311,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2700,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2700756400,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756401,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729312,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2380,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700756401,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364729313,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1600,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700756401,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756402,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729314,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2750,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700756402,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364729315,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1470,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2700756402,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756403,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729316,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2600,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700756403,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364729317,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700756403,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756404,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729318,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700756404,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364729319,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2200,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2700756404,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756405,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729320,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2180,
+          "line": 6500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756405,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000064347,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729321,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1700,
+          "line": -6500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756405,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000025114,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756406,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729322,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3100,
+          "line": 2500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756406,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729323,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1380,
+          "line": -2500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756406,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756407,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729324,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1860,
+          "line": 4500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756407,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000064347,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729325,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1880,
+          "line": -4500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756407,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000025114,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756408,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729326,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1730,
+          "line": 6500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756408,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000064347,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729327,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2040,
+          "line": -6500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756408,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000025114,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756409,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729328,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2380,
+          "line": 5500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756409,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729329,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1600,
+          "line": -5500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756409,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000025114,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756410,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729330,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3600,
+          "line": 500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756410,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000064347,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729331,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1300,
+          "line": -500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756410,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756411,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729332,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3750,
+          "line": -1000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756411,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000064347,
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729333,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1280,
+          "line": 1000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756411,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756412,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729334,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2950,
+          "line": 3000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756412,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729335,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1410,
+          "line": -3000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756412,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756413,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729336,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1340,
+          "line": 16000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756413,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729337,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 3350,
+          "line": -16000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756413,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000025114,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756414,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729338,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1600,
+          "line": 11000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700756414,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000064347,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729339,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2380,
+          "line": -11000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700756414,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700756428,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Air Force - 1st Half",
+        "englishLabel": "Total Points by Air Force Falcons - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364729366,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700756428,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364729367,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700756428,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770353,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717815,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3750,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770353,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000064347,
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717816,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 14000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700770353,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "13/1",
+          "oddsAmerican": "1300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364717817,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1320,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770353,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000025114,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770354,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717818,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1770,
+          "type": "OT_ODD",
+          "betOfferId": 2700770354,
+          "changedDate": "2026-10-06T19:49:59Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717819,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1900,
+          "type": "OT_EVEN",
+          "betOfferId": 2700770354,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770355,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Air Force",
+        "englishLabel": "Total Points by Air Force Falcons - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717820,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1940,
+          "line": 28500,
+          "type": "OT_OVER",
+          "betOfferId": 2700770355,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717821,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1740,
+          "line": 28500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700770355,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770356,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717822,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1820,
+          "line": 5500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770356,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000064347,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717823,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1920,
+          "line": -5500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770356,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000025114,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770357,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Northern Illinois - 1st Half",
+        "englishLabel": "Total Points by Northern Illinois Huskies - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717824,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 8500,
+          "type": "OT_OVER",
+          "betOfferId": 2700770357,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717825,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 8500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700770357,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770358,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Air Force to Score in every Quarter - Regular Time",
+        "englishLabel": "Air Force Falcons to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717830,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2000,
+          "type": "OT_YES",
+          "betOfferId": 2700770358,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717835,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1700,
+          "type": "OT_NO",
+          "betOfferId": 2700770358,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770359,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717836,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1530,
+          "line": 7500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770359,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000064347,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717837,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2430,
+          "line": -7500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770359,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000025114,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770360,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Air Force to score first and win",
+        "englishLabel": "Air Force Falcons to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717840,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1870,
+          "type": "OT_YES",
+          "betOfferId": 2700770360,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717843,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1800,
+          "type": "OT_NO",
+          "betOfferId": 2700770360,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770361,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717844,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770361,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000064347,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717845,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1380,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770361,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000025114,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770362,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Northern Illinois to score first and win",
+        "englishLabel": "Northern Illinois Huskies to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717848,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4900,
+          "type": "OT_YES",
+          "betOfferId": 2700770362,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "390",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717851,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1130,
+          "type": "OT_NO",
+          "betOfferId": 2700770362,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "oddsFractional": "1/8",
+          "oddsAmerican": "-770",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770363,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Northern Illinois to win both halves",
+        "englishLabel": "Northern Illinois Huskies to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717854,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 8500,
+          "type": "OT_YES",
+          "betOfferId": 2700770363,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717857,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1050,
+          "type": "OT_NO",
+          "betOfferId": 2700770363,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "1/20",
+          "oddsAmerican": "-2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770364,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Air Force to win both halves",
+        "englishLabel": "Air Force Falcons to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717860,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2300,
+          "type": "OT_YES",
+          "betOfferId": 2700770364,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717863,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1520,
+          "type": "OT_NO",
+          "betOfferId": 2700770364,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770365,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717864,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2450,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770365,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000064347,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717865,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1470,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770365,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000025114,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700770366,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717866,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1900,
+          "line": 1500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770366,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000064347,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717867,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1850,
+          "line": -1500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770366,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000025114,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770367,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Northern Illinois",
+        "englishLabel": "Total Points by Northern Illinois Huskies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717868,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 19500,
+          "type": "OT_OVER",
+          "betOfferId": 2700770367,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717869,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1840,
+          "line": 19500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700770367,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770368,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Air Force to Score in Both Halves",
+        "englishLabel": "Air Force Falcons to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717872,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1030,
+          "type": "OT_YES",
+          "betOfferId": 2700770368,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717875,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 11000,
+          "type": "OT_NO",
+          "betOfferId": 2700770368,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "10/1",
+          "oddsAmerican": "1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770370,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717878,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2300,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700770370,
+          "changedDate": "2026-10-06T19:49:59Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717879,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1580,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700770370,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770371,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717880,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2200,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700770371,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364717881,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700770371,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770372,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717882,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2080,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700770372,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364717883,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1770,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700770372,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770373,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717884,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700770373,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364717885,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700770373,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770374,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717886,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1320,
+          "line": 16500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770374,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717887,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 3450,
+          "line": -16500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770374,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770375,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717888,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2500,
+          "line": 4500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770375,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000064347,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717889,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1550,
+          "line": -4500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770375,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770376,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717890,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2700,
+          "line": 3500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770376,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717891,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1480,
+          "line": -3500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770376,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000025114,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770377,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717892,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3350,
+          "line": 1500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770377,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000064347,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717893,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1340,
+          "line": -1500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770377,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770378,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717894,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3200,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770378,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000064347,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717895,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 10500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700770378,
+          "changedDate": "2026-10-06T19:49:59Z",
+          "oddsFractional": "19/2",
+          "oddsAmerican": "950",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364717896,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1470,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770378,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000025114,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770379,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717897,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3550,
+          "line": 1000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770379,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717898,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1300,
+          "line": -1000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770379,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770380,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717899,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1290,
+          "line": 17000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770380,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717900,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 3700,
+          "line": -17000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770380,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000025114,
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770381,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717901,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2450,
+          "line": 5000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770381,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000064347,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717902,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1570,
+          "line": -5000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770381,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770382,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364717903,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3300,
+          "line": 2000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700770382,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364717904,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1350,
+          "line": -2000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700770382,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770419,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Air Force - 1st Half",
+        "englishLabel": "Total Points by Air Force Falcons - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364718019,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2700770419,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364718020,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2380,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700770419,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700770421,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364718023,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1820,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700770421,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364718024,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700770421,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776350,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Air Force",
+        "englishLabel": "Total Points by Air Force Falcons - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714884,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1840,
+          "line": 27500,
+          "type": "OT_OVER",
+          "betOfferId": 2700776350,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714885,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1830,
+          "line": 27500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700776350,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776351,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Northern Illinois to Score in every Quarter - Regular Time",
+        "englishLabel": "Northern Illinois Huskies to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714890,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3700,
+          "type": "OT_YES",
+          "betOfferId": 2700776351,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714895,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1220,
+          "type": "OT_NO",
+          "betOfferId": 2700776351,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "11/50",
+          "oddsAmerican": "-455",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776355,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714903,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 12000,
+          "type": "OT_YES",
+          "betOfferId": 2700776355,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714905,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2700776355,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776356,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714906,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2080,
+          "line": 3500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700776356,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000064347,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714907,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1700,
+          "line": -3500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700776356,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000025114,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776357,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Northern Illinois to Score in Both Halves",
+        "englishLabel": "Northern Illinois Huskies to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714910,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1180,
+          "type": "OT_YES",
+          "betOfferId": 2700776357,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-560",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714913,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 4100,
+          "type": "OT_NO",
+          "betOfferId": 2700776357,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776360,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Northern Illinois",
+        "englishLabel": "Total Points by Northern Illinois Huskies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714920,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1730,
+          "line": 18500,
+          "type": "OT_OVER",
+          "betOfferId": 2700776360,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714921,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1950,
+          "line": 18500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700776360,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776363,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714927,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2600,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700776363,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000064347,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714928,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1480,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700776363,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000025114,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776364,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714929,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1890,
+          "line": 2500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700776364,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000064347,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714930,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1850,
+          "line": -2500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700776364,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "participantId": 1000025114,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776365,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714931,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 4800,
+          "participant": "Northern Illinois",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700776365,
+          "changedDate": "2026-10-06T19:49:59Z",
+          "participantId": 1000064347,
+          "oddsFractional": "19/5",
+          "oddsAmerican": "380",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364714932,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 151000,
+          "participant": "Air Force",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700776365,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000025114,
+          "oddsFractional": "150/1",
+          "oddsAmerican": "15000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364714933,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 3850,
+          "participant": "Northern Illinois",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700776365,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000064347,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364714934,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 2320,
+          "participant": "Air Force",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700776365,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000025114,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364714935,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 161000,
+          "participant": "Northern Illinois",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700776365,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000064347,
+          "oddsFractional": "160/1",
+          "oddsAmerican": "16000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364714936,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 4600,
+          "participant": "Air Force",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700776365,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "18/5",
+          "oddsAmerican": "360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776366,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714937,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1600,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700776366,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364714938,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2380,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700776366,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776367,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714941,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 5500,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700776367,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "9/2",
+          "oddsAmerican": "450",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714944,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 34000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700776367,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364714947,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 8000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700776367,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364714950,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 31000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700776367,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364714953,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 81000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700776367,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "80/1",
+          "oddsAmerican": "8000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364714956,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 17000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700776367,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364714959,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 13000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700776367,
+          "changedDate": "2026-10-07T16:18:14Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364714962,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 34000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700776367,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364714965,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 1650,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700776367,
+          "changedDate": "2026-10-06T23:18:29Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776369,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714968,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1640,
+          "line": 10500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700776369,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714969,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 2300,
+          "line": -10500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700776369,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776371,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714972,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1360,
+          "line": 15500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700776371,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714973,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 3200,
+          "line": -15500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700776371,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776372,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714974,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1400,
+          "line": 14500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700776372,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714975,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 3050,
+          "line": -14500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700776372,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776373,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714976,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3600,
+          "line": -500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700776373,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000064347,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714977,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1300,
+          "line": 500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700776373,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776374,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714978,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2060,
+          "line": 7000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700776374,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000064347,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714979,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1780,
+          "line": -7000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700776374,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000025114,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776375,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714980,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1370,
+          "line": 15000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700776375,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714981,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 3150,
+          "line": -15000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700776375,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776376,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714982,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2300,
+          "line": 6000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700776376,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714983,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1640,
+          "line": -6000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700776376,
+          "changedDate": "2026-10-08T13:18:39Z",
+          "participantId": 1000025114,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776377,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364714984,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2630,
+          "line": 4000,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700776377,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000064347,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364714985,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1500,
+          "line": -4000,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700776377,
+          "changedDate": "2026-10-06T23:18:30Z",
+          "participantId": 1000025114,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700776389,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508028,
+      "outcomes": [
+        {
+          "id": 4364715008,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2380,
+          "line": 2500,
+          "participant": "Northern Illinois",
+          "type": "OT_ONE",
+          "betOfferId": 2700776389,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000064347,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364715009,
+          "label": "Air Force",
+          "englishLabel": "Air Force Falcons",
+          "odds": 1540,
+          "line": -2500,
+          "participant": "Air Force",
+          "type": "OT_TWO",
+          "betOfferId": 2700776389,
+          "changedDate": "2026-10-08T13:18:38Z",
+          "participantId": 1000025114,
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     }
@@ -274,7 +5468,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 92,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -286,16 +5480,6 @@
       "state": "NOT_STARTED",
       "participants": [
         {
-          "participantId": 1000025114,
-          "name": "Air Force",
-          "englishName": "Air Force Falcons",
-          "termKey": "air_force_falcons",
-          "scratched": false,
-          "nonRunner": false,
-          "home": false,
-          "participantType": "TEAM"
-        },
-        {
           "participantId": 1000064347,
           "name": "Northern Illinois",
           "englishName": "Northern Illinois Huskies",
@@ -303,6 +5487,16 @@
           "scratched": false,
           "nonRunner": false,
           "home": true,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000025114,
+          "name": "Air Force",
+          "englishName": "Air Force Falcons",
+          "termKey": "air_force_falcons",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
           "participantType": "TEAM"
         }
       ],

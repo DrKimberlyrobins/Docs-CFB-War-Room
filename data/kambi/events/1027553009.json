@@ -1,20 +1,75 @@
 {
-  "generatedAt": "2026-10-05T14:05:38.081Z",
+  "generatedAt": "2026-10-08T22:55:37.791Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
     "id": "1027553009",
-    "name": "UCF @ (19) Oklahoma State",
+    "name": "UCF @ (18) Oklahoma State",
     "away": "UCF",
     "home": "Oklahoma State",
     "start": "2026-10-10T16:00:00Z"
   },
   "counts": {
-    "betOffers": 45,
+    "betOffers": 114,
     "events": 1,
     "prePacks": 2
   },
   "betOffers": [
+    {
+      "id": 2699800146,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4361669801,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1620,
+          "line": 57500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699800146,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361669802,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2330,
+          "line": 57500,
+          "type": "OT_OVER",
+          "betOfferId": 2699800146,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2699800147,
       "closed": "2026-10-10T16:00:00Z",
@@ -35,16 +90,16 @@
       "outcomes": [
         {
           "id": 4361669803,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 1250,
-          "participant": "(19) Oklahoma State",
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1220,
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2699800147,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "1/4",
-          "oddsAmerican": "-400",
+          "oddsFractional": "11/50",
+          "oddsAmerican": "-455",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +108,14 @@
           "id": 4361669804,
           "label": "UCF",
           "englishLabel": "UCF Knights",
-          "odds": 3950,
+          "odds": 4400,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2699800147,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "29/10",
-          "oddsAmerican": "295",
+          "oddsFractional": "17/5",
+          "oddsAmerican": "340",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,6 +125,65 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699800154,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4361669817,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1400,
+          "line": -5000,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2699800154,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361669818,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 2850,
+          "line": 5000,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2699800154,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -93,17 +207,17 @@
       "outcomes": [
         {
           "id": 4361669823,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 1820,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1670,
           "line": -8000,
-          "participant": "(19) Oklahoma State",
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2699800157,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-122",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -112,15 +226,15 @@
           "id": 4361669824,
           "label": "UCF",
           "englishLabel": "UCF Knights",
-          "odds": 2000,
+          "odds": 2230,
           "line": 8000,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2699800157,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "Evens",
-          "oddsAmerican": "100",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -154,13 +268,13 @@
           "id": 4361669827,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2080,
+          "odds": 2120,
           "line": 51500,
           "type": "OT_UNDER",
           "betOfferId": 2699800159,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -169,13 +283,127 @@
           "id": 4361669828,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1770,
+          "odds": 1740,
           "line": 51500,
           "type": "OT_OVER",
           "betOfferId": 2699800159,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-130",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699811462,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4361708494,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1430,
+          "line": -5500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2699811462,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361708495,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 2750,
+          "line": 5500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2699811462,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699811464,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4361708498,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2280,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699811464,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361708499,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2699811464,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -207,17 +435,17 @@
       "outcomes": [
         {
           "id": 4361708500,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 2000,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1830,
           "line": -10000,
-          "participant": "(19) Oklahoma State",
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2699811465,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "Evens",
-          "oddsAmerican": "100",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -226,15 +454,15 @@
           "id": 4361708501,
           "label": "UCF",
           "englishLabel": "UCF Knights",
-          "odds": 1830,
+          "odds": 2000,
           "line": 10000,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2699811465,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -266,17 +494,17 @@
       "outcomes": [
         {
           "id": 4361708504,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 1890,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1730,
           "line": -9000,
-          "participant": "(19) Oklahoma State",
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2699811467,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -285,18 +513,73 @@
           "id": 4361708505,
           "label": "UCF",
           "englishLabel": "UCF Knights",
-          "odds": 1930,
+          "odds": 2120,
           "line": 9000,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2699811467,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699817320,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4361664237,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2380,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699817320,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361664238,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2699817320,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
         }
       ],
       "tags": [
@@ -325,17 +608,17 @@
       "outcomes": [
         {
           "id": 4361664243,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 1780,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1630,
           "line": -7500,
-          "participant": "(19) Oklahoma State",
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2699817323,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-129",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -344,15 +627,15 @@
           "id": 4361664244,
           "label": "UCF",
           "englishLabel": "UCF Knights",
-          "odds": 2060,
+          "odds": 2300,
           "line": 7500,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2699817323,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "21/20",
-          "oddsAmerican": "106",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -384,17 +667,17 @@
       "outcomes": [
         {
           "id": 4361664245,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 1920,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1770,
           "line": -9500,
-          "participant": "(19) Oklahoma State",
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2699817324,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -403,15 +686,15 @@
           "id": 4361664246,
           "label": "UCF",
           "englishLabel": "UCF Knights",
-          "odds": 1900,
+          "odds": 2080,
           "line": 9500,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2699817324,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -419,7 +702,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -444,17 +726,17 @@
       "outcomes": [
         {
           "id": 4361817476,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 2070,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1920,
           "line": -10500,
-          "participant": "(19) Oklahoma State",
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2699845979,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "21/20",
-          "oddsAmerican": "107",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -463,15 +745,15 @@
           "id": 4361817477,
           "label": "UCF",
           "englishLabel": "UCF Knights",
-          "odds": 1770,
+          "odds": 1910,
           "line": 10500,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2699845979,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-130",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -479,6 +761,7 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -503,17 +786,17 @@
       "outcomes": [
         {
           "id": 4361813416,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 2140,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1970,
           "line": -11000,
-          "participant": "(19) Oklahoma State",
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2699866208,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "57/50",
-          "oddsAmerican": "114",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -522,15 +805,15 @@
           "id": 4361813417,
           "label": "UCF",
           "englishLabel": "UCF Knights",
-          "odds": 1730,
+          "odds": 1860,
           "line": 11000,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2699866208,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-137",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -564,13 +847,13 @@
           "id": 4362055321,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1980,
+          "odds": 2020,
           "line": 52500,
           "type": "OT_UNDER",
           "betOfferId": 2699952470,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -579,13 +862,13 @@
           "id": 4362055322,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1850,
+          "odds": 1820,
           "line": 52500,
           "type": "OT_OVER",
           "betOfferId": 2699952470,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -617,17 +900,17 @@
       "outcomes": [
         {
           "id": 4362077318,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 2180,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1980,
           "line": -11500,
-          "participant": "(19) Oklahoma State",
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2699963802,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "59/50",
-          "oddsAmerican": "118",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -636,15 +919,15 @@
           "id": 4362077319,
           "label": "UCF",
           "englishLabel": "UCF Knights",
-          "odds": 1700,
+          "odds": 1840,
           "line": 11500,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2699963802,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-143",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -678,13 +961,13 @@
           "id": 4362154672,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1890,
+          "odds": 1930,
           "line": 53500,
           "type": "OT_UNDER",
           "betOfferId": 2699966346,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -693,13 +976,13 @@
           "id": 4362154673,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1930,
+          "odds": 1890,
           "line": 53500,
           "type": "OT_OVER",
           "betOfferId": 2699966346,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -734,13 +1017,13 @@
           "id": 4362315137,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1700,
+          "odds": 1740,
           "line": 55500,
           "type": "OT_UNDER",
           "betOfferId": 2700002739,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-143",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -749,13 +1032,13 @@
           "id": 4362315138,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2170,
+          "odds": 2120,
           "line": 55500,
           "type": "OT_OVER",
           "betOfferId": 2700002739,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "23/20",
-          "oddsAmerican": "117",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -789,13 +1072,13 @@
           "id": 4362315139,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1930,
+          "odds": 1970,
           "line": 53000,
           "type": "OT_UNDER",
           "betOfferId": 2700002740,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -804,13 +1087,13 @@
           "id": 4362315140,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1890,
+          "odds": 1850,
           "line": 53000,
           "type": "OT_OVER",
           "betOfferId": 2700002740,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -844,13 +1127,13 @@
           "id": 4362315141,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1840,
+          "odds": 1880,
           "line": 54000,
           "type": "OT_UNDER",
           "betOfferId": 2700002741,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -859,13 +1142,13 @@
           "id": 4362315142,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1980,
+          "odds": 1940,
           "line": 54000,
           "type": "OT_OVER",
           "betOfferId": 2700002741,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -897,17 +1180,17 @@
       "outcomes": [
         {
           "id": 4362315143,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 1700,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1550,
           "line": -7000,
-          "participant": "(19) Oklahoma State",
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700002742,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-143",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -916,15 +1199,15 @@
           "id": 4362315144,
           "label": "UCF",
           "englishLabel": "UCF Knights",
-          "odds": 2180,
+          "odds": 2430,
           "line": 7000,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700002742,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "59/50",
-          "oddsAmerican": "118",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -957,12 +1240,12 @@
           "id": 4362315147,
           "label": "1/1",
           "englishLabel": "1/1",
-          "odds": 1420,
+          "odds": 1350,
           "type": "OT_ONE_ONE",
           "betOfferId": 2700002743,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "21/50",
-          "oddsAmerican": "-240",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -971,12 +1254,12 @@
           "id": 4362315150,
           "label": "1/X",
           "englishLabel": "1/X",
-          "odds": 31000,
+          "odds": 34000,
           "type": "OT_ONE_CROSS",
           "betOfferId": 2700002743,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "30/1",
-          "oddsAmerican": "3000",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -985,12 +1268,12 @@
           "id": 4362315153,
           "label": "1/2",
           "englishLabel": "1/2",
-          "odds": 12500,
+          "odds": 13000,
           "type": "OT_ONE_TWO",
           "betOfferId": 2700002743,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "23/2",
-          "oddsAmerican": "1150",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1002,7 +1285,7 @@
           "odds": 16000,
           "type": "OT_CROSS_ONE",
           "betOfferId": 2700002743,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "oddsFractional": "15/1",
           "oddsAmerican": "1500",
           "status": "OPEN",
@@ -1013,12 +1296,12 @@
           "id": 4362315159,
           "label": "X/X",
           "englishLabel": "X/X",
-          "odds": 67000,
+          "odds": 76000,
           "type": "OT_CROSS_CROSS",
           "betOfferId": 2700002743,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "66/1",
-          "oddsAmerican": "6600",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "75/1",
+          "oddsAmerican": "7500",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 4
@@ -1027,12 +1310,12 @@
           "id": 4362315162,
           "label": "X/2",
           "englishLabel": "X/2",
-          "odds": 31000,
+          "odds": 35000,
           "type": "OT_CROSS_TWO",
           "betOfferId": 2700002743,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "30/1",
-          "oddsAmerican": "3000",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "34/1",
+          "oddsAmerican": "3400",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 5
@@ -1041,12 +1324,12 @@
           "id": 4362315165,
           "label": "2/1",
           "englishLabel": "2/1",
-          "odds": 6100,
+          "odds": 6400,
           "type": "OT_TWO_ONE",
           "betOfferId": 2700002743,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "5/1",
-          "oddsAmerican": "510",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "27/5",
+          "oddsAmerican": "540",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 6
@@ -1055,12 +1338,12 @@
           "id": 4362315168,
           "label": "2/X",
           "englishLabel": "2/X",
-          "odds": 29000,
+          "odds": 34000,
           "type": "OT_TWO_CROSS",
           "betOfferId": 2700002743,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "28/1",
-          "oddsAmerican": "2800",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 7
@@ -1069,12 +1352,12 @@
           "id": 4362315171,
           "label": "2/2",
           "englishLabel": "2/2",
-          "odds": 6000,
+          "odds": 6750,
           "type": "OT_TWO_TWO",
           "betOfferId": 2700002743,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "5/1",
-          "oddsAmerican": "500",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "23/4",
+          "oddsAmerican": "575",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 8
@@ -1113,7 +1396,7 @@
           "participant": "UCF",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700002744,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
           "oddsFractional": "13/2",
           "oddsAmerican": "650",
@@ -1129,14 +1412,14 @@
           "id": 4362315173,
           "label": "UCF Safety",
           "englishLabel": "UCF Knights Safety",
-          "odds": 101000,
+          "odds": 91000,
           "participant": "UCF",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700002744,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "100/1",
-          "oddsAmerican": "10000",
+          "oddsFractional": "90/1",
+          "oddsAmerican": "9000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1147,16 +1430,16 @@
         },
         {
           "id": 4362315174,
-          "label": "(19) Oklahoma State Touchdown",
-          "englishLabel": "(19) Oklahoma State Cowboys Touchdown",
-          "odds": 2140,
-          "participant": "(19) Oklahoma State",
+          "label": "(18) Oklahoma State Touchdown",
+          "englishLabel": "(18) Oklahoma State Cowboys Touchdown",
+          "odds": 2050,
+          "participant": "(18) Oklahoma State",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700002744,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "57/50",
-          "oddsAmerican": "114",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1167,16 +1450,16 @@
         },
         {
           "id": 4362315175,
-          "label": "(19) Oklahoma State Field Goal",
-          "englishLabel": "(19) Oklahoma State Cowboys Field Goal",
-          "odds": 6100,
-          "participant": "(19) Oklahoma State",
+          "label": "(18) Oklahoma State Field Goal",
+          "englishLabel": "(18) Oklahoma State Cowboys Field Goal",
+          "odds": 6000,
+          "participant": "(18) Oklahoma State",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700002744,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
           "oddsFractional": "5/1",
-          "oddsAmerican": "510",
+          "oddsAmerican": "500",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1187,16 +1470,16 @@
         },
         {
           "id": 4362315176,
-          "label": "(19) Oklahoma State Safety",
-          "englishLabel": "(19) Oklahoma State Cowboys Safety",
-          "odds": 81000,
-          "participant": "(19) Oklahoma State",
+          "label": "(18) Oklahoma State Safety",
+          "englishLabel": "(18) Oklahoma State Cowboys Safety",
+          "odds": 91000,
+          "participant": "(18) Oklahoma State",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700002744,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "80/1",
-          "oddsAmerican": "8000",
+          "oddsFractional": "90/1",
+          "oddsAmerican": "9000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1209,14 +1492,14 @@
           "id": 4362315177,
           "label": "UCF Touchdown",
           "englishLabel": "UCF Knights Touchdown",
-          "odds": 3150,
+          "odds": 3300,
           "participant": "UCF",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700002744,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "43/20",
-          "oddsAmerican": "215",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1228,6 +1511,61 @@
       ],
       "tags": [
         "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700031022,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4362321104,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1700,
+          "line": 56000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700031022,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362321105,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2180,
+          "line": 56000,
+          "type": "OT_OVER",
+          "betOfferId": 2700031022,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -1253,14 +1591,14 @@
           "id": 4362321106,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1270,
-          "participant": "(19) Oklahoma State",
+          "odds": 1230,
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700031023,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "27/100",
-          "oddsAmerican": "-375",
+          "oddsFractional": "2/9",
+          "oddsAmerican": "-435",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1269,12 +1607,12 @@
           "id": 4362321107,
           "label": "X",
           "englishLabel": "X",
-          "odds": 16000,
+          "odds": 17000,
           "type": "OT_CROSS",
           "betOfferId": 2700031023,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "15/1",
-          "oddsAmerican": "1500",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1283,14 +1621,14 @@
           "id": 4362321108,
           "label": "2",
           "englishLabel": "2",
-          "odds": 4200,
+          "odds": 4600,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700031023,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "16/5",
-          "oddsAmerican": "320",
+          "oddsFractional": "18/5",
+          "oddsAmerican": "360",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1326,14 +1664,14 @@
           "id": 4362321109,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1550,
-          "participant": "(19) Oklahoma State",
+          "odds": 1500,
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700031024,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "11/20",
-          "oddsAmerican": "-182",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 0
@@ -1342,14 +1680,14 @@
           "id": 4362321110,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2350,
+          "odds": 2450,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700031024,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "27/20",
-          "oddsAmerican": "135",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 1
@@ -1382,13 +1720,13 @@
           "id": 4362321111,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2020,
+          "odds": 2070,
           "line": 52000,
           "type": "OT_UNDER",
           "betOfferId": 2700031025,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1397,13 +1735,13 @@
           "id": 4362321112,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1800,
+          "odds": 1770,
           "line": 52000,
           "type": "OT_OVER",
           "betOfferId": 2700031025,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-125",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1437,13 +1775,13 @@
           "id": 4362306158,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1750,
+          "odds": 1780,
           "line": 55000,
           "type": "OT_UNDER",
           "betOfferId": 2700039334,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-134",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1452,13 +1790,13 @@
           "id": 4362306159,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2100,
+          "odds": 2060,
           "line": 55000,
           "type": "OT_OVER",
           "betOfferId": 2700039334,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1495,14 +1833,14 @@
           "id": 4362306154,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1580,
-          "participant": "(19) Oklahoma State",
+          "odds": 1540,
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700039335,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "4/7",
-          "oddsAmerican": "-175",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 0
@@ -1511,14 +1849,14 @@
           "id": 4362306155,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2250,
+          "odds": 2350,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700039335,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "5/4",
-          "oddsAmerican": "125",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 1
@@ -1549,17 +1887,17 @@
       "outcomes": [
         {
           "id": 4362306156,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 1870,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1720,
           "line": -8500,
-          "participant": "(19) Oklahoma State",
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700039336,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1568,15 +1906,15 @@
           "id": 4362306157,
           "label": "UCF",
           "englishLabel": "UCF Knights",
-          "odds": 1950,
+          "odds": 2140,
           "line": 8500,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700039336,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1593,8 +1931,8 @@
       "closed": "2026-10-10T16:00:00Z",
       "criterion": {
         "id": 1001159692,
-        "label": "Total Points by (19) Oklahoma State",
-        "englishLabel": "Total Points by (19) Oklahoma State Cowboys - Including Overtime",
+        "label": "Total Points by (18) Oklahoma State",
+        "englishLabel": "Total Points by (18) Oklahoma State Cowboys - Including Overtime",
         "order": [],
         "lifetime": "FULL_TIME_OVERTIME"
       },
@@ -1609,13 +1947,13 @@
           "id": 4362306160,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1930,
+          "odds": 1810,
           "line": 31500,
           "type": "OT_OVER",
           "betOfferId": 2700039337,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1624,13 +1962,13 @@
           "id": 4362306161,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1810,
+          "odds": 1930,
           "line": 31500,
           "type": "OT_UNDER",
           "betOfferId": 2700039337,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-124",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1638,7 +1976,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -1664,13 +2001,13 @@
           "id": 4362306162,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1890,
+          "odds": 1980,
           "line": 21500,
           "type": "OT_OVER",
           "betOfferId": 2700039338,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1679,13 +2016,13 @@
           "id": 4362306163,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1850,
+          "odds": 1770,
           "line": 21500,
           "type": "OT_UNDER",
           "betOfferId": 2700039338,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1693,7 +2030,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -1720,13 +2056,13 @@
           "id": 4362306164,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1800,
+          "odds": 1840,
           "line": 54500,
           "type": "OT_UNDER",
           "betOfferId": 2700039339,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-125",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1735,13 +2071,13 @@
           "id": 4362306165,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2020,
+          "odds": 1980,
           "line": 54500,
           "type": "OT_OVER",
           "betOfferId": 2700039339,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1758,8 +2094,8 @@
       "closed": "2026-10-10T16:00:00Z",
       "criterion": {
         "id": 1002393703,
-        "label": "(19) Oklahoma State to Score in every Quarter - Regular Time",
-        "englishLabel": "(19) Oklahoma State Cowboys to Score in every Quarter - Regular Time",
+        "label": "(18) Oklahoma State to Score in every Quarter - Regular Time",
+        "englishLabel": "(18) Oklahoma State Cowboys to Score in every Quarter - Regular Time",
         "order": []
       },
       "betOfferType": {
@@ -1773,12 +2109,12 @@
           "id": 4362991217,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 2180,
+          "odds": 2070,
           "type": "OT_YES",
           "betOfferId": 2700214414,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "59/50",
-          "oddsAmerican": "118",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1787,12 +2123,12 @@
           "id": 4362991222,
           "label": "No",
           "englishLabel": "No",
-          "odds": 1630,
+          "odds": 1700,
           "type": "OT_NO",
           "betOfferId": 2700214414,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "8/13",
-          "oddsAmerican": "-159",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1828,12 +2164,12 @@
           "id": 4362991227,
           "label": "X",
           "englishLabel": "X",
-          "odds": 2630,
+          "odds": 2850,
           "type": "OT_CROSS",
           "betOfferId": 2700214417,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "13/8",
-          "oddsAmerican": "163",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1842,14 +2178,14 @@
           "id": 4362991228,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1740,
-          "participant": "(19) Oklahoma State",
+          "odds": 1630,
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700214417,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-136",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1858,14 +2194,14 @@
           "id": 4362991229,
           "label": "2",
           "englishLabel": "2",
-          "odds": 6000,
+          "odds": 6500,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700214417,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "5/1",
-          "oddsAmerican": "500",
+          "oddsFractional": "11/2",
+          "oddsAmerican": "550",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1897,13 +2233,13 @@
           "id": 4362997136,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1920,
+          "odds": 1860,
           "line": 27500,
           "type": "OT_OVER",
           "betOfferId": 2700217325,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1912,13 +2248,13 @@
           "id": 4362997137,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1830,
+          "odds": 1890,
           "line": 27500,
           "type": "OT_UNDER",
           "betOfferId": 2700217325,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1951,12 +2287,12 @@
           "id": 4362997140,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 1180,
+          "odds": 1200,
           "type": "OT_YES",
           "betOfferId": 2700217326,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "1/6",
-          "oddsAmerican": "-560",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-500",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1965,12 +2301,12 @@
           "id": 4362997143,
           "label": "No",
           "englishLabel": "No",
-          "odds": 4600,
+          "odds": 4250,
           "type": "OT_NO",
           "betOfferId": 2700217326,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "18/5",
-          "oddsAmerican": "360",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "13/4",
+          "oddsAmerican": "325",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2004,14 +2340,14 @@
           "id": 4362997144,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1430,
-          "participant": "(19) Oklahoma State",
+          "odds": 1380,
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700217327,
-          "changedDate": "2026-10-05T12:46:22Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "21/50",
-          "oddsAmerican": "-235",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2020,21 +2356,22 @@
           "id": 4362997145,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2750,
+          "odds": 2950,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700217327,
-          "changedDate": "2026-10-05T12:46:22Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "7/4",
-          "oddsAmerican": "175",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
         }
       ],
       "tags": [
-        "OFFERED_PREMATCH"
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2060,13 +2397,13 @@
           "id": 4362997146,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2160,
+          "odds": 2200,
           "line": 51000,
           "type": "OT_UNDER",
           "betOfferId": 2700217328,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "23/20",
-          "oddsAmerican": "116",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2075,13 +2412,13 @@
           "id": 4362997147,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1710,
+          "odds": 1680,
           "line": 51000,
           "type": "OT_OVER",
           "betOfferId": 2700217328,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-141",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2118,12 +2455,12 @@
           "id": 4362997148,
           "label": "X",
           "englishLabel": "X",
-          "odds": 1560,
+          "odds": 1660,
           "type": "OT_CROSS",
           "betOfferId": 2700217329,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "11/20",
-          "oddsAmerican": "-180",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2132,14 +2469,14 @@
           "id": 4362997149,
           "label": "1",
           "englishLabel": "1",
-          "odds": 2600,
-          "participant": "(19) Oklahoma State",
+          "odds": 2320,
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700217329,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "8/5",
-          "oddsAmerican": "160",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2148,14 +2485,14 @@
           "id": 4362997150,
           "label": "2",
           "englishLabel": "2",
-          "odds": 10500,
+          "odds": 11000,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700217329,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "19/2",
-          "oddsAmerican": "950",
+          "oddsFractional": "10/1",
+          "oddsAmerican": "1000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2188,12 +2525,12 @@
           "id": 4362997151,
           "label": "Odd",
           "englishLabel": "Odd",
-          "odds": 1770,
+          "odds": 1790,
           "type": "OT_ODD",
           "betOfferId": 2700217330,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-130",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2202,12 +2539,12 @@
           "id": 4362997152,
           "label": "Even",
           "englishLabel": "Even",
-          "odds": 2050,
+          "odds": 2020,
           "type": "OT_EVEN",
           "betOfferId": 2700217330,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "21/20",
-          "oddsAmerican": "105",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2238,13 +2575,13 @@
           "id": 4362997155,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2040,
+          "odds": 2100,
           "line": 10500,
           "type": "OT_OVER",
           "betOfferId": 2700217332,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "26/25",
-          "oddsAmerican": "104",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2253,13 +2590,13 @@
           "id": 4362997156,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1710,
+          "odds": 1670,
           "line": 10500,
           "type": "OT_UNDER",
           "betOfferId": 2700217332,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-141",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2292,14 +2629,14 @@
           "id": 4362997157,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1340,
-          "participant": "(19) Oklahoma State",
+          "odds": 1290,
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700217333,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "1/3",
-          "oddsAmerican": "-295",
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2308,14 +2645,14 @@
           "id": 4362997158,
           "label": "2",
           "englishLabel": "2",
-          "odds": 3200,
+          "odds": 3500,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700217333,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "11/5",
-          "oddsAmerican": "220",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2327,69 +2664,12 @@
       "cashOutStatus": "ENABLED"
     },
     {
-      "id": 2700217340,
-      "closed": "2026-10-10T16:00:00Z",
-      "criterion": {
-        "id": 1001377300,
-        "label": "Total Points - Quarter 1",
-        "englishLabel": "Total Points - Quarter 1",
-        "order": [
-          1
-        ],
-        "occurrenceType": "POINTS"
-      },
-      "betOfferType": {
-        "id": 6,
-        "name": "Over/Under",
-        "englishName": "Over/Under"
-      },
-      "eventId": 1027553009,
-      "outcomes": [
-        {
-          "id": 4362997171,
-          "label": "Over",
-          "englishLabel": "Over",
-          "odds": 1900,
-          "line": 10500,
-          "type": "OT_OVER",
-          "betOfferId": 2700217340,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 0
-        },
-        {
-          "id": 4362997172,
-          "label": "Under",
-          "englishLabel": "Under",
-          "odds": 1840,
-          "line": 10500,
-          "type": "OT_UNDER",
-          "betOfferId": 2700217340,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 1
-        }
-      ],
-      "tags": [
-        "OFFERED_PREMATCH",
-        "MAIN_LINE",
-        "BET_BUILDER"
-      ],
-      "cashOutStatus": "ENABLED"
-    },
-    {
       "id": 2700245347,
       "closed": "2026-10-10T16:00:00Z",
       "criterion": {
         "id": 1001935119,
-        "label": "Total Points by (19) Oklahoma State - 1st Half",
-        "englishLabel": "Total Points by (19) Oklahoma State Cowboys - 1st Half",
+        "label": "Total Points by (18) Oklahoma State - 1st Half",
+        "englishLabel": "Total Points by (18) Oklahoma State Cowboys - 1st Half",
         "order": []
       },
       "betOfferType": {
@@ -2403,13 +2683,13 @@
           "id": 4362988334,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1830,
+          "odds": 1720,
           "line": 16500,
           "type": "OT_OVER",
           "betOfferId": 2700245347,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2418,13 +2698,13 @@
           "id": 4362988335,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1890,
+          "odds": 2020,
           "line": 16500,
           "type": "OT_UNDER",
           "betOfferId": 2700245347,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2461,12 +2741,12 @@
           "id": 4362988336,
           "label": "X",
           "englishLabel": "X",
-          "odds": 4900,
+          "odds": 5250,
           "type": "OT_CROSS",
           "betOfferId": 2700245348,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "19/5",
-          "oddsAmerican": "390",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "17/4",
+          "oddsAmerican": "425",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2475,14 +2755,14 @@
           "id": 4362988337,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1450,
-          "participant": "(19) Oklahoma State",
+          "odds": 1380,
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700245348,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "4/9",
-          "oddsAmerican": "-225",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2491,14 +2771,14 @@
           "id": 4362988338,
           "label": "2",
           "englishLabel": "2",
-          "odds": 4400,
+          "odds": 4800,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700245348,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "17/5",
-          "oddsAmerican": "340",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "380",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2506,67 +2786,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH"
-      ],
-      "cashOutStatus": "ENABLED"
-    },
-    {
-      "id": 2700245349,
-      "closed": "2026-10-10T16:00:00Z",
-      "criterion": {
-        "id": 1001377296,
-        "label": "Spread - Quarter 1",
-        "englishLabel": "Handicap - Quarter 1",
-        "order": [
-          1
-        ],
-        "occurrenceType": "POINTS"
-      },
-      "betOfferType": {
-        "id": 1,
-        "name": "Handicap",
-        "englishName": "Handicap"
-      },
-      "eventId": 1027553009,
-      "outcomes": [
-        {
-          "id": 4362988339,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 1800,
-          "line": -2500,
-          "participant": "(19) Oklahoma State",
-          "type": "OT_ONE",
-          "betOfferId": 2700245349,
-          "changedDate": "2026-10-05T12:46:14Z",
-          "participantId": 1000084863,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-125",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 0
-        },
-        {
-          "id": 4362988340,
-          "label": "UCF",
-          "englishLabel": "UCF Knights",
-          "odds": 1920,
-          "line": 2500,
-          "participant": "UCF",
-          "type": "OT_TWO",
-          "betOfferId": 2700245349,
-          "changedDate": "2026-10-05T12:46:14Z",
-          "participantId": 1000437762,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 1
-        }
-      ],
-      "tags": [
-        "OFFERED_PREMATCH",
-        "MAIN_LINE",
-        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2595,12 +2814,12 @@
           "id": 4362988341,
           "label": "X",
           "englishLabel": "X",
-          "odds": 16000,
+          "odds": 18000,
           "type": "OT_CROSS",
           "betOfferId": 2700245350,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "15/1",
-          "oddsAmerican": "1500",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2609,14 +2828,14 @@
           "id": 4362988342,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1320,
-          "participant": "(19) Oklahoma State",
+          "odds": 1260,
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700245350,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "8/25",
-          "oddsAmerican": "-315",
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2625,14 +2844,14 @@
           "id": 4362988343,
           "label": "2",
           "englishLabel": "2",
-          "odds": 3350,
+          "odds": 3700,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700245350,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "47/20",
-          "oddsAmerican": "235",
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2663,12 +2882,12 @@
           "id": 4362988348,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 4600,
+          "odds": 4800,
           "type": "OT_YES",
           "betOfferId": 2700245351,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "18/5",
-          "oddsAmerican": "360",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "380",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2677,12 +2896,12 @@
           "id": 4362988353,
           "label": "No",
           "englishLabel": "No",
-          "odds": 1170,
+          "odds": 1160,
           "type": "OT_NO",
           "betOfferId": 2700245351,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "1/6",
-          "oddsAmerican": "-590",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "2/13",
+          "oddsAmerican": "-625",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2718,12 +2937,12 @@
           "id": 4362988354,
           "label": "X",
           "englishLabel": "X",
-          "odds": 46000,
+          "odds": 51000,
           "type": "OT_CROSS",
           "betOfferId": 2700245352,
-          "changedDate": "2026-10-05T12:46:05Z",
-          "oddsFractional": "45/1",
-          "oddsAmerican": "4500",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "50/1",
+          "oddsAmerican": "5000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2732,14 +2951,14 @@
           "id": 4362988355,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1320,
-          "participant": "(19) Oklahoma State",
+          "odds": 1260,
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700245352,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "8/25",
-          "oddsAmerican": "-315",
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2748,14 +2967,14 @@
           "id": 4362988356,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2950,
+          "odds": 3250,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700245352,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
-          "oddsFractional": "39/20",
-          "oddsAmerican": "195",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2785,17 +3004,17 @@
       "outcomes": [
         {
           "id": 4362988361,
-          "label": "(19) Oklahoma State",
-          "englishLabel": "(19) Oklahoma State Cowboys",
-          "odds": 1930,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1800,
           "line": -6500,
-          "participant": "(19) Oklahoma State",
+          "participant": "(18) Oklahoma State",
           "type": "OT_ONE",
           "betOfferId": 2700245355,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000084863,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2804,15 +3023,3674 @@
           "id": 4362988362,
           "label": "UCF",
           "englishLabel": "UCF Knights",
-          "odds": 1790,
+          "odds": 1920,
           "line": 6500,
           "participant": "UCF",
           "type": "OT_TWO",
           "betOfferId": 2700245355,
-          "changedDate": "2026-10-05T12:46:05Z",
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700245369,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4362988433,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 11500,
+          "type": "OT_OVER",
+          "betOfferId": 2700245369,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362988434,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 11500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700245369,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313263,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363332987,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2120,
+          "line": -13500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700313263,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363332988,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1730,
+          "line": 13500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700313263,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313265,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363332990,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 59000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700313265,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363332992,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2550,
+          "line": 59000,
+          "type": "OT_OVER",
+          "betOfferId": 2700313265,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313266,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363332989,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1570,
+          "line": 58000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700313266,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363332991,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2430,
+          "line": 58000,
+          "type": "OT_OVER",
+          "betOfferId": 2700313266,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313267,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363332995,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1490,
+          "line": 59500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700313267,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363332996,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2630,
+          "line": 59500,
+          "type": "OT_OVER",
+          "betOfferId": 2700313267,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313268,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363332993,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 49000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700313268,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363332994,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1550,
+          "line": 49000,
+          "type": "OT_OVER",
+          "betOfferId": 2700313268,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313269,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363333003,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2880,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700313269,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363333004,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1410,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700313269,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313270,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363333005,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2600,
+          "line": 48000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700313270,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363333006,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 48000,
+          "type": "OT_OVER",
+          "betOfferId": 2700313270,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313271,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363333007,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2650,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700313271,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363333008,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1480,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700313271,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313272,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363333009,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2950,
+          "line": 46000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700313272,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363333010,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1400,
+          "line": 46000,
+          "type": "OT_OVER",
+          "betOfferId": 2700313272,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313273,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363333011,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2450,
+          "line": -16500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700313273,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363333012,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1520,
+          "line": 16500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700313273,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313274,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363333013,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1410,
+          "line": 61000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700313274,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363333014,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2880,
+          "line": 61000,
+          "type": "OT_OVER",
+          "betOfferId": 2700313274,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313275,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363333015,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2100,
+          "line": -13000,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700313275,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363333016,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1760,
+          "line": 13000,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700313275,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313276,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363333017,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2020,
+          "line": -12000,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700313276,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363333018,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1810,
+          "line": 12000,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700313276,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313277,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363333019,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1460,
+          "line": 60000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700313277,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363333020,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2700,
+          "line": 60000,
+          "type": "OT_OVER",
+          "betOfferId": 2700313277,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313278,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363333021,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1450,
+          "line": -6000,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700313278,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363333022,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 2650,
+          "line": 6000,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700313278,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313279,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363333023,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2800,
+          "line": 47000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700313279,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363333024,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1430,
+          "line": 47000,
+          "type": "OT_OVER",
+          "betOfferId": 2700313279,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700313315,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363333110,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2700,
+          "line": -17000,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700313315,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363333111,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1420,
+          "line": 17000,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700313315,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700327617,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363338197,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1550,
+          "line": 58500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700327617,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363338198,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2480,
+          "line": 58500,
+          "type": "OT_OVER",
+          "betOfferId": 2700327617,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700327618,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363338199,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2500,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700327618,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363338200,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1530,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700327618,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700327619,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363338201,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2180,
+          "line": -14000,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700327619,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363338202,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1670,
+          "line": 14000,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700327619,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700327621,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363338209,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700327621,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363338210,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2230,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2700327621,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700327622,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363338211,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1340,
+          "line": -4000,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700327622,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363338212,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 3050,
+          "line": 4000,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700327622,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700327623,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363338213,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2060,
+          "line": -12500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700327623,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363338214,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1780,
+          "line": 12500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700327623,
+          "changedDate": "2026-10-08T17:03:42Z",
           "participantId": 1000437762,
           "oddsFractional": "10/13",
-          "oddsAmerican": "-127",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700327624,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363338215,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1250,
+          "line": -3000,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700327624,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363338216,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 3450,
+          "line": 3000,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700327624,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700327625,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363338217,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2280,
+          "line": -15000,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700327625,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363338218,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1600,
+          "line": 15000,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700327625,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700327626,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363338219,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1320,
+          "line": -3500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700327626,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363338220,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 3150,
+          "line": 3500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700327626,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700327667,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363338315,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3200,
+          "line": 45000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700327667,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363338316,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1350,
+          "line": 45000,
+          "type": "OT_OVER",
+          "betOfferId": 2700327667,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700327683,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363338357,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1370,
+          "line": 62000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700327683,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363338358,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3100,
+          "line": 62000,
+          "type": "OT_OVER",
+          "betOfferId": 2700327683,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700330630,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363347261,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3000,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700330630,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363347262,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1380,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700330630,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700330631,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363347263,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2250,
+          "line": -14500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700330631,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363347264,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1650,
+          "line": 14500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700330631,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700330632,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363347265,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2380,
+          "line": -16000,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700330632,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363347266,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1550,
+          "line": 16000,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700330632,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700330633,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363347267,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2330,
+          "line": -15500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700330633,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363347268,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1580,
+          "line": 15500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700330633,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700330634,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363347269,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1380,
+          "line": -4500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700330634,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363347271,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 2900,
+          "line": 4500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700330634,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700330635,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363347270,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1450,
+          "line": 60500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700330635,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363347272,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2750,
+          "line": 60500,
+          "type": "OT_OVER",
+          "betOfferId": 2700330635,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700330636,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363347273,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1650,
+          "line": 57000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700330636,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363347274,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2280,
+          "line": 57000,
+          "type": "OT_OVER",
+          "betOfferId": 2700330636,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700330637,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363347275,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 1500,
+          "line": -6500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2700330637,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363347276,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 2550,
+          "line": 6500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2700330637,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700330638,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363347277,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2350,
+          "line": 50000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700330638,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363347278,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1610,
+          "line": 50000,
+          "type": "OT_OVER",
+          "betOfferId": 2700330638,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700330639,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4363347279,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1400,
+          "line": 61500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700330639,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363347280,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2950,
+          "line": 61500,
+          "type": "OT_OVER",
+          "betOfferId": 2700330639,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701041491,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4365728855,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2850,
+          "line": -17500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2701041491,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365728856,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1400,
+          "line": 17500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2701041491,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701081128,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (18) Oklahoma State",
+        "englishLabel": "Total Points by (18) Oklahoma State Cowboys - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4365749592,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1860,
+          "line": 32500,
+          "type": "OT_OVER",
+          "betOfferId": 2701081128,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365749593,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1880,
+          "line": 32500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701081128,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701081129,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4365749594,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 2020,
+          "line": -3500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2701081129,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000084863,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365749595,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1740,
+          "line": 3500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2701081129,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "participantId": 1000437762,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701254694,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4366405080,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 3050,
+          "line": -18000,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2701254694,
+          "changedDate": "2026-10-08T17:41:14Z",
+          "participantId": 1000084863,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366405081,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1340,
+          "line": 18000,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2701254694,
+          "changedDate": "2026-10-08T17:41:12Z",
+          "participantId": 1000437762,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701260666,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4366408136,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 3200,
+          "line": -18500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2701260666,
+          "changedDate": "2026-10-08T17:41:15Z",
+          "participantId": 1000084863,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366408137,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1300,
+          "line": 18500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2701260666,
+          "changedDate": "2026-10-08T17:41:15Z",
+          "participantId": 1000437762,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701294903,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by UCF",
+        "englishLabel": "Total Points by UCF Knights - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4366385169,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2701294903,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366385170,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701294903,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701476766,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367165313,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1350,
+          "line": 62500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701476766,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367165314,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3150,
+          "line": 62500,
+          "type": "OT_OVER",
+          "betOfferId": 2701476766,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701476767,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367165315,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1320,
+          "line": 63500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701476767,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367165316,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3350,
+          "line": 63500,
+          "type": "OT_OVER",
+          "betOfferId": 2701476767,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701476768,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367165317,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1330,
+          "line": 63000,
+          "type": "OT_UNDER",
+          "betOfferId": 2701476768,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367165318,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3300,
+          "line": 63000,
+          "type": "OT_OVER",
+          "betOfferId": 2701476768,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701476769,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367165319,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3250,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701476769,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367165320,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1340,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2701476769,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701476770,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367165321,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 3300,
+          "line": -19000,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2701476770,
+          "changedDate": "2026-10-08T17:41:18Z",
+          "participantId": 1000084863,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367165322,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1280,
+          "line": 19000,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2701476770,
+          "changedDate": "2026-10-08T17:41:18Z",
+          "participantId": 1000437762,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701485752,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367124843,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3500,
+          "line": 44000,
+          "type": "OT_UNDER",
+          "betOfferId": 2701485752,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367124844,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1300,
+          "line": 44000,
+          "type": "OT_OVER",
+          "betOfferId": 2701485752,
+          "changedDate": "2026-10-08T17:03:42Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701485753,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367124845,
+          "label": "(18) Oklahoma State",
+          "englishLabel": "(18) Oklahoma State Cowboys",
+          "odds": 3400,
+          "line": -19500,
+          "participant": "(18) Oklahoma State",
+          "type": "OT_ONE",
+          "betOfferId": 2701485753,
+          "changedDate": "2026-10-08T17:41:20Z",
+          "participantId": 1000084863,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367124846,
+          "label": "UCF",
+          "englishLabel": "UCF Knights",
+          "odds": 1260,
+          "line": 19500,
+          "participant": "UCF",
+          "type": "OT_TWO",
+          "betOfferId": 2701485753,
+          "changedDate": "2026-10-08T17:41:20Z",
+          "participantId": 1000437762,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701505855,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by UCF",
+        "englishLabel": "Total Points by UCF Knights - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367188385,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1550,
+          "line": 18500,
+          "type": "OT_OVER",
+          "betOfferId": 2701505855,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367188386,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2350,
+          "line": 18500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701505855,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701505856,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (18) Oklahoma State",
+        "englishLabel": "Total Points by (18) Oklahoma State Cowboys - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367188387,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 29500,
+          "type": "OT_OVER",
+          "betOfferId": 2701505856,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367188388,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 29500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701505856,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701505857,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (18) Oklahoma State",
+        "englishLabel": "Total Points by (18) Oklahoma State Cowboys - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367188389,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1980,
+          "line": 33500,
+          "type": "OT_OVER",
+          "betOfferId": 2701505857,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367188390,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1780,
+          "line": 33500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701505857,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701505858,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367188395,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4500,
+          "type": "OT_YES",
+          "betOfferId": 2701505858,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367188400,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1160,
+          "type": "OT_NO",
+          "betOfferId": 2701505858,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "2/13",
+          "oddsAmerican": "-625",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701526137,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by UCF",
+        "englishLabel": "Total Points by UCF Knights - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367167372,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 17500,
+          "type": "OT_OVER",
+          "betOfferId": 2701526137,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367167373,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 17500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701526137,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701526138,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by UCF",
+        "englishLabel": "Total Points by UCF Knights - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367167374,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1610,
+          "line": 19500,
+          "type": "OT_OVER",
+          "betOfferId": 2701526138,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367167375,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2230,
+          "line": 19500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701526138,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701526139,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by UCF",
+        "englishLabel": "Total Points by UCF Knights - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367167376,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2080,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2701526139,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367167377,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1700,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701526139,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701526141,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (18) Oklahoma State",
+        "englishLabel": "Total Points by (18) Oklahoma State Cowboys - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367167380,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2230,
+          "line": 34500,
+          "type": "OT_OVER",
+          "betOfferId": 2701526141,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367167381,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1610,
+          "line": 34500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701526141,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701529037,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393521,
+        "label": "Total Points by (18) Oklahoma State - Quarter 1",
+        "englishLabel": "Total Points by (18) Oklahoma State Cowboys - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367170328,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2600,
+          "line": 7500,
+          "type": "OT_OVER",
+          "betOfferId": 2701529037,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367170329,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1460,
+          "line": 7500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701529037,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701529038,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by UCF",
+        "englishLabel": "Total Points by UCF Knights - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367170330,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2250,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2701529038,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367170331,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1600,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701529038,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701529039,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (18) Oklahoma State",
+        "englishLabel": "Total Points by (18) Oklahoma State Cowboys - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367170332,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1630,
+          "line": 30500,
+          "type": "OT_OVER",
+          "betOfferId": 2701529039,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367170333,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2200,
+          "line": 30500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701529039,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701529040,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (18) Oklahoma State",
+        "englishLabel": "Total Points by (18) Oklahoma State Cowboys - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367170334,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2450,
+          "line": 35500,
+          "type": "OT_OVER",
+          "betOfferId": 2701529040,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367170335,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1520,
+          "line": 35500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701529040,
+          "changedDate": "2026-10-08T17:22:16Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701529409,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393522,
+        "label": "Total Points by UCF - Quarter 1",
+        "englishLabel": "Total Points by UCF Knights - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553009,
+      "outcomes": [
+        {
+          "id": 4367171310,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1980,
+          "line": 4500,
+          "type": "OT_OVER",
+          "betOfferId": 2701529409,
+          "changedDate": "2026-10-08T17:41:14Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367171311,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 4500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701529409,
+          "changedDate": "2026-10-08T17:41:14Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2829,10 +6707,10 @@
   "events": [
     {
       "id": 1027553009,
-      "name": "UCF @ (19) Oklahoma State",
+      "name": "UCF @ (18) Oklahoma State",
       "nameDelimiter": "@",
-      "englishName": "(19) Oklahoma State Cowboys - UCF Knights",
-      "homeName": "(19) Oklahoma State",
+      "englishName": "(18) Oklahoma State Cowboys - UCF Knights",
+      "homeName": "(18) Oklahoma State",
       "awayName": "UCF",
       "start": "2026-10-10T16:00:00Z",
       "group": "NCAAF",
@@ -2851,7 +6729,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 45,
+      "nonLiveBoCount": 114,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -2863,16 +6741,6 @@
       "state": "NOT_STARTED",
       "participants": [
         {
-          "participantId": 1000084863,
-          "name": "(19) Oklahoma State",
-          "englishName": "(19) Oklahoma State Cowboys",
-          "termKey": "_19__oklahoma_state_cowboys",
-          "scratched": false,
-          "nonRunner": false,
-          "home": true,
-          "participantType": "TEAM"
-        },
-        {
           "participantId": 1000437762,
           "name": "UCF",
           "englishName": "UCF Knights",
@@ -2880,6 +6748,16 @@
           "scratched": false,
           "nonRunner": false,
           "home": false,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000084863,
+          "name": "(18) Oklahoma State",
+          "englishName": "(18) Oklahoma State Cowboys",
+          "termKey": "_19__oklahoma_state_cowboys",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
           "participantType": "TEAM"
         }
       ],
@@ -2889,11 +6767,11 @@
   ],
   "prePacks": [
     {
-      "id": 7192123,
+      "id": 7190929,
       "label": "Spread and Total Points",
       "prePackSelections": [
         {
-          "selectionId": 8118450,
+          "selectionId": 8117131,
           "label": [],
           "status": "OPEN",
           "combinations": [
@@ -2911,91 +6789,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4361664246,
+                          "id": 4361817477,
                           "eventId": 1027553009,
-                          "betOfferId": 2699817324
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362154672,
-                          "eventId": 1027553009,
-                          "betOfferId": 2699966346
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8118449,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361664245,
-                          "eventId": 1027553009,
-                          "betOfferId": 2699817324
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362154672,
-                          "eventId": 1027553009,
-                          "betOfferId": 2699966346
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8118448,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361664246,
-                          "eventId": 1027553009,
-                          "betOfferId": 2699817324
+                          "betOfferId": 2699845979
                         }
                       ]
                     },
@@ -3016,15 +6812,15 @@
           ]
         },
         {
-          "selectionId": 8118447,
+          "selectionId": 8117130,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 3400,
-                "american": "240",
-                "fractional": "12/5"
+                "decimal": 3250,
+                "american": "225",
+                "fractional": "9/4"
               },
               "groups": [
                 {
@@ -3034,9 +6830,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4361664245,
+                          "id": 4361817476,
                           "eventId": 1027553009,
-                          "betOfferId": 2699817324
+                          "betOfferId": 2699845979
                         }
                       ]
                     },
@@ -3045,6 +6841,88 @@
                       "outcomes": [
                         {
                           "id": 4362154673,
+                          "eventId": 1027553009,
+                          "betOfferId": 2699966346
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8117133,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361817477,
+                          "eventId": 1027553009,
+                          "betOfferId": 2699845979
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362154672,
+                          "eventId": 1027553009,
+                          "betOfferId": 2699966346
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8117132,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361817476,
+                          "eventId": 1027553009,
+                          "betOfferId": 2699845979
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362154672,
                           "eventId": 1027553009,
                           "betOfferId": 2699966346
                         }
@@ -3072,9 +6950,9 @@
           "combinations": [
             {
               "odds": {
-                "decimal": 7500,
-                "american": "650",
-                "fractional": "13/2"
+                "decimal": 8500,
+                "american": "750",
+                "fractional": "15/2"
               },
               "groups": [
                 {
@@ -3113,8 +6991,8 @@
           "combinations": [
             {
               "odds": {
-                "decimal": 2120,
-                "american": "112",
+                "decimal": 2100,
+                "american": "110",
                 "fractional": "11/10"
               },
               "groups": [
@@ -3154,9 +7032,9 @@
           "combinations": [
             {
               "odds": {
-                "decimal": 6500,
-                "american": "550",
-                "fractional": "11/2"
+                "decimal": 7000,
+                "american": "600",
+                "fractional": "6/1"
               },
               "groups": [
                 {
@@ -3195,9 +7073,9 @@
           "combinations": [
             {
               "odds": {
-                "decimal": 2250,
-                "american": "125",
-                "fractional": "5/4"
+                "decimal": 2120,
+                "american": "112",
+                "fractional": "11/10"
               },
               "groups": [
                 {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:35.545Z",
+  "generatedAt": "2026-10-08T22:55:35.428Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,11 +10,70 @@
     "start": "2026-10-08T23:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 81,
     "events": 1,
     "prePacks": 0
   },
   "betOffers": [
+    {
+      "id": 2699756698,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4361537046,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1560,
+          "line": 2000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2699756698,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361537047,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2480,
+          "line": -2000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2699756698,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2699756699,
       "closed": "2026-10-08T23:30:00Z",
@@ -37,13 +96,13 @@
           "id": 4361537048,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1880,
+          "odds": 1700,
           "line": 57500,
           "type": "OT_OVER",
           "betOfferId": 2699756699,
-          "changedDate": "2026-10-04T09:18:10Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -52,13 +111,13 @@
           "id": 4361537049,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1940,
+          "odds": 2180,
           "line": 57500,
           "type": "OT_UNDER",
           "betOfferId": 2699756699,
-          "changedDate": "2026-10-04T09:18:10Z",
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -66,14 +125,12 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
     {
       "id": 2699779529,
-      "closed": "2026-10-08T23:30:00Z",
       "criterion": {
         "id": 1001159990,
         "label": "Moneyline",
@@ -93,14 +150,14 @@
           "id": 4361516328,
           "label": "Arkansas State",
           "englishLabel": "Arkansas State Red Wolves",
-          "odds": 1850,
+          "odds": 1650,
           "participant": "Arkansas State",
           "type": "OT_ONE",
           "betOfferId": 2699779529,
-          "changedDate": "2026-10-04T09:17:30Z",
+          "changedDate": "2026-10-08T22:34:19Z",
           "participantId": 1001158143,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -109,14 +166,14 @@
           "id": 4361516329,
           "label": "South Alabama",
           "englishLabel": "South Alabama Jaguars",
-          "odds": 1970,
+          "odds": 2250,
           "participant": "South Alabama",
           "type": "OT_TWO",
           "betOfferId": 2699779529,
-          "changedDate": "2026-10-04T09:17:30Z",
+          "changedDate": "2026-10-08T22:34:19Z",
           "participantId": 1001091022,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-104",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -124,14 +181,69 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
         "BET_BUILDER",
         "MAIN"
       ],
       "cashOutStatus": "ENABLED"
     },
     {
-      "id": 2699785431,
+      "id": 2699779530,
       "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4361516330,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1790,
+          "line": 58500,
+          "type": "OT_OVER",
+          "betOfferId": 2699779530,
+          "changedDate": "2026-10-08T22:26:29Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361516331,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2060,
+          "line": 58500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699779530,
+          "changedDate": "2026-10-08T22:26:29Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699785431,
       "criterion": {
         "id": 1001159928,
         "label": "Point Spread",
@@ -151,15 +263,15 @@
           "id": 4361575360,
           "label": "Arkansas State",
           "englishLabel": "Arkansas State Red Wolves",
-          "odds": 1940,
+          "odds": 1720,
           "line": -1500,
           "participant": "Arkansas State",
           "type": "OT_ONE",
           "betOfferId": 2699785431,
-          "changedDate": "2026-10-04T09:18:13Z",
+          "changedDate": "2026-10-08T22:34:20Z",
           "participantId": 1001158143,
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -168,15 +280,15 @@
           "id": 4361575361,
           "label": "South Alabama",
           "englishLabel": "South Alabama Jaguars",
-          "odds": 1880,
+          "odds": 2160,
           "line": 1500,
           "participant": "South Alabama",
           "type": "OT_TWO",
           "betOfferId": 2699785431,
-          "changedDate": "2026-10-04T09:18:13Z",
+          "changedDate": "2026-10-08T22:34:20Z",
           "participantId": 1001091022,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -184,6 +296,66 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699785432,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4361575362,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1600,
+          "line": 1500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2699785432,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361575363,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2380,
+          "line": -1500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2699785432,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -210,15 +382,15 @@
           "id": 4361575364,
           "label": "Arkansas State",
           "englishLabel": "Arkansas State Red Wolves",
-          "odds": 1890,
+          "odds": 1680,
           "line": -1000,
           "participant": "Arkansas State",
           "type": "OT_ONE",
           "betOfferId": 2699785433,
-          "changedDate": "2026-10-04T09:18:13Z",
+          "changedDate": "2026-10-08T22:34:20Z",
           "participantId": 1001158143,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -227,15 +399,4345 @@
           "id": 4361575365,
           "label": "South Alabama",
           "englishLabel": "South Alabama Jaguars",
-          "odds": 1920,
+          "odds": 2230,
           "line": 1000,
           "participant": "South Alabama",
           "type": "OT_TWO",
           "betOfferId": 2699785433,
-          "changedDate": "2026-10-04T09:18:13Z",
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699785434,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4361575366,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1450,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2699785434,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361575367,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2800,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699785434,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699785444,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4361575386,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1660,
+          "line": 500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2699785444,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361575387,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2250,
+          "line": -500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2699785444,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699785445,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4361575388,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1630,
+          "line": 1000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2699785445,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361575389,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2320,
+          "line": -1000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2699785445,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318479,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364776,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1900,
+          "line": -1500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318479,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364777,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1840,
+          "line": 1500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318479,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318481,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "South Alabama to win both halves",
+        "englishLabel": "South Alabama Jaguars to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364782,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5200,
+          "type": "OT_YES",
+          "betOfferId": 2700318481,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "21/5",
+          "oddsAmerican": "420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364785,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1110,
+          "type": "OT_NO",
+          "betOfferId": 2700318481,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-910",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318482,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364786,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1770,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318482,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364787,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318482,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318483,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364790,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 2280,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700318483,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364793,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 29000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700318483,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "28/1",
+          "oddsAmerican": "2800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363364796,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 9500,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700318483,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4363364799,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 20000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700318483,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "19/1",
+          "oddsAmerican": "1900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4363364802,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 76000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700318483,
+          "changedDate": "2026-10-08T13:12:56Z",
+          "oddsFractional": "75/1",
+          "oddsAmerican": "7500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4363364805,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 25000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700318483,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "24/1",
+          "oddsAmerican": "2400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4363364808,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 7500,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700318483,
+          "changedDate": "2026-10-08T13:12:56Z",
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4363364811,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 26000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700318483,
+          "changedDate": "2026-10-08T13:12:56Z",
+          "oddsFractional": "25/1",
+          "oddsAmerican": "2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4363364814,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 3200,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700318483,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318485,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Arkansas State to score first and win",
+        "englishLabel": "Arkansas State Red Wolves to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364819,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2500,
+          "type": "OT_YES",
+          "betOfferId": 2700318485,
+          "changedDate": "2026-10-08T22:34:19Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364822,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1450,
+          "type": "OT_NO",
+          "betOfferId": 2700318485,
+          "changedDate": "2026-10-08T22:34:19Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318487,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Arkansas State to Score in Both Halves",
+        "englishLabel": "Arkansas State Red Wolves to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364827,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1020,
+          "type": "OT_YES",
+          "betOfferId": 2700318487,
+          "changedDate": "2026-10-08T22:34:19Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364830,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 14000,
+          "type": "OT_NO",
+          "betOfferId": 2700318487,
+          "changedDate": "2026-10-08T22:34:19Z",
+          "oddsFractional": "13/1",
+          "oddsAmerican": "1300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318492,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364839,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1620,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318492,
+          "changedDate": "2026-10-08T22:26:29Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364840,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2330,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318492,
+          "changedDate": "2026-10-08T22:26:29Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318493,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364841,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2200,
+          "line": 62500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318493,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364842,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 62500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318493,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318494,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364847,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 7000,
+          "type": "OT_YES",
+          "betOfferId": 2700318494,
+          "changedDate": "2026-10-08T17:33:33Z",
+          "oddsFractional": "6/1",
+          "oddsAmerican": "600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364852,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1060,
+          "type": "OT_NO",
+          "betOfferId": 2700318494,
+          "changedDate": "2026-10-08T17:33:33Z",
+          "oddsFractional": "1/18",
+          "oddsAmerican": "-1667",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318495,
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364853,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2100,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318495,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363364854,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1700,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318495,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318496,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364855,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1810,
+          "line": -2500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318496,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364856,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2020,
+          "line": 2500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318496,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318497,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364857,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1340,
+          "line": 5500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318497,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364858,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 3300,
+          "line": -5500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318497,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318498,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364859,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 2430,
+          "line": -6500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318498,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364860,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1580,
+          "line": 6500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318498,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318499,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364861,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1530,
+          "line": 2500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318499,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364862,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2550,
+          "line": -2500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318499,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318500,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364863,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 2120,
+          "line": -4500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318500,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364864,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1740,
+          "line": 4500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318500,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318501,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364865,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1300,
+          "line": 6000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318501,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364866,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 3550,
+          "line": -6000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318501,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318502,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364867,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1220,
+          "line": 7000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318502,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "11/50",
+          "oddsAmerican": "-455",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364868,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 4350,
+          "line": -7000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318502,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "10/3",
+          "oddsAmerican": "335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318503,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364869,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 3050,
+          "line": -8000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318503,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364870,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1400,
+          "line": 8000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318503,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318504,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364871,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 2060,
+          "line": -4000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318504,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364872,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1780,
+          "line": 4000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318504,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318505,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363364873,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1460,
+          "line": 3000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318505,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363364874,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2750,
+          "line": -3000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700318505,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344844,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "South Alabama to Score in every Quarter - Regular Time",
+        "englishLabel": "South Alabama Jaguars to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379513,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1980,
+          "type": "OT_YES",
+          "betOfferId": 2700344844,
+          "changedDate": "2026-10-08T22:34:19Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379518,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1700,
+          "type": "OT_NO",
+          "betOfferId": 2700344844,
+          "changedDate": "2026-10-08T22:34:19Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344845,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379519,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1520,
+          "line": 2500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344845,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379520,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2430,
+          "line": -2500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344845,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344846,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379521,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1550,
+          "line": 1500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344846,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379522,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2350,
+          "line": -1500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344846,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344847,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "South Alabama to score first and win",
+        "englishLabel": "South Alabama Jaguars to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379525,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3250,
+          "type": "OT_YES",
+          "betOfferId": 2700344847,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379528,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1270,
+          "type": "OT_NO",
+          "betOfferId": 2700344847,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344849,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Arkansas State to Score in every Quarter - Regular Time",
+        "englishLabel": "Arkansas State Red Wolves to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379535,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1750,
+          "type": "OT_YES",
+          "betOfferId": 2700344849,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379540,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1930,
+          "type": "OT_NO",
+          "betOfferId": 2700344849,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344850,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379541,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1810,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700344850,
+          "changedDate": "2026-10-08T22:26:29Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379542,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1930,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700344850,
+          "changedDate": "2026-10-08T22:26:29Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344852,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by South Alabama - 1st Half",
+        "englishLabel": "Total Points by South Alabama Jaguars - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379545,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 14500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700344852,
+          "changedDate": "2026-10-08T22:34:19Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363379546,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 14500,
+          "type": "OT_OVER",
+          "betOfferId": 2700344852,
+          "changedDate": "2026-10-08T22:34:19Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344853,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379547,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1750,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344853,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379548,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1930,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344853,
+          "changedDate": "2026-10-08T22:34:20Z",
           "participantId": 1001091022,
           "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700344856,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379556,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2170,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344856,
+          "changedDate": "2026-10-08T22:34:19Z",
+          "participantId": 1001158143,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379557,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4400,
+          "type": "OT_CROSS",
+          "betOfferId": 2700344856,
+          "changedDate": "2026-10-08T13:12:56Z",
+          "oddsFractional": "17/5",
+          "oddsAmerican": "340",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363379558,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2450,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344856,
+          "changedDate": "2026-10-08T22:34:19Z",
+          "participantId": 1001091022,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344857,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379559,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1810,
+          "line": -500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344857,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379560,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1930,
+          "line": 500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344857,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344858,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by South Alabama",
+        "englishLabel": "Total Points by South Alabama Jaguars - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379561,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 29500,
+          "type": "OT_OVER",
+          "betOfferId": 2700344858,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379562,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 29500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700344858,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344859,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379563,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1940,
+          "line": -2500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344859,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379564,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1800,
+          "line": 2500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344859,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344862,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379569,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1830,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344862,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379570,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 10000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700344862,
+          "changedDate": "2026-10-08T13:12:56Z",
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363379571,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2250,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344862,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344864,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379574,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 3150,
+          "line": -8500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344864,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379575,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1370,
+          "line": 8500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344864,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344865,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379576,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 2230,
+          "line": -5500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344865,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379577,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1670,
+          "line": 5500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344865,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344866,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379578,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 2850,
+          "line": -7500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344866,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379579,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1440,
+          "line": 7500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344866,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344867,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379580,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1660,
+          "line": -500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344867,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379581,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2250,
+          "line": 500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344867,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344868,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379582,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 3250,
+          "line": -9000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344868,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379583,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1350,
+          "line": 9000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344868,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344869,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363379584,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 3600,
+          "line": -10000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344869,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379585,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1300,
+          "line": 10000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700344869,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347338,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376514,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1750,
+          "type": "OT_ODD",
+          "betOfferId": 2700347338,
+          "changedDate": "2026-10-08T04:28:37Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376515,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1920,
+          "type": "OT_EVEN",
+          "betOfferId": 2700347338,
+          "changedDate": "2026-10-08T13:12:56Z",
+          "oddsFractional": "10/11",
           "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347341,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Arkansas State to win both halves",
+        "englishLabel": "Arkansas State Red Wolves to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376522,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3500,
+          "type": "OT_YES",
+          "betOfferId": 2700347341,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376525,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1240,
+          "type": "OT_NO",
+          "betOfferId": 2700347341,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347344,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376531,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 2160,
+          "line": -500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347344,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376530,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1650,
+          "line": 500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347344,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347345,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376532,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1880,
+          "line": 30500,
+          "type": "OT_OVER",
+          "betOfferId": 2700347345,
+          "changedDate": "2026-10-08T17:33:33Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376533,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1860,
+          "line": 30500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700347345,
+          "changedDate": "2026-10-08T17:33:33Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347347,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376538,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 10000,
+          "type": "OT_YES",
+          "betOfferId": 2700347347,
+          "changedDate": "2026-10-08T13:12:56Z",
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376540,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1030,
+          "type": "OT_NO",
+          "betOfferId": 2700347347,
+          "changedDate": "2026-10-08T13:12:56Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347350,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "South Alabama to Score in Both Halves",
+        "englishLabel": "South Alabama Jaguars to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376547,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1040,
+          "type": "OT_YES",
+          "betOfferId": 2700347350,
+          "changedDate": "2026-10-08T22:34:19Z",
+          "oddsFractional": "1/25",
+          "oddsAmerican": "-2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376550,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 9500,
+          "type": "OT_NO",
+          "betOfferId": 2700347350,
+          "changedDate": "2026-10-08T22:34:19Z",
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347355,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376571,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1950,
+          "line": 60500,
+          "type": "OT_OVER",
+          "betOfferId": 2700347355,
+          "changedDate": "2026-10-08T22:26:29Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376572,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1880,
+          "line": 60500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700347355,
+          "changedDate": "2026-10-08T22:26:29Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347356,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376573,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1600,
+          "line": 500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347356,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376574,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2250,
+          "line": -500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347356,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347357,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376575,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 59500,
+          "type": "OT_OVER",
+          "betOfferId": 2700347357,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376576,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1960,
+          "line": 59500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700347357,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347358,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376577,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1570,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2700347358,
+          "changedDate": "2026-10-08T22:26:29Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376578,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700347358,
+          "changedDate": "2026-10-08T22:26:29Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347359,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376579,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1710,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347359,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376580,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 12000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700347359,
+          "changedDate": "2026-10-08T13:12:56Z",
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363376581,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2380,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347359,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347360,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376582,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2080,
+          "line": 61500,
+          "type": "OT_OVER",
+          "betOfferId": 2700347360,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376583,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 61500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700347360,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347362,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376586,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2700347362,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376587,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2630,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700347362,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347364,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376590,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 3300,
+          "line": -9500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347364,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376591,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1350,
+          "line": 9500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347364,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347365,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376592,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1430,
+          "line": 3500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347365,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376593,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2900,
+          "line": -3500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347365,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347366,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376594,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1290,
+          "line": 6500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347366,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376595,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 3650,
+          "line": -6500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347366,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347367,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376596,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 2000,
+          "line": -3500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347367,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376597,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1830,
+          "line": 3500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347367,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347368,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376598,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1380,
+          "line": 4500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347368,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376599,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 3100,
+          "line": -4500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347368,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347369,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376600,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1350,
+          "line": 5000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347369,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376601,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 3250,
+          "line": -5000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347369,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347370,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376602,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 2700,
+          "line": -7000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347370,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376603,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1480,
+          "line": 7000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347370,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347371,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376604,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1760,
+          "line": -2000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347371,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376605,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 2100,
+          "line": 2000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347371,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347372,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376606,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 2180,
+          "line": -5000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347372,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376607,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1700,
+          "line": 5000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347372,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347373,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376608,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1890,
+          "line": -3000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347373,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376609,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1930,
+          "line": 3000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347373,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347375,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376612,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 2350,
+          "line": -6000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347375,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376613,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1610,
+          "line": 6000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347375,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347376,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4363376614,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 1400,
+          "line": 4000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347376,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363376615,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 3050,
+          "line": -4000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2700347376,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701094992,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4365876168,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2320,
+          "line": 63500,
+          "type": "OT_OVER",
+          "betOfferId": 2701094992,
+          "changedDate": "2026-10-08T22:26:29Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365876169,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1630,
+          "line": 63500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701094992,
+          "changedDate": "2026-10-08T22:26:29Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701206577,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4366204394,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 3900,
+          "line": -11000,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2701206577,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "29/10",
+          "oddsAmerican": "290",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366204395,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1270,
+          "line": 11000,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2701206577,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701218251,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4366207562,
+          "label": "Arkansas State",
+          "englishLabel": "Arkansas State Red Wolves",
+          "odds": 3700,
+          "line": -10500,
+          "participant": "Arkansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2701218251,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001158143,
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366207563,
+          "label": "South Alabama",
+          "englishLabel": "South Alabama Jaguars",
+          "odds": 1290,
+          "line": 10500,
+          "participant": "South Alabama",
+          "type": "OT_TWO",
+          "betOfferId": 2701218251,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "participantId": 1001091022,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701272333,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4366370463,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2450,
+          "line": 64500,
+          "type": "OT_OVER",
+          "betOfferId": 2701272333,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366370464,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1570,
+          "line": 64500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701272333,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701272337,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Arkansas State",
+        "englishLabel": "Total Points by Arkansas State Red Wolves - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4366370479,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 31500,
+          "type": "OT_OVER",
+          "betOfferId": 2701272337,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366370480,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1780,
+          "line": 31500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701272337,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701289230,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4366393690,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2650,
+          "line": 65500,
+          "type": "OT_OVER",
+          "betOfferId": 2701289230,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366393691,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 65500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701289230,
+          "changedDate": "2026-10-08T22:26:30Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701289235,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Arkansas State - 1st Half",
+        "englishLabel": "Total Points by Arkansas State Red Wolves - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508030,
+      "outcomes": [
+        {
+          "id": 4366393702,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1860,
+          "line": 16500,
+          "type": "OT_OVER",
+          "betOfferId": 2701289235,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366393703,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1810,
+          "line": 16500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701289235,
+          "changedDate": "2026-10-08T22:34:20Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -274,7 +4776,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 81,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

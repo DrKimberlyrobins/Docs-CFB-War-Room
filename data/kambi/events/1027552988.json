@@ -1,20 +1,75 @@
 {
-  "generatedAt": "2026-10-05T14:05:48.601Z",
+  "generatedAt": "2026-10-08T22:55:47.703Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
     "id": "1027552988",
-    "name": "(2) Georgia @ (7) Alabama",
+    "name": "(2) Georgia @ (6) Alabama",
     "away": "Georgia",
     "home": "Alabama",
     "start": "2026-10-10T23:30:00Z"
   },
   "counts": {
-    "betOffers": 47,
+    "betOffers": 113,
     "events": 1,
     "prePacks": 2
   },
   "betOffers": [
+    {
+      "id": 2662079814,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4236970424,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2662079814,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4236970425,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1960,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2662079814,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2662079816,
       "closed": "2026-10-10T23:30:00Z",
@@ -35,17 +90,17 @@
       "outcomes": [
         {
           "id": 4236970428,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
-          "odds": 1810,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1790,
           "line": 1000,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2662079816,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-124",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -54,15 +109,74 @@
           "id": 4236970429,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 2020,
+          "odds": 2050,
           "line": -1000,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2662079816,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2662079819,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4236970434,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1600,
+          "line": 3000,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2662079819,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4236970435,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 2320,
+          "line": -3000,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2662079819,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -94,17 +208,17 @@
       "outcomes": [
         {
           "id": 4236993218,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
-          "odds": 1730,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1700,
           "line": 2000,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2662082731,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-137",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -113,15 +227,184 @@
           "id": 4236993219,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 2140,
+          "odds": 2120,
           "line": -2000,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2662082731,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "57/50",
-          "oddsAmerican": "114",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2662082734,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4236993224,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2040,
+          "line": 50000,
+          "type": "OT_UNDER",
+          "betOfferId": 2662082734,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4236993225,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1790,
+          "line": 50000,
+          "type": "OT_OVER",
+          "betOfferId": 2662082734,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2662082735,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4236993226,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2150,
+          "line": 49000,
+          "type": "OT_UNDER",
+          "betOfferId": 2662082735,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4236993227,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1720,
+          "line": 49000,
+          "type": "OT_OVER",
+          "betOfferId": 2662082735,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2662082736,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4236993228,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1680,
+          "line": 2500,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2662082736,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4236993229,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 2150,
+          "line": -2500,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2662082736,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -153,16 +436,16 @@
       "outcomes": [
         {
           "id": 4236996277,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
-          "odds": 1870,
-          "participant": "(7) Alabama",
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1820,
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2662110566,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -171,14 +454,14 @@
           "id": 4236996278,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 1950,
+          "odds": 2020,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2662110566,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -188,6 +471,171 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2662110568,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4236996281,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2662110568,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4236996282,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1840,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2662110568,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2662110570,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4236996285,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2080,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2662110570,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4236996286,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1760,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2662110570,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2682181456,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4303845067,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1820,
+          "line": 52000,
+          "type": "OT_UNDER",
+          "betOfferId": 2682181456,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4303845068,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2000,
+          "line": 52000,
+          "type": "OT_OVER",
+          "betOfferId": 2682181456,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -213,13 +661,13 @@
           "id": 4358395797,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2050,
+          "odds": 1650,
           "line": 54500,
           "type": "OT_UNDER",
           "betOfferId": 2698816141,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "21/20",
-          "oddsAmerican": "105",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -228,16 +676,130 @@
           "id": 4358395798,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1790,
+          "odds": 2280,
           "line": 54500,
           "type": "OT_OVER",
           "betOfferId": 2698816141,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-127",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2698821895,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4358393248,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1780,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2698821895,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4358393249,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2060,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2698821895,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2698853520,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4358390402,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1520,
+          "line": 3500,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2698853520,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4358390403,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 2450,
+          "line": -3500,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2698853520,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
         }
       ],
       "tags": [
@@ -268,13 +830,13 @@
           "id": 4360575821,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1920,
+          "odds": 1570,
           "line": 55500,
           "type": "OT_UNDER",
           "betOfferId": 2699467372,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -283,13 +845,13 @@
           "id": 4360575822,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1900,
+          "odds": 2430,
           "line": 55500,
           "type": "OT_OVER",
           "betOfferId": 2699467372,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -297,7 +859,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -324,13 +885,13 @@
           "id": 4361714846,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1850,
+          "odds": 1530,
           "line": 56500,
           "type": "OT_UNDER",
           "betOfferId": 2699817567,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -339,13 +900,13 @@
           "id": 4361714847,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1970,
+          "odds": 2550,
           "line": 56500,
           "type": "OT_OVER",
           "betOfferId": 2699817567,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-104",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -377,14 +938,14 @@
       "outcomes": [
         {
           "id": 4361720361,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
           "odds": 1770,
           "line": 1500,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2699843451,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
           "oddsFractional": "3/4",
           "oddsAmerican": "-130",
@@ -396,15 +957,15 @@
           "id": 4361720362,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 2080,
+          "odds": 2070,
           "line": -1500,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2699843451,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -436,17 +997,17 @@
       "outcomes": [
         {
           "id": 4362253763,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
-          "odds": 1980,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1920,
           "line": -1500,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700001897,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -455,15 +1016,15 @@
           "id": 4362253764,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 1840,
+          "odds": 1900,
           "line": 1500,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700001897,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -471,6 +1032,7 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -495,17 +1057,17 @@
       "outcomes": [
         {
           "id": 4362262822,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
-          "odds": 1930,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1860,
           "line": -1000,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700030175,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -514,15 +1076,15 @@
           "id": 4362262823,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 1890,
+          "odds": 1960,
           "line": 1000,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700030175,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -530,7 +1092,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -557,13 +1118,13 @@
           "id": 4362321664,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1980,
+          "odds": 1600,
           "line": 55000,
           "type": "OT_UNDER",
           "betOfferId": 2700031176,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -572,13 +1133,13 @@
           "id": 4362321667,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1840,
+          "odds": 2350,
           "line": 55000,
           "type": "OT_OVER",
           "betOfferId": 2700031176,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -612,13 +1173,13 @@
           "id": 4362321665,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2150,
+          "odds": 1710,
           "line": 53500,
           "type": "OT_UNDER",
           "betOfferId": 2700031177,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "23/20",
-          "oddsAmerican": "115",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -627,13 +1188,13 @@
           "id": 4362321666,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1710,
+          "odds": 2160,
           "line": 53500,
           "type": "OT_OVER",
           "betOfferId": 2700031177,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-141",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -667,13 +1228,13 @@
           "id": 4362321668,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1720,
+          "odds": 1440,
           "line": 58000,
           "type": "OT_UNDER",
           "betOfferId": 2700031178,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -682,16 +1243,70 @@
           "id": 4362321669,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2150,
+          "odds": 2800,
           "line": 58000,
           "type": "OT_OVER",
           "betOfferId": 2700031178,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "23/20",
-          "oddsAmerican": "115",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700031179,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (6) Alabama",
+        "englishLabel": "Total Points by (6) Alabama Crimson Tide - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4362321670,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2120,
+          "line": 27500,
+          "type": "OT_OVER",
+          "betOfferId": 2700031179,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362321671,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 27500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700031179,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
         }
       ],
       "tags": [
@@ -720,17 +1335,17 @@
       "outcomes": [
         {
           "id": 4362321672,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
-          "odds": 1870,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1830,
           "line": -500,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700031180,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -739,15 +1354,15 @@
           "id": 4362321673,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 1950,
+          "odds": 2000,
           "line": 500,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700031180,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -779,17 +1394,17 @@
       "outcomes": [
         {
           "id": 4362321674,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
-          "odds": 1870,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1830,
           "line": 500,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700031181,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -798,15 +1413,15 @@
           "id": 4362321675,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 1950,
+          "odds": 2000,
           "line": -500,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700031181,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -840,13 +1455,13 @@
           "id": 4362321676,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1770,
+          "odds": 1470,
           "line": 57500,
           "type": "OT_UNDER",
           "betOfferId": 2700031182,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-130",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -855,13 +1470,13 @@
           "id": 4362321677,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2080,
+          "odds": 2650,
           "line": 57500,
           "type": "OT_OVER",
           "betOfferId": 2700031182,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -894,13 +1509,13 @@
           "id": 4362321678,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1830,
+          "odds": 2230,
           "line": 27500,
           "type": "OT_OVER",
           "betOfferId": 2700031183,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -909,13 +1524,13 @@
           "id": 4362321679,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1910,
+          "odds": 1610,
           "line": 27500,
           "type": "OT_UNDER",
           "betOfferId": 2700031183,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -923,7 +1538,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -950,13 +1564,13 @@
           "id": 4362321680,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1800,
+          "odds": 1490,
           "line": 57000,
           "type": "OT_UNDER",
           "betOfferId": 2700031184,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-125",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -965,13 +1579,13 @@
           "id": 4362321681,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2020,
+          "odds": 2630,
           "line": 57000,
           "type": "OT_OVER",
           "betOfferId": 2700031184,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1003,17 +1617,17 @@
       "outcomes": [
         {
           "id": 4362306666,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
-          "odds": 1870,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1830,
           "line": 0,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700039490,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1022,15 +1636,15 @@
           "id": 4362306669,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 1950,
+          "odds": 2000,
           "line": 0,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700039490,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1064,13 +1678,13 @@
           "id": 4362306667,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1890,
+          "odds": 1540,
           "line": 56000,
           "type": "OT_UNDER",
           "betOfferId": 2700039491,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1079,13 +1693,13 @@
           "id": 4362306668,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1930,
+          "odds": 2480,
           "line": 56000,
           "type": "OT_OVER",
           "betOfferId": 2700039491,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1117,17 +1731,17 @@
       "outcomes": [
         {
           "id": 4362306670,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
-          "odds": 2040,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1960,
           "line": -2000,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700039492,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "26/25",
-          "oddsAmerican": "104",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1136,15 +1750,15 @@
           "id": 4362306671,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 1800,
+          "odds": 1860,
           "line": 2000,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700039492,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-125",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1177,12 +1791,12 @@
           "id": 4362306674,
           "label": "1/1",
           "englishLabel": "1/1",
-          "odds": 2330,
+          "odds": 2250,
           "type": "OT_ONE_ONE",
           "betOfferId": 2700039493,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "13/10",
-          "oddsAmerican": "133",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1194,7 +1808,7 @@
           "odds": 29000,
           "type": "OT_ONE_CROSS",
           "betOfferId": 2700039493,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "oddsFractional": "28/1",
           "oddsAmerican": "2800",
           "status": "OPEN",
@@ -1208,7 +1822,7 @@
           "odds": 7500,
           "type": "OT_ONE_TWO",
           "betOfferId": 2700039493,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "oddsFractional": "13/2",
           "oddsAmerican": "650",
           "status": "OPEN",
@@ -1222,7 +1836,7 @@
           "odds": 20000,
           "type": "OT_CROSS_ONE",
           "betOfferId": 2700039493,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "oddsFractional": "19/1",
           "oddsAmerican": "1900",
           "status": "OPEN",
@@ -1233,12 +1847,12 @@
           "id": 4362306686,
           "label": "X/X",
           "englishLabel": "X/X",
-          "odds": 67000,
+          "odds": 71000,
           "type": "OT_CROSS_CROSS",
           "betOfferId": 2700039493,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "66/1",
-          "oddsAmerican": "6600",
+          "changedDate": "2026-10-08T17:55:54Z",
+          "oddsFractional": "70/1",
+          "oddsAmerican": "7000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 4
@@ -1247,12 +1861,12 @@
           "id": 4362306689,
           "label": "X/2",
           "englishLabel": "X/2",
-          "odds": 21000,
+          "odds": 20000,
           "type": "OT_CROSS_TWO",
           "betOfferId": 2700039493,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "20/1",
-          "oddsAmerican": "2000",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "19/1",
+          "oddsAmerican": "1900",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 5
@@ -1264,7 +1878,7 @@
           "odds": 7000,
           "type": "OT_TWO_ONE",
           "betOfferId": 2700039493,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "oddsFractional": "6/1",
           "oddsAmerican": "600",
           "status": "OPEN",
@@ -1275,12 +1889,12 @@
           "id": 4362306695,
           "label": "2/X",
           "englishLabel": "2/X",
-          "odds": 26000,
+          "odds": 29000,
           "type": "OT_TWO_CROSS",
           "betOfferId": 2700039493,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "25/1",
-          "oddsAmerican": "2500",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "28/1",
+          "oddsAmerican": "2800",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 7
@@ -1289,12 +1903,12 @@
           "id": 4362306698,
           "label": "2/2",
           "englishLabel": "2/2",
-          "odds": 2480,
+          "odds": 2550,
           "type": "OT_TWO_TWO",
           "betOfferId": 2700039493,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "29/20",
-          "oddsAmerican": "148",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 8
@@ -1325,17 +1939,17 @@
       "outcomes": [
         {
           "id": 4362306699,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
-          "odds": 2100,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 2000,
           "line": -2500,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700039494,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1344,15 +1958,15 @@
           "id": 4362306700,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 1760,
+          "odds": 1820,
           "line": 2500,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700039494,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-132",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1389,14 +2003,14 @@
           "id": 4362315572,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1850,
-          "participant": "(7) Alabama",
+          "odds": 1830,
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700048283,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 0
@@ -1405,14 +2019,14 @@
           "id": 4362315575,
           "label": "2",
           "englishLabel": "2",
-          "odds": 1870,
+          "odds": 1890,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700048283,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 1
@@ -1445,14 +2059,14 @@
           "id": 4362315571,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1910,
-          "participant": "(7) Alabama",
+          "odds": 1850,
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700048284,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1464,7 +2078,7 @@
           "odds": 15000,
           "type": "OT_CROSS",
           "betOfferId": 2700048284,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "oddsFractional": "14/1",
           "oddsAmerican": "1400",
           "status": "OPEN",
@@ -1475,14 +2089,14 @@
           "id": 4362315577,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2000,
+          "odds": 2070,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700048284,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "Evens",
-          "oddsAmerican": "100",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1519,10 +2133,10 @@
           "label": "1",
           "englishLabel": "1",
           "odds": 1850,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700048285,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
           "oddsFractional": "17/20",
           "oddsAmerican": "-118",
@@ -1538,7 +2152,7 @@
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700048285,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
           "oddsFractional": "22/25",
           "oddsAmerican": "-113",
@@ -1574,13 +2188,13 @@
           "id": 4362315578,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2100,
+          "odds": 1670,
           "line": 54000,
           "type": "OT_UNDER",
           "betOfferId": 2700048286,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1589,13 +2203,13 @@
           "id": 4362315579,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1750,
+          "odds": 2230,
           "line": 54000,
           "type": "OT_OVER",
           "betOfferId": 2700048286,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-134",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1631,14 +2245,14 @@
           "id": 4362315580,
           "label": "(2) Georgia Field Goal",
           "englishLabel": "(2) Georgia Bulldogs Field Goal",
-          "odds": 7000,
+          "odds": 6750,
           "participant": "(2) Georgia",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700048287,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "6/1",
-          "oddsAmerican": "600",
+          "oddsFractional": "23/4",
+          "oddsAmerican": "575",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1651,14 +2265,14 @@
           "id": 4362315581,
           "label": "(2) Georgia Safety",
           "englishLabel": "(2) Georgia Bulldogs Safety",
-          "odds": 91000,
+          "odds": 81000,
           "participant": "(2) Georgia",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700048287,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "90/1",
-          "oddsAmerican": "9000",
+          "oddsFractional": "80/1",
+          "oddsAmerican": "8000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1669,16 +2283,16 @@
         },
         {
           "id": 4362315582,
-          "label": "(7) Alabama Touchdown",
-          "englishLabel": "(7) Alabama Crimson Tide Touchdown",
-          "odds": 2480,
-          "participant": "(7) Alabama",
+          "label": "(6) Alabama Touchdown",
+          "englishLabel": "(6) Alabama Crimson Tide Touchdown",
+          "odds": 2550,
+          "participant": "(6) Alabama",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700048287,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "29/20",
-          "oddsAmerican": "148",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1689,16 +2303,16 @@
         },
         {
           "id": 4362315583,
-          "label": "(7) Alabama Field Goal",
-          "englishLabel": "(7) Alabama Crimson Tide Field Goal",
-          "odds": 7000,
-          "participant": "(7) Alabama",
+          "label": "(6) Alabama Field Goal",
+          "englishLabel": "(6) Alabama Crimson Tide Field Goal",
+          "odds": 6250,
+          "participant": "(6) Alabama",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700048287,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "6/1",
-          "oddsAmerican": "600",
+          "oddsFractional": "21/4",
+          "oddsAmerican": "525",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1709,13 +2323,13 @@
         },
         {
           "id": 4362315584,
-          "label": "(7) Alabama Safety",
-          "englishLabel": "(7) Alabama Crimson Tide Safety",
+          "label": "(6) Alabama Safety",
+          "englishLabel": "(6) Alabama Crimson Tide Safety",
           "odds": 91000,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700048287,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
           "oddsFractional": "90/1",
           "oddsAmerican": "9000",
@@ -1731,14 +2345,14 @@
           "id": 4362315585,
           "label": "(2) Georgia Touchdown",
           "englishLabel": "(2) Georgia Bulldogs Touchdown",
-          "odds": 2550,
+          "odds": 2600,
           "participant": "(2) Georgia",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700048287,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "31/20",
-          "oddsAmerican": "155",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1773,12 +2387,12 @@
           "id": 4362990491,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 2650,
+          "odds": 3350,
           "type": "OT_YES",
           "betOfferId": 2700214184,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "33/20",
-          "oddsAmerican": "165",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1787,12 +2401,12 @@
           "id": 4362990499,
           "label": "No",
           "englishLabel": "No",
-          "odds": 1440,
+          "odds": 1300,
           "type": "OT_NO",
           "betOfferId": 2700214184,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "11/25",
-          "oddsAmerican": "-230",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1828,12 +2442,12 @@
           "id": 4362990494,
           "label": "X",
           "englishLabel": "X",
-          "odds": 5200,
+          "odds": 3650,
           "type": "OT_CROSS",
           "betOfferId": 2700214185,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "21/5",
-          "oddsAmerican": "420",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1842,14 +2456,14 @@
           "id": 4362990496,
           "label": "1",
           "englishLabel": "1",
-          "odds": 2120,
-          "participant": "(7) Alabama",
+          "odds": 2250,
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700214185,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "11/10",
-          "oddsAmerican": "112",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1858,14 +2472,14 @@
           "id": 4362990497,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2200,
+          "odds": 2480,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700214185,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "6/5",
-          "oddsAmerican": "120",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1899,14 +2513,14 @@
           "id": 4362990500,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1860,
-          "participant": "(7) Alabama",
+          "odds": 1840,
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700214186,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-117",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1915,21 +2529,22 @@
           "id": 4362990501,
           "label": "2",
           "englishLabel": "2",
-          "odds": 1900,
+          "odds": 1920,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700214186,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
         }
       ],
       "tags": [
-        "OFFERED_PREMATCH"
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -1938,8 +2553,8 @@
       "closed": "2026-10-10T23:30:00Z",
       "criterion": {
         "id": 1001935119,
-        "label": "Total Points by (7) Alabama - 1st Half",
-        "englishLabel": "Total Points by (7) Alabama Crimson Tide - 1st Half",
+        "label": "Total Points by (6) Alabama - 1st Half",
+        "englishLabel": "Total Points by (6) Alabama Crimson Tide - 1st Half",
         "order": []
       },
       "betOfferType": {
@@ -1953,13 +2568,13 @@
           "id": 4362990521,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1680,
+          "odds": 1870,
           "line": 13500,
           "type": "OT_OVER",
           "betOfferId": 2700214192,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-148",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1968,13 +2583,13 @@
           "id": 4362990522,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2080,
+          "odds": 1850,
           "line": 13500,
           "type": "OT_UNDER",
           "betOfferId": 2700214192,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2006,12 +2621,12 @@
           "id": 4362996308,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 1040,
+          "odds": 1090,
           "type": "OT_YES",
           "betOfferId": 2700217078,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "1/25",
-          "oddsAmerican": "-2500",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "1/12",
+          "oddsAmerican": "-1115",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2020,12 +2635,12 @@
           "id": 4362996311,
           "label": "No",
           "englishLabel": "No",
-          "odds": 9000,
+          "odds": 6750,
           "type": "OT_NO",
           "betOfferId": 2700217078,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "8/1",
-          "oddsAmerican": "800",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "23/4",
+          "oddsAmerican": "575",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2061,12 +2676,12 @@
           "id": 4362996312,
           "label": "X",
           "englishLabel": "X",
-          "odds": 2700,
+          "odds": 2100,
           "type": "OT_CROSS",
           "betOfferId": 2700217079,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "17/10",
-          "oddsAmerican": "170",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2075,14 +2690,14 @@
           "id": 4362996313,
           "label": "1",
           "englishLabel": "1",
-          "odds": 2600,
-          "participant": "(7) Alabama",
+          "odds": 2950,
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700217079,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "8/5",
-          "oddsAmerican": "160",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2091,14 +2706,14 @@
           "id": 4362996314,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2700,
+          "odds": 3250,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700217079,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "17/10",
-          "oddsAmerican": "170",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2130,14 +2745,14 @@
           "id": 4362996315,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1850,
-          "participant": "(7) Alabama",
+          "odds": 1800,
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700217080,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2146,14 +2761,14 @@
           "id": 4362996316,
           "label": "2",
           "englishLabel": "2",
-          "odds": 1910,
+          "odds": 1960,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700217080,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2189,12 +2804,12 @@
           "id": 4362996317,
           "label": "X",
           "englishLabel": "X",
-          "odds": 19000,
+          "odds": 11500,
           "type": "OT_CROSS",
           "betOfferId": 2700217081,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "18/1",
-          "oddsAmerican": "1800",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "21/2",
+          "oddsAmerican": "1050",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2204,10 +2819,10 @@
           "label": "1",
           "englishLabel": "1",
           "odds": 1850,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700217081,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
           "oddsFractional": "17/20",
           "oddsAmerican": "-118",
@@ -2219,14 +2834,14 @@
           "id": 4362996319,
           "label": "2",
           "englishLabel": "2",
-          "odds": 1900,
+          "odds": 2020,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700217081,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2234,63 +2849,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH"
-      ],
-      "cashOutStatus": "ENABLED"
-    },
-    {
-      "id": 2700217082,
-      "closed": "2026-10-10T23:30:00Z",
-      "criterion": {
-        "id": 1001377300,
-        "label": "Total Points - Quarter 1",
-        "englishLabel": "Total Points - Quarter 1",
-        "order": [
-          1
-        ],
-        "occurrenceType": "POINTS"
-      },
-      "betOfferType": {
-        "id": 6,
-        "name": "Over/Under",
-        "englishName": "Over/Under"
-      },
-      "eventId": 1027552988,
-      "outcomes": [
-        {
-          "id": 4362996320,
-          "label": "Over",
-          "englishLabel": "Over",
-          "odds": 1780,
-          "line": 12500,
-          "type": "OT_OVER",
-          "betOfferId": 2700217082,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-129",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 0
-        },
-        {
-          "id": 4362996322,
-          "label": "Under",
-          "englishLabel": "Under",
-          "odds": 1940,
-          "line": 12500,
-          "type": "OT_UNDER",
-          "betOfferId": 2700217082,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 1
-        }
-      ],
-      "tags": [
-        "OFFERED_PREMATCH",
-        "MAIN_LINE",
-        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2315,17 +2873,17 @@
       "outcomes": [
         {
           "id": 4362996321,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
-          "odds": 2320,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 2350,
           "line": -1500,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700217083,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "13/10",
-          "oddsAmerican": "132",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2334,15 +2892,15 @@
           "id": 4362996323,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 1570,
+          "odds": 1560,
           "line": 1500,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700217083,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
           "oddsFractional": "11/20",
-          "oddsAmerican": "-177",
+          "oddsAmerican": "-180",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2374,17 +2932,17 @@
       "outcomes": [
         {
           "id": 4362996324,
-          "label": "(7) Alabama",
-          "englishLabel": "(7) Alabama Crimson Tide",
-          "odds": 2070,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 2000,
           "line": -1500,
-          "participant": "(7) Alabama",
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700217084,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "21/20",
-          "oddsAmerican": "107",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2393,15 +2951,15 @@
           "id": 4362996325,
           "label": "(2) Georgia",
           "englishLabel": "(2) Georgia Bulldogs",
-          "odds": 1710,
+          "odds": 1750,
           "line": 1500,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700217084,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-141",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2434,13 +2992,13 @@
           "id": 4362996326,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1720,
+          "odds": 1980,
           "line": 13500,
           "type": "OT_OVER",
           "betOfferId": 2700217085,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2449,13 +3007,13 @@
           "id": 4362996327,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2020,
+          "odds": 1760,
           "line": 13500,
           "type": "OT_UNDER",
           "betOfferId": 2700217085,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2472,8 +3030,8 @@
       "closed": "2026-10-10T23:30:00Z",
       "criterion": {
         "id": 1002393705,
-        "label": "(7) Alabama to Score in Both Halves",
-        "englishLabel": "(7) Alabama Crimson Tide to Score in Both Halves",
+        "label": "(6) Alabama to Score in Both Halves",
+        "englishLabel": "(6) Alabama Crimson Tide to Score in Both Halves",
         "order": []
       },
       "betOfferType": {
@@ -2487,12 +3045,12 @@
           "id": 4362987621,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 1040,
+          "odds": 1070,
           "type": "OT_YES",
           "betOfferId": 2700245139,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "1/25",
-          "oddsAmerican": "-2500",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "1/16",
+          "oddsAmerican": "-1430",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2501,12 +3059,12 @@
           "id": 4362987625,
           "label": "No",
           "englishLabel": "No",
-          "odds": 9500,
+          "odds": 7500,
           "type": "OT_NO",
           "betOfferId": 2700245139,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "17/2",
-          "oddsAmerican": "850",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2522,8 +3080,8 @@
       "closed": "2026-10-10T23:30:00Z",
       "criterion": {
         "id": 1002393703,
-        "label": "(7) Alabama to Score in every Quarter - Regular Time",
-        "englishLabel": "(7) Alabama Crimson Tide to Score in every Quarter - Regular Time",
+        "label": "(6) Alabama to Score in every Quarter - Regular Time",
+        "englishLabel": "(6) Alabama Crimson Tide to Score in every Quarter - Regular Time",
         "order": []
       },
       "betOfferType": {
@@ -2537,12 +3095,12 @@
           "id": 4362987629,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 2600,
+          "odds": 3050,
           "type": "OT_YES",
           "betOfferId": 2700245141,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "8/5",
-          "oddsAmerican": "160",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2551,12 +3109,12 @@
           "id": 4362987634,
           "label": "No",
           "englishLabel": "No",
-          "odds": 1460,
+          "odds": 1340,
           "type": "OT_NO",
           "betOfferId": 2700245141,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "4/9",
-          "oddsAmerican": "-220",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2592,12 +3150,12 @@
           "id": 4362987635,
           "label": "X",
           "englishLabel": "X",
-          "odds": 1570,
+          "odds": 1340,
           "type": "OT_CROSS",
           "betOfferId": 2700245142,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "11/20",
-          "oddsAmerican": "-177",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2606,14 +3164,14 @@
           "id": 4362987636,
           "label": "1",
           "englishLabel": "1",
-          "odds": 4000,
-          "participant": "(7) Alabama",
+          "odds": 5000,
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700245142,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "3/1",
-          "oddsAmerican": "300",
+          "oddsFractional": "4/1",
+          "oddsAmerican": "400",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2622,14 +3180,14 @@
           "id": 4362987637,
           "label": "2",
           "englishLabel": "2",
-          "odds": 4200,
+          "odds": 5600,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700245142,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "16/5",
-          "oddsAmerican": "320",
+          "oddsFractional": "23/5",
+          "oddsAmerican": "460",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2665,12 +3223,12 @@
           "id": 4362987638,
           "label": "X",
           "englishLabel": "X",
-          "odds": 56000,
+          "odds": 34000,
           "type": "OT_CROSS",
           "betOfferId": 2700245143,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "55/1",
-          "oddsAmerican": "5500",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2679,14 +3237,14 @@
           "id": 4362987639,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1800,
-          "participant": "(7) Alabama",
+          "odds": 1760,
+          "participant": "(6) Alabama",
           "type": "OT_ONE",
           "betOfferId": 2700245143,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000040823,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-125",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2695,14 +3253,14 @@
           "id": 4362987640,
           "label": "2",
           "englishLabel": "2",
-          "odds": 1840,
+          "odds": 1920,
           "participant": "(2) Georgia",
           "type": "OT_TWO",
           "betOfferId": 2700245143,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "participantId": 1000086632,
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2735,12 +3293,12 @@
           "id": 4362987641,
           "label": "Odd",
           "englishLabel": "Odd",
-          "odds": 1750,
+          "odds": 1770,
           "type": "OT_ODD",
           "betOfferId": 2700245144,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "oddsFractional": "3/4",
-          "oddsAmerican": "-134",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2749,12 +3307,12 @@
           "id": 4362987642,
           "label": "Even",
           "englishLabel": "Even",
-          "odds": 2070,
+          "odds": 2060,
           "type": "OT_EVEN",
           "betOfferId": 2700245144,
-          "changedDate": "2026-10-05T13:49:51Z",
+          "changedDate": "2026-10-08T21:17:19Z",
           "oddsFractional": "21/20",
-          "oddsAmerican": "107",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2762,61 +3320,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH"
-      ],
-      "cashOutStatus": "ENABLED"
-    },
-    {
-      "id": 2700245154,
-      "closed": "2026-10-10T23:30:00Z",
-      "criterion": {
-        "id": 1001159901,
-        "label": "Total Points - 1st Half",
-        "englishLabel": "Total Points - 1st Half",
-        "order": [],
-        "occurrenceType": "POINTS"
-      },
-      "betOfferType": {
-        "id": 6,
-        "name": "Over/Under",
-        "englishName": "Over/Under"
-      },
-      "eventId": 1027552988,
-      "outcomes": [
-        {
-          "id": 4362987732,
-          "label": "Over",
-          "englishLabel": "Over",
-          "odds": 1840,
-          "line": 27500,
-          "type": "OT_OVER",
-          "betOfferId": 2700245154,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 0
-        },
-        {
-          "id": 4362987733,
-          "label": "Under",
-          "englishLabel": "Under",
-          "odds": 1900,
-          "line": 27500,
-          "type": "OT_UNDER",
-          "betOfferId": 2700245154,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 1
-        }
-      ],
-      "tags": [
-        "OFFERED_PREMATCH",
-        "MAIN_LINE",
-        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2842,13 +3345,13 @@
           "id": 4362987734,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1680,
+          "odds": 1420,
           "line": 58500,
           "type": "OT_UNDER",
           "betOfferId": 2700245155,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-148",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2857,16 +3360,418 @@
           "id": 4362987735,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2200,
+          "odds": 2850,
           "line": 58500,
           "type": "OT_OVER",
           "betOfferId": 2700245155,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "6/5",
-          "oddsAmerican": "120",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700247345,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363097333,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2280,
+          "line": 48000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700247345,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363097334,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 48000,
+          "type": "OT_OVER",
+          "betOfferId": 2700247345,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700247347,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363157656,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1380,
+          "line": 59000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700247347,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363157657,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3000,
+          "line": 59000,
+          "type": "OT_OVER",
+          "betOfferId": 2700247347,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700247348,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363097337,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1380,
+          "line": 6000,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700247348,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363157653,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 2850,
+          "line": -6000,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700247348,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700247349,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363157654,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1930,
+          "line": 51000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700247349,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363157655,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 51000,
+          "type": "OT_OVER",
+          "betOfferId": 2700247349,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700247350,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363157658,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 2500,
+          "line": -6000,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700247350,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363157659,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 1490,
+          "line": 6000,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700247350,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700247351,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363157660,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 2850,
+          "line": -7000,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700247351,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363157661,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 1380,
+          "line": 7000,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700247351,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700247352,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363157662,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1410,
+          "line": 5500,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700247352,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363157663,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 2750,
+          "line": -5500,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700247352,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
         }
       ],
       "tags": [
@@ -2880,8 +3785,8 @@
       "closed": "2026-10-10T23:30:00Z",
       "criterion": {
         "id": 1001159692,
-        "label": "Total Points by (7) Alabama",
-        "englishLabel": "Total Points by (7) Alabama Crimson Tide - Including Overtime",
+        "label": "Total Points by (6) Alabama",
+        "englishLabel": "Total Points by (6) Alabama Crimson Tide - Including Overtime",
         "order": [],
         "lifetime": "FULL_TIME_OVERTIME"
       },
@@ -2896,13 +3801,13 @@
           "id": 4363048589,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1940,
+          "odds": 2330,
           "line": 28500,
           "type": "OT_OVER",
           "betOfferId": 2700266771,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2911,13 +3816,1489 @@
           "id": 4363048590,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1800,
+          "odds": 1570,
           "line": 28500,
           "type": "OT_UNDER",
           "betOfferId": 2700266771,
-          "changedDate": "2026-10-05T13:49:51Z",
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-125",
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267613,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105672,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 2550,
+          "line": -6500,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700267613,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363105673,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 1470,
+          "line": 6500,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700267613,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267615,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105680,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1350,
+          "line": 6500,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700267615,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363105681,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 2950,
+          "line": -6500,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700267615,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267616,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105682,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2320,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700267616,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363105683,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1630,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700267616,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267617,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105684,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1740,
+          "line": 53000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700267617,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363105685,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2120,
+          "line": 53000,
+          "type": "OT_OVER",
+          "betOfferId": 2700267617,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267619,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105686,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 2480,
+          "line": -5500,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700267619,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363105687,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 1520,
+          "line": 5500,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700267619,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267621,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105696,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 2380,
+          "line": -4500,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700267621,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363105697,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 1570,
+          "line": 4500,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700267621,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267622,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105698,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 2300,
+          "line": -4000,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700267622,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363105699,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 1620,
+          "line": 4000,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700267622,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267623,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105700,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1420,
+          "line": 5000,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700267623,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363105701,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 2700,
+          "line": -5000,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700267623,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267624,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105702,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1490,
+          "line": 4000,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700267624,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363105703,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 2550,
+          "line": -4000,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700267624,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267625,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105704,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 1460,
+          "line": 4500,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700267625,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363105705,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 2600,
+          "line": -4500,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700267625,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267627,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105708,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1300,
+          "line": 61500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700267627,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363105709,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3450,
+          "line": 61500,
+          "type": "OT_OVER",
+          "betOfferId": 2700267627,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267628,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105710,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 2250,
+          "line": -3500,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700267628,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363105711,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 1650,
+          "line": 3500,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700267628,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700267629,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363105712,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 2160,
+          "line": -3000,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700267629,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363105713,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 1720,
+          "line": 3000,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700267629,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700273465,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363111526,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1370,
+          "line": 59500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700273465,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363111527,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3050,
+          "line": 59500,
+          "type": "OT_OVER",
+          "betOfferId": 2700273465,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700273467,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363111530,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1320,
+          "line": 61000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700273467,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363111531,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3400,
+          "line": 61000,
+          "type": "OT_OVER",
+          "betOfferId": 2700273467,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700273468,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363111532,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2200,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700273468,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363111533,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700273468,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700273469,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363111534,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1340,
+          "line": 60500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700273469,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363111535,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3200,
+          "line": 60500,
+          "type": "OT_OVER",
+          "betOfferId": 2700273469,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700273470,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363111536,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1350,
+          "line": 60000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700273470,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363111537,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3150,
+          "line": 60000,
+          "type": "OT_OVER",
+          "betOfferId": 2700273470,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700273472,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4363111540,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 2430,
+          "line": -5000,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700273472,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363111541,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 1530,
+          "line": 5000,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700273472,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700621189,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364340531,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2480,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700621189,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364340532,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1550,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700621189,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700621948,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364343030,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2600,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700621948,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364343031,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700621948,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700640751,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364300791,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2400,
+          "line": 47000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700640751,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364300792,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 47000,
+          "type": "OT_OVER",
+          "betOfferId": 2700640751,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700641309,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364302327,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2550,
+          "line": 46000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700641309,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364302328,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 46000,
+          "type": "OT_OVER",
+          "betOfferId": 2700641309,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700641964,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by (2) Georgia",
+        "englishLabel": "Total Points by (2) Georgia Bulldogs - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364391437,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1980,
+          "line": 26500,
+          "type": "OT_OVER",
+          "betOfferId": 2700641964,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364391438,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 26500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700641964,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700641965,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364391439,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 3200,
+          "line": -7500,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700641965,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364391440,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 1300,
+          "line": 7500,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700641965,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700641966,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by (2) Georgia",
+        "englishLabel": "Total Points by (2) Georgia Bulldogs - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364391441,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1880,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2700641966,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364391442,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1860,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700641966,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2929,15 +5310,1335 @@
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700642010,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364391598,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 3450,
+          "line": -8500,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700642010,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364391599,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 1260,
+          "line": 8500,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700642010,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700644931,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (6) Alabama",
+        "englishLabel": "Total Points by (6) Alabama Crimson Tide - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364385655,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 26500,
+          "type": "OT_OVER",
+          "betOfferId": 2700644931,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364385658,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 26500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700644931,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700644932,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364385656,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2750,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700644932,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364385659,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1450,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700644932,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700644933,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364385657,
+          "label": "(6) Alabama",
+          "englishLabel": "(6) Alabama Crimson Tide",
+          "odds": 3350,
+          "line": -8000,
+          "participant": "(6) Alabama",
+          "type": "OT_ONE",
+          "betOfferId": 2700644933,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000040823,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364385662,
+          "label": "(2) Georgia",
+          "englishLabel": "(2) Georgia Bulldogs",
+          "odds": 1270,
+          "line": 8000,
+          "participant": "(2) Georgia",
+          "type": "OT_TWO",
+          "betOfferId": 2700644933,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "participantId": 1000086632,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700644934,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by (2) Georgia",
+        "englishLabel": "Total Points by (2) Georgia Bulldogs - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364385660,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2700644934,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364385661,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700644934,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700644936,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (6) Alabama",
+        "englishLabel": "Total Points by (6) Alabama Crimson Tide - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364385665,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1770,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2700644936,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364385666,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700644936,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700644937,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364385671,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4100,
+          "type": "OT_YES",
+          "betOfferId": 2700644937,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364385676,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1200,
+          "type": "OT_NO",
+          "betOfferId": 2700644937,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700684545,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (6) Alabama",
+        "englishLabel": "Total Points by (6) Alabama Crimson Tide - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364343032,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2430,
+          "line": 29500,
+          "type": "OT_OVER",
+          "betOfferId": 2700684545,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364343033,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1520,
+          "line": 29500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700684545,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700684546,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393522,
+        "label": "Total Points by (2) Georgia - Quarter 1",
+        "englishLabel": "Total Points by (2) Georgia Bulldogs - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364343034,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 6500,
+          "type": "OT_OVER",
+          "betOfferId": 2700684546,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364343035,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 6500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700684546,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700684547,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364343036,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2700,
+          "line": 45000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700684547,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364343037,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1470,
+          "line": 45000,
+          "type": "OT_OVER",
+          "betOfferId": 2700684547,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700684548,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393521,
+        "label": "Total Points by (6) Alabama - Quarter 1",
+        "englishLabel": "Total Points by (6) Alabama Crimson Tide - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364343038,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1840,
+          "line": 6500,
+          "type": "OT_OVER",
+          "betOfferId": 2700684548,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364343039,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 6500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700684548,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700684550,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (6) Alabama",
+        "englishLabel": "Total Points by (6) Alabama Crimson Tide - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364343042,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1720,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2700684550,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364343043,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2050,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700684550,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700771219,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by (2) Georgia",
+        "englishLabel": "Total Points by (2) Georgia Bulldogs - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364756914,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700771219,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364756915,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2170,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700771219,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700771233,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364756952,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2900,
+          "line": 44000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700771233,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364756953,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1410,
+          "line": 44000,
+          "type": "OT_OVER",
+          "betOfferId": 2700771233,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700771234,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364756954,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3000,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700771234,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364756955,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1380,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700771234,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700820983,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4364852798,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3150,
+          "line": 43000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700820983,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364852799,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1350,
+          "line": 43000,
+          "type": "OT_OVER",
+          "betOfferId": 2700820983,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701115799,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by (2) Georgia",
+        "englishLabel": "Total Points by (2) Georgia Bulldogs - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4365910444,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1540,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2701115799,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365910445,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2380,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701115799,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701118646,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4365917625,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3200,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701118646,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4365917626,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1340,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2701118646,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701191622,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (6) Alabama",
+        "englishLabel": "Total Points by (6) Alabama Crimson Tide - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4366165844,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1550,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2701191622,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366165845,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2350,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701191622,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701191624,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4366165848,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3350,
+          "line": 42000,
+          "type": "OT_UNDER",
+          "betOfferId": 2701191624,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4366165849,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1320,
+          "line": 42000,
+          "type": "OT_OVER",
+          "betOfferId": 2701191624,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701199675,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4366137086,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2701199675,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366137087,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1890,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701199675,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701295958,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4366434577,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3400,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701295958,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4366434578,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1320,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2701295958,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701421105,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4366875064,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2701421105,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366875065,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2120,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701421105,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701563939,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by (2) Georgia",
+        "englishLabel": "Total Points by (2) Georgia Bulldogs - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552988,
+      "outcomes": [
+        {
+          "id": 4367369664,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 21500,
+          "type": "OT_OVER",
+          "betOfferId": 2701563939,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367369665,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2480,
+          "line": 21500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701563939,
+          "changedDate": "2026-10-08T21:17:19Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
     }
   ],
   "events": [
     {
       "id": 1027552988,
-      "name": "(2) Georgia @ (7) Alabama",
+      "name": "(2) Georgia @ (6) Alabama",
       "nameDelimiter": "@",
-      "englishName": "(7) Alabama Crimson Tide - (2) Georgia Bulldogs",
-      "homeName": "(7) Alabama",
+      "englishName": "(6) Alabama Crimson Tide - (2) Georgia Bulldogs",
+      "homeName": "(6) Alabama",
       "awayName": "(2) Georgia",
       "start": "2026-10-10T23:30:00Z",
       "group": "NCAAF",
@@ -2956,7 +6657,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 47,
+      "nonLiveBoCount": 113,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -2968,16 +6669,6 @@
       "state": "NOT_STARTED",
       "participants": [
         {
-          "participantId": 1000040823,
-          "name": "(7) Alabama",
-          "englishName": "(7) Alabama Crimson Tide",
-          "termKey": "_7__alabama_crimson_tide",
-          "scratched": false,
-          "nonRunner": false,
-          "home": true,
-          "participantType": "TEAM"
-        },
-        {
           "participantId": 1000086632,
           "name": "(2) Georgia",
           "englishName": "(2) Georgia Bulldogs",
@@ -2985,6 +6676,16 @@
           "scratched": false,
           "nonRunner": false,
           "home": false,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000040823,
+          "name": "(6) Alabama",
+          "englishName": "(6) Alabama Crimson Tide",
+          "termKey": "_7__alabama_crimson_tide",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
           "participantType": "TEAM"
         }
       ],
@@ -2994,19 +6695,19 @@
   ],
   "prePacks": [
     {
-      "id": 7191749,
-      "label": "Game Winner and Total Points",
+      "id": 7216747,
+      "label": "Spread and Total Points",
       "prePackSelections": [
         {
-          "selectionId": 8118019,
+          "selectionId": 8144848,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
+                "decimal": 3200,
+                "american": "220",
+                "fractional": "11/5"
               },
               "groups": [
                 {
@@ -3016,9 +6717,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4236996277,
+                          "id": 4362253764,
                           "eventId": 1027552988,
-                          "betOfferId": 2662110566
+                          "betOfferId": 2700001897
                         }
                       ]
                     },
@@ -3026,9 +6727,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4360575822,
+                          "id": 4363157655,
                           "eventId": 1027552988,
-                          "betOfferId": 2699467372
+                          "betOfferId": 2700247349
                         }
                       ]
                     }
@@ -3039,7 +6740,139 @@
           ]
         },
         {
-          "selectionId": 8118022,
+          "selectionId": 8144849,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3300,
+                "american": "230",
+                "fractional": "23/10"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362253763,
+                          "eventId": 1027552988,
+                          "betOfferId": 2700001897
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4363157654,
+                          "eventId": 1027552988,
+                          "betOfferId": 2700247349
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144850,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3400,
+                "american": "240",
+                "fractional": "12/5"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362253764,
+                          "eventId": 1027552988,
+                          "betOfferId": 2700001897
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4363157654,
+                          "eventId": 1027552988,
+                          "betOfferId": 2700247349
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144847,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362253763,
+                          "eventId": 1027552988,
+                          "betOfferId": 2700001897
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4363157655,
+                          "eventId": 1027552988,
+                          "betOfferId": 2700247349
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    },
+    {
+      "id": 7216746,
+      "label": "Game Winner and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8144844,
           "label": [],
           "status": "OPEN",
           "combinations": [
@@ -3067,9 +6900,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4360575821,
+                          "id": 4363157655,
                           "eventId": 1027552988,
-                          "betOfferId": 2699467372
+                          "betOfferId": 2700247349
                         }
                       ]
                     }
@@ -3080,15 +6913,15 @@
           ]
         },
         {
-          "selectionId": 8118021,
+          "selectionId": 8144845,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
+                "decimal": 3150,
+                "american": "215",
+                "fractional": "43/20"
               },
               "groups": [
                 {
@@ -3108,9 +6941,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4360575821,
+                          "id": 4363157654,
                           "eventId": 1027552988,
-                          "betOfferId": 2699467372
+                          "betOfferId": 2700247349
                         }
                       ]
                     }
@@ -3121,15 +6954,15 @@
           ]
         },
         {
-          "selectionId": 8118020,
+          "selectionId": 8144846,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 3350,
-                "american": "235",
-                "fractional": "47/20"
+                "decimal": 3550,
+                "american": "255",
+                "fractional": "5/2"
               },
               "groups": [
                 {
@@ -3149,59 +6982,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4360575822,
+                          "id": 4363157654,
                           "eventId": 1027552988,
-                          "betOfferId": 2699467372
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "tags": [
-        "AUTO_BUNDLED"
-      ]
-    },
-    {
-      "id": 7191750,
-      "label": "Spread and Total Points",
-      "prePackSelections": [
-        {
-          "selectionId": 8118026,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3350,
-                "american": "235",
-                "fractional": "47/20"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362262823,
-                          "eventId": 1027552988,
-                          "betOfferId": 2700030175
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4360575821,
-                          "eventId": 1027552988,
-                          "betOfferId": 2699467372
+                          "betOfferId": 2700247349
                         }
                       ]
                     }
@@ -3212,15 +6995,15 @@
           ]
         },
         {
-          "selectionId": 8118025,
+          "selectionId": 8144843,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 3350,
-                "american": "235",
-                "fractional": "47/20"
+                "decimal": 3150,
+                "american": "215",
+                "fractional": "43/20"
               },
               "groups": [
                 {
@@ -3230,9 +7013,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4362262822,
+                          "id": 4236996277,
                           "eventId": 1027552988,
-                          "betOfferId": 2700030175
+                          "betOfferId": 2662110566
                         }
                       ]
                     },
@@ -3240,91 +7023,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4360575821,
+                          "id": 4363157655,
                           "eventId": 1027552988,
-                          "betOfferId": 2699467372
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8118024,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362262823,
-                          "eventId": 1027552988,
-                          "betOfferId": 2700030175
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4360575822,
-                          "eventId": 1027552988,
-                          "betOfferId": 2699467372
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8118023,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3350,
-                "american": "235",
-                "fractional": "47/20"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362262822,
-                          "eventId": 1027552988,
-                          "betOfferId": 2700030175
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4360575822,
-                          "eventId": 1027552988,
-                          "betOfferId": 2699467372
+                          "betOfferId": 2700247349
                         }
                       ]
                     }

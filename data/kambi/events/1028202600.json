@@ -1,0 +1,661 @@
+{
+  "generatedAt": "2026-10-08T22:55:49.709Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1028202600",
+    "name": "Kansas @ Kansas State",
+    "away": "Kansas",
+    "home": "Kansas State",
+    "start": "2026-10-17T16:00:00Z"
+  },
+  "counts": {
+    "betOffers": 4,
+    "events": 1,
+    "prePacks": 2
+  },
+  "betOffers": [
+    {
+      "id": 2701522179,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4367286430,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1320,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2701522179,
+          "changedDate": "2026-10-08T19:21:01Z",
+          "participantId": 1000005538,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367286431,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 3500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2701522179,
+          "changedDate": "2026-10-08T19:21:01Z",
+          "participantId": 1000036410,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701551384,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4367271997,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1880,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2701551384,
+          "changedDate": "2026-10-08T19:21:01Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367271998,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1940,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701551384,
+          "changedDate": "2026-10-08T19:21:01Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701551385,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4367271999,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1870,
+          "line": -7500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2701551385,
+          "changedDate": "2026-10-08T19:21:01Z",
+          "participantId": 1000005538,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367272000,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1950,
+          "line": 7500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2701551385,
+          "changedDate": "2026-10-08T19:21:01Z",
+          "participantId": 1000036410,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701551389,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4367272007,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1910,
+          "line": -8000,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2701551389,
+          "changedDate": "2026-10-08T19:21:01Z",
+          "participantId": 1000005538,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367272008,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1910,
+          "line": 8000,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2701551389,
+          "changedDate": "2026-10-08T19:21:01Z",
+          "participantId": 1000036410,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1028202600,
+      "name": "Kansas @ Kansas State",
+      "nameDelimiter": "@",
+      "englishName": "Kansas State Wildcats - Kansas Jayhawks",
+      "homeName": "Kansas State",
+      "awayName": "Kansas",
+      "start": "2026-10-17T16:00:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 4,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1000036410,
+          "name": "Kansas",
+          "englishName": "Kansas Jayhawks",
+          "termKey": "kansas_jayhawks",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000005538,
+          "name": "Kansas State",
+          "englishName": "Kansas State Wildcats",
+          "termKey": "kansas_state_wildcats",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-17T16:00:00Z"
+    }
+  ],
+  "prePacks": [
+    {
+      "id": 7216266,
+      "label": "Game Winner and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8144288,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 2250,
+                "american": "125",
+                "fractional": "5/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367286430,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701522179
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367271997,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701551384
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144289,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 5800,
+                "american": "480",
+                "fractional": "24/5"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367286431,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701522179
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367271997,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701551384
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144290,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 2300,
+                "american": "130",
+                "fractional": "13/10"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367286430,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701522179
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367271998,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701551384
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144291,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 6250,
+                "american": "525",
+                "fractional": "21/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367286431,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701522179
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367271998,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701551384
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    },
+    {
+      "id": 7216267,
+      "label": "Spread and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8144292,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3250,
+                "american": "225",
+                "fractional": "9/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367272007,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701551389
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367271997,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701551384
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144293,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3250,
+                "american": "225",
+                "fractional": "9/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367272008,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701551389
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367271997,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701551384
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144294,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367272007,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701551389
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367271998,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701551384
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144295,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367272008,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701551389
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367271998,
+                          "eventId": 1028202600,
+                          "betOfferId": 2701551384
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    }
+  ]
+}

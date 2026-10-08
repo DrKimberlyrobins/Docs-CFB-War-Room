@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:38.899Z",
+  "generatedAt": "2026-10-08T22:55:38.581Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,7 +10,7 @@
     "start": "2026-10-10T16:00:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 92,
     "events": 1,
     "prePacks": 0
   },
@@ -37,13 +37,13 @@
           "id": 4361941954,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1930,
+          "odds": 2200,
           "line": 45500,
           "type": "OT_UNDER",
           "betOfferId": 2699901523,
-          "changedDate": "2026-10-04T17:55:49Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -52,13 +52,13 @@
           "id": 4361941955,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1900,
+          "odds": 1680,
           "line": 45500,
           "type": "OT_OVER",
           "betOfferId": 2699901523,
-          "changedDate": "2026-10-04T17:55:49Z",
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -66,7 +66,360 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699901524,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4361941956,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1600,
+          "line": 500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2699901524,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361941957,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2380,
+          "line": -500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2699901524,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699901525,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4361941958,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 2160,
+          "line": -5500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2699901525,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361941959,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1710,
+          "line": 5500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2699901525,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699901526,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4361941960,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 2350,
+          "line": -6500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2699901526,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361941961,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1610,
+          "line": 6500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2699901526,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699901527,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4361941962,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1980,
+          "line": -4000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2699901527,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361941963,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1850,
+          "line": 4000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2699901527,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699901528,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4361941964,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 2280,
+          "line": -6000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2699901528,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361941965,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1650,
+          "line": 6000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2699901528,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699924884,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4361986691,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 2100,
+          "line": -5000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2699924884,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361986692,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1750,
+          "line": 5000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2699924884,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -93,14 +446,14 @@
           "id": 4361947946,
           "label": "Army",
           "englishLabel": "Army Black Knights",
-          "odds": 1610,
+          "odds": 1580,
           "participant": "Army",
           "type": "OT_ONE",
           "betOfferId": 2699927723,
-          "changedDate": "2026-10-04T17:55:49Z",
+          "changedDate": "2026-10-08T21:47:58Z",
           "participantId": 1000087348,
-          "oddsFractional": "3/5",
-          "oddsAmerican": "-165",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -113,7 +466,7 @@
           "participant": "Tulane",
           "type": "OT_TWO",
           "betOfferId": 2699927723,
-          "changedDate": "2026-10-04T17:55:49Z",
+          "changedDate": "2026-10-08T21:47:58Z",
           "participantId": 1000061840,
           "oddsFractional": "27/20",
           "oddsAmerican": "135",
@@ -126,6 +479,124 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699927724,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4361947948,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 2040,
+          "line": -4500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2699927724,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361947949,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1800,
+          "line": 4500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2699927724,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699927725,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4361947950,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1570,
+          "line": 1000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2699927725,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361947951,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2450,
+          "line": -1000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2699927725,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -151,15 +622,15 @@
           "id": 4362048095,
           "label": "Army",
           "englishLabel": "Army Black Knights",
-          "odds": 1970,
+          "odds": 1930,
           "line": -3500,
           "participant": "Army",
           "type": "OT_ONE",
           "betOfferId": 2699929695,
-          "changedDate": "2026-10-04T17:55:50Z",
+          "changedDate": "2026-10-08T21:47:58Z",
           "participantId": 1000087348,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-104",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -168,15 +639,15 @@
           "id": 4362048096,
           "label": "Tulane",
           "englishLabel": "Tulane Green Wave",
-          "odds": 1850,
+          "odds": 1900,
           "line": 3500,
           "participant": "Tulane",
           "type": "OT_TWO",
           "betOfferId": 2699929695,
-          "changedDate": "2026-10-04T17:55:50Z",
+          "changedDate": "2026-10-08T21:47:58Z",
           "participantId": 1000061840,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -184,6 +655,7 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -210,15 +682,15 @@
           "id": 4362054366,
           "label": "Army",
           "englishLabel": "Army Black Knights",
-          "odds": 1870,
+          "odds": 1830,
           "line": -3000,
           "participant": "Army",
           "type": "OT_ONE",
           "betOfferId": 2699952195,
-          "changedDate": "2026-10-04T17:55:50Z",
+          "changedDate": "2026-10-08T21:47:58Z",
           "participantId": 1000087348,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -227,13 +699,3229 @@
           "id": 4362054367,
           "label": "Tulane",
           "englishLabel": "Tulane Green Wave",
-          "odds": 1960,
+          "odds": 2000,
           "line": 3000,
           "participant": "Tulane",
           "type": "OT_TWO",
           "betOfferId": 2699952195,
-          "changedDate": "2026-10-04T17:55:50Z",
+          "changedDate": "2026-10-08T21:47:58Z",
           "participantId": 1000061840,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563366,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Army to win both halves",
+        "englishLabel": "Army Black Knights to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364119194,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3300,
+          "type": "OT_YES",
+          "betOfferId": 2700563366,
+          "changedDate": "2026-10-08T21:47:57Z",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364119197,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1270,
+          "type": "OT_NO",
+          "betOfferId": 2700563366,
+          "changedDate": "2026-10-08T21:47:57Z",
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563367,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364119198,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1470,
+          "line": 500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563367,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364119199,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2550,
+          "line": -500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563367,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563368,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Tulane",
+        "englishLabel": "Total Points by Tulane Green Wave - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364119200,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1800,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2700563368,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364119201,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700563368,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563369,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364119206,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4300,
+          "type": "OT_YES",
+          "betOfferId": 2700563369,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "33/10",
+          "oddsAmerican": "330",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364119211,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1160,
+          "type": "OT_NO",
+          "betOfferId": 2700563369,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "2/13",
+          "oddsAmerican": "-625",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563374,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364119220,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700563374,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364119221,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1970,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700563374,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563375,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364119222,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1780,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563375,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364119223,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 10000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700563375,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364119224,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2350,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563375,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563376,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Tulane to score first and win",
+        "englishLabel": "Tulane Green Wave to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364119227,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3400,
+          "type": "OT_YES",
+          "betOfferId": 2700563376,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364119230,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1260,
+          "type": "OT_NO",
+          "betOfferId": 2700563376,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563377,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364119231,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1900,
+          "line": -2500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563377,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364119232,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1840,
+          "line": 2500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563377,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563379,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Army to Score in every Quarter - Regular Time",
+        "englishLabel": "Army Black Knights to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364119239,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2320,
+          "type": "OT_YES",
+          "betOfferId": 2700563379,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364119244,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1520,
+          "type": "OT_NO",
+          "betOfferId": 2700563379,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563381,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364119249,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1770,
+          "line": -500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563381,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170375,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1980,
+          "line": 500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563381,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563382,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170376,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1840,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700563382,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364170377,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1980,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700563382,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563383,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Army to score first and win",
+        "englishLabel": "Army Black Knights to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170380,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2330,
+          "type": "OT_YES",
+          "betOfferId": 2700563383,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170383,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1500,
+          "type": "OT_NO",
+          "betOfferId": 2700563383,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563384,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170384,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1660,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563384,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170385,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2050,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563384,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700563385,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Tulane - 1st Half",
+        "englishLabel": "Total Points by Tulane Green Wave - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170386,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2000,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700563385,
+          "changedDate": "2026-10-08T21:47:57Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170387,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700563385,
+          "changedDate": "2026-10-08T21:47:57Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563386,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170388,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1760,
+          "type": "OT_ODD",
+          "betOfferId": 2700563386,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170389,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1910,
+          "type": "OT_EVEN",
+          "betOfferId": 2700563386,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563387,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Army",
+        "englishLabel": "Total Points by Army Black Knights - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170390,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1800,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2700563387,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170391,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1860,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700563387,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563388,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Army",
+        "englishLabel": "Total Points by Army Black Knights - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170392,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1750,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2700563388,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170393,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1930,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700563388,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563389,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Army",
+        "englishLabel": "Total Points by Army Black Knights - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170394,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700563389,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170395,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2180,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700563389,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563391,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170398,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1600,
+          "line": -500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563391,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170399,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2380,
+          "line": 500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563391,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563392,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170400,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1400,
+          "line": 3500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563392,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170401,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 3050,
+          "line": -3500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563392,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563393,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170402,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1350,
+          "line": 4500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563393,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170403,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 3250,
+          "line": -4500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563393,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563394,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170404,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1630,
+          "line": -1000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563394,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170405,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2320,
+          "line": 1000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563394,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563395,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170406,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 2950,
+          "line": -8000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563395,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170407,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1410,
+          "line": 8000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563395,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563396,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170408,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 3800,
+          "line": -11000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563396,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170409,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1280,
+          "line": 11000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563396,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563397,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170410,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1320,
+          "line": 5000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563397,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170411,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 3450,
+          "line": -5000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563397,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563418,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170462,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 2160,
+          "line": -1500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563418,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170463,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1650,
+          "line": 1500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563418,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563476,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170642,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1320,
+          "line": 5500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563476,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170643,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 3500,
+          "line": -5500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563476,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563477,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170644,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 3850,
+          "line": -11500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700563477,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170645,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1270,
+          "line": 11500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700563477,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700563512,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Army - 1st Half",
+        "englishLabel": "Total Points by Army Black Knights - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364170722,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2000,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700563512,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364170723,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700563512,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577549,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Tulane",
+        "englishLabel": "Total Points by Tulane Green Wave - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131600,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1980,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700577549,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131601,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1700,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700577549,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577550,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131602,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 2100,
+          "line": -500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577550,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131603,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1680,
+          "line": 500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577550,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577551,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Army - 1st Half",
+        "englishLabel": "Total Points by Army Black Knights - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131604,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2700577551,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131605,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700577551,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577552,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131606,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1650,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577552,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131607,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2180,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577552,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577555,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Tulane to Score in Both Halves",
+        "englishLabel": "Tulane Green Wave to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131624,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1090,
+          "type": "OT_YES",
+          "betOfferId": 2700577555,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "1/12",
+          "oddsAmerican": "-1115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131627,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 5600,
+          "type": "OT_NO",
+          "betOfferId": 2700577555,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "23/5",
+          "oddsAmerican": "460",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577557,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131630,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1650,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577557,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131631,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 12500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700577557,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "23/2",
+          "oddsAmerican": "1150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364131632,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2480,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577557,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577558,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131633,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1560,
+          "line": 500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577558,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131634,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2330,
+          "line": -500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577558,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577559,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Army to Score in Both Halves",
+        "englishLabel": "Army Black Knights to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131637,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1050,
+          "type": "OT_YES",
+          "betOfferId": 2700577559,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "1/20",
+          "oddsAmerican": "-2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131640,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 7500,
+          "type": "OT_NO",
+          "betOfferId": 2700577559,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577560,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131641,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2120,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577560,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131642,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4250,
+          "type": "OT_CROSS",
+          "betOfferId": 2700577560,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "13/4",
+          "oddsAmerican": "325",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364131643,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2600,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577560,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577563,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131649,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 10500,
+          "type": "OT_YES",
+          "betOfferId": 2700577563,
+          "changedDate": "2026-10-08T13:14:28Z",
+          "oddsFractional": "19/2",
+          "oddsAmerican": "950",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131651,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1030,
+          "type": "OT_NO",
+          "betOfferId": 2700577563,
+          "changedDate": "2026-10-08T13:14:28Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577564,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131652,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2330,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700577564,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364131653,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1620,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700577564,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577565,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131654,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700577565,
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364131655,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2080,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2700577565,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577566,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131656,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1710,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577566,
+          "changedDate": "2026-10-08T21:47:57Z",
+          "participantId": 1000087348,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131657,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2080,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577566,
+          "changedDate": "2026-10-08T21:47:57Z",
+          "participantId": 1000061840,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577567,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131658,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2080,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700577567,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364131659,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1770,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700577567,
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577569,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131662,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700577569,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131663,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1890,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700577569,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577570,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131664,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 4300,
+          "participant": "Army",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700577570,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "33/10",
+          "oddsAmerican": "330",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364131665,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 3500,
+          "participant": "Tulane",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700577570,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364131666,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 131000,
+          "participant": "Army",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700577570,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "130/1",
+          "oddsAmerican": "13000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364131667,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 131000,
+          "participant": "Tulane",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700577570,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "130/1",
+          "oddsAmerican": "13000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364131668,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 2800,
+          "participant": "Army",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700577570,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364131669,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 4200,
+          "participant": "Tulane",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700577570,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "16/5",
+          "oddsAmerican": "320",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577571,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131670,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 3600,
+          "line": -10500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577571,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131671,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1300,
+          "line": 10500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577571,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577572,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131672,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1750,
+          "line": -2500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577572,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131673,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2100,
+          "line": 2500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577572,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577573,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131674,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1550,
+          "line": 1500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577573,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131675,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2480,
+          "line": -1500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577573,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577574,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131676,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1660,
+          "line": -1500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577574,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131677,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2250,
+          "line": 1500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577574,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577575,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131678,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 3150,
+          "line": -9000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577575,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131679,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1370,
+          "line": 9000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577575,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577576,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131680,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1360,
+          "line": 4000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577576,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131681,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 3200,
+          "line": -4000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577576,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577577,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131682,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1500,
+          "line": 2000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577577,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131683,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2600,
+          "line": -2000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577577,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577646,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131860,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 2150,
+          "line": -3500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577646,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131861,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1650,
+          "line": 3500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577646,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700577648,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364131864,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1270,
+          "line": 6000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700577648,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364131865,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 3800,
+          "line": -6000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700577648,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586482,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Tulane",
+        "englishLabel": "Total Points by Tulane Green Wave - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143324,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1720,
+          "line": 21500,
+          "type": "OT_OVER",
+          "betOfferId": 2700586482,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143325,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1960,
+          "line": 21500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700586482,
+          "changedDate": "2026-10-08T21:47:58Z",
           "oddsFractional": "19/20",
           "oddsAmerican": "-105",
           "status": "OPEN",
@@ -243,7 +3931,1513 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586483,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Tulane to Score in every Quarter - Regular Time",
+        "englishLabel": "Tulane Green Wave to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143330,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2850,
+          "type": "OT_YES",
+          "betOfferId": 2700586483,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143335,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1350,
+          "type": "OT_NO",
+          "betOfferId": 2700586483,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586484,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Tulane",
+        "englishLabel": "Total Points by Tulane Green Wave - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143336,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1630,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2700586484,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143337,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2100,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700586484,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586485,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143338,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1440,
+          "line": 1500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700586485,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143339,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2650,
+          "line": -1500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700586485,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586486,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Tulane to win both halves",
+        "englishLabel": "Tulane Green Wave to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143342,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5300,
+          "type": "OT_YES",
+          "betOfferId": 2700586486,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "17/4",
+          "oddsAmerican": "430",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143345,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1110,
+          "type": "OT_NO",
+          "betOfferId": 2700586486,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-910",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586489,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143352,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 2180,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700586489,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143355,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 29000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700586489,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "28/1",
+          "oddsAmerican": "2800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364143358,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 10000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700586489,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364143361,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 18000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700586489,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364143364,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 71000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700586489,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "70/1",
+          "oddsAmerican": "7000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364143367,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 23000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700586489,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "22/1",
+          "oddsAmerican": "2200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364143370,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 7500,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700586489,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364143373,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 29000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700586489,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "28/1",
+          "oddsAmerican": "2800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364143376,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 3400,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700586489,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586490,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143377,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1860,
+          "line": -1500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700586490,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143378,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1880,
+          "line": 1500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700586490,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586491,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143379,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1580,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700586491,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364143380,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2400,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2700586491,
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586492,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143381,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2500,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700586492,
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364143382,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1550,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700586492,
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586493,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143383,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2880,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700586493,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364143384,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1430,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2700586493,
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586495,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Tulane - 1st Half",
+        "englishLabel": "Total Points by Tulane Green Wave - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143387,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1540,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700586495,
+          "changedDate": "2026-10-08T21:47:57Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143388,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2280,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700586495,
+          "changedDate": "2026-10-08T21:47:57Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586496,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143389,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700586496,
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364143390,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2230,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700586496,
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586497,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143391,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1940,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700586497,
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364143392,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1890,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700586497,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586498,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143393,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2700,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700586498,
+          "changedDate": "2026-10-08T13:14:29Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364143394,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1480,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700586498,
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586503,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143404,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 3200,
+          "line": -9500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700586503,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143405,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1360,
+          "line": 9500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700586503,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586504,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143406,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1480,
+          "line": 2500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700586504,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143407,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2700,
+          "line": -2500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700586504,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586505,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143408,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 3050,
+          "line": -8500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700586505,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143409,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1380,
+          "line": 8500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700586505,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586506,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143410,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 2750,
+          "line": -7500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700586506,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143411,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1460,
+          "line": 7500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700586506,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586507,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143412,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1700,
+          "line": -2000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700586507,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143413,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2180,
+          "line": 2000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700586507,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586508,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143414,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 3500,
+          "line": -10000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700586508,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143415,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1320,
+          "line": 10000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700586508,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586509,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143416,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 1430,
+          "line": 3000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700586509,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143417,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 2900,
+          "line": -3000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700586509,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586510,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143418,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 2600,
+          "line": -7000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700586510,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143419,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1500,
+          "line": 7000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700586510,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586522,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143448,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1540,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700586522,
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364143449,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2550,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2700586522,
+          "changedDate": "2026-10-06T11:07:15Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586577,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Army",
+        "englishLabel": "Total Points by Army Black Knights - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143619,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1920,
+          "line": 26500,
+          "type": "OT_OVER",
+          "betOfferId": 2700586577,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143620,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1750,
+          "line": 26500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700586577,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586579,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143623,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 4000,
+          "line": -12000,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700586579,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143624,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1260,
+          "line": 12000,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700586579,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700586598,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552997,
+      "outcomes": [
+        {
+          "id": 4364143677,
+          "label": "Army",
+          "englishLabel": "Army Black Knights",
+          "odds": 2430,
+          "line": -4500,
+          "participant": "Army",
+          "type": "OT_ONE",
+          "betOfferId": 2700586598,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000087348,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364143678,
+          "label": "Tulane",
+          "englishLabel": "Tulane Green Wave",
+          "odds": 1520,
+          "line": 4500,
+          "participant": "Tulane",
+          "type": "OT_TWO",
+          "betOfferId": 2700586598,
+          "changedDate": "2026-10-08T21:47:58Z",
+          "participantId": 1000061840,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -274,7 +5468,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 92,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

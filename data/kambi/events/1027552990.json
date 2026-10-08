@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:43.882Z",
+  "generatedAt": "2026-10-08T22:55:43.294Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,7 +10,7 @@
     "start": "2026-10-10T19:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 92,
     "events": 1,
     "prePacks": 0
   },
@@ -37,13 +37,13 @@
           "id": 4361960361,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1950,
+          "odds": 1790,
           "line": 47500,
           "type": "OT_UNDER",
           "betOfferId": 2699885648,
-          "changedDate": "2026-10-05T13:57:30Z",
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -52,16 +52,189 @@
           "id": 4361960363,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1880,
+          "odds": 2060,
           "line": 47500,
           "type": "OT_OVER",
           "betOfferId": 2699885648,
-          "changedDate": "2026-10-05T13:57:30Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699885649,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4361960362,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699885649,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361960364,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2699885649,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699885650,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4361960365,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2180,
+          "line": -4500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2699885650,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361960366,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1700,
+          "line": 4500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2699885650,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699885651,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4361960367,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1940,
+          "line": -3000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2699885651,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000047540,
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361960368,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1890,
+          "line": 3000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2699885651,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
         }
       ],
       "tags": [
@@ -97,7 +270,7 @@
           "participant": "Ohio",
           "type": "OT_ONE",
           "betOfferId": 2699912994,
-          "changedDate": "2026-10-05T13:57:30Z",
+          "changedDate": "2026-10-06T11:55:46Z",
           "participantId": 1000047540,
           "oddsFractional": "4/6",
           "oddsAmerican": "-148",
@@ -113,7 +286,7 @@
           "participant": "Central Michigan",
           "type": "OT_TWO",
           "betOfferId": 2699912994,
-          "changedDate": "2026-10-05T13:57:30Z",
+          "changedDate": "2026-10-08T13:15:35Z",
           "participantId": 1000046748,
           "oddsFractional": "59/50",
           "oddsAmerican": "118",
@@ -126,6 +299,297 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699912995,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4361954397,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2100,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699912995,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361954399,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1750,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2699912995,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699912996,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4361954400,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1660,
+          "line": 1000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2699912996,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361954401,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2250,
+          "line": -1000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2699912996,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000046748,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699912997,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4361954402,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2100,
+          "line": -4000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2699912997,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000047540,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361954403,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1750,
+          "line": 4000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2699912997,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699919055,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4361945419,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2040,
+          "line": -3500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2699919055,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361945420,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1800,
+          "line": 3500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2699919055,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699919056,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4361945421,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1680,
+          "line": 500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2699919056,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361945422,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2200,
+          "line": -500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2699919056,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -151,15 +615,15 @@
           "id": 4363071877,
           "label": "Ohio",
           "englishLabel": "Ohio Bobcats",
-          "odds": 1890,
+          "odds": 1850,
           "line": -2500,
           "participant": "Ohio",
           "type": "OT_ONE",
           "betOfferId": 2700243718,
-          "changedDate": "2026-10-05T13:57:33Z",
+          "changedDate": "2026-10-08T13:15:35Z",
           "participantId": 1000047540,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -168,15 +632,15 @@
           "id": 4363071878,
           "label": "Central Michigan",
           "englishLabel": "Central Michigan Chippewas",
-          "odds": 1940,
+          "odds": 1980,
           "line": 2500,
           "participant": "Central Michigan",
           "type": "OT_TWO",
           "betOfferId": 2700243718,
-          "changedDate": "2026-10-05T13:57:33Z",
+          "changedDate": "2026-10-06T11:55:47Z",
           "participantId": 1000046748,
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -184,7 +648,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -211,15 +674,15 @@
           "id": 4363080923,
           "label": "Ohio",
           "englishLabel": "Ohio Bobcats",
-          "odds": 1830,
+          "odds": 1800,
           "line": -2000,
           "participant": "Ohio",
           "type": "OT_ONE",
           "betOfferId": 2700249523,
-          "changedDate": "2026-10-05T13:57:33Z",
+          "changedDate": "2026-10-08T13:15:36Z",
           "participantId": 1000047540,
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -228,15 +691,4746 @@
           "id": 4363080924,
           "label": "Central Michigan",
           "englishLabel": "Central Michigan Chippewas",
-          "odds": 2000,
+          "odds": 2040,
           "line": 2000,
           "participant": "Central Michigan",
           "type": "OT_TWO",
           "betOfferId": 2700249523,
-          "changedDate": "2026-10-05T13:57:33Z",
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000046748,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591031,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Ohio",
+        "englishLabel": "Total Points by Ohio Bobcats - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213746,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1920,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2700591031,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213747,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1750,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700591031,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591032,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213748,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1760,
+          "type": "OT_ODD",
+          "betOfferId": 2700591032,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213749,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1910,
+          "type": "OT_EVEN",
+          "betOfferId": 2700591032,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591033,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Ohio to win both halves",
+        "englishLabel": "Ohio Bobcats to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213752,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3450,
+          "type": "OT_YES",
+          "betOfferId": 2700591033,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213755,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1250,
+          "type": "OT_NO",
+          "betOfferId": 2700591033,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591037,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Ohio - 1st Half",
+        "englishLabel": "Total Points by Ohio Bobcats - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213762,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1800,
+          "line": 11500,
+          "type": "OT_OVER",
+          "betOfferId": 2700591037,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213763,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1860,
+          "line": 11500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700591037,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591038,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Central Michigan to win both halves",
+        "englishLabel": "Central Michigan Chippewas to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213766,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4700,
+          "type": "OT_YES",
+          "betOfferId": 2700591038,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "18/5",
+          "oddsAmerican": "370",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213769,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1140,
+          "type": "OT_NO",
+          "betOfferId": 2700591038,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "2/15",
+          "oddsAmerican": "-715",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591039,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Ohio to Score in every Quarter - Regular Time",
+        "englishLabel": "Ohio Bobcats to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213774,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2550,
+          "type": "OT_YES",
+          "betOfferId": 2700591039,
+          "changedDate": "2026-10-06T11:55:32Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213779,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1430,
+          "type": "OT_NO",
+          "betOfferId": 2700591039,
+          "changedDate": "2026-10-06T11:55:32Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591040,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213780,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1750,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591040,
+          "changedDate": "2026-10-06T11:55:33Z",
+          "participantId": 1000047540,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213781,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1930,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591040,
+          "changedDate": "2026-10-06T11:55:33Z",
+          "participantId": 1000046748,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700591041,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Central Michigan to score first and win",
+        "englishLabel": "Central Michigan Chippewas to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213784,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3100,
+          "type": "OT_YES",
+          "betOfferId": 2700591041,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213787,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1300,
+          "type": "OT_NO",
+          "betOfferId": 2700591041,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591043,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213790,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700591043,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364213791,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1570,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700591043,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591044,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213792,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2600,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700591044,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364213793,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2700591044,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591045,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213794,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1640,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700591045,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364213795,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2300,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2700591045,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591046,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213796,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1560,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700591046,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364213797,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2480,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700591046,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591047,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213798,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1800,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591047,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000047540,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213799,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1980,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591047,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000046748,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591048,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213800,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2280,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700591048,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364213801,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700591048,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591049,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213802,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 131000,
+          "participant": "Ohio",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700591049,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "130/1",
+          "oddsAmerican": "13000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364213803,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 4200,
+          "participant": "Ohio",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700591049,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "16/5",
+          "oddsAmerican": "320",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364213804,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 3250,
+          "participant": "Central Michigan",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700591049,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000046748,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364213805,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 131000,
+          "participant": "Central Michigan",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700591049,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "130/1",
+          "oddsAmerican": "13000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364213806,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 4250,
+          "participant": "Central Michigan",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700591049,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "13/4",
+          "oddsAmerican": "325",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364213807,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 2950,
+          "participant": "Ohio",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700591049,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591050,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213808,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1410,
+          "line": 4500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591050,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213810,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2950,
+          "line": -4500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591050,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591051,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213809,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1460,
+          "line": 3500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591051,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213811,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2750,
+          "line": -3500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591051,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591052,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213812,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2500,
+          "line": -6500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591052,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213813,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1550,
+          "line": 6500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591052,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591053,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213814,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 3350,
+          "line": -9500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591053,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213815,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1340,
+          "line": 9500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591053,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591054,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213816,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1560,
+          "line": 2500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591054,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213817,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2450,
+          "line": -2500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591054,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591055,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213818,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 3200,
+          "line": -8500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591055,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213819,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1360,
+          "line": 8500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591055,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591056,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213820,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2400,
+          "line": -6000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591056,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000047540,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213821,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1580,
+          "line": 6000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591056,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591057,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213822,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1380,
+          "line": 5000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591057,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213823,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 3050,
+          "line": -5000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591057,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000046748,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591058,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213824,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1430,
+          "line": 4000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591058,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213825,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2880,
+          "line": -4000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591058,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000046748,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591080,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364213927,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1560,
+          "line": 2500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591080,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364213928,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2330,
+          "line": -2500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591080,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000046748,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591098,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364214016,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1250,
+          "line": 7000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700591098,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000047540,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214017,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 4000,
+          "line": -7000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700591098,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000046748,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610788,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Ohio to score first and win",
+        "englishLabel": "Ohio Bobcats to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364197771,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2480,
+          "type": "OT_YES",
+          "betOfferId": 2700610788,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364197774,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1460,
+          "type": "OT_NO",
+          "betOfferId": 2700610788,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610790,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Central Michigan to Score in every Quarter - Regular Time",
+        "englishLabel": "Central Michigan Chippewas to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364197790,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2900,
+          "type": "OT_YES",
+          "betOfferId": 2700610790,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225010,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1340,
+          "type": "OT_NO",
+          "betOfferId": 2700610790,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610792,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225013,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1800,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700610792,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225014,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1950,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700610792,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610793,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Ohio - 1st Half",
+        "englishLabel": "Total Points by Ohio Bobcats - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225015,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2700610793,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225016,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1820,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700610793,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610794,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225017,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2230,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610794,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000047540,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225018,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4250,
+          "type": "OT_CROSS",
+          "betOfferId": 2700610794,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "13/4",
+          "oddsAmerican": "325",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364225019,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2450,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610794,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000046748,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610796,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225022,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2280,
+          "line": -1500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610796,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000047540,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225023,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1600,
+          "line": 1500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610796,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610797,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225024,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1700,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700610797,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364225025,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2180,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700610797,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610798,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225026,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1520,
+          "line": 500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610798,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000047540,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225027,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2430,
+          "line": -500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610798,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000046748,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610799,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225028,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2200,
+          "line": -500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610799,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000047540,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225029,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1620,
+          "line": 500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610799,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610800,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225030,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1500,
+          "line": 1500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610800,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000047540,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225031,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2500,
+          "line": -1500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610800,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000046748,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610802,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Ohio to Score in Both Halves",
+        "englishLabel": "Ohio Bobcats to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225037,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1060,
+          "type": "OT_YES",
+          "betOfferId": 2700610802,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "1/18",
+          "oddsAmerican": "-1667",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225040,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 6500,
+          "type": "OT_NO",
+          "betOfferId": 2700610802,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "11/2",
+          "oddsAmerican": "550",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610803,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225041,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1480,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700610803,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364225042,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2700,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2700610803,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610805,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225045,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1740,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610805,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225046,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 13000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700610805,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364225047,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2300,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610805,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000046748,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610806,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225049,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1580,
+          "line": 1500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610806,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000047540,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225050,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2280,
+          "line": -1500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610806,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610807,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225051,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1660,
+          "line": 500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610807,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000047540,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225052,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2140,
+          "line": -500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610807,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610808,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225053,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2020,
+          "line": -1500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610808,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000047540,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225054,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1750,
+          "line": 1500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610808,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610809,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225055,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1780,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610809,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225056,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610809,
+          "changedDate": "2026-10-06T11:55:46Z",
           "participantId": 1000046748,
           "oddsFractional": "Evens",
           "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610810,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225057,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1910,
+          "line": -500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610810,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225058,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1830,
+          "line": 500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610810,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000046748,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610812,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Central Michigan to Score in Both Halves",
+        "englishLabel": "Central Michigan Chippewas to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225063,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1100,
+          "type": "OT_YES",
+          "betOfferId": 2700610812,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225066,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 5400,
+          "type": "OT_NO",
+          "betOfferId": 2700610812,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "22/5",
+          "oddsAmerican": "440",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610813,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Central Michigan - 1st Half",
+        "englishLabel": "Total Points by Central Michigan Chippewas - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225067,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700610813,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225068,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2330,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700610813,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610814,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225069,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1760,
+          "line": -1500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610814,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225070,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2100,
+          "line": 1500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610814,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610815,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225071,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1640,
+          "line": 1500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610815,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225072,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2300,
+          "line": -1500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610815,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610816,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225073,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1380,
+          "line": 5500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610816,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225074,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 3100,
+          "line": -5500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610816,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610817,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225075,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2230,
+          "line": -5000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610817,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000047540,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225076,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1670,
+          "line": 5000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610817,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610818,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225077,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2800,
+          "line": -7000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610818,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225078,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1450,
+          "line": 7000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610818,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610819,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225079,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1490,
+          "line": 3000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610819,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225080,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2650,
+          "line": -3000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610819,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610820,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225081,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 3350,
+          "line": -9000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610820,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225082,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1340,
+          "line": 9000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610820,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610864,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225291,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1320,
+          "line": 6500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610864,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225292,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 3500,
+          "line": -6500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610864,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610865,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364225293,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 4000,
+          "line": -11000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700610865,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225294,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1260,
+          "line": 11000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700610865,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628012,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Ohio",
+        "englishLabel": "Total Points by Ohio Bobcats - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216392,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1980,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628012,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216393,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1700,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628012,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628013,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216398,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4000,
+          "type": "OT_YES",
+          "betOfferId": 2700628013,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216403,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1190,
+          "type": "OT_NO",
+          "betOfferId": 2700628013,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "2/11",
+          "oddsAmerican": "-530",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628014,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Ohio",
+        "englishLabel": "Total Points by Ohio Bobcats - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216404,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1720,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628014,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216405,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1970,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628014,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628018,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Central Michigan",
+        "englishLabel": "Total Points by Central Michigan Chippewas - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216412,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628018,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216413,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1820,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628018,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628019,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Central Michigan",
+        "englishLabel": "Total Points by Central Michigan Chippewas - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216414,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628019,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216415,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1670,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628019,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628020,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Central Michigan",
+        "englishLabel": "Total Points by Central Michigan Chippewas - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216416,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1670,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628020,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216417,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2040,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628020,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628021,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Central Michigan",
+        "englishLabel": "Total Points by Central Michigan Chippewas - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216418,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1770,
+          "line": 21500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628021,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216419,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1900,
+          "line": 21500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628021,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628022,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Ohio",
+        "englishLabel": "Total Points by Ohio Bobcats - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216420,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628022,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216421,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2200,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628022,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628023,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216423,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 11000,
+          "type": "OT_YES",
+          "betOfferId": 2700628023,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "10/1",
+          "oddsAmerican": "1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216425,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1030,
+          "type": "OT_NO",
+          "betOfferId": 2700628023,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628025,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216428,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1930,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628025,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216429,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1810,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628025,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628026,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Central Michigan - 1st Half",
+        "englishLabel": "Total Points by Central Michigan Chippewas - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216430,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1960,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628026,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216431,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1720,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628026,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628027,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216432,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2800,
+          "line": 40500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628027,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364216433,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1450,
+          "line": 40500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628027,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628028,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216434,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628028,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364216435,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1910,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628028,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628029,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216436,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1930,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700628029,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000047540,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216437,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 9500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700628029,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364216438,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2160,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700628029,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628030,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216441,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 2350,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700628030,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216444,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 31000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700628030,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364216447,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 10000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700628030,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364216450,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 18000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700628030,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364216453,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 76000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700628030,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "75/1",
+          "oddsAmerican": "7500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364216456,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 23000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700628030,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "22/1",
+          "oddsAmerican": "2200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364216459,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 7500,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700628030,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364216462,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 26000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700628030,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "oddsFractional": "25/1",
+          "oddsAmerican": "2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364216465,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 3050,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700628030,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628031,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216466,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2950,
+          "line": -7500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700628031,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216467,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1410,
+          "line": 7500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700628031,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628032,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216468,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1680,
+          "line": -500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700628032,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216469,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2200,
+          "line": 500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700628032,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000046748,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628033,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216470,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2280,
+          "line": -5500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700628033,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000047540,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216471,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1640,
+          "line": 5500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700628033,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000046748,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628034,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216472,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 3150,
+          "line": -8000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700628034,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216473,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1370,
+          "line": 8000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700628034,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628035,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216474,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1340,
+          "line": 6000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700628035,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216475,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 3350,
+          "line": -6000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700628035,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000046748,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628036,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216476,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1720,
+          "line": -1000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700628036,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000047540,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216477,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2160,
+          "line": 1000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700628036,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000046748,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628037,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216478,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 1580,
+          "line": 2000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700628037,
+          "changedDate": "2026-10-08T13:15:36Z",
+          "participantId": 1000047540,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216479,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 2400,
+          "line": -2000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700628037,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628038,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216480,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 3700,
+          "line": -10000,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700628038,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000047540,
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216481,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1290,
+          "line": 10000,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700628038,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628051,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216536,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 2050,
+          "line": -2500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700628051,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000047540,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216537,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1720,
+          "line": 2500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700628051,
+          "changedDate": "2026-10-06T11:55:46Z",
+          "participantId": 1000046748,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628075,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552990,
+      "outcomes": [
+        {
+          "id": 4364216632,
+          "label": "Ohio",
+          "englishLabel": "Ohio Bobcats",
+          "odds": 3800,
+          "line": -10500,
+          "participant": "Ohio",
+          "type": "OT_ONE",
+          "betOfferId": 2700628075,
+          "changedDate": "2026-10-08T13:15:35Z",
+          "participantId": 1000047540,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216633,
+          "label": "Central Michigan",
+          "englishLabel": "Central Michigan Chippewas",
+          "odds": 1280,
+          "line": 10500,
+          "participant": "Central Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700628075,
+          "changedDate": "2026-10-06T11:55:47Z",
+          "participantId": 1000046748,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -274,7 +5468,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 92,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

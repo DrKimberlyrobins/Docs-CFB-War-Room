@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:48.328Z",
+  "generatedAt": "2026-10-08T22:55:47.406Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,7 +10,7 @@
     "start": "2026-10-10T23:30:00Z"
   },
   "counts": {
-    "betOffers": 45,
+    "betOffers": 90,
     "events": 1,
     "prePacks": 2
   },
@@ -41,7 +41,7 @@
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2699814431,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
           "oddsFractional": "27/100",
           "oddsAmerican": "-375",
@@ -53,14 +53,14 @@
           "id": 4361706377,
           "label": "Syracuse",
           "englishLabel": "Syracuse Orange",
-          "odds": 3850,
+          "odds": 3900,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2699814431,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "14/5",
-          "oddsAmerican": "285",
+          "oddsFractional": "29/10",
+          "oddsAmerican": "290",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,6 +70,238 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699814432,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4361706374,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3000,
+          "line": 57500,
+          "type": "OT_OVER",
+          "betOfferId": 2699814432,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361706375,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1350,
+          "line": 57500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699814432,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699814433,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4361706378,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 1300,
+          "line": -3000,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2699814433,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361706379,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 3150,
+          "line": 3000,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2699814433,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699837715,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4361691914,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 1470,
+          "line": -5000,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2699837715,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361691915,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 2600,
+          "line": 5000,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2699837715,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699837716,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4361691916,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 1560,
+          "line": -6500,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2699837716,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361691917,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 2400,
+          "line": 6500,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2699837716,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -95,13 +327,13 @@
           "id": 4361691924,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2040,
+          "odds": 2080,
           "line": 51500,
           "type": "OT_OVER",
           "betOfferId": 2699837720,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "26/25",
-          "oddsAmerican": "104",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -110,13 +342,13 @@
           "id": 4361691925,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1790,
+          "odds": 1770,
           "line": 51500,
           "type": "OT_UNDER",
           "betOfferId": 2699837720,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-127",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -150,15 +382,15 @@
           "id": 4361691930,
           "label": "Virginia",
           "englishLabel": "Virginia Cavaliers",
-          "odds": 1950,
+          "odds": 1860,
           "line": -9000,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2699837723,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -167,15 +399,15 @@
           "id": 4361691931,
           "label": "Syracuse",
           "englishLabel": "Syracuse Orange",
-          "odds": 1870,
+          "odds": 1960,
           "line": 9000,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2699837723,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -209,13 +441,13 @@
           "id": 4361691934,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1910,
+          "odds": 1950,
           "line": 50500,
           "type": "OT_OVER",
           "betOfferId": 2699837725,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -224,13 +456,13 @@
           "id": 4361691935,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1910,
+          "odds": 1870,
           "line": 50500,
           "type": "OT_UNDER",
           "betOfferId": 2699837725,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -238,7 +470,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -265,13 +496,13 @@
           "id": 4361672955,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2150,
+          "odds": 2200,
           "line": 52500,
           "type": "OT_OVER",
           "betOfferId": 2699840436,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "23/20",
-          "oddsAmerican": "115",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -280,13 +511,72 @@
           "id": 4361672956,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1720,
+          "odds": 1680,
           "line": 52500,
           "type": "OT_UNDER",
           "betOfferId": 2699840436,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699840439,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4361672961,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 1460,
+          "line": -4500,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2699840439,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361672962,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 2630,
+          "line": 4500,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2699840439,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -320,15 +610,15 @@
           "id": 4361672965,
           "label": "Virginia",
           "englishLabel": "Virginia Cavaliers",
-          "odds": 1740,
+          "odds": 1630,
           "line": -7000,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2699840441,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-136",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -337,15 +627,15 @@
           "id": 4361672966,
           "label": "Syracuse",
           "englishLabel": "Syracuse Orange",
-          "odds": 2120,
+          "odds": 2280,
           "line": 7000,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2699840441,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "11/10",
-          "oddsAmerican": "112",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -379,15 +669,15 @@
           "id": 4361672970,
           "label": "Virginia",
           "englishLabel": "Virginia Cavaliers",
-          "odds": 1920,
+          "odds": 1840,
           "line": -8500,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2699840443,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -396,15 +686,15 @@
           "id": 4361672971,
           "label": "Syracuse",
           "englishLabel": "Syracuse Orange",
-          "odds": 1900,
+          "odds": 1980,
           "line": 8500,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2699840443,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -412,7 +702,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -439,15 +728,15 @@
           "id": 4361672969,
           "label": "Virginia",
           "englishLabel": "Virginia Cavaliers",
-          "odds": 1880,
+          "odds": 1790,
           "line": -8000,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2699840444,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -456,15 +745,15 @@
           "id": 4361672972,
           "label": "Syracuse",
           "englishLabel": "Syracuse Orange",
-          "odds": 1940,
+          "odds": 2050,
           "line": 8000,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2699840444,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -501,14 +790,14 @@
           "id": 4362366190,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1560,
+          "odds": 1530,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700008269,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "11/20",
-          "oddsAmerican": "-180",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 0
@@ -517,14 +806,14 @@
           "id": 4362366191,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2330,
+          "odds": 2400,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700008269,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "13/10",
-          "oddsAmerican": "133",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 1
@@ -557,13 +846,13 @@
           "id": 4362366192,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2100,
+          "odds": 2140,
           "line": 52000,
           "type": "OT_OVER",
           "betOfferId": 2700008270,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -572,13 +861,13 @@
           "id": 4362366193,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1750,
+          "odds": 1730,
           "line": 52000,
           "type": "OT_UNDER",
           "betOfferId": 2700008270,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-134",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -612,15 +901,15 @@
           "id": 4362366194,
           "label": "Virginia",
           "englishLabel": "Virginia Cavaliers",
-          "odds": 1970,
+          "odds": 1880,
           "line": -9500,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700008271,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-104",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -629,15 +918,15 @@
           "id": 4362366195,
           "label": "Syracuse",
           "englishLabel": "Syracuse Orange",
-          "odds": 1850,
+          "odds": 1940,
           "line": 9500,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700008271,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -645,6 +934,7 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -671,13 +961,13 @@
           "id": 4362366196,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1830,
+          "odds": 1860,
           "line": 49500,
           "type": "OT_OVER",
           "betOfferId": 2700008272,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -686,13 +976,13 @@
           "id": 4362366197,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2000,
+          "odds": 1970,
           "line": 49500,
           "type": "OT_UNDER",
           "betOfferId": 2700008272,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "Evens",
-          "oddsAmerican": "100",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -728,14 +1018,14 @@
           "id": 4362366198,
           "label": "Virginia Touchdown",
           "englishLabel": "Virginia Cavaliers Touchdown",
-          "odds": 2180,
+          "odds": 2120,
           "participant": "Virginia",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700008273,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "59/50",
-          "oddsAmerican": "118",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -748,14 +1038,14 @@
           "id": 4362366199,
           "label": "Virginia Field Goal",
           "englishLabel": "Virginia Cavaliers Field Goal",
-          "odds": 5800,
+          "odds": 6000,
           "participant": "Virginia",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700008273,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "24/5",
-          "oddsAmerican": "480",
+          "oddsFractional": "5/1",
+          "oddsAmerican": "500",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -768,14 +1058,14 @@
           "id": 4362366200,
           "label": "Virginia Safety",
           "englishLabel": "Virginia Cavaliers Safety",
-          "odds": 71000,
+          "odds": 76000,
           "participant": "Virginia",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700008273,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "70/1",
-          "oddsAmerican": "7000",
+          "oddsFractional": "75/1",
+          "oddsAmerican": "7500",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -788,14 +1078,14 @@
           "id": 4362366201,
           "label": "Syracuse Touchdown",
           "englishLabel": "Syracuse Orange Touchdown",
-          "odds": 3200,
+          "odds": 3300,
           "participant": "Syracuse",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700008273,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-05T19:34:32Z",
           "participantId": 1000032841,
-          "oddsFractional": "11/5",
-          "oddsAmerican": "220",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -812,7 +1102,7 @@
           "participant": "Syracuse",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700008273,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
           "oddsFractional": "6/1",
           "oddsAmerican": "600",
@@ -832,7 +1122,7 @@
           "participant": "Syracuse",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700008273,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
           "oddsFractional": "90/1",
           "oddsAmerican": "9000",
@@ -871,12 +1161,12 @@
           "id": 4362369163,
           "label": "1/1",
           "englishLabel": "1/1",
-          "odds": 1470,
+          "odds": 1420,
           "type": "OT_ONE_ONE",
           "betOfferId": 2700022779,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "4/9",
-          "oddsAmerican": "-215",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -885,12 +1175,12 @@
           "id": 4362369166,
           "label": "1/X",
           "englishLabel": "1/X",
-          "odds": 31000,
+          "odds": 34000,
           "type": "OT_ONE_CROSS",
           "betOfferId": 2700022779,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "30/1",
-          "oddsAmerican": "3000",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -899,12 +1189,12 @@
           "id": 4362369169,
           "label": "1/2",
           "englishLabel": "1/2",
-          "odds": 11500,
+          "odds": 12500,
           "type": "OT_ONE_TWO",
           "betOfferId": 2700022779,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "21/2",
-          "oddsAmerican": "1050",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "23/2",
+          "oddsAmerican": "1150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -916,7 +1206,7 @@
           "odds": 16000,
           "type": "OT_CROSS_ONE",
           "betOfferId": 2700022779,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "oddsFractional": "15/1",
           "oddsAmerican": "1500",
           "status": "OPEN",
@@ -927,12 +1217,12 @@
           "id": 4362369175,
           "label": "X/X",
           "englishLabel": "X/X",
-          "odds": 71000,
+          "odds": 67000,
           "type": "OT_CROSS_CROSS",
           "betOfferId": 2700022779,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "70/1",
-          "oddsAmerican": "7000",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "66/1",
+          "oddsAmerican": "6600",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 4
@@ -941,12 +1231,12 @@
           "id": 4362369178,
           "label": "X/2",
           "englishLabel": "X/2",
-          "odds": 29000,
+          "odds": 31000,
           "type": "OT_CROSS_TWO",
           "betOfferId": 2700022779,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "28/1",
-          "oddsAmerican": "2800",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 5
@@ -955,12 +1245,12 @@
           "id": 4362369181,
           "label": "2/1",
           "englishLabel": "2/1",
-          "odds": 6000,
+          "odds": 6500,
           "type": "OT_TWO_ONE",
           "betOfferId": 2700022779,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "5/1",
-          "oddsAmerican": "500",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "11/2",
+          "oddsAmerican": "550",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 6
@@ -969,12 +1259,12 @@
           "id": 4362369184,
           "label": "2/X",
           "englishLabel": "2/X",
-          "odds": 29000,
+          "odds": 31000,
           "type": "OT_TWO_CROSS",
           "betOfferId": 2700022779,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "28/1",
-          "oddsAmerican": "2800",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 7
@@ -983,12 +1273,12 @@
           "id": 4362369187,
           "label": "2/2",
           "englishLabel": "2/2",
-          "odds": 5800,
+          "odds": 5600,
           "type": "OT_TWO_TWO",
           "betOfferId": 2700022779,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "24/5",
-          "oddsAmerican": "480",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "23/5",
+          "oddsAmerican": "460",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 8
@@ -1021,15 +1311,15 @@
           "id": 4362369188,
           "label": "Virginia",
           "englishLabel": "Virginia Cavaliers",
-          "odds": 2060,
+          "odds": 1960,
           "line": -10000,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700022780,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "21/20",
-          "oddsAmerican": "106",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1038,15 +1328,15 @@
           "id": 4362369189,
           "label": "Syracuse",
           "englishLabel": "Syracuse Orange",
-          "odds": 1780,
+          "odds": 1860,
           "line": 10000,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700022780,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-129",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1080,15 +1370,15 @@
           "id": 4362369190,
           "label": "Virginia",
           "englishLabel": "Virginia Cavaliers",
-          "odds": 1840,
+          "odds": 1720,
           "line": -7500,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700022781,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1097,15 +1387,15 @@
           "id": 4362369191,
           "label": "Syracuse",
           "englishLabel": "Syracuse Orange",
-          "odds": 2000,
+          "odds": 2160,
           "line": 7500,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700022781,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "Evens",
-          "oddsAmerican": "100",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1138,13 +1428,13 @@
           "id": 4362369192,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1860,
+          "odds": 1960,
           "line": 20500,
           "type": "OT_OVER",
           "betOfferId": 2700022782,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-117",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1153,13 +1443,13 @@
           "id": 4362369193,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1880,
+          "odds": 1790,
           "line": 20500,
           "type": "OT_UNDER",
           "betOfferId": 2700022782,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1194,13 +1484,13 @@
           "id": 4362348775,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1870,
+          "odds": 1900,
           "line": 50000,
           "type": "OT_OVER",
           "betOfferId": 2700036889,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1209,13 +1499,13 @@
           "id": 4362348776,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1950,
+          "odds": 1920,
           "line": 50000,
           "type": "OT_UNDER",
           "betOfferId": 2700036889,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1223,6 +1513,62 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700036890,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Virginia",
+        "englishLabel": "Total Points by Virginia Cavaliers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4362348777,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1910,
+          "line": 30500,
+          "type": "OT_OVER",
+          "betOfferId": 2700036890,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362348778,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1830,
+          "line": 30500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700036890,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -1249,13 +1595,13 @@
           "id": 4362348779,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2200,
+          "odds": 2280,
           "line": 53000,
           "type": "OT_OVER",
           "betOfferId": 2700036891,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "6/5",
-          "oddsAmerican": "120",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1264,13 +1610,13 @@
           "id": 4362348780,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1680,
+          "odds": 1640,
           "line": 53000,
           "type": "OT_UNDER",
           "betOfferId": 2700036891,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-148",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1307,14 +1653,14 @@
           "id": 4362348781,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1600,
+          "odds": 1570,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700036892,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "3/5",
-          "oddsAmerican": "-167",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 0
@@ -1323,14 +1669,14 @@
           "id": 4362348782,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2230,
+          "odds": 2280,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700036892,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "6/5",
-          "oddsAmerican": "123",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 1
@@ -1363,13 +1709,13 @@
           "id": 4362348783,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1780,
+          "odds": 1810,
           "line": 49000,
           "type": "OT_OVER",
           "betOfferId": 2700036893,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-129",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1378,13 +1724,13 @@
           "id": 4362348784,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2060,
+          "odds": 2020,
           "line": 49000,
           "type": "OT_UNDER",
           "betOfferId": 2700036893,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "21/20",
-          "oddsAmerican": "106",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1418,14 +1764,14 @@
           "id": 4362348786,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1280,
+          "odds": 1270,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700036894,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "7/25",
-          "oddsAmerican": "-360",
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1434,12 +1780,12 @@
           "id": 4362348788,
           "label": "X",
           "englishLabel": "X",
-          "odds": 16000,
+          "odds": 17000,
           "type": "OT_CROSS",
           "betOfferId": 2700036894,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "15/1",
-          "oddsAmerican": "1500",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1448,14 +1794,14 @@
           "id": 4362348789,
           "label": "2",
           "englishLabel": "2",
-          "odds": 4100,
+          "odds": 4200,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700036894,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "3/1",
-          "oddsAmerican": "310",
+          "oddsFractional": "16/5",
+          "oddsAmerican": "320",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1488,13 +1834,13 @@
           "id": 4362348785,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1750,
+          "odds": 1780,
           "line": 48500,
           "type": "OT_OVER",
           "betOfferId": 2700036895,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-134",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1503,13 +1849,13 @@
           "id": 4362348787,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2100,
+          "odds": 2070,
           "line": 48500,
           "type": "OT_UNDER",
           "betOfferId": 2700036895,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1543,15 +1889,15 @@
           "id": 4362348790,
           "label": "Virginia",
           "englishLabel": "Virginia Cavaliers",
-          "odds": 2140,
+          "odds": 2040,
           "line": -10500,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700036896,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "57/50",
-          "oddsAmerican": "114",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1560,15 +1906,15 @@
           "id": 4362348791,
           "label": "Syracuse",
           "englishLabel": "Syracuse Orange",
-          "odds": 1720,
+          "odds": 1800,
           "line": 10500,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700036896,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1602,13 +1948,13 @@
           "id": 4362348792,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1970,
+          "odds": 2020,
           "line": 51000,
           "type": "OT_OVER",
           "betOfferId": 2700036897,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-104",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1617,13 +1963,13 @@
           "id": 4362348793,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1850,
+          "odds": 1820,
           "line": 51000,
           "type": "OT_UNDER",
           "betOfferId": 2700036897,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1657,12 +2003,12 @@
           "id": 4363067943,
           "label": "Odd",
           "englishLabel": "Odd",
-          "odds": 1780,
+          "odds": 1790,
           "type": "OT_ODD",
           "betOfferId": 2700235577,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "oddsFractional": "10/13",
-          "oddsAmerican": "-129",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1671,12 +2017,12 @@
           "id": 4363067944,
           "label": "Even",
           "englishLabel": "Even",
-          "odds": 2040,
+          "odds": 2020,
           "type": "OT_EVEN",
           "betOfferId": 2700235577,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "26/25",
-          "oddsAmerican": "104",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1708,14 +2054,14 @@
           "id": 4363067924,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2950,
+          "odds": 3050,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700235578,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "39/20",
-          "oddsAmerican": "195",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1724,14 +2070,14 @@
           "id": 4363067925,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1380,
+          "odds": 1360,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700235578,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "4/11",
-          "oddsAmerican": "-265",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1762,12 +2108,12 @@
           "id": 4363067930,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 5000,
+          "odds": 5250,
           "type": "OT_YES",
           "betOfferId": 2700235579,
-          "changedDate": "2026-10-05T13:42:32Z",
-          "oddsFractional": "4/1",
-          "oddsAmerican": "400",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "17/4",
+          "oddsAmerican": "425",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1776,12 +2122,12 @@
           "id": 4363067935,
           "label": "No",
           "englishLabel": "No",
-          "odds": 1150,
+          "odds": 1140,
           "type": "OT_NO",
           "betOfferId": 2700235579,
-          "changedDate": "2026-10-05T13:42:32Z",
-          "oddsFractional": "1/7",
-          "oddsAmerican": "-670",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "2/15",
+          "oddsAmerican": "-715",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1815,14 +2161,14 @@
           "id": 4363067936,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1480,
+          "odds": 1460,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700235580,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "12/25",
-          "oddsAmerican": "-210",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1831,21 +2177,22 @@
           "id": 4363067937,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2600,
+          "odds": 2630,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700235580,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "8/5",
-          "oddsAmerican": "160",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
         }
       ],
       "tags": [
-        "OFFERED_PREMATCH"
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -1874,12 +2221,12 @@
           "id": 4363067940,
           "label": "X",
           "englishLabel": "X",
-          "odds": 3750,
+          "odds": 3900,
           "type": "OT_CROSS",
           "betOfferId": 2700235582,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "11/4",
-          "oddsAmerican": "275",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "29/10",
+          "oddsAmerican": "290",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1888,14 +2235,14 @@
           "id": 4363067941,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1560,
+          "odds": 1530,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700235582,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "11/20",
-          "oddsAmerican": "-180",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1904,14 +2251,14 @@
           "id": 4363067942,
           "label": "2",
           "englishLabel": "2",
-          "odds": 4700,
+          "odds": 4750,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700235582,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "18/5",
-          "oddsAmerican": "370",
+          "oddsFractional": "15/4",
+          "oddsAmerican": "375",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1947,12 +2294,12 @@
           "id": 4363067945,
           "label": "X",
           "englishLabel": "X",
-          "odds": 2180,
+          "odds": 2280,
           "type": "OT_CROSS",
           "betOfferId": 2700235583,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "59/50",
-          "oddsAmerican": "118",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1961,14 +2308,14 @@
           "id": 4363067946,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1950,
+          "odds": 1880,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700235583,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1977,14 +2324,14 @@
           "id": 4363067947,
           "label": "2",
           "englishLabel": "2",
-          "odds": 6500,
+          "odds": 6750,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700235583,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "11/2",
-          "oddsAmerican": "550",
+          "oddsFractional": "23/4",
+          "oddsAmerican": "575",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2023,7 +2370,7 @@
           "odds": 11500,
           "type": "OT_CROSS",
           "betOfferId": 2700235584,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "oddsFractional": "21/2",
           "oddsAmerican": "1050",
           "status": "OPEN",
@@ -2034,14 +2381,14 @@
           "id": 4363067949,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1350,
+          "odds": 1330,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700235584,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "7/20",
-          "oddsAmerican": "-286",
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2050,14 +2397,14 @@
           "id": 4363067950,
           "label": "2",
           "englishLabel": "2",
-          "odds": 3400,
+          "odds": 3500,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700235584,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "12/5",
-          "oddsAmerican": "240",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2091,13 +2438,13 @@
           "id": 4363067951,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1950,
+          "odds": 1940,
           "line": 10500,
           "type": "OT_OVER",
           "betOfferId": 2700235585,
-          "changedDate": "2026-10-05T13:44:20Z",
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2110,7 +2457,7 @@
           "line": 10500,
           "type": "OT_UNDER",
           "betOfferId": 2700235585,
-          "changedDate": "2026-10-05T13:44:20Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "oddsFractional": "3/4",
           "oddsAmerican": "-134",
           "status": "OPEN",
@@ -2145,12 +2492,12 @@
           "id": 4363067955,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 1220,
+          "odds": 1250,
           "type": "OT_YES",
           "betOfferId": 2700235586,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "11/50",
-          "oddsAmerican": "-455",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2159,12 +2506,12 @@
           "id": 4363067958,
           "label": "No",
           "englishLabel": "No",
-          "odds": 4000,
+          "odds": 3750,
           "type": "OT_NO",
           "betOfferId": 2700235586,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "3/1",
-          "oddsAmerican": "300",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2195,12 +2542,12 @@
           "id": 4363067963,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 2400,
+          "odds": 2350,
           "type": "OT_YES",
           "betOfferId": 2700235587,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "7/5",
-          "oddsAmerican": "140",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2209,12 +2556,12 @@
           "id": 4363067968,
           "label": "No",
           "englishLabel": "No",
-          "odds": 1530,
+          "odds": 1550,
           "type": "OT_NO",
           "betOfferId": 2700235587,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "13/25",
-          "oddsAmerican": "-190",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2222,65 +2569,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH"
-      ],
-      "cashOutStatus": "ENABLED"
-    },
-    {
-      "id": 2700235599,
-      "closed": "2026-10-10T23:30:00Z",
-      "criterion": {
-        "id": 1001159797,
-        "label": "Spread - 1st Half",
-        "englishLabel": "Handicap - 1st Half",
-        "order": [],
-        "occurrenceType": "POINTS"
-      },
-      "betOfferType": {
-        "id": 1,
-        "name": "Handicap",
-        "englishName": "Handicap"
-      },
-      "eventId": 1027508047,
-      "outcomes": [
-        {
-          "id": 4363068044,
-          "label": "Virginia",
-          "englishLabel": "Virginia Cavaliers",
-          "odds": 1860,
-          "line": -5500,
-          "participant": "Virginia",
-          "type": "OT_ONE",
-          "betOfferId": 2700235599,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "participantId": 1000039451,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-117",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 0
-        },
-        {
-          "id": 4363068045,
-          "label": "Syracuse",
-          "englishLabel": "Syracuse Orange",
-          "odds": 1850,
-          "line": 5500,
-          "participant": "Syracuse",
-          "type": "OT_TWO",
-          "betOfferId": 2700235599,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "participantId": 1000032841,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 1
-        }
-      ],
-      "tags": [
-        "OFFERED_PREMATCH",
-        "MAIN_LINE",
-        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2309,12 +2597,12 @@
           "id": 4363082704,
           "label": "X",
           "englishLabel": "X",
-          "odds": 1400,
+          "odds": 1450,
           "type": "OT_CROSS",
           "betOfferId": 2700238079,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "2/5",
-          "oddsAmerican": "-250",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2323,14 +2611,14 @@
           "id": 4363082705,
           "label": "1",
           "englishLabel": "1",
-          "odds": 3050,
+          "odds": 2850,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700238079,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "41/20",
-          "oddsAmerican": "205",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2343,7 +2631,7 @@
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700238079,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
           "oddsFractional": "23/2",
           "oddsAmerican": "1150",
@@ -2385,7 +2673,7 @@
           "odds": 34000,
           "type": "OT_CROSS",
           "betOfferId": 2700238080,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "oddsFractional": "33/1",
           "oddsAmerican": "3300",
           "status": "OPEN",
@@ -2396,14 +2684,14 @@
           "id": 4363082708,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1340,
+          "odds": 1320,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700238080,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "1/3",
-          "oddsAmerican": "-295",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2412,14 +2700,14 @@
           "id": 4363082709,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2900,
+          "odds": 3050,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700238080,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
-          "oddsFractional": "19/10",
-          "oddsAmerican": "190",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2450,13 +2738,13 @@
           "id": 4363082714,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2080,
+          "odds": 2020,
           "line": 9500,
           "type": "OT_UNDER",
           "betOfferId": 2700238083,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2465,13 +2753,13 @@
           "id": 4363082715,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1680,
+          "odds": 1720,
           "line": 9500,
           "type": "OT_OVER",
           "betOfferId": 2700238083,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-148",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2480,61 +2768,6 @@
       "tags": [
         "OFFERED_PREMATCH",
         "MAIN_LINE"
-      ],
-      "cashOutStatus": "ENABLED"
-    },
-    {
-      "id": 2700238112,
-      "closed": "2026-10-10T23:30:00Z",
-      "criterion": {
-        "id": 1001159692,
-        "label": "Total Points by Virginia",
-        "englishLabel": "Total Points by Virginia Cavaliers - Including Overtime",
-        "order": [],
-        "lifetime": "FULL_TIME_OVERTIME"
-      },
-      "betOfferType": {
-        "id": 6,
-        "name": "Over/Under",
-        "englishName": "Over/Under"
-      },
-      "eventId": 1027508047,
-      "outcomes": [
-        {
-          "id": 4363082777,
-          "label": "Over",
-          "englishLabel": "Over",
-          "odds": 1810,
-          "line": 29500,
-          "type": "OT_OVER",
-          "betOfferId": 2700238112,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-124",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 0
-        },
-        {
-          "id": 4363082778,
-          "label": "Under",
-          "englishLabel": "Under",
-          "odds": 1940,
-          "line": 29500,
-          "type": "OT_UNDER",
-          "betOfferId": 2700238112,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 1
-        }
-      ],
-      "tags": [
-        "OFFERED_PREMATCH",
-        "MAIN_LINE",
-        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2560,13 +2793,13 @@
           "id": 4363045076,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1710,
+          "odds": 1730,
           "line": 48000,
           "type": "OT_OVER",
           "betOfferId": 2700257814,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-141",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2575,13 +2808,13 @@
           "id": 4363045077,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2180,
+          "odds": 2140,
           "line": 48000,
           "type": "OT_UNDER",
           "betOfferId": 2700257814,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "59/50",
-          "oddsAmerican": "118",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2616,7 +2849,7 @@
           "odds": 1020,
           "type": "OT_YES",
           "betOfferId": 2700257815,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "oddsFractional": "1/50",
           "oddsAmerican": "-5000",
           "status": "OPEN",
@@ -2630,7 +2863,7 @@
           "odds": 12000,
           "type": "OT_NO",
           "betOfferId": 2700257815,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "oddsFractional": "11/1",
           "oddsAmerican": "1100",
           "status": "OPEN",
@@ -2663,13 +2896,13 @@
           "id": 4363045084,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1880,
+          "odds": 1860,
           "line": 14500,
           "type": "OT_OVER",
           "betOfferId": 2700257816,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2678,13 +2911,13 @@
           "id": 4363045085,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1840,
+          "odds": 1860,
           "line": 14500,
           "type": "OT_UNDER",
           "betOfferId": 2700257816,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2693,6 +2926,65 @@
       "tags": [
         "OFFERED_PREMATCH",
         "MAIN_LINE"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700257830,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363045150,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2080,
+          "line": -11000,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700257830,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363045151,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1770,
+          "line": 11000,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700257830,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2721,7 +3013,7 @@
           "line": 25500,
           "type": "OT_OVER",
           "betOfferId": 2700257831,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "oddsFractional": "4/5",
           "oddsAmerican": "-124",
           "status": "OPEN",
@@ -2732,13 +3024,13 @@
           "id": 4363045153,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1930,
+          "odds": 1940,
           "line": 25500,
           "type": "OT_UNDER",
           "betOfferId": 2700257831,
-          "changedDate": "2026-10-05T13:44:03Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2774,15 +3066,15 @@
           "id": 4363045179,
           "label": "Virginia",
           "englishLabel": "Virginia Cavaliers",
-          "odds": 1880,
+          "odds": 1840,
           "line": -2500,
           "participant": "Virginia",
           "type": "OT_ONE",
           "betOfferId": 2700257844,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000039451,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2791,15 +3083,2277 @@
           "id": 4363045180,
           "label": "Syracuse",
           "englishLabel": "Syracuse Orange",
-          "odds": 1860,
+          "odds": 1900,
           "line": 2500,
           "participant": "Syracuse",
           "type": "OT_TWO",
           "betOfferId": 2700257844,
-          "changedDate": "2026-10-05T13:44:03Z",
+          "changedDate": "2026-10-08T14:26:11Z",
           "participantId": 1000032841,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318743,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Syracuse to score first and win",
+        "englishLabel": "Syracuse Orange to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365707,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 6400,
+          "type": "OT_YES",
+          "betOfferId": 2700318743,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "27/5",
+          "oddsAmerican": "540",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365710,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1100,
+          "type": "OT_NO",
+          "betOfferId": 2700318743,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318744,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365711,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2800,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318744,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365712,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1400,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318744,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318745,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365713,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2480,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318745,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365714,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1540,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318745,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318746,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365715,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1320,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318746,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365716,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3150,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318746,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318747,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365717,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2400,
+          "line": -14000,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700318747,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365718,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1550,
+          "line": 14000,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700318747,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318748,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365719,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2320,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318748,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365721,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1610,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318748,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318749,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365720,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2170,
+          "line": -12000,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700318749,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365722,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1700,
+          "line": 12000,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700318749,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318750,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Virginia to score first and win",
+        "englishLabel": "Virginia Cavaliers to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365725,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1880,
+          "type": "OT_YES",
+          "betOfferId": 2700318750,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365728,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1860,
+          "type": "OT_NO",
+          "betOfferId": 2700318750,
+          "changedDate": "2026-10-08T14:26:11Z",
           "oddsFractional": "17/20",
           "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318751,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365729,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1370,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318751,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365730,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2900,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318751,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318752,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365731,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 1400,
+          "line": -3500,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700318752,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365732,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 2800,
+          "line": 3500,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700318752,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318753,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365733,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1330,
+          "line": 43000,
+          "type": "OT_OVER",
+          "betOfferId": 2700318753,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365734,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3050,
+          "line": 43000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318753,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318754,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365735,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2650,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318754,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365736,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1450,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318754,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318755,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363365737,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2500,
+          "line": -15000,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700318755,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365738,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1490,
+          "line": 15000,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700318755,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345113,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380386,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2320,
+          "line": -13500,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700345113,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380387,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1620,
+          "line": 13500,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700345113,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345114,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380388,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1400,
+          "line": 44000,
+          "type": "OT_OVER",
+          "betOfferId": 2700345114,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380389,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2850,
+          "line": 44000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700345114,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345115,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380390,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1470,
+          "line": 45000,
+          "type": "OT_OVER",
+          "betOfferId": 2700345115,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380391,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2600,
+          "line": 45000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700345115,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345116,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380392,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2200,
+          "line": -12500,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700345116,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380393,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1680,
+          "line": 12500,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700345116,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345117,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380394,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2250,
+          "line": -13000,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700345117,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380395,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1650,
+          "line": 13000,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700345117,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345118,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380396,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1450,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700345118,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380397,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2700,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700345118,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345119,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380398,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2950,
+          "line": 57000,
+          "type": "OT_OVER",
+          "betOfferId": 2700345119,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380399,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1370,
+          "line": 57000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700345119,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345120,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380400,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2600,
+          "line": 55000,
+          "type": "OT_OVER",
+          "betOfferId": 2700345120,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380401,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1480,
+          "line": 55000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700345120,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345121,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380402,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2750,
+          "line": 56000,
+          "type": "OT_OVER",
+          "betOfferId": 2700345121,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380403,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1420,
+          "line": 56000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700345121,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345122,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380404,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700345122,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380405,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2180,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700345122,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345123,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380406,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1540,
+          "line": 46000,
+          "type": "OT_OVER",
+          "betOfferId": 2700345123,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380407,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 46000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700345123,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345124,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380408,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700345124,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380409,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2380,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700345124,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345126,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380412,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3150,
+          "line": 58000,
+          "type": "OT_OVER",
+          "betOfferId": 2700345126,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380413,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1300,
+          "line": 58000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700345126,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345163,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363380507,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2650,
+          "line": -16500,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700345163,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380508,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1430,
+          "line": 16500,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700345163,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347633,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363377403,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2120,
+          "line": -11500,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700347633,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377404,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1740,
+          "line": 11500,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700347633,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347634,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363377405,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2400,
+          "line": 54000,
+          "type": "OT_OVER",
+          "betOfferId": 2700347634,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377406,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1570,
+          "line": 54000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700347634,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347635,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363377407,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1630,
+          "line": 47000,
+          "type": "OT_OVER",
+          "betOfferId": 2700347635,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377408,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 47000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700347635,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347636,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363377409,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700347636,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377410,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2500,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700347636,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347637,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363377411,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 1420,
+          "line": -4000,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700347637,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377412,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 2750,
+          "line": 4000,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700347637,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347638,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363377413,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2450,
+          "line": -14500,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700347638,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377414,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1520,
+          "line": 14500,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700347638,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347639,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363377415,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2550,
+          "line": -15500,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700347639,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377416,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1470,
+          "line": 15500,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700347639,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347640,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363377417,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 1490,
+          "line": -5500,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700347640,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377418,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 2550,
+          "line": 5500,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700347640,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347641,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363377419,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2630,
+          "line": -16000,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700347641,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377420,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1450,
+          "line": 16000,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700347641,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347642,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363377421,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 1500,
+          "line": -6000,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700347642,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377422,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 2500,
+          "line": 6000,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700347642,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347670,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4363377501,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 2850,
+          "line": -17000,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2700347670,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377502,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1380,
+          "line": 17000,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2700347670,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701437633,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4366987257,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 3200,
+          "line": -17500,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2701437633,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366987258,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1300,
+          "line": 17500,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2701437633,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701437634,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508047,
+      "outcomes": [
+        {
+          "id": 4366987259,
+          "label": "Virginia",
+          "englishLabel": "Virginia Cavaliers",
+          "odds": 1950,
+          "line": -6500,
+          "participant": "Virginia",
+          "type": "OT_ONE",
+          "betOfferId": 2701437634,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000039451,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366987260,
+          "label": "Syracuse",
+          "englishLabel": "Syracuse Orange",
+          "odds": 1790,
+          "line": 6500,
+          "participant": "Syracuse",
+          "type": "OT_TWO",
+          "betOfferId": 2701437634,
+          "changedDate": "2026-10-08T14:26:11Z",
+          "participantId": 1000032841,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2838,7 +5392,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 45,
+      "nonLiveBoCount": 90,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -2876,11 +5430,11 @@
   ],
   "prePacks": [
     {
-      "id": 7188424,
+      "id": 7198163,
       "label": "Spread and Total Points",
       "prePackSelections": [
         {
-          "selectionId": 8114343,
+          "selectionId": 8124819,
           "label": [],
           "status": "OPEN",
           "combinations": [
@@ -2898,9 +5452,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4361672971,
+                          "id": 4362366194,
                           "eventId": 1027508047,
-                          "betOfferId": 2699840443
+                          "betOfferId": 2700008271
                         }
                       ]
                     },
@@ -2908,9 +5462,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4361691935,
+                          "id": 4362348776,
                           "eventId": 1027508047,
-                          "betOfferId": 2699837725
+                          "betOfferId": 2700036889
                         }
                       ]
                     }
@@ -2921,89 +5475,7 @@
           ]
         },
         {
-          "selectionId": 8114342,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3300,
-                "american": "230",
-                "fractional": "23/10"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361672970,
-                          "eventId": 1027508047,
-                          "betOfferId": 2699840443
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361691935,
-                          "eventId": 1027508047,
-                          "betOfferId": 2699837725
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8114341,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361672971,
-                          "eventId": 1027508047,
-                          "betOfferId": 2699840443
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361691934,
-                          "eventId": 1027508047,
-                          "betOfferId": 2699837725
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8114340,
+          "selectionId": 8124818,
           "label": [],
           "status": "OPEN",
           "combinations": [
@@ -3021,9 +5493,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4361672970,
+                          "id": 4362366195,
                           "eventId": 1027508047,
-                          "betOfferId": 2699840443
+                          "betOfferId": 2700008271
                         }
                       ]
                     },
@@ -3031,9 +5503,91 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4361691934,
+                          "id": 4362348775,
                           "eventId": 1027508047,
-                          "betOfferId": 2699837725
+                          "betOfferId": 2700036889
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8124817,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3250,
+                "american": "225",
+                "fractional": "9/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362366194,
+                          "eventId": 1027508047,
+                          "betOfferId": 2700008271
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362348775,
+                          "eventId": 1027508047,
+                          "betOfferId": 2700036889
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8124820,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362366195,
+                          "eventId": 1027508047,
+                          "betOfferId": 2700008271
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362348776,
+                          "eventId": 1027508047,
+                          "betOfferId": 2700036889
                         }
                       ]
                     }
@@ -3049,11 +5603,11 @@
       ]
     },
     {
-      "id": 7188423,
+      "id": 7198162,
       "label": "Game Winner and Total Points",
       "prePackSelections": [
         {
-          "selectionId": 8114339,
+          "selectionId": 8124816,
           "label": [],
           "status": "OPEN",
           "combinations": [
@@ -3081,9 +5635,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4361691935,
+                          "id": 4362348776,
                           "eventId": 1027508047,
-                          "betOfferId": 2699837725
+                          "betOfferId": 2700036889
                         }
                       ]
                     }
@@ -3094,15 +5648,15 @@
           ]
         },
         {
-          "selectionId": 8114338,
+          "selectionId": 8124815,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 2170,
-                "american": "117",
-                "fractional": "23/20"
+                "decimal": 2180,
+                "american": "118",
+                "fractional": "59/50"
               },
               "groups": [
                 {
@@ -3122,9 +5676,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4361691935,
+                          "id": 4362348776,
                           "eventId": 1027508047,
-                          "betOfferId": 2699837725
+                          "betOfferId": 2700036889
                         }
                       ]
                     }
@@ -3135,15 +5689,15 @@
           ]
         },
         {
-          "selectionId": 8114337,
+          "selectionId": 8124814,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 6250,
-                "american": "525",
-                "fractional": "21/4"
+                "decimal": 6400,
+                "american": "540",
+                "fractional": "27/5"
               },
               "groups": [
                 {
@@ -3163,9 +5717,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4361691934,
+                          "id": 4362348775,
                           "eventId": 1027508047,
-                          "betOfferId": 2699837725
+                          "betOfferId": 2700036889
                         }
                       ]
                     }
@@ -3176,15 +5730,15 @@
           ]
         },
         {
-          "selectionId": 8114336,
+          "selectionId": 8124813,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 2250,
-                "american": "125",
-                "fractional": "5/4"
+                "decimal": 2230,
+                "american": "123",
+                "fractional": "6/5"
               },
               "groups": [
                 {
@@ -3204,9 +5758,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4361691934,
+                          "id": 4362348775,
                           "eventId": 1027508047,
-                          "betOfferId": 2699837725
+                          "betOfferId": 2700036889
                         }
                       ]
                     }

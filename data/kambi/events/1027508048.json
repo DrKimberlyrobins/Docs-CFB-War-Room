@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:35.272Z",
+  "generatedAt": "2026-10-08T22:55:35.174Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,14 +10,186 @@
     "start": "2026-10-08T23:00:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 81,
     "events": 1,
     "prePacks": 0
   },
   "betOffers": [
     {
-      "id": 2699800350,
+      "id": 2699765766,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4361528847,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1490,
+          "line": -7500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2699765766,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361528848,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2650,
+          "line": 7500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2699765766,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699765768,
       "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4361528851,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1520,
+          "line": -8000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2699765768,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361528852,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2600,
+          "line": 8000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2699765768,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699800349,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4361534686,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1750,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2699800349,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361534687,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2100,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699800349,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699800350,
       "criterion": {
         "id": 1001159990,
         "label": "Moneyline",
@@ -37,14 +209,14 @@
           "id": 4361534688,
           "label": "Liberty",
           "englishLabel": "Liberty Flames",
-          "odds": 1120,
+          "odds": 1170,
           "participant": "Liberty",
           "type": "OT_ONE",
           "betOfferId": 2699800350,
-          "changedDate": "2026-10-04T09:12:01Z",
+          "changedDate": "2026-10-08T22:42:41Z",
           "participantId": 1001078296,
-          "oddsFractional": "1/9",
-          "oddsAmerican": "-835",
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-590",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +225,14 @@
           "id": 4361534689,
           "label": "Sam Houston",
           "englishLabel": "Sam Houston State Bearkats",
-          "odds": 6500,
+          "odds": 4900,
           "participant": "Sam Houston",
           "type": "OT_TWO",
           "betOfferId": 2699800350,
-          "changedDate": "2026-10-04T09:12:01Z",
+          "changedDate": "2026-10-08T22:42:41Z",
           "participantId": 1000660411,
-          "oddsFractional": "11/2",
-          "oddsAmerican": "550",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "390",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -68,6 +240,7 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
         "BET_BUILDER",
         "MAIN"
       ],
@@ -75,7 +248,6 @@
     },
     {
       "id": 2699800351,
-      "closed": "2026-10-08T23:00:00Z",
       "criterion": {
         "id": 1001159928,
         "label": "Point Spread",
@@ -95,15 +267,15 @@
           "id": 4361534690,
           "label": "Liberty",
           "englishLabel": "Liberty Flames",
-          "odds": 1890,
+          "odds": 1920,
           "line": -13500,
           "participant": "Liberty",
           "type": "OT_ONE",
           "betOfferId": 2699800351,
-          "changedDate": "2026-10-04T09:12:01Z",
+          "changedDate": "2026-10-08T22:42:41Z",
           "participantId": 1001078296,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -112,15 +284,15 @@
           "id": 4361534691,
           "label": "Sam Houston",
           "englishLabel": "Sam Houston State Bearkats",
-          "odds": 1930,
+          "odds": 1910,
           "line": 13500,
           "participant": "Sam Houston",
           "type": "OT_TWO",
           "betOfferId": 2699800351,
-          "changedDate": "2026-10-04T09:12:01Z",
+          "changedDate": "2026-10-08T22:42:41Z",
           "participantId": 1000660411,
           "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "oddsAmerican": "-110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -128,6 +300,7 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
         "MAIN_LINE",
         "BET_BUILDER"
       ],
@@ -155,15 +328,15 @@
           "id": 4361534692,
           "label": "Liberty",
           "englishLabel": "Liberty Flames",
-          "odds": 1840,
+          "odds": 1880,
           "line": -13000,
           "participant": "Liberty",
           "type": "OT_ONE",
           "betOfferId": 2699800352,
-          "changedDate": "2026-10-04T09:12:01Z",
+          "changedDate": "2026-10-08T22:42:41Z",
           "participantId": 1001078296,
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -172,15 +345,74 @@
           "id": 4361534693,
           "label": "Sam Houston",
           "englishLabel": "Sam Houston State Bearkats",
-          "odds": 1970,
+          "odds": 1950,
           "line": 13000,
           "participant": "Sam Houston",
           "type": "OT_TWO",
           "betOfferId": 2699800352,
-          "changedDate": "2026-10-04T09:12:01Z",
+          "changedDate": "2026-10-08T22:42:41Z",
           "participantId": 1000660411,
           "oddsFractional": "19/20",
-          "oddsAmerican": "-104",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699800353,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4361534694,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2020,
+          "line": -14000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2699800353,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361534695,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1820,
+          "line": 14000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2699800353,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -194,7 +426,6 @@
     },
     {
       "id": 2699800360,
-      "closed": "2026-10-08T23:00:00Z",
       "criterion": {
         "id": 1001159490,
         "label": "Total Points",
@@ -214,13 +445,13 @@
           "id": 4361534708,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1980,
+          "odds": 1830,
           "line": 52500,
           "type": "OT_OVER",
           "betOfferId": 2699800360,
-          "changedDate": "2026-10-04T09:12:10Z",
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -229,13 +460,545 @@
           "id": 4361534709,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1840,
+          "odds": 2000,
           "line": 52500,
           "type": "OT_UNDER",
           "betOfferId": 2699800360,
-          "changedDate": "2026-10-04T09:12:10Z",
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699803377,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4361522949,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2699803377,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361522950,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2280,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699803377,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699803378,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4361522951,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1560,
+          "line": -8500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2699803378,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361522952,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2480,
+          "line": 8500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2699803378,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699803379,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4361522953,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2100,
+          "line": -14500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2699803379,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361522954,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1750,
+          "line": 14500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2699803379,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699803380,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4361522955,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1410,
+          "line": -7000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2699803380,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361522956,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2950,
+          "line": 7000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2699803380,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322054,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363352952,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1570,
+          "line": -5500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322054,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363352953,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2320,
+          "line": 5500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322054,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322055,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363352954,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1540,
+          "line": -4500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322055,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363352955,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2380,
+          "line": 4500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322055,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322057,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363352958,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1820,
+          "type": "OT_ODD",
+          "betOfferId": 2700322057,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363352959,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1850,
+          "type": "OT_EVEN",
+          "betOfferId": 2700322057,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322059,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363352962,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1170,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322059,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "participantId": 1001078296,
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-590",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363352963,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 18000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700322059,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363352964,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 5750,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322059,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "participantId": 1000660411,
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322060,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363352965,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1810,
+          "line": -3500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322060,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363352966,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1930,
+          "line": 3500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322060,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -244,6 +1007,3827 @@
       "tags": [
         "OFFERED_PREMATCH",
         "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322063,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Liberty to Score in every Quarter - Regular Time",
+        "englishLabel": "Liberty Flames to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363352975,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1580,
+          "type": "OT_YES",
+          "betOfferId": 2700322063,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363352980,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2170,
+          "type": "OT_NO",
+          "betOfferId": 2700322063,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322065,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363352985,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1300,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322065,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "participantId": 1001078296,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363352986,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3350,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322065,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "participantId": 1000660411,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322069,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Sam Houston - 1st Half",
+        "englishLabel": "Total Points by Sam Houston State Bearkats - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363352992,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2040,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700322069,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363352993,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1670,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700322069,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322071,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363352996,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1920,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2700322071,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363352997,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700322071,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322077,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353008,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2180,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2700322077,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353009,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1700,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700322077,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322079,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Sam Houston to Score in Both Halves",
+        "englishLabel": "Sam Houston State Bearkats to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353014,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1190,
+          "type": "OT_YES",
+          "betOfferId": 2700322079,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "2/11",
+          "oddsAmerican": "-530",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353017,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 4000,
+          "type": "OT_NO",
+          "betOfferId": 2700322079,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322080,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353018,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2800,
+          "line": -19500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322080,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353019,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1450,
+          "line": 19500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322080,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322081,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353020,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 3000,
+          "line": -20500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322081,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353021,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1400,
+          "line": 20500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322081,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322082,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353022,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1290,
+          "line": -4500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322082,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353023,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 3650,
+          "line": 4500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322082,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322083,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353024,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1840,
+          "line": -12500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322083,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353025,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2000,
+          "line": 12500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322083,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322084,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353026,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2700,
+          "line": -18500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322084,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353027,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1480,
+          "line": 18500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322084,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322085,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353028,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1380,
+          "line": -6500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322085,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353029,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 3100,
+          "line": 6500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322085,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322086,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353030,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2500,
+          "line": -17500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322086,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353031,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1550,
+          "line": 17500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322086,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322087,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353032,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2600,
+          "line": -18000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322087,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353033,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1500,
+          "line": 18000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322087,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322088,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353034,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 3250,
+          "line": -21000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322088,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353035,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1350,
+          "line": 21000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322088,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322089,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353036,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 3500,
+          "line": -22000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322089,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353037,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1320,
+          "line": 22000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322089,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322090,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353038,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2430,
+          "line": -17000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322090,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353039,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1580,
+          "line": 17000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322090,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322091,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353040,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1810,
+          "line": -12000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322091,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353041,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2020,
+          "line": 12000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322091,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322092,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353042,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2950,
+          "line": -20000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322092,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353043,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1410,
+          "line": 20000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322092,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322146,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353212,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2020,
+          "line": -9500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700322146,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353213,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1740,
+          "line": 9500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700322146,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322147,
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353214,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 27500,
+          "type": "OT_OVER",
+          "betOfferId": 2700322147,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353215,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 27500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700322147,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322148,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Liberty - 1st Half",
+        "englishLabel": "Total Points by Liberty Flames - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353216,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1920,
+          "line": 17500,
+          "type": "OT_OVER",
+          "betOfferId": 2700322148,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353217,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1750,
+          "line": 17500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700322148,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700322252,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363353462,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2450,
+          "line": 57500,
+          "type": "OT_OVER",
+          "betOfferId": 2700322252,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363353463,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1570,
+          "line": 57500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700322252,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324909,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Liberty to score first and win",
+        "englishLabel": "Liberty Flames to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363360980,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1610,
+          "type": "OT_YES",
+          "betOfferId": 2700324909,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363360983,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2120,
+          "type": "OT_NO",
+          "betOfferId": 2700324909,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324912,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363360988,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1640,
+          "line": -6500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700324912,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363360989,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2180,
+          "line": 6500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700324912,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324915,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Sam Houston to Score in every Quarter - Regular Time",
+        "englishLabel": "Sam Houston State Bearkats to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361008,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3600,
+          "type": "OT_YES",
+          "betOfferId": 2700324915,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361013,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1230,
+          "type": "OT_NO",
+          "betOfferId": 2700324915,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "2/9",
+          "oddsAmerican": "-435",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324917,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Sam Houston to score first and win",
+        "englishLabel": "Sam Houston State Bearkats to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361018,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 7000,
+          "type": "OT_YES",
+          "betOfferId": 2700324917,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "oddsFractional": "6/1",
+          "oddsAmerican": "600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361021,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1060,
+          "type": "OT_NO",
+          "betOfferId": 2700324917,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "oddsFractional": "1/18",
+          "oddsAmerican": "-1667",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324919,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Sam Houston",
+        "englishLabel": "Total Points by Sam Houston State Bearkats - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361024,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1770,
+          "line": 19500,
+          "type": "OT_OVER",
+          "betOfferId": 2700324919,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361025,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1900,
+          "line": 19500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700324919,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324921,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361032,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5400,
+          "type": "OT_YES",
+          "betOfferId": 2700324921,
+          "changedDate": "2026-10-08T22:15:06Z",
+          "oddsFractional": "22/5",
+          "oddsAmerican": "440",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361037,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1100,
+          "type": "OT_NO",
+          "betOfferId": 2700324921,
+          "changedDate": "2026-10-08T22:15:06Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324922,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Liberty to Score in Both Halves",
+        "englishLabel": "Liberty Flames to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361040,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1010,
+          "type": "OT_YES",
+          "betOfferId": 2700324922,
+          "changedDate": "2026-10-08T22:35:13Z",
+          "oddsFractional": "1/100",
+          "oddsAmerican": "-10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361043,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 19000,
+          "type": "OT_NO",
+          "betOfferId": 2700324922,
+          "changedDate": "2026-10-08T22:35:13Z",
+          "oddsFractional": "18/1",
+          "oddsAmerican": "1800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324923,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361044,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 161000,
+          "participant": "Liberty",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700324923,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "participantId": 1001078296,
+          "oddsFractional": "160/1",
+          "oddsAmerican": "16000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4363361045,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 181000,
+          "participant": "Sam Houston",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700324923,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "participantId": 1000660411,
+          "oddsFractional": "180/1",
+          "oddsAmerican": "18000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4363361046,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 5750,
+          "participant": "Liberty",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700324923,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "participantId": 1001078296,
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4363361047,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 4250,
+          "participant": "Sam Houston",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700324923,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "participantId": 1000660411,
+          "oddsFractional": "13/4",
+          "oddsAmerican": "325",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4363361048,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 5600,
+          "participant": "Sam Houston",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700324923,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "participantId": 1000660411,
+          "oddsFractional": "23/5",
+          "oddsAmerican": "460",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4363361049,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 1910,
+          "participant": "Liberty",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700324923,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "participantId": 1001078296,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324928,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361058,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1980,
+          "line": -8500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700324928,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361059,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1770,
+          "line": 8500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700324928,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324930,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361062,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2040,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2700324930,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361063,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700324930,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324931,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Liberty",
+        "englishLabel": "Total Points by Liberty Flames - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361064,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 33500,
+          "type": "OT_OVER",
+          "betOfferId": 2700324931,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361065,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1900,
+          "line": 33500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700324931,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324932,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361066,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1460,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700324932,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361067,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2750,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700324932,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324933,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361073,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 1380,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700324933,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361076,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 46000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700324933,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "45/1",
+          "oddsAmerican": "4500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363361079,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 18000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700324933,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4363361082,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 18000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700324933,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4363361085,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 111000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700324933,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "110/1",
+          "oddsAmerican": "11000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4363361088,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 46000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700324933,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "45/1",
+          "oddsAmerican": "4500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4363361091,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 8500,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700324933,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4363361094,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 46000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700324933,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "45/1",
+          "oddsAmerican": "4500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4363361097,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 9000,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700324933,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "8/1",
+          "oddsAmerican": "800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324934,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361068,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1570,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700324934,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361069,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4900,
+          "type": "OT_CROSS",
+          "betOfferId": 2700324934,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "390",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363361070,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700324934,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324935,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361098,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1600,
+          "line": -9500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700324935,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361099,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2380,
+          "line": 9500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700324935,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324936,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361100,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1710,
+          "line": -10500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700324936,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361101,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2170,
+          "line": 10500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700324936,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324937,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361102,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1780,
+          "line": -11500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700324937,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361103,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2070,
+          "line": 11500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700324937,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324938,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361104,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 3350,
+          "line": -21500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700324938,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361105,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1340,
+          "line": 21500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700324938,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324939,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361106,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1740,
+          "line": -11000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700324939,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361107,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2120,
+          "line": 11000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700324939,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324940,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361108,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2250,
+          "line": -16000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700324940,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361109,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1660,
+          "line": 16000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700324940,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324941,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361110,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1640,
+          "line": -10000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700324941,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361111,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2300,
+          "line": 10000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700324941,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700324942,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361112,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2160,
+          "line": -15000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700324942,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361113,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1720,
+          "line": 15000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700324942,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700325004,
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363361303,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2700325004,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363361304,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700325004,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339417,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Liberty to win both halves",
+        "englishLabel": "Liberty Flames to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329909,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1820,
+          "type": "OT_YES",
+          "betOfferId": 2700339417,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329912,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1850,
+          "type": "OT_NO",
+          "betOfferId": 2700339417,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339418,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Sam Houston to win both halves",
+        "englishLabel": "Sam Houston State Bearkats to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329915,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 13000,
+          "type": "OT_YES",
+          "betOfferId": 2700339418,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329918,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2700339418,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339419,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329919,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1880,
+          "line": -7500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700339419,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329920,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1870,
+          "line": 7500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700339419,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339425,
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329931,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4100,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700339425,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363329932,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1220,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700339425,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "11/50",
+          "oddsAmerican": "-455",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339428,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329937,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1280,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700339428,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329938,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 12000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700339428,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363329939,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4400,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700339428,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "17/5",
+          "oddsAmerican": "340",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339429,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329940,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1340,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700339429,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "participantId": 1001078296,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329941,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2900,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700339429,
+          "changedDate": "2026-10-08T22:42:38Z",
+          "participantId": 1000660411,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700339431,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329944,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1530,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700339431,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329945,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2550,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700339431,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339432,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329946,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2280,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2700339432,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329947,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1640,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700339432,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339434,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329950,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2700339434,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329951,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2430,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700339434,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339435,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329953,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 16000,
+          "type": "OT_YES",
+          "betOfferId": 2700339435,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "15/1",
+          "oddsAmerican": "1500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329955,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2700339435,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339438,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329960,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1330,
+          "line": -5500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700339438,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329961,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 3400,
+          "line": 5500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700339438,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339439,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329962,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2200,
+          "line": -15500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700339439,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329963,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1680,
+          "line": 15500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700339439,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339440,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329964,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2300,
+          "line": -16500,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700339440,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329965,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1640,
+          "line": 16500,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700339440,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339441,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329966,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1340,
+          "line": -6000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700339441,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329967,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 3300,
+          "line": 6000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700339441,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339442,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329968,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1300,
+          "line": -5000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700339442,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329969,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 3550,
+          "line": 5000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700339442,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339443,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329970,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 1570,
+          "line": -9000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700339443,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329971,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 2450,
+          "line": 9000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700339443,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700339444,
+      "closed": "2026-10-08T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4363329972,
+          "label": "Liberty",
+          "englishLabel": "Liberty Flames",
+          "odds": 2750,
+          "line": -19000,
+          "participant": "Liberty",
+          "type": "OT_ONE",
+          "betOfferId": 2700339444,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1001078296,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363329973,
+          "label": "Sam Houston",
+          "englishLabel": "Sam Houston State Bearkats",
+          "odds": 1470,
+          "line": 19000,
+          "participant": "Sam Houston",
+          "type": "OT_TWO",
+          "betOfferId": 2700339444,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "participantId": 1000660411,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701374183,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508048,
+      "outcomes": [
+        {
+          "id": 4366658744,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2650,
+          "line": 58500,
+          "type": "OT_OVER",
+          "betOfferId": 2701374183,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366658745,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 58500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701374183,
+          "changedDate": "2026-10-08T22:42:41Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -274,27 +4858,18 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 81,
+      "liveBoCount": 40,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
+        "OPEN_FOR_LIVE",
         "AMERICAN_DISPLAY_FORMAT",
         "AWAY_HOME",
-        "OFFERED_LIVE",
         "BET_BUILDER",
         "MATCH"
       ],
       "state": "NOT_STARTED",
       "participants": [
-        {
-          "participantId": 1000660411,
-          "name": "Sam Houston",
-          "englishName": "Sam Houston State Bearkats",
-          "termKey": "sam_houston_state_bearkats",
-          "scratched": false,
-          "nonRunner": false,
-          "home": false,
-          "participantType": "TEAM"
-        },
         {
           "participantId": 1001078296,
           "name": "Liberty",
@@ -303,6 +4878,16 @@
           "scratched": false,
           "nonRunner": false,
           "home": true,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000660411,
+          "name": "Sam Houston",
+          "englishName": "Sam Houston State Bearkats",
+          "termKey": "sam_houston_state_bearkats",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
           "participantType": "TEAM"
         }
       ],

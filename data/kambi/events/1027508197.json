@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:36.976Z",
+  "generatedAt": "2026-10-08T22:55:36.720Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,7 +10,7 @@
     "start": "2026-10-10T01:00:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 79,
     "events": 1,
     "prePacks": 0
   },
@@ -37,13 +37,13 @@
           "id": 4361964894,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1860,
+          "odds": 1980,
           "line": 43500,
           "type": "OT_OVER",
           "betOfferId": 2699892858,
-          "changedDate": "2026-10-04T15:59:09Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-117",
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -52,11 +52,248 @@
           "id": 4361964895,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1970,
+          "odds": 1840,
           "line": 43500,
           "type": "OT_UNDER",
           "betOfferId": 2699892858,
-          "changedDate": "2026-10-04T15:59:09Z",
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699892859,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4361964896,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1900,
+          "line": -4500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2699892859,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361964897,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1920,
+          "line": 4500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2699892859,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699892860,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4361964898,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 2480,
+          "line": -7500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2699892860,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361964899,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1560,
+          "line": 7500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2699892860,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699892861,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4361964900,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1670,
+          "line": -2500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2699892861,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361964901,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2230,
+          "line": 2500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2699892861,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699892862,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4361964902,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1850,
+          "line": -4000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2699892862,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361964903,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1970,
+          "line": 4000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2699892862,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
           "oddsFractional": "19/20",
           "oddsAmerican": "-104",
           "status": "OPEN",
@@ -66,7 +303,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -93,14 +329,14 @@
           "id": 4361950238,
           "label": "San José State",
           "englishLabel": "San Jose State Spartans",
-          "odds": 1410,
+          "odds": 1540,
           "participant": "San José State",
           "type": "OT_ONE",
           "betOfferId": 2699898472,
-          "changedDate": "2026-10-04T15:59:09Z",
+          "changedDate": "2026-10-08T16:18:08Z",
           "participantId": 1000042818,
-          "oddsFractional": "2/5",
-          "oddsAmerican": "-245",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -109,14 +345,14 @@
           "id": 4361950239,
           "label": "Wyoming",
           "englishLabel": "Wyoming Cowboys",
-          "odds": 2950,
+          "odds": 2480,
           "participant": "Wyoming",
           "type": "OT_TWO",
           "betOfferId": 2699898472,
-          "changedDate": "2026-10-04T15:59:09Z",
+          "changedDate": "2026-10-08T16:18:08Z",
           "participantId": 1000061108,
-          "oddsFractional": "39/20",
-          "oddsAmerican": "195",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -126,6 +362,65 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699898473,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4361950240,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1630,
+          "line": -2000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2699898473,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361950241,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2320,
+          "line": 2000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2699898473,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -151,15 +446,15 @@
           "id": 4361950242,
           "label": "San José State",
           "englishLabel": "San Jose State Spartans",
-          "odds": 1880,
+          "odds": 2080,
           "line": -6000,
           "participant": "San José State",
           "type": "OT_ONE",
           "betOfferId": 2699898474,
-          "changedDate": "2026-10-04T15:59:09Z",
+          "changedDate": "2026-10-08T16:18:14Z",
           "participantId": 1000042818,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -168,15 +463,15 @@
           "id": 4361950243,
           "label": "Wyoming",
           "englishLabel": "Wyoming Cowboys",
-          "odds": 1950,
+          "odds": 1770,
           "line": 6000,
           "participant": "Wyoming",
           "type": "OT_TWO",
           "betOfferId": 2699898474,
-          "changedDate": "2026-10-04T15:59:09Z",
+          "changedDate": "2026-10-08T16:18:14Z",
           "participantId": 1000061108,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -184,7 +479,61 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699921620,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4361983041,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2140,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2699921620,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361983042,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1730,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699921620,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -211,15 +560,15 @@
           "id": 4361983043,
           "label": "San José State",
           "englishLabel": "San Jose State Spartans",
-          "odds": 1950,
+          "odds": 2160,
           "line": -6500,
           "participant": "San José State",
           "type": "OT_ONE",
           "betOfferId": 2699921621,
-          "changedDate": "2026-10-04T15:59:09Z",
+          "changedDate": "2026-10-08T16:18:14Z",
           "participantId": 1000042818,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -228,15 +577,4140 @@
           "id": 4361983044,
           "label": "Wyoming",
           "englishLabel": "Wyoming Cowboys",
-          "odds": 1870,
+          "odds": 1720,
           "line": 6500,
           "participant": "Wyoming",
           "type": "OT_TWO",
           "betOfferId": 2699921621,
-          "changedDate": "2026-10-04T15:59:09Z",
+          "changedDate": "2026-10-08T16:18:14Z",
           "participantId": 1000061108,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699921622,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4361983045,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 2330,
+          "line": -7000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2699921622,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361983046,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1620,
+          "line": 7000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2699921622,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318613,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Wyoming to score first and win",
+        "englishLabel": "Wyoming Cowboys to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365307,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3650,
+          "type": "OT_YES",
+          "betOfferId": 2700318613,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365310,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1220,
+          "type": "OT_NO",
+          "betOfferId": 2700318613,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "11/50",
+          "oddsAmerican": "-455",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318614,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365311,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1570,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318614,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "participantId": 1000042818,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365312,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2350,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318614,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "participantId": 1000061108,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318615,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365313,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1730,
+          "line": -2500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318615,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365314,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2040,
+          "line": 2500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318615,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318616,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by San José State",
+        "englishLabel": "Total Points by San Jose State Spartans - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365315,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1810,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318616,
+          "changedDate": "2026-10-08T16:18:15Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365316,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318616,
+          "changedDate": "2026-10-08T16:18:15Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318618,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Wyoming to Score in Both Halves",
+        "englishLabel": "Wyoming Cowboys to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365321,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1170,
+          "type": "OT_YES",
+          "betOfferId": 2700318618,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-590",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365324,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 4300,
+          "type": "OT_NO",
+          "betOfferId": 2700318618,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "33/10",
+          "oddsAmerican": "330",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318619,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Wyoming",
+        "englishLabel": "Total Points by Wyoming Cowboys - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365325,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1820,
+          "line": 19500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318619,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365326,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 19500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318619,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318620,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365327,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1640,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318620,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365328,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 9500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700318620,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363365329,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2650,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318620,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318621,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365330,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1580,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318621,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "participantId": 1000042818,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365331,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 13000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700318621,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363365332,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2600,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318621,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "participantId": 1000061108,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318624,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365337,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 40500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318624,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365338,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2200,
+          "line": 40500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318624,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318625,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365339,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318625,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365340,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2070,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318625,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318626,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "San José State to Score in every Quarter - Regular Time",
+        "englishLabel": "San Jose State Spartans to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365345,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2600,
+          "type": "OT_YES",
+          "betOfferId": 2700318626,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365350,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1420,
+          "type": "OT_NO",
+          "betOfferId": 2700318626,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318628,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365353,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 4000,
+          "participant": "Wyoming",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700318628,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "participantId": 1000061108,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4363365354,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 4100,
+          "participant": "Wyoming",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700318628,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "participantId": 1000061108,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4363365355,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 2800,
+          "participant": "San José State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700318628,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "participantId": 1000042818,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4363365356,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 111000,
+          "participant": "San José State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700318628,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "participantId": 1000042818,
+          "oddsFractional": "110/1",
+          "oddsAmerican": "11000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4363365357,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 111000,
+          "participant": "Wyoming",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700318628,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "participantId": 1000061108,
+          "oddsFractional": "110/1",
+          "oddsAmerican": "11000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4363365358,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 3700,
+          "participant": "San José State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700318628,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "participantId": 1000042818,
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318629,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365359,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1980,
+          "line": -5500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318629,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365360,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1840,
+          "line": 5500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318629,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318630,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365361,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1810,
+          "line": -3500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318630,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365362,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2020,
+          "line": 3500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318630,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318631,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365363,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 2800,
+          "line": -9500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318631,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365364,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1450,
+          "line": 9500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318631,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318632,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365365,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1730,
+          "line": -3000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318632,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365366,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2140,
+          "line": 3000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318632,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318633,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365367,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 3250,
+          "line": -11000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318633,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365368,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1350,
+          "line": 11000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318633,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318634,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365369,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 3650,
+          "line": -13000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318634,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365370,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1290,
+          "line": 13000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318634,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318635,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365371,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 3000,
+          "line": -10000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318635,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365372,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1400,
+          "line": 10000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318635,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318638,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365377,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 2600,
+          "line": -8000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318638,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365378,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1500,
+          "line": 8000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318638,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318640,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365381,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1520,
+          "line": 1000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318640,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365382,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2600,
+          "line": -1000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318640,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318680,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365519,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1950,
+          "line": 8500,
+          "type": "OT_OVER",
+          "betOfferId": 2700318680,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365520,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 8500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700318680,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700318696,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363365589,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1630,
+          "line": -500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700318696,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363365590,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2200,
+          "line": 500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700318696,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344972,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Wyoming to Score in every Quarter - Regular Time",
+        "englishLabel": "Wyoming Cowboys to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363379931,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3600,
+          "type": "OT_YES",
+          "betOfferId": 2700344972,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379936,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1230,
+          "type": "OT_NO",
+          "betOfferId": 2700344972,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "oddsFractional": "2/9",
+          "oddsAmerican": "-435",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344973,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363379938,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1940,
+          "line": -500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344973,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379937,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1800,
+          "line": 500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700344973,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344976,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363379947,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 2000,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700344976,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379950,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 29000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700344976,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "28/1",
+          "oddsAmerican": "2800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363379953,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 9000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700344976,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "8/1",
+          "oddsAmerican": "800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4363379956,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 18000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700344976,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4363379959,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 76000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700344976,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "75/1",
+          "oddsAmerican": "7500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4363379962,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 21000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700344976,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "20/1",
+          "oddsAmerican": "2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4363379965,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 9000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700344976,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "8/1",
+          "oddsAmerican": "800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4363379968,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 34000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700344976,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4363379971,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 3750,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700344976,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344977,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by San José State - 1st Half",
+        "englishLabel": "Total Points by San Jose State Spartans - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363379972,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1820,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2700344977,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379973,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700344977,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344982,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Wyoming - 1st Half",
+        "englishLabel": "Total Points by Wyoming Cowboys - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363379982,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1810,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700344982,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363379983,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700344982,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344984,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363379990,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3500,
+          "type": "OT_YES",
+          "betOfferId": 2700344984,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379995,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1240,
+          "type": "OT_NO",
+          "betOfferId": 2700344984,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344985,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363379996,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1950,
+          "line": -3500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344985,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379997,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1790,
+          "line": 3500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700344985,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344986,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363379998,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 2200,
+          "line": -4500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344986,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363379999,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1630,
+          "line": 4500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700344986,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344989,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380014,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2380,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700344989,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380015,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1600,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700344989,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344991,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380018,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 38500,
+          "type": "OT_OVER",
+          "betOfferId": 2700344991,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380019,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2600,
+          "line": 38500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700344991,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344992,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380020,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700344992,
+          "changedDate": "2026-10-08T16:18:14Z",
           "oddsFractional": "17/20",
           "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380021,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1960,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700344992,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344993,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380022,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1950,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344993,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380023,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4200,
+          "type": "OT_CROSS",
+          "betOfferId": 2700344993,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "16/5",
+          "oddsAmerican": "320",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363380024,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2900,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700344993,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344995,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380027,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2480,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700344995,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "participantId": 1000061108,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363380028,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1520,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344995,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "participantId": 1000042818,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344996,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380029,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1450,
+          "line": 2500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344996,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380030,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2800,
+          "line": -2500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700344996,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344997,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380031,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1550,
+          "line": 500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344997,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380032,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2500,
+          "line": -500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700344997,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700344998,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380033,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 2650,
+          "line": -8500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700344998,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380034,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1490,
+          "line": 8500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700344998,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345000,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380037,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 3300,
+          "line": -11500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700345000,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "participantId": 1000042818,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380038,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1340,
+          "line": 11500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700345000,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "participantId": 1000061108,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345002,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380041,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1950,
+          "line": -5000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700345002,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380042,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1880,
+          "line": 5000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700345002,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345003,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380043,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 2750,
+          "line": -9000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700345003,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380044,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1470,
+          "line": 9000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700345003,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345004,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380045,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1380,
+          "line": 3000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700345004,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380046,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 3050,
+          "line": -3000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700345004,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345005,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380047,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 3450,
+          "line": -12000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700345005,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380048,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1320,
+          "line": 12000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700345005,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700345006,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363380049,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1800,
+          "type": "OT_ODD",
+          "betOfferId": 2700345006,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363380050,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1870,
+          "type": "OT_EVEN",
+          "betOfferId": 2700345006,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347490,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "San José State to Score in Both Halves",
+        "englishLabel": "San Jose State Spartans to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377005,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1070,
+          "type": "OT_YES",
+          "betOfferId": 2700347490,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "oddsFractional": "1/16",
+          "oddsAmerican": "-1430",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377008,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 6250,
+          "type": "OT_NO",
+          "betOfferId": 2700347490,
+          "changedDate": "2026-10-08T16:18:11Z",
+          "oddsFractional": "21/4",
+          "oddsAmerican": "525",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347493,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377013,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1700,
+          "line": -1500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347493,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377014,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2080,
+          "line": 1500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700347493,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347494,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "San José State to win both halves",
+        "englishLabel": "San Jose State Spartans to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377017,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2950,
+          "type": "OT_YES",
+          "betOfferId": 2700347494,
+          "changedDate": "2026-10-08T16:18:15Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377020,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1330,
+          "type": "OT_NO",
+          "betOfferId": 2700347494,
+          "changedDate": "2026-10-08T16:18:15Z",
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347495,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377021,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1570,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347495,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "participantId": 1000042818,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377022,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2200,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700347495,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "participantId": 1000061108,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700347498,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377028,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 11500,
+          "type": "OT_YES",
+          "betOfferId": 2700347498,
+          "changedDate": "2026-10-08T13:13:14Z",
+          "oddsFractional": "21/2",
+          "oddsAmerican": "1050",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377030,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1030,
+          "type": "OT_NO",
+          "betOfferId": 2700347498,
+          "changedDate": "2026-10-05T19:23:50Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347499,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Wyoming to win both halves",
+        "englishLabel": "Wyoming Cowboys to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377033,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5500,
+          "type": "OT_YES",
+          "betOfferId": 2700347499,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "9/2",
+          "oddsAmerican": "450",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377036,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1100,
+          "type": "OT_NO",
+          "betOfferId": 2700347499,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347503,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377043,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2250,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700347503,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377044,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1660,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700347503,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347504,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377045,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 39500,
+          "type": "OT_OVER",
+          "betOfferId": 2700347504,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377046,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2400,
+          "line": 39500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700347504,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347507,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "San José State to score first and win",
+        "englishLabel": "San Jose State Spartans to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377053,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2150,
+          "type": "OT_YES",
+          "betOfferId": 2700347507,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377056,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1600,
+          "type": "OT_NO",
+          "betOfferId": 2700347507,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347509,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377059,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 3100,
+          "line": -10500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347509,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377060,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1380,
+          "line": 10500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700347509,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347510,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377061,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1500,
+          "line": 1500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347510,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377062,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2630,
+          "line": -1500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700347510,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347511,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377063,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1550,
+          "line": -500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347511,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377064,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2500,
+          "line": 500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700347511,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347512,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377065,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1600,
+          "line": -1500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347512,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377066,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2380,
+          "line": 1500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700347512,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347513,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377067,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 3500,
+          "line": -12500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347513,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377068,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1320,
+          "line": 12500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700347513,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347514,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377069,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1470,
+          "line": 2000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347514,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377070,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2750,
+          "line": -2000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700347514,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347517,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377075,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1570,
+          "line": -1000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347517,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377076,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2450,
+          "line": 1000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700347517,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347570,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377275,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1470,
+          "line": 37500,
+          "type": "OT_OVER",
+          "betOfferId": 2700347570,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377276,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2750,
+          "line": 37500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700347570,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700347582,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4363377300,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 2250,
+          "line": -5500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2700347582,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363377301,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1600,
+          "line": 5500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2700347582,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701493501,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4367108597,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1320,
+          "line": 4500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2701493501,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367108598,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 3450,
+          "line": -4500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2701493501,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701499483,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4367088060,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1840,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2701499483,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367088061,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1900,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701499483,
+          "changedDate": "2026-10-08T16:18:08Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701499484,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4367088062,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1330,
+          "line": 4000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2701499484,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367088063,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 3400,
+          "line": -4000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2701499484,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701516489,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4367096801,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1360,
+          "line": 3500,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2701516489,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367096802,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 3200,
+          "line": -3500,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2701516489,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701516490,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508197,
+      "outcomes": [
+        {
+          "id": 4367096803,
+          "label": "San José State",
+          "englishLabel": "San Jose State Spartans",
+          "odds": 1290,
+          "line": 5000,
+          "participant": "San José State",
+          "type": "OT_ONE",
+          "betOfferId": 2701516490,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000042818,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367096804,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 3650,
+          "line": -5000,
+          "participant": "Wyoming",
+          "type": "OT_TWO",
+          "betOfferId": 2701516490,
+          "changedDate": "2026-10-08T16:18:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -274,7 +4748,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 79,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

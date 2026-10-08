@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:35.821Z",
+  "generatedAt": "2026-10-08T22:55:35.683Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,14 +10,190 @@
     "start": "2026-10-08T23:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 84,
     "events": 1,
     "prePacks": 0
   },
   "betOffers": [
     {
-      "id": 2699771429,
+      "id": 2699748125,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4361563604,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1790,
+          "line": -4500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2699748125,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361563605,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2060,
+          "line": 4500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2699748125,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699748127,
       "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4361563608,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1820,
+          "line": -5000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2699748127,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361563609,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2020,
+          "line": 5000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2699748127,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699771427,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4361551923,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1860,
+          "line": -5500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2699771427,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361551924,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1970,
+          "line": 5500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2699771427,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699771429,
       "criterion": {
         "id": 1001159928,
         "label": "Point Spread",
@@ -37,15 +213,15 @@
           "id": 4361551927,
           "label": "UTSA",
           "englishLabel": "UTSA Roadrunners",
-          "odds": 1760,
+          "odds": 1980,
           "line": -6500,
           "participant": "UTSA",
           "type": "OT_ONE",
           "betOfferId": 2699771429,
-          "changedDate": "2026-10-05T00:14:05Z",
+          "changedDate": "2026-10-08T22:54:30Z",
           "participantId": 1001091020,
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-132",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -54,15 +230,15 @@
           "id": 4361551928,
           "label": "South Florida",
           "englishLabel": "South Florida Bulls",
-          "odds": 2080,
+          "odds": 1850,
           "line": 6500,
           "participant": "South Florida",
           "type": "OT_TWO",
           "betOfferId": 2699771429,
-          "changedDate": "2026-10-05T00:14:05Z",
+          "changedDate": "2026-10-08T22:54:30Z",
           "participantId": 1000068256,
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,14 +246,13 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
+        "OFFERED_LIVE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
     {
       "id": 2699782756,
-      "closed": "2026-10-08T23:30:00Z",
       "criterion": {
         "id": 1001159990,
         "label": "Moneyline",
@@ -97,14 +272,14 @@
           "id": 4361531527,
           "label": "UTSA",
           "englishLabel": "UTSA Roadrunners",
-          "odds": 1300,
+          "odds": 1470,
           "participant": "UTSA",
           "type": "OT_ONE",
           "betOfferId": 2699782756,
-          "changedDate": "2026-10-05T00:14:05Z",
+          "changedDate": "2026-10-08T22:54:30Z",
           "participantId": 1001091020,
-          "oddsFractional": "3/10",
-          "oddsAmerican": "-335",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -113,14 +288,14 @@
           "id": 4361531528,
           "label": "South Florida",
           "englishLabel": "South Florida Bulls",
-          "odds": 3500,
+          "odds": 2700,
           "participant": "South Florida",
           "type": "OT_TWO",
           "betOfferId": 2699782756,
-          "changedDate": "2026-10-05T00:14:05Z",
+          "changedDate": "2026-10-08T22:54:30Z",
           "participantId": 1000068256,
-          "oddsFractional": "5/2",
-          "oddsAmerican": "250",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -128,6 +303,7 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
         "BET_BUILDER",
         "MAIN"
       ],
@@ -155,15 +331,15 @@
           "id": 4361531531,
           "label": "UTSA",
           "englishLabel": "UTSA Roadrunners",
-          "odds": 1700,
+          "odds": 1920,
           "line": -6000,
           "participant": "UTSA",
           "type": "OT_ONE",
           "betOfferId": 2699782758,
-          "changedDate": "2026-10-05T00:14:05Z",
+          "changedDate": "2026-10-08T22:54:30Z",
           "participantId": 1001091020,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-143",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -172,15 +348,75 @@
           "id": 4361531532,
           "label": "South Florida",
           "englishLabel": "South Florida Bulls",
-          "odds": 2180,
+          "odds": 1910,
           "line": 6000,
           "participant": "South Florida",
           "type": "OT_TWO",
           "betOfferId": 2699782758,
-          "changedDate": "2026-10-05T00:14:05Z",
+          "changedDate": "2026-10-08T22:54:30Z",
           "participantId": 1000068256,
-          "oddsFractional": "59/50",
-          "oddsAmerican": "118",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699782759,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4361531533,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1740,
+          "line": -4000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2699782759,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361531534,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2120,
+          "line": 4000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2699782759,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -193,8 +429,62 @@
       "cashOutStatus": "ENABLED"
     },
     {
+      "id": 2699877208,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4361842118,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1450,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699877208,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361842119,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2800,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2699877208,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
       "id": 2699993236,
-      "closed": "2026-10-08T23:30:00Z",
       "criterion": {
         "id": 1001159490,
         "label": "Total Points",
@@ -214,13 +504,13 @@
           "id": 4362302120,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1940,
+          "odds": 1650,
           "line": 52500,
           "type": "OT_UNDER",
           "betOfferId": 2699993236,
-          "changedDate": "2026-10-04T21:46:46Z",
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -229,13 +519,13 @@
           "id": 4362302121,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1890,
+          "odds": 2280,
           "line": 52500,
           "type": "OT_OVER",
           "betOfferId": 2699993236,
-          "changedDate": "2026-10-04T21:46:46Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -243,6 +533,4399 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699998906,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4362317170,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1710,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699998906,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362317171,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2170,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2699998906,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700024257,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4362241278,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1580,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700024257,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362241279,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2430,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2700024257,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700286791,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363129024,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 2230,
+          "line": -7500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700286791,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363129025,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1670,
+          "line": 7500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700286791,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700286792,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363129026,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 2120,
+          "line": -7000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700286792,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363129027,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1740,
+          "line": 7000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700286792,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333761,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370474,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1790,
+          "type": "OT_ODD",
+          "betOfferId": 2700333761,
+          "changedDate": "2026-10-08T14:04:31Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370475,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1880,
+          "type": "OT_EVEN",
+          "betOfferId": 2700333761,
+          "changedDate": "2026-10-08T14:04:31Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333767,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370486,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1630,
+          "line": -500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333767,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370487,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2200,
+          "line": 500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333767,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333768,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370488,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1700,
+          "line": -1500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333768,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370489,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2080,
+          "line": 1500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333768,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333769,
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370490,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1530,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333769,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370491,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2450,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333769,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333770,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370492,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 2140,
+          "line": -4500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333770,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370493,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1660,
+          "line": 4500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333770,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333774,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by UTSA - 1st Half",
+        "englishLabel": "Total Points by UTSA Roadrunners - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370503,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2080,
+          "line": 14500,
+          "type": "OT_OVER",
+          "betOfferId": 2700333774,
+          "changedDate": "2026-10-08T22:55:07Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370504,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1630,
+          "line": 14500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700333774,
+          "changedDate": "2026-10-08T22:55:07Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333779,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370513,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700333779,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363370514,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700333779,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333780,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370515,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1430,
+          "line": 1500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333780,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370516,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2880,
+          "line": -1500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333780,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333781,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370517,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 2900,
+          "line": -11500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333781,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370518,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1420,
+          "line": 11500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333781,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333782,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370519,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1470,
+          "line": 500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333782,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370520,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2750,
+          "line": -500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333782,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333783,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370521,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 2750,
+          "line": -10500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333783,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370522,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1470,
+          "line": 10500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333783,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333784,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370523,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1470,
+          "line": -500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333784,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370524,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2750,
+          "line": 500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333784,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333785,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370525,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1700,
+          "line": -3500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333785,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370526,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2180,
+          "line": 3500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333785,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333786,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370527,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1580,
+          "line": -2500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333786,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370528,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2430,
+          "line": 2500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333786,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333787,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370529,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 3900,
+          "line": -15500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333787,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "29/10",
+          "oddsAmerican": "290",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370530,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1270,
+          "line": 15500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333787,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333788,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370531,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 2480,
+          "line": -9000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333788,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370532,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1560,
+          "line": 9000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333788,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333789,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370533,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 4100,
+          "line": -16000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333789,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370534,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1240,
+          "line": 16000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333789,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333790,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370535,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1400,
+          "line": 2000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333790,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370536,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 3000,
+          "line": -2000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333790,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333791,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370537,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 3200,
+          "line": -13000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333791,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370538,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1360,
+          "line": 13000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333791,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333792,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370539,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 3000,
+          "line": -12000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333792,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370540,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1400,
+          "line": 12000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333792,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333793,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370541,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1540,
+          "line": -2000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333793,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370542,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2550,
+          "line": 2000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333793,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333794,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370543,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 2850,
+          "line": -11000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333794,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370544,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1440,
+          "line": 11000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333794,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700333803,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363370561,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1380,
+          "line": 2500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700333803,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363370562,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 3050,
+          "line": -2500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700333803,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336427,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350730,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4800,
+          "type": "OT_YES",
+          "betOfferId": 2700336427,
+          "changedDate": "2026-10-08T22:26:51Z",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "380",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350735,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1130,
+          "type": "OT_NO",
+          "betOfferId": 2700336427,
+          "changedDate": "2026-10-08T22:26:51Z",
+          "oddsFractional": "1/8",
+          "oddsAmerican": "-770",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336432,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350754,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1600,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700336432,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350755,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2300,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700336432,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336434,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "UTSA to Score in Both Halves",
+        "englishLabel": "UTSA Roadrunners to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350760,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1040,
+          "type": "OT_YES",
+          "betOfferId": 2700336434,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "1/25",
+          "oddsAmerican": "-2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350763,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 9000,
+          "type": "OT_NO",
+          "betOfferId": 2700336434,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "8/1",
+          "oddsAmerican": "800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336436,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "South Florida to win both halves",
+        "englishLabel": "South Florida Bulls to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350768,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5750,
+          "type": "OT_YES",
+          "betOfferId": 2700336436,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350771,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1090,
+          "type": "OT_NO",
+          "betOfferId": 2700336436,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "1/12",
+          "oddsAmerican": "-1115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336438,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "UTSA to win both halves",
+        "englishLabel": "UTSA Roadrunners to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350776,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2700,
+          "type": "OT_YES",
+          "betOfferId": 2700336438,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350779,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1380,
+          "type": "OT_NO",
+          "betOfferId": 2700336438,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336440,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "UTSA to score first and win",
+        "englishLabel": "UTSA Roadrunners to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350784,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2120,
+          "type": "OT_YES",
+          "betOfferId": 2700336440,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350787,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1610,
+          "type": "OT_NO",
+          "betOfferId": 2700336440,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336443,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "South Florida to Score in Both Halves",
+        "englishLabel": "South Florida Bulls to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350794,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1120,
+          "type": "OT_YES",
+          "betOfferId": 2700336443,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "1/9",
+          "oddsAmerican": "-835",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350797,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 5100,
+          "type": "OT_NO",
+          "betOfferId": 2700336443,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "4/1",
+          "oddsAmerican": "410",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336444,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by South Florida",
+        "englishLabel": "Total Points by South Florida Bulls - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350798,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1800,
+          "line": 21500,
+          "type": "OT_OVER",
+          "betOfferId": 2700336444,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350799,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 21500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700336444,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336448,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350808,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 1930,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700336448,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350811,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 34000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700336448,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363350814,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 11000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700336448,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "10/1",
+          "oddsAmerican": "1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4363350817,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 18000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700336448,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4363350820,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 91000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700336448,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "90/1",
+          "oddsAmerican": "9000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4363350823,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 29000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700336448,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "28/1",
+          "oddsAmerican": "2800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4363350826,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 8000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700336448,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4363350829,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 31000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700336448,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4363350832,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 3850,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700336448,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336449,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350833,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2120,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700336449,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363350834,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1740,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700336449,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336450,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350835,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2320,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700336450,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363350836,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1630,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700336450,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336452,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350839,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 3050,
+          "line": -12500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700336452,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350840,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1380,
+          "line": 12500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700336452,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336453,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350841,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 2400,
+          "line": -8500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700336453,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350842,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1580,
+          "line": 8500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700336453,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336454,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350843,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 3700,
+          "line": -14500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700336454,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350844,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1290,
+          "line": 14500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700336454,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336455,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350845,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 2650,
+          "line": -10000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700336455,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350846,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1490,
+          "line": 10000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700336455,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336456,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350847,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 2330,
+          "line": -8000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700336456,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350848,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1620,
+          "line": 8000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700336456,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336457,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350849,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 3550,
+          "line": -14000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700336457,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350850,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1300,
+          "line": 14000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700336457,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336466,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by South Florida - 1st Half",
+        "englishLabel": "Total Points by South Florida Bulls - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350867,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700336466,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350868,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700336466,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336469,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363350873,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1340,
+          "line": 3000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700336469,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363350874,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 3350,
+          "line": -3000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700336469,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336668,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363351332,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1320,
+          "line": 3500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700336668,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363351333,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 3450,
+          "line": -3500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700336668,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700336669,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363351334,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1300,
+          "line": 4000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700336669,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363351335,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 3650,
+          "line": -4000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700336669,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356312,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345117,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1950,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356312,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345118,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700356312,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363345119,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2800,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356312,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356313,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "South Florida to score first and win",
+        "englishLabel": "South Florida Bulls to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345122,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3800,
+          "type": "OT_YES",
+          "betOfferId": 2700356313,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345125,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1200,
+          "type": "OT_NO",
+          "betOfferId": 2700356313,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356315,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "South Florida to Score in every Quarter - Regular Time",
+        "englishLabel": "South Florida Bulls to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345134,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2900,
+          "type": "OT_YES",
+          "betOfferId": 2700356315,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345139,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1340,
+          "type": "OT_NO",
+          "betOfferId": 2700356315,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356316,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345140,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1580,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356316,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345141,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2170,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356316,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700356318,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345145,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1920,
+          "line": -3500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356318,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345146,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1820,
+          "line": 3500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356318,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356320,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345149,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 2200,
+          "line": -5500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356320,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345150,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1630,
+          "line": 5500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356320,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356321,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345152,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1930,
+          "line": -500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356321,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345151,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1810,
+          "line": 500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356321,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356323,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345155,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1720,
+          "line": -2500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356323,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345156,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2040,
+          "line": 2500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356323,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356324,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345158,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 12000,
+          "type": "OT_YES",
+          "betOfferId": 2700356324,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345160,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2700356324,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356327,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345165,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356327,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345166,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 14000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700356327,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "13/1",
+          "oddsAmerican": "1300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363345167,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2800,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356327,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356328,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345168,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1640,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356328,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345169,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 10500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700356328,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "19/2",
+          "oddsAmerican": "950",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363345170,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2630,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356328,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356329,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "UTSA to Score in every Quarter - Regular Time",
+        "englishLabel": "UTSA Roadrunners to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345175,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2040,
+          "type": "OT_YES",
+          "betOfferId": 2700356329,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345180,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1670,
+          "type": "OT_NO",
+          "betOfferId": 2700356329,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356330,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by UTSA",
+        "englishLabel": "Total Points by UTSA Roadrunners - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345181,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1960,
+          "line": 28500,
+          "type": "OT_OVER",
+          "betOfferId": 2700356330,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345182,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1720,
+          "line": 28500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700356330,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356331,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345183,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700356331,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363345184,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1910,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2700356331,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356332,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345185,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700356332,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363345186,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2600,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2700356332,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356333,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345187,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1810,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700356333,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363345188,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700356333,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356334,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345189,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 2500,
+          "line": -9500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356334,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345190,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1550,
+          "line": 9500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356334,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356335,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345191,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1520,
+          "line": -1500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356335,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345192,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2600,
+          "line": 1500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356335,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356336,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345193,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 3250,
+          "line": -13500,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356336,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345194,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1350,
+          "line": 13500,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356336,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356337,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345195,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1480,
+          "line": -1000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356337,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345196,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2700,
+          "line": 1000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356337,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356338,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345197,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1450,
+          "line": 1000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356338,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345198,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2800,
+          "line": -1000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356338,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356339,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345199,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 3850,
+          "line": -15000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356339,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345200,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 1270,
+          "line": 15000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356339,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356340,
+      "closed": "2026-10-08T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363345201,
+          "label": "UTSA",
+          "englishLabel": "UTSA Roadrunners",
+          "odds": 1630,
+          "line": -3000,
+          "participant": "UTSA",
+          "type": "OT_ONE",
+          "betOfferId": 2700356340,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1001091020,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363345202,
+          "label": "South Florida",
+          "englishLabel": "South Florida Bulls",
+          "odds": 2320,
+          "line": 3000,
+          "participant": "South Florida",
+          "type": "OT_TWO",
+          "betOfferId": 2700356340,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "participantId": 1000068256,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700356558,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4363388488,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700356558,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363388489,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1570,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700356558,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700815189,
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4364844315,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2230,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700815189,
+          "changedDate": "2026-10-08T22:55:07Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364844316,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1620,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700815189,
+          "changedDate": "2026-10-08T22:55:07Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700815190,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4364844317,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2600,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700815190,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364844318,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700815190,
+          "changedDate": "2026-10-08T22:54:30Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701440132,
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508050,
+      "outcomes": [
+        {
+          "id": 4366983138,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2701440132,
+          "changedDate": "2026-10-08T22:55:07Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366983139,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1840,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701440132,
+          "changedDate": "2026-10-08T22:55:07Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
         "MAIN_LINE",
         "BET_BUILDER"
       ],
@@ -274,7 +4957,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 84,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

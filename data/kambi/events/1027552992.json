@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:43.331Z",
+  "generatedAt": "2026-10-08T22:55:42.775Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,11 +10,412 @@
     "start": "2026-10-10T19:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 87,
     "events": 1,
     "prePacks": 0
   },
   "betOffers": [
+    {
+      "id": 2699885622,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4361960264,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2700,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699885622,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361960265,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1480,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2699885622,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699885624,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4361960268,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1540,
+          "line": -23500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2699885624,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361960269,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2500,
+          "line": 23500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2699885624,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699885625,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4361960270,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1520,
+          "line": -23000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2699885625,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1000079778,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361960271,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2600,
+          "line": 23000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2699885625,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1002787882,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699912965,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4361954314,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 62500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699912965,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361954315,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2600,
+          "line": 62500,
+          "type": "OT_OVER",
+          "betOfferId": 2699912965,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699912966,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4361954316,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1580,
+          "line": 61500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699912966,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361954317,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2400,
+          "line": 61500,
+          "type": "OT_OVER",
+          "betOfferId": 2699912966,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699912968,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4361954320,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1380,
+          "line": -20000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2699912968,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1000079778,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361954321,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 3100,
+          "line": 20000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2699912968,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1002787882,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699912969,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4361954322,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1570,
+          "line": -24000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2699912969,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1000079778,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361954323,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2450,
+          "line": 24000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2699912969,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1002787882,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2699919022,
       "closed": "2026-10-10T19:30:00Z",
@@ -37,12 +438,15 @@
           "id": 4361945298,
           "label": "North Texas",
           "englishLabel": "North Texas Mean Green",
+          "odds": 1020,
           "participant": "North Texas",
           "type": "OT_ONE",
           "betOfferId": 2699919022,
-          "changedDate": "2026-10-04T21:09:19Z",
+          "changedDate": "2026-10-08T20:15:36Z",
           "participantId": 1000079778,
-          "status": "SUSPENDED",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
         },
@@ -50,14 +454,14 @@
           "id": 4361945299,
           "label": "Charlotte",
           "englishLabel": "Charlotte 49ers",
-          "odds": 25000,
+          "odds": 15000,
           "participant": "Charlotte",
           "type": "OT_TWO",
           "betOfferId": 2699919022,
-          "changedDate": "2026-10-04T21:09:19Z",
+          "changedDate": "2026-10-08T20:15:36Z",
           "participantId": 1002787882,
-          "oddsFractional": "24/1",
-          "oddsAmerican": "2400",
+          "oddsFractional": "14/1",
+          "oddsAmerican": "1400",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -67,6 +471,183 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699919023,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4361945300,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1610,
+          "line": -24500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2699919023,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361945301,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2350,
+          "line": 24500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2699919023,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699919024,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4361945302,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1400,
+          "line": -20500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2699919024,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361945303,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 3000,
+          "line": 20500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2699919024,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699986738,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4362283035,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1710,
+          "line": -26000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2699986738,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362283036,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2170,
+          "line": 26000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2699986738,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -92,15 +673,15 @@
           "id": 4362283096,
           "label": "North Texas",
           "englishLabel": "North Texas Mean Green",
-          "odds": 1910,
+          "odds": 1800,
           "line": -27500,
           "participant": "North Texas",
           "type": "OT_ONE",
           "betOfferId": 2699986763,
-          "changedDate": "2026-10-04T21:09:19Z",
+          "changedDate": "2026-10-08T20:15:36Z",
           "participantId": 1000079778,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -109,15 +690,15 @@
           "id": 4362283097,
           "label": "Charlotte",
           "englishLabel": "Charlotte 49ers",
-          "odds": 1920,
+          "odds": 2040,
           "line": 27500,
           "participant": "Charlotte",
           "type": "OT_TWO",
           "betOfferId": 2699986763,
-          "changedDate": "2026-10-04T21:09:19Z",
+          "changedDate": "2026-10-08T20:15:36Z",
           "participantId": 1002787882,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -125,7 +706,65 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700015379,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4362280046,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1730,
+          "line": -26500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700015379,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362280047,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2140,
+          "line": 26500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700015379,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -152,13 +791,13 @@
           "id": 4362280115,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1930,
+          "odds": 1670,
           "line": 60500,
           "type": "OT_UNDER",
           "betOfferId": 2700015410,
-          "changedDate": "2026-10-04T21:09:19Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -167,13 +806,13 @@
           "id": 4362280116,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1900,
+          "odds": 2230,
           "line": 60500,
           "type": "OT_OVER",
           "betOfferId": 2700015410,
-          "changedDate": "2026-10-04T21:09:19Z",
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -181,7 +820,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -208,15 +846,15 @@
           "id": 4362280117,
           "label": "North Texas",
           "englishLabel": "North Texas Mean Green",
-          "odds": 1870,
+          "odds": 1770,
           "line": -27000,
           "participant": "North Texas",
           "type": "OT_ONE",
           "betOfferId": 2700015411,
-          "changedDate": "2026-10-04T21:09:19Z",
+          "changedDate": "2026-10-08T20:15:37Z",
           "participantId": 1000079778,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -225,15 +863,4330 @@
           "id": 4362280118,
           "label": "Charlotte",
           "englishLabel": "Charlotte 49ers",
-          "odds": 1960,
+          "odds": 2080,
           "line": 27000,
           "participant": "Charlotte",
           "type": "OT_TWO",
           "betOfferId": 2700015411,
-          "changedDate": "2026-10-04T21:09:19Z",
+          "changedDate": "2026-10-08T20:15:37Z",
           "participantId": 1002787882,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591174,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "North Texas to Score in every Quarter - Regular Time",
+        "englishLabel": "North Texas Mean Green to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214287,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1240,
+          "type": "OT_YES",
+          "betOfferId": 2700591174,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214292,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 3450,
+          "type": "OT_NO",
+          "betOfferId": 2700591174,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591175,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214293,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1850,
+          "line": -15500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700591175,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214294,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1890,
+          "line": 15500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700591175,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591177,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "North Texas to win both halves",
+        "englishLabel": "North Texas Mean Green to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214299,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1200,
+          "type": "OT_YES",
+          "betOfferId": 2700591177,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214302,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 3850,
+          "type": "OT_NO",
+          "betOfferId": 2700591177,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591184,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "North Texas to score first and win",
+        "englishLabel": "North Texas Mean Green to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214323,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1300,
+          "type": "OT_YES",
+          "betOfferId": 2700591184,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214326,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 3050,
+          "type": "OT_NO",
+          "betOfferId": 2700591184,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591186,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214333,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 6500,
+          "type": "OT_YES",
+          "betOfferId": 2700591186,
+          "changedDate": "2026-10-08T20:00:29Z",
+          "oddsFractional": "11/2",
+          "oddsAmerican": "550",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214338,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1070,
+          "type": "OT_NO",
+          "betOfferId": 2700591186,
+          "changedDate": "2026-10-08T20:00:29Z",
+          "oddsFractional": "1/16",
+          "oddsAmerican": "-1430",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591187,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Charlotte",
+        "englishLabel": "Total Points by Charlotte 49ers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214339,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1810,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700591187,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214340,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700591187,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591188,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214341,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1020,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700591188,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214342,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 41000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700591188,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "40/1",
+          "oddsAmerican": "4000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364214343,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 18000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700591188,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591191,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214348,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2550,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700591191,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364214349,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1530,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2700591191,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591192,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214350,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1950,
+          "line": 31500,
+          "type": "OT_OVER",
+          "betOfferId": 2700591192,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214351,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1790,
+          "line": 31500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700591192,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591194,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Charlotte to Score in Both Halves",
+        "englishLabel": "Charlotte 49ers to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214356,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1500,
+          "type": "OT_YES",
+          "betOfferId": 2700591194,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214359,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2330,
+          "type": "OT_NO",
+          "betOfferId": 2700591194,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591195,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214360,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2330,
+          "line": -32500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700591195,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214361,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1620,
+          "line": 32500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700591195,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591196,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214362,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1500,
+          "line": -22500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700591196,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214363,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2630,
+          "line": 22500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700591196,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591197,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214364,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2020,
+          "line": -30000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700591197,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214365,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1820,
+          "line": 30000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700591197,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591198,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214366,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2120,
+          "line": -31000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700591198,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214367,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1740,
+          "line": 31000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700591198,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591199,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214368,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2500,
+          "line": -34000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700591199,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1000079778,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214369,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1550,
+          "line": 34000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700591199,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1002787882,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591200,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214370,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2280,
+          "line": -32000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700591200,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1000079778,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214371,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1650,
+          "line": 32000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700591200,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1002787882,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591201,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214372,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 3000,
+          "line": -37000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700591201,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364214373,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1400,
+          "line": 37000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700591201,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700591262,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364214533,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2900,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700591262,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364214534,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1430,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2700591262,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610942,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Charlotte to Score in every Quarter - Regular Time",
+        "englishLabel": "Charlotte 49ers to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225549,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5800,
+          "type": "OT_YES",
+          "betOfferId": 2700610942,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "24/5",
+          "oddsAmerican": "480",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225554,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1090,
+          "type": "OT_NO",
+          "betOfferId": 2700610942,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "1/12",
+          "oddsAmerican": "-1115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610945,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225559,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1580,
+          "line": -13500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610945,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225560,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2300,
+          "line": 13500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610945,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610949,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225567,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1110,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610949,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-910",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225568,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 6250,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610949,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "21/4",
+          "oddsAmerican": "525",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610950,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Charlotte to score first and win",
+        "englishLabel": "Charlotte 49ers to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225571,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 23000,
+          "type": "OT_YES",
+          "betOfferId": 2700610950,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "22/1",
+          "oddsAmerican": "2200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225574,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1010,
+          "type": "OT_NO",
+          "betOfferId": 2700610950,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "1/100",
+          "oddsAmerican": "-10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610953,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225590,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1820,
+          "type": "OT_ODD",
+          "betOfferId": 2700610953,
+          "changedDate": "2026-10-08T20:00:29Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225591,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1850,
+          "type": "OT_EVEN",
+          "betOfferId": 2700610953,
+          "changedDate": "2026-10-08T20:00:29Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610955,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225594,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1720,
+          "line": 59500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700610955,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364225595,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2140,
+          "line": 59500,
+          "type": "OT_OVER",
+          "betOfferId": 2700610955,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610956,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225596,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1060,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610956,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "1/18",
+          "oddsAmerican": "-1667",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225597,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 8500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610956,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610958,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225600,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1240,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610958,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225601,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 7000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700610958,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "6/1",
+          "oddsAmerican": "600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364225602,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 7000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610958,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "6/1",
+          "oddsAmerican": "600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610959,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225603,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2330,
+          "line": 14500,
+          "type": "OT_OVER",
+          "betOfferId": 2700610959,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225604,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1560,
+          "line": 14500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700610959,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610960,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225607,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 1110,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700610960,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-910",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225610,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 101000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700610960,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "100/1",
+          "oddsAmerican": "10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364225613,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 61000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700610960,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "60/1",
+          "oddsAmerican": "6000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364225616,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 26000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700610960,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "25/1",
+          "oddsAmerican": "2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364225619,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 181000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700610960,
+          "changedDate": "2026-10-08T18:48:09Z",
+          "oddsFractional": "180/1",
+          "oddsAmerican": "18000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364225622,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 151000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700610960,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "150/1",
+          "oddsAmerican": "15000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364225625,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 14000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700610960,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "13/1",
+          "oddsAmerican": "1300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364225628,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 111000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700610960,
+          "changedDate": "2026-10-08T18:48:09Z",
+          "oddsFractional": "110/1",
+          "oddsAmerican": "11000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364225631,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 35000,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700610960,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "34/1",
+          "oddsAmerican": "3400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610961,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225632,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2550,
+          "line": -34500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610961,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225633,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1530,
+          "line": 34500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610961,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610962,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225634,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 3050,
+          "line": -37500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610962,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225635,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1380,
+          "line": 37500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610962,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610963,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225636,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1350,
+          "line": -18500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610963,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225637,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 3250,
+          "line": 18500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610963,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610964,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225638,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1370,
+          "line": -19500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610964,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225639,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 3150,
+          "line": 19500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610964,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610965,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225640,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1680,
+          "line": -25500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610965,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225641,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2200,
+          "line": 25500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610965,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610966,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225642,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2900,
+          "line": -36500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610966,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225643,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1430,
+          "line": 36500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610966,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610967,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225644,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1650,
+          "line": -25000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610967,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225645,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2280,
+          "line": 25000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610967,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610968,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225646,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1360,
+          "line": -19000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610968,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1000079778,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225647,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 3200,
+          "line": 19000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610968,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1002787882,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610969,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225648,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1960,
+          "line": -29000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610969,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
           "oddsFractional": "19/20",
           "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225649,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1870,
+          "line": 29000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610969,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610970,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225650,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1430,
+          "line": -21000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610970,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225651,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2880,
+          "line": 21000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610970,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700610971,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225652,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1480,
+          "line": -22000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700610971,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225653,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2700,
+          "line": 22000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700610971,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700611006,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364225739,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2080,
+          "line": -17500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700611006,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364225740,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1700,
+          "line": 17500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700611006,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628152,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by North Texas",
+        "englishLabel": "Total Points by North Texas Mean Green - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216822,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628152,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216823,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1840,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628152,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628155,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216828,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1880,
+          "line": -16500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628155,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216829,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1860,
+          "line": 16500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628155,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628158,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216834,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1080,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628158,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "1/14",
+          "oddsAmerican": "-1250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216835,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 18000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700628158,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364216836,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 9500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628158,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628159,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216837,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2170,
+          "line": -7500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628159,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216838,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1640,
+          "line": 7500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628159,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628161,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by North Texas - 1st Half",
+        "englishLabel": "Total Points by North Texas Mean Green - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216841,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1750,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628161,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216842,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1930,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628161,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628162,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216843,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1160,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628162,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "2/13",
+          "oddsAmerican": "-625",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216844,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4400,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628162,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "17/5",
+          "oddsAmerican": "340",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700628164,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216847,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2160,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628164,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364216848,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1720,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628164,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628166,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216851,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1960,
+          "line": 57500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628166,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364216852,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 57500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628166,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628168,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216855,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1820,
+          "line": 58500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628168,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364216856,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 58500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628168,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628169,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Charlotte - 1st Half",
+        "englishLabel": "Total Points by Charlotte 49ers - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216857,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 6500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628169,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216858,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2170,
+          "line": 6500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628169,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628170,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216859,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2380,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628170,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364216860,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1600,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628170,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628172,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216863,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2070,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700628172,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364216864,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2700628172,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628173,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Charlotte to win both halves",
+        "englishLabel": "Charlotte 49ers to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216867,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 51000,
+          "type": "OT_YES",
+          "betOfferId": 2700628173,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "oddsFractional": "50/1",
+          "oddsAmerican": "5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216870,
+          "label": "No",
+          "englishLabel": "No",
+          "type": "OT_NO",
+          "betOfferId": 2700628173,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "status": "SUSPENDED",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628174,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216871,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 181000,
+          "participant": "North Texas",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700628174,
+          "changedDate": "2026-10-08T18:48:09Z",
+          "participantId": 1000079778,
+          "oddsFractional": "180/1",
+          "oddsAmerican": "18000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364216872,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 1470,
+          "participant": "North Texas",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700628174,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364216873,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 6000,
+          "participant": "Charlotte",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700628174,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "5/1",
+          "oddsAmerican": "500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364216874,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 9500,
+          "participant": "North Texas",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700628174,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364216875,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 226000,
+          "participant": "Charlotte",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700628174,
+          "changedDate": "2026-10-08T18:48:09Z",
+          "participantId": 1002787882,
+          "oddsFractional": "225/1",
+          "oddsAmerican": "22500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364216876,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 6750,
+          "participant": "Charlotte",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700628174,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "23/4",
+          "oddsAmerican": "575",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628175,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216877,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1770,
+          "line": -14500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628175,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216878,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1980,
+          "line": 14500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628175,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628176,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216879,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2800,
+          "line": -35500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628176,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216880,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1450,
+          "line": 35500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628176,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628177,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216881,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2400,
+          "line": -33500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628177,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216882,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1580,
+          "line": 33500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628177,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628178,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216883,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2200,
+          "line": -31500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628178,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216884,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1680,
+          "line": 31500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628178,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628179,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216885,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1980,
+          "line": -29500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628179,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216886,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1850,
+          "line": 29500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628179,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628180,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216887,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1480,
+          "line": -21500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628180,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216888,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 2700,
+          "line": 21500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628180,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628181,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216889,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2050,
+          "line": -30500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628181,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216890,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1790,
+          "line": 30500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628181,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628182,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216891,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1930,
+          "line": -28500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628182,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216892,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1900,
+          "line": 28500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628182,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628183,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216893,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 3250,
+          "line": -38000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628183,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1000079778,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216894,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1350,
+          "line": 38000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628183,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1002787882,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628184,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216895,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2880,
+          "line": -36000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628184,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1000079778,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216896,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1430,
+          "line": 36000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628184,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1002787882,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628185,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216897,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1860,
+          "line": -28000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628185,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1000079778,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216898,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1970,
+          "line": 28000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628185,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1002787882,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628186,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216899,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2380,
+          "line": -33000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628186,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1000079778,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216900,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1600,
+          "line": 33000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628186,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1002787882,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700628187,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4364216901,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2700,
+          "line": -35000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2700628187,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364216902,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1480,
+          "line": 35000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2700628187,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701250638,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4366300630,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1320,
+          "line": -17500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2701250638,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366300631,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 3450,
+          "line": 17500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2701250638,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701273797,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4366291892,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 1330,
+          "line": -18000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2701273797,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1000079778,
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366291893,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 3400,
+          "line": 18000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2701273797,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1002787882,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701532988,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4367214810,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 3350,
+          "line": -38500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2701532988,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367214811,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1340,
+          "line": 38500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2701532988,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701538741,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4367229167,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 3550,
+          "line": -39000,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2701538741,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1000079778,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367229168,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1300,
+          "line": 39000,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2701538741,
+          "changedDate": "2026-10-08T20:15:37Z",
+          "participantId": 1002787882,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701538743,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552992,
+      "outcomes": [
+        {
+          "id": 4367229171,
+          "label": "North Texas",
+          "englishLabel": "North Texas Mean Green",
+          "odds": 2320,
+          "line": -18500,
+          "participant": "North Texas",
+          "type": "OT_ONE",
+          "betOfferId": 2701538743,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1000079778,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367229172,
+          "label": "Charlotte",
+          "englishLabel": "Charlotte 49ers",
+          "odds": 1560,
+          "line": 18500,
+          "participant": "Charlotte",
+          "type": "OT_TWO",
+          "betOfferId": 2701538743,
+          "changedDate": "2026-10-08T20:15:36Z",
+          "participantId": 1002787882,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -271,7 +5224,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 87,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

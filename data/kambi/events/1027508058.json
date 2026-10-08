@@ -1,20 +1,79 @@
 {
-  "generatedAt": "2026-10-05T14:05:50.024Z",
+  "generatedAt": "2026-10-08T22:55:49.205Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
     "id": "1027508058",
-    "name": "(22) Boise State @ Fresno State",
+    "name": "(23) Boise State @ Fresno State",
     "away": "Boise State",
     "home": "Fresno State",
     "start": "2026-10-11T02:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 81,
     "events": 1,
     "prePacks": 0
   },
   "betOffers": [
+    {
+      "id": 2699801925,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4361641197,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1620,
+          "line": 8500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2699801925,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361641198,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2330,
+          "line": -8500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2699801925,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2699804963,
       "closed": "2026-10-11T02:30:00Z",
@@ -37,30 +96,30 @@
           "id": 4361620032,
           "label": "Fresno State",
           "englishLabel": "Fresno State Bulldogs",
-          "odds": 2850,
+          "odds": 2900,
           "participant": "Fresno State",
           "type": "OT_ONE",
           "betOfferId": 2699804963,
-          "changedDate": "2026-10-05T02:42:56Z",
+          "changedDate": "2026-10-08T21:42:58Z",
           "participantId": 1000068609,
-          "oddsFractional": "37/20",
-          "oddsAmerican": "185",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
         },
         {
           "id": 4361620033,
-          "label": "(22) Boise State",
-          "englishLabel": "(22) Boise State Broncos",
-          "odds": 1440,
-          "participant": "(22) Boise State",
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1420,
+          "participant": "(23) Boise State",
           "type": "OT_TWO",
           "betOfferId": 2699804963,
-          "changedDate": "2026-10-05T02:42:56Z",
+          "changedDate": "2026-10-08T21:42:58Z",
           "participantId": 1000025039,
-          "oddsFractional": "11/25",
-          "oddsAmerican": "-230",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,6 +129,179 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699804964,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4361620034,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1700,
+          "line": 7500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2699804964,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361620035,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2180,
+          "line": -7500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2699804964,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699804965,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4361620036,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1600,
+          "line": 9000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2699804965,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361620037,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2380,
+          "line": -9000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2699804965,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699819136,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4361638143,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2699819136,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361638144,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1820,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699819136,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -95,13 +327,13 @@
           "id": 4361638145,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1910,
+          "odds": 1930,
           "line": 48500,
           "type": "OT_OVER",
           "betOfferId": 2699819137,
-          "changedDate": "2026-10-04T21:57:16Z",
+          "changedDate": "2026-10-06T20:06:34Z",
           "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsAmerican": "-108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -110,13 +342,13 @@
           "id": 4361638146,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1920,
+          "odds": 1900,
           "line": 48500,
           "type": "OT_UNDER",
           "betOfferId": 2699819137,
-          "changedDate": "2026-10-04T21:57:16Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -125,6 +357,65 @@
       "tags": [
         "OFFERED_PREMATCH",
         "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699819138,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4361638147,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1650,
+          "line": 8000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2699819138,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361638148,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2280,
+          "line": -8000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2699819138,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -151,32 +442,32 @@
           "id": 4362311346,
           "label": "Fresno State",
           "englishLabel": "Fresno State Bulldogs",
-          "odds": 1840,
+          "odds": 1910,
           "line": 6500,
           "participant": "Fresno State",
           "type": "OT_ONE",
           "betOfferId": 2700033780,
-          "changedDate": "2026-10-05T02:42:56Z",
+          "changedDate": "2026-10-08T21:42:58Z",
           "participantId": 1000068609,
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
         },
         {
           "id": 4362311347,
-          "label": "(22) Boise State",
-          "englishLabel": "(22) Boise State Broncos",
-          "odds": 1980,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1920,
           "line": -6500,
-          "participant": "(22) Boise State",
+          "participant": "(23) Boise State",
           "type": "OT_TWO",
           "betOfferId": 2700033780,
-          "changedDate": "2026-10-05T02:42:56Z",
+          "changedDate": "2026-10-08T21:42:58Z",
           "participantId": 1000025039,
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -211,12 +502,3229 @@
           "id": 4362311348,
           "label": "Fresno State",
           "englishLabel": "Fresno State Bulldogs",
-          "odds": 1730,
+          "odds": 1790,
           "line": 7000,
           "participant": "Fresno State",
           "type": "OT_ONE",
           "betOfferId": 2700033781,
-          "changedDate": "2026-10-05T02:42:56Z",
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362311349,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2050,
+          "line": -7000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700033781,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738891,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "(23) Boise State to win both halves",
+        "englishLabel": "(23) Boise State Broncos to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743747,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2700,
+          "type": "OT_YES",
+          "betOfferId": 2700738891,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743750,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1380,
+          "type": "OT_NO",
+          "betOfferId": 2700738891,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738892,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743751,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1770,
+          "type": "OT_ODD",
+          "betOfferId": 2700738892,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743752,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1900,
+          "type": "OT_EVEN",
+          "betOfferId": 2700738892,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738893,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743753,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2000,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2700738893,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743754,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1760,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700738893,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738894,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Fresno State",
+        "englishLabel": "Total Points by Fresno State Bulldogs - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743755,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 21500,
+          "type": "OT_OVER",
+          "betOfferId": 2700738894,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743756,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 21500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700738894,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738898,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Fresno State to Score in every Quarter - Regular Time",
+        "englishLabel": "Fresno State Bulldogs to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743767,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3200,
+          "type": "OT_YES",
+          "betOfferId": 2700738898,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743772,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1290,
+          "type": "OT_NO",
+          "betOfferId": 2700738898,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738902,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743779,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2140,
+          "line": 2500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738902,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743780,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1660,
+          "line": -2500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738902,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738903,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743781,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1900,
+          "line": 3500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738903,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743782,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1840,
+          "line": -3500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738903,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738904,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by (23) Boise State - 1st Half",
+        "englishLabel": "Total Points by (23) Boise State Broncos - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743783,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1950,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700738904,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364743784,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1740,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700738904,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738906,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743787,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700738906,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743788,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2080,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700738906,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738908,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Fresno State to win both halves",
+        "englishLabel": "Fresno State Bulldogs to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743793,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 6500,
+          "type": "OT_YES",
+          "betOfferId": 2700738908,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "11/2",
+          "oddsAmerican": "550",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743796,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1070,
+          "type": "OT_NO",
+          "betOfferId": 2700738908,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "1/16",
+          "oddsAmerican": "-1430",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738909,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "(23) Boise State to Score in every Quarter - Regular Time",
+        "englishLabel": "(23) Boise State Broncos to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743801,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2080,
+          "type": "OT_YES",
+          "betOfferId": 2700738909,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743806,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1640,
+          "type": "OT_NO",
+          "betOfferId": 2700738909,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738910,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743807,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 4700,
+          "participant": "(23) Boise State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700738910,
+          "changedDate": "2026-10-08T13:19:05Z",
+          "participantId": 1000025039,
+          "oddsFractional": "18/5",
+          "oddsAmerican": "370",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364743808,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 161000,
+          "participant": "Fresno State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700738910,
+          "changedDate": "2026-10-08T13:19:05Z",
+          "participantId": 1000068609,
+          "oddsFractional": "160/1",
+          "oddsAmerican": "16000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364743809,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 161000,
+          "participant": "(23) Boise State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700738910,
+          "changedDate": "2026-10-08T13:19:05Z",
+          "participantId": 1000025039,
+          "oddsFractional": "160/1",
+          "oddsAmerican": "16000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364743810,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 2380,
+          "participant": "(23) Boise State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700738910,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364743811,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 3600,
+          "participant": "Fresno State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700738910,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364743812,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 4800,
+          "participant": "Fresno State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700738910,
+          "changedDate": "2026-10-08T13:19:05Z",
+          "participantId": 1000068609,
+          "oddsFractional": "19/5",
+          "oddsAmerican": "380",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738911,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743813,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3050,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738911,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743814,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 13000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700738911,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364743815,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1460,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738911,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738914,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743820,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2140,
+          "line": 4500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738914,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743821,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1730,
+          "line": -4500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738914,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738915,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743822,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2900,
+          "line": -500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738915,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743823,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1420,
+          "line": 500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738915,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738916,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743824,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2750,
+          "line": 1500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738916,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743825,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1460,
+          "line": -1500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738916,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738917,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743826,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1290,
+          "line": 14500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738917,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743827,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 3650,
+          "line": -14500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738917,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738918,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743828,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1580,
+          "line": 9500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738918,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743829,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2430,
+          "line": -9500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738918,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738919,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743830,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 3050,
+          "line": -1000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738919,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743831,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1400,
+          "line": 1000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738919,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738920,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743832,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2040,
+          "line": 5500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738920,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743833,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1790,
+          "line": -5500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738920,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738921,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743834,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1380,
+          "line": 13000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738921,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743835,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 3150,
+          "line": -13000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738921,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738922,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743836,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1250,
+          "line": 16000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738922,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743837,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 4000,
+          "line": -16000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738922,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738923,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743838,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1450,
+          "line": 11000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738923,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743839,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2800,
+          "line": -11000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738923,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738924,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743840,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 3250,
+          "line": -2000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700738924,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743841,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1350,
+          "line": 2000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700738924,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738948,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743894,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1430,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700738948,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743895,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2900,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700738948,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738949,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743896,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1640,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700738949,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743897,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700738949,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700738950,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364743898,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1490,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700738950,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364743899,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2650,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700738950,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767420,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by (23) Boise State",
+        "englishLabel": "Total Points by (23) Boise State Broncos - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746457,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 27500,
+          "type": "OT_OVER",
+          "betOfferId": 2700767420,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746458,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 27500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700767420,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767422,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746461,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2430,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767422,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746462,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1530,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767422,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767426,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Fresno State - 1st Half",
+        "englishLabel": "Total Points by Fresno State Bulldogs - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746470,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700767426,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746471,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2070,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700767426,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767427,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746472,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2800,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767427,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746473,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 10000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700767427,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364746474,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1570,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767427,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767429,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746477,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1700,
+          "line": 5500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767429,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746478,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2070,
+          "line": -5500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767429,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767430,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746479,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1470,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767430,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364746480,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2630,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767430,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767431,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746481,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2180,
+          "line": 1500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767431,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746482,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1640,
+          "line": -1500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767431,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767436,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746501,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767436,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746502,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4250,
+          "type": "OT_CROSS",
+          "betOfferId": 2700767436,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "13/4",
+          "oddsAmerican": "325",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364746503,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1910,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767436,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767440,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746513,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 11000,
+          "type": "OT_YES",
+          "betOfferId": 2700767440,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "10/1",
+          "oddsAmerican": "1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746515,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1030,
+          "type": "OT_NO",
+          "betOfferId": 2700767440,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767441,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746516,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2900,
+          "line": 500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767441,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746517,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1420,
+          "line": -500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767441,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767442,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746518,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2550,
+          "line": 2500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767442,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746519,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1520,
+          "line": -2500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767442,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767443,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746520,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1360,
+          "line": 13500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767443,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746521,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 3200,
+          "line": -13500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767443,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767444,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746522,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 3100,
+          "line": -1500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767444,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746523,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1380,
+          "line": 1500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767444,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767445,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746524,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2280,
+          "line": 3500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767445,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746525,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1650,
+          "line": -3500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767445,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767446,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746526,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2230,
+          "line": 4000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767446,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746527,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1680,
+          "line": -4000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767446,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767447,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746528,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2100,
+          "line": 5000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767447,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746529,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1760,
+          "line": -5000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767447,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767448,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746530,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1320,
+          "line": 14000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767448,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746531,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 3500,
+          "line": -14000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767448,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767449,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746532,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1520,
+          "line": 10000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767449,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746533,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2600,
+          "line": -10000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767449,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767468,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746576,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2280,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767468,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746577,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1540,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767468,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700767469,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746578,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2450,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2700767469,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746579,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1570,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700767469,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767470,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746580,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700767470,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746581,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700767470,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700767503,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364746659,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1620,
+          "line": 6500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700767503,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364746660,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2200,
+          "line": -6500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700767503,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782033,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Fresno State to score first and win",
+        "englishLabel": "Fresno State Bulldogs to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726153,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4000,
+          "type": "OT_YES",
+          "betOfferId": 2700782033,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726156,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1180,
+          "type": "OT_NO",
+          "betOfferId": 2700782033,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-560",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782034,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Fresno State to Score in Both Halves",
+        "englishLabel": "Fresno State Bulldogs to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726159,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1120,
+          "type": "OT_YES",
+          "betOfferId": 2700782034,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "1/9",
+          "oddsAmerican": "-835",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726162,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 4900,
+          "type": "OT_NO",
+          "betOfferId": 2700782034,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "390",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782035,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726167,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4500,
+          "type": "OT_YES",
+          "betOfferId": 2700782035,
+          "changedDate": "2026-10-06T20:01:41Z",
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726172,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1150,
+          "type": "OT_NO",
+          "betOfferId": 2700782035,
+          "changedDate": "2026-10-06T20:01:41Z",
+          "oddsFractional": "1/7",
+          "oddsAmerican": "-670",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782037,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "(23) Boise State to score first and win",
+        "englishLabel": "(23) Boise State Broncos to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726177,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2020,
+          "type": "OT_YES",
+          "betOfferId": 2700782037,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726180,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1680,
+          "type": "OT_NO",
+          "betOfferId": 2700782037,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782039,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "(23) Boise State to Score in Both Halves",
+        "englishLabel": "(23) Boise State Broncos to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726185,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1040,
+          "type": "OT_YES",
+          "betOfferId": 2700782039,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "1/25",
+          "oddsAmerican": "-2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726188,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 9500,
+          "type": "OT_NO",
+          "betOfferId": 2700782039,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782041,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726191,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1730,
+          "line": 4500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700782041,
+          "changedDate": "2026-10-08T21:42:58Z",
           "participantId": 1000068609,
           "oddsFractional": "8/11",
           "oddsAmerican": "-137",
@@ -225,18 +3733,1094 @@
           "displayOrder": 0
         },
         {
-          "id": 4362311349,
-          "label": "(22) Boise State",
-          "englishLabel": "(22) Boise State Broncos",
-          "odds": 2140,
-          "line": -7000,
-          "participant": "(22) Boise State",
+          "id": 4364726192,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2040,
+          "line": -4500,
+          "participant": "(23) Boise State",
           "type": "OT_TWO",
-          "betOfferId": 2700033781,
-          "changedDate": "2026-10-05T02:42:56Z",
+          "betOfferId": 2700782041,
+          "changedDate": "2026-10-08T21:42:58Z",
           "participantId": 1000025039,
-          "oddsFractional": "57/50",
-          "oddsAmerican": "114",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782042,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726193,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1850,
+          "line": 500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700782042,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726194,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1890,
+          "line": -500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700782042,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782044,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726199,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 4300,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700782044,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "33/10",
+          "oddsAmerican": "330",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726202,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 30000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700782044,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "29/1",
+          "oddsAmerican": "2900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364726205,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 8000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700782044,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364726208,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 25000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700782044,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "24/1",
+          "oddsAmerican": "2400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364726211,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 81000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700782044,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "80/1",
+          "oddsAmerican": "8000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364726214,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 18000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700782044,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364726217,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 11000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700782044,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "10/1",
+          "oddsAmerican": "1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364726220,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 30000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700782044,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "29/1",
+          "oddsAmerican": "2900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364726223,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 1840,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700782044,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782045,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726224,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1410,
+          "line": 12500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700782045,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726225,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2950,
+          "line": -12500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700782045,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782046,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726226,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1480,
+          "line": 10500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700782046,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726227,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2700,
+          "line": -10500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700782046,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782047,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726228,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1270,
+          "line": 15500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700782047,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726229,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 3850,
+          "line": -15500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700782047,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782048,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726230,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1440,
+          "line": 11500,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700782048,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726231,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2850,
+          "line": -11500,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700782048,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782049,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726232,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2450,
+          "line": 3000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700782049,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726233,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1570,
+          "line": -3000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700782049,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782050,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726234,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1980,
+          "line": 6000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700782050,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726235,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1860,
+          "line": -6000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700782050,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782051,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726236,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1280,
+          "line": 15000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700782051,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726237,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 3800,
+          "line": -15000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700782051,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782052,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726238,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2880,
+          "line": 1000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700782052,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726239,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1430,
+          "line": -1000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700782052,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782053,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726240,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 2700,
+          "line": 2000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700782053,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726241,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 1480,
+          "line": -2000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700782053,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782054,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726242,
+          "label": "Fresno State",
+          "englishLabel": "Fresno State Bulldogs",
+          "odds": 1420,
+          "line": 12000,
+          "participant": "Fresno State",
+          "type": "OT_ONE",
+          "betOfferId": 2700782054,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000068609,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726243,
+          "label": "(23) Boise State",
+          "englishLabel": "(23) Boise State Broncos",
+          "odds": 2900,
+          "line": -12000,
+          "participant": "(23) Boise State",
+          "type": "OT_TWO",
+          "betOfferId": 2700782054,
+          "changedDate": "2026-10-08T21:42:58Z",
+          "participantId": 1000025039,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782081,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726307,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700782081,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726308,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2180,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700782081,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782082,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726309,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2150,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700782082,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726310,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1720,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700782082,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782083,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726311,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700782083,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726312,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2430,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700782083,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782084,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726313,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2600,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2700782084,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726314,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1520,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700782084,
+          "changedDate": "2026-10-06T20:06:34Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700782085,
+      "closed": "2026-10-11T02:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508058,
+      "outcomes": [
+        {
+          "id": 4364726315,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2320,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2700782085,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364726316,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1630,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700782085,
+          "changedDate": "2026-10-08T13:19:06Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -252,11 +4836,11 @@
   "events": [
     {
       "id": 1027508058,
-      "name": "(22) Boise State @ Fresno State",
+      "name": "(23) Boise State @ Fresno State",
       "nameDelimiter": "@",
-      "englishName": "Fresno State Bulldogs - (22) Boise State Broncos",
+      "englishName": "Fresno State Bulldogs - (23) Boise State Broncos",
       "homeName": "Fresno State",
-      "awayName": "(22) Boise State",
+      "awayName": "(23) Boise State",
       "start": "2026-10-11T02:30:00Z",
       "group": "NCAAF",
       "groupId": 1000093655,
@@ -274,7 +4858,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 81,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -287,8 +4871,8 @@
       "participants": [
         {
           "participantId": 1000025039,
-          "name": "(22) Boise State",
-          "englishName": "(22) Boise State Broncos",
+          "name": "(23) Boise State",
+          "englishName": "(23) Boise State Broncos",
           "termKey": "_22__boise_state_broncos",
           "scratched": false,
           "nonRunner": false,

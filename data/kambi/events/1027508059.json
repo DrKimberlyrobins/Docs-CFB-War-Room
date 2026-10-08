@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:41.393Z",
+  "generatedAt": "2026-10-08T22:55:40.951Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,7 +10,7 @@
     "start": "2026-10-10T19:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 85,
     "events": 1,
     "prePacks": 0
   },
@@ -37,14 +37,14 @@
           "id": 4361978519,
           "label": "Toledo",
           "englishLabel": "Toledo Rockets",
-          "odds": 1050,
+          "odds": 1040,
           "participant": "Toledo",
           "type": "OT_ONE",
           "betOfferId": 2699907708,
-          "changedDate": "2026-10-04T18:31:31Z",
+          "changedDate": "2026-10-08T20:17:54Z",
           "participantId": 1000076080,
-          "oddsFractional": "1/20",
-          "oddsAmerican": "-2000",
+          "oddsFractional": "1/25",
+          "oddsAmerican": "-2500",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +53,14 @@
           "id": 4361978520,
           "label": "Buffalo",
           "englishLabel": "Buffalo Bulls",
-          "odds": 10000,
+          "odds": 11000,
           "participant": "Buffalo",
           "type": "OT_TWO",
           "betOfferId": 2699907708,
-          "changedDate": "2026-10-04T18:31:31Z",
+          "changedDate": "2026-10-08T20:17:54Z",
           "participantId": 1000083177,
-          "oddsFractional": "9/1",
-          "oddsAmerican": "900",
+          "oddsFractional": "10/1",
+          "oddsAmerican": "1000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -95,15 +95,15 @@
           "id": 4361978523,
           "label": "Toledo",
           "englishLabel": "Toledo Rockets",
-          "odds": 1710,
+          "odds": 1580,
           "line": -17000,
           "participant": "Toledo",
           "type": "OT_ONE",
           "betOfferId": 2699907710,
-          "changedDate": "2026-10-04T18:32:30Z",
+          "changedDate": "2026-10-08T20:18:26Z",
           "participantId": 1000076080,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-141",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -112,15 +112,307 @@
           "id": 4361978524,
           "label": "Buffalo",
           "englishLabel": "Buffalo Bulls",
-          "odds": 2170,
+          "odds": 2430,
           "line": 17000,
           "participant": "Buffalo",
           "type": "OT_TWO",
           "betOfferId": 2699907710,
-          "changedDate": "2026-10-04T18:32:30Z",
+          "changedDate": "2026-10-08T20:18:26Z",
           "participantId": 1000083177,
-          "oddsFractional": "23/20",
-          "oddsAmerican": "117",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699907711,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4361978525,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1910,
+          "line": -21000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2699907711,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361978526,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1920,
+          "line": 21000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2699907711,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699910670,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4361971932,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1290,
+          "line": -10500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2699910670,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361971933,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 3700,
+          "line": 10500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2699910670,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699910671,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4361971934,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1700,
+          "line": -18500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2699910671,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361971935,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2180,
+          "line": 18500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2699910671,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699910672,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4361971936,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1980,
+          "line": -21500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2699910672,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361971937,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1850,
+          "line": 21500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2699910672,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699930990,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4361981644,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2699930990,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361981645,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2200,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699930990,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -154,13 +446,13 @@
           "id": 4361981646,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1860,
+          "odds": 1850,
           "line": 54500,
           "type": "OT_OVER",
           "betOfferId": 2699930991,
-          "changedDate": "2026-10-04T18:32:30Z",
+          "changedDate": "2026-10-08T20:18:26Z",
           "oddsFractional": "17/20",
-          "oddsAmerican": "-117",
+          "oddsAmerican": "-118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -169,13 +461,13 @@
           "id": 4361981647,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1960,
+          "odds": 1970,
           "line": 54500,
           "type": "OT_UNDER",
           "betOfferId": 2699930991,
-          "changedDate": "2026-10-04T18:32:30Z",
+          "changedDate": "2026-10-08T20:18:26Z",
           "oddsFractional": "19/20",
-          "oddsAmerican": "-105",
+          "oddsAmerican": "-104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -210,15 +502,15 @@
           "id": 4361981648,
           "label": "Toledo",
           "englishLabel": "Toledo Rockets",
-          "odds": 1780,
+          "odds": 1630,
           "line": -17500,
           "participant": "Toledo",
           "type": "OT_ONE",
           "betOfferId": 2699930992,
-          "changedDate": "2026-10-04T18:32:30Z",
+          "changedDate": "2026-10-08T20:18:26Z",
           "participantId": 1000076080,
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-129",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -227,15 +519,4537 @@
           "id": 4361981649,
           "label": "Buffalo",
           "englishLabel": "Buffalo Bulls",
-          "odds": 2070,
+          "odds": 2300,
           "line": 17500,
           "participant": "Buffalo",
           "type": "OT_TWO",
           "betOfferId": 2699930992,
-          "changedDate": "2026-10-04T18:32:30Z",
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699930993,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4361981650,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1660,
+          "line": -18000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2699930993,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361981651,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2250,
+          "line": 18000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2699930993,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555028,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364149982,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1830,
+          "line": -20500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700555028,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364149983,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2000,
+          "line": 20500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700555028,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555033,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Buffalo to Score in every Quarter - Regular Time",
+        "englishLabel": "Buffalo Bulls to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364149998,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4900,
+          "type": "OT_YES",
+          "betOfferId": 2700555033,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "390",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150003,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1130,
+          "type": "OT_NO",
+          "betOfferId": 2700555033,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "oddsFractional": "1/8",
+          "oddsAmerican": "-770",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555034,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Buffalo",
+        "englishLabel": "Total Points by Buffalo Bulls - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150004,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 16500,
+          "type": "OT_OVER",
+          "betOfferId": 2700555034,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150005,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1840,
+          "line": 16500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700555034,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555035,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Toledo - 1st Half",
+        "englishLabel": "Total Points by Toledo Rockets - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150006,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2700555035,
+          "changedDate": "2026-10-08T20:18:28Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150007,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2060,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700555035,
+          "changedDate": "2026-10-08T20:18:28Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555036,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150008,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1790,
+          "line": -12500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700555036,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150009,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1960,
+          "line": 12500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700555036,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555037,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150010,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1600,
+          "line": -10500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700555037,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150011,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2250,
+          "line": 10500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700555037,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555039,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150014,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1870,
+          "line": -13500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700555039,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150015,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1870,
+          "line": 13500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700555039,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555041,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150018,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1470,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2700555041,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150019,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2750,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700555041,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555046,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150029,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 26000,
+          "type": "OT_YES",
+          "betOfferId": 2700555046,
+          "changedDate": "2026-10-08T20:17:54Z",
+          "oddsFractional": "25/1",
+          "oddsAmerican": "2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150031,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1010,
+          "type": "OT_NO",
+          "betOfferId": 2700555046,
+          "changedDate": "2026-10-08T20:17:54Z",
+          "oddsFractional": "1/100",
+          "oddsAmerican": "-10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555047,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150032,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2000,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2700555047,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150033,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1840,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700555047,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555048,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Toledo to score first and win",
+        "englishLabel": "Toledo Rockets to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150036,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1350,
+          "type": "OT_YES",
+          "betOfferId": 2700555048,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150039,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2850,
+          "type": "OT_NO",
+          "betOfferId": 2700555048,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555049,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150040,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1810,
+          "type": "OT_ODD",
+          "betOfferId": 2700555049,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150041,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1860,
+          "type": "OT_EVEN",
+          "betOfferId": 2700555049,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555050,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150042,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1180,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700555050,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-560",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150043,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4100,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700555050,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700555052,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Buffalo - 1st Half",
+        "englishLabel": "Total Points by Buffalo Bulls - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150046,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1760,
+          "line": 7500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700555052,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364150047,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1910,
+          "line": 7500,
+          "type": "OT_OVER",
+          "betOfferId": 2700555052,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555055,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150052,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1380,
+          "line": -13500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700555055,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150053,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 3100,
+          "line": 13500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700555055,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555056,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150054,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2060,
+          "line": -22500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700555056,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150055,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1790,
+          "line": 22500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700555056,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555057,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150056,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1500,
+          "line": -15500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700555057,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150057,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2630,
+          "line": 15500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700555057,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555058,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150058,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1470,
+          "line": -15000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700555058,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150059,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2750,
+          "line": 15000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700555058,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555059,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150060,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 3050,
+          "line": -28000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700555059,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150061,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1400,
+          "line": 28000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700555059,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700555060,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364150062,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1400,
+          "line": -14000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700555060,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364150063,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 3000,
+          "line": 14000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700555060,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595315,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180347,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1720,
+          "line": -19000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595315,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180348,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2140,
+          "line": 19000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595315,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595316,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180349,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1790,
+          "line": -20000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595316,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180350,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2060,
+          "line": 20000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595316,
+          "changedDate": "2026-10-08T20:18:26Z",
           "participantId": 1000083177,
           "oddsFractional": "21/20",
-          "oddsAmerican": "107",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595318,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Buffalo to score first and win",
+        "englishLabel": "Buffalo Bulls to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180355,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 15000,
+          "type": "OT_YES",
+          "betOfferId": 2700595318,
+          "changedDate": "2026-10-08T20:17:54Z",
+          "oddsFractional": "14/1",
+          "oddsAmerican": "1400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180358,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2700595318,
+          "changedDate": "2026-10-08T20:17:54Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595321,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Toledo to Score in Both Halves",
+        "englishLabel": "Toledo Rockets to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180365,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "type": "OT_YES",
+          "betOfferId": 2700595321,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "status": "SUSPENDED",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180368,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 31000,
+          "type": "OT_NO",
+          "betOfferId": 2700595321,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595323,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180371,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1290,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595323,
+          "changedDate": "2026-10-08T20:17:54Z",
+          "participantId": 1000076080,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180372,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 6100,
+          "type": "OT_CROSS",
+          "betOfferId": 2700595323,
+          "changedDate": "2026-10-08T20:17:54Z",
+          "oddsFractional": "5/1",
+          "oddsAmerican": "510",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364180373,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 6500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595323,
+          "changedDate": "2026-10-08T20:17:54Z",
+          "participantId": 1000083177,
+          "oddsFractional": "11/2",
+          "oddsAmerican": "550",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595324,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Toledo to win both halves",
+        "englishLabel": "Toledo Rockets to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180376,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1380,
+          "type": "OT_YES",
+          "betOfferId": 2700595324,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180379,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2700,
+          "type": "OT_NO",
+          "betOfferId": 2700595324,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595325,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180380,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2400,
+          "line": 58500,
+          "type": "OT_OVER",
+          "betOfferId": 2700595325,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180381,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1580,
+          "line": 58500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700595325,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595326,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Toledo",
+        "englishLabel": "Total Points by Toledo Rockets - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180382,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1750,
+          "line": 37500,
+          "type": "OT_OVER",
+          "betOfferId": 2700595326,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180383,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 37500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700595326,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595327,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180384,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2080,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2700595327,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180385,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700595327,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595329,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180388,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2550,
+          "line": 59500,
+          "type": "OT_OVER",
+          "betOfferId": 2700595329,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180389,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1520,
+          "line": 59500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700595329,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595331,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180402,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1120,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595331,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "1/9",
+          "oddsAmerican": "-835",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180403,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 16000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700595331,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "15/1",
+          "oddsAmerican": "1500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364180404,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 8000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595331,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595332,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180405,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 6500,
+          "participant": "Buffalo",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700595332,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "11/2",
+          "oddsAmerican": "550",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364180406,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 5750,
+          "participant": "Buffalo",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700595332,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364180407,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 1520,
+          "participant": "Toledo",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700595332,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364180408,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 8500,
+          "participant": "Toledo",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700595332,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364180409,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 201000,
+          "participant": "Buffalo",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700595332,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "200/1",
+          "oddsAmerican": "20000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364180410,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 201000,
+          "participant": "Toledo",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700595332,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "participantId": 1000076080,
+          "oddsFractional": "200/1",
+          "oddsAmerican": "20000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595333,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180415,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5800,
+          "type": "OT_YES",
+          "betOfferId": 2700595333,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "24/5",
+          "oddsAmerican": "480",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180420,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1090,
+          "type": "OT_NO",
+          "betOfferId": 2700595333,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "1/12",
+          "oddsAmerican": "-1115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595334,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Buffalo to win both halves",
+        "englishLabel": "Buffalo Bulls to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180423,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 35000,
+          "type": "OT_YES",
+          "betOfferId": 2700595334,
+          "changedDate": "2026-10-08T20:17:54Z",
+          "oddsFractional": "34/1",
+          "oddsAmerican": "3400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180426,
+          "label": "No",
+          "englishLabel": "No",
+          "type": "OT_NO",
+          "betOfferId": 2700595334,
+          "changedDate": "2026-10-08T20:17:54Z",
+          "status": "SUSPENDED",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595335,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180427,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1750,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2700595335,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180428,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2100,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700595335,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595337,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180431,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 7000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595337,
+          "changedDate": "2026-10-08T20:17:54Z",
+          "participantId": 1000083177,
+          "oddsFractional": "6/1",
+          "oddsAmerican": "600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364180432,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1080,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595337,
+          "changedDate": "2026-10-08T20:17:54Z",
+          "participantId": 1000076080,
+          "oddsFractional": "1/14",
+          "oddsAmerican": "-1250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595338,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180433,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2630,
+          "line": -26500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595338,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180434,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1500,
+          "line": 26500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595338,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595339,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180435,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2500,
+          "line": -25500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595339,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180436,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1550,
+          "line": 25500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595339,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595340,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180437,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2800,
+          "line": -27500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595340,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180438,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1450,
+          "line": 27500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595340,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595341,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180439,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1540,
+          "line": -16500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595341,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180440,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2500,
+          "line": 16500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595341,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595342,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180441,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2430,
+          "line": -25000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595342,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180442,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1580,
+          "line": 25000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595342,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595343,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180443,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1290,
+          "line": -11000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595343,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180444,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 3650,
+          "line": 11000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595343,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595344,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180445,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2600,
+          "line": -26000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595344,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180446,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1520,
+          "line": 26000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595344,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595345,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180447,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2750,
+          "line": -27000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595345,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180448,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1470,
+          "line": 27000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595345,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700595346,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364180449,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1320,
+          "line": -12000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700595346,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364180450,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 3450,
+          "line": 12000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700595346,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598249,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155897,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1760,
+          "line": -19500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598249,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155898,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2100,
+          "line": 19500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598249,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598250,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155899,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1650,
+          "line": -6500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598250,
+          "changedDate": "2026-10-08T20:18:25Z",
+          "participantId": 1000076080,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155900,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2160,
+          "line": 6500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598250,
+          "changedDate": "2026-10-08T20:18:25Z",
+          "participantId": 1000083177,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598251,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155901,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1040,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598251,
+          "changedDate": "2026-10-08T20:18:25Z",
+          "participantId": 1000076080,
+          "oddsFractional": "1/25",
+          "oddsAmerican": "-2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155902,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 26000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700598251,
+          "changedDate": "2026-10-08T20:18:25Z",
+          "oddsFractional": "25/1",
+          "oddsAmerican": "2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364155903,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 12500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598251,
+          "changedDate": "2026-10-08T20:18:25Z",
+          "participantId": 1000083177,
+          "oddsFractional": "23/2",
+          "oddsAmerican": "1150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598253,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Toledo to Score in every Quarter - Regular Time",
+        "englishLabel": "Toledo Rockets to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155910,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1380,
+          "type": "OT_YES",
+          "betOfferId": 2700598253,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155915,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2750,
+          "type": "OT_NO",
+          "betOfferId": 2700598253,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598259,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155926,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1760,
+          "line": -11500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598259,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155927,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2000,
+          "line": 11500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598259,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598260,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155928,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1430,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700598260,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155929,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2900,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700598260,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598262,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155933,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2200,
+          "line": 57500,
+          "type": "OT_OVER",
+          "betOfferId": 2700598262,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155934,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 57500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700598262,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598263,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155935,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1620,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2700598263,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155936,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2330,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700598263,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598265,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155939,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1530,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700598265,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155940,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2550,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700598265,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598266,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Buffalo to Score in Both Halves",
+        "englishLabel": "Buffalo Bulls to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155943,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1340,
+          "type": "OT_YES",
+          "betOfferId": 2700598266,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155946,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2900,
+          "type": "OT_NO",
+          "betOfferId": 2700598266,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598268,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155951,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 1160,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700598268,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "2/13",
+          "oddsAmerican": "-625",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155954,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 71000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700598268,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "70/1",
+          "oddsAmerican": "7000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364155957,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 34000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700598268,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364155960,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 23000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700598268,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "22/1",
+          "oddsAmerican": "2200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364155963,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 161000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700598268,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "160/1",
+          "oddsAmerican": "16000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364155966,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 91000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700598268,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "90/1",
+          "oddsAmerican": "9000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364155969,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 12500,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700598268,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "23/2",
+          "oddsAmerican": "1150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364155972,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 71000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700598268,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "70/1",
+          "oddsAmerican": "7000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364155975,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 23000,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700598268,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "22/1",
+          "oddsAmerican": "2200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598270,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155978,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1130,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598270,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "participantId": 1000076080,
+          "oddsFractional": "1/8",
+          "oddsAmerican": "-770",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155979,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 5600,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598270,
+          "changedDate": "2026-10-08T20:18:23Z",
+          "participantId": 1000083177,
+          "oddsFractional": "23/5",
+          "oddsAmerican": "460",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598271,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155980,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2140,
+          "line": -23500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598271,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155981,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1720,
+          "line": 23500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598271,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598272,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155982,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1450,
+          "line": -14500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598272,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155983,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2800,
+          "line": 14500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598272,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598273,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155984,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2320,
+          "line": -24500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598273,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155985,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1620,
+          "line": 24500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598273,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598274,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155986,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1320,
+          "line": -11500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598274,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155987,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 3450,
+          "line": 11500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598274,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598275,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155988,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1340,
+          "line": -12500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598275,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155989,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 3300,
+          "line": 12500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598275,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598276,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155990,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1350,
+          "line": -13000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598276,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155991,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 3250,
+          "line": 13000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598276,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598277,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155992,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2250,
+          "line": -24000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598277,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155993,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1660,
+          "line": 24000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598277,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598278,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155994,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 1520,
+          "line": -16000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598278,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155995,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 2600,
+          "line": 16000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598278,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598279,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155996,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2020,
+          "line": -22000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598279,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155997,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1820,
+          "line": 22000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598279,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700598280,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4364155998,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2100,
+          "line": -23000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2700598280,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364155999,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1760,
+          "line": 23000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2700598280,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701203401,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4366179698,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 3450,
+          "line": -30000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2701203401,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366179699,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1320,
+          "line": 30000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2701203401,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701214993,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4366155690,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 3300,
+          "line": -29500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2701214993,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366155691,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1340,
+          "line": 29500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2701214993,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701229097,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4366176807,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2200,
+          "line": -14500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2701229097,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366176808,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1630,
+          "line": 14500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2701229097,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701229098,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4366176809,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 3150,
+          "line": -28500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2701229098,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366176810,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1370,
+          "line": 28500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2701229098,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701229099,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4366176811,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 3250,
+          "line": -29000,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2701229099,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366176812,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1350,
+          "line": 29000,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2701229099,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701359980,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4366672639,
+          "label": "Toledo",
+          "englishLabel": "Toledo Rockets",
+          "odds": 2330,
+          "line": -15500,
+          "participant": "Toledo",
+          "type": "OT_ONE",
+          "betOfferId": 2701359980,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000076080,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366672640,
+          "label": "Buffalo",
+          "englishLabel": "Buffalo Bulls",
+          "odds": 1560,
+          "line": 15500,
+          "participant": "Buffalo",
+          "type": "OT_TWO",
+          "betOfferId": 2701359980,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "participantId": 1000083177,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701360117,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4366673076,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2701360117,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366673077,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2080,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701360117,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701574609,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508059,
+      "outcomes": [
+        {
+          "id": 4367341237,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1800,
+          "line": 29500,
+          "type": "OT_OVER",
+          "betOfferId": 2701574609,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367341238,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1950,
+          "line": 29500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701574609,
+          "changedDate": "2026-10-08T20:18:26Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -274,7 +5088,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 85,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

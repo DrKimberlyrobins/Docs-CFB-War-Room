@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:41.671Z",
+  "generatedAt": "2026-10-08T22:55:41.217Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,11 +10,70 @@
     "start": "2026-10-10T19:30:00Z"
   },
   "counts": {
-    "betOffers": 46,
+    "betOffers": 113,
     "events": 1,
     "prePacks": 2
   },
   "betOffers": [
+    {
+      "id": 2699823036,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4361703444,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 2280,
+          "line": -1500,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2699823036,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000007186,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361703445,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 1640,
+          "line": 1500,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2699823036,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000085884,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2699823038,
       "closed": "2026-10-10T19:30:00Z",
@@ -37,15 +96,15 @@
           "id": 4361703448,
           "label": "Michigan State",
           "englishLabel": "Michigan State Spartans",
-          "odds": 2100,
+          "odds": 2060,
           "line": 1000,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2699823038,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -54,15 +113,15 @@
           "id": 4361703449,
           "label": "Illinois",
           "englishLabel": "Illinois Fighting Illini",
-          "odds": 1760,
+          "odds": 1780,
           "line": -1000,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2699823038,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-132",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -96,15 +155,15 @@
           "id": 4361703450,
           "label": "Michigan State",
           "englishLabel": "Michigan State Spartans",
-          "odds": 1940,
+          "odds": 1900,
           "line": 2500,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2699823039,
-          "changedDate": "2026-10-05T13:51:06Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -113,15 +172,15 @@
           "id": 4361703451,
           "label": "Illinois",
           "englishLabel": "Illinois Fighting Illini",
-          "odds": 1880,
+          "odds": 1920,
           "line": -2500,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2699823039,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -156,15 +215,15 @@
           "id": 4361703452,
           "label": "Michigan State",
           "englishLabel": "Michigan State Spartans",
-          "odds": 1710,
+          "odds": 1630,
           "line": 4000,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2699823040,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:10Z",
           "participantId": 1000007186,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-141",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -173,15 +232,74 @@
           "id": 4361703453,
           "label": "Illinois",
           "englishLabel": "Illinois Fighting Illini",
-          "odds": 2160,
+          "odds": 2300,
           "line": -4000,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2699823040,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:10Z",
           "participantId": 1000085884,
-          "oddsFractional": "23/20",
-          "oddsAmerican": "116",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699846317,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4361694648,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 2200,
+          "line": -1000,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2699846317,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361694649,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 1680,
+          "line": 1000,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2699846317,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -215,15 +333,15 @@
           "id": 4361694674,
           "label": "Michigan State",
           "englishLabel": "Michigan State Spartans",
-          "odds": 2020,
+          "odds": 2000,
           "line": 1500,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2699846324,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
           "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "oddsAmerican": "100",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -232,15 +350,15 @@
           "id": 4361694675,
           "label": "Illinois",
           "englishLabel": "Illinois Fighting Illini",
-          "odds": 1810,
+          "odds": 1830,
           "line": -1500,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2699846324,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-124",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -274,13 +392,13 @@
           "id": 4361694676,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1740,
+          "odds": 1600,
           "line": 51500,
           "type": "OT_UNDER",
           "betOfferId": 2699846325,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-136",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -289,13 +407,13 @@
           "id": 4361694677,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2120,
+          "odds": 2350,
           "line": 51500,
           "type": "OT_OVER",
           "betOfferId": 2699846325,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "11/10",
-          "oddsAmerican": "112",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -329,15 +447,15 @@
           "id": 4361694678,
           "label": "Michigan State",
           "englishLabel": "Michigan State Spartans",
-          "odds": 1750,
+          "odds": 1670,
           "line": 3500,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2699846326,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-134",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -346,15 +464,15 @@
           "id": 4361694679,
           "label": "Illinois",
           "englishLabel": "Illinois Fighting Illini",
-          "odds": 2100,
+          "odds": 2230,
           "line": -3500,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2699846326,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -388,14 +506,14 @@
           "id": 4361684427,
           "label": "Michigan State",
           "englishLabel": "Michigan State Spartans",
-          "odds": 2150,
+          "odds": 2140,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2699849308,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "23/20",
-          "oddsAmerican": "115",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -404,14 +522,14 @@
           "id": 4361684429,
           "label": "Illinois",
           "englishLabel": "Illinois Fighting Illini",
-          "odds": 1720,
+          "odds": 1730,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2699849308,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -421,6 +539,116 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699849309,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4361684426,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1360,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699849309,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361684428,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3150,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2699849309,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699849312,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4361684434,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1540,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699849312,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361684435,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2480,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2699849312,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -446,15 +674,15 @@
           "id": 4361684436,
           "label": "Michigan State",
           "englishLabel": "Michigan State Spartans",
-          "odds": 1820,
+          "odds": 1770,
           "line": 3000,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2699849313,
-          "changedDate": "2026-10-05T13:50:59Z",
+          "changedDate": "2026-10-08T19:23:10Z",
           "participantId": 1000007186,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-122",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -463,15 +691,15 @@
           "id": 4361684437,
           "label": "Illinois",
           "englishLabel": "Illinois Fighting Illini",
-          "odds": 1980,
+          "odds": 2040,
           "line": -3000,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2699849313,
-          "changedDate": "2026-10-05T13:50:59Z",
+          "changedDate": "2026-10-08T19:23:10Z",
           "participantId": 1000085884,
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -505,13 +733,13 @@
           "id": 4361958106,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1840,
+          "odds": 1680,
           "line": 50500,
           "type": "OT_UNDER",
           "betOfferId": 2699884937,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -520,13 +748,13 @@
           "id": 4361958107,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1980,
+          "odds": 2200,
           "line": 50500,
           "type": "OT_OVER",
           "betOfferId": 2699884937,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -560,13 +788,13 @@
           "id": 4362135068,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1930,
+          "odds": 1750,
           "line": 49500,
           "type": "OT_UNDER",
           "betOfferId": 2699941174,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -575,13 +803,13 @@
           "id": 4362135069,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1890,
+          "odds": 2100,
           "line": 49500,
           "type": "OT_OVER",
           "betOfferId": 2699941174,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -589,7 +817,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -616,13 +843,13 @@
           "id": 4362336904,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2020,
+          "odds": 1830,
           "line": 48500,
           "type": "OT_UNDER",
           "betOfferId": 2700016570,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -631,13 +858,13 @@
           "id": 4362336905,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1810,
+          "odds": 2000,
           "line": 48500,
           "type": "OT_OVER",
           "betOfferId": 2700016570,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-124",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -671,13 +898,13 @@
           "id": 4362336906,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2080,
+          "odds": 1870,
           "line": 48000,
           "type": "OT_UNDER",
           "betOfferId": 2700016571,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -686,16 +913,75 @@
           "id": 4362336907,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1770,
+          "odds": 1950,
           "line": 48000,
           "type": "OT_OVER",
           "betOfferId": 2700016571,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-130",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700016572,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4362336908,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 1600,
+          "line": 4500,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700016572,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362336909,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 2350,
+          "line": -4500,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700016572,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
         }
       ],
       "tags": [
@@ -726,13 +1012,13 @@
           "id": 4362336910,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1970,
+          "odds": 1790,
           "line": 49000,
           "type": "OT_UNDER",
           "betOfferId": 2700016573,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-104",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -741,16 +1027,75 @@
           "id": 4362336911,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1850,
+          "odds": 2050,
           "line": 49000,
           "type": "OT_OVER",
           "betOfferId": 2700016573,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700016574,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4362336912,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 1550,
+          "line": 5000,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700016574,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000007186,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362336913,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 2430,
+          "line": -5000,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700016574,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000085884,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
         }
       ],
       "tags": [
@@ -780,13 +1125,13 @@
           "id": 4362336914,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1810,
+          "odds": 1910,
           "line": 23500,
           "type": "OT_OVER",
           "betOfferId": 2700016575,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-124",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -795,13 +1140,13 @@
           "id": 4362336915,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1930,
+          "odds": 1830,
           "line": 23500,
           "type": "OT_UNDER",
           "betOfferId": 2700016575,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -836,13 +1181,13 @@
           "id": 4362336916,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2120,
+          "odds": 1920,
           "line": 47500,
           "type": "OT_UNDER",
           "betOfferId": 2700016576,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "11/10",
-          "oddsAmerican": "112",
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -851,16 +1196,76 @@
           "id": 4362336917,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1730,
+          "odds": 1900,
           "line": 47500,
           "type": "OT_OVER",
           "betOfferId": 2700016576,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-137",
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700042583,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4362330957,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 1490,
+          "line": 6000,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700042583,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362330958,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 2550,
+          "line": -6000,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700042583,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
         }
       ],
       "tags": [
@@ -891,13 +1296,13 @@
           "id": 4362330959,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1780,
+          "odds": 1640,
           "line": 51000,
           "type": "OT_UNDER",
           "betOfferId": 2700042584,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-129",
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -906,13 +1311,13 @@
           "id": 4362330960,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2060,
+          "odds": 2300,
           "line": 51000,
           "type": "OT_OVER",
           "betOfferId": 2700042584,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "21/20",
-          "oddsAmerican": "106",
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -950,7 +1355,7 @@
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700042585,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
           "oddsFractional": "6/5",
           "oddsAmerican": "120",
@@ -962,12 +1367,12 @@
           "id": 4362330962,
           "label": "X",
           "englishLabel": "X",
-          "odds": 15000,
+          "odds": 14000,
           "type": "OT_CROSS",
           "betOfferId": 2700042585,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "14/1",
-          "oddsAmerican": "1400",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "13/1",
+          "oddsAmerican": "1300",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -976,14 +1381,14 @@
           "id": 4362330963,
           "label": "2",
           "englishLabel": "2",
-          "odds": 1750,
+          "odds": 1760,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700042585,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
           "oddsFractional": "3/4",
-          "oddsAmerican": "-134",
+          "oddsAmerican": "-132",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1018,14 +1423,14 @@
           "id": 4362330966,
           "label": "Michigan State Touchdown",
           "englishLabel": "Michigan State Spartans Touchdown",
-          "odds": 2700,
+          "odds": 2800,
           "participant": "Michigan State",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700042586,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "17/10",
-          "oddsAmerican": "170",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1038,14 +1443,14 @@
           "id": 4362330967,
           "label": "Michigan State Field Goal",
           "englishLabel": "Michigan State Spartans Field Goal",
-          "odds": 6400,
+          "odds": 6250,
           "participant": "Michigan State",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700042586,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "27/5",
-          "oddsAmerican": "540",
+          "oddsFractional": "21/4",
+          "oddsAmerican": "525",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1058,14 +1463,14 @@
           "id": 4362330968,
           "label": "Michigan State Safety",
           "englishLabel": "Michigan State Spartans Safety",
-          "odds": 91000,
+          "odds": 67000,
           "participant": "Michigan State",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700042586,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "90/1",
-          "oddsAmerican": "9000",
+          "oddsFractional": "66/1",
+          "oddsAmerican": "6600",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1078,14 +1483,14 @@
           "id": 4362330969,
           "label": "Illinois Touchdown",
           "englishLabel": "Illinois Fighting Illini Touchdown",
-          "odds": 2500,
+          "odds": 2600,
           "participant": "Illinois",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700042586,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "6/4",
-          "oddsAmerican": "150",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1098,14 +1503,14 @@
           "id": 4362330970,
           "label": "Illinois Field Goal",
           "englishLabel": "Illinois Fighting Illini Field Goal",
-          "odds": 6250,
+          "odds": 5600,
           "participant": "Illinois",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700042586,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "21/4",
-          "oddsAmerican": "525",
+          "oddsFractional": "23/5",
+          "oddsAmerican": "460",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1118,14 +1523,14 @@
           "id": 4362330971,
           "label": "Illinois Safety",
           "englishLabel": "Illinois Fighting Illini Safety",
-          "odds": 81000,
+          "odds": 71000,
           "participant": "Illinois",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700042586,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "80/1",
-          "oddsAmerican": "8000",
+          "oddsFractional": "70/1",
+          "oddsAmerican": "7000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1162,15 +1567,15 @@
           "id": 4362330964,
           "label": "Michigan State",
           "englishLabel": "Michigan State Spartans",
-          "odds": 1980,
+          "odds": 1950,
           "line": 2000,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700042587,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:10Z",
           "participantId": 1000007186,
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1179,15 +1584,74 @@
           "id": 4362330965,
           "label": "Illinois",
           "englishLabel": "Illinois Fighting Illini",
-          "odds": 1840,
+          "odds": 1870,
           "line": -2000,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700042587,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:10Z",
           "participantId": 1000085884,
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700045461,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4362342475,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 1520,
+          "line": 5500,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700045461,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000007186,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362342477,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 2480,
+          "line": -5500,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700045461,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000085884,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1224,14 +1688,14 @@
           "id": 4362342476,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1920,
+          "odds": 1940,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700045462,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 0
@@ -1240,14 +1704,14 @@
           "id": 4362342478,
           "label": "2",
           "englishLabel": "2",
-          "odds": 1800,
+          "odds": 1790,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700045462,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-125",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 1
@@ -1287,7 +1751,7 @@
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700045463,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
           "oddsFractional": "19/20",
           "oddsAmerican": "-106",
@@ -1299,14 +1763,14 @@
           "id": 4362342480,
           "label": "2",
           "englishLabel": "2",
-          "odds": 1790,
+          "odds": 1800,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700045463,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-127",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 1
@@ -1338,13 +1802,13 @@
           "id": 4362342481,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1890,
+          "odds": 2080,
           "line": 26500,
           "type": "OT_OVER",
           "betOfferId": 2700045464,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1353,13 +1817,13 @@
           "id": 4362342482,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1850,
+          "odds": 1680,
           "line": 26500,
           "type": "OT_UNDER",
           "betOfferId": 2700045464,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1367,7 +1831,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -1394,13 +1857,13 @@
           "id": 4362342483,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1880,
+          "odds": 1710,
           "line": 50000,
           "type": "OT_UNDER",
           "betOfferId": 2700045465,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1409,13 +1872,13 @@
           "id": 4362342484,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1940,
+          "odds": 2160,
           "line": 50000,
           "type": "OT_OVER",
           "betOfferId": 2700045465,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1451,7 +1914,7 @@
           "odds": 2750,
           "type": "OT_ONE_ONE",
           "betOfferId": 2700045466,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "oddsFractional": "7/4",
           "oddsAmerican": "175",
           "status": "OPEN",
@@ -1462,12 +1925,12 @@
           "id": 4362342492,
           "label": "1/X",
           "englishLabel": "1/X",
-          "odds": 29000,
+          "odds": 26000,
           "type": "OT_ONE_CROSS",
           "betOfferId": 2700045466,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "28/1",
-          "oddsAmerican": "2800",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "25/1",
+          "oddsAmerican": "2500",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1479,7 +1942,7 @@
           "odds": 7000,
           "type": "OT_ONE_TWO",
           "betOfferId": 2700045466,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "oddsFractional": "6/1",
           "oddsAmerican": "600",
           "status": "OPEN",
@@ -1493,7 +1956,7 @@
           "odds": 21000,
           "type": "OT_CROSS_ONE",
           "betOfferId": 2700045466,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "oddsFractional": "20/1",
           "oddsAmerican": "2000",
           "status": "OPEN",
@@ -1504,12 +1967,12 @@
           "id": 4362342501,
           "label": "X/X",
           "englishLabel": "X/X",
-          "odds": 67000,
+          "odds": 61000,
           "type": "OT_CROSS_CROSS",
           "betOfferId": 2700045466,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "66/1",
-          "oddsAmerican": "6600",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "60/1",
+          "oddsAmerican": "6000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 4
@@ -1521,7 +1984,7 @@
           "odds": 18000,
           "type": "OT_CROSS_TWO",
           "betOfferId": 2700045466,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "oddsFractional": "17/1",
           "oddsAmerican": "1700",
           "status": "OPEN",
@@ -1535,7 +1998,7 @@
           "odds": 8000,
           "type": "OT_TWO_ONE",
           "betOfferId": 2700045466,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "oddsFractional": "7/1",
           "oddsAmerican": "700",
           "status": "OPEN",
@@ -1549,7 +2012,7 @@
           "odds": 29000,
           "type": "OT_TWO_CROSS",
           "betOfferId": 2700045466,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "oddsFractional": "28/1",
           "oddsAmerican": "2800",
           "status": "OPEN",
@@ -1560,12 +2023,12 @@
           "id": 4362342513,
           "label": "2/2",
           "englishLabel": "2/2",
-          "odds": 2120,
+          "odds": 2140,
           "type": "OT_TWO_TWO",
           "betOfferId": 2700045466,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "11/10",
-          "oddsAmerican": "112",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 8
@@ -1598,13 +2061,13 @@
           "id": 4362342485,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1700,
+          "odds": 1570,
           "line": 52000,
           "type": "OT_UNDER",
           "betOfferId": 2700045467,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-143",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1613,13 +2076,13 @@
           "id": 4362342489,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2180,
+          "odds": 2430,
           "line": 52000,
           "type": "OT_OVER",
           "betOfferId": 2700045467,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "59/50",
-          "oddsAmerican": "118",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1656,12 +2119,12 @@
           "id": 4363030084,
           "label": "X",
           "englishLabel": "X",
-          "odds": 10000,
+          "odds": 7500,
           "type": "OT_CROSS",
           "betOfferId": 2700229049,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "9/1",
-          "oddsAmerican": "900",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1670,14 +2133,14 @@
           "id": 4363030085,
           "label": "1",
           "englishLabel": "1",
-          "odds": 2170,
+          "odds": 2200,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700229049,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "23/20",
-          "oddsAmerican": "117",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1686,14 +2149,14 @@
           "id": 4363030086,
           "label": "2",
           "englishLabel": "2",
-          "odds": 1790,
+          "odds": 1850,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700229049,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-127",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1729,12 +2192,12 @@
           "id": 4363030087,
           "label": "X",
           "englishLabel": "X",
-          "odds": 29000,
+          "odds": 21000,
           "type": "OT_CROSS",
           "betOfferId": 2700229050,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "28/1",
-          "oddsAmerican": "2800",
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "20/1",
+          "oddsAmerican": "2000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1747,7 +2210,7 @@
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700229050,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:10Z",
           "participantId": 1000007186,
           "oddsFractional": "Evens",
           "oddsAmerican": "102",
@@ -1759,14 +2222,14 @@
           "id": 4363030089,
           "label": "2",
           "englishLabel": "2",
-          "odds": 1700,
+          "odds": 1730,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700229050,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:10Z",
           "participantId": 1000085884,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-143",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1802,12 +2265,12 @@
           "id": 4363030090,
           "label": "X",
           "englishLabel": "X",
-          "odds": 1940,
+          "odds": 1740,
           "type": "OT_CROSS",
           "betOfferId": 2700229051,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1816,14 +2279,14 @@
           "id": 4363030091,
           "label": "1",
           "englishLabel": "1",
-          "odds": 3850,
+          "odds": 4100,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700229051,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "14/5",
-          "oddsAmerican": "285",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1832,14 +2295,14 @@
           "id": 4363030092,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2880,
+          "odds": 3300,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700229051,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "15/8",
-          "oddsAmerican": "188",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1870,12 +2333,12 @@
           "id": 4363030095,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 1120,
+          "odds": 1140,
           "type": "OT_YES",
           "betOfferId": 2700229052,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "1/9",
-          "oddsAmerican": "-835",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "2/15",
+          "oddsAmerican": "-715",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1884,12 +2347,12 @@
           "id": 4363030098,
           "label": "No",
           "englishLabel": "No",
-          "odds": 5600,
+          "odds": 5300,
           "type": "OT_NO",
           "betOfferId": 2700229052,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "23/5",
-          "oddsAmerican": "460",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "17/4",
+          "oddsAmerican": "430",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1928,7 +2391,7 @@
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700229053,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
           "oddsFractional": "4/7",
           "oddsAmerican": "-175",
@@ -1945,7 +2408,7 @@
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700229053,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
           "oddsFractional": "5/4",
           "oddsAmerican": "128",
@@ -1983,15 +2446,15 @@
           "id": 4363086141,
           "label": "Michigan State",
           "englishLabel": "Michigan State Spartans",
-          "odds": 2150,
+          "odds": 2140,
           "line": 500,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700229567,
-          "changedDate": "2026-10-05T13:51:14Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "23/20",
-          "oddsAmerican": "115",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2000,15 +2463,15 @@
           "id": 4363086142,
           "label": "Illinois",
           "englishLabel": "Illinois Fighting Illini",
-          "odds": 1720,
+          "odds": 1730,
           "line": -500,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700229567,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2040,12 +2503,12 @@
           "id": 4363021541,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 1070,
+          "odds": 1090,
           "type": "OT_YES",
           "betOfferId": 2700243066,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "1/16",
-          "oddsAmerican": "-1430",
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "1/12",
+          "oddsAmerican": "-1115",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2054,12 +2517,12 @@
           "id": 4363021544,
           "label": "No",
           "englishLabel": "No",
-          "odds": 7500,
+          "odds": 6500,
           "type": "OT_NO",
           "betOfferId": 2700243066,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "13/2",
-          "oddsAmerican": "650",
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "11/2",
+          "oddsAmerican": "550",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2095,7 +2558,7 @@
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700243068,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
           "oddsFractional": "26/25",
           "oddsAmerican": "104",
@@ -2111,7 +2574,7 @@
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700243068,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
           "oddsFractional": "3/4",
           "oddsAmerican": "-134",
@@ -2126,14 +2589,15 @@
       "cashOutStatus": "ENABLED"
     },
     {
-      "id": 2700243070,
+      "id": 2700243069,
       "closed": "2026-10-10T19:30:00Z",
       "criterion": {
-        "id": 1001159901,
-        "label": "Total Points - 1st Half",
-        "englishLabel": "Total Points - 1st Half",
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
         "order": [],
-        "occurrenceType": "POINTS"
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
       },
       "betOfferType": {
         "id": 6,
@@ -2143,29 +2607,82 @@
       "eventId": 1027553012,
       "outcomes": [
         {
-          "id": 4363021551,
+          "id": 4363021549,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 47000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700243069,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363021550,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1950,
-          "line": 24500,
+          "odds": 1840,
+          "line": 47000,
           "type": "OT_OVER",
-          "betOfferId": 2700243070,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "betOfferId": 2700243069,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700243071,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Michigan State - 1st Half",
+        "englishLabel": "Total Points by Michigan State Spartans - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363021553,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1930,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700243071,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
         },
         {
-          "id": 4363021552,
+          "id": 4363021554,
           "label": "Under",
           "englishLabel": "Under",
           "odds": 1790,
-          "line": 24500,
+          "line": 10500,
           "type": "OT_UNDER",
-          "betOfferId": 2700243070,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "betOfferId": 2700243071,
+          "changedDate": "2026-10-08T19:23:11Z",
           "oddsFractional": "10/13",
           "oddsAmerican": "-127",
           "status": "OPEN",
@@ -2175,8 +2692,7 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
-        "BET_BUILDER"
+        "MAIN_LINE"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2205,12 +2721,12 @@
           "id": 4363021555,
           "label": "X",
           "englishLabel": "X",
-          "odds": 1290,
+          "odds": 1210,
           "type": "OT_CROSS",
           "betOfferId": 2700243072,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "2/7",
-          "oddsAmerican": "-345",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-480",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2219,14 +2735,14 @@
           "id": 4363021556,
           "label": "1",
           "englishLabel": "1",
-          "odds": 7000,
+          "odds": 8000,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700243072,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "6/1",
-          "oddsAmerican": "600",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2235,14 +2751,14 @@
           "id": 4363021557,
           "label": "2",
           "englishLabel": "2",
-          "odds": 4900,
+          "odds": 6000,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700243072,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "19/5",
-          "oddsAmerican": "390",
+          "oddsFractional": "5/1",
+          "oddsAmerican": "500",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2273,12 +2789,12 @@
           "id": 4363021564,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 3200,
+          "odds": 3500,
           "type": "OT_YES",
           "betOfferId": 2700243074,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "11/5",
-          "oddsAmerican": "220",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2287,12 +2803,12 @@
           "id": 4363021569,
           "label": "No",
           "englishLabel": "No",
-          "odds": 1320,
+          "odds": 1280,
           "type": "OT_NO",
           "betOfferId": 2700243074,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "8/25",
-          "oddsAmerican": "-315",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2330,7 +2846,7 @@
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700243075,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:10Z",
           "participantId": 1000007186,
           "oddsFractional": "49/50",
           "oddsAmerican": "-103",
@@ -2346,7 +2862,7 @@
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700243075,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:10Z",
           "participantId": 1000085884,
           "oddsFractional": "10/13",
           "oddsAmerican": "-127",
@@ -2356,7 +2872,8 @@
         }
       ],
       "tags": [
-        "OFFERED_PREMATCH"
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2385,12 +2902,12 @@
           "id": 4363021572,
           "label": "X",
           "englishLabel": "X",
-          "odds": 3250,
+          "odds": 2800,
           "type": "OT_CROSS",
           "betOfferId": 2700243076,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "9/4",
-          "oddsAmerican": "225",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2399,14 +2916,14 @@
           "id": 4363021573,
           "label": "1",
           "englishLabel": "1",
-          "odds": 2800,
+          "odds": 2950,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700243076,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "9/5",
-          "oddsAmerican": "180",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2415,14 +2932,14 @@
           "id": 4363021574,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2200,
+          "odds": 2380,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700243076,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "6/5",
-          "oddsAmerican": "120",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2453,12 +2970,12 @@
           "id": 4363021579,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 3800,
+          "odds": 4100,
           "type": "OT_YES",
           "betOfferId": 2700243077,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "14/5",
-          "oddsAmerican": "280",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2467,12 +2984,12 @@
           "id": 4363021584,
           "label": "No",
           "englishLabel": "No",
-          "odds": 1240,
+          "odds": 1210,
           "type": "OT_NO",
           "betOfferId": 2700243077,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "6/25",
-          "oddsAmerican": "-420",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-480",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2506,13 +3023,13 @@
           "id": 4363021630,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1730,
+          "odds": 1810,
           "line": 9500,
           "type": "OT_OVER",
           "betOfferId": 2700243097,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-137",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2521,13 +3038,13 @@
           "id": 4363021631,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2040,
+          "odds": 1930,
           "line": 9500,
           "type": "OT_UNDER",
           "betOfferId": 2700243097,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "26/25",
-          "oddsAmerican": "104",
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2562,15 +3079,15 @@
           "id": 4363071459,
           "label": "Michigan State",
           "englishLabel": "Michigan State Spartans",
-          "odds": 2150,
+          "odds": 2140,
           "line": 0,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700243613,
-          "changedDate": "2026-10-05T13:51:12Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "23/20",
-          "oddsAmerican": "115",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2579,15 +3096,15 @@
           "id": 4363071460,
           "label": "Illinois",
           "englishLabel": "Illinois Fighting Illini",
-          "odds": 1720,
+          "odds": 1730,
           "line": 0,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700243613,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2621,12 +3138,12 @@
           "id": 4363024418,
           "label": "Odd",
           "englishLabel": "Odd",
-          "odds": 1770,
+          "odds": 1760,
           "type": "OT_ODD",
           "betOfferId": 2700248876,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:10Z",
           "oddsFractional": "3/4",
-          "oddsAmerican": "-130",
+          "oddsAmerican": "-132",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2635,12 +3152,12 @@
           "id": 4363024419,
           "label": "Even",
           "englishLabel": "Even",
-          "odds": 2050,
+          "odds": 2070,
           "type": "OT_EVEN",
           "betOfferId": 2700248876,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:10Z",
           "oddsFractional": "21/20",
-          "oddsAmerican": "105",
+          "oddsAmerican": "107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2648,59 +3165,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH"
-      ],
-      "cashOutStatus": "ENABLED"
-    },
-    {
-      "id": 2700248877,
-      "closed": "2026-10-10T19:30:00Z",
-      "criterion": {
-        "id": 1001935118,
-        "label": "Total Points by Illinois - 1st Half",
-        "englishLabel": "Total Points by Illinois Fighting Illini - 1st Half",
-        "order": []
-      },
-      "betOfferType": {
-        "id": 6,
-        "name": "Over/Under",
-        "englishName": "Over/Under"
-      },
-      "eventId": 1027553012,
-      "outcomes": [
-        {
-          "id": 4363024420,
-          "label": "Over",
-          "englishLabel": "Over",
-          "odds": 1890,
-          "line": 13500,
-          "type": "OT_OVER",
-          "betOfferId": 2700248877,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 0
-        },
-        {
-          "id": 4363024421,
-          "label": "Under",
-          "englishLabel": "Under",
-          "odds": 1830,
-          "line": 13500,
-          "type": "OT_UNDER",
-          "betOfferId": 2700248877,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 1
-        }
-      ],
-      "tags": [
-        "OFFERED_PREMATCH",
-        "MAIN_LINE"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2730,7 +3194,7 @@
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700249408,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
           "oddsFractional": "10/13",
           "oddsAmerican": "-127",
@@ -2747,7 +3211,7 @@
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700249408,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
           "oddsFractional": "19/20",
           "oddsAmerican": "-105",
@@ -2785,15 +3249,15 @@
           "id": 4363080521,
           "label": "Michigan State",
           "englishLabel": "Michigan State Spartans",
-          "odds": 2150,
+          "odds": 2140,
           "line": -500,
           "participant": "Michigan State",
           "type": "OT_ONE",
           "betOfferId": 2700249415,
-          "changedDate": "2026-10-05T13:51:11Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000007186,
-          "oddsFractional": "23/20",
-          "oddsAmerican": "115",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2802,15 +3266,15 @@
           "id": 4363080522,
           "label": "Illinois",
           "englishLabel": "Illinois Fighting Illini",
-          "odds": 1720,
+          "odds": 1730,
           "line": 500,
           "participant": "Illinois",
           "type": "OT_TWO",
           "betOfferId": 2700249415,
-          "changedDate": "2026-10-05T13:50:55Z",
+          "changedDate": "2026-10-08T19:23:11Z",
           "participantId": 1000085884,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2823,12 +3287,2106 @@
       "cashOutStatus": "ENABLED"
     },
     {
-      "id": 2700249416,
+      "id": 2700292030,
       "closed": "2026-10-10T19:30:00Z",
       "criterion": {
-        "id": 1001935119,
-        "label": "Total Points by Michigan State - 1st Half",
-        "englishLabel": "Total Points by Michigan State Spartans - 1st Half",
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363257232,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 2900,
+          "line": -4500,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700292030,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363257233,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 1380,
+          "line": 4500,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700292030,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700292031,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363257234,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2550,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700292031,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363257235,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700292031,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700292033,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363257242,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1490,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700292033,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363257243,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2600,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2700292033,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700292034,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363257244,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2250,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700292034,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363257245,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1660,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700292034,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700292035,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363257246,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 1250,
+          "line": 9500,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700292035,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363257247,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 3450,
+          "line": -9500,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700292035,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700292036,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363257248,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2200,
+          "line": 45000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700292036,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363257249,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 45000,
+          "type": "OT_OVER",
+          "betOfferId": 2700292036,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700292037,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363257250,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1320,
+          "line": 57500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700292037,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363257251,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3350,
+          "line": 57500,
+          "type": "OT_OVER",
+          "betOfferId": 2700292037,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700292038,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363257252,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1410,
+          "line": 55000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700292038,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363257253,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2900,
+          "line": 55000,
+          "type": "OT_OVER",
+          "betOfferId": 2700292038,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700292039,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363257254,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2100,
+          "line": 46000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700292039,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363257255,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1760,
+          "line": 46000,
+          "type": "OT_OVER",
+          "betOfferId": 2700292039,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700292040,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363257256,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2650,
+          "line": 42000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700292040,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363257257,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1480,
+          "line": 42000,
+          "type": "OT_OVER",
+          "betOfferId": 2700292040,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700292041,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363257258,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2050,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700292041,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363257259,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1790,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700292041,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700300206,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363245476,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1370,
+          "line": 56000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700300206,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363245477,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3100,
+          "line": 56000,
+          "type": "OT_OVER",
+          "betOfferId": 2700300206,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700300207,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363245478,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 2950,
+          "line": -5000,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700300207,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363245479,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 1350,
+          "line": 5000,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700300207,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700300208,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363245480,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 1290,
+          "line": 8000,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700300208,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363245481,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 3250,
+          "line": -8000,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700300208,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700300209,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363245482,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 1330,
+          "line": 7500,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700300209,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000007186,
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363245483,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 3050,
+          "line": -7500,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700300209,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000085884,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700300210,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363245484,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1460,
+          "line": 54000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700300210,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363245486,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2700,
+          "line": 54000,
+          "type": "OT_OVER",
+          "betOfferId": 2700300210,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700300211,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363245485,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 1260,
+          "line": 9000,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700300211,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363245487,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 3400,
+          "line": -9000,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700300211,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700300212,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363245488,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1520,
+          "line": 53000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700300212,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363245489,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2550,
+          "line": 53000,
+          "type": "OT_OVER",
+          "betOfferId": 2700300212,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700300213,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363245490,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 2320,
+          "line": -2000,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700300213,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363245491,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 1610,
+          "line": 2000,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700300213,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700300214,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363245492,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 2350,
+          "line": -2500,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700300214,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000007186,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363245493,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 1580,
+          "line": 2500,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700300214,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000085884,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303024,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288282,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2500,
+          "line": 43000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700303024,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363288283,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1530,
+          "line": 43000,
+          "type": "OT_OVER",
+          "betOfferId": 2700303024,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303025,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288284,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 3000,
+          "line": -5500,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700303025,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363288285,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 1340,
+          "line": 5500,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700303025,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303026,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288286,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1330,
+          "line": 57000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700303026,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363288287,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3300,
+          "line": 57000,
+          "type": "OT_OVER",
+          "betOfferId": 2700303026,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303027,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288288,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2430,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700303027,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363288289,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700303027,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303028,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288290,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2350,
+          "line": 44000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700303028,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363288291,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1610,
+          "line": 44000,
+          "type": "OT_OVER",
+          "betOfferId": 2700303028,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303029,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288292,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 2600,
+          "line": -3000,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700303029,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000007186,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363288295,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 1480,
+          "line": 3000,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700303029,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000085884,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303030,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288293,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 1280,
+          "line": 8500,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700303030,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363288294,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 3300,
+          "line": -8500,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700303030,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303031,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288296,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1450,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700303031,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363288297,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2750,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2700303031,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303032,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288298,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2140,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700303032,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363288299,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1730,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700303032,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303033,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288300,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 1370,
+          "line": 7000,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700303033,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363288301,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 2900,
+          "line": -7000,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700303033,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303034,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288302,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 1460,
+          "line": 6500,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700303034,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000007186,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363288303,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 2650,
+          "line": -6500,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700303034,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000085884,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303036,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288310,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1400,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700303036,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363288311,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3000,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2700303036,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303037,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288312,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 2750,
+          "line": -4000,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700303037,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000007186,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363288313,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 1400,
+          "line": 4000,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700303037,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "participantId": 1000085884,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303038,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288314,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2700,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700303038,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363288315,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1470,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2700303038,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700303039,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4363288316,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 2700,
+          "line": -3500,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2700303039,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000007186,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363288317,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 1440,
+          "line": 3500,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2700303039,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000085884,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700657520,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Illinois",
+        "englishLabel": "Total Points by Illinois Fighting Illini - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4364429300,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1960,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2700657520,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364429301,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1790,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700657520,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700657691,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Illinois",
+        "englishLabel": "Total Points by Illinois Fighting Illini - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4364429836,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2700657691,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364429837,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1840,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700657691,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700657694,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Illinois - 1st Half",
+        "englishLabel": "Total Points by Illinois Fighting Illini - 1st Half",
         "order": []
       },
       "betOfferType": {
@@ -2839,31 +5397,31 @@
       "eventId": 1027553012,
       "outcomes": [
         {
-          "id": 4363080523,
+          "id": 4364429842,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1850,
-          "line": 11500,
+          "odds": 1780,
+          "line": 12500,
           "type": "OT_OVER",
-          "betOfferId": 2700249416,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "betOfferId": 2700657694,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
         },
         {
-          "id": 4363080524,
+          "id": 4364429843,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1870,
-          "line": 11500,
+          "odds": 1940,
+          "line": 12500,
           "type": "OT_UNDER",
-          "betOfferId": 2700249416,
-          "changedDate": "2026-10-05T13:50:55Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "betOfferId": 2700657694,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2872,6 +5430,1208 @@
       "tags": [
         "OFFERED_PREMATCH",
         "MAIN_LINE"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700674267,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4364432844,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2900,
+          "line": 40500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700674267,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364432845,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1400,
+          "line": 40500,
+          "type": "OT_OVER",
+          "betOfferId": 2700674267,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700674271,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Michigan State",
+        "englishLabel": "Total Points by Michigan State Spartans - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4364432852,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1770,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2700674271,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364432853,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700674271,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700679945,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4364426696,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2850,
+          "line": 41000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700679945,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364426697,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1430,
+          "line": 41000,
+          "type": "OT_OVER",
+          "betOfferId": 2700679945,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700679946,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4364426698,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700679946,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364426699,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700679946,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700680096,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4364475938,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3050,
+          "line": 40000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700680096,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364475939,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1370,
+          "line": 40000,
+          "type": "OT_OVER",
+          "betOfferId": 2700680096,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701516144,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367306664,
+          "label": "Michigan State",
+          "englishLabel": "Michigan State Spartans",
+          "odds": 3450,
+          "line": -6000,
+          "participant": "Michigan State",
+          "type": "OT_ONE",
+          "betOfferId": 2701516144,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000007186,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367306666,
+          "label": "Illinois",
+          "englishLabel": "Illinois Fighting Illini",
+          "odds": 1250,
+          "line": 6000,
+          "participant": "Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2701516144,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "participantId": 1000085884,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701516146,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367306668,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3250,
+          "line": 39000,
+          "type": "OT_UNDER",
+          "betOfferId": 2701516146,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367306669,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1330,
+          "line": 39000,
+          "type": "OT_OVER",
+          "betOfferId": 2701516146,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701516147,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367306670,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3100,
+          "line": 39500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701516147,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367306671,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1360,
+          "line": 39500,
+          "type": "OT_OVER",
+          "betOfferId": 2701516147,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701534449,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367326213,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3400,
+          "type": "OT_YES",
+          "betOfferId": 2701534449,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367326218,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1270,
+          "type": "OT_NO",
+          "betOfferId": 2701534449,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701534450,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Michigan State",
+        "englishLabel": "Total Points by Michigan State Spartans - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367326219,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 21500,
+          "type": "OT_OVER",
+          "betOfferId": 2701534450,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367326220,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2080,
+          "line": 21500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701534450,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701534451,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Michigan State",
+        "englishLabel": "Total Points by Michigan State Spartans - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367326221,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2450,
+          "line": 26500,
+          "type": "OT_OVER",
+          "betOfferId": 2701534451,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367326222,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1520,
+          "line": 26500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701534451,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701534452,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Illinois",
+        "englishLabel": "Total Points by Illinois Fighting Illini - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367326223,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2701534452,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367326224,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701534452,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701534453,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393522,
+        "label": "Total Points by Illinois - Quarter 1",
+        "englishLabel": "Total Points by Illinois Fighting Illini - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367326225,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1940,
+          "line": 6500,
+          "type": "OT_OVER",
+          "betOfferId": 2701534453,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367326226,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1810,
+          "line": 6500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701534453,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701534454,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Illinois",
+        "englishLabel": "Total Points by Illinois Fighting Illini - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367326227,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2701534454,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367326228,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2080,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701534454,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701534455,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393521,
+        "label": "Total Points by Michigan State - Quarter 1",
+        "englishLabel": "Total Points by Michigan State Spartans - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367326229,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1880,
+          "line": 3500,
+          "type": "OT_OVER",
+          "betOfferId": 2701534455,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367326230,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1860,
+          "line": 3500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701534455,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701534456,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Illinois",
+        "englishLabel": "Total Points by Illinois Fighting Illini - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367326231,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 21500,
+          "type": "OT_OVER",
+          "betOfferId": 2701534456,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367326232,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 21500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701534456,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701539524,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367295350,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3500,
+          "line": 38000,
+          "type": "OT_UNDER",
+          "betOfferId": 2701539524,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367295351,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1300,
+          "line": 38000,
+          "type": "OT_OVER",
+          "betOfferId": 2701539524,
+          "changedDate": "2026-10-08T19:23:11Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701539525,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367295352,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3300,
+          "line": 38500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701539525,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367295353,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1320,
+          "line": 38500,
+          "type": "OT_OVER",
+          "betOfferId": 2701539525,
+          "changedDate": "2026-10-08T19:23:10Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701540204,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Illinois",
+        "englishLabel": "Total Points by Illinois Fighting Illini - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367355467,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2380,
+          "line": 27500,
+          "type": "OT_OVER",
+          "betOfferId": 2701540204,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367355468,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1540,
+          "line": 27500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701540204,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701540205,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Michigan State",
+        "englishLabel": "Total Points by Michigan State Spartans - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367355469,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2180,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2701540205,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367355470,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1640,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701540205,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701571605,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Michigan State",
+        "englishLabel": "Total Points by Michigan State Spartans - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367309178,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1560,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2701571605,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367309179,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2330,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701571605,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701571606,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Michigan State",
+        "englishLabel": "Total Points by Michigan State Spartans - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553012,
+      "outcomes": [
+        {
+          "id": 4367309180,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2250,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2701571606,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367309181,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1600,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701571606,
+          "changedDate": "2026-10-08T20:20:13Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     }
@@ -2901,7 +6661,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 46,
+      "nonLiveBoCount": 113,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -2939,11 +6699,184 @@
   ],
   "prePacks": [
     {
-      "id": 7190901,
+      "id": 7203128,
+      "label": "Spread and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8130104,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361703451,
+                          "eventId": 1027553012,
+                          "betOfferId": 2699823039
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362336917,
+                          "eventId": 1027553012,
+                          "betOfferId": 2700016576
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8130105,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361703450,
+                          "eventId": 1027553012,
+                          "betOfferId": 2699823039
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362336916,
+                          "eventId": 1027553012,
+                          "betOfferId": 2700016576
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8130106,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3300,
+                "american": "230",
+                "fractional": "23/10"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361703451,
+                          "eventId": 1027553012,
+                          "betOfferId": 2699823039
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362336916,
+                          "eventId": 1027553012,
+                          "betOfferId": 2700016576
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8130103,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3250,
+                "american": "225",
+                "fractional": "9/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361703450,
+                          "eventId": 1027553012,
+                          "betOfferId": 2699823039
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362336917,
+                          "eventId": 1027553012,
+                          "betOfferId": 2700016576
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    },
+    {
+      "id": 7203127,
       "label": "Game Winner and Total Points",
       "prePackSelections": [
         {
-          "selectionId": 8117096,
+          "selectionId": 8130100,
           "label": [],
           "status": "OPEN",
           "combinations": [
@@ -2971,9 +6904,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4362135068,
+                          "id": 4362336917,
                           "eventId": 1027553012,
-                          "betOfferId": 2699941174
+                          "betOfferId": 2700016576
                         }
                       ]
                     }
@@ -2984,7 +6917,7 @@
           ]
         },
         {
-          "selectionId": 8117095,
+          "selectionId": 8130101,
           "label": [],
           "status": "OPEN",
           "combinations": [
@@ -3012,9 +6945,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4362135068,
+                          "id": 4362336916,
                           "eventId": 1027553012,
-                          "betOfferId": 2699941174
+                          "betOfferId": 2700016576
                         }
                       ]
                     }
@@ -3025,15 +6958,15 @@
           ]
         },
         {
-          "selectionId": 8117094,
+          "selectionId": 8130102,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 2950,
-                "american": "195",
-                "fractional": "39/20"
+                "decimal": 3000,
+                "american": "200",
+                "fractional": "2/1"
               },
               "groups": [
                 {
@@ -3053,9 +6986,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4362135069,
+                          "id": 4362336916,
                           "eventId": 1027553012,
-                          "betOfferId": 2699941174
+                          "betOfferId": 2700016576
                         }
                       ]
                     }
@@ -3066,15 +6999,15 @@
           ]
         },
         {
-          "selectionId": 8117093,
+          "selectionId": 8130099,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 3700,
-                "american": "270",
-                "fractional": "27/10"
+                "decimal": 3650,
+                "american": "265",
+                "fractional": "13/5"
               },
               "groups": [
                 {
@@ -3094,182 +7027,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4362135069,
+                          "id": 4362336917,
                           "eventId": 1027553012,
-                          "betOfferId": 2699941174
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "tags": [
-        "AUTO_BUNDLED"
-      ]
-    },
-    {
-      "id": 7196647,
-      "label": "Spread and Total Points",
-      "prePackSelections": [
-        {
-          "selectionId": 8123179,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361703451,
-                          "eventId": 1027553012,
-                          "betOfferId": 2699823039
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362135069,
-                          "eventId": 1027553012,
-                          "betOfferId": 2699941174
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8123178,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3300,
-                "american": "230",
-                "fractional": "23/10"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361703450,
-                          "eventId": 1027553012,
-                          "betOfferId": 2699823039
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362135069,
-                          "eventId": 1027553012,
-                          "betOfferId": 2699941174
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8123181,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3300,
-                "american": "230",
-                "fractional": "23/10"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361703451,
-                          "eventId": 1027553012,
-                          "betOfferId": 2699823039
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362135068,
-                          "eventId": 1027553012,
-                          "betOfferId": 2699941174
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8123180,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3400,
-                "american": "240",
-                "fractional": "12/5"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361703450,
-                          "eventId": 1027553012,
-                          "betOfferId": 2699823039
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362135068,
-                          "eventId": 1027553012,
-                          "betOfferId": 2699941174
+                          "betOfferId": 2700016576
                         }
                       ]
                     }

@@ -1,0 +1,661 @@
+{
+  "generatedAt": "2026-10-08T22:55:52.227Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1027553083",
+    "name": "Florida State @ (4) Miami (FL)",
+    "away": "Florida State",
+    "home": "Miami (FL)",
+    "start": "2026-10-17T23:00:00Z"
+  },
+  "counts": {
+    "betOffers": 4,
+    "events": 1,
+    "prePacks": 2
+  },
+  "betOffers": [
+    {
+      "id": 2701515660,
+      "closed": "2026-10-17T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553083,
+      "outcomes": [
+        {
+          "id": 4367254014,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1940,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701515660,
+          "changedDate": "2026-10-08T18:59:54Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367254015,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1880,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2701515660,
+          "changedDate": "2026-10-08T18:59:54Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701515661,
+      "closed": "2026-10-17T23:00:00Z",
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553083,
+      "outcomes": [
+        {
+          "id": 4367254016,
+          "label": "(4) Miami (FL)",
+          "englishLabel": "(4) Miami Florida Hurricanes",
+          "odds": 1060,
+          "participant": "(4) Miami (FL)",
+          "type": "OT_ONE",
+          "betOfferId": 2701515661,
+          "changedDate": "2026-10-08T18:59:54Z",
+          "participantId": 1000089661,
+          "oddsFractional": "1/18",
+          "oddsAmerican": "-1667",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367254017,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 9500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2701515661,
+          "changedDate": "2026-10-08T18:59:54Z",
+          "participantId": 1000083462,
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701539073,
+      "closed": "2026-10-17T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553083,
+      "outcomes": [
+        {
+          "id": 4367230153,
+          "label": "(4) Miami (FL)",
+          "englishLabel": "(4) Miami Florida Hurricanes",
+          "odds": 1910,
+          "line": -20500,
+          "participant": "(4) Miami (FL)",
+          "type": "OT_ONE",
+          "betOfferId": 2701539073,
+          "changedDate": "2026-10-08T19:00:25Z",
+          "participantId": 1000089661,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367230154,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 1910,
+          "line": 20500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2701539073,
+          "changedDate": "2026-10-08T19:00:25Z",
+          "participantId": 1000083462,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701539078,
+      "closed": "2026-10-17T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553083,
+      "outcomes": [
+        {
+          "id": 4367230163,
+          "label": "(4) Miami (FL)",
+          "englishLabel": "(4) Miami Florida Hurricanes",
+          "odds": 1980,
+          "line": -21000,
+          "participant": "(4) Miami (FL)",
+          "type": "OT_ONE",
+          "betOfferId": 2701539078,
+          "changedDate": "2026-10-08T19:00:06Z",
+          "participantId": 1000089661,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367230164,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 1830,
+          "line": 21000,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2701539078,
+          "changedDate": "2026-10-08T19:00:06Z",
+          "participantId": 1000083462,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1027553083,
+      "name": "Florida State @ (4) Miami (FL)",
+      "nameDelimiter": "@",
+      "englishName": "(4) Miami Florida Hurricanes - Florida State Seminoles",
+      "homeName": "(4) Miami (FL)",
+      "awayName": "Florida State",
+      "start": "2026-10-17T23:00:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 4,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1000089661,
+          "name": "(4) Miami (FL)",
+          "englishName": "(4) Miami Florida Hurricanes",
+          "termKey": "_4__miami_florida_hurricanes",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000083462,
+          "name": "Florida State",
+          "englishName": "Florida State Seminoles",
+          "termKey": "florida_state_seminoles",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-17T23:00:00Z"
+    }
+  ],
+  "prePacks": [
+    {
+      "id": 7216031,
+      "label": "Spread and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8144029,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3050,
+                "american": "205",
+                "fractional": "41/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367230153,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701539073
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367254015,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701515660
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144030,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3450,
+                "american": "245",
+                "fractional": "49/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367230154,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701539073
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367254015,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701515660
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144031,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3550,
+                "american": "255",
+                "fractional": "5/2"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367230153,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701539073
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367254014,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701515660
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144032,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3200,
+                "american": "220",
+                "fractional": "11/5"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367230154,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701539073
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367254014,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701515660
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    },
+    {
+      "id": 7216030,
+      "label": "Game Winner and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8144028,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 16000,
+                "american": "1500",
+                "fractional": "15/1"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367254017,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701515661
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367254014,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701515660
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144025,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 1820,
+                "american": "-122",
+                "fractional": "4/5"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367254016,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701515661
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367254015,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701515660
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144026,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 16000,
+                "american": "1500",
+                "fractional": "15/1"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367254017,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701515661
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367254015,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701515660
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144027,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 1890,
+                "american": "-113",
+                "fractional": "22/25"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367254016,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701515661
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367254014,
+                          "eventId": 1027553083,
+                          "betOfferId": 2701515660
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    }
+  ]
+}

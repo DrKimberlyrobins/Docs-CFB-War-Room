@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:46.128Z",
+  "generatedAt": "2026-10-08T22:55:45.349Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,67 +10,11 @@
     "start": "2026-10-10T23:00:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 81,
     "events": 1,
     "prePacks": 0
   },
   "betOffers": [
-    {
-      "id": 2699901532,
-      "closed": "2026-10-10T23:00:00Z",
-      "criterion": {
-        "id": 1001159490,
-        "label": "Total Points",
-        "englishLabel": "Total Points - Including Overtime",
-        "order": [],
-        "occurrenceType": "POINTS",
-        "lifetime": "FULL_TIME_OVERTIME"
-      },
-      "betOfferType": {
-        "id": 6,
-        "name": "Over/Under",
-        "englishName": "Over/Under"
-      },
-      "eventId": 1027553011,
-      "outcomes": [
-        {
-          "id": 4361941972,
-          "label": "Under",
-          "englishLabel": "Under",
-          "odds": 1900,
-          "line": 58500,
-          "type": "OT_UNDER",
-          "betOfferId": 2699901532,
-          "changedDate": "2026-10-04T16:02:02Z",
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 1
-        },
-        {
-          "id": 4361941973,
-          "label": "Over",
-          "englishLabel": "Over",
-          "odds": 1930,
-          "line": 58500,
-          "type": "OT_OVER",
-          "betOfferId": 2699901532,
-          "changedDate": "2026-10-04T16:02:02Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 0
-        }
-      ],
-      "tags": [
-        "OFFERED_PREMATCH",
-        "MAIN_LINE",
-        "BET_BUILDER"
-      ],
-      "cashOutStatus": "ENABLED"
-    },
     {
       "id": 2699901533,
       "closed": "2026-10-10T23:00:00Z",
@@ -93,15 +37,15 @@
           "id": 4361941974,
           "label": "Memphis",
           "englishLabel": "Memphis Tigers",
-          "odds": 1850,
+          "odds": 2020,
           "line": -14500,
           "participant": "Memphis",
           "type": "OT_ONE",
           "betOfferId": 2699901533,
-          "changedDate": "2026-10-04T16:02:02Z",
+          "changedDate": "2026-10-08T21:50:23Z",
           "participantId": 1000056966,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -110,15 +54,15 @@
           "id": 4361941975,
           "label": "UAB",
           "englishLabel": "UAB Blazers",
-          "odds": 1980,
+          "odds": 1800,
           "line": 14500,
           "participant": "UAB",
           "type": "OT_TWO",
           "betOfferId": 2699901533,
-          "changedDate": "2026-10-04T16:02:02Z",
+          "changedDate": "2026-10-08T21:50:23Z",
           "participantId": 1000022790,
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -126,7 +70,183 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699901534,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4361941976,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1860,
+          "line": -13500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2699901534,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361941977,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1970,
+          "line": 13500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2699901534,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699901535,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4361941978,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2080,
+          "line": -15000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2699901535,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361941979,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1770,
+          "line": 15000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2699901535,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699924887,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4361986697,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2120,
+          "line": -15500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2699924887,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361986698,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1740,
+          "line": 15500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2699924887,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -153,15 +273,15 @@
           "id": 4361986699,
           "label": "Memphis",
           "englishLabel": "Memphis Tigers",
-          "odds": 1770,
+          "odds": 1950,
           "line": -14000,
           "participant": "Memphis",
           "type": "OT_ONE",
           "betOfferId": 2699924888,
-          "changedDate": "2026-10-04T16:02:02Z",
+          "changedDate": "2026-10-08T21:50:23Z",
           "participantId": 1000056966,
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-130",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -170,15 +290,75 @@
           "id": 4361986700,
           "label": "UAB",
           "englishLabel": "UAB Blazers",
-          "odds": 2080,
+          "odds": 1880,
           "line": 14000,
           "participant": "UAB",
           "type": "OT_TWO",
           "betOfferId": 2699924888,
-          "changedDate": "2026-10-04T16:02:02Z",
+          "changedDate": "2026-10-08T21:50:23Z",
           "participantId": 1000022790,
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699924889,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4361986701,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1820,
+          "line": -13000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2699924889,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361986702,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2020,
+          "line": 13000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2699924889,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -212,14 +392,14 @@
           "id": 4361986703,
           "label": "Memphis",
           "englishLabel": "Memphis Tigers",
-          "odds": 1100,
+          "odds": 1140,
           "participant": "Memphis",
           "type": "OT_ONE",
           "betOfferId": 2699924890,
-          "changedDate": "2026-10-04T16:02:02Z",
+          "changedDate": "2026-10-08T21:50:22Z",
           "participantId": 1000056966,
-          "oddsFractional": "1/10",
-          "oddsAmerican": "-1000",
+          "oddsFractional": "2/15",
+          "oddsAmerican": "-715",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -228,14 +408,14 @@
           "id": 4361986704,
           "label": "UAB",
           "englishLabel": "UAB Blazers",
-          "odds": 7000,
+          "odds": 5750,
           "participant": "UAB",
           "type": "OT_TWO",
           "betOfferId": 2699924890,
-          "changedDate": "2026-10-04T16:02:02Z",
+          "changedDate": "2026-10-08T21:50:22Z",
           "participantId": 1000022790,
-          "oddsFractional": "6/1",
-          "oddsAmerican": "600",
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -245,6 +425,4410 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699927730,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4361947960,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1710,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699927730,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361947961,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2170,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2699927730,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755930,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682452,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1150,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700755930,
+          "changedDate": "2026-10-08T21:50:22Z",
+          "participantId": 1000056966,
+          "oddsFractional": "1/7",
+          "oddsAmerican": "-670",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364682453,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 18000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700755930,
+          "changedDate": "2026-10-08T21:50:22Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364682454,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 6100,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700755930,
+          "changedDate": "2026-10-08T21:50:22Z",
+          "participantId": 1000022790,
+          "oddsFractional": "5/1",
+          "oddsAmerican": "510",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755934,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682461,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2180,
+          "line": -10500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700755934,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364682462,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1640,
+          "line": 10500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700755934,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755935,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682463,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1890,
+          "line": -8500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700755935,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364682464,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1850,
+          "line": 8500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700755935,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755936,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682465,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1930,
+          "line": -9500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700755936,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364682466,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1810,
+          "line": 9500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700755936,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755938,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682469,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 181000,
+          "participant": "UAB",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700755938,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "180/1",
+          "oddsAmerican": "18000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364682470,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 151000,
+          "participant": "Memphis",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700755938,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "150/1",
+          "oddsAmerican": "15000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364682471,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 5500,
+          "participant": "UAB",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700755938,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "9/2",
+          "oddsAmerican": "450",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364682472,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 1830,
+          "participant": "Memphis",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700755938,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "participantId": 1000056966,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364682473,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 6250,
+          "participant": "Memphis",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700755938,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "participantId": 1000056966,
+          "oddsFractional": "21/4",
+          "oddsAmerican": "525",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364682474,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 4500,
+          "participant": "UAB",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700755938,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755940,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682477,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2050,
+          "line": -4500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700755940,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364682478,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1720,
+          "line": 4500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700755940,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755944,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682485,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1620,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700755944,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364682486,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2330,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2700755944,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755945,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "UAB to win both halves",
+        "englishLabel": "UAB Blazers to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682489,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 14000,
+          "type": "OT_YES",
+          "betOfferId": 2700755945,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "13/1",
+          "oddsAmerican": "1300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364682492,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2700755945,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755946,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682493,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1890,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700755946,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364682494,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1940,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2700755946,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755951,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682503,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1810,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700755951,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364682504,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2700755951,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755953,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682507,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1570,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700755953,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364682508,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2450,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2700755953,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755954,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682509,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1560,
+          "line": -9500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700755954,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364682510,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2480,
+          "line": 9500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700755954,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755955,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682511,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2550,
+          "line": -18500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700755955,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364682512,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1530,
+          "line": 18500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700755955,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755956,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682513,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2900,
+          "line": -20500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700755956,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364682514,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1430,
+          "line": 20500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700755956,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755957,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682515,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2700,
+          "line": -19500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700755957,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364682516,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1480,
+          "line": 19500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700755957,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755958,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682517,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1380,
+          "line": -7000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700755958,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364682518,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 3050,
+          "line": 7000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700755958,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700755960,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364682521,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2180,
+          "line": -16000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700755960,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364682522,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1700,
+          "line": 16000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700755960,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769878,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716200,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 17000,
+          "type": "OT_YES",
+          "betOfferId": 2700769878,
+          "changedDate": "2026-10-08T21:50:22Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716202,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2700769878,
+          "changedDate": "2026-10-08T21:50:22Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769881,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Memphis to win both halves",
+        "englishLabel": "Memphis Tigers to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716209,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1790,
+          "type": "OT_YES",
+          "betOfferId": 2700769881,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716212,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1880,
+          "type": "OT_NO",
+          "betOfferId": 2700769881,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769884,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716217,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1600,
+          "line": -6500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769884,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716218,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2280,
+          "line": 6500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769884,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769885,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716219,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1800,
+          "type": "OT_ODD",
+          "betOfferId": 2700769885,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716220,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1870,
+          "type": "OT_EVEN",
+          "betOfferId": 2700769885,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769886,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716221,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1300,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769886,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716222,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3050,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769886,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700769887,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Memphis to score first and win",
+        "englishLabel": "Memphis Tigers to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716225,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1580,
+          "type": "OT_YES",
+          "betOfferId": 2700769887,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716228,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2180,
+          "type": "OT_NO",
+          "betOfferId": 2700769887,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769889,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716233,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1210,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769889,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-480",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716234,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4250,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769889,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "13/4",
+          "oddsAmerican": "325",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769891,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "UAB to Score in Both Halves",
+        "englishLabel": "UAB Blazers to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716239,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1210,
+          "type": "OT_YES",
+          "betOfferId": 2700769891,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-480",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716242,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 3800,
+          "type": "OT_NO",
+          "betOfferId": 2700769891,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769893,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716245,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1260,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769893,
+          "changedDate": "2026-10-08T21:50:22Z",
+          "participantId": 1000056966,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716246,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 13000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700769893,
+          "changedDate": "2026-10-08T21:50:22Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364716247,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769893,
+          "changedDate": "2026-10-08T21:50:22Z",
+          "participantId": 1000022790,
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769896,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Memphis to Score in every Quarter - Regular Time",
+        "englishLabel": "Memphis Tigers to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716256,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1600,
+          "type": "OT_YES",
+          "betOfferId": 2700769896,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716261,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2150,
+          "type": "OT_NO",
+          "betOfferId": 2700769896,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769897,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716264,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 1360,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700769897,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716267,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 46000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700769897,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "45/1",
+          "oddsAmerican": "4500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364716270,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 19000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700769897,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "18/1",
+          "oddsAmerican": "1800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364716273,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 19000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700769897,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "18/1",
+          "oddsAmerican": "1800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364716276,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 101000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700769897,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "100/1",
+          "oddsAmerican": "10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364716279,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 46000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700769897,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "45/1",
+          "oddsAmerican": "4500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364716282,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 8500,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700769897,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364716285,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 46000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700769897,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "45/1",
+          "oddsAmerican": "4500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364716288,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 9500,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700769897,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769900,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716293,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2230,
+          "line": -16500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769900,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716294,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1680,
+          "line": 16500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769900,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769901,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716295,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1360,
+          "line": -6500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769901,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716296,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 3200,
+          "line": 6500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769901,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769903,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716299,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1520,
+          "line": -8500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769903,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716300,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2550,
+          "line": 8500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769903,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769904,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716301,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2400,
+          "line": -17500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769904,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716302,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1580,
+          "line": 17500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769904,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769905,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716303,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1460,
+          "line": -7500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769905,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716304,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2750,
+          "line": 7500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769905,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769906,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716305,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1300,
+          "line": -5500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769906,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716306,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 3550,
+          "line": 5500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769906,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769907,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716307,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2650,
+          "line": -19000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769907,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716308,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1500,
+          "line": 19000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769907,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769908,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716309,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2320,
+          "line": -17000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769908,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716310,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1620,
+          "line": 17000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769908,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769909,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716311,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1530,
+          "line": -9000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769909,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716312,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2550,
+          "line": 9000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769909,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769910,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716313,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 3300,
+          "line": -22000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769910,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716314,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1340,
+          "line": 22000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769910,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769911,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716315,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2850,
+          "line": -20000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769911,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716316,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1440,
+          "line": 20000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769911,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769912,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716317,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1480,
+          "line": -8000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769912,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716318,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2700,
+          "line": 8000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769912,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700769919,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364716331,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1530,
+          "line": -5500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700769919,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364716332,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2400,
+          "line": 5500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700769919,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775860,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713222,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5300,
+          "type": "OT_YES",
+          "betOfferId": 2700775860,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "17/4",
+          "oddsAmerican": "430",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713227,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1110,
+          "type": "OT_NO",
+          "betOfferId": 2700775860,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-910",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775863,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "UAB to Score in every Quarter - Regular Time",
+        "englishLabel": "UAB Blazers to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713246,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3750,
+          "type": "OT_YES",
+          "betOfferId": 2700775863,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713251,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1210,
+          "type": "OT_NO",
+          "betOfferId": 2700775863,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-480",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775866,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Memphis to Score in Both Halves",
+        "englishLabel": "Memphis Tigers to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713258,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1010,
+          "type": "OT_YES",
+          "betOfferId": 2700775866,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "1/100",
+          "oddsAmerican": "-10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713261,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 19000,
+          "type": "OT_NO",
+          "betOfferId": 2700775866,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "18/1",
+          "oddsAmerican": "1800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775870,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713269,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1800,
+          "line": -7500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775870,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713270,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1950,
+          "line": 7500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775870,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775874,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by UAB - 1st Half",
+        "englishLabel": "Total Points by UAB Blazers - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713277,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1800,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700775874,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713278,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1860,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700775874,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775875,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713279,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1270,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775875,
+          "changedDate": "2026-10-08T21:50:22Z",
+          "participantId": 1000056966,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713280,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3600,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775875,
+          "changedDate": "2026-10-08T21:50:22Z",
+          "participantId": 1000022790,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775876,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713281,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1800,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2700775876,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713282,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1950,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700775876,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775877,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "UAB to score first and win",
+        "englishLabel": "UAB Blazers to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713285,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 7500,
+          "type": "OT_YES",
+          "betOfferId": 2700775877,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713288,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1050,
+          "type": "OT_NO",
+          "betOfferId": 2700775877,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "1/20",
+          "oddsAmerican": "-2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775878,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713289,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775878,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713290,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 5100,
+          "type": "OT_CROSS",
+          "betOfferId": 2700775878,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "oddsFractional": "4/1",
+          "oddsAmerican": "410",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364713291,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4250,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775878,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "13/4",
+          "oddsAmerican": "325",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775879,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713292,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700775879,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364713293,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2700775879,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775881,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713296,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1660,
+          "line": -10500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775881,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713297,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2250,
+          "line": 10500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775881,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775882,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713298,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1780,
+          "line": -12500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775882,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713299,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2070,
+          "line": 12500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775882,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775883,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713300,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 3200,
+          "line": -21500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775883,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713301,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1360,
+          "line": 21500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775883,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775884,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713302,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1720,
+          "line": -11500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775884,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713303,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2150,
+          "line": 11500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775884,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775885,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713304,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 2500,
+          "line": -18000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775885,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713305,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1550,
+          "line": 18000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775885,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775886,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713306,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1740,
+          "line": -12000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775886,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713307,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2120,
+          "line": 12000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775886,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775887,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713308,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1600,
+          "line": -10000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775887,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713309,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2380,
+          "line": 10000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775887,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775888,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713310,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1680,
+          "line": -11000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775888,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713311,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 2200,
+          "line": 11000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775888,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775889,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713312,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 3100,
+          "line": -21000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775889,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713313,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 1380,
+          "line": 21000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775889,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700775890,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364713314,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1320,
+          "line": -6000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2700775890,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364713315,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 3450,
+          "line": 6000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2700775890,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700810125,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4364858846,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2140,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700810125,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364858847,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1730,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700810125,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701047432,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4365725834,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2280,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701047432,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4365725835,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2701047432,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701047434,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Memphis - 1st Half",
+        "englishLabel": "Total Points by Memphis Tigers - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4365725838,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1960,
+          "line": 17500,
+          "type": "OT_OVER",
+          "betOfferId": 2701047434,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365725839,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1720,
+          "line": 17500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701047434,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701141041,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4365873126,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2400,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701141041,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4365873127,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2701141041,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701167795,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Memphis",
+        "englishLabel": "Total Points by Memphis Tigers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4366037331,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1820,
+          "line": 33500,
+          "type": "OT_OVER",
+          "betOfferId": 2701167795,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366037332,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 33500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701167795,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701168143,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4366074879,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2800,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701168143,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4366074880,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1450,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2701168143,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701173010,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4366044034,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1280,
+          "line": -5000,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2701173010,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366044035,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 3750,
+          "line": 5000,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2701173010,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701173636,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4366045746,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2550,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701173636,
+          "changedDate": "2026-10-08T21:50:33Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4366045747,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1530,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2701173636,
+          "changedDate": "2026-10-08T21:50:33Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701189350,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4366012835,
+          "label": "Memphis",
+          "englishLabel": "Memphis Tigers",
+          "odds": 1280,
+          "line": -4500,
+          "participant": "Memphis",
+          "type": "OT_ONE",
+          "betOfferId": 2701189350,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000056966,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366012836,
+          "label": "UAB",
+          "englishLabel": "UAB Blazers",
+          "odds": 3800,
+          "line": 4500,
+          "participant": "UAB",
+          "type": "OT_TWO",
+          "betOfferId": 2701189350,
+          "changedDate": "2026-10-08T21:50:23Z",
+          "participantId": 1000022790,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701578360,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4367387468,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3000,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701578360,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367387469,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1400,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2701578360,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701584271,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by UAB",
+        "englishLabel": "Total Points by UAB Blazers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4367396055,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 18500,
+          "type": "OT_OVER",
+          "betOfferId": 2701584271,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367396056,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1900,
+          "line": 18500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701584271,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701584272,
+      "closed": "2026-10-10T23:00:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553011,
+      "outcomes": [
+        {
+          "id": 4367396057,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1710,
+          "line": 26500,
+          "type": "OT_OVER",
+          "betOfferId": 2701584272,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367396058,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2060,
+          "line": 26500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701584272,
+          "changedDate": "2026-10-08T21:50:32Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     }
@@ -274,7 +4858,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 81,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -286,16 +4870,6 @@
       "state": "NOT_STARTED",
       "participants": [
         {
-          "participantId": 1000022790,
-          "name": "UAB",
-          "englishName": "UAB Blazers",
-          "termKey": "uab_blazers",
-          "scratched": false,
-          "nonRunner": false,
-          "home": false,
-          "participantType": "TEAM"
-        },
-        {
           "participantId": 1000056966,
           "name": "Memphis",
           "englishName": "Memphis Tigers",
@@ -303,6 +4877,16 @@
           "scratched": false,
           "nonRunner": false,
           "home": true,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000022790,
+          "name": "UAB",
+          "englishName": "UAB Blazers",
+          "termKey": "uab_blazers",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
           "participantType": "TEAM"
         }
       ],

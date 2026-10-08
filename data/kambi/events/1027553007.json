@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:45.843Z",
+  "generatedAt": "2026-10-08T22:55:45.091Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,7 +10,7 @@
     "start": "2026-10-10T22:00:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 85,
     "events": 1,
     "prePacks": 0
   },
@@ -37,14 +37,14 @@
           "id": 4361607502,
           "label": "Oregon State",
           "englishLabel": "Oregon State Beavers",
-          "odds": 1120,
+          "odds": 1110,
           "participant": "Oregon State",
           "type": "OT_ONE",
           "betOfferId": 2699772636,
-          "changedDate": "2026-10-05T13:23:33Z",
+          "changedDate": "2026-10-08T22:14:24Z",
           "participantId": 1000084593,
-          "oddsFractional": "1/9",
-          "oddsAmerican": "-835",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-910",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -57,7 +57,7 @@
           "participant": "San Diego State",
           "type": "OT_TWO",
           "betOfferId": 2699772636,
-          "changedDate": "2026-10-05T13:23:33Z",
+          "changedDate": "2026-10-08T22:14:24Z",
           "participantId": 1000025280,
           "oddsFractional": "11/2",
           "oddsAmerican": "550",
@@ -70,6 +70,65 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699772637,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361607504,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1790,
+          "line": -14500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2699772637,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361607505,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2040,
+          "line": 14500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2699772637,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -95,15 +154,15 @@
           "id": 4361607506,
           "label": "Oregon State",
           "englishLabel": "Oregon State Beavers",
-          "odds": 1740,
+          "odds": 1670,
           "line": -13500,
           "participant": "Oregon State",
           "type": "OT_ONE",
           "betOfferId": 2699772638,
-          "changedDate": "2026-10-05T13:23:33Z",
+          "changedDate": "2026-10-08T22:14:25Z",
           "participantId": 1000084593,
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-136",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -112,15 +171,15 @@
           "id": 4361607507,
           "label": "San Diego State",
           "englishLabel": "San Diego State Aztecs",
-          "odds": 2120,
+          "odds": 2230,
           "line": 13500,
           "participant": "San Diego State",
           "type": "OT_TWO",
           "betOfferId": 2699772638,
-          "changedDate": "2026-10-05T13:23:33Z",
+          "changedDate": "2026-10-08T22:14:25Z",
           "participantId": 1000025280,
-          "oddsFractional": "11/10",
-          "oddsAmerican": "112",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -128,7 +187,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -155,15 +213,15 @@
           "id": 4361607508,
           "label": "Oregon State",
           "englishLabel": "Oregon State Beavers",
-          "odds": 1700,
+          "odds": 1630,
           "line": -13000,
           "participant": "Oregon State",
           "type": "OT_ONE",
           "betOfferId": 2699772639,
-          "changedDate": "2026-10-05T13:23:33Z",
+          "changedDate": "2026-10-08T22:14:25Z",
           "participantId": 1000084593,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-143",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -172,18 +230,703 @@
           "id": 4361607509,
           "label": "San Diego State",
           "englishLabel": "San Diego State Aztecs",
-          "odds": 2180,
+          "odds": 2300,
           "line": 13000,
           "participant": "San Diego State",
           "type": "OT_TWO",
           "betOfferId": 2699772639,
-          "changedDate": "2026-10-05T13:23:33Z",
+          "changedDate": "2026-10-08T22:14:25Z",
           "participantId": 1000025280,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699783987,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361646333,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2280,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699783987,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361646334,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2699783987,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699783988,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361646335,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699783988,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361646336,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1920,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2699783988,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699783989,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361646337,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1450,
+          "line": 59500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699783989,
+          "changedDate": "2026-10-08T13:17:35Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361646338,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2800,
+          "line": 59500,
+          "type": "OT_OVER",
+          "betOfferId": 2699783989,
+          "changedDate": "2026-10-08T13:17:35Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699783990,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361646339,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2200,
+          "line": -18500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2699783990,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361646340,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1680,
+          "line": 18500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2699783990,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699783991,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361646341,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2140,
+          "line": -18000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2699783991,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361646342,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1730,
+          "line": 18000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2699783991,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699783992,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361646343,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1830,
+          "line": -15000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2699783992,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361646344,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2000,
+          "line": 15000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2699783992,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699807386,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361622615,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1290,
+          "line": -6500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2699807386,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361622616,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 3700,
+          "line": 6500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2699807386,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699807387,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361622617,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1860,
+          "line": -15500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2699807387,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361622618,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1970,
+          "line": 15500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2699807387,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699807388,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361622619,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1790,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699807388,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361622620,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2040,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2699807388,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699807389,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361622621,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1720,
+          "line": -14000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2699807389,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361622622,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2150,
+          "line": 14000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2699807389,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699809064,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361726822,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1700,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699809064,
+          "changedDate": "2026-10-08T13:17:35Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361726823,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2180,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2699809064,
+          "changedDate": "2026-10-08T13:17:35Z",
           "oddsFractional": "59/50",
           "oddsAmerican": "118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699831759,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4361698657,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1640,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699831759,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
           "displayOrder": 1
+        },
+        {
+          "id": 4361698658,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2300,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2699831759,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
         }
       ],
       "tags": [
@@ -214,13 +957,13 @@
           "id": 4361698667,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1840,
+          "odds": 1570,
           "line": 57500,
           "type": "OT_UNDER",
           "betOfferId": 2699831764,
-          "changedDate": "2026-10-05T13:23:33Z",
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -229,13 +972,13 @@
           "id": 4361698668,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1980,
+          "odds": 2450,
           "line": 57500,
           "type": "OT_OVER",
           "betOfferId": 2699831764,
-          "changedDate": "2026-10-05T13:23:33Z",
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -243,7 +986,4084 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726619,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Oregon State to Score in Both Halves",
+        "englishLabel": "Oregon State Beavers to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689229,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1010,
+          "type": "OT_YES",
+          "betOfferId": 2700726619,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "1/100",
+          "oddsAmerican": "-10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689232,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 23000,
+          "type": "OT_NO",
+          "betOfferId": 2700726619,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "22/1",
+          "oddsAmerican": "2200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726620,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "San Diego State to Score in every Quarter - Regular Time",
+        "englishLabel": "San Diego State Aztecs to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689237,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4000,
+          "type": "OT_YES",
+          "betOfferId": 2700726620,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689242,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1180,
+          "type": "OT_NO",
+          "betOfferId": 2700726620,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-560",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726621,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689243,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1840,
+          "type": "OT_ODD",
+          "betOfferId": 2700726621,
+          "changedDate": "2026-10-08T13:17:35Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689244,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1830,
+          "type": "OT_EVEN",
+          "betOfferId": 2700726621,
+          "changedDate": "2026-10-08T13:17:35Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726622,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "San Diego State to score first and win",
+        "englishLabel": "San Diego State Aztecs to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689247,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 8500,
+          "type": "OT_YES",
+          "betOfferId": 2700726622,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689250,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1040,
+          "type": "OT_NO",
+          "betOfferId": 2700726622,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "1/25",
+          "oddsAmerican": "-2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726628,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by San Diego State",
+        "englishLabel": "Total Points by San Diego State Aztecs - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689261,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1860,
+          "line": 18500,
+          "type": "OT_OVER",
+          "betOfferId": 2700726628,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689262,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 18500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700726628,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726631,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Oregon State",
+        "englishLabel": "Total Points by Oregon State Beavers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689267,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1950,
+          "line": 35500,
+          "type": "OT_OVER",
+          "betOfferId": 2700726631,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689268,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1730,
+          "line": 35500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700726631,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726633,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689271,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1190,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726633,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "2/11",
+          "oddsAmerican": "-530",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689272,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726633,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726637,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689279,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1850,
+          "line": -9500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726637,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689280,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1890,
+          "line": 9500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726637,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726638,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689281,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1540,
+          "line": -6500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726638,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689282,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2380,
+          "line": 6500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726638,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726639,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689283,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1730,
+          "line": -7500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726639,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689284,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2040,
+          "line": 7500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726639,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726640,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689285,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2070,
+          "line": -17500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726640,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689286,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1770,
+          "line": 17500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726640,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726641,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689287,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1440,
+          "line": -9500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726641,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689288,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2850,
+          "line": 9500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726641,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726642,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689289,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1520,
+          "line": -10500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726642,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689290,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2600,
+          "line": 10500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726642,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726644,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689293,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1610,
+          "line": -12500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726644,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689294,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2350,
+          "line": 12500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726644,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726645,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689295,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2280,
+          "line": -19500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726645,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689296,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1650,
+          "line": 19500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726645,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726646,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689297,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 3150,
+          "line": -24000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726646,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689298,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1370,
+          "line": 24000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726646,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726647,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689299,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2000,
+          "line": -17000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726647,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689300,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1830,
+          "line": 17000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726647,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726648,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689301,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1580,
+          "line": -12000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726648,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689302,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2430,
+          "line": 12000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726648,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726649,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689303,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1900,
+          "line": -16000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726649,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689304,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1930,
+          "line": 16000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726649,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726650,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689305,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2230,
+          "line": -19000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726650,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689306,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1670,
+          "line": 19000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726650,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726651,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689307,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1530,
+          "line": -11000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700726651,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689308,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2550,
+          "line": 11000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700726651,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700726659,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364689323,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2700726659,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364689324,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700726659,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752623,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686804,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 5400,
+          "participant": "San Diego State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700752623,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "22/5",
+          "oddsAmerican": "440",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364686805,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 5750,
+          "participant": "Oregon State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700752623,
+          "changedDate": "2026-10-08T13:17:35Z",
+          "participantId": 1000084593,
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364686806,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 161000,
+          "participant": "San Diego State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700752623,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "160/1",
+          "oddsAmerican": "16000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364686807,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 4600,
+          "participant": "San Diego State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700752623,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "18/5",
+          "oddsAmerican": "360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364686808,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 1870,
+          "participant": "Oregon State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700752623,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364686809,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 161000,
+          "participant": "Oregon State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700752623,
+          "changedDate": "2026-10-08T13:17:35Z",
+          "participantId": 1000084593,
+          "oddsFractional": "160/1",
+          "oddsAmerican": "16000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752624,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Oregon State to score first and win",
+        "englishLabel": "Oregon State Beavers to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686812,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1540,
+          "type": "OT_YES",
+          "betOfferId": 2700752624,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686815,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2250,
+          "type": "OT_NO",
+          "betOfferId": 2700752624,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752625,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Oregon State to win both halves",
+        "englishLabel": "Oregon State Beavers to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686818,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1640,
+          "type": "OT_YES",
+          "betOfferId": 2700752625,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686821,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2080,
+          "type": "OT_NO",
+          "betOfferId": 2700752625,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752627,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686824,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2100,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700752627,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364686825,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1760,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2700752627,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752629,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686828,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700752629,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364686829,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2700752629,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752630,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Oregon State to Score in every Quarter - Regular Time",
+        "englishLabel": "Oregon State Beavers to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686834,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1520,
+          "type": "OT_YES",
+          "betOfferId": 2700752630,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686839,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2300,
+          "type": "OT_NO",
+          "betOfferId": 2700752630,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752636,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686850,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700752636,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686851,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 5300,
+          "type": "OT_CROSS",
+          "betOfferId": 2700752636,
+          "changedDate": "2026-10-08T13:17:35Z",
+          "oddsFractional": "17/4",
+          "oddsAmerican": "430",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364686852,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4200,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700752636,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "16/5",
+          "oddsAmerican": "320",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752637,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by San Diego State - 1st Half",
+        "englishLabel": "Total Points by San Diego State Aztecs - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686853,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1770,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700752637,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686854,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1900,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700752637,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752639,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686858,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 19000,
+          "type": "OT_YES",
+          "betOfferId": 2700752639,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "18/1",
+          "oddsAmerican": "1800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686860,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1010,
+          "type": "OT_NO",
+          "betOfferId": 2700752639,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "1/100",
+          "oddsAmerican": "-10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752641,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686863,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1360,
+          "line": -7500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700752641,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686864,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 3200,
+          "line": 7500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700752641,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752642,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686865,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1940,
+          "line": -16500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700752642,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686866,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1890,
+          "line": 16500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700752642,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752643,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686867,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2430,
+          "line": -20500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700752643,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686868,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1580,
+          "line": 20500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700752643,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752644,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686869,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 3250,
+          "line": -24500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700752644,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686870,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1350,
+          "line": 24500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700752644,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752645,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686871,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2880,
+          "line": -23000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700752645,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686872,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1430,
+          "line": 23000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700752645,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752646,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686873,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2550,
+          "line": -21000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700752646,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686874,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1530,
+          "line": 21000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700752646,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752647,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686875,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1470,
+          "line": -10000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700752647,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686876,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2750,
+          "line": 10000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700752647,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752648,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686877,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1380,
+          "line": -8000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700752648,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686878,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 3100,
+          "line": 8000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700752648,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700752649,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364686879,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1300,
+          "line": -7000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700752649,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364686880,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 3550,
+          "line": 7000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700752649,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772408,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "San Diego State to win both halves",
+        "englishLabel": "San Diego State Aztecs to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678551,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 17000,
+          "type": "OT_YES",
+          "betOfferId": 2700772408,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678554,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2700772408,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772409,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678555,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1490,
+          "line": 58500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700772409,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364678556,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2650,
+          "line": 58500,
+          "type": "OT_OVER",
+          "betOfferId": 2700772409,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772410,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678557,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1300,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772410,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678558,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3100,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772410,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700772411,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678559,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2430,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700772411,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364678560,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2700772411,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772412,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678561,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1270,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772412,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678562,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3600,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772412,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772415,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678567,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2550,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700772415,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364678568,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1530,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700772415,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772420,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678580,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2040,
+          "line": -4500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772420,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678579,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1720,
+          "line": 4500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772420,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772422,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "San Diego State to Score in Both Halves",
+        "englishLabel": "San Diego State Aztecs to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678585,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1250,
+          "type": "OT_YES",
+          "betOfferId": 2700772422,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678588,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 3400,
+          "type": "OT_NO",
+          "betOfferId": 2700772422,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772423,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678595,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5500,
+          "type": "OT_YES",
+          "betOfferId": 2700772423,
+          "changedDate": "2026-10-08T09:23:06Z",
+          "oddsFractional": "9/2",
+          "oddsAmerican": "450",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678600,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1100,
+          "type": "OT_NO",
+          "betOfferId": 2700772423,
+          "changedDate": "2026-10-08T09:23:06Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772424,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678603,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 1320,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700772424,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678606,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 51000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700772424,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "50/1",
+          "oddsAmerican": "5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364678609,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 23000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700772424,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "22/1",
+          "oddsAmerican": "2200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364678612,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 19000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700772424,
+          "changedDate": "2026-10-08T13:17:35Z",
+          "oddsFractional": "18/1",
+          "oddsAmerican": "1800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364678615,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 121000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700772424,
+          "changedDate": "2026-10-08T13:17:35Z",
+          "oddsFractional": "120/1",
+          "oddsAmerican": "12000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364678618,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 56000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700772424,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "55/1",
+          "oddsAmerican": "5500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364678621,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 8500,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700772424,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364678624,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 51000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700772424,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "50/1",
+          "oddsAmerican": "5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364678627,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 11000,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700772424,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "10/1",
+          "oddsAmerican": "1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772425,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678628,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1120,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772425,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "1/9",
+          "oddsAmerican": "-835",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678629,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 19000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700772425,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "18/1",
+          "oddsAmerican": "1800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364678630,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 7000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772425,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "6/1",
+          "oddsAmerican": "600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772426,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678631,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1240,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772426,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678632,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 13000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700772426,
+          "changedDate": "2026-10-08T13:17:35Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364678633,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4800,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772426,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "19/5",
+          "oddsAmerican": "380",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772427,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678634,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1810,
+          "line": -8500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772427,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678635,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1930,
+          "line": 8500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772427,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772428,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678636,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2750,
+          "line": -22500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772428,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678637,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1460,
+          "line": 22500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772428,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772429,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678638,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2950,
+          "line": -23500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772429,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678639,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1410,
+          "line": 23500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772429,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772430,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678640,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1410,
+          "line": -8500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772430,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678641,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2950,
+          "line": 8500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772430,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772431,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678642,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1570,
+          "line": -11500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772431,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678643,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2450,
+          "line": 11500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772431,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772432,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678644,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2650,
+          "line": -21500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772432,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678645,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1490,
+          "line": 21500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772432,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772433,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678646,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2350,
+          "line": -20000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772433,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678647,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1610,
+          "line": 20000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772433,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772434,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678648,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 3450,
+          "line": -25000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772434,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678649,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1320,
+          "line": 25000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772434,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772435,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678650,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 1430,
+          "line": -9000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772435,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678651,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 2900,
+          "line": 9000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772435,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772436,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678652,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2750,
+          "line": -22000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772436,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678653,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1470,
+          "line": 22000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772436,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772446,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678672,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2070,
+          "line": -10500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772446,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678673,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1700,
+          "line": 10500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772446,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700772447,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4364678674,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 2300,
+          "line": -11500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2700772447,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364678675,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1580,
+          "line": 11500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2700772447,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701330849,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Oregon State - 1st Half",
+        "englishLabel": "Total Points by Oregon State Beavers - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4366623363,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1880,
+          "line": 19500,
+          "type": "OT_OVER",
+          "betOfferId": 2701330849,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366623364,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 19500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701330849,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701339953,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4366640453,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1940,
+          "line": 28500,
+          "type": "OT_OVER",
+          "betOfferId": 2701339953,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366640454,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 28500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701339953,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701347826,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4366637682,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 3500,
+          "line": -25500,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2701347826,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000084593,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366637683,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1300,
+          "line": 25500,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2701347826,
+          "changedDate": "2026-10-08T22:14:24Z",
+          "participantId": 1000025280,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701347827,
+      "closed": "2026-10-10T22:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553007,
+      "outcomes": [
+        {
+          "id": 4366637684,
+          "label": "Oregon State",
+          "englishLabel": "Oregon State Beavers",
+          "odds": 3650,
+          "line": -26000,
+          "participant": "Oregon State",
+          "type": "OT_ONE",
+          "betOfferId": 2701347827,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000084593,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366637685,
+          "label": "San Diego State",
+          "englishLabel": "San Diego State Aztecs",
+          "odds": 1290,
+          "line": 26000,
+          "participant": "San Diego State",
+          "type": "OT_TWO",
+          "betOfferId": 2701347827,
+          "changedDate": "2026-10-08T22:14:25Z",
+          "participantId": 1000025280,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -274,7 +5094,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 85,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

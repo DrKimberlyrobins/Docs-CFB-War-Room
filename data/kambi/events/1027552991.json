@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:43.606Z",
+  "generatedAt": "2026-10-08T22:55:43.035Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,11 +10,70 @@
     "start": "2026-10-10T19:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 93,
     "events": 1,
     "prePacks": 0
   },
   "betOffers": [
+    {
+      "id": 2699879465,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4361968522,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 2170,
+          "line": 5500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2699879465,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361968523,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1710,
+          "line": -5500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2699879465,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2699879466,
       "closed": "2026-10-10T19:30:00Z",
@@ -37,14 +96,14 @@
           "id": 4361968524,
           "label": "Akron",
           "englishLabel": "Akron Zips",
-          "odds": 3350,
+          "odds": 3150,
           "participant": "Akron",
           "type": "OT_ONE",
           "betOfferId": 2699879466,
-          "changedDate": "2026-10-05T00:44:04Z",
+          "changedDate": "2026-10-08T13:16:05Z",
           "participantId": 1000068454,
-          "oddsFractional": "47/20",
-          "oddsAmerican": "235",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +112,14 @@
           "id": 4361968525,
           "label": "Eastern Michigan",
           "englishLabel": "Eastern Michigan Eagles",
-          "odds": 1330,
+          "odds": 1360,
           "participant": "Eastern Michigan",
           "type": "OT_TWO",
           "betOfferId": 2699879466,
-          "changedDate": "2026-10-05T00:44:04Z",
+          "changedDate": "2026-10-08T13:16:05Z",
           "participantId": 1000087448,
-          "oddsFractional": "33/100",
-          "oddsAmerican": "-305",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -100,7 +159,7 @@
           "participant": "Akron",
           "type": "OT_ONE",
           "betOfferId": 2699879467,
-          "changedDate": "2026-10-05T00:44:04Z",
+          "changedDate": "2026-10-08T13:16:05Z",
           "participantId": 1000068454,
           "oddsFractional": "22/25",
           "oddsAmerican": "-114",
@@ -112,15 +171,15 @@
           "id": 4361968527,
           "label": "Eastern Michigan",
           "englishLabel": "Eastern Michigan Eagles",
-          "odds": 1940,
+          "odds": 1950,
           "line": -7000,
           "participant": "Eastern Michigan",
           "type": "OT_TWO",
           "betOfferId": 2699879467,
-          "changedDate": "2026-10-05T00:44:04Z",
+          "changedDate": "2026-10-08T13:16:05Z",
           "participantId": 1000087448,
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -129,6 +188,120 @@
       "tags": [
         "OFFERED_PREMATCH",
         "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699889873,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4361974879,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2180,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699889873,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4361974880,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2699889873,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699889874,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4361974881,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 2230,
+          "line": 5000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2699889874,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361974882,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1670,
+          "line": -5000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2699889874,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -155,13 +328,13 @@
           "id": 4361962621,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1940,
+          "odds": 2060,
           "line": 50500,
           "type": "OT_UNDER",
           "betOfferId": 2699916160,
-          "changedDate": "2026-10-05T00:44:04Z",
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -170,13 +343,13 @@
           "id": 4361962622,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1890,
+          "odds": 1790,
           "line": 50500,
           "type": "OT_OVER",
           "betOfferId": 2699916160,
-          "changedDate": "2026-10-05T00:44:04Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -184,7 +357,65 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699916161,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4361962623,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 2280,
+          "line": 4500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2699916161,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361962624,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1650,
+          "line": -4500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2699916161,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -211,15 +442,15 @@
           "id": 4361962625,
           "label": "Akron",
           "englishLabel": "Akron Zips",
-          "odds": 2020,
+          "odds": 2000,
           "line": 6500,
           "participant": "Akron",
           "type": "OT_ONE",
           "betOfferId": 2699916162,
-          "changedDate": "2026-10-05T00:44:04Z",
+          "changedDate": "2026-10-08T13:16:05Z",
           "participantId": 1000068454,
           "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "oddsAmerican": "100",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -228,15 +459,5034 @@
           "id": 4361962626,
           "label": "Eastern Michigan",
           "englishLabel": "Eastern Michigan Eagles",
-          "odds": 1820,
+          "odds": 1830,
           "line": -6500,
           "participant": "Eastern Michigan",
           "type": "OT_TWO",
           "betOfferId": 2699916162,
-          "changedDate": "2026-10-05T00:44:04Z",
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699916163,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4361962627,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 2100,
+          "line": 6000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2699916163,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361962628,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1760,
+          "line": -6000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2699916163,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700495638,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4363860826,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1830,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700495638,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363860827,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2000,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2700495638,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602836,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Eastern Michigan - 1st Half",
+        "englishLabel": "Total Points by Eastern Michigan Eagles - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252819,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 14500,
+          "type": "OT_OVER",
+          "betOfferId": 2700602836,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252820,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 14500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700602836,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602837,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252821,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3300,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602837,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252822,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 14000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700602837,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "13/1",
+          "oddsAmerican": "1300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364252823,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1400,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602837,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000087448,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602839,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252827,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1920,
+          "line": 500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602839,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000068454,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252826,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1820,
+          "line": -500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602839,
+          "changedDate": "2026-10-06T12:25:45Z",
           "participantId": 1000087448,
           "oddsFractional": "4/5",
           "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602840,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Akron",
+        "englishLabel": "Total Points by Akron Zips - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252828,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1760,
+          "line": 21500,
+          "type": "OT_OVER",
+          "betOfferId": 2700602840,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252829,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 21500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700602840,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602841,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Akron",
+        "englishLabel": "Total Points by Akron Zips - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252830,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2700602841,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252831,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2070,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700602841,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602843,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Akron to Score in Both Halves",
+        "englishLabel": "Akron Zips to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252836,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1110,
+          "type": "OT_YES",
+          "betOfferId": 2700602843,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-910",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252844,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 5200,
+          "type": "OT_NO",
+          "betOfferId": 2700602843,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "21/5",
+          "oddsAmerican": "420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602844,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Akron to Score in every Quarter - Regular Time",
+        "englishLabel": "Akron Zips to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252845,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2950,
+          "type": "OT_YES",
+          "betOfferId": 2700602844,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252855,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1330,
+          "type": "OT_NO",
+          "betOfferId": 2700602844,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602845,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Akron to win both halves",
+        "englishLabel": "Akron Zips to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252847,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 7000,
+          "type": "OT_YES",
+          "betOfferId": 2700602845,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "6/1",
+          "oddsAmerican": "600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252853,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1060,
+          "type": "OT_NO",
+          "betOfferId": 2700602845,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "1/18",
+          "oddsAmerican": "-1667",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602846,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252856,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700602846,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364252857,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1570,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700602846,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602848,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252860,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602848,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252861,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602848,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602850,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Eastern Michigan to Score in every Quarter - Regular Time",
+        "englishLabel": "Eastern Michigan Eagles to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252868,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1890,
+          "type": "OT_YES",
+          "betOfferId": 2700602850,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252873,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1780,
+          "type": "OT_NO",
+          "betOfferId": 2700602850,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602851,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252874,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1530,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700602851,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364252875,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2550,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2700602851,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602853,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252878,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2700,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700602853,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364252879,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1480,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700602853,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602854,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252880,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3050,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602854,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000068454,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252881,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4600,
+          "type": "OT_CROSS",
+          "betOfferId": 2700602854,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "18/5",
+          "oddsAmerican": "360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364252882,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1840,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602854,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000087448,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602855,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252883,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 2200,
+          "line": 2500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602855,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000068454,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252884,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1630,
+          "line": -2500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602855,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602857,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252887,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 2430,
+          "line": 3500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602857,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252888,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1570,
+          "line": -3500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602857,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602858,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252889,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1400,
+          "line": 13500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602858,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252890,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 3000,
+          "line": -13500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602858,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602859,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252891,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 3000,
+          "line": 1500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602859,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252892,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1400,
+          "line": -1500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602859,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602860,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252893,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 3200,
+          "line": 500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602860,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252894,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1360,
+          "line": -500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602860,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602861,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252895,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 2750,
+          "line": 2500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602861,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252896,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1460,
+          "line": -2500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602861,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602862,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252897,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1770,
+          "line": 7500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602862,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252898,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2080,
+          "line": -7500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602862,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602863,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252899,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1320,
+          "line": 15000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602863,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252900,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 3500,
+          "line": -15000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602863,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602864,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252901,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1720,
+          "line": 8000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602864,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252902,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2160,
+          "line": -8000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602864,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602865,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252903,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 2950,
+          "line": 2000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602865,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252904,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1420,
+          "line": -2000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602865,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602866,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252905,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 3150,
+          "line": 1000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602866,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252906,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1370,
+          "line": -1000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602866,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602867,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252907,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 2650,
+          "line": 3000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602867,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252908,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1500,
+          "line": -3000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602867,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602868,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252909,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1570,
+          "line": 10000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602868,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252910,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2450,
+          "line": -10000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602868,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602869,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252911,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1500,
+          "line": 11000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602869,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252912,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2630,
+          "line": -11000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602869,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602870,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252913,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1650,
+          "line": 9000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602870,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252914,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2280,
+          "line": -9000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602870,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700602874,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364252921,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 2250,
+          "line": 1500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700602874,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364252922,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1600,
+          "line": -1500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700602874,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000087448,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631778,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Eastern Michigan to Score in Both Halves",
+        "englishLabel": "Eastern Michigan Eagles to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238644,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1030,
+          "type": "OT_YES",
+          "betOfferId": 2700631778,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238647,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 11500,
+          "type": "OT_NO",
+          "betOfferId": 2700631778,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "21/2",
+          "oddsAmerican": "1050",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631780,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238650,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 161000,
+          "participant": "Akron",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700631780,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "160/1",
+          "oddsAmerican": "16000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364238651,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 3550,
+          "participant": "Akron",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700631780,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000068454,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364238652,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 4900,
+          "participant": "Eastern Michigan",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700631780,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "19/5",
+          "oddsAmerican": "390",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364238653,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 5100,
+          "participant": "Akron",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700631780,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "4/1",
+          "oddsAmerican": "410",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364238654,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 2280,
+          "participant": "Eastern Michigan",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700631780,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364238655,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 161000,
+          "participant": "Eastern Michigan",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700631780,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "160/1",
+          "oddsAmerican": "16000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631781,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238657,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1870,
+          "line": 1500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700631781,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000068454,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238656,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1870,
+          "line": -1500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700631781,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631782,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238662,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5000,
+          "type": "OT_YES",
+          "betOfferId": 2700631782,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "4/1",
+          "oddsAmerican": "400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238667,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1120,
+          "type": "OT_NO",
+          "betOfferId": 2700631782,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "1/9",
+          "oddsAmerican": "-835",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631783,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238668,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1790,
+          "type": "OT_ODD",
+          "betOfferId": 2700631783,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238669,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1880,
+          "type": "OT_EVEN",
+          "betOfferId": 2700631783,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631784,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Akron",
+        "englishLabel": "Total Points by Akron Zips - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238670,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2000,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700631784,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238671,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700631784,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631787,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238676,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1660,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700631787,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364238677,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2250,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2700631787,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631789,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238680,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2040,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700631789,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238681,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1730,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700631789,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631790,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238682,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700631790,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364238683,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1640,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700631790,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631791,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238684,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2320,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700631791,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238685,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1520,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700631791,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000087448,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700631792,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Eastern Michigan",
+        "englishLabel": "Total Points by Eastern Michigan Eagles - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238686,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1960,
+          "line": 30500,
+          "type": "OT_OVER",
+          "betOfferId": 2700631792,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238687,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1720,
+          "line": 30500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700631792,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631793,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Akron - 1st Half",
+        "englishLabel": "Total Points by Akron Zips - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238688,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700631793,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238689,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2330,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700631793,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631794,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Eastern Michigan",
+        "englishLabel": "Total Points by Eastern Michigan Eagles - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238690,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1720,
+          "line": 28500,
+          "type": "OT_OVER",
+          "betOfferId": 2700631794,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238691,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1970,
+          "line": 28500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700631794,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631795,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238692,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1750,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700631795,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364238693,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2100,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2700631795,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631796,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238694,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1580,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700631796,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364238695,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2400,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2700631796,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631799,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238700,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1530,
+          "line": 10500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700631799,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238701,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2550,
+          "line": -10500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700631799,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631800,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238702,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 3400,
+          "line": -1500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700631800,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238703,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1330,
+          "line": 1500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700631800,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631801,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238704,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1340,
+          "line": 14500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700631801,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238705,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 3350,
+          "line": -14500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700631801,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631802,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238706,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1450,
+          "line": 12500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700631802,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238707,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2800,
+          "line": -12500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700631802,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631803,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238708,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1350,
+          "line": 14000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700631803,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238709,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 3250,
+          "line": -14000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700631803,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631804,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238710,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1280,
+          "line": 16000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700631804,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238711,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 3750,
+          "line": -16000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700631804,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631805,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238712,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1470,
+          "line": 12000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700631805,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238713,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2750,
+          "line": -12000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700631805,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631806,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238714,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 3600,
+          "line": -2000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700631806,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238715,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1300,
+          "line": 2000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700631806,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631825,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238759,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1610,
+          "line": 3500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700631825,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238758,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2230,
+          "line": -3500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700631825,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700631843,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Eastern Michigan",
+        "englishLabel": "Total Points by Eastern Michigan Eagles - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364238880,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1630,
+          "line": 27500,
+          "type": "OT_OVER",
+          "betOfferId": 2700631843,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364238881,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2100,
+          "line": 27500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700631843,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637454,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Akron - 1st Half",
+        "englishLabel": "Total Points by Akron Zips - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255707,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1980,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700637454,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255708,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1700,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700637454,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637455,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255710,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 12000,
+          "type": "OT_YES",
+          "betOfferId": 2700637455,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255712,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1030,
+          "type": "OT_NO",
+          "betOfferId": 2700637455,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637456,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Eastern Michigan to score first and win",
+        "englishLabel": "Eastern Michigan Eagles to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255715,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1960,
+          "type": "OT_YES",
+          "betOfferId": 2700637456,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255718,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1720,
+          "type": "OT_NO",
+          "betOfferId": 2700637456,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637457,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255719,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2700,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637457,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255720,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1450,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637457,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637458,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255721,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2880,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637458,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255722,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 10500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700637458,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "19/2",
+          "oddsAmerican": "950",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364255723,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1550,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637458,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000087448,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637459,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255724,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 26500,
+          "type": "OT_OVER",
+          "betOfferId": 2700637459,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255725,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1900,
+          "line": 26500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700637459,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637462,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Eastern Michigan to win both halves",
+        "englishLabel": "Eastern Michigan Eagles to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255742,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2550,
+          "type": "OT_YES",
+          "betOfferId": 2700637462,
+          "changedDate": "2026-10-06T12:25:31Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255745,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1430,
+          "type": "OT_NO",
+          "betOfferId": 2700637462,
+          "changedDate": "2026-10-06T12:25:31Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637463,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255747,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1870,
+          "line": 2500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637463,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000068454,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255746,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1880,
+          "line": -2500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637463,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637464,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Akron",
+        "englishLabel": "Total Points by Akron Zips - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255748,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2700637464,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255749,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1840,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700637464,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637465,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255750,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2040,
+          "line": 11500,
+          "type": "OT_OVER",
+          "betOfferId": 2700637465,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255751,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1730,
+          "line": 11500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700637465,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637466,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255754,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 4700,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700637466,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "18/5",
+          "oddsAmerican": "370",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255757,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 31000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700637466,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364255760,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 7500,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700637466,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364255763,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 30000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700637466,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "29/1",
+          "oddsAmerican": "2900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364255766,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 81000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700637466,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "80/1",
+          "oddsAmerican": "8000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364255769,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 17000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700637466,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364255772,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 12000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700637466,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364255775,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 31000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700637466,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364255778,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 1790,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700637466,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637467,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Akron to score first and win",
+        "englishLabel": "Akron Zips to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255781,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4500,
+          "type": "OT_YES",
+          "betOfferId": 2700637467,
+          "changedDate": "2026-10-06T12:25:31Z",
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255784,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1160,
+          "type": "OT_NO",
+          "betOfferId": 2700637467,
+          "changedDate": "2026-10-06T12:25:31Z",
+          "oddsFractional": "2/13",
+          "oddsAmerican": "-625",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637469,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255787,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700637469,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364255788,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1910,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2700637469,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637470,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255789,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2850,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700637470,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364255790,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1440,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700637470,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637471,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255791,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1760,
+          "line": 4500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637471,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000068454,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255792,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1980,
+          "line": -4500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637471,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000087448,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637472,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Eastern Michigan",
+        "englishLabel": "Total Points by Eastern Michigan Eagles - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255793,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 29500,
+          "type": "OT_OVER",
+          "betOfferId": 2700637472,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255794,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1890,
+          "line": 29500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700637472,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637473,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255795,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1640,
+          "line": 6500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637473,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000068454,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255796,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2170,
+          "line": -6500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637473,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "participantId": 1000087448,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637474,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255797,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1730,
+          "line": 5500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637474,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255798,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2040,
+          "line": -5500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637474,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637476,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255801,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1950,
+          "line": 3500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637476,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000068454,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255802,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1800,
+          "line": -3500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637476,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637478,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255805,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1670,
+          "line": 8500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637478,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255806,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2230,
+          "line": -8500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637478,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637479,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255807,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1640,
+          "line": 9500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637479,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255808,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2300,
+          "line": -9500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637479,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637480,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255809,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1300,
+          "line": 15500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637480,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255810,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 3550,
+          "line": -15500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637480,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637481,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255811,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 3200,
+          "line": -500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637481,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255812,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1360,
+          "line": 500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637481,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637482,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255813,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1480,
+          "line": 11500,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637482,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255814,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2700,
+          "line": -11500,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637482,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000087448,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637483,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255815,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 3350,
+          "line": -1000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637483,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255816,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1340,
+          "line": 1000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637483,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637484,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255817,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 1420,
+          "line": 13000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637484,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255818,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 2900,
+          "line": -13000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637484,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637485,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255819,
+          "label": "Akron",
+          "englishLabel": "Akron Zips",
+          "odds": 2380,
+          "line": 4000,
+          "participant": "Akron",
+          "type": "OT_ONE",
+          "betOfferId": 2700637485,
+          "changedDate": "2026-10-06T12:25:46Z",
+          "participantId": 1000068454,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255820,
+          "label": "Eastern Michigan",
+          "englishLabel": "Eastern Michigan Eagles",
+          "odds": 1600,
+          "line": -4000,
+          "participant": "Eastern Michigan",
+          "type": "OT_TWO",
+          "betOfferId": 2700637485,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "participantId": 1000087448,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700637492,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Eastern Michigan - 1st Half",
+        "englishLabel": "Total Points by Eastern Michigan Eagles - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552991,
+      "outcomes": [
+        {
+          "id": 4364255839,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700637492,
+          "changedDate": "2026-10-06T12:25:45Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364255840,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2180,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700637492,
+          "changedDate": "2026-10-08T13:16:05Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -274,7 +5524,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 93,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

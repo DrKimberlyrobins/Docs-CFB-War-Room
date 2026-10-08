@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:45.024Z",
+  "generatedAt": "2026-10-08T22:55:44.323Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,11 +10,129 @@
     "start": "2026-10-10T20:00:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 91,
     "events": 1,
     "prePacks": 0
   },
   "betOffers": [
+    {
+      "id": 2699984125,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4362275373,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1380,
+          "line": -3500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2699984125,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362275374,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 3050,
+          "line": 3500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2699984125,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699984126,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4362275375,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1740,
+          "line": -8000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2699984126,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362275376,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2120,
+          "line": 8000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2699984126,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2699984127,
       "closed": "2026-10-10T20:00:00Z",
@@ -37,14 +155,14 @@
           "id": 4362275377,
           "label": "East Carolina",
           "englishLabel": "East Carolina Pirates",
-          "odds": 1250,
+          "odds": 1240,
           "participant": "East Carolina",
           "type": "OT_ONE",
           "betOfferId": 2699984127,
-          "changedDate": "2026-10-05T00:19:06Z",
+          "changedDate": "2026-10-08T20:55:03Z",
           "participantId": 1000047740,
-          "oddsFractional": "1/4",
-          "oddsAmerican": "-400",
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +171,14 @@
           "id": 4362275378,
           "label": "Rice",
           "englishLabel": "Rice Owls",
-          "odds": 4000,
+          "odds": 4100,
           "participant": "Rice",
           "type": "OT_TWO",
           "betOfferId": 2699984127,
-          "changedDate": "2026-10-05T00:19:06Z",
+          "changedDate": "2026-10-08T20:55:03Z",
           "participantId": 1000035650,
           "oddsFractional": "3/1",
-          "oddsAmerican": "300",
+          "oddsAmerican": "310",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -95,15 +213,15 @@
           "id": 4362283743,
           "label": "East Carolina",
           "englishLabel": "East Carolina Pirates",
-          "odds": 2060,
+          "odds": 1980,
           "line": -10500,
           "participant": "East Carolina",
           "type": "OT_ONE",
           "betOfferId": 2699986970,
-          "changedDate": "2026-10-05T00:19:06Z",
+          "changedDate": "2026-10-08T20:55:03Z",
           "participantId": 1000047740,
-          "oddsFractional": "21/20",
-          "oddsAmerican": "106",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -112,18 +230,187 @@
           "id": 4362283746,
           "label": "Rice",
           "englishLabel": "Rice Owls",
-          "odds": 1790,
+          "odds": 1850,
           "line": 10500,
           "participant": "Rice",
           "type": "OT_TWO",
           "betOfferId": 2699986970,
-          "changedDate": "2026-10-05T00:19:06Z",
+          "changedDate": "2026-10-08T20:55:03Z",
           "participantId": 1000035650,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699986971,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4362283744,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1560,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699986971,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362283745,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2480,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2699986971,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699986972,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4362283747,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1790,
+          "line": -8500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2699986972,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
           "oddsFractional": "10/13",
           "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362283748,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2060,
+          "line": 8500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2699986972,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
           "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700015627,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4362280744,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1650,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700015627,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362280746,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2280,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700015627,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
         }
       ],
       "tags": [
@@ -154,13 +441,13 @@
           "id": 4362280745,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1930,
+          "odds": 1740,
           "line": 49500,
           "type": "OT_UNDER",
           "betOfferId": 2700015628,
-          "changedDate": "2026-10-04T21:28:45Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -169,13 +456,13 @@
           "id": 4362280747,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1900,
+          "odds": 2120,
           "line": 49500,
           "type": "OT_OVER",
           "betOfferId": 2700015628,
-          "changedDate": "2026-10-04T21:28:45Z",
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -183,7 +470,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -210,15 +496,15 @@
           "id": 4362280748,
           "label": "East Carolina",
           "englishLabel": "East Carolina Pirates",
-          "odds": 1980,
+          "odds": 1910,
           "line": -10000,
           "participant": "East Carolina",
           "type": "OT_ONE",
           "betOfferId": 2700015629,
-          "changedDate": "2026-10-05T00:19:06Z",
+          "changedDate": "2026-10-08T20:55:03Z",
           "participantId": 1000047740,
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -227,12 +513,2274 @@
           "id": 4362280749,
           "label": "Rice",
           "englishLabel": "Rice Owls",
-          "odds": 1860,
+          "odds": 1920,
           "line": 10000,
           "participant": "Rice",
           "type": "OT_TWO",
           "betOfferId": 2700015629,
-          "changedDate": "2026-10-05T00:19:06Z",
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700015630,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4362280750,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1330,
+          "line": -3000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700015630,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362280751,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 3400,
+          "line": 3000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700015630,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700397207,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4363582170,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700397207,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363582171,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1920,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700397207,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700402434,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4363576435,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1840,
+          "line": -9500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700402434,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363576436,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2000,
+          "line": 9500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700402434,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700408189,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4363634523,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1810,
+          "line": -9000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700408189,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363634524,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2020,
+          "line": 9000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700408189,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749503,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364671999,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1820,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700749503,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672000,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700749503,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749504,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672001,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1750,
+          "line": -1500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749504,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672002,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2020,
+          "line": 1500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749504,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749506,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "East Carolina to win both halves",
+        "englishLabel": "East Carolina Pirates to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672007,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2050,
+          "type": "OT_YES",
+          "betOfferId": 2700749506,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672010,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1660,
+          "type": "OT_NO",
+          "betOfferId": 2700749506,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749508,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "East Carolina to score first and win",
+        "englishLabel": "East Carolina Pirates to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672015,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1740,
+          "type": "OT_YES",
+          "betOfferId": 2700749508,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672018,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1950,
+          "type": "OT_NO",
+          "betOfferId": 2700749508,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749509,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672019,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2500,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700749509,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364672020,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1550,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700749509,
+          "changedDate": "2026-10-08T13:17:18Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749510,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672021,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2880,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700749510,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364672022,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1430,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2700749510,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749511,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672023,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1600,
+          "line": -3500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749511,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672024,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2250,
+          "line": 3500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749511,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749512,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672025,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2200,
+          "line": -7500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749512,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672026,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1630,
+          "line": 7500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749512,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749513,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672027,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1750,
+          "line": -4500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749513,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672028,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2000,
+          "line": 4500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749513,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749514,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by East Carolina",
+        "englishLabel": "Total Points by East Carolina Pirates - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672029,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1670,
+          "line": 27500,
+          "type": "OT_OVER",
+          "betOfferId": 2700749514,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672030,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2040,
+          "line": 27500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700749514,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749515,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Rice",
+        "englishLabel": "Total Points by Rice Owls - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672031,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1610,
+          "line": 16500,
+          "type": "OT_OVER",
+          "betOfferId": 2700749515,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672032,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2120,
+          "line": 16500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700749515,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749516,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672033,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1410,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749516,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672034,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2800,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749516,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749517,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672035,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1720,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700749517,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672036,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2050,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700749517,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749519,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Rice to Score in Both Halves",
+        "englishLabel": "Rice Owls to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672041,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1220,
+          "type": "OT_YES",
+          "betOfferId": 2700749519,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "11/50",
+          "oddsAmerican": "-455",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672044,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 3650,
+          "type": "OT_NO",
+          "betOfferId": 2700749519,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749526,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672059,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1700,
+          "line": -7500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749526,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672060,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2180,
+          "line": 7500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749526,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749527,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672061,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1240,
+          "line": -500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749527,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672062,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 4100,
+          "line": 500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749527,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749528,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672063,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1480,
+          "line": -5500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749528,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672064,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2700,
+          "line": 5500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749528,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749529,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672065,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2020,
+          "line": -11000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749529,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672066,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1800,
+          "line": 11000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749529,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749530,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672067,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2230,
+          "line": -13000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749530,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672068,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1680,
+          "line": 13000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749530,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749531,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672069,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2750,
+          "line": -16000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749531,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672070,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1470,
+          "line": 16000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749531,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749532,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672071,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1240,
+          "line": -1000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749532,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672072,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 4100,
+          "line": 1000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749532,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749533,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672073,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1500,
+          "line": -6000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749533,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672074,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2600,
+          "line": 6000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749533,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749534,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672075,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1450,
+          "line": -5000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749534,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672076,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2800,
+          "line": 5000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749534,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700749535,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364672077,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 3250,
+          "line": -18000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700749535,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364672078,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1350,
+          "line": 18000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700749535,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760763,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Rice to win both halves",
+        "englishLabel": "Rice Owls to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663339,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 10000,
+          "type": "OT_YES",
+          "betOfferId": 2700760763,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663342,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1030,
+          "type": "OT_NO",
+          "betOfferId": 2700760763,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760764,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663343,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1790,
+          "type": "OT_ODD",
+          "betOfferId": 2700760764,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663344,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1880,
+          "type": "OT_EVEN",
+          "betOfferId": 2700760764,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760768,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Rice to score first and win",
+        "englishLabel": "Rice Owls to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663355,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5400,
+          "type": "OT_YES",
+          "betOfferId": 2700760768,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "22/5",
+          "oddsAmerican": "440",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663358,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1100,
+          "type": "OT_NO",
+          "betOfferId": 2700760768,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760769,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663359,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1260,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760769,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663360,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 15000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700760769,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "14/1",
+          "oddsAmerican": "1400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364663361,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4350,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760769,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "10/3",
+          "oddsAmerican": "335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760771,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663364,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1780,
+          "line": -5500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760771,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663365,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1970,
+          "line": 5500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760771,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760772,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663366,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700760772,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364663367,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1640,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700760772,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760773,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663368,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700760773,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364663369,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2630,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2700760773,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760774,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Rice to Score in every Quarter - Regular Time",
+        "englishLabel": "Rice Owls to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663374,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4000,
+          "type": "OT_YES",
+          "betOfferId": 2700760774,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663379,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1190,
+          "type": "OT_NO",
+          "betOfferId": 2700760774,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "2/11",
+          "oddsAmerican": "-530",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760775,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Rice",
+        "englishLabel": "Total Points by Rice Owls - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663380,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1800,
+          "line": 17500,
+          "type": "OT_OVER",
+          "betOfferId": 2700760775,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663381,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 17500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700760775,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760776,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Rice",
+        "englishLabel": "Total Points by Rice Owls - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663382,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 18500,
+          "type": "OT_OVER",
+          "betOfferId": 2700760776,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663383,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1820,
+          "line": 18500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700760776,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760777,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by East Carolina - 1st Half",
+        "englishLabel": "Total Points by East Carolina Pirates - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663384,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1630,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700760777,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663385,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2100,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700760777,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760778,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663386,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1880,
+          "line": -6500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760778,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663387,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1860,
+          "line": 6500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760778,
+          "changedDate": "2026-10-08T20:55:03Z",
           "participantId": 1000035650,
           "oddsFractional": "17/20",
           "oddsAmerican": "-117",
@@ -244,6 +2792,2517 @@
       "tags": [
         "OFFERED_PREMATCH",
         "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760779,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663388,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2500,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700760779,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663389,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1490,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700760779,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760780,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663390,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1720,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760780,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663391,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700760780,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364663392,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3400,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760780,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760781,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "East Carolina to Score in every Quarter - Regular Time",
+        "englishLabel": "East Carolina Pirates to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663397,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1900,
+          "type": "OT_YES",
+          "betOfferId": 2700760781,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663402,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1780,
+          "type": "OT_NO",
+          "betOfferId": 2700760781,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760784,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663407,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1400,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760784,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663408,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 11000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700760784,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "10/1",
+          "oddsAmerican": "1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364663409,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760784,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760786,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663418,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 3050,
+          "line": -17500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760786,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663419,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1380,
+          "line": 17500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760786,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760787,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663420,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2150,
+          "line": -12500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760787,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663421,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1720,
+          "line": 12500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760787,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760788,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663422,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2080,
+          "line": -11500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760788,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663423,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1770,
+          "line": 11500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760788,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760789,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663424,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2500,
+          "line": -14500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760789,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663425,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1550,
+          "line": 14500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760789,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760790,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663426,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2800,
+          "line": -16500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760790,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663427,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1450,
+          "line": 16500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760790,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760791,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663428,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1560,
+          "line": -6500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760791,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663429,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2480,
+          "line": 6500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760791,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760792,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663430,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2600,
+          "line": -15000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760792,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663431,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1520,
+          "line": 15000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760792,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760793,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663432,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2950,
+          "line": -17000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760793,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663433,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1410,
+          "line": 17000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760793,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760794,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663434,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2400,
+          "line": -14000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760794,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663435,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1580,
+          "line": 14000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760794,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760795,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663436,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1280,
+          "line": -2000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760795,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663437,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 3750,
+          "line": 2000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760795,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700760807,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364663461,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1710,
+          "line": -500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700760807,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364663462,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2060,
+          "line": 500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700760807,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763521,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "East Carolina to Score in Both Halves",
+        "englishLabel": "East Carolina Pirates to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648746,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1020,
+          "type": "OT_YES",
+          "betOfferId": 2700763521,
+          "changedDate": "2026-10-08T20:45:32Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648749,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 12500,
+          "type": "OT_NO",
+          "betOfferId": 2700763521,
+          "changedDate": "2026-10-08T20:45:32Z",
+          "oddsFractional": "23/2",
+          "oddsAmerican": "1150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763524,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648758,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4300,
+          "type": "OT_YES",
+          "betOfferId": 2700763524,
+          "changedDate": "2026-10-08T13:17:18Z",
+          "oddsFractional": "33/10",
+          "oddsAmerican": "330",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648763,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1160,
+          "type": "OT_NO",
+          "betOfferId": 2700763524,
+          "changedDate": "2026-10-08T13:17:18Z",
+          "oddsFractional": "2/13",
+          "oddsAmerican": "-625",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763525,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648765,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 13000,
+          "type": "OT_YES",
+          "betOfferId": 2700763525,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648767,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2700763525,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763526,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648768,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2170,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700763526,
+          "changedDate": "2026-10-08T13:17:18Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364648769,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1710,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700763526,
+          "changedDate": "2026-10-08T13:17:18Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763527,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648770,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2300,
+          "line": -8500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763527,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648771,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1570,
+          "line": 8500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763527,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763528,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648772,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1810,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700763528,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364648773,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700763528,
+          "changedDate": "2026-10-08T13:17:18Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763529,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648774,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2700,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700763529,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364648775,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1480,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700763529,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763530,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648776,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2060,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700763530,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364648777,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1790,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700763530,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763531,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by East Carolina",
+        "englishLabel": "Total Points by East Carolina Pirates - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648778,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1760,
+          "line": 28500,
+          "type": "OT_OVER",
+          "betOfferId": 2700763531,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648779,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 28500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700763531,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763532,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by East Carolina",
+        "englishLabel": "Total Points by East Carolina Pirates - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648780,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 29500,
+          "type": "OT_OVER",
+          "betOfferId": 2700763532,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648781,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1840,
+          "line": 29500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700763532,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763533,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by East Carolina",
+        "englishLabel": "Total Points by East Carolina Pirates - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648782,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 30500,
+          "type": "OT_OVER",
+          "betOfferId": 2700763533,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648783,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1670,
+          "line": 30500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700763533,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763534,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by East Carolina - 1st Half",
+        "englishLabel": "Total Points by East Carolina Pirates - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648784,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1930,
+          "line": 14500,
+          "type": "OT_OVER",
+          "betOfferId": 2700763534,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648785,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1750,
+          "line": 14500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700763534,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763537,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648800,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1400,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763537,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648801,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2650,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763537,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700763538,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648802,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1320,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763538,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648803,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3250,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763538,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763541,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648810,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 1550,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700763541,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648813,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 36000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700763541,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "35/1",
+          "oddsAmerican": "3500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364648816,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 15000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700763541,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "14/1",
+          "oddsAmerican": "1400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364648819,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 17000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700763541,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364648822,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 91000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700763541,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "90/1",
+          "oddsAmerican": "9000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364648825,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 36000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700763541,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "35/1",
+          "oddsAmerican": "3500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364648828,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 8000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700763541,
+          "changedDate": "2026-10-06T18:54:22Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364648831,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 34000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700763541,
+          "changedDate": "2026-10-08T13:17:19Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364648834,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 6250,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700763541,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "21/4",
+          "oddsAmerican": "525",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763542,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648835,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2120,
+          "line": -3500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763542,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648836,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1680,
+          "line": 3500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763542,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763543,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648837,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1750,
+          "line": -2500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763543,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648838,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2000,
+          "line": 2500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763543,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763546,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Rice - 1st Half",
+        "englishLabel": "Total Points by Rice Owls - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648845,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700763546,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648846,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700763546,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763547,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Rice - 1st Half",
+        "englishLabel": "Total Points by Rice Owls - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648847,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 8500,
+          "type": "OT_OVER",
+          "betOfferId": 2700763547,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648848,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1890,
+          "line": 8500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700763547,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763549,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648851,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1440,
+          "line": -4500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763549,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648852,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2850,
+          "line": 4500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763549,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763550,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648853,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1300,
+          "line": -2500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763550,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648854,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 3550,
+          "line": 2500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763550,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763551,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648855,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1270,
+          "line": -1500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763551,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648856,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 3850,
+          "line": 1500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763551,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763552,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648857,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2630,
+          "line": -15500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763552,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648858,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1500,
+          "line": 15500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763552,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763553,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648859,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2280,
+          "line": -13500,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763553,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648860,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1650,
+          "line": 13500,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763553,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763554,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648861,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1400,
+          "line": -4000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763554,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648862,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 3000,
+          "line": 4000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763554,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763555,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648863,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 1610,
+          "line": -7000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763555,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648864,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 2350,
+          "line": 7000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763555,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700763556,
+      "closed": "2026-10-10T20:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553003,
+      "outcomes": [
+        {
+          "id": 4364648865,
+          "label": "East Carolina",
+          "englishLabel": "East Carolina Pirates",
+          "odds": 2120,
+          "line": -12000,
+          "participant": "East Carolina",
+          "type": "OT_ONE",
+          "betOfferId": 2700763556,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000047740,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364648866,
+          "label": "Rice",
+          "englishLabel": "Rice Owls",
+          "odds": 1740,
+          "line": 12000,
+          "participant": "Rice",
+          "type": "OT_TWO",
+          "betOfferId": 2700763556,
+          "changedDate": "2026-10-08T20:55:03Z",
+          "participantId": 1000035650,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -274,7 +5333,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 91,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:36.377Z",
+  "generatedAt": "2026-10-08T22:55:36.206Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,11 +10,180 @@
     "start": "2026-10-10T01:00:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 91,
     "events": 1,
     "prePacks": 0
   },
   "betOffers": [
+    {
+      "id": 2699765957,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4361578500,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2430,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2699765957,
+          "changedDate": "2026-10-08T20:12:58Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361578501,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1570,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699765957,
+          "changedDate": "2026-10-08T20:12:58Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699765959,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4361578504,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1500,
+          "line": -1000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2699765959,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361578505,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2650,
+          "line": 1000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2699765959,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699766040,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4361578711,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2230,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2699766040,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361578712,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1670,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699766040,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2699800560,
       "closed": "2026-10-10T01:00:00Z",
@@ -37,14 +206,14 @@
           "id": 4361584422,
           "label": "Utah State",
           "englishLabel": "Utah State Aggies",
-          "odds": 1580,
+          "odds": 1480,
           "participant": "Utah State",
           "type": "OT_ONE",
           "betOfferId": 2699800560,
-          "changedDate": "2026-10-05T04:19:33Z",
+          "changedDate": "2026-10-08T20:22:58Z",
           "participantId": 1000046343,
-          "oddsFractional": "4/7",
-          "oddsAmerican": "-175",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +222,14 @@
           "id": 4361584423,
           "label": "Washington State",
           "englishLabel": "Washington State Cougars",
-          "odds": 2430,
+          "odds": 2650,
           "participant": "Washington State",
           "type": "OT_TWO",
           "betOfferId": 2699800560,
-          "changedDate": "2026-10-05T04:19:33Z",
+          "changedDate": "2026-10-08T20:22:58Z",
           "participantId": 1000071439,
-          "oddsFractional": "7/5",
-          "oddsAmerican": "143",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,6 +239,238 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699803575,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4361569739,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1530,
+          "line": -1500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2699803575,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361569740,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2550,
+          "line": 1500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2699803575,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699854394,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4361862603,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1550,
+          "line": -2000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2699854394,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361862604,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2500,
+          "line": 2000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2699854394,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699857415,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4361865380,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2699857415,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361865381,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1820,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699857415,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699874531,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4361871355,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1580,
+          "line": -2500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2699874531,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361871356,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2400,
+          "line": 2500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2699874531,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -95,15 +496,15 @@
           "id": 4362565392,
           "label": "Utah State",
           "englishLabel": "Utah State Aggies",
-          "odds": 1910,
+          "odds": 1720,
           "line": -3500,
           "participant": "Utah State",
           "type": "OT_ONE",
           "betOfferId": 2700068881,
-          "changedDate": "2026-10-05T04:19:35Z",
+          "changedDate": "2026-10-08T20:22:58Z",
           "participantId": 1000046343,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -112,15 +513,15 @@
           "id": 4362565393,
           "label": "Washington State",
           "englishLabel": "Washington State Cougars",
-          "odds": 1910,
+          "odds": 2160,
           "line": 3500,
           "participant": "Washington State",
           "type": "OT_TWO",
           "betOfferId": 2700068881,
-          "changedDate": "2026-10-05T04:19:35Z",
+          "changedDate": "2026-10-08T20:22:58Z",
           "participantId": 1000071439,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -128,7 +529,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -155,13 +555,13 @@
           "id": 4362522142,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1880,
+          "odds": 1890,
           "line": 43500,
           "type": "OT_OVER",
           "betOfferId": 2700083056,
-          "changedDate": "2026-10-05T04:19:35Z",
+          "changedDate": "2026-10-08T20:22:58Z",
           "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "oddsAmerican": "-113",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -174,7 +574,7 @@
           "line": 43500,
           "type": "OT_UNDER",
           "betOfferId": 2700083056,
-          "changedDate": "2026-10-05T04:19:35Z",
+          "changedDate": "2026-10-08T20:22:58Z",
           "oddsFractional": "23/25",
           "oddsAmerican": "-107",
           "status": "OPEN",
@@ -211,15 +611,15 @@
           "id": 4362522144,
           "label": "Utah State",
           "englishLabel": "Utah State Aggies",
-          "odds": 1810,
+          "odds": 1640,
           "line": -3000,
           "participant": "Utah State",
           "type": "OT_ONE",
           "betOfferId": 2700083057,
-          "changedDate": "2026-10-05T04:19:35Z",
+          "changedDate": "2026-10-08T20:22:59Z",
           "participantId": 1000046343,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-124",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -228,15 +628,4673 @@
           "id": 4362522145,
           "label": "Washington State",
           "englishLabel": "Washington State Cougars",
-          "odds": 2020,
+          "odds": 2280,
           "line": 3000,
           "participant": "Washington State",
           "type": "OT_TWO",
           "betOfferId": 2700083057,
-          "changedDate": "2026-10-05T04:19:35Z",
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700279134,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363176352,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1810,
+          "line": -4500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700279134,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363176353,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2020,
+          "line": 4500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700279134,
+          "changedDate": "2026-10-08T20:22:58Z",
           "participantId": 1000071439,
           "oddsFractional": "Evens",
           "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700279135,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363176354,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1760,
+          "line": -4000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700279135,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363176355,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2100,
+          "line": 4000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700279135,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340252,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386895,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1850,
+          "line": -5000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340252,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386896,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1980,
+          "line": 5000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340252,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340256,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Utah State to Score in Both Halves",
+        "englishLabel": "Utah State Aggies to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386905,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1060,
+          "type": "OT_YES",
+          "betOfferId": 2700340256,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "1/18",
+          "oddsAmerican": "-1667",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386908,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 7000,
+          "type": "OT_NO",
+          "betOfferId": 2700340256,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "6/1",
+          "oddsAmerican": "600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340258,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386921,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1800,
+          "type": "OT_ODD",
+          "betOfferId": 2700340258,
+          "changedDate": "2026-10-05T19:36:46Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386922,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1880,
+          "type": "OT_EVEN",
+          "betOfferId": 2700340258,
+          "changedDate": "2026-10-05T19:36:46Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340259,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386923,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1600,
+          "line": -500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340259,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386924,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2250,
+          "line": 500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340259,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340260,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Utah State to win both halves",
+        "englishLabel": "Utah State Aggies to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386927,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2750,
+          "type": "OT_YES",
+          "betOfferId": 2700340260,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386930,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1380,
+          "type": "OT_NO",
+          "betOfferId": 2700340260,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340261,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386931,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1520,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340261,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386932,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 14000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700340261,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "13/1",
+          "oddsAmerican": "1300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363386933,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2800,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340261,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340263,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386936,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1610,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340263,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386937,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 10000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700340263,
+          "changedDate": "2026-10-08T16:18:02Z",
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363386938,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2700,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340263,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340265,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386941,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340265,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363386942,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340265,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340266,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Utah State",
+        "englishLabel": "Total Points by Utah State Aggies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386943,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1890,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2700340266,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386944,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1780,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700340266,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340267,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Utah State",
+        "englishLabel": "Total Points by Utah State Aggies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386945,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700340267,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386946,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700340267,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340268,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Utah State",
+        "englishLabel": "Total Points by Utah State Aggies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386947,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1940,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2700340268,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386948,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1740,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700340268,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340269,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Washington State",
+        "englishLabel": "Total Points by Washington State Cougars - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386949,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1840,
+          "line": 19500,
+          "type": "OT_OVER",
+          "betOfferId": 2700340269,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386950,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1830,
+          "line": 19500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700340269,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340270,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386951,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1610,
+          "line": 40500,
+          "type": "OT_OVER",
+          "betOfferId": 2700340270,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386952,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2350,
+          "line": 40500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700340270,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340271,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386953,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2700340271,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386954,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2180,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700340271,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340272,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386955,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1530,
+          "line": 39500,
+          "type": "OT_OVER",
+          "betOfferId": 2700340272,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386956,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2550,
+          "line": 39500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700340272,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340273,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386957,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1940,
+          "line": -500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340273,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386958,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1810,
+          "line": 500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340273,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340275,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386961,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1380,
+          "line": 500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340275,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386962,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2850,
+          "line": -500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340275,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340279,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386969,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2700340279,
+          "changedDate": "2026-10-08T13:13:39Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386970,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700340279,
+          "changedDate": "2026-10-06T15:26:44Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340280,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Washington State to Score in every Quarter - Regular Time",
+        "englishLabel": "Washington State Cougars to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386975,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3600,
+          "type": "OT_YES",
+          "betOfferId": 2700340280,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386980,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1230,
+          "type": "OT_NO",
+          "betOfferId": 2700340280,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "2/9",
+          "oddsAmerican": "-435",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340285,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386989,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 2480,
+          "line": -8500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340285,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386990,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1560,
+          "line": 8500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340285,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340286,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386991,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 2600,
+          "line": -9500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340286,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386992,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1520,
+          "line": 9500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340286,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340287,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386993,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 2020,
+          "line": -6500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340287,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386994,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1820,
+          "line": 6500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340287,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340288,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386995,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1380,
+          "line": 2500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340288,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386996,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 3050,
+          "line": -2500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340288,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340289,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386997,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 3050,
+          "line": -11500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340289,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363386998,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1400,
+          "line": 11500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340289,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340290,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363386999,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1480,
+          "line": -500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340290,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363387000,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2700,
+          "line": 500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340290,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340291,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363387001,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 2550,
+          "line": -9000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340291,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363387002,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1530,
+          "line": 9000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340291,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340292,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363387003,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1410,
+          "line": 2000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340292,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363387004,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2950,
+          "line": -2000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340292,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340301,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363387033,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1910,
+          "line": -3500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340301,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363387034,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1830,
+          "line": 3500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340301,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700340302,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363387035,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1710,
+          "line": -2500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700340302,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363387036,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2070,
+          "line": 2500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700340302,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368333,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Utah State to score first and win",
+        "englishLabel": "Utah State Aggies to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404402,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2080,
+          "type": "OT_YES",
+          "betOfferId": 2700368333,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404405,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1640,
+          "type": "OT_NO",
+          "betOfferId": 2700368333,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368334,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Washington State to win both halves",
+        "englishLabel": "Washington State Cougars to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404408,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5800,
+          "type": "OT_YES",
+          "betOfferId": 2700368334,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "24/5",
+          "oddsAmerican": "480",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404411,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1090,
+          "type": "OT_NO",
+          "betOfferId": 2700368334,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "1/12",
+          "oddsAmerican": "-1115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368335,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404412,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1680,
+          "line": -1500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368335,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404413,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2120,
+          "line": 1500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368335,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368338,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Washington State to score first and win",
+        "englishLabel": "Washington State Cougars to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404420,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3800,
+          "type": "OT_YES",
+          "betOfferId": 2700368338,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404423,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1210,
+          "type": "OT_NO",
+          "betOfferId": 2700368338,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-480",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368339,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404425,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 12000,
+          "type": "OT_YES",
+          "betOfferId": 2700368339,
+          "changedDate": "2026-10-05T19:37:09Z",
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404427,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1030,
+          "type": "OT_NO",
+          "betOfferId": 2700368339,
+          "changedDate": "2026-10-05T19:37:09Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368340,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Washington State",
+        "englishLabel": "Total Points by Washington State Cougars - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404428,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2100,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2700368340,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404429,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1630,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700368340,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368341,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Washington State",
+        "englishLabel": "Total Points by Washington State Cougars - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404430,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1730,
+          "line": 18500,
+          "type": "OT_OVER",
+          "betOfferId": 2700368341,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404431,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1950,
+          "line": 18500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700368341,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368342,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404432,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1770,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700368342,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404433,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2070,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700368342,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368343,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404434,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1460,
+          "line": 38500,
+          "type": "OT_OVER",
+          "betOfferId": 2700368343,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404435,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2750,
+          "line": 38500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700368343,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368344,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404436,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1370,
+          "line": 1500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368344,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404437,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2950,
+          "line": -1500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368344,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368345,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Utah State to Score in every Quarter - Regular Time",
+        "englishLabel": "Utah State Aggies to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404442,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2430,
+          "type": "OT_YES",
+          "betOfferId": 2700368345,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404447,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1480,
+          "type": "OT_NO",
+          "betOfferId": 2700368345,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368346,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404448,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1550,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368346,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404449,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2250,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368346,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700368348,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404454,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 1910,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700368348,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404457,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 31000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700368348,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363404460,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 10500,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700368348,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "19/2",
+          "oddsAmerican": "950",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4363404463,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 18000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700368348,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4363404466,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 76000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700368348,
+          "changedDate": "2026-10-08T16:18:02Z",
+          "oddsFractional": "75/1",
+          "oddsAmerican": "7500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4363404469,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 23000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700368348,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "22/1",
+          "oddsAmerican": "2200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4363404472,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 8500,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700368348,
+          "changedDate": "2026-10-08T16:18:02Z",
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4363404475,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 31000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700368348,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4363404478,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 4000,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700368348,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368349,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404479,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1950,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368349,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404480,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4350,
+          "type": "OT_CROSS",
+          "betOfferId": 2700368349,
+          "changedDate": "2026-10-08T16:18:02Z",
+          "oddsFractional": "10/3",
+          "oddsAmerican": "335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363404481,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2880,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368349,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368350,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404482,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 2880,
+          "line": -10500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368350,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404483,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1430,
+          "line": 10500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368350,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368351,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404484,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 3200,
+          "line": -12500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368351,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404485,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1360,
+          "line": 12500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368351,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368352,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404486,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 2300,
+          "line": -7500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368352,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404487,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1630,
+          "line": 7500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368352,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368353,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404488,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1950,
+          "line": -6000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368353,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404489,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1870,
+          "line": 6000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368353,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368354,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404490,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 3350,
+          "line": -13000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368354,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404491,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1340,
+          "line": 13000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368354,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368355,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404492,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 3000,
+          "line": -11000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368355,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404493,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1400,
+          "line": 11000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368355,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368356,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404494,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 2170,
+          "line": -7000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368356,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404495,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1710,
+          "line": 7000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368356,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368357,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404496,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 2750,
+          "line": -10000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368357,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404497,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1460,
+          "line": 10000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368357,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368358,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404498,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 3150,
+          "line": -12000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368358,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404499,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1370,
+          "line": 12000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368358,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368367,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Washington State - 1st Half",
+        "englishLabel": "Total Points by Washington State Cougars - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404518,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 8500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700368367,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363404519,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 8500,
+          "type": "OT_OVER",
+          "betOfferId": 2700368367,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368368,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404520,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1980,
+          "line": -1500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368368,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404521,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1770,
+          "line": 1500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368368,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368369,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Utah State - 1st Half",
+        "englishLabel": "Total Points by Utah State Aggies - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404522,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1730,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2700368369,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404523,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1950,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700368369,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368370,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Utah State - 1st Half",
+        "englishLabel": "Total Points by Utah State Aggies - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404524,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 11500,
+          "type": "OT_OVER",
+          "betOfferId": 2700368370,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404525,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 11500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700368370,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368395,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404630,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1290,
+          "line": 4000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368395,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404631,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 3700,
+          "line": -4000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368395,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700368427,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363404772,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 3400,
+          "line": -13500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700368427,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363404773,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1330,
+          "line": 13500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700368427,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374194,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363642,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1890,
+          "line": -5500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700374194,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363643,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1940,
+          "line": 5500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700374194,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374203,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Utah State",
+        "englishLabel": "Total Points by Utah State Aggies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363664,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1560,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2700374203,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363665,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2230,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700374203,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374204,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363666,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2120,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700374204,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363667,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1740,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700374204,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374205,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Washington State",
+        "englishLabel": "Total Points by Washington State Cougars - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363668,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 17500,
+          "type": "OT_OVER",
+          "betOfferId": 2700374205,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363669,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 17500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700374205,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374206,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363670,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1410,
+          "line": 37500,
+          "type": "OT_OVER",
+          "betOfferId": 2700374206,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363671,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2950,
+          "line": 37500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700374206,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374207,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Washington State - 1st Half",
+        "englishLabel": "Total Points by Washington State Cougars - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363672,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1860,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700374207,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363363673,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1810,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700374207,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374208,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363678,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3700,
+          "type": "OT_YES",
+          "betOfferId": 2700374208,
+          "changedDate": "2026-10-08T13:13:38Z",
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363683,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1210,
+          "type": "OT_NO",
+          "betOfferId": 2700374208,
+          "changedDate": "2026-10-08T13:13:38Z",
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-480",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374210,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363686,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1580,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700374210,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363687,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2350,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700374210,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374212,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363690,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1840,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700374212,
+          "changedDate": "2026-10-08T13:13:39Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363691,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1900,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700374212,
+          "changedDate": "2026-10-06T15:26:44Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374213,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Washington State to Score in Both Halves",
+        "englishLabel": "Washington State Cougars to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363694,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1180,
+          "type": "OT_YES",
+          "betOfferId": 2700374213,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-560",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363697,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 4100,
+          "type": "OT_NO",
+          "betOfferId": 2700374213,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374214,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363698,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1440,
+          "line": 1500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700374214,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363699,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2850,
+          "line": -1500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700374214,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374215,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363700,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1480,
+          "line": 500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700374215,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363701,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2700,
+          "line": -500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700374215,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374216,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363702,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1340,
+          "line": 3000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700374216,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363703,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 3350,
+          "line": -3000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700374216,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374217,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363704,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 2400,
+          "line": -8000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700374217,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363705,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1580,
+          "line": 8000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700374217,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374218,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363706,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1450,
+          "line": 1000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700374218,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363707,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 2800,
+          "line": -1000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700374218,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374225,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363720,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 8500,
+          "type": "OT_OVER",
+          "betOfferId": 2700374225,
+          "changedDate": "2026-10-06T15:26:44Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363721,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 8500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700374225,
+          "changedDate": "2026-10-08T13:13:39Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374258,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363834,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 2140,
+          "line": -4500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700374258,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363835,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1660,
+          "line": 4500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700374258,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374260,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363363838,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 1320,
+          "line": 3500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700374260,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363363839,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 3450,
+          "line": -3500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700374260,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374294,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363415531,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 2180,
+          "line": -5500,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700374294,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000046343,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363415532,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1630,
+          "line": 5500,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700374294,
+          "changedDate": "2026-10-08T20:22:58Z",
+          "participantId": 1000071439,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700374295,
+      "closed": "2026-10-10T01:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508063,
+      "outcomes": [
+        {
+          "id": 4363415533,
+          "label": "Utah State",
+          "englishLabel": "Utah State Aggies",
+          "odds": 3750,
+          "line": -14000,
+          "participant": "Utah State",
+          "type": "OT_ONE",
+          "betOfferId": 2700374295,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000046343,
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363415534,
+          "label": "Washington State",
+          "englishLabel": "Washington State Cougars",
+          "odds": 1290,
+          "line": 14000,
+          "participant": "Washington State",
+          "type": "OT_TWO",
+          "betOfferId": 2700374295,
+          "changedDate": "2026-10-08T20:22:59Z",
+          "participantId": 1000071439,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -274,7 +5332,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 91,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

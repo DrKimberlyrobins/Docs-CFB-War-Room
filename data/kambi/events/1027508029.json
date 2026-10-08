@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:36.102Z",
+  "generatedAt": "2026-10-08T22:55:35.946Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,11 +10,129 @@
     "start": "2026-10-09T23:00:00Z"
   },
   "counts": {
-    "betOffers": 44,
+    "betOffers": 111,
     "events": 1,
     "prePacks": 2
   },
   "betOffers": [
+    {
+      "id": 2699790863,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4361693752,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1600,
+          "line": -1000,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2699790863,
+          "changedDate": "2026-10-07T15:32:34Z",
+          "participantId": 1000039921,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361693755,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 2330,
+          "line": 1000,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2699790863,
+          "changedDate": "2026-10-07T15:32:34Z",
+          "participantId": 1000083462,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699790864,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4361693753,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1610,
+          "line": -1500,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2699790864,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361693754,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 2300,
+          "line": 1500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2699790864,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2699790880,
       "closed": "2026-10-09T23:00:00Z",
@@ -37,15 +155,15 @@
           "id": 4361693792,
           "label": "Louisville",
           "englishLabel": "Louisville Cardinals",
-          "odds": 2100,
+          "odds": 2170,
           "line": -6000,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2699790880,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -54,15 +172,15 @@
           "id": 4361693793,
           "label": "Florida State",
           "englishLabel": "Florida State Seminoles",
-          "odds": 1760,
+          "odds": 1710,
           "line": 6000,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2699790880,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-132",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -96,13 +214,13 @@
           "id": 4361683575,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2040,
+          "odds": 2100,
           "line": 57500,
           "type": "OT_UNDER",
           "betOfferId": 2699793852,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "26/25",
-          "oddsAmerican": "104",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -111,16 +229,75 @@
           "id": 4361683576,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1790,
+          "odds": 1760,
           "line": 57500,
           "type": "OT_OVER",
           "betOfferId": 2699793852,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-127",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699793858,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4361683587,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 2650,
+          "line": -8500,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2699793858,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361683588,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 1440,
+          "line": 8500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2699793858,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
         }
       ],
       "tags": [
@@ -151,15 +328,15 @@
           "id": 4361683589,
           "label": "Louisville",
           "englishLabel": "Louisville Cardinals",
-          "odds": 2160,
+          "odds": 2250,
           "line": -6500,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2699793859,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "23/20",
-          "oddsAmerican": "116",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -168,15 +345,15 @@
           "id": 4361683590,
           "label": "Florida State",
           "englishLabel": "Florida State Seminoles",
-          "odds": 1720,
+          "odds": 1660,
           "line": 6500,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2699793859,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -210,14 +387,14 @@
           "id": 4361702621,
           "label": "Louisville",
           "englishLabel": "Louisville Cardinals",
-          "odds": 1530,
+          "odds": 1560,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2699822789,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:32:19Z",
           "participantId": 1000039921,
-          "oddsFractional": "13/25",
-          "oddsAmerican": "-190",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -226,14 +403,14 @@
           "id": 4361702622,
           "label": "Florida State",
           "englishLabel": "Florida State Seminoles",
-          "odds": 2500,
+          "odds": 2430,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2699822789,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:32:15Z",
           "participantId": 1000083462,
-          "oddsFractional": "6/4",
-          "oddsAmerican": "150",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -243,6 +420,124 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699822794,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4361702632,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 2600,
+          "line": -8000,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2699822794,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361702633,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 1470,
+          "line": 8000,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2699822794,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699822795,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4361702634,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 2430,
+          "line": -7000,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2699822795,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361702635,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 1560,
+          "line": 7000,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2699822795,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -268,15 +563,15 @@
           "id": 4362011784,
           "label": "Louisville",
           "englishLabel": "Louisville Cardinals",
-          "odds": 2020,
+          "odds": 2060,
           "line": -5000,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2699885788,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -285,15 +580,15 @@
           "id": 4362011785,
           "label": "Florida State",
           "englishLabel": "Florida State Seminoles",
-          "odds": 1820,
+          "odds": 1770,
           "line": 5000,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2699885788,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-122",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -327,15 +622,15 @@
           "id": 4362002738,
           "label": "Louisville",
           "englishLabel": "Louisville Cardinals",
-          "odds": 2040,
+          "odds": 2100,
           "line": -5500,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2699919205,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "26/25",
-          "oddsAmerican": "104",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -344,15 +639,15 @@
           "id": 4362002739,
           "label": "Florida State",
           "englishLabel": "Florida State Seminoles",
-          "odds": 1800,
+          "odds": 1750,
           "line": 5500,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2699919205,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-125",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -386,13 +681,13 @@
           "id": 4362276364,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1930,
+          "odds": 1970,
           "line": 58500,
           "type": "OT_UNDER",
           "betOfferId": 2699984393,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -401,13 +696,13 @@
           "id": 4362276365,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1890,
+          "odds": 1850,
           "line": 58500,
           "type": "OT_OVER",
           "betOfferId": 2699984393,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -415,7 +710,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -442,15 +736,15 @@
           "id": 4362281672,
           "label": "Louisville",
           "englishLabel": "Louisville Cardinals",
-          "odds": 1950,
+          "odds": 2000,
           "line": -4500,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700015889,
-          "changedDate": "2026-10-05T13:36:03Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -459,15 +753,15 @@
           "id": 4362281673,
           "label": "Florida State",
           "englishLabel": "Florida State Seminoles",
-          "odds": 1840,
+          "odds": 1790,
           "line": 4500,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700015889,
-          "changedDate": "2026-10-05T13:35:54Z",
+          "changedDate": "2026-10-07T15:31:55Z",
           "participantId": 1000083462,
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -504,14 +798,14 @@
           "id": 4362336729,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1740,
+          "odds": 1760,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700016537,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-136",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 0
@@ -520,14 +814,14 @@
           "id": 4362336730,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2000,
+          "odds": 1970,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700016537,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "Evens",
-          "oddsAmerican": "100",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 1
@@ -560,13 +854,13 @@
           "id": 4362336731,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1790,
+          "odds": 1840,
           "line": 60000,
           "type": "OT_UNDER",
           "betOfferId": 2700016538,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-127",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -575,13 +869,13 @@
           "id": 4362336732,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2040,
+          "odds": 2000,
           "line": 60000,
           "type": "OT_OVER",
           "betOfferId": 2700016538,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "26/25",
-          "oddsAmerican": "104",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -615,13 +909,13 @@
           "id": 4362336733,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1980,
+          "odds": 2040,
           "line": 58000,
           "type": "OT_UNDER",
           "betOfferId": 2700016539,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -630,13 +924,13 @@
           "id": 4362336735,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1840,
+          "odds": 1800,
           "line": 58000,
           "type": "OT_OVER",
           "betOfferId": 2700016539,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -670,13 +964,13 @@
           "id": 4362336734,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1710,
+          "odds": 1750,
           "line": 61000,
           "type": "OT_UNDER",
           "betOfferId": 2700016540,
-          "changedDate": "2026-10-05T13:35:49Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-141",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -685,13 +979,13 @@
           "id": 4362336736,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2150,
+          "odds": 2100,
           "line": 61000,
           "type": "OT_OVER",
           "betOfferId": 2700016540,
-          "changedDate": "2026-10-05T13:35:49Z",
-          "oddsFractional": "23/20",
-          "oddsAmerican": "115",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -724,12 +1018,12 @@
           "id": 4362336739,
           "label": "1/1",
           "englishLabel": "1/1",
-          "odds": 1850,
+          "odds": 1910,
           "type": "OT_ONE_ONE",
           "betOfferId": 2700016541,
-          "changedDate": "2026-10-05T13:35:49Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -741,7 +1035,7 @@
           "odds": 29000,
           "type": "OT_ONE_CROSS",
           "betOfferId": 2700016541,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "28/1",
           "oddsAmerican": "2800",
           "status": "OPEN",
@@ -752,12 +1046,12 @@
           "id": 4362336745,
           "label": "1/2",
           "englishLabel": "1/2",
-          "odds": 9000,
+          "odds": 8500,
           "type": "OT_ONE_TWO",
           "betOfferId": 2700016541,
-          "changedDate": "2026-10-05T13:35:49Z",
-          "oddsFractional": "8/1",
-          "oddsAmerican": "800",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -766,12 +1060,12 @@
           "id": 4362336750,
           "label": "X/1",
           "englishLabel": "X/1",
-          "odds": 18000,
+          "odds": 19000,
           "type": "OT_CROSS_ONE",
           "betOfferId": 2700016541,
-          "changedDate": "2026-10-05T13:35:49Z",
-          "oddsFractional": "17/1",
-          "oddsAmerican": "1700",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "18/1",
+          "oddsAmerican": "1800",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 3
@@ -783,7 +1077,7 @@
           "odds": 71000,
           "type": "OT_CROSS_CROSS",
           "betOfferId": 2700016541,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "70/1",
           "oddsAmerican": "7000",
           "status": "OPEN",
@@ -797,7 +1091,7 @@
           "odds": 25000,
           "type": "OT_CROSS_TWO",
           "betOfferId": 2700016541,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "24/1",
           "oddsAmerican": "2400",
           "status": "OPEN",
@@ -811,7 +1105,7 @@
           "odds": 6500,
           "type": "OT_TWO_ONE",
           "betOfferId": 2700016541,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "11/2",
           "oddsAmerican": "550",
           "status": "OPEN",
@@ -825,7 +1119,7 @@
           "odds": 26000,
           "type": "OT_TWO_CROSS",
           "betOfferId": 2700016541,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "25/1",
           "oddsAmerican": "2500",
           "status": "OPEN",
@@ -836,12 +1130,12 @@
           "id": 4362336765,
           "label": "2/2",
           "englishLabel": "2/2",
-          "odds": 3250,
+          "odds": 3150,
           "type": "OT_TWO_TWO",
           "betOfferId": 2700016541,
-          "changedDate": "2026-10-05T13:35:49Z",
-          "oddsFractional": "9/4",
-          "oddsAmerican": "225",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 8
@@ -877,7 +1171,7 @@
           "line": 31500,
           "type": "OT_OVER",
           "betOfferId": 2700016542,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "9/10",
           "oddsAmerican": "-112",
           "status": "OPEN",
@@ -892,7 +1186,7 @@
           "line": 31500,
           "type": "OT_UNDER",
           "betOfferId": 2700016542,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "5/6",
           "oddsAmerican": "-120",
           "status": "OPEN",
@@ -928,13 +1222,13 @@
           "id": 4362330852,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1910,
+          "odds": 1830,
           "line": 27500,
           "type": "OT_OVER",
           "betOfferId": 2700042558,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -943,13 +1237,13 @@
           "id": 4362330853,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1830,
+          "odds": 1910,
           "line": 27500,
           "type": "OT_UNDER",
           "betOfferId": 2700042558,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -984,15 +1278,15 @@
           "id": 4362330854,
           "label": "Louisville",
           "englishLabel": "Louisville Cardinals",
-          "odds": 1840,
+          "odds": 1910,
           "line": -3500,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700042559,
-          "changedDate": "2026-10-05T13:36:14Z",
+          "changedDate": "2026-10-07T15:31:41Z",
           "participantId": 1000039921,
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1001,15 +1295,15 @@
           "id": 4362330855,
           "label": "Florida State",
           "englishLabel": "Florida State Seminoles",
-          "odds": 1960,
+          "odds": 1910,
           "line": 3500,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700042559,
-          "changedDate": "2026-10-05T13:36:14Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-105",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1017,6 +1311,7 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -1043,13 +1338,13 @@
           "id": 4362330856,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1880,
+          "odds": 1920,
           "line": 59000,
           "type": "OT_UNDER",
           "betOfferId": 2700042560,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1058,13 +1353,13 @@
           "id": 4362330858,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1950,
+          "odds": 1900,
           "line": 59000,
           "type": "OT_OVER",
           "betOfferId": 2700042560,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1072,6 +1367,7 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -1098,13 +1394,13 @@
           "id": 4362330857,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1830,
+          "odds": 1870,
           "line": 59500,
           "type": "OT_UNDER",
           "betOfferId": 2700042561,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1113,13 +1409,13 @@
           "id": 4362330859,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2000,
+          "odds": 1950,
           "line": 59500,
           "type": "OT_OVER",
           "betOfferId": 2700042561,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "Evens",
-          "oddsAmerican": "100",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1153,13 +1449,13 @@
           "id": 4362330860,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1760,
+          "odds": 1800,
           "line": 60500,
           "type": "OT_UNDER",
           "betOfferId": 2700042562,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-132",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1168,13 +1464,13 @@
           "id": 4362330861,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2080,
+          "odds": 2040,
           "line": 60500,
           "type": "OT_OVER",
           "betOfferId": 2700042562,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1214,7 +1510,7 @@
           "participant": "Louisville",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700042563,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
           "oddsFractional": "5/4",
           "oddsAmerican": "125",
@@ -1230,14 +1526,14 @@
           "id": 4362330863,
           "label": "Louisville Field Goal",
           "englishLabel": "Louisville Cardinals Field Goal",
-          "odds": 7500,
+          "odds": 8000,
           "participant": "Louisville",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700042563,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "13/2",
-          "oddsAmerican": "650",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1254,7 +1550,7 @@
           "participant": "Louisville",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700042563,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
           "oddsFractional": "90/1",
           "oddsAmerican": "9000",
@@ -1270,14 +1566,14 @@
           "id": 4362330865,
           "label": "Florida State Touchdown",
           "englishLabel": "Florida State Seminoles Touchdown",
-          "odds": 2650,
+          "odds": 2630,
           "participant": "Florida State",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700042563,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "33/20",
-          "oddsAmerican": "165",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1294,7 +1590,7 @@
           "participant": "Florida State",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700042563,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
           "oddsFractional": "13/2",
           "oddsAmerican": "650",
@@ -1314,7 +1610,7 @@
           "participant": "Florida State",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700042563,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
           "oddsFractional": "110/1",
           "oddsAmerican": "11000",
@@ -1354,13 +1650,13 @@
           "id": 4362375080,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2200,
+          "odds": 2280,
           "line": 56000,
           "type": "OT_UNDER",
           "betOfferId": 2700042865,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "6/5",
-          "oddsAmerican": "120",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1369,13 +1665,13 @@
           "id": 4362375081,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1680,
+          "odds": 1650,
           "line": 56000,
           "type": "OT_OVER",
           "betOfferId": 2700042865,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-148",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1409,13 +1705,13 @@
           "id": 4362342407,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2160,
+          "odds": 2230,
           "line": 56500,
           "type": "OT_UNDER",
           "betOfferId": 2700045435,
-          "changedDate": "2026-10-05T13:35:49Z",
-          "oddsFractional": "23/20",
-          "oddsAmerican": "116",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1424,13 +1720,13 @@
           "id": 4362342408,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1720,
+          "odds": 1680,
           "line": 56500,
           "type": "OT_OVER",
           "betOfferId": 2700045435,
-          "changedDate": "2026-10-05T13:35:49Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1464,15 +1760,15 @@
           "id": 4362342409,
           "label": "Louisville",
           "englishLabel": "Louisville Cardinals",
-          "odds": 1900,
+          "odds": 1960,
           "line": -4000,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700045436,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:48Z",
           "participantId": 1000039921,
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1481,15 +1777,15 @@
           "id": 4362342410,
           "label": "Florida State",
           "englishLabel": "Florida State Seminoles",
-          "odds": 1920,
+          "odds": 1860,
           "line": 4000,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700045436,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:43Z",
           "participantId": 1000083462,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1497,7 +1793,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -1524,13 +1819,13 @@
           "id": 4362342412,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2100,
+          "odds": 2160,
           "line": 57000,
           "type": "OT_UNDER",
           "betOfferId": 2700045437,
-          "changedDate": "2026-10-05T13:35:49Z",
-          "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1539,13 +1834,13 @@
           "id": 4362342414,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1750,
+          "odds": 1710,
           "line": 57000,
           "type": "OT_OVER",
           "betOfferId": 2700045437,
-          "changedDate": "2026-10-05T13:35:49Z",
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-134",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1579,15 +1874,15 @@
           "id": 4362342411,
           "label": "Louisville",
           "englishLabel": "Louisville Cardinals",
-          "odds": 1740,
+          "odds": 1780,
           "line": -3000,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700045438,
-          "changedDate": "2026-10-05T13:36:17Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-136",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1596,15 +1891,15 @@
           "id": 4362342413,
           "label": "Florida State",
           "englishLabel": "Florida State Seminoles",
-          "odds": 2080,
+          "odds": 2060,
           "line": 3000,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700045438,
-          "changedDate": "2026-10-05T13:36:17Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1641,14 +1936,14 @@
           "id": 4362342415,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1720,
+          "odds": 1740,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700045439,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 0
@@ -1657,14 +1952,14 @@
           "id": 4362342416,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2050,
+          "odds": 2020,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700045439,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "21/20",
-          "oddsAmerican": "105",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 1
@@ -1697,14 +1992,14 @@
           "id": 4362342417,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1550,
+          "odds": 1580,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700045440,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "11/20",
-          "oddsAmerican": "-182",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1716,7 +2011,7 @@
           "odds": 15000,
           "type": "OT_CROSS",
           "betOfferId": 2700045440,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "14/1",
           "oddsAmerican": "1400",
           "status": "OPEN",
@@ -1727,14 +2022,14 @@
           "id": 4362342419,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2650,
+          "odds": 2550,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700045440,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "33/20",
-          "oddsAmerican": "165",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1742,6 +2037,114 @@
       ],
       "tags": [
         "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700045739,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Louisville",
+        "englishLabel": "Total Points by Louisville Cardinals - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4362343642,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1960,
+          "line": 32500,
+          "type": "OT_OVER",
+          "betOfferId": 2700045739,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362343643,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1790,
+          "line": 32500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700045739,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700045740,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Florida State",
+        "englishLabel": "Total Points by Florida State Seminoles - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4362343644,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1660,
+          "line": 26500,
+          "type": "OT_OVER",
+          "betOfferId": 2700045740,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362343645,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2140,
+          "line": 26500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700045740,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -1768,13 +2171,13 @@
           "id": 4362969449,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1840,
+          "odds": 1830,
           "line": 13500,
           "type": "OT_OVER",
           "betOfferId": 2700192981,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1783,13 +2186,13 @@
           "id": 4362969451,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1900,
+          "odds": 1920,
           "line": 13500,
           "type": "OT_UNDER",
           "betOfferId": 2700192981,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1827,12 +2230,12 @@
           "id": 4362969450,
           "label": "X",
           "englishLabel": "X",
-          "odds": 3450,
+          "odds": 3550,
           "type": "OT_CROSS",
           "betOfferId": 2700192982,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "49/20",
-          "oddsAmerican": "245",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1841,14 +2244,14 @@
           "id": 4362969452,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1930,
+          "odds": 1950,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700192982,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1857,14 +2260,14 @@
           "id": 4362969453,
           "label": "2",
           "englishLabel": "2",
-          "odds": 3200,
+          "odds": 3050,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700192982,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "11/5",
-          "oddsAmerican": "220",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1895,12 +2298,12 @@
           "id": 4362969456,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 1060,
+          "odds": 1050,
           "type": "OT_YES",
           "betOfferId": 2700192983,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "1/18",
-          "oddsAmerican": "-1667",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "1/20",
+          "oddsAmerican": "-2000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1909,12 +2312,12 @@
           "id": 4362969459,
           "label": "No",
           "englishLabel": "No",
-          "odds": 8500,
+          "odds": 9000,
           "type": "OT_NO",
           "betOfferId": 2700192983,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "15/2",
-          "oddsAmerican": "750",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "8/1",
+          "oddsAmerican": "800",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1953,7 +2356,7 @@
           "odds": 29000,
           "type": "OT_CROSS",
           "betOfferId": 2700192984,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "28/1",
           "oddsAmerican": "2800",
           "status": "OPEN",
@@ -1964,14 +2367,14 @@
           "id": 4362969461,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1570,
+          "odds": 1600,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700192984,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "11/20",
-          "oddsAmerican": "-177",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1980,14 +2383,14 @@
           "id": 4362969462,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2250,
+          "odds": 2180,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700192984,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "5/4",
-          "oddsAmerican": "125",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2021,15 +2424,15 @@
           "id": 4362969465,
           "label": "Louisville",
           "englishLabel": "Louisville Cardinals",
-          "odds": 2120,
+          "odds": 2150,
           "line": -1500,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700192986,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "11/10",
-          "oddsAmerican": "112",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2038,15 +2441,15 @@
           "id": 4362969466,
           "label": "Florida State",
           "englishLabel": "Florida State Seminoles",
-          "odds": 1680,
+          "odds": 1660,
           "line": 1500,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700192986,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-148",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2079,13 +2482,13 @@
           "id": 4362969469,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1850,
+          "odds": 1860,
           "line": 16500,
           "type": "OT_OVER",
           "betOfferId": 2700192988,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2094,13 +2497,13 @@
           "id": 4362969470,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1870,
+          "odds": 1860,
           "line": 16500,
           "type": "OT_UNDER",
           "betOfferId": 2700192988,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2132,12 +2535,12 @@
           "id": 4362969475,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 2100,
+          "odds": 2120,
           "type": "OT_YES",
           "betOfferId": 2700192989,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "oddsAmerican": "112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2146,12 +2549,12 @@
           "id": 4362969480,
           "label": "No",
           "englishLabel": "No",
-          "odds": 1680,
+          "odds": 1670,
           "type": "OT_NO",
           "betOfferId": 2700192989,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "4/6",
-          "oddsAmerican": "-148",
+          "oddsAmerican": "-150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2183,14 +2586,14 @@
           "id": 4362984359,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1600,
+          "odds": 1630,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700228059,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "3/5",
-          "oddsAmerican": "-167",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2199,14 +2602,14 @@
           "id": 4362984360,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2300,
+          "odds": 2230,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700228059,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "13/10",
-          "oddsAmerican": "130",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2242,7 +2645,7 @@
           "odds": 1760,
           "type": "OT_ODD",
           "betOfferId": 2700228060,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "3/4",
           "oddsAmerican": "-132",
           "status": "OPEN",
@@ -2256,7 +2659,7 @@
           "odds": 2070,
           "type": "OT_EVEN",
           "betOfferId": 2700228060,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "oddsFractional": "21/20",
           "oddsAmerican": "107",
           "status": "OPEN",
@@ -2290,13 +2693,13 @@
           "id": 4362984363,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1890,
+          "odds": 1860,
           "line": 30500,
           "type": "OT_OVER",
           "betOfferId": 2700228061,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2305,13 +2708,13 @@
           "id": 4362984364,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1850,
+          "odds": 1890,
           "line": 30500,
           "type": "OT_UNDER",
           "betOfferId": 2700228061,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2349,12 +2752,12 @@
           "id": 4362984365,
           "label": "X",
           "englishLabel": "X",
-          "odds": 1830,
+          "odds": 1860,
           "type": "OT_CROSS",
           "betOfferId": 2700228062,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2363,14 +2766,14 @@
           "id": 4362984366,
           "label": "1",
           "englishLabel": "1",
-          "odds": 2650,
+          "odds": 2700,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700228062,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "33/20",
-          "oddsAmerican": "165",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2379,14 +2782,14 @@
           "id": 4362984367,
           "label": "2",
           "englishLabel": "2",
-          "odds": 5000,
+          "odds": 4700,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700228062,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "4/1",
-          "oddsAmerican": "400",
+          "oddsFractional": "18/5",
+          "oddsAmerican": "370",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2420,14 +2823,14 @@
           "id": 4362984368,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1670,
+          "odds": 1700,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700228063,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-150",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2436,21 +2839,22 @@
           "id": 4362984369,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2160,
+          "odds": 2120,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700228063,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "23/20",
-          "oddsAmerican": "116",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
         }
       ],
       "tags": [
-        "OFFERED_PREMATCH"
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2474,12 +2878,12 @@
           "id": 4362984374,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 2800,
+          "odds": 2700,
           "type": "OT_YES",
           "betOfferId": 2700228064,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "9/5",
-          "oddsAmerican": "180",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2488,12 +2892,12 @@
           "id": 4362984379,
           "label": "No",
           "englishLabel": "No",
-          "odds": 1400,
+          "odds": 1430,
           "type": "OT_NO",
           "betOfferId": 2700228064,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "2/5",
-          "oddsAmerican": "-250",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2524,13 +2928,13 @@
           "id": 4362984380,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1720,
+          "odds": 1700,
           "line": 13500,
           "type": "OT_OVER",
           "betOfferId": 2700228065,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-08T13:02:26Z",
           "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2539,13 +2943,13 @@
           "id": 4362984381,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2020,
+          "odds": 2050,
           "line": 13500,
           "type": "OT_UNDER",
           "betOfferId": 2700228065,
-          "changedDate": "2026-10-05T13:35:49Z",
-          "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "changedDate": "2026-10-08T13:02:26Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2582,12 +2986,12 @@
           "id": 4362984382,
           "label": "X",
           "englishLabel": "X",
-          "odds": 7000,
+          "odds": 7500,
           "type": "OT_CROSS",
           "betOfferId": 2700228066,
-          "changedDate": "2026-10-05T13:35:49Z",
-          "oddsFractional": "6/1",
-          "oddsAmerican": "600",
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2596,14 +3000,14 @@
           "id": 4362984383,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1670,
+          "odds": 1700,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700228066,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-150",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2612,87 +3016,14 @@
           "id": 4362984384,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2600,
+          "odds": 2500,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700228066,
-          "changedDate": "2026-10-05T13:35:49Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "8/5",
-          "oddsAmerican": "160",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 2
-        }
-      ],
-      "tags": [
-        "OFFERED_PREMATCH"
-      ],
-      "cashOutStatus": "ENABLED"
-    },
-    {
-      "id": 2700228067,
-      "closed": "2026-10-09T23:00:00Z",
-      "criterion": {
-        "id": 1005347341,
-        "label": "First to 15 points (Tie: Neither Team to reach 15)",
-        "englishLabel": "First to 15 Points (Draw: No Teams to Reach 15) - Including Overtime",
-        "order": [
-          15
-        ],
-        "occurrenceType": "POINTS",
-        "lifetime": "FULL_TIME_OVERTIME",
-        "raceToValue": 15
-      },
-      "betOfferType": {
-        "id": 2,
-        "name": "Match",
-        "englishName": "Match"
-      },
-      "eventId": 1027508029,
-      "outcomes": [
-        {
-          "id": 4362984385,
-          "label": "X",
-          "englishLabel": "X",
-          "odds": 81000,
-          "type": "OT_CROSS",
-          "betOfferId": 2700228067,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "oddsFractional": "80/1",
-          "oddsAmerican": "8000",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 0
-        },
-        {
-          "id": 4362984386,
-          "label": "1",
-          "englishLabel": "1",
-          "odds": 1570,
-          "participant": "Louisville",
-          "type": "OT_ONE",
-          "betOfferId": 2700228067,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "participantId": 1000039921,
-          "oddsFractional": "11/20",
-          "oddsAmerican": "-177",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 1
-        },
-        {
-          "id": 4362984387,
-          "label": "2",
-          "englishLabel": "2",
-          "odds": 2140,
-          "participant": "Florida State",
-          "type": "OT_TWO",
-          "betOfferId": 2700228067,
-          "changedDate": "2026-10-05T13:35:50Z",
-          "participantId": 1000083462,
-          "oddsFractional": "57/50",
-          "oddsAmerican": "114",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2724,15 +3055,15 @@
           "id": 4363030693,
           "label": "Louisville",
           "englishLabel": "Louisville Cardinals",
-          "odds": 1840,
+          "odds": 1880,
           "line": -2500,
           "participant": "Louisville",
           "type": "OT_ONE",
           "betOfferId": 2700229258,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000039921,
-          "oddsFractional": "5/6",
-          "oddsAmerican": "-120",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2741,15 +3072,15 @@
           "id": 4363030694,
           "label": "Florida State",
           "englishLabel": "Florida State Seminoles",
-          "odds": 1900,
+          "odds": 1860,
           "line": 2500,
           "participant": "Florida State",
           "type": "OT_TWO",
           "betOfferId": 2700229258,
-          "changedDate": "2026-10-05T13:35:50Z",
+          "changedDate": "2026-10-07T15:31:39Z",
           "participantId": 1000083462,
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2758,6 +3089,3421 @@
       "tags": [
         "OFFERED_PREMATCH",
         "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700244400,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363137436,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1470,
+          "line": 65500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700244400,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363137437,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2700,
+          "line": 65500,
+          "type": "OT_OVER",
+          "betOfferId": 2700244400,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700244401,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363137438,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3050,
+          "line": 51000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700244401,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363137439,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1370,
+          "line": 51000,
+          "type": "OT_OVER",
+          "betOfferId": 2700244401,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700244402,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363137440,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1490,
+          "line": 65000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700244402,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363137441,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2630,
+          "line": 65000,
+          "type": "OT_OVER",
+          "betOfferId": 2700244402,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700244403,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363137442,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700244403,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363137443,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1630,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2700244403,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700244404,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363137446,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1550,
+          "line": 64000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700244404,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363137447,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2450,
+          "line": 64000,
+          "type": "OT_OVER",
+          "betOfferId": 2700244404,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700244405,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363137444,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1380,
+          "line": 67500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700244405,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363137445,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3000,
+          "line": 67500,
+          "type": "OT_OVER",
+          "betOfferId": 2700244405,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700244406,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363137448,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1540,
+          "line": 1000,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700244406,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363137449,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 2480,
+          "line": -1000,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700244406,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700244407,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363137450,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 3200,
+          "line": -11500,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700244407,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363137451,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 1300,
+          "line": 11500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700244407,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700244408,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363137452,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2850,
+          "line": 52000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700244408,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363137453,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1420,
+          "line": 52000,
+          "type": "OT_OVER",
+          "betOfferId": 2700244408,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700244409,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363137454,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 2550,
+          "line": -7500,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700244409,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363137455,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 1500,
+          "line": 7500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700244409,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700244410,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363137456,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2750,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700244410,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363137457,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1460,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2700244410,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250197,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131489,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 2700,
+          "line": -9000,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700250197,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363131490,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 1430,
+          "line": 9000,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700250197,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250198,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131491,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1560,
+          "line": -500,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700250198,
+          "changedDate": "2026-10-07T15:32:25Z",
+          "participantId": 1000039921,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363131492,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 2400,
+          "line": 500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700250198,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250199,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131493,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 3000,
+          "line": -10500,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700250199,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363131494,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 1340,
+          "line": 10500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700250199,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250202,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131507,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 2750,
+          "line": -9500,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700250202,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363131508,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 1420,
+          "line": 9500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700250202,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250203,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131509,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3150,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700250203,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363131510,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1350,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700250203,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250204,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131511,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1530,
+          "line": 64500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700250204,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363131512,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2500,
+          "line": 64500,
+          "type": "OT_OVER",
+          "betOfferId": 2700250204,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250205,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131513,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2900,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700250205,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363131514,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1410,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2700250205,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250206,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131515,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700250206,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363131516,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1560,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2700250206,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250207,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131517,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1560,
+          "line": 0,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700250207,
+          "changedDate": "2026-10-07T15:32:23Z",
+          "participantId": 1000039921,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363131518,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 2400,
+          "line": 0,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700250207,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250208,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131519,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2400,
+          "line": 55000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700250208,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363131520,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 55000,
+          "type": "OT_OVER",
+          "betOfferId": 2700250208,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250209,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131521,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2550,
+          "line": 54000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700250209,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363131522,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 54000,
+          "type": "OT_OVER",
+          "betOfferId": 2700250209,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250210,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131523,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2600,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700250210,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363131524,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2700250210,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700250211,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363131525,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1420,
+          "line": 66500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700250211,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363131526,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2850,
+          "line": 66500,
+          "type": "OT_OVER",
+          "betOfferId": 2700250211,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289591,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363145981,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1560,
+          "line": 500,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700289591,
+          "changedDate": "2026-10-07T15:32:22Z",
+          "participantId": 1000039921,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363145982,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 2400,
+          "line": -500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700289591,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289592,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363145983,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 2900,
+          "line": -10000,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700289592,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363145984,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 1360,
+          "line": 10000,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700289592,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289593,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363145985,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1500,
+          "line": 1500,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700289593,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363145986,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 2550,
+          "line": -1500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700289593,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289594,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363145987,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1610,
+          "line": 63000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700289594,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363145988,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2350,
+          "line": 63000,
+          "type": "OT_OVER",
+          "betOfferId": 2700289594,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289595,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363145993,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1580,
+          "line": 63500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700289595,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363145994,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2400,
+          "line": 63500,
+          "type": "OT_OVER",
+          "betOfferId": 2700289595,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289596,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363145989,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1650,
+          "line": 62500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700289596,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363145990,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2280,
+          "line": 62500,
+          "type": "OT_OVER",
+          "betOfferId": 2700289596,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289597,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363145991,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 3100,
+          "line": -11000,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700289597,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363145992,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 1320,
+          "line": 11000,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700289597,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289598,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363145995,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1430,
+          "line": 2500,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700289598,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363145996,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 2700,
+          "line": -2500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700289598,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289599,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363145997,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1660,
+          "line": -2000,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700289599,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363145998,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 2250,
+          "line": 2000,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700289599,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289600,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363145999,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1400,
+          "line": 67000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700289600,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363146000,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2950,
+          "line": 67000,
+          "type": "OT_OVER",
+          "betOfferId": 2700289600,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289601,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363146001,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1440,
+          "line": 66000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700289601,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363146003,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2800,
+          "line": 66000,
+          "type": "OT_OVER",
+          "betOfferId": 2700289601,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289602,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363146002,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1710,
+          "line": 61500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700289602,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363146004,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2160,
+          "line": 61500,
+          "type": "OT_OVER",
+          "betOfferId": 2700289602,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289603,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363146005,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1670,
+          "line": 62000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700289603,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363146006,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2230,
+          "line": 62000,
+          "type": "OT_OVER",
+          "betOfferId": 2700289603,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289604,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363146007,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1460,
+          "line": 2000,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700289604,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363146008,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 2600,
+          "line": -2000,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700289604,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289605,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363146009,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2700,
+          "line": 53000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700289605,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363146010,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1470,
+          "line": 53000,
+          "type": "OT_OVER",
+          "betOfferId": 2700289605,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700289606,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4363146011,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1700,
+          "line": -2500,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700289606,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363146012,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 2170,
+          "line": 2500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700289606,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700707869,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4364580300,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1300,
+          "line": 69500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700707869,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364580301,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3450,
+          "line": 69500,
+          "type": "OT_OVER",
+          "betOfferId": 2700707869,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700707870,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4364580302,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1350,
+          "line": 68500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700707870,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364580303,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3150,
+          "line": 68500,
+          "type": "OT_OVER",
+          "betOfferId": 2700707870,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700707871,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4364580304,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1320,
+          "line": 69000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700707871,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364580305,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3350,
+          "line": 69000,
+          "type": "OT_OVER",
+          "betOfferId": 2700707871,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700707872,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4364580306,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3300,
+          "line": 50000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700707872,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364580307,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1330,
+          "line": 50000,
+          "type": "OT_OVER",
+          "betOfferId": 2700707872,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700722252,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4364577231,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3350,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700722252,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364577232,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1320,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2700722252,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700728078,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4364574381,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1300,
+          "line": 3000,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2700728078,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364574382,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 3150,
+          "line": -3000,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2700728078,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700728079,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4364574383,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1360,
+          "line": 68000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700728079,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364574384,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3100,
+          "line": 68000,
+          "type": "OT_OVER",
+          "betOfferId": 2700728079,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701028890,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365600849,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 6400,
+          "type": "OT_YES",
+          "betOfferId": 2701028890,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "27/5",
+          "oddsAmerican": "540",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365600854,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1080,
+          "type": "OT_NO",
+          "betOfferId": 2701028890,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "1/14",
+          "oddsAmerican": "-1250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701028891,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Florida State",
+        "englishLabel": "Total Points by Florida State Seminoles - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365600855,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1550,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2701028891,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365600856,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2350,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701028891,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701028892,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Louisville",
+        "englishLabel": "Total Points by Louisville Cardinals - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365600857,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1600,
+          "line": 29500,
+          "type": "OT_OVER",
+          "betOfferId": 2701028892,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365600858,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2250,
+          "line": 29500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701028892,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701028893,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Louisville",
+        "englishLabel": "Total Points by Louisville Cardinals - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365600859,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 30500,
+          "type": "OT_OVER",
+          "betOfferId": 2701028893,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365600860,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2070,
+          "line": 30500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701028893,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701034293,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1002393522,
+        "label": "Total Points by Florida State - Quarter 1",
+        "englishLabel": "Total Points by Florida State Seminoles - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365613410,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1640,
+          "line": 6500,
+          "type": "OT_OVER",
+          "betOfferId": 2701034293,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365613411,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2180,
+          "line": 6500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701034293,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701034294,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Florida State",
+        "englishLabel": "Total Points by Florida State Seminoles - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365613412,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2100,
+          "line": 29500,
+          "type": "OT_OVER",
+          "betOfferId": 2701034294,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365613413,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 29500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701034294,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701034295,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Louisville",
+        "englishLabel": "Total Points by Louisville Cardinals - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365613414,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2350,
+          "line": 34500,
+          "type": "OT_OVER",
+          "betOfferId": 2701034295,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365613415,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1550,
+          "line": 34500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701034295,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701049012,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Louisville",
+        "englishLabel": "Total Points by Louisville Cardinals - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365642977,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2080,
+          "line": 33500,
+          "type": "OT_OVER",
+          "betOfferId": 2701049012,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365642978,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1700,
+          "line": 33500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701049012,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701049013,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1002393521,
+        "label": "Total Points by Louisville - Quarter 1",
+        "englishLabel": "Total Points by Louisville Cardinals - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365642979,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1460,
+          "line": 6500,
+          "type": "OT_OVER",
+          "betOfferId": 2701049013,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365642981,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2600,
+          "line": 6500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701049013,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701049014,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Florida State",
+        "englishLabel": "Total Points by Florida State Seminoles - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365642980,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 28500,
+          "type": "OT_OVER",
+          "betOfferId": 2701049014,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365642982,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1750,
+          "line": 28500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701049014,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701049015,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Florida State",
+        "englishLabel": "Total Points by Florida State Seminoles - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365642983,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2320,
+          "line": 30500,
+          "type": "OT_OVER",
+          "betOfferId": 2701049015,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365642984,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1570,
+          "line": 30500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701049015,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701049016,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Florida State",
+        "englishLabel": "Total Points by Florida State Seminoles - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365642985,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2701049016,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365642986,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701049016,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701049017,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Louisville",
+        "englishLabel": "Total Points by Louisville Cardinals - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365642987,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1540,
+          "line": 28500,
+          "type": "OT_OVER",
+          "betOfferId": 2701049017,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365642988,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2380,
+          "line": 28500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701049017,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701084883,
+      "closed": "2026-10-09T23:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508029,
+      "outcomes": [
+        {
+          "id": 4365786412,
+          "label": "Louisville",
+          "englishLabel": "Louisville Cardinals",
+          "odds": 1270,
+          "line": 3500,
+          "participant": "Louisville",
+          "type": "OT_ONE",
+          "betOfferId": 2701084883,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000039921,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365786413,
+          "label": "Florida State",
+          "englishLabel": "Florida State Seminoles",
+          "odds": 3350,
+          "line": -3500,
+          "participant": "Florida State",
+          "type": "OT_TWO",
+          "betOfferId": 2701084883,
+          "changedDate": "2026-10-07T15:31:39Z",
+          "participantId": 1000083462,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -2788,7 +6534,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 44,
+      "nonLiveBoCount": 111,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -2826,60 +6572,19 @@
   ],
   "prePacks": [
     {
-      "id": 7192100,
+      "id": 7203393,
       "label": "Game Winner and Total Points",
       "prePackSelections": [
         {
-          "selectionId": 8118419,
+          "selectionId": 8130428,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 4250,
-                "american": "325",
-                "fractional": "13/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361702622,
-                          "eventId": 1027508029,
-                          "betOfferId": 2699822789
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362276365,
-                          "eventId": 1027508029,
-                          "betOfferId": 2699984393
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8118418,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 2650,
-                "american": "165",
-                "fractional": "33/20"
+                "decimal": 2750,
+                "american": "175",
+                "fractional": "7/4"
               },
               "groups": [
                 {
@@ -2899,9 +6604,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4362276365,
+                          "id": 4362330858,
                           "eventId": 1027508029,
-                          "betOfferId": 2699984393
+                          "betOfferId": 2700042560
                         }
                       ]
                     }
@@ -2912,15 +6617,15 @@
           ]
         },
         {
-          "selectionId": 8118421,
+          "selectionId": 8130429,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 4350,
-                "american": "335",
-                "fractional": "10/3"
+                "decimal": 4200,
+                "american": "320",
+                "fractional": "16/5"
               },
               "groups": [
                 {
@@ -2940,9 +6645,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4362276364,
+                          "id": 4362330858,
                           "eventId": 1027508029,
-                          "betOfferId": 2699984393
+                          "betOfferId": 2700042560
                         }
                       ]
                     }
@@ -2953,15 +6658,15 @@
           ]
         },
         {
-          "selectionId": 8118420,
+          "selectionId": 8130430,
           "label": [],
           "status": "OPEN",
           "combinations": [
             {
               "odds": {
-                "decimal": 2700,
-                "american": "170",
-                "fractional": "17/10"
+                "decimal": 2750,
+                "american": "175",
+                "fractional": "7/4"
               },
               "groups": [
                 {
@@ -2981,9 +6686,50 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4362276364,
+                          "id": 4362330856,
                           "eventId": 1027508029,
-                          "betOfferId": 2699984393
+                          "betOfferId": 2700042560
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8130431,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 4200,
+                "american": "320",
+                "fractional": "16/5"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361702622,
+                          "eventId": 1027508029,
+                          "betOfferId": 2699822789
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362330856,
+                          "eventId": 1027508029,
+                          "betOfferId": 2700042560
                         }
                       ]
                     }
@@ -2999,52 +6745,11 @@
       ]
     },
     {
-      "id": 7196534,
+      "id": 7208578,
       "label": "Spread and Total Points",
       "prePackSelections": [
         {
-          "selectionId": 8123059,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3400,
-                "american": "240",
-                "fractional": "12/5"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362342410,
-                          "eventId": 1027508029,
-                          "betOfferId": 2700045436
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362276364,
-                          "eventId": 1027508029,
-                          "betOfferId": 2699984393
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8123058,
+          "selectionId": 8135960,
           "label": [],
           "status": "OPEN",
           "combinations": [
@@ -3062,9 +6767,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4362342409,
+                          "id": 4362330854,
                           "eventId": 1027508029,
-                          "betOfferId": 2700045436
+                          "betOfferId": 2700042559
                         }
                       ]
                     },
@@ -3072,9 +6777,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4362276364,
+                          "id": 4362330856,
                           "eventId": 1027508029,
-                          "betOfferId": 2699984393
+                          "betOfferId": 2700042560
                         }
                       ]
                     }
@@ -3085,7 +6790,89 @@
           ]
         },
         {
-          "selectionId": 8123057,
+          "selectionId": 8135961,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362330855,
+                          "eventId": 1027508029,
+                          "betOfferId": 2700042559
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362330856,
+                          "eventId": 1027508029,
+                          "betOfferId": 2700042560
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8135958,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362330854,
+                          "eventId": 1027508029,
+                          "betOfferId": 2700042559
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362330858,
+                          "eventId": 1027508029,
+                          "betOfferId": 2700042560
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8135959,
           "label": [],
           "status": "OPEN",
           "combinations": [
@@ -3103,9 +6890,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4362342410,
+                          "id": 4362330855,
                           "eventId": 1027508029,
-                          "betOfferId": 2700045436
+                          "betOfferId": 2700042559
                         }
                       ]
                     },
@@ -3113,50 +6900,9 @@
                       "operation": "AND",
                       "outcomes": [
                         {
-                          "id": 4362276365,
+                          "id": 4362330858,
                           "eventId": 1027508029,
-                          "betOfferId": 2699984393
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8123056,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3300,
-                "american": "230",
-                "fractional": "23/10"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362342409,
-                          "eventId": 1027508029,
-                          "betOfferId": 2700045436
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362276365,
-                          "eventId": 1027508029,
-                          "betOfferId": 2699984393
+                          "betOfferId": 2700042560
                         }
                       ]
                     }

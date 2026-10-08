@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:39.730Z",
+  "generatedAt": "2026-10-08T22:55:39.345Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,7 +10,7 @@
     "start": "2026-10-10T16:30:00Z"
   },
   "counts": {
-    "betOffers": 3,
+    "betOffers": 81,
     "events": 1,
     "prePacks": 0
   },
@@ -37,15 +37,15 @@
           "id": 4361707126,
           "label": "Northwestern",
           "englishLabel": "Northwestern Wildcats",
-          "odds": 1820,
+          "odds": 1700,
           "line": -34500,
           "participant": "Northwestern",
           "type": "OT_ONE",
           "betOfferId": 2699814694,
-          "changedDate": "2026-10-05T00:44:04Z",
+          "changedDate": "2026-10-08T22:37:58Z",
           "participantId": 1000061395,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-122",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -54,15 +54,15 @@
           "id": 4361707127,
           "label": "Ball State",
           "englishLabel": "Ball State Cardinals",
-          "odds": 2020,
+          "odds": 2200,
           "line": 34500,
           "participant": "Ball State",
           "type": "OT_TWO",
           "betOfferId": 2699814694,
-          "changedDate": "2026-10-05T00:44:04Z",
+          "changedDate": "2026-10-08T22:37:58Z",
           "participantId": 1000052317,
-          "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,7 +70,124 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699814695,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4361707128,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1830,
+          "line": -36000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2699814695,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361707129,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2000,
+          "line": 36000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2699814695,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699814698,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4361707134,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1860,
+          "line": -36500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2699814698,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361707135,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1960,
+          "line": 36500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2699814698,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -97,15 +214,15 @@
           "id": 4361707136,
           "label": "Northwestern",
           "englishLabel": "Northwestern Wildcats",
-          "odds": 1770,
+          "odds": 1640,
           "line": -34000,
           "participant": "Northwestern",
           "type": "OT_ONE",
           "betOfferId": 2699814699,
-          "changedDate": "2026-10-05T00:44:04Z",
+          "changedDate": "2026-10-08T22:37:58Z",
           "participantId": 1000061395,
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-130",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -114,15 +231,188 @@
           "id": 4361707137,
           "label": "Ball State",
           "englishLabel": "Ball State Cardinals",
-          "odds": 2080,
+          "odds": 2300,
           "line": 34000,
           "participant": "Ball State",
           "type": "OT_TWO",
           "betOfferId": 2699814699,
-          "changedDate": "2026-10-05T00:44:04Z",
+          "changedDate": "2026-10-08T22:37:58Z",
           "participantId": 1000052317,
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699814701,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4361707140,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1740,
+          "line": -35000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2699814701,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361707141,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2120,
+          "line": 35000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2699814701,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699838002,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4361692720,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2699838002,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361692721,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699838002,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699838004,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4361692724,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1450,
+          "line": -31000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2699838004,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361692725,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2800,
+          "line": 31000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2699838004,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -156,13 +446,13 @@
           "id": 4361692726,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1900,
+          "odds": 1740,
           "line": 51500,
           "type": "OT_OVER",
           "betOfferId": 2699838005,
-          "changedDate": "2026-10-05T00:44:04Z",
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -171,13 +461,4383 @@
           "id": 4361692727,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1930,
+          "odds": 2120,
           "line": 51500,
           "type": "OT_UNDER",
           "betOfferId": 2699838005,
-          "changedDate": "2026-10-05T00:44:04Z",
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699838006,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4361692728,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1890,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2699838006,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361692729,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1940,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699838006,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699840693,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4361732448,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1810,
+          "line": -35500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2699840693,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361732449,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2020,
+          "line": 35500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2699840693,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699840695,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4361732452,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1500,
+          "line": -31500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2699840695,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361732453,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2630,
+          "line": 31500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2699840695,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699840696,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4361732454,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2699840696,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361732455,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1820,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699840696,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557596,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173426,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4800,
+          "type": "OT_YES",
+          "betOfferId": 2700557596,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "380",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173431,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1130,
+          "type": "OT_NO",
+          "betOfferId": 2700557596,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "1/8",
+          "oddsAmerican": "-770",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557605,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173452,
+          "label": "1",
+          "englishLabel": "1",
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700557605,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "status": "SUSPENDED",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173453,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 141000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700557605,
+          "changedDate": "2026-10-08T20:47:11Z",
+          "oddsFractional": "140/1",
+          "oddsAmerican": "14000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364173454,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 81000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700557605,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "80/1",
+          "oddsAmerican": "8000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557607,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Ball State to win both halves",
+        "englishLabel": "Ball State Cardinals to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173459,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 161000,
+          "type": "OT_YES",
+          "betOfferId": 2700557607,
+          "changedDate": "2026-10-08T20:47:11Z",
+          "oddsFractional": "160/1",
+          "oddsAmerican": "16000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173462,
+          "label": "No",
+          "englishLabel": "No",
+          "type": "OT_NO",
+          "betOfferId": 2700557607,
+          "changedDate": "2026-10-08T20:47:11Z",
+          "status": "SUSPENDED",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557611,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Northwestern to Score in every Quarter - Regular Time",
+        "englishLabel": "Northwestern Wildcats to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173473,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1250,
+          "type": "OT_YES",
+          "betOfferId": 2700557611,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173478,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 3400,
+          "type": "OT_NO",
+          "betOfferId": 2700557611,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557614,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173484,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1630,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700557614,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173485,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2320,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700557614,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557615,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173486,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1230,
+          "line": -25500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700557615,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "2/9",
+          "oddsAmerican": "-435",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173487,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 4300,
+          "line": 25500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700557615,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "33/10",
+          "oddsAmerican": "330",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557616,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173488,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1380,
+          "line": -29500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700557616,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173489,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 3100,
+          "line": 29500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700557616,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557617,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173490,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2300,
+          "line": -40500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700557617,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173491,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1640,
+          "line": 40500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700557617,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557618,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173492,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2480,
+          "line": -41500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700557618,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173493,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1550,
+          "line": 41500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700557618,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557620,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173498,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2230,
+          "line": -39500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700557620,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173499,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1680,
+          "line": 39500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700557620,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557621,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173500,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2850,
+          "line": -43500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700557621,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173501,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1440,
+          "line": 43500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700557621,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557622,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173502,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1580,
+          "line": -33000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700557622,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173503,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2430,
+          "line": 33000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700557622,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557623,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173504,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 3250,
+          "line": -45000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700557623,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173505,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1360,
+          "line": 45000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700557623,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557624,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173506,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1300,
+          "line": -28000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700557624,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173507,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 3550,
+          "line": 28000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700557624,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557625,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364173508,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2800,
+          "line": -43000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700557625,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364173509,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1450,
+          "line": 43000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700557625,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700557803,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364174089,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1600,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700557803,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364174090,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2250,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700557803,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592289,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Ball State to Score in every Quarter - Regular Time",
+        "englishLabel": "Ball State Cardinals to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128092,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 23000,
+          "type": "OT_YES",
+          "betOfferId": 2700592289,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "22/1",
+          "oddsAmerican": "2200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128097,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1010,
+          "type": "OT_NO",
+          "betOfferId": 2700592289,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "1/100",
+          "oddsAmerican": "-10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592290,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Northwestern to win both halves",
+        "englishLabel": "Northwestern Wildcats to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128100,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1050,
+          "type": "OT_YES",
+          "betOfferId": 2700592290,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "1/20",
+          "oddsAmerican": "-2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128103,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 8000,
+          "type": "OT_NO",
+          "betOfferId": 2700592290,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592291,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128104,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1620,
+          "line": -18500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592291,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128105,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2200,
+          "line": 18500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592291,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592298,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Ball State",
+        "englishLabel": "Total Points by Ball State Cardinals - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128124,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 7500,
+          "type": "OT_OVER",
+          "betOfferId": 2700592298,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128125,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1670,
+          "line": 7500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700592298,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592299,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128126,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1010,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592299,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "1/100",
+          "oddsAmerican": "-10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128127,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 41000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700592299,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "40/1",
+          "oddsAmerican": "4000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364128128,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 26000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592299,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "25/1",
+          "oddsAmerican": "2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592303,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128135,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1370,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700592303,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128136,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3150,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700592303,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592304,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128137,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1570,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2700592304,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128138,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700592304,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592305,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128139,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2700,
+          "line": -42500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592305,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128140,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1480,
+          "line": 42500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592305,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592306,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128141,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2100,
+          "line": -38500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592306,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128142,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1750,
+          "line": 38500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592306,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592307,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128143,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1560,
+          "line": -32500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592307,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128144,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2480,
+          "line": 32500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592307,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592308,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128145,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1350,
+          "line": -28500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592308,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128146,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 3250,
+          "line": 28500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592308,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592309,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128147,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1600,
+          "line": -33500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592309,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128148,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2380,
+          "line": 33500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592309,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592310,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128149,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1380,
+          "line": -30000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592310,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128150,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 3050,
+          "line": 30000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592310,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592311,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128151,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2950,
+          "line": -44000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592311,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128152,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1410,
+          "line": 44000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592311,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592312,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128153,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1350,
+          "line": -29000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592312,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128154,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 3250,
+          "line": 29000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592312,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592313,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128155,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2170,
+          "line": -39000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592313,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128156,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1710,
+          "line": 39000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592313,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592314,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128157,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2250,
+          "line": -40000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592314,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128158,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1650,
+          "line": 40000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592314,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592315,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128159,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2400,
+          "line": -41000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592315,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128160,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1580,
+          "line": 41000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592315,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592316,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128161,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1260,
+          "line": -27000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592316,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128162,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 3950,
+          "line": 27000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592316,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "29/10",
+          "oddsAmerican": "295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592341,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364128222,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2430,
+          "line": 57500,
+          "type": "OT_OVER",
+          "betOfferId": 2700592341,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364128223,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1580,
+          "line": 57500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700592341,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700592492,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364188618,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1790,
+          "line": -9500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700592492,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364188617,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1960,
+          "line": 9500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700592492,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603971,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364122280,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1500,
+          "line": -17500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603971,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364122281,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2480,
+          "line": 17500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603971,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603972,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364122282,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1640,
+          "line": -19500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603972,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364122283,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2170,
+          "line": 19500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603972,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603974,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364122286,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1100,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603974,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364122287,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 9500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700603974,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364122288,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 13000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603974,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603976,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364122291,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 29000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603976,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "28/1",
+          "oddsAmerican": "2800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364122292,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1010,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603976,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "1/100",
+          "oddsAmerican": "-10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603977,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Northwestern",
+        "englishLabel": "Total Points by Northwestern Wildcats - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364122293,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700603977,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364122294,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1900,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700603977,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603978,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364122295,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1840,
+          "type": "OT_ODD",
+          "betOfferId": 2700603978,
+          "changedDate": "2026-10-08T20:47:11Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364122296,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1830,
+          "type": "OT_EVEN",
+          "betOfferId": 2700603978,
+          "changedDate": "2026-10-08T20:47:11Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603982,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Northwestern to score first and win",
+        "englishLabel": "Northwestern Wildcats to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364122305,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1150,
+          "type": "OT_YES",
+          "betOfferId": 2700603982,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "1/7",
+          "oddsAmerican": "-670",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364122308,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 4500,
+          "type": "OT_NO",
+          "betOfferId": 2700603982,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603983,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364122309,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2280,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2700603983,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364122310,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1640,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700603983,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603984,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364122311,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1040,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603984,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "1/25",
+          "oddsAmerican": "-2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364122312,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 10500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603984,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "19/2",
+          "oddsAmerican": "950",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603985,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364122313,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1440,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700603985,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364122314,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2850,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700603985,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603986,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364122315,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700603986,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364122316,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2550,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700603986,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603987,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364122319,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 1020,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700603987,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364122322,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 226000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700603987,
+          "changedDate": "2026-10-08T20:47:11Z",
+          "oddsFractional": "225/1",
+          "oddsAmerican": "22500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364122325,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 201000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700603987,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "200/1",
+          "oddsAmerican": "20000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364122328,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 61000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700603987,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "60/1",
+          "oddsAmerican": "6000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364122331,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 276000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700603987,
+          "changedDate": "2026-10-08T20:47:11Z",
+          "oddsFractional": "275/1",
+          "oddsAmerican": "27500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364122334,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 251000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700603987,
+          "changedDate": "2026-10-08T20:47:11Z",
+          "oddsFractional": "250/1",
+          "oddsAmerican": "25000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364122337,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 41000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700603987,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "40/1",
+          "oddsAmerican": "4000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364182386,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 251000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700603987,
+          "changedDate": "2026-10-08T20:47:11Z",
+          "oddsFractional": "250/1",
+          "oddsAmerican": "25000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364182389,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 151000,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700603987,
+          "changedDate": "2026-10-08T20:47:11Z",
+          "oddsFractional": "150/1",
+          "oddsAmerican": "15000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603988,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182390,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1050,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603988,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "1/20",
+          "oddsAmerican": "-2000",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182391,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 7500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603988,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700603989,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182392,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2200,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2700603989,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182393,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700603989,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603990,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182394,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 1340,
+          "participant": "Northwestern",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700603990,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364182395,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 12000,
+          "participant": "Ball State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700603990,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364182396,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 7500,
+          "participant": "Northwestern",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700603990,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364182397,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 201000,
+          "participant": "Ball State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700603990,
+          "changedDate": "2026-10-08T20:47:11Z",
+          "participantId": 1000052317,
+          "oddsFractional": "200/1",
+          "oddsAmerican": "20000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364182398,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 141000,
+          "participant": "Northwestern",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700603990,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "140/1",
+          "oddsAmerican": "14000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364182399,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 7500,
+          "participant": "Ball State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700603990,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603991,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182400,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1420,
+          "line": -30500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603991,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182401,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2950,
+          "line": 30500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603991,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603992,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182402,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1250,
+          "line": -26500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603992,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182403,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 4000,
+          "line": 26500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603992,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603993,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182404,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 3000,
+          "line": -44500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603993,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182405,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1400,
+          "line": 44500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603993,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603994,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182406,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1290,
+          "line": -27500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603994,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182407,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 3700,
+          "line": 27500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603994,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603995,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182408,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1950,
+          "line": -37500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603995,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182409,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1880,
+          "line": 37500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603995,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603996,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Ball State to Score in Both Halves",
+        "englishLabel": "Ball State Cardinals to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182412,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2650,
+          "type": "OT_YES",
+          "betOfferId": 2700603996,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182415,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1410,
+          "type": "OT_NO",
+          "betOfferId": 2700603996,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603997,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182416,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1230,
+          "line": -26000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603997,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "2/9",
+          "oddsAmerican": "-435",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182417,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 4250,
+          "line": 26000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603997,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "13/4",
+          "oddsAmerican": "325",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603998,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182418,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1530,
+          "line": -32000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603998,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182419,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2550,
+          "line": 32000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603998,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700603999,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182420,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1910,
+          "line": -37000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700603999,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182421,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1920,
+          "line": 37000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700603999,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700604000,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182422,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2020,
+          "line": -38000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700604000,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182423,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1810,
+          "line": 38000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700604000,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700604001,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182424,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2630,
+          "line": -42000,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700604001,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182425,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1500,
+          "line": 42000,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700604001,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700604021,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182468,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 1740,
+          "line": -20500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700604021,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000061395,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182469,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 2020,
+          "line": 20500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700604021,
+          "changedDate": "2026-10-08T22:37:58Z",
+          "participantId": 1000052317,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700604079,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182603,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2020,
+          "line": -21500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700604079,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182604,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1740,
+          "line": 21500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700604079,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700604185,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4364182899,
+          "label": "Northwestern",
+          "englishLabel": "Northwestern Wildcats",
+          "odds": 2100,
+          "line": -22500,
+          "participant": "Northwestern",
+          "type": "OT_ONE",
+          "betOfferId": 2700604185,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000061395,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364182900,
+          "label": "Ball State",
+          "englishLabel": "Ball State Cardinals",
+          "odds": 1680,
+          "line": 22500,
+          "participant": "Ball State",
+          "type": "OT_TWO",
+          "betOfferId": 2700604185,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "participantId": 1000052317,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701350664,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Ball State - 1st Half",
+        "englishLabel": "Total Points by Ball State Cardinals - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4366661114,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1750,
+          "line": 3500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701350664,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4366661115,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1930,
+          "line": 3500,
+          "type": "OT_OVER",
+          "betOfferId": 2701350664,
+          "changedDate": "2026-10-08T22:37:57Z",
           "oddsFractional": "10/11",
           "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701543672,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4367331569,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1770,
+          "line": 30500,
+          "type": "OT_OVER",
+          "betOfferId": 2701543672,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367331570,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 30500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701543672,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701558467,
+      "closed": "2026-10-10T16:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Northwestern - 1st Half",
+        "englishLabel": "Total Points by Northwestern Wildcats - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552999,
+      "outcomes": [
+        {
+          "id": 4367345280,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1770,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2701558467,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367345281,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1900,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701558467,
+          "changedDate": "2026-10-08T22:37:57Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -216,7 +4876,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 3,
+      "nonLiveBoCount": 81,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

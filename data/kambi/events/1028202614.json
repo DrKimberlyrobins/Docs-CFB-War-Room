@@ -1,0 +1,661 @@
+{
+  "generatedAt": "2026-10-08T22:55:50.969Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1028202614",
+    "name": "Penn State @ Michigan",
+    "away": "Penn State",
+    "home": "Michigan",
+    "start": "2026-10-17T19:30:00Z"
+  },
+  "counts": {
+    "betOffers": 4,
+    "events": 1,
+    "prePacks": 2
+  },
+  "betOffers": [
+    {
+      "id": 2701553688,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202614,
+      "outcomes": [
+        {
+          "id": 4367268664,
+          "label": "Michigan",
+          "englishLabel": "Michigan Wolverines",
+          "odds": 1870,
+          "line": -5000,
+          "participant": "Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2701553688,
+          "changedDate": "2026-10-08T19:13:40Z",
+          "participantId": 1000067865,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367268665,
+          "label": "Penn State",
+          "englishLabel": "Penn State Nittany Lions",
+          "odds": 1950,
+          "line": 5000,
+          "participant": "Penn State",
+          "type": "OT_TWO",
+          "betOfferId": 2701553688,
+          "changedDate": "2026-10-08T19:13:40Z",
+          "participantId": 1000050079,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701553689,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202614,
+      "outcomes": [
+        {
+          "id": 4367268666,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701553689,
+          "changedDate": "2026-10-08T19:13:40Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367268667,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1910,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2701553689,
+          "changedDate": "2026-10-08T19:13:40Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701559267,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202614,
+      "outcomes": [
+        {
+          "id": 4367224225,
+          "label": "Michigan",
+          "englishLabel": "Michigan Wolverines",
+          "odds": 1470,
+          "participant": "Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2701559267,
+          "changedDate": "2026-10-08T19:13:40Z",
+          "participantId": 1000067865,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367224226,
+          "label": "Penn State",
+          "englishLabel": "Penn State Nittany Lions",
+          "odds": 2750,
+          "participant": "Penn State",
+          "type": "OT_TWO",
+          "betOfferId": 2701559267,
+          "changedDate": "2026-10-08T19:13:40Z",
+          "participantId": 1000050079,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701559283,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202614,
+      "outcomes": [
+        {
+          "id": 4367224275,
+          "label": "Michigan",
+          "englishLabel": "Michigan Wolverines",
+          "odds": 1910,
+          "line": -5500,
+          "participant": "Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2701559283,
+          "changedDate": "2026-10-08T19:13:40Z",
+          "participantId": 1000067865,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367224276,
+          "label": "Penn State",
+          "englishLabel": "Penn State Nittany Lions",
+          "odds": 1910,
+          "line": 5500,
+          "participant": "Penn State",
+          "type": "OT_TWO",
+          "betOfferId": 2701559283,
+          "changedDate": "2026-10-08T19:13:40Z",
+          "participantId": 1000050079,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1028202614,
+      "name": "Penn State @ Michigan",
+      "nameDelimiter": "@",
+      "englishName": "Michigan Wolverines - Penn State Nittany Lions",
+      "homeName": "Michigan",
+      "awayName": "Penn State",
+      "start": "2026-10-17T19:30:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 4,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1000067865,
+          "name": "Michigan",
+          "englishName": "Michigan Wolverines",
+          "termKey": "michigan_wolverines",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000050079,
+          "name": "Penn State",
+          "englishName": "Penn State Nittany Lions",
+          "termKey": "penn_state_nittany_lions",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-17T19:30:00Z"
+    }
+  ],
+  "prePacks": [
+    {
+      "id": 7216256,
+      "label": "Game Winner and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8144264,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 4750,
+                "american": "375",
+                "fractional": "15/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367224226,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701559267
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367268667,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701553689
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144265,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 2550,
+                "american": "155",
+                "fractional": "31/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367224225,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701559267
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367268666,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701553689
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144266,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 4700,
+                "american": "370",
+                "fractional": "18/5"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367224226,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701559267
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367268666,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701553689
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144263,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 2550,
+                "american": "155",
+                "fractional": "31/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367224225,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701559267
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367268667,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701553689
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    },
+    {
+      "id": 7216257,
+      "label": "Spread and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8144268,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367224276,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701559283
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367268667,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701553689
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144269,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367224275,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701559283
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367268666,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701553689
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144270,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3250,
+                "american": "225",
+                "fractional": "9/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367224276,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701559283
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367268666,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701553689
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8144267,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3250,
+                "american": "225",
+                "fractional": "9/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367224275,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701559283
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367268667,
+                          "eventId": 1028202614,
+                          "betOfferId": 2701553689
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    }
+  ]
+}

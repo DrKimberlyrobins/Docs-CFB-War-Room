@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-10-05T14:05:38.356Z",
+  "generatedAt": "2026-10-08T22:55:38.048Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
     "id": "1027553008",
-    "name": "North Carolina @ Pittsburgh",
+    "name": "North Carolina @ (25) Pittsburgh",
     "away": "North Carolina",
     "home": "Pittsburgh",
     "start": "2026-10-10T16:00:00Z"
   },
   "counts": {
-    "betOffers": 45,
+    "betOffers": 111,
     "events": 1,
     "prePacks": 2
   },
@@ -35,16 +35,16 @@
       "outcomes": [
         {
           "id": 4361672472,
-          "label": "Pittsburgh",
-          "englishLabel": "Pittsburgh Panthers",
-          "odds": 1550,
-          "participant": "Pittsburgh",
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1540,
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2699787971,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "11/20",
-          "oddsAmerican": "-182",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +53,14 @@
           "id": 4361672473,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 2500,
+          "odds": 2480,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2699787971,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
-          "oddsFractional": "6/4",
-          "oddsAmerican": "150",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -93,17 +93,17 @@
       "outcomes": [
         {
           "id": 4361672474,
-          "label": "Pittsburgh",
-          "englishLabel": "Pittsburgh Panthers",
-          "odds": 1870,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1880,
           "line": -3500,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2699787972,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -112,15 +112,15 @@
           "id": 4361672475,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 1950,
+          "odds": 1940,
           "line": 3500,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2699787972,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -154,13 +154,13 @@
           "id": 4361672518,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1870,
+          "odds": 1880,
           "line": 46500,
           "type": "OT_OVER",
           "betOfferId": 2699787990,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -169,13 +169,182 @@
           "id": 4361672519,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1950,
+          "odds": 1940,
           "line": 46500,
           "type": "OT_UNDER",
           "betOfferId": 2699787990,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699814225,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4361705692,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1450,
+          "line": 1500,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2699814225,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361705693,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2650,
+          "line": -1500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2699814225,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699814226,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4361705694,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2330,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2699814226,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361705695,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1620,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699814226,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699814227,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4361705696,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2230,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2699814227,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361705697,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699814227,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -213,7 +382,7 @@
           "line": 47500,
           "type": "OT_OVER",
           "betOfferId": 2699814245,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "Evens",
           "oddsAmerican": "100",
           "status": "OPEN",
@@ -228,9 +397,127 @@
           "line": 47500,
           "type": "OT_UNDER",
           "betOfferId": 2699814245,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "41/50",
           "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699837483,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4361691140,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1480,
+          "line": 1000,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2699837483,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361691141,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2600,
+          "line": -1000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2699837483,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699837485,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4361691145,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1550,
+          "line": -1000,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2699837485,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4361691146,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2430,
+          "line": 1000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2699837485,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -262,17 +549,17 @@
       "outcomes": [
         {
           "id": 4361691147,
-          "label": "Pittsburgh",
-          "englishLabel": "Pittsburgh Panthers",
-          "odds": 1770,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1780,
           "line": -3000,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2699837486,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-130",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -281,15 +568,15 @@
           "id": 4361691148,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 2070,
+          "odds": 2060,
           "line": 3000,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2699837486,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
           "oddsFractional": "21/20",
-          "oddsAmerican": "107",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -321,17 +608,17 @@
       "outcomes": [
         {
           "id": 4361691149,
-          "label": "Pittsburgh",
-          "englishLabel": "Pittsburgh Panthers",
-          "odds": 1920,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1930,
           "line": -4000,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2699837487,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
           "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "oddsAmerican": "-108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -340,15 +627,15 @@
           "id": 4361691150,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 1900,
+          "odds": 1890,
           "line": 4000,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2699837487,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -387,7 +674,7 @@
           "line": 48500,
           "type": "OT_OVER",
           "betOfferId": 2699837497,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "11/10",
           "oddsAmerican": "110",
           "status": "OPEN",
@@ -402,7 +689,7 @@
           "line": 48500,
           "type": "OT_UNDER",
           "betOfferId": 2699837497,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "3/4",
           "oddsAmerican": "-134",
           "status": "OPEN",
@@ -436,17 +723,17 @@
       "outcomes": [
         {
           "id": 4362211610,
-          "label": "Pittsburgh",
-          "englishLabel": "Pittsburgh Panthers",
-          "odds": 1970,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1980,
           "line": -4500,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700006218,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-104",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -455,15 +742,15 @@
           "id": 4362211611,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 1850,
+          "odds": 1830,
           "line": 4500,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700006218,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -495,17 +782,17 @@
       "outcomes": [
         {
           "id": 4362328161,
-          "label": "Pittsburgh",
-          "englishLabel": "Pittsburgh Panthers",
-          "odds": 2060,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 2100,
           "line": -5500,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700008050,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "21/20",
-          "oddsAmerican": "106",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -514,15 +801,15 @@
           "id": 4362328162,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 1780,
+          "odds": 1760,
           "line": 5500,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700008050,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-129",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -560,7 +847,7 @@
           "line": 44500,
           "type": "OT_OVER",
           "betOfferId": 2700008051,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "7/10",
           "oddsAmerican": "-139",
           "status": "OPEN",
@@ -575,7 +862,7 @@
           "line": 44500,
           "type": "OT_UNDER",
           "betOfferId": 2700008051,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "23/20",
           "oddsAmerican": "115",
           "status": "OPEN",
@@ -615,7 +902,7 @@
           "line": 45000,
           "type": "OT_OVER",
           "betOfferId": 2700008052,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "3/4",
           "oddsAmerican": "-132",
           "status": "OPEN",
@@ -626,13 +913,13 @@
           "id": 4362328164,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2100,
+          "odds": 2080,
           "line": 45000,
           "type": "OT_UNDER",
           "betOfferId": 2700008052,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -649,8 +936,8 @@
       "closed": "2026-10-10T16:00:00Z",
       "criterion": {
         "id": 1001159692,
-        "label": "Total Points by Pittsburgh",
-        "englishLabel": "Total Points by Pittsburgh Panthers - Including Overtime",
+        "label": "Total Points by (25) Pittsburgh",
+        "englishLabel": "Total Points by (25) Pittsburgh Panthers - Including Overtime",
         "order": [],
         "lifetime": "FULL_TIME_OVERTIME"
       },
@@ -665,13 +952,13 @@
           "id": 4362328167,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1850,
+          "odds": 1860,
           "line": 25500,
           "type": "OT_OVER",
           "betOfferId": 2700008053,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -680,13 +967,13 @@
           "id": 4362328168,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1890,
+          "odds": 1880,
           "line": 25500,
           "type": "OT_UNDER",
           "betOfferId": 2700008053,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -725,7 +1012,7 @@
           "line": 45500,
           "type": "OT_OVER",
           "betOfferId": 2700008054,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "4/5",
           "oddsAmerican": "-124",
           "status": "OPEN",
@@ -740,7 +1027,7 @@
           "line": 45500,
           "type": "OT_UNDER",
           "betOfferId": 2700008054,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "Evens",
           "oddsAmerican": "102",
           "status": "OPEN",
@@ -776,13 +1063,13 @@
           "id": 4362328171,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1930,
+          "odds": 1940,
           "line": 47000,
           "type": "OT_OVER",
           "betOfferId": 2700008055,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -791,13 +1078,13 @@
           "id": 4362328172,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1890,
+          "odds": 1880,
           "line": 47000,
           "type": "OT_UNDER",
           "betOfferId": 2700008055,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -830,14 +1117,14 @@
       "outcomes": [
         {
           "id": 4362328173,
-          "label": "Pittsburgh",
-          "englishLabel": "Pittsburgh Panthers",
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
           "odds": 2020,
           "line": -5000,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700008056,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
           "oddsFractional": "Evens",
           "oddsAmerican": "102",
@@ -849,15 +1136,15 @@
           "id": 4362328174,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 1820,
+          "odds": 1790,
           "line": 5000,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700008056,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-122",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -891,13 +1178,13 @@
           "id": 4362324955,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2050,
+          "odds": 2060,
           "line": 48000,
           "type": "OT_OVER",
           "betOfferId": 2700022566,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "21/20",
-          "oddsAmerican": "105",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -906,13 +1193,13 @@
           "id": 4362324958,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1790,
+          "odds": 1780,
           "line": 48000,
           "type": "OT_UNDER",
           "betOfferId": 2700022566,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "10/13",
-          "oddsAmerican": "-127",
+          "oddsAmerican": "-129",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -946,13 +1233,13 @@
           "id": 4362324956,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2160,
+          "odds": 2170,
           "line": 49000,
           "type": "OT_OVER",
           "betOfferId": 2700022567,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "23/20",
-          "oddsAmerican": "116",
+          "oddsAmerican": "117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -965,7 +1252,7 @@
           "line": 49000,
           "type": "OT_UNDER",
           "betOfferId": 2700022567,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T20:19:46Z",
           "oddsFractional": "7/10",
           "oddsAmerican": "-141",
           "status": "OPEN",
@@ -1005,7 +1292,7 @@
           "line": 46000,
           "type": "OT_OVER",
           "betOfferId": 2700022568,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "5/6",
           "oddsAmerican": "-120",
           "status": "OPEN",
@@ -1020,7 +1307,7 @@
           "line": 46000,
           "type": "OT_UNDER",
           "betOfferId": 2700022568,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "49/50",
           "oddsAmerican": "-103",
           "status": "OPEN",
@@ -1055,12 +1342,12 @@
           "id": 4362324963,
           "label": "1/1",
           "englishLabel": "1/1",
-          "odds": 1870,
+          "odds": 1890,
           "type": "OT_ONE_ONE",
           "betOfferId": 2700022569,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1069,12 +1356,12 @@
           "id": 4362324968,
           "label": "1/X",
           "englishLabel": "1/X",
-          "odds": 29000,
+          "odds": 30000,
           "type": "OT_ONE_CROSS",
           "betOfferId": 2700022569,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "28/1",
-          "oddsAmerican": "2800",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "29/1",
+          "oddsAmerican": "2900",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1086,7 +1373,7 @@
           "odds": 9000,
           "type": "OT_ONE_TWO",
           "betOfferId": 2700022569,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "8/1",
           "oddsAmerican": "800",
           "status": "OPEN",
@@ -1100,7 +1387,7 @@
           "odds": 17000,
           "type": "OT_CROSS_ONE",
           "betOfferId": 2700022569,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "16/1",
           "oddsAmerican": "1600",
           "status": "OPEN",
@@ -1114,7 +1401,7 @@
           "odds": 61000,
           "type": "OT_CROSS_CROSS",
           "betOfferId": 2700022569,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "60/1",
           "oddsAmerican": "6000",
           "status": "OPEN",
@@ -1128,7 +1415,7 @@
           "odds": 23000,
           "type": "OT_CROSS_TWO",
           "betOfferId": 2700022569,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "22/1",
           "oddsAmerican": "2200",
           "status": "OPEN",
@@ -1142,7 +1429,7 @@
           "odds": 6500,
           "type": "OT_TWO_ONE",
           "betOfferId": 2700022569,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "11/2",
           "oddsAmerican": "550",
           "status": "OPEN",
@@ -1153,12 +1440,12 @@
           "id": 4362324986,
           "label": "2/X",
           "englishLabel": "2/X",
-          "odds": 29000,
+          "odds": 26000,
           "type": "OT_TWO_CROSS",
           "betOfferId": 2700022569,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "28/1",
-          "oddsAmerican": "2800",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "25/1",
+          "oddsAmerican": "2500",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 7
@@ -1167,12 +1454,12 @@
           "id": 4362324989,
           "label": "2/2",
           "englishLabel": "2/2",
-          "odds": 3300,
+          "odds": 3250,
           "type": "OT_TWO_TWO",
           "betOfferId": 2700022569,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "23/10",
-          "oddsAmerican": "230",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 8
@@ -1203,17 +1490,17 @@
       "outcomes": [
         {
           "id": 4362324966,
-          "label": "Pittsburgh",
-          "englishLabel": "Pittsburgh Panthers",
-          "odds": 2180,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 2200,
           "line": -6500,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700022570,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "59/50",
-          "oddsAmerican": "118",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1222,15 +1509,15 @@
           "id": 4362324967,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 1700,
+          "odds": 1670,
           "line": 6500,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700022570,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-143",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1264,14 +1551,14 @@
           "id": 4362324990,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1580,
-          "participant": "Pittsburgh",
+          "odds": 1600,
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700022571,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "4/7",
-          "oddsAmerican": "-175",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1283,7 +1570,7 @@
           "odds": 15000,
           "type": "OT_CROSS",
           "betOfferId": 2700022571,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "14/1",
           "oddsAmerican": "1400",
           "status": "OPEN",
@@ -1294,14 +1581,14 @@
           "id": 4362324992,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2650,
+          "odds": 2630,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700022571,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
-          "oddsFractional": "33/20",
-          "oddsAmerican": "165",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1337,7 +1624,7 @@
           "line": 21500,
           "type": "OT_OVER",
           "betOfferId": 2700022572,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "23/25",
           "oddsAmerican": "-107",
           "status": "OPEN",
@@ -1348,13 +1635,13 @@
           "id": 4362324994,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1810,
+          "odds": 1800,
           "line": 21500,
           "type": "OT_UNDER",
           "betOfferId": 2700022572,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "4/5",
-          "oddsAmerican": "-124",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1392,14 +1679,14 @@
           "id": 4362347962,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1720,
-          "participant": "Pittsburgh",
+          "odds": 1730,
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700036681,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 0
@@ -1412,7 +1699,7 @@
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700036681,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
           "oddsFractional": "Evens",
           "oddsAmerican": "102",
@@ -1446,17 +1733,17 @@
       "outcomes": [
         {
           "id": 4362347964,
-          "label": "Pittsburgh",
-          "englishLabel": "Pittsburgh Panthers",
-          "odds": 2120,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 2180,
           "line": -6000,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700036682,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "11/10",
-          "oddsAmerican": "112",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1465,15 +1752,15 @@
           "id": 4362347965,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 1740,
+          "odds": 1700,
           "line": 6000,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700036682,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-136",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1507,13 +1794,13 @@
       "outcomes": [
         {
           "id": 4362347966,
-          "label": "Pittsburgh Touchdown",
-          "englishLabel": "Pittsburgh Panthers Touchdown",
+          "label": "(25) Pittsburgh Touchdown",
+          "englishLabel": "(25) Pittsburgh Panthers Touchdown",
           "odds": 2450,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700036683,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
           "oddsFractional": "29/20",
           "oddsAmerican": "145",
@@ -1527,13 +1814,13 @@
         },
         {
           "id": 4362347967,
-          "label": "Pittsburgh Field Goal",
-          "englishLabel": "Pittsburgh Panthers Field Goal",
+          "label": "(25) Pittsburgh Field Goal",
+          "englishLabel": "(25) Pittsburgh Panthers Field Goal",
           "odds": 5750,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700036683,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
           "oddsFractional": "19/4",
           "oddsAmerican": "475",
@@ -1547,16 +1834,16 @@
         },
         {
           "id": 4362347970,
-          "label": "Pittsburgh Safety",
-          "englishLabel": "Pittsburgh Panthers Safety",
-          "odds": 67000,
-          "participant": "Pittsburgh",
+          "label": "(25) Pittsburgh Safety",
+          "englishLabel": "(25) Pittsburgh Panthers Safety",
+          "odds": 71000,
+          "participant": "(25) Pittsburgh",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700036683,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "66/1",
-          "oddsAmerican": "6600",
+          "oddsFractional": "70/1",
+          "oddsAmerican": "7000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1573,7 +1860,7 @@
           "participant": "North Carolina",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700036683,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
           "oddsFractional": "39/20",
           "oddsAmerican": "195",
@@ -1593,7 +1880,7 @@
           "participant": "North Carolina",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700036683,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
           "oddsFractional": "21/4",
           "oddsAmerican": "525",
@@ -1613,7 +1900,7 @@
           "participant": "North Carolina",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700036683,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
           "oddsFractional": "75/1",
           "oddsAmerican": "7500",
@@ -1656,14 +1943,14 @@
           "id": 4362347968,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1710,
-          "participant": "Pittsburgh",
+          "odds": 1720,
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700036684,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
           "oddsFractional": "7/10",
-          "oddsAmerican": "-141",
+          "oddsAmerican": "-139",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 0
@@ -1672,14 +1959,14 @@
           "id": 4362347969,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2070,
+          "odds": 2050,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700036684,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
           "oddsFractional": "21/20",
-          "oddsAmerican": "107",
+          "oddsAmerican": "105",
           "status": "OPEN",
           "cashOutStatus": "DISABLED",
           "displayOrder": 1
@@ -1695,8 +1982,8 @@
       "closed": "2026-10-10T16:00:00Z",
       "criterion": {
         "id": 1002393703,
-        "label": "Pittsburgh to Score in every Quarter - Regular Time",
-        "englishLabel": "Pittsburgh Panthers to Score in every Quarter - Regular Time",
+        "label": "(25) Pittsburgh to Score in every Quarter - Regular Time",
+        "englishLabel": "(25) Pittsburgh Panthers to Score in every Quarter - Regular Time",
         "order": []
       },
       "betOfferType": {
@@ -1710,12 +1997,12 @@
           "id": 4363015561,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 3250,
+          "odds": 3300,
           "type": "OT_YES",
           "betOfferId": 2700235237,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "9/4",
-          "oddsAmerican": "225",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1724,12 +2011,12 @@
           "id": 4363015566,
           "label": "No",
           "englishLabel": "No",
-          "odds": 1320,
+          "odds": 1300,
           "type": "OT_NO",
           "betOfferId": 2700235237,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "8/25",
-          "oddsAmerican": "-315",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1765,12 +2052,12 @@
           "id": 4363015555,
           "label": "X",
           "englishLabel": "X",
-          "odds": 2700,
+          "odds": 2650,
           "type": "OT_CROSS",
           "betOfferId": 2700235238,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "17/10",
-          "oddsAmerican": "170",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1779,14 +2066,14 @@
           "id": 4363015556,
           "label": "1",
           "englishLabel": "1",
-          "odds": 2140,
-          "participant": "Pittsburgh",
+          "odds": 2160,
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700235238,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "57/50",
-          "oddsAmerican": "114",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1795,14 +2082,14 @@
           "id": 4363015558,
           "label": "2",
           "englishLabel": "2",
-          "odds": 3550,
+          "odds": 3500,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700235238,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
           "oddsFractional": "5/2",
-          "oddsAmerican": "255",
+          "oddsAmerican": "250",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1841,7 +2128,7 @@
           "odds": 1200,
           "type": "OT_CROSS",
           "betOfferId": 2700235239,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "1/5",
           "oddsAmerican": "-500",
           "status": "OPEN",
@@ -1852,14 +2139,14 @@
           "id": 4363015568,
           "label": "1",
           "englishLabel": "1",
-          "odds": 5200,
-          "participant": "Pittsburgh",
+          "odds": 5300,
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700235239,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "21/5",
-          "oddsAmerican": "420",
+          "oddsFractional": "17/4",
+          "oddsAmerican": "430",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1868,14 +2155,14 @@
           "id": 4363015569,
           "label": "2",
           "englishLabel": "2",
-          "odds": 10500,
+          "odds": 10000,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700235239,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
-          "oddsFractional": "19/2",
-          "oddsAmerican": "950",
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -1891,8 +2178,8 @@
       "closed": "2026-10-10T16:00:00Z",
       "criterion": {
         "id": 1001935119,
-        "label": "Total Points by Pittsburgh - 1st Half",
-        "englishLabel": "Total Points by Pittsburgh Panthers - 1st Half",
+        "label": "Total Points by (25) Pittsburgh - 1st Half",
+        "englishLabel": "Total Points by (25) Pittsburgh Panthers - 1st Half",
         "order": []
       },
       "betOfferType": {
@@ -1906,13 +2193,13 @@
           "id": 4363015572,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1870,
+          "odds": 1890,
           "line": 13500,
           "type": "OT_OVER",
           "betOfferId": 2700235241,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1921,13 +2208,13 @@
           "id": 4363015573,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1850,
+          "odds": 1830,
           "line": 13500,
           "type": "OT_UNDER",
           "betOfferId": 2700235241,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1960,14 +2247,14 @@
           "id": 4363015574,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2250,
+          "odds": 2230,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700235242,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
-          "oddsFractional": "5/4",
-          "oddsAmerican": "125",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1976,14 +2263,14 @@
           "id": 4363015575,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1620,
-          "participant": "Pittsburgh",
+          "odds": 1630,
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700235242,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
           "oddsFractional": "8/13",
-          "oddsAmerican": "-162",
+          "oddsAmerican": "-159",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2015,17 +2302,17 @@
       "outcomes": [
         {
           "id": 4363015576,
-          "label": "Pittsburgh",
-          "englishLabel": "Pittsburgh Panthers",
-          "odds": 2120,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 2100,
           "line": -1500,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700235243,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
           "oddsFractional": "11/10",
-          "oddsAmerican": "112",
+          "oddsAmerican": "110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2039,7 +2326,7 @@
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700235243,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
           "oddsFractional": "4/6",
           "oddsAmerican": "-148",
@@ -2083,7 +2370,7 @@
           "odds": 1700,
           "type": "OT_CROSS",
           "betOfferId": 2700235244,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "7/10",
           "oddsAmerican": "-143",
           "status": "OPEN",
@@ -2094,14 +2381,14 @@
           "id": 4363015579,
           "label": "1",
           "englishLabel": "1",
-          "odds": 2900,
-          "participant": "Pittsburgh",
+          "odds": 2950,
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700235244,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "19/10",
-          "oddsAmerican": "190",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2110,14 +2397,14 @@
           "id": 4363015580,
           "label": "2",
           "englishLabel": "2",
-          "odds": 5250,
+          "odds": 5200,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700235244,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
-          "oddsFractional": "17/4",
-          "oddsAmerican": "425",
+          "oddsFractional": "21/5",
+          "oddsAmerican": "420",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2151,7 +2438,7 @@
           "odds": 1190,
           "type": "OT_YES",
           "betOfferId": 2700235245,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "2/11",
           "oddsAmerican": "-530",
           "status": "OPEN",
@@ -2165,7 +2452,7 @@
           "odds": 4350,
           "type": "OT_NO",
           "betOfferId": 2700235245,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "10/3",
           "oddsAmerican": "335",
           "status": "OPEN",
@@ -2175,6 +2462,59 @@
       ],
       "tags": [
         "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700235246,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by North Carolina - 1st Half",
+        "englishLabel": "Total Points by North Carolina Tar Heels - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363015581,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700235246,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4363015583,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2070,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700235246,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2203,12 +2543,12 @@
           "id": 4363015589,
           "label": "X",
           "englishLabel": "X",
-          "odds": 7500,
+          "odds": 7000,
           "type": "OT_CROSS",
           "betOfferId": 2700235247,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "13/2",
-          "oddsAmerican": "650",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "6/1",
+          "oddsAmerican": "600",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2217,14 +2557,14 @@
           "id": 4363015590,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1680,
-          "participant": "Pittsburgh",
+          "odds": 1700,
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700235247,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-148",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2237,7 +2577,7 @@
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700235247,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
           "oddsFractional": "31/20",
           "oddsAmerican": "155",
@@ -2274,7 +2614,7 @@
           "odds": 4750,
           "type": "OT_YES",
           "betOfferId": 2700235248,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "15/4",
           "oddsAmerican": "375",
           "status": "OPEN",
@@ -2288,7 +2628,7 @@
           "odds": 1160,
           "type": "OT_NO",
           "betOfferId": 2700235248,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "2/13",
           "oddsAmerican": "-625",
           "status": "OPEN",
@@ -2302,65 +2642,12 @@
       "cashOutStatus": "ENABLED"
     },
     {
-      "id": 2700235255,
-      "closed": "2026-10-10T16:00:00Z",
-      "criterion": {
-        "id": 1001935118,
-        "label": "Total Points by North Carolina - 1st Half",
-        "englishLabel": "Total Points by North Carolina Tar Heels - 1st Half",
-        "order": []
-      },
-      "betOfferType": {
-        "id": 6,
-        "name": "Over/Under",
-        "englishName": "Over/Under"
-      },
-      "eventId": 1027553008,
-      "outcomes": [
-        {
-          "id": 4363015616,
-          "label": "Under",
-          "englishLabel": "Under",
-          "odds": 1680,
-          "line": 11500,
-          "type": "OT_UNDER",
-          "betOfferId": 2700235255,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-148",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 1
-        },
-        {
-          "id": 4363015617,
-          "label": "Over",
-          "englishLabel": "Over",
-          "odds": 2080,
-          "line": 11500,
-          "type": "OT_OVER",
-          "betOfferId": 2700235255,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 0
-        }
-      ],
-      "tags": [
-        "OFFERED_PREMATCH",
-        "MAIN_LINE"
-      ],
-      "cashOutStatus": "ENABLED"
-    },
-    {
       "id": 2700237733,
       "closed": "2026-10-10T16:00:00Z",
       "criterion": {
         "id": 1002393705,
-        "label": "Pittsburgh to Score in Both Halves",
-        "englishLabel": "Pittsburgh Panthers to Score in Both Halves",
+        "label": "(25) Pittsburgh to Score in Both Halves",
+        "englishLabel": "(25) Pittsburgh Panthers to Score in Both Halves",
         "order": []
       },
       "betOfferType": {
@@ -2374,12 +2661,12 @@
           "id": 4363027406,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 1070,
+          "odds": 1080,
           "type": "OT_YES",
           "betOfferId": 2700237733,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "1/16",
-          "oddsAmerican": "-1430",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "1/14",
+          "oddsAmerican": "-1250",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2391,7 +2678,7 @@
           "odds": 7000,
           "type": "OT_NO",
           "betOfferId": 2700237733,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "6/1",
           "oddsAmerican": "600",
           "status": "OPEN",
@@ -2427,13 +2714,13 @@
           "id": 4363027400,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1740,
+          "odds": 1730,
           "line": 9500,
           "type": "OT_OVER",
           "betOfferId": 2700237734,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "8/11",
-          "oddsAmerican": "-136",
+          "oddsAmerican": "-137",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2442,13 +2729,13 @@
           "id": 4363027402,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2020,
+          "odds": 2040,
           "line": 9500,
           "type": "OT_UNDER",
           "betOfferId": 2700237734,
-          "changedDate": "2026-10-05T13:19:03Z",
-          "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2489,7 +2776,7 @@
           "odds": 20000,
           "type": "OT_CROSS",
           "betOfferId": 2700237735,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "19/1",
           "oddsAmerican": "1900",
           "status": "OPEN",
@@ -2500,14 +2787,14 @@
           "id": 4363027403,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1580,
-          "participant": "Pittsburgh",
+          "odds": 1600,
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700237735,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "4/7",
-          "oddsAmerican": "-175",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2516,14 +2803,14 @@
           "id": 4363027404,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2280,
+          "odds": 2250,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700237735,
-          "changedDate": "2026-10-05T13:18:30Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
           "oddsFractional": "5/4",
-          "oddsAmerican": "128",
+          "oddsAmerican": "125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2553,17 +2840,17 @@
       "outcomes": [
         {
           "id": 4363027410,
-          "label": "Pittsburgh",
-          "englishLabel": "Pittsburgh Panthers",
-          "odds": 1850,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1860,
           "line": -2500,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700237736,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
           "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "oddsAmerican": "-117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2572,15 +2859,15 @@
           "id": 4363027411,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 1890,
+          "odds": 1880,
           "line": 2500,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700237736,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
           "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2616,14 +2903,14 @@
           "id": 4363027412,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1660,
-          "participant": "Pittsburgh",
+          "odds": 1670,
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700237737,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "13/20",
-          "oddsAmerican": "-152",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2636,7 +2923,7 @@
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700237737,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
           "oddsFractional": "23/20",
           "oddsAmerican": "116",
@@ -2646,7 +2933,8 @@
         }
       ],
       "tags": [
-        "OFFERED_PREMATCH"
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2672,12 +2960,12 @@
           "id": 4363043995,
           "label": "Odd",
           "englishLabel": "Odd",
-          "odds": 1750,
+          "odds": 1770,
           "type": "OT_ODD",
           "betOfferId": 2700257498,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "3/4",
-          "oddsAmerican": "-134",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2686,12 +2974,12 @@
           "id": 4363043996,
           "label": "Even",
           "englishLabel": "Even",
-          "odds": 2070,
+          "odds": 2060,
           "type": "OT_EVEN",
           "betOfferId": 2700257498,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "21/20",
-          "oddsAmerican": "107",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2723,13 +3011,13 @@
           "id": 4363043997,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1810,
+          "odds": 1820,
           "line": 23500,
           "type": "OT_OVER",
           "betOfferId": 2700257499,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "4/5",
-          "oddsAmerican": "-124",
+          "oddsAmerican": "-122",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2738,13 +3026,13 @@
           "id": 4363043998,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1930,
+          "odds": 1920,
           "line": 23500,
           "type": "OT_UNDER",
           "betOfferId": 2700257499,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2777,17 +3065,17 @@
       "outcomes": [
         {
           "id": 4363044034,
-          "label": "Pittsburgh",
-          "englishLabel": "Pittsburgh Panthers",
-          "odds": 1680,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1700,
           "line": -2500,
-          "participant": "Pittsburgh",
+          "participant": "(25) Pittsburgh",
           "type": "OT_ONE",
           "betOfferId": 2700257508,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000028578,
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-148",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2796,15 +3084,3432 @@
           "id": 4363044035,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 2200,
+          "odds": 2180,
           "line": 2500,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2700257508,
-          "changedDate": "2026-10-05T13:19:03Z",
+          "changedDate": "2026-10-08T17:17:19Z",
           "participantId": 1000025215,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284240,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309167,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2600,
+          "line": 52000,
+          "type": "OT_OVER",
+          "betOfferId": 2700284240,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309168,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 52000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700284240,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284241,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309169,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1420,
+          "line": 40000,
+          "type": "OT_OVER",
+          "betOfferId": 2700284241,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309170,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2850,
+          "line": 40000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700284241,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284242,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309171,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 2630,
+          "line": -8000,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700284242,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309172,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1460,
+          "line": 8000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700284242,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284243,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309173,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1460,
+          "line": 40500,
+          "type": "OT_OVER",
+          "betOfferId": 2700284243,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309174,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2700,
+          "line": 40500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700284243,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284244,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309175,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 2700,
+          "line": -8500,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700284244,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309176,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1440,
+          "line": 8500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700284244,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284245,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309177,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2950,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2700284245,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309178,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1400,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700284245,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284246,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309179,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2280,
+          "line": 50000,
+          "type": "OT_OVER",
+          "betOfferId": 2700284246,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309180,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1650,
+          "line": 50000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700284246,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284247,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309183,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1640,
+          "line": -2000,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700284247,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309184,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2280,
+          "line": 2000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700284247,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284248,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309181,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1400,
+          "line": 2500,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700284248,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309182,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2850,
+          "line": -2500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700284248,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284249,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309185,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2750,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2700284249,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309186,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1440,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700284249,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284250,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309187,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2880,
+          "line": 54000,
+          "type": "OT_OVER",
+          "betOfferId": 2700284250,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309188,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1410,
+          "line": 54000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700284250,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284251,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309190,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1600,
+          "line": 43000,
+          "type": "OT_OVER",
+          "betOfferId": 2700284251,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309192,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2380,
+          "line": 43000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700284251,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284252,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309189,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 2950,
+          "line": -10000,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700284252,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309191,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1360,
+          "line": 10000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700284252,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284253,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309193,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2750,
+          "line": 53000,
+          "type": "OT_OVER",
+          "betOfferId": 2700284253,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309194,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1460,
+          "line": 53000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700284253,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700284254,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363309195,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 2500,
+          "line": -7500,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700284254,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363309196,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1520,
+          "line": 7500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700284254,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700294715,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363254741,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2500,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2700294715,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363254744,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1540,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700294715,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700294716,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363254742,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1530,
+          "line": 500,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700294716,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363254743,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2450,
+          "line": -500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700294716,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700294717,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363254745,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1480,
+          "line": 41000,
+          "type": "OT_OVER",
+          "betOfferId": 2700294717,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363254746,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2650,
+          "line": 41000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700294717,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700294718,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363254747,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1410,
+          "line": 2000,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700294718,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363254748,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2750,
+          "line": -2000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700294718,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700294719,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363254749,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 3050,
+          "line": -10500,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700294719,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363254750,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1340,
+          "line": 10500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700294719,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317540,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297591,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1410,
+          "line": 39500,
+          "type": "OT_OVER",
+          "betOfferId": 2700317540,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297597,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2900,
+          "line": 39500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700317540,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317541,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297596,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 2700,
+          "line": -9000,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700317541,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297598,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1430,
+          "line": 9000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700317541,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317542,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297590,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1530,
+          "line": -500,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700317542,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297594,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2450,
+          "line": 500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700317542,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317543,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297592,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1670,
+          "line": 44000,
+          "type": "OT_OVER",
+          "betOfferId": 2700317543,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297607,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2230,
+          "line": 44000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700317543,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317544,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297593,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1530,
+          "line": 0,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700317544,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297595,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2450,
+          "line": 0,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700317544,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317546,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297605,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2430,
+          "line": 51000,
+          "type": "OT_OVER",
+          "betOfferId": 2700317546,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297606,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1570,
+          "line": 51000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700317546,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317547,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297608,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 2750,
+          "line": -9500,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700317547,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297609,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1420,
+          "line": 9500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700317547,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317548,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297610,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1530,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2700317548,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297611,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2500,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700317548,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317549,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297612,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 2400,
+          "line": -7000,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700317549,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297613,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1570,
+          "line": 7000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700317549,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317550,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297614,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2630,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2700317550,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297615,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1490,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700317550,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317551,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297616,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1610,
+          "line": -1500,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2700317551,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297617,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2330,
+          "line": 1500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2700317551,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317552,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297618,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1380,
+          "line": 39000,
+          "type": "OT_OVER",
+          "betOfferId": 2700317552,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297619,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3050,
+          "line": 39000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700317552,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317553,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297620,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1570,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700317553,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297621,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2430,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700317553,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317554,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297622,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1550,
+          "line": 42000,
+          "type": "OT_OVER",
+          "betOfferId": 2700317554,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297623,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2480,
+          "line": 42000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700317554,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700317555,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4363297624,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1640,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700317555,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363297625,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700317555,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701458740,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367095501,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1260,
+          "line": 3500,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2701458740,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367095502,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 3400,
+          "line": -3500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2701458740,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701499009,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367086611,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 1290,
+          "line": 3000,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2701499009,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000028578,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367086612,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 3250,
+          "line": -3000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2701499009,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "participantId": 1000025215,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701499010,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (25) Pittsburgh",
+        "englishLabel": "Total Points by (25) Pittsburgh Panthers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367086613,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1810,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2701499010,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367086614,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1930,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701499010,
+          "changedDate": "2026-10-08T17:17:19Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701557909,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by North Carolina",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367343884,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1530,
+          "line": 18500,
+          "type": "OT_OVER",
+          "betOfferId": 2701557909,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367343885,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2400,
+          "line": 18500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701557909,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701557910,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by North Carolina",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367343886,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1760,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2701557910,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367343887,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701557910,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701557911,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (25) Pittsburgh",
+        "englishLabel": "Total Points by (25) Pittsburgh Panthers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367343888,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2230,
+          "line": 27500,
+          "type": "OT_OVER",
+          "betOfferId": 2701557911,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367343889,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1610,
+          "line": 27500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701557911,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701557912,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367343890,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 3400,
+          "line": -11500,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2701557912,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "participantId": 1000028578,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367343891,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1260,
+          "line": 11500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2701557912,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "participantId": 1000025215,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701557913,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by North Carolina",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367343892,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2200,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2701557913,
+          "changedDate": "2026-10-08T20:19:46Z",
           "oddsFractional": "6/5",
           "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367343893,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1620,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701557913,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701557914,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (25) Pittsburgh",
+        "englishLabel": "Total Points by (25) Pittsburgh Panthers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367343894,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1620,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2701557914,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367343895,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2230,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701557914,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701557915,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367343896,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1370,
+          "line": 38500,
+          "type": "OT_OVER",
+          "betOfferId": 2701557915,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367343897,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3100,
+          "line": 38500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701557915,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701557916,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367343904,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3250,
+          "type": "OT_YES",
+          "betOfferId": 2701557916,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367343909,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1300,
+          "type": "OT_NO",
+          "betOfferId": 2701557916,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701557917,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (25) Pittsburgh",
+        "englishLabel": "Total Points by (25) Pittsburgh Panthers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367343898,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2701557917,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367343899,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701557917,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701557918,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367343910,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3350,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2701557918,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367343911,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1320,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701557918,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586430,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393522,
+        "label": "Total Points by North Carolina - Quarter 1",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332501,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 4500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701586430,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367332502,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1950,
+          "line": 4500,
+          "type": "OT_OVER",
+          "betOfferId": 2701586430,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586431,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by North Carolina",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332503,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 19500,
+          "type": "OT_OVER",
+          "betOfferId": 2701586431,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367332504,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 19500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701586431,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586432,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332505,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3200,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2701586432,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367332506,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1350,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701586432,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586433,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by North Carolina",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332507,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 17500,
+          "type": "OT_OVER",
+          "betOfferId": 2701586433,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367332508,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2500,
+          "line": 17500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701586433,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586434,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (25) Pittsburgh",
+        "englishLabel": "Total Points by (25) Pittsburgh Panthers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332509,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2500,
+          "line": 28500,
+          "type": "OT_OVER",
+          "betOfferId": 2701586434,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367332511,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 28500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701586434,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586435,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332510,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1320,
+          "line": 37500,
+          "type": "OT_OVER",
+          "betOfferId": 2701586435,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367332512,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3300,
+          "line": 37500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701586435,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586436,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (25) Pittsburgh",
+        "englishLabel": "Total Points by (25) Pittsburgh Panthers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332513,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1980,
+          "line": 26500,
+          "type": "OT_OVER",
+          "betOfferId": 2701586436,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367332514,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1780,
+          "line": 26500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701586436,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586437,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332515,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3100,
+          "line": 55000,
+          "type": "OT_OVER",
+          "betOfferId": 2701586437,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367332516,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1360,
+          "line": 55000,
+          "type": "OT_UNDER",
+          "betOfferId": 2701586437,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586438,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332517,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1340,
+          "line": 38000,
+          "type": "OT_OVER",
+          "betOfferId": 2701586438,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367332518,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3250,
+          "line": 38000,
+          "type": "OT_UNDER",
+          "betOfferId": 2701586438,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586439,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332519,
+          "label": "(25) Pittsburgh",
+          "englishLabel": "(25) Pittsburgh Panthers",
+          "odds": 3350,
+          "line": -11000,
+          "participant": "(25) Pittsburgh",
+          "type": "OT_ONE",
+          "betOfferId": 2701586439,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "participantId": 1000028578,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367332520,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1270,
+          "line": 11000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2701586439,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "participantId": 1000025215,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586440,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by North Carolina",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332521,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2040,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2701586440,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367332522,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1730,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701586440,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586441,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393521,
+        "label": "Total Points by (25) Pittsburgh - Quarter 1",
+        "englishLabel": "Total Points by (25) Pittsburgh Panthers - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332523,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 6500,
+          "type": "OT_OVER",
+          "betOfferId": 2701586441,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367332524,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1970,
+          "line": 6500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701586441,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701586442,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553008,
+      "outcomes": [
+        {
+          "id": 4367332525,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3300,
+          "line": 56000,
+          "type": "OT_OVER",
+          "betOfferId": 2701586442,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367332526,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1320,
+          "line": 56000,
+          "type": "OT_UNDER",
+          "betOfferId": 2701586442,
+          "changedDate": "2026-10-08T20:19:46Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2820,10 +6525,10 @@
   "events": [
     {
       "id": 1027553008,
-      "name": "North Carolina @ Pittsburgh",
+      "name": "North Carolina @ (25) Pittsburgh",
       "nameDelimiter": "@",
-      "englishName": "Pittsburgh Panthers - North Carolina Tar Heels",
-      "homeName": "Pittsburgh",
+      "englishName": "(25) Pittsburgh Panthers - North Carolina Tar Heels",
+      "homeName": "(25) Pittsburgh",
       "awayName": "North Carolina",
       "start": "2026-10-10T16:00:00Z",
       "group": "NCAAF",
@@ -2842,7 +6547,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 45,
+      "nonLiveBoCount": 111,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -2855,8 +6560,8 @@
       "participants": [
         {
           "participantId": 1000028578,
-          "name": "Pittsburgh",
-          "englishName": "Pittsburgh Panthers",
+          "name": "(25) Pittsburgh",
+          "englishName": "(25) Pittsburgh Panthers",
           "termKey": "pittsburgh_panthers",
           "scratched": false,
           "nonRunner": false,
@@ -2879,6 +6584,179 @@
     }
   ],
   "prePacks": [
+    {
+      "id": 7192253,
+      "label": "Spread and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8118595,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3400,
+                "american": "240",
+                "fractional": "12/5"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361691149,
+                          "eventId": 1027553008,
+                          "betOfferId": 2699837487
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362328171,
+                          "eventId": 1027553008,
+                          "betOfferId": 2700008055
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8118598,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3250,
+                "american": "225",
+                "fractional": "9/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361691150,
+                          "eventId": 1027553008,
+                          "betOfferId": 2699837487
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362328172,
+                          "eventId": 1027553008,
+                          "betOfferId": 2700008055
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8118597,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3300,
+                "american": "230",
+                "fractional": "23/10"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361691149,
+                          "eventId": 1027553008,
+                          "betOfferId": 2699837487
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362328172,
+                          "eventId": 1027553008,
+                          "betOfferId": 2700008055
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8118596,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3300,
+                "american": "230",
+                "fractional": "23/10"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361691150,
+                          "eventId": 1027553008,
+                          "betOfferId": 2699837487
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362328171,
+                          "eventId": 1027553008,
+                          "betOfferId": 2700008055
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    },
     {
       "id": 7192252,
       "label": "Game Winner and Total Points",
@@ -2931,9 +6809,9 @@
           "combinations": [
             {
               "odds": {
-                "decimal": 4300,
-                "american": "330",
-                "fractional": "33/10"
+                "decimal": 4250,
+                "american": "325",
+                "fractional": "13/4"
               },
               "groups": [
                 {
@@ -3028,179 +6906,6 @@
                           "id": 4361672473,
                           "eventId": 1027553008,
                           "betOfferId": 2699787971
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362328171,
-                          "eventId": 1027553008,
-                          "betOfferId": 2700008055
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "tags": [
-        "AUTO_BUNDLED"
-      ]
-    },
-    {
-      "id": 7192253,
-      "label": "Spread and Total Points",
-      "prePackSelections": [
-        {
-          "selectionId": 8118595,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3350,
-                "american": "235",
-                "fractional": "47/20"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361691149,
-                          "eventId": 1027553008,
-                          "betOfferId": 2699837487
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362328171,
-                          "eventId": 1027553008,
-                          "betOfferId": 2700008055
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8118598,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361691150,
-                          "eventId": 1027553008,
-                          "betOfferId": 2699837487
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362328172,
-                          "eventId": 1027553008,
-                          "betOfferId": 2700008055
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8118597,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361691149,
-                          "eventId": 1027553008,
-                          "betOfferId": 2699837487
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362328172,
-                          "eventId": 1027553008,
-                          "betOfferId": 2700008055
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8118596,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3300,
-                "american": "230",
-                "fractional": "23/10"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361691150,
-                          "eventId": 1027553008,
-                          "betOfferId": 2699837487
                         }
                       ]
                     },

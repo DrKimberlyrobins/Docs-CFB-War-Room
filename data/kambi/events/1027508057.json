@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-10-05T14:05:37.527Z",
+  "generatedAt": "2026-10-08T22:55:37.256Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
     "id": "1027508057",
-    "name": "Texas A&M @ (25) Missouri",
+    "name": "Texas A&M @ (14) Missouri",
     "away": "Texas A&M",
     "home": "Missouri",
     "start": "2026-10-10T16:00:00Z"
   },
   "counts": {
-    "betOffers": 45,
+    "betOffers": 111,
     "events": 1,
     "prePacks": 2
   },
@@ -35,16 +35,16 @@
       "outcomes": [
         {
           "id": 4358422726,
-          "label": "(25) Missouri",
-          "englishLabel": "(25) Missouri Tigers",
-          "odds": 1570,
-          "participant": "(25) Missouri",
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1580,
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2698819106,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "11/20",
-          "oddsAmerican": "-177",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +53,14 @@
           "id": 4358422727,
           "label": "Texas A&M",
           "englishLabel": "Texas A&M Aggies",
-          "odds": 2450,
+          "odds": 2430,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2698819106,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "29/20",
-          "oddsAmerican": "145",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,6 +70,65 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2698819111,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4358422736,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1670,
+          "line": -1500,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2698819111,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4358422737,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 2230,
+          "line": 1500,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2698819111,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -95,13 +154,13 @@
           "id": 4358422750,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2100,
+          "odds": 2140,
           "line": 50500,
           "type": "OT_OVER",
           "betOfferId": 2698819118,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -110,13 +169,241 @@
           "id": 4358422751,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1740,
+          "odds": 1730,
           "line": 50500,
           "type": "OT_UNDER",
           "betOfferId": 2698819118,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "8/11",
-          "oddsAmerican": "-136",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2698839112,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4358448379,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2880,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2698839112,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4358448380,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1420,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2698839112,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2698839113,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4358448381,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1620,
+          "line": -1000,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2698839113,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4358448382,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 2300,
+          "line": 1000,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2698839113,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2698839114,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4358448383,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1520,
+          "line": 1500,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2698839114,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4358448384,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 2480,
+          "line": -1500,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2698839114,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2698845000,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4358411179,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2280,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2698845000,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4358411180,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1650,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2698845000,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -148,17 +435,17 @@
       "outcomes": [
         {
           "id": 4361672297,
-          "label": "(25) Missouri",
-          "englishLabel": "(25) Missouri Tigers",
-          "odds": 1980,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2020,
           "line": -4000,
-          "participant": "(25) Missouri",
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2699787898,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "49/50",
-          "oddsAmerican": "-103",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -167,15 +454,15 @@
           "id": 4361672298,
           "label": "Texas A&M",
           "englishLabel": "Texas A&M Aggies",
-          "odds": 1830,
+          "odds": 1800,
           "line": 4000,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2699787898,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -207,17 +494,17 @@
       "outcomes": [
         {
           "id": 4361705521,
-          "label": "(25) Missouri",
-          "englishLabel": "(25) Missouri Tigers",
-          "odds": 1740,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1750,
           "line": -2500,
-          "participant": "(25) Missouri",
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2699814156,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-136",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -226,15 +513,15 @@
           "id": 4361705523,
           "label": "Texas A&M",
           "englishLabel": "Texas A&M Aggies",
-          "odds": 2120,
+          "odds": 2080,
           "line": 2500,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2699814156,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "11/10",
-          "oddsAmerican": "112",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -266,14 +553,14 @@
       "outcomes": [
         {
           "id": 4361705522,
-          "label": "(25) Missouri",
-          "englishLabel": "(25) Missouri Tigers",
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
           "odds": 1700,
           "line": -2000,
-          "participant": "(25) Missouri",
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2699814157,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
           "oddsFractional": "7/10",
           "oddsAmerican": "-143",
@@ -290,7 +577,7 @@
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2699814157,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
           "oddsFractional": "59/50",
           "oddsAmerican": "118",
@@ -325,17 +612,17 @@
       "outcomes": [
         {
           "id": 4361705525,
-          "label": "(25) Missouri",
-          "englishLabel": "(25) Missouri Tigers",
-          "odds": 1800,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1840,
           "line": -3000,
-          "participant": "(25) Missouri",
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2699814158,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-125",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -344,15 +631,15 @@
           "id": 4361705526,
           "label": "Texas A&M",
           "englishLabel": "Texas A&M Aggies",
-          "odds": 2000,
+          "odds": 1960,
           "line": 3000,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2699814158,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "Evens",
-          "oddsAmerican": "100",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -360,6 +647,7 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -384,17 +672,17 @@
       "outcomes": [
         {
           "id": 4361705529,
-          "label": "(25) Missouri",
-          "englishLabel": "(25) Missouri Tigers",
-          "odds": 1930,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1970,
           "line": -3500,
-          "participant": "(25) Missouri",
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2699814160,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -403,15 +691,15 @@
           "id": 4361705530,
           "label": "Texas A&M",
           "englishLabel": "Texas A&M Aggies",
-          "odds": 1890,
+          "odds": 1850,
           "line": 3500,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2699814160,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -419,7 +707,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -446,13 +733,13 @@
           "id": 4361690928,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2000,
+          "odds": 2020,
           "line": 49500,
           "type": "OT_OVER",
           "betOfferId": 2699837408,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "Evens",
-          "oddsAmerican": "100",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -461,13 +748,13 @@
           "id": 4361690929,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1820,
+          "odds": 1810,
           "line": 49500,
           "type": "OT_UNDER",
           "betOfferId": 2699837408,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "4/5",
-          "oddsAmerican": "-122",
+          "oddsAmerican": "-124",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -499,17 +786,17 @@
       "outcomes": [
         {
           "id": 4362270986,
-          "label": "(25) Missouri",
-          "englishLabel": "(25) Missouri Tigers",
-          "odds": 2080,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2160,
           "line": -5000,
-          "participant": "(25) Missouri",
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700006668,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -518,15 +805,15 @@
           "id": 4362270987,
           "label": "Texas A&M",
           "englishLabel": "Texas A&M Aggies",
-          "odds": 1760,
+          "odds": 1720,
           "line": 5000,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700006668,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-132",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -564,10 +851,10 @@
           "label": "1",
           "englishLabel": "1",
           "odds": 1740,
-          "participant": "(25) Missouri",
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700008045,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
           "oddsFractional": "8/11",
           "oddsAmerican": "-136",
@@ -583,7 +870,7 @@
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700008045,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
           "oddsFractional": "Evens",
           "oddsAmerican": "100",
@@ -596,6 +883,124 @@
         "OFFERED_PREMATCH"
       ],
       "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700008046,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4362328152,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2280,
+          "line": -6000,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700008046,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362328153,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 1640,
+          "line": 6000,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700008046,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700008047,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4362328154,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2350,
+          "line": -6500,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700008047,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362328155,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 1600,
+          "line": 6500,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700008047,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
     },
     {
       "id": 2700008048,
@@ -619,14 +1024,14 @@
           "id": 4362328156,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1600,
-          "participant": "(25) Missouri",
+          "odds": 1620,
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700008048,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "3/5",
-          "oddsAmerican": "-167",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -638,7 +1043,7 @@
           "odds": 15000,
           "type": "OT_CROSS",
           "betOfferId": 2700008048,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "14/1",
           "oddsAmerican": "1400",
           "status": "OPEN",
@@ -649,14 +1054,14 @@
           "id": 4362328158,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2550,
+          "odds": 2500,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700008048,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "31/20",
-          "oddsAmerican": "155",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -689,13 +1094,13 @@
           "id": 4362328159,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2060,
+          "odds": 2080,
           "line": 50000,
           "type": "OT_OVER",
           "betOfferId": 2700008049,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "21/20",
-          "oddsAmerican": "106",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -704,13 +1109,13 @@
           "id": 4362328160,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1780,
+          "odds": 1760,
           "line": 50000,
           "type": "OT_UNDER",
           "betOfferId": 2700008049,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-129",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -742,17 +1147,17 @@
       "outcomes": [
         {
           "id": 4362268035,
-          "label": "(25) Missouri",
-          "englishLabel": "(25) Missouri Tigers",
-          "odds": 2040,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2080,
           "line": -4500,
-          "participant": "(25) Missouri",
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700021212,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "26/25",
-          "oddsAmerican": "104",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -761,15 +1166,15 @@
           "id": 4362268036,
           "label": "Texas A&M",
           "englishLabel": "Texas A&M Aggies",
-          "odds": 1790,
+          "odds": 1770,
           "line": 4500,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700021212,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "10/13",
-          "oddsAmerican": "-127",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -803,13 +1208,13 @@
           "id": 4362268287,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1910,
+          "odds": 1930,
           "line": 48500,
           "type": "OT_OVER",
           "betOfferId": 2700021267,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsAmerican": "-108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -818,13 +1223,13 @@
           "id": 4362268288,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1910,
+          "odds": 1890,
           "line": 48500,
           "type": "OT_UNDER",
           "betOfferId": 2700021267,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -857,17 +1262,17 @@
       "outcomes": [
         {
           "id": 4362324941,
-          "label": "(25) Missouri",
-          "englishLabel": "(25) Missouri Tigers",
-          "odds": 2120,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2180,
           "line": -5500,
-          "participant": "(25) Missouri",
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700022559,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "11/10",
-          "oddsAmerican": "112",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -876,15 +1281,15 @@
           "id": 4362324942,
           "label": "Texas A&M",
           "englishLabel": "Texas A&M Aggies",
-          "odds": 1730,
+          "odds": 1700,
           "line": 5500,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700022559,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "8/11",
-          "oddsAmerican": "-137",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -918,13 +1323,13 @@
           "id": 4362324943,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1820,
+          "odds": 1840,
           "line": 47500,
           "type": "OT_OVER",
           "betOfferId": 2700022560,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-122",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -933,13 +1338,13 @@
           "id": 4362324944,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2000,
+          "odds": 1980,
           "line": 47500,
           "type": "OT_UNDER",
           "betOfferId": 2700022560,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "Evens",
-          "oddsAmerican": "100",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -956,8 +1361,8 @@
       "closed": "2026-10-10T16:00:00Z",
       "criterion": {
         "id": 1001159692,
-        "label": "Total Points by (25) Missouri",
-        "englishLabel": "Total Points by (25) Missouri Tigers - Including Overtime",
+        "label": "Total Points by (14) Missouri",
+        "englishLabel": "Total Points by (14) Missouri Tigers - Including Overtime",
         "order": [],
         "lifetime": "FULL_TIME_OVERTIME"
       },
@@ -972,13 +1377,13 @@
           "id": 4362324945,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1870,
+          "odds": 1900,
           "line": 26500,
           "type": "OT_OVER",
           "betOfferId": 2700022561,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -987,13 +1392,13 @@
           "id": 4362324946,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1870,
+          "odds": 1840,
           "line": 26500,
           "type": "OT_UNDER",
           "betOfferId": 2700022561,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1028,13 +1433,13 @@
           "id": 4362324947,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1960,
+          "odds": 1980,
           "line": 49000,
           "type": "OT_OVER",
           "betOfferId": 2700022562,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-105",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1043,13 +1448,13 @@
           "id": 4362324948,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1860,
+          "odds": 1840,
           "line": 49000,
           "type": "OT_UNDER",
           "betOfferId": 2700022562,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-117",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1083,13 +1488,13 @@
           "id": 4362324949,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1770,
+          "odds": 1780,
           "line": 47000,
           "type": "OT_OVER",
           "betOfferId": 2700022563,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "3/4",
-          "oddsAmerican": "-130",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1098,13 +1503,13 @@
           "id": 4362324950,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2080,
+          "odds": 2060,
           "line": 47000,
           "type": "OT_UNDER",
           "betOfferId": 2700022563,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1138,13 +1543,13 @@
           "id": 4362324951,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1870,
+          "odds": 1880,
           "line": 48000,
           "type": "OT_OVER",
           "betOfferId": 2700022564,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1153,13 +1558,13 @@
           "id": 4362324952,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1960,
+          "odds": 1940,
           "line": 48000,
           "type": "OT_UNDER",
           "betOfferId": 2700022564,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-105",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1197,10 +1602,10 @@
           "label": "1",
           "englishLabel": "1",
           "odds": 1740,
-          "participant": "(25) Missouri",
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700022565,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
           "oddsFractional": "8/11",
           "oddsAmerican": "-136",
@@ -1216,7 +1621,7 @@
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700022565,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
           "oddsFractional": "Evens",
           "oddsAmerican": "102",
@@ -1229,6 +1634,60 @@
         "OFFERED_PREMATCH"
       ],
       "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700036676,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Texas A&M",
+        "englishLabel": "Total Points by Texas A&M Aggies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4362347923,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1760,
+          "line": 21500,
+          "type": "OT_OVER",
+          "betOfferId": 2700036676,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362347924,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 21500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700036676,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
     },
     {
       "id": 2700036677,
@@ -1252,13 +1711,13 @@
           "id": 4362347925,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 2180,
+          "odds": 2230,
           "line": 51000,
           "type": "OT_OVER",
           "betOfferId": 2700036677,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "59/50",
-          "oddsAmerican": "118",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1267,13 +1726,13 @@
           "id": 4362347926,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1700,
+          "odds": 1680,
           "line": 51000,
           "type": "OT_UNDER",
           "betOfferId": 2700036677,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-143",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1307,13 +1766,13 @@
           "id": 4362347927,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1720,
+          "odds": 1730,
           "line": 46500,
           "type": "OT_OVER",
           "betOfferId": 2700036678,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1322,13 +1781,13 @@
           "id": 4362347928,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2150,
+          "odds": 2120,
           "line": 46500,
           "type": "OT_UNDER",
           "betOfferId": 2700036678,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "23/20",
-          "oddsAmerican": "115",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1361,12 +1820,12 @@
           "id": 4362347931,
           "label": "1/1",
           "englishLabel": "1/1",
-          "odds": 1920,
+          "odds": 1950,
           "type": "OT_ONE_ONE",
           "betOfferId": 2700036679,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1378,7 +1837,7 @@
           "odds": 29000,
           "type": "OT_ONE_CROSS",
           "betOfferId": 2700036679,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "28/1",
           "oddsAmerican": "2800",
           "status": "OPEN",
@@ -1392,7 +1851,7 @@
           "odds": 8500,
           "type": "OT_ONE_TWO",
           "betOfferId": 2700036679,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "15/2",
           "oddsAmerican": "750",
           "status": "OPEN",
@@ -1403,12 +1862,12 @@
           "id": 4362347940,
           "label": "X/1",
           "englishLabel": "X/1",
-          "odds": 17000,
+          "odds": 18000,
           "type": "OT_CROSS_ONE",
           "betOfferId": 2700036679,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "16/1",
-          "oddsAmerican": "1600",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 3
@@ -1420,7 +1879,7 @@
           "odds": 67000,
           "type": "OT_CROSS_CROSS",
           "betOfferId": 2700036679,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "66/1",
           "oddsAmerican": "6600",
           "status": "OPEN",
@@ -1434,7 +1893,7 @@
           "odds": 23000,
           "type": "OT_CROSS_TWO",
           "betOfferId": 2700036679,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "22/1",
           "oddsAmerican": "2200",
           "status": "OPEN",
@@ -1448,7 +1907,7 @@
           "odds": 6750,
           "type": "OT_TWO_ONE",
           "betOfferId": 2700036679,
-          "changedDate": "2026-10-05T12:47:44Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "23/4",
           "oddsAmerican": "575",
           "status": "OPEN",
@@ -1462,7 +1921,7 @@
           "odds": 26000,
           "type": "OT_TWO_CROSS",
           "betOfferId": 2700036679,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "25/1",
           "oddsAmerican": "2500",
           "status": "OPEN",
@@ -1473,12 +1932,12 @@
           "id": 4362347955,
           "label": "2/2",
           "englishLabel": "2/2",
-          "odds": 3150,
+          "odds": 3100,
           "type": "OT_TWO_TWO",
           "betOfferId": 2700036679,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "43/20",
-          "oddsAmerican": "215",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 8
@@ -1511,16 +1970,16 @@
       "outcomes": [
         {
           "id": 4362347956,
-          "label": "(25) Missouri Touchdown",
-          "englishLabel": "(25) Missouri Tigers Touchdown",
-          "odds": 2450,
-          "participant": "(25) Missouri",
+          "label": "(14) Missouri Touchdown",
+          "englishLabel": "(14) Missouri Tigers Touchdown",
+          "odds": 2480,
+          "participant": "(14) Missouri",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700036680,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
           "oddsFractional": "29/20",
-          "oddsAmerican": "145",
+          "oddsAmerican": "148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1531,16 +1990,16 @@
         },
         {
           "id": 4362347957,
-          "label": "(25) Missouri Field Goal",
-          "englishLabel": "(25) Missouri Tigers Field Goal",
-          "odds": 5800,
-          "participant": "(25) Missouri",
+          "label": "(14) Missouri Field Goal",
+          "englishLabel": "(14) Missouri Tigers Field Goal",
+          "odds": 5750,
+          "participant": "(14) Missouri",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700036680,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "24/5",
-          "oddsAmerican": "480",
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1551,16 +2010,16 @@
         },
         {
           "id": 4362347958,
-          "label": "(25) Missouri Safety",
-          "englishLabel": "(25) Missouri Tigers Safety",
-          "odds": 76000,
-          "participant": "(25) Missouri",
+          "label": "(14) Missouri Safety",
+          "englishLabel": "(14) Missouri Tigers Safety",
+          "odds": 81000,
+          "participant": "(14) Missouri",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700036680,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "75/1",
-          "oddsAmerican": "7500",
+          "oddsFractional": "80/1",
+          "oddsAmerican": "8000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1577,7 +2036,7 @@
           "participant": "Texas A&M",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700036680,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
           "oddsFractional": "37/20",
           "oddsAmerican": "185",
@@ -1597,7 +2056,7 @@
           "participant": "Texas A&M",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700036680,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
           "oddsFractional": "11/2",
           "oddsAmerican": "550",
@@ -1613,14 +2072,14 @@
           "id": 4362347961,
           "label": "Texas A&M Safety",
           "englishLabel": "Texas A&M Aggies Safety",
-          "odds": 81000,
+          "odds": 71000,
           "participant": "Texas A&M",
           "type": "OT_OCCURRENCE_METHOD_FIRST",
           "betOfferId": 2700036680,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "80/1",
-          "oddsAmerican": "8000",
+          "oddsFractional": "70/1",
+          "oddsAmerican": "7000",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "occurrence": {
@@ -1656,13 +2115,13 @@
           "id": 4362350158,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1850,
+          "odds": 1840,
           "line": 22500,
           "type": "OT_OVER",
           "betOfferId": 2700037354,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1671,13 +2130,13 @@
           "id": 4362350159,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1890,
+          "odds": 1900,
           "line": 22500,
           "type": "OT_UNDER",
           "betOfferId": 2700037354,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1712,13 +2171,13 @@
           "id": 4363000433,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1680,
+          "odds": 1700,
           "line": 46000,
           "type": "OT_OVER",
           "betOfferId": 2700220810,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-148",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1727,13 +2186,13 @@
           "id": 4363000434,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 2200,
+          "odds": 2180,
           "line": 46000,
           "type": "OT_UNDER",
           "betOfferId": 2700220810,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "6/5",
-          "oddsAmerican": "120",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1766,13 +2225,13 @@
           "id": 4363000435,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1930,
+          "odds": 1940,
           "line": 24500,
           "type": "OT_OVER",
           "betOfferId": 2700220811,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1781,13 +2240,13 @@
           "id": 4363000436,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1810,
+          "odds": 1800,
           "line": 24500,
           "type": "OT_UNDER",
           "betOfferId": 2700220811,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "4/5",
-          "oddsAmerican": "-124",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1821,14 +2280,14 @@
           "id": 4363000439,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2280,
+          "odds": 2250,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700220813,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
           "oddsFractional": "5/4",
-          "oddsAmerican": "128",
+          "oddsAmerican": "125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1837,14 +2296,14 @@
           "id": 4363000440,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1610,
-          "participant": "(25) Missouri",
+          "odds": 1620,
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700220813,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "3/5",
-          "oddsAmerican": "-165",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1880,12 +2339,12 @@
           "id": 4363000441,
           "label": "X",
           "englishLabel": "X",
-          "odds": 1250,
+          "odds": 1230,
           "type": "OT_CROSS",
           "betOfferId": 2700220814,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "1/4",
-          "oddsAmerican": "-400",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "2/9",
+          "oddsAmerican": "-435",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1894,14 +2353,14 @@
           "id": 4363000442,
           "label": "1",
           "englishLabel": "1",
-          "odds": 4900,
-          "participant": "(25) Missouri",
+          "odds": 5200,
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700220814,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "19/5",
-          "oddsAmerican": "390",
+          "oddsFractional": "21/5",
+          "oddsAmerican": "420",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -1914,7 +2373,7 @@
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700220814,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
           "oddsFractional": "15/2",
           "oddsAmerican": "750",
@@ -1933,8 +2392,8 @@
       "closed": "2026-10-10T16:00:00Z",
       "criterion": {
         "id": 1001935119,
-        "label": "Total Points by (25) Missouri - 1st Half",
-        "englishLabel": "Total Points by (25) Missouri Tigers - 1st Half",
+        "label": "Total Points by (14) Missouri - 1st Half",
+        "englishLabel": "Total Points by (14) Missouri Tigers - 1st Half",
         "order": []
       },
       "betOfferType": {
@@ -1948,13 +2407,13 @@
           "id": 4363000444,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1810,
+          "odds": 1840,
           "line": 13500,
           "type": "OT_OVER",
           "betOfferId": 2700220815,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-124",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -1963,13 +2422,13 @@
           "id": 4363000445,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1910,
+          "odds": 1880,
           "line": 13500,
           "type": "OT_UNDER",
           "betOfferId": 2700220815,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2006,12 +2465,12 @@
           "id": 4363000446,
           "label": "X",
           "englishLabel": "X",
-          "odds": 25000,
+          "odds": 23000,
           "type": "OT_CROSS",
           "betOfferId": 2700220816,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "24/1",
-          "oddsAmerican": "2400",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "22/1",
+          "oddsAmerican": "2200",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2020,14 +2479,14 @@
           "id": 4363000447,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1610,
-          "participant": "(25) Missouri",
+          "odds": 1620,
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700220816,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "3/5",
-          "oddsAmerican": "-165",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2036,14 +2495,14 @@
           "id": 4363000448,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2180,
+          "odds": 2170,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700220816,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "59/50",
-          "oddsAmerican": "118",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2079,12 +2538,12 @@
           "id": 4363014176,
           "label": "X",
           "englishLabel": "X",
-          "odds": 1850,
+          "odds": 1820,
           "type": "OT_CROSS",
           "betOfferId": 2700234740,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-118",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2093,14 +2552,14 @@
           "id": 4363014177,
           "label": "1",
           "englishLabel": "1",
-          "odds": 2800,
-          "participant": "(25) Missouri",
+          "odds": 2880,
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700234740,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "9/5",
-          "oddsAmerican": "180",
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2113,7 +2572,7 @@
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700234740,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
           "oddsFractional": "7/2",
           "oddsAmerican": "350",
@@ -2155,7 +2614,7 @@
           "odds": 8500,
           "type": "OT_CROSS",
           "betOfferId": 2700234741,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "15/2",
           "oddsAmerican": "750",
           "status": "OPEN",
@@ -2166,14 +2625,14 @@
           "id": 4363014180,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1700,
-          "participant": "(25) Missouri",
+          "odds": 1720,
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700234741,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
           "oddsFractional": "7/10",
-          "oddsAmerican": "-143",
+          "oddsAmerican": "-139",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2182,14 +2641,14 @@
           "id": 4363014181,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2400,
+          "odds": 2380,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700234741,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "7/5",
-          "oddsAmerican": "140",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 2
@@ -2197,6 +2656,63 @@
       ],
       "tags": [
         "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700234742,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363014182,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2120,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700234742,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363014183,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1670,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700234742,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -2219,17 +2735,17 @@
       "outcomes": [
         {
           "id": 4363014184,
-          "label": "(25) Missouri",
-          "englishLabel": "(25) Missouri Tigers",
-          "odds": 1860,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1870,
           "line": -2500,
-          "participant": "(25) Missouri",
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700234743,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
           "oddsFractional": "17/20",
-          "oddsAmerican": "-117",
+          "oddsAmerican": "-115",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2238,15 +2754,15 @@
           "id": 4363014185,
           "label": "Texas A&M",
           "englishLabel": "Texas A&M Aggies",
-          "odds": 1860,
+          "odds": 1850,
           "line": 2500,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700234743,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
           "oddsFractional": "17/20",
-          "oddsAmerican": "-117",
+          "oddsAmerican": "-118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2280,17 +2796,17 @@
       "outcomes": [
         {
           "id": 4363014186,
-          "label": "(25) Missouri",
-          "englishLabel": "(25) Missouri Tigers",
-          "odds": 2080,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2120,
           "line": -1500,
-          "participant": "(25) Missouri",
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700234744,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "27/25",
-          "oddsAmerican": "108",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2299,15 +2815,15 @@
           "id": 4363014187,
           "label": "Texas A&M",
           "englishLabel": "Texas A&M Aggies",
-          "odds": 1700,
+          "odds": 1680,
           "line": 1500,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700234744,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-143",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2345,12 +2861,12 @@
           "id": 4363014188,
           "label": "X",
           "englishLabel": "X",
-          "odds": 3050,
+          "odds": 2950,
           "type": "OT_CROSS",
           "betOfferId": 2700234745,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "41/20",
-          "oddsAmerican": "205",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2359,14 +2875,14 @@
           "id": 4363014189,
           "label": "1",
           "englishLabel": "1",
-          "odds": 2100,
-          "participant": "(25) Missouri",
+          "odds": 2140,
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700234745,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "11/10",
-          "oddsAmerican": "110",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2379,7 +2895,7 @@
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700234745,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
           "oddsFractional": "43/20",
           "oddsAmerican": "215",
@@ -2416,14 +2932,14 @@
           "id": 4363014191,
           "label": "1",
           "englishLabel": "1",
-          "odds": 1660,
-          "participant": "(25) Missouri",
+          "odds": 1670,
+          "participant": "(14) Missouri",
           "type": "OT_ONE",
           "betOfferId": 2700234746,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000087707,
-          "oddsFractional": "13/20",
-          "oddsAmerican": "-152",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2432,69 +2948,14 @@
           "id": 4363014192,
           "label": "2",
           "englishLabel": "2",
-          "odds": 2170,
+          "odds": 2160,
           "participant": "Texas A&M",
           "type": "OT_TWO",
           "betOfferId": 2700234746,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "participantId": 1000034769,
           "oddsFractional": "23/20",
-          "oddsAmerican": "117",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 1
-        }
-      ],
-      "tags": [
-        "OFFERED_PREMATCH"
-      ],
-      "cashOutStatus": "ENABLED"
-    },
-    {
-      "id": 2700234752,
-      "closed": "2026-10-10T16:00:00Z",
-      "criterion": {
-        "id": 1001377300,
-        "label": "Total Points - Quarter 1",
-        "englishLabel": "Total Points - Quarter 1",
-        "order": [
-          1
-        ],
-        "occurrenceType": "POINTS"
-      },
-      "betOfferType": {
-        "id": 6,
-        "name": "Over/Under",
-        "englishName": "Over/Under"
-      },
-      "eventId": 1027508057,
-      "outcomes": [
-        {
-          "id": 4363014203,
-          "label": "Over",
-          "englishLabel": "Over",
-          "odds": 1670,
-          "line": 9500,
-          "type": "OT_OVER",
-          "betOfferId": 2700234752,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "4/6",
-          "oddsAmerican": "-150",
-          "status": "OPEN",
-          "cashOutStatus": "ENABLED",
-          "displayOrder": 0
-        },
-        {
-          "id": 4363014204,
-          "label": "Under",
-          "englishLabel": "Under",
-          "odds": 2140,
-          "line": 9500,
-          "type": "OT_UNDER",
-          "betOfferId": 2700234752,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "57/50",
-          "oddsAmerican": "114",
+          "oddsAmerican": "116",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2502,7 +2963,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -2529,12 +2989,12 @@
           "id": 4363025623,
           "label": "Odd",
           "englishLabel": "Odd",
-          "odds": 1760,
+          "odds": 1750,
           "type": "OT_ODD",
           "betOfferId": 2700237228,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "3/4",
-          "oddsAmerican": "-132",
+          "oddsAmerican": "-134",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2543,12 +3003,12 @@
           "id": 4363025624,
           "label": "Even",
           "englishLabel": "Even",
-          "odds": 2060,
+          "odds": 2070,
           "type": "OT_EVEN",
           "betOfferId": 2700237228,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "21/20",
-          "oddsAmerican": "106",
+          "oddsAmerican": "107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2583,7 +3043,7 @@
           "line": 10500,
           "type": "OT_UNDER",
           "betOfferId": 2700237229,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "4/5",
           "oddsAmerican": "-125",
           "status": "OPEN",
@@ -2598,7 +3058,7 @@
           "line": 10500,
           "type": "OT_OVER",
           "betOfferId": 2700237229,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "10/11",
           "oddsAmerican": "-108",
           "status": "OPEN",
@@ -2632,12 +3092,12 @@
           "id": 4363025629,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 1160,
+          "odds": 1150,
           "type": "OT_YES",
           "betOfferId": 2700237230,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "2/13",
-          "oddsAmerican": "-625",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "1/7",
+          "oddsAmerican": "-670",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2646,12 +3106,12 @@
           "id": 4363025632,
           "label": "No",
           "englishLabel": "No",
-          "odds": 4900,
+          "odds": 5000,
           "type": "OT_NO",
           "betOfferId": 2700237230,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "19/5",
-          "oddsAmerican": "390",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "4/1",
+          "oddsAmerican": "400",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2667,8 +3127,8 @@
       "closed": "2026-10-10T16:00:00Z",
       "criterion": {
         "id": 1002393705,
-        "label": "(25) Missouri to Score in Both Halves",
-        "englishLabel": "(25) Missouri Tigers to Score in Both Halves",
+        "label": "(14) Missouri to Score in Both Halves",
+        "englishLabel": "(14) Missouri Tigers to Score in Both Halves",
         "order": []
       },
       "betOfferType": {
@@ -2682,12 +3142,12 @@
           "id": 4363025635,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 1060,
+          "odds": 1070,
           "type": "OT_YES",
           "betOfferId": 2700237231,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "1/18",
-          "oddsAmerican": "-1667",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "1/16",
+          "oddsAmerican": "-1430",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2699,7 +3159,7 @@
           "odds": 7500,
           "type": "OT_NO",
           "betOfferId": 2700237231,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "13/2",
           "oddsAmerican": "650",
           "status": "OPEN",
@@ -2717,8 +3177,8 @@
       "closed": "2026-10-10T16:00:00Z",
       "criterion": {
         "id": 1002393703,
-        "label": "(25) Missouri to Score in every Quarter - Regular Time",
-        "englishLabel": "(25) Missouri Tigers to Score in every Quarter - Regular Time",
+        "label": "(14) Missouri to Score in every Quarter - Regular Time",
+        "englishLabel": "(14) Missouri Tigers to Score in every Quarter - Regular Time",
         "order": []
       },
       "betOfferType": {
@@ -2732,12 +3192,12 @@
           "id": 4363025643,
           "label": "Yes",
           "englishLabel": "Yes",
-          "odds": 3100,
+          "odds": 3150,
           "type": "OT_YES",
           "betOfferId": 2700237232,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "21/10",
-          "oddsAmerican": "210",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -2746,12 +3206,12 @@
           "id": 4363025649,
           "label": "No",
           "englishLabel": "No",
-          "odds": 1340,
+          "odds": 1330,
           "type": "OT_NO",
           "betOfferId": 2700237232,
-          "changedDate": "2026-10-05T12:47:50Z",
-          "oddsFractional": "1/3",
-          "oddsAmerican": "-295",
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -2785,7 +3245,7 @@
           "odds": 4250,
           "type": "OT_YES",
           "betOfferId": 2700237233,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "13/4",
           "oddsAmerican": "325",
           "status": "OPEN",
@@ -2799,7 +3259,7 @@
           "odds": 1200,
           "type": "OT_NO",
           "betOfferId": 2700237233,
-          "changedDate": "2026-10-05T12:47:50Z",
+          "changedDate": "2026-10-07T14:16:16Z",
           "oddsFractional": "1/5",
           "oddsAmerican": "-500",
           "status": "OPEN",
@@ -2811,15 +3271,3266 @@
         "OFFERED_PREMATCH"
       ],
       "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700260025,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363227607,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1470,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700260025,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363227608,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2700,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700260025,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700260026,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363227609,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2350,
+          "line": 52000,
+          "type": "OT_OVER",
+          "betOfferId": 2700260026,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363227610,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1610,
+          "line": 52000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700260026,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700260027,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363227611,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1440,
+          "line": 42000,
+          "type": "OT_OVER",
+          "betOfferId": 2700260027,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363227612,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2750,
+          "line": 42000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700260027,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700260028,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363227613,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1470,
+          "line": 2500,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700260028,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363227614,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 2600,
+          "line": -2500,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700260028,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700260029,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363227615,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1380,
+          "line": 41000,
+          "type": "OT_OVER",
+          "betOfferId": 2700260029,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363227616,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3000,
+          "line": 41000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700260029,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700260030,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363227617,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1600,
+          "line": 0,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700260030,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363227618,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 2350,
+          "line": 0,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700260030,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700260031,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363227619,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2950,
+          "line": 56000,
+          "type": "OT_OVER",
+          "betOfferId": 2700260031,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363227620,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1400,
+          "line": 56000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700260031,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700260032,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363227621,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2630,
+          "line": -7500,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700260032,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363227622,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 1460,
+          "line": 7500,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700260032,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700260033,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363227623,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1430,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2700260033,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363227624,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2800,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700260033,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700260034,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363227625,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2400,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2700260034,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363227626,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1580,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700260034,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700260035,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363227627,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2700,
+          "line": -8000,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700260035,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363227628,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 1430,
+          "line": 8000,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700260035,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700260036,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363227629,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2480,
+          "line": 53000,
+          "type": "OT_OVER",
+          "betOfferId": 2700260036,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363227630,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1550,
+          "line": 53000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700260036,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700283147,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363190489,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2800,
+          "line": 55000,
+          "type": "OT_OVER",
+          "betOfferId": 2700283147,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363190490,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1440,
+          "line": 55000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700283147,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700283149,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363190491,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2550,
+          "line": -7000,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700283149,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363190493,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 1500,
+          "line": 7000,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700283149,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700283150,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363190496,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1480,
+          "line": 2000,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700283150,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363190498,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 2550,
+          "line": -2000,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700283150,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700283151,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363190501,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 3100,
+          "line": -10000,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700283151,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363190502,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 1320,
+          "line": 10000,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700283151,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700283152,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363190503,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2650,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2700283152,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363190504,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1480,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700283152,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700283154,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363190511,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2750,
+          "line": -8500,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700283154,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363190512,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 1420,
+          "line": 8500,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700283154,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700283155,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363190513,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1380,
+          "line": 3000,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700283155,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363190514,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 2850,
+          "line": -3000,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700283155,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700283156,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363190515,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1610,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700283156,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363190516,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2350,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700283156,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700283157,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363190517,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2600,
+          "line": 54000,
+          "type": "OT_OVER",
+          "betOfferId": 2700283157,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363190518,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1490,
+          "line": 54000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700283157,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700283158,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363190519,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2850,
+          "line": -9500,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700283158,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363190520,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 1380,
+          "line": 9500,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700283158,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700283159,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363190521,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 2800,
+          "line": -9000,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700283159,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363190522,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 1400,
+          "line": 9000,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700283159,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700293607,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363208266,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1670,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700293607,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363208267,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2230,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700293607,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700293608,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363208268,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3000,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2700293608,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363208269,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1380,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700293608,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700293609,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363208270,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1600,
+          "line": -500,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700293609,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363208271,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 2350,
+          "line": 500,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700293609,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700293610,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363208272,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1640,
+          "line": 45000,
+          "type": "OT_OVER",
+          "betOfferId": 2700293610,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363208273,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 45000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700293610,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700293611,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363208274,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1490,
+          "line": 43000,
+          "type": "OT_OVER",
+          "betOfferId": 2700293611,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363208275,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2630,
+          "line": 43000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700293611,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700293612,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363208276,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1530,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700293612,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363208277,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2550,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700293612,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700293613,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363208278,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2500,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2700293613,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363208279,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1530,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700293613,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700293614,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363208280,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1560,
+          "line": 44000,
+          "type": "OT_OVER",
+          "betOfferId": 2700293614,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363208281,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 44000,
+          "type": "OT_UNDER",
+          "betOfferId": 2700293614,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700293615,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363208282,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1600,
+          "line": 500,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700293615,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363208283,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 2350,
+          "line": -500,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700293615,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700293616,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4363208284,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1550,
+          "line": 1000,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2700293616,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4363208285,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 2400,
+          "line": -1000,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2700293616,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701038568,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365694794,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1370,
+          "line": 40500,
+          "type": "OT_OVER",
+          "betOfferId": 2701038568,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365694795,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3050,
+          "line": 40500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701038568,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701053140,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365697677,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3150,
+          "line": 57000,
+          "type": "OT_OVER",
+          "betOfferId": 2701053140,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365697678,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1350,
+          "line": 57000,
+          "type": "OT_UNDER",
+          "betOfferId": 2701053140,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701053141,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365697680,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1260,
+          "line": 4000,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2701053141,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365697682,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 3400,
+          "line": -4000,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2701053141,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701053142,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365697679,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1330,
+          "line": 39500,
+          "type": "OT_OVER",
+          "betOfferId": 2701053142,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365697681,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3300,
+          "line": 39500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701053142,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701053143,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365697683,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 3450,
+          "line": -10500,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2701053143,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365697684,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 1260,
+          "line": 10500,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2701053143,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701053144,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365697685,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3400,
+          "line": 58000,
+          "type": "OT_OVER",
+          "betOfferId": 2701053144,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365697686,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1320,
+          "line": 58000,
+          "type": "OT_UNDER",
+          "betOfferId": 2701053144,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701053145,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365697687,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1300,
+          "line": 3500,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2701053145,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365697688,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 3200,
+          "line": -3500,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2701053145,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701053147,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365697691,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1340,
+          "line": 40000,
+          "type": "OT_OVER",
+          "betOfferId": 2701053147,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365697692,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3200,
+          "line": 40000,
+          "type": "OT_UNDER",
+          "betOfferId": 2701053147,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701053390,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365698569,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1300,
+          "line": 38500,
+          "type": "OT_OVER",
+          "betOfferId": 2701053390,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365698570,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3500,
+          "line": 38500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701053390,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701069503,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365700034,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1300,
+          "line": 39000,
+          "type": "OT_OVER",
+          "betOfferId": 2701069503,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365700037,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3450,
+          "line": 39000,
+          "type": "OT_UNDER",
+          "betOfferId": 2701069503,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701069504,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365700035,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3450,
+          "line": 58500,
+          "type": "OT_OVER",
+          "betOfferId": 2701069504,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365700036,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1300,
+          "line": 58500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701069504,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701069505,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365700038,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3200,
+          "line": 57500,
+          "type": "OT_OVER",
+          "betOfferId": 2701069505,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365700039,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1340,
+          "line": 57500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701069505,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701069761,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365700806,
+          "label": "(14) Missouri",
+          "englishLabel": "(14) Missouri Tigers",
+          "odds": 1250,
+          "line": 4500,
+          "participant": "(14) Missouri",
+          "type": "OT_ONE",
+          "betOfferId": 2701069761,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000087707,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365700807,
+          "label": "Texas A&M",
+          "englishLabel": "Texas A&M Aggies",
+          "odds": 3500,
+          "line": -4500,
+          "participant": "Texas A&M",
+          "type": "OT_TWO",
+          "betOfferId": 2701069761,
+          "changedDate": "2026-10-07T14:16:16Z",
+          "participantId": 1000034769,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701070812,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Texas A&M",
+        "englishLabel": "Total Points by Texas A&M Aggies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365768133,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1980,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2701070812,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365768134,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1760,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701070812,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701070813,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Texas A&M",
+        "englishLabel": "Total Points by Texas A&M Aggies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365768135,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1610,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2701070813,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365768136,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2230,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701070813,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701070814,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393521,
+        "label": "Total Points by (14) Missouri - Quarter 1",
+        "englishLabel": "Total Points by (14) Missouri Tigers - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365768137,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1740,
+          "line": 6500,
+          "type": "OT_OVER",
+          "betOfferId": 2701070814,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365768138,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2020,
+          "line": 6500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701070814,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701070818,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (14) Missouri",
+        "englishLabel": "Total Points by (14) Missouri Tigers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365768145,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1750,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2701070818,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365768146,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2020,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701070818,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701087362,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (14) Missouri",
+        "englishLabel": "Total Points by (14) Missouri Tigers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365744772,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1570,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2701087362,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365744773,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701087362,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701087363,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365744778,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3550,
+          "type": "OT_YES",
+          "betOfferId": 2701087363,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365744783,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1250,
+          "type": "OT_NO",
+          "betOfferId": 2701087363,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701087366,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (14) Missouri",
+        "englishLabel": "Total Points by (14) Missouri Tigers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365744788,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2150,
+          "line": 27500,
+          "type": "OT_OVER",
+          "betOfferId": 2701087366,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365744789,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1660,
+          "line": 27500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701087366,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701087367,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Texas A&M",
+        "englishLabel": "Total Points by Texas A&M Aggies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365744790,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2350,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2701087367,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365744791,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1550,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701087367,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701092963,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (14) Missouri",
+        "englishLabel": "Total Points by (14) Missouri Tigers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365753435,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2350,
+          "line": 28500,
+          "type": "OT_OVER",
+          "betOfferId": 2701092963,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365753436,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1550,
+          "line": 28500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701092963,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701092965,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by (14) Missouri",
+        "englishLabel": "Total Points by (14) Missouri Tigers - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365753439,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1800,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2701092965,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365753440,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1950,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701092965,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701092966,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Texas A&M",
+        "englishLabel": "Total Points by Texas A&M Aggies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4365753441,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2250,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2701092966,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4365753442,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1600,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701092966,
+          "changedDate": "2026-10-07T15:01:27Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701183875,
+      "closed": "2026-10-10T16:00:00Z",
+      "criterion": {
+        "id": 1002393522,
+        "label": "Total Points by Texas A&M - Quarter 1",
+        "englishLabel": "Total Points by Texas A&M Aggies - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508057,
+      "outcomes": [
+        {
+          "id": 4366015592,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 4500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701183875,
+          "changedDate": "2026-10-07T19:10:07Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4366015593,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 4500,
+          "type": "OT_OVER",
+          "betOfferId": 2701183875,
+          "changedDate": "2026-10-07T19:10:07Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
     }
   ],
   "events": [
     {
       "id": 1027508057,
-      "name": "Texas A&M @ (25) Missouri",
+      "name": "Texas A&M @ (14) Missouri",
       "nameDelimiter": "@",
-      "englishName": "(25) Missouri Tigers - Texas A&M Aggies",
-      "homeName": "(25) Missouri",
+      "englishName": "(14) Missouri Tigers - Texas A&M Aggies",
+      "homeName": "(14) Missouri",
       "awayName": "Texas A&M",
       "start": "2026-10-10T16:00:00Z",
       "group": "NCAAF",
@@ -2838,7 +6549,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 45,
+      "nonLiveBoCount": 111,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -2861,8 +6572,8 @@
         },
         {
           "participantId": 1000087707,
-          "name": "(25) Missouri",
-          "englishName": "(25) Missouri Tigers",
+          "name": "(14) Missouri",
+          "englishName": "(14) Missouri Tigers",
           "termKey": "_25__missouri_tigers",
           "scratched": false,
           "nonRunner": false,
@@ -2876,6 +6587,179 @@
   ],
   "prePacks": [
     {
+      "id": 7207970,
+      "label": "Spread and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8135324,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361705526,
+                          "eventId": 1027508057,
+                          "betOfferId": 2699814158
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362268287,
+                          "eventId": 1027508057,
+                          "betOfferId": 2700021267
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8135325,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3100,
+                "american": "210",
+                "fractional": "21/10"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361705525,
+                          "eventId": 1027508057,
+                          "betOfferId": 2699814158
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362268288,
+                          "eventId": 1027508057,
+                          "betOfferId": 2700021267
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8135326,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3450,
+                "american": "245",
+                "fractional": "49/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361705526,
+                          "eventId": 1027508057,
+                          "betOfferId": 2699814158
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362268288,
+                          "eventId": 1027508057,
+                          "betOfferId": 2700021267
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8135323,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4361705525,
+                          "eventId": 1027508057,
+                          "betOfferId": 2699814158
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4362268287,
+                          "eventId": 1027508057,
+                          "betOfferId": 2700021267
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    },
+    {
       "id": 7191751,
       "label": "Game Winner and Total Points",
       "prePackSelections": [
@@ -2886,9 +6770,9 @@
           "combinations": [
             {
               "odds": {
-                "decimal": 2800,
-                "american": "180",
-                "fractional": "9/5"
+                "decimal": 2850,
+                "american": "185",
+                "fractional": "37/20"
               },
               "groups": [
                 {
@@ -2927,9 +6811,9 @@
           "combinations": [
             {
               "odds": {
-                "decimal": 4250,
-                "american": "325",
-                "fractional": "13/4"
+                "decimal": 4100,
+                "american": "310",
+                "fractional": "3/1"
               },
               "groups": [
                 {
@@ -3024,179 +6908,6 @@
                           "id": 4358422727,
                           "eventId": 1027508057,
                           "betOfferId": 2698819106
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362268287,
-                          "eventId": 1027508057,
-                          "betOfferId": 2700021267
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "tags": [
-        "AUTO_BUNDLED"
-      ]
-    },
-    {
-      "id": 7192659,
-      "label": "Spread and Total Points",
-      "prePackSelections": [
-        {
-          "selectionId": 8119127,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3400,
-                "american": "240",
-                "fractional": "12/5"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361705530,
-                          "eventId": 1027508057,
-                          "betOfferId": 2699814160
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362268288,
-                          "eventId": 1027508057,
-                          "betOfferId": 2700021267
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8119126,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361705529,
-                          "eventId": 1027508057,
-                          "betOfferId": 2699814160
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362268288,
-                          "eventId": 1027508057,
-                          "betOfferId": 2700021267
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8119125,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3200,
-                "american": "220",
-                "fractional": "11/5"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361705530,
-                          "eventId": 1027508057,
-                          "betOfferId": 2699814160
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4362268287,
-                          "eventId": 1027508057,
-                          "betOfferId": 2700021267
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8119124,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3450,
-                "american": "245",
-                "fractional": "49/20"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4361705529,
-                          "eventId": 1027508057,
-                          "betOfferId": 2699814160
                         }
                       ]
                     },

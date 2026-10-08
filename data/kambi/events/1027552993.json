@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:43.054Z",
+  "generatedAt": "2026-10-08T22:55:42.518Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,7 +10,7 @@
     "start": "2026-10-10T19:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 89,
     "events": 1,
     "prePacks": 0
   },
@@ -37,15 +37,15 @@
           "id": 4362291893,
           "label": "Western Michigan",
           "englishLabel": "Western Michigan Broncos",
-          "odds": 1920,
+          "odds": 1820,
           "line": -13500,
           "participant": "Western Michigan",
           "type": "OT_ONE",
           "betOfferId": 2699978114,
-          "changedDate": "2026-10-04T21:18:53Z",
+          "changedDate": "2026-10-08T13:16:25Z",
           "participantId": 1000046942,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -54,15 +54,15 @@
           "id": 4362291894,
           "label": "Kent State",
           "englishLabel": "Kent State Golden Flashes",
-          "odds": 1910,
+          "odds": 2020,
           "line": 13500,
           "participant": "Kent State",
           "type": "OT_TWO",
           "betOfferId": 2699978114,
-          "changedDate": "2026-10-04T21:18:53Z",
+          "changedDate": "2026-10-08T13:16:25Z",
           "participantId": 1000022647,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,7 +70,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -97,13 +96,13 @@
           "id": 4362291895,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1890,
+          "odds": 1880,
           "line": 43500,
           "type": "OT_OVER",
           "betOfferId": 2699978115,
-          "changedDate": "2026-10-04T21:18:55Z",
+          "changedDate": "2026-10-08T13:16:24Z",
           "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -112,11 +111,476 @@
           "id": 4362291896,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1940,
+          "odds": 1950,
           "line": 43500,
           "type": "OT_UNDER",
           "betOfferId": 2699978115,
-          "changedDate": "2026-10-04T21:18:55Z",
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700006973,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4362272073,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700006973,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362272074,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1810,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700006973,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700006974,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4362272075,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1740,
+          "line": -12500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700006974,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362272076,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2120,
+          "line": 12500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700006974,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700006975,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4362272077,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2800,
+          "line": -20500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700006975,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362272078,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1450,
+          "line": 20500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700006975,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700021512,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4362269094,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2450,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700021512,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362269095,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1570,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700021512,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700021513,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4362269096,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1970,
+          "line": -14500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700021513,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362269097,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1850,
+          "line": 14500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700021513,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700021514,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4362269098,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1710,
+          "line": -12000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700021514,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362269099,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2170,
+          "line": 12000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700021514,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700021515,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4362269100,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2750,
+          "line": -20000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700021515,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362269101,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1470,
+          "line": 20000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700021515,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700021516,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4362269102,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1890,
+          "line": -14000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700021516,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362269103,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1940,
+          "line": 14000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700021516,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
           "oddsFractional": "23/25",
           "oddsAmerican": "-107",
           "status": "OPEN",
@@ -153,15 +617,15 @@
           "id": 4362269104,
           "label": "Western Michigan",
           "englishLabel": "Western Michigan Broncos",
-          "odds": 1870,
+          "odds": 1770,
           "line": -13000,
           "participant": "Western Michigan",
           "type": "OT_ONE",
           "betOfferId": 2700021517,
-          "changedDate": "2026-10-04T21:18:53Z",
+          "changedDate": "2026-10-08T13:16:25Z",
           "participantId": 1000046942,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -170,15 +634,70 @@
           "id": 4362269105,
           "label": "Kent State",
           "englishLabel": "Kent State Golden Flashes",
-          "odds": 1950,
+          "odds": 2070,
           "line": 13000,
           "participant": "Kent State",
           "type": "OT_TWO",
           "betOfferId": 2700021517,
-          "changedDate": "2026-10-04T21:18:53Z",
+          "changedDate": "2026-10-08T13:16:25Z",
           "participantId": 1000022647,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700021518,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4362269106,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2120,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700021518,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362269107,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1740,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700021518,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -212,14 +731,14 @@
           "id": 4362269108,
           "label": "Western Michigan",
           "englishLabel": "Western Michigan Broncos",
-          "odds": 1140,
+          "odds": 1130,
           "participant": "Western Michigan",
           "type": "OT_ONE",
           "betOfferId": 2700021519,
-          "changedDate": "2026-10-04T21:18:55Z",
+          "changedDate": "2026-10-07T18:22:24Z",
           "participantId": 1000046942,
-          "oddsFractional": "2/15",
-          "oddsAmerican": "-715",
+          "oddsFractional": "1/8",
+          "oddsAmerican": "-770",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -228,14 +747,14 @@
           "id": 4362269109,
           "label": "Kent State",
           "englishLabel": "Kent State Golden Flashes",
-          "odds": 5750,
+          "odds": 6000,
           "participant": "Kent State",
           "type": "OT_TWO",
           "betOfferId": 2700021519,
-          "changedDate": "2026-10-04T21:18:55Z",
+          "changedDate": "2026-10-07T18:22:24Z",
           "participantId": 1000022647,
-          "oddsFractional": "19/4",
-          "oddsAmerican": "475",
+          "oddsFractional": "5/1",
+          "oddsAmerican": "500",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -245,6 +764,4519 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593601,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Western Michigan - 1st Half",
+        "englishLabel": "Total Points by Western Michigan Broncos - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258701,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 14500,
+          "type": "OT_OVER",
+          "betOfferId": 2700593601,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258702,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 14500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700593601,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593602,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258707,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3600,
+          "type": "OT_YES",
+          "betOfferId": 2700593602,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258712,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1230,
+          "type": "OT_NO",
+          "betOfferId": 2700593602,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "2/9",
+          "oddsAmerican": "-435",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593603,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258714,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1570,
+          "line": -2500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593603,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258713,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2300,
+          "line": 2500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593603,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593604,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258715,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1550,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593604,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258716,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4750,
+          "type": "OT_CROSS",
+          "betOfferId": 2700593604,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "15/4",
+          "oddsAmerican": "375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364258717,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4300,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593604,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "33/10",
+          "oddsAmerican": "330",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593605,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Western Michigan to Score in Both Halves",
+        "englishLabel": "Western Michigan Broncos to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258720,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1030,
+          "type": "OT_YES",
+          "betOfferId": 2700593605,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258723,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 12000,
+          "type": "OT_NO",
+          "betOfferId": 2700593605,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593606,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258724,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1280,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593606,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258725,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3550,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593606,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593610,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258733,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1810,
+          "type": "OT_ODD",
+          "betOfferId": 2700593610,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258734,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1860,
+          "type": "OT_EVEN",
+          "betOfferId": 2700593610,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593611,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Kent State",
+        "englishLabel": "Total Points by Kent State Golden Flashes - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258735,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1760,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700593611,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258736,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700593611,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593613,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Kent State to win both halves",
+        "englishLabel": "Kent State Golden Flashes to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258741,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 14000,
+          "type": "OT_YES",
+          "betOfferId": 2700593613,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "13/1",
+          "oddsAmerican": "1300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258744,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2700593613,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593614,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258745,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 39500,
+          "type": "OT_OVER",
+          "betOfferId": 2700593614,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258746,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2630,
+          "line": 39500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700593614,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593615,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258754,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2230,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700593615,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258755,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1670,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700593615,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593616,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258756,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1450,
+          "line": 38500,
+          "type": "OT_OVER",
+          "betOfferId": 2700593616,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258757,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2800,
+          "line": 38500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700593616,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593617,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258759,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 17000,
+          "type": "OT_YES",
+          "betOfferId": 2700593617,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258761,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2700593617,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593618,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258764,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 1360,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700593618,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258767,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 46000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700593618,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "45/1",
+          "oddsAmerican": "4500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364258770,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 20000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700593618,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "19/1",
+          "oddsAmerican": "1900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364258773,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 16000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700593618,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "15/1",
+          "oddsAmerican": "1500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364258776,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 101000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700593618,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "100/1",
+          "oddsAmerican": "10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364258779,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 51000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700593618,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "50/1",
+          "oddsAmerican": "5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364258782,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 8500,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700593618,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364258785,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 46000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700593618,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "45/1",
+          "oddsAmerican": "4500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364258788,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 9500,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700593618,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593619,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258789,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1980,
+          "line": -8500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593619,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258790,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1760,
+          "line": 8500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593619,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593620,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258791,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 3150,
+          "line": -21500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593620,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258792,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1370,
+          "line": 21500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593620,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593621,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258793,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2600,
+          "line": -19500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593621,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258794,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1500,
+          "line": 19500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593621,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593622,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258795,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2060,
+          "line": -15500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593622,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258796,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1790,
+          "line": 15500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593622,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593623,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258797,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1500,
+          "line": -8500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593623,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258798,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2650,
+          "line": 8500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593623,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593624,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258799,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1630,
+          "line": -10500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593624,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258800,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2320,
+          "line": 10500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593624,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593625,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258801,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1300,
+          "line": -6000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593625,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258802,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 3550,
+          "line": 6000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593625,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593626,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258803,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2020,
+          "line": -15000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593626,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258804,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1820,
+          "line": 15000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593626,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593627,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258805,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1460,
+          "line": -8000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593627,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258806,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2750,
+          "line": 8000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593627,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593628,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258807,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2550,
+          "line": -19000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593628,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258808,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1520,
+          "line": 19000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593628,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593629,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258809,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1500,
+          "line": -9000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593629,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258810,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2600,
+          "line": 9000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593629,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593630,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258811,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1570,
+          "line": -10000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593630,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258812,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2450,
+          "line": 10000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593630,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593631,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258813,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1650,
+          "line": -11000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593631,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258814,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2280,
+          "line": 11000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593631,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593653,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258869,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2040,
+          "line": -9500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700593653,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364258870,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1720,
+          "line": 9500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700593653,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700593654,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Kent State - 1st Half",
+        "englishLabel": "Total Points by Kent State Golden Flashes - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364258871,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2500,
+          "line": 5500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700593654,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364258872,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1440,
+          "line": 5500,
+          "type": "OT_OVER",
+          "betOfferId": 2700593654,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605306,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Kent State to Score in every Quarter - Regular Time",
+        "englishLabel": "Kent State Golden Flashes to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244035,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5750,
+          "type": "OT_YES",
+          "betOfferId": 2700605306,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244040,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1090,
+          "type": "OT_NO",
+          "betOfferId": 2700605306,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "1/12",
+          "oddsAmerican": "-1115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605307,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244042,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2200,
+          "line": -4500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605307,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244041,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1620,
+          "line": 4500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605307,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605310,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244050,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1790,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2700605310,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244051,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1960,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700605310,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605312,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244054,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1140,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605312,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "2/15",
+          "oddsAmerican": "-715",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244055,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 18000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700605312,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364244056,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 6250,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605312,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "21/4",
+          "oddsAmerican": "525",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605313,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Western Michigan",
+        "englishLabel": "Total Points by Western Michigan Broncos - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244057,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 28500,
+          "type": "OT_OVER",
+          "betOfferId": 2700605313,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244058,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1890,
+          "line": 28500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700605313,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605314,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244059,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 5750,
+          "participant": "Kent State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700605314,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364244060,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 4700,
+          "participant": "Kent State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700605314,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "18/5",
+          "oddsAmerican": "370",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364244061,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 141000,
+          "participant": "Kent State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700605314,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "140/1",
+          "oddsAmerican": "14000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364244062,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 111000,
+          "participant": "Western Michigan",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700605314,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "110/1",
+          "oddsAmerican": "11000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364244063,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 2060,
+          "participant": "Western Michigan",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700605314,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364244064,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 4000,
+          "participant": "Western Michigan",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700605314,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605315,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Kent State to Score in Both Halves",
+        "englishLabel": "Kent State Golden Flashes to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244067,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1380,
+          "type": "OT_YES",
+          "betOfferId": 2700605315,
+          "changedDate": "2026-10-07T18:22:24Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244070,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2700,
+          "type": "OT_NO",
+          "betOfferId": 2700605315,
+          "changedDate": "2026-10-07T18:22:24Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605317,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Kent State",
+        "englishLabel": "Total Points by Kent State Golden Flashes - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244073,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1540,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2700605317,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244074,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2280,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700605317,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605318,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Kent State to score first and win",
+        "englishLabel": "Kent State Golden Flashes to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244077,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 7500,
+          "type": "OT_YES",
+          "betOfferId": 2700605318,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244080,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1050,
+          "type": "OT_NO",
+          "betOfferId": 2700605318,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "1/20",
+          "oddsAmerican": "-2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605319,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Kent State",
+        "englishLabel": "Total Points by Kent State Golden Flashes - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244081,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 14500,
+          "type": "OT_OVER",
+          "betOfferId": 2700605319,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244082,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 14500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700605319,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605320,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244083,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2700605320,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244084,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2180,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700605320,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605321,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244085,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1400,
+          "line": 37500,
+          "type": "OT_OVER",
+          "betOfferId": 2700605321,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244086,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3000,
+          "line": 37500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700605321,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605322,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244087,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1760,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700605322,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244088,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2080,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700605322,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605324,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244091,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1280,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605324,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244092,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 11500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700605324,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "21/2",
+          "oddsAmerican": "1050",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364244093,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605324,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605325,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Western Michigan to Score in every Quarter - Regular Time",
+        "englishLabel": "Western Michigan Broncos to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244098,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1910,
+          "type": "OT_YES",
+          "betOfferId": 2700605325,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244103,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1770,
+          "type": "OT_NO",
+          "betOfferId": 2700605325,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605326,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244104,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1660,
+          "line": -6500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605326,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244105,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2150,
+          "line": 6500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605326,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605327,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244106,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1580,
+          "line": -5500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605327,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244107,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2300,
+          "line": 5500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605327,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605328,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244108,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1550,
+          "line": -4500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605328,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244109,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2350,
+          "line": 4500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605328,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605329,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244110,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4200,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605329,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "16/5",
+          "oddsAmerican": "320",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364244111,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1210,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605329,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-480",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605330,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244112,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1450,
+          "line": -7500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605330,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244113,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2800,
+          "line": 7500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605330,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605331,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244114,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1680,
+          "line": -11500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605331,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244115,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2200,
+          "line": 11500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605331,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605332,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244116,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1290,
+          "line": -5500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605332,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244117,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 3650,
+          "line": 5500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605332,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605333,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244118,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1270,
+          "line": -4500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605333,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244119,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 3900,
+          "line": 4500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605333,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "29/10",
+          "oddsAmerican": "290",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605334,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244120,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2350,
+          "line": -17500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605334,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244121,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1610,
+          "line": 17500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605334,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605335,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244122,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1280,
+          "line": -5000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605335,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244123,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 3800,
+          "line": 5000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605335,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605336,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244124,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 3250,
+          "line": -22000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605336,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244125,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1360,
+          "line": 22000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605336,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700605337,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364244126,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2250,
+          "line": -17000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700605337,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364244127,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1660,
+          "line": 17000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700605337,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616689,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Western Michigan - 1st Half",
+        "englishLabel": "Total Points by Western Michigan Broncos - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247049,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1600,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2700616689,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247050,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2150,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700616689,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616690,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247052,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1570,
+          "line": -1500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700616690,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247051,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2320,
+          "line": 1500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700616690,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616693,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Western Michigan to win both halves",
+        "englishLabel": "Western Michigan Broncos to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247059,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1700,
+          "type": "OT_YES",
+          "betOfferId": 2700616693,
+          "changedDate": "2026-10-07T18:22:24Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247062,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2000,
+          "type": "OT_NO",
+          "betOfferId": 2700616693,
+          "changedDate": "2026-10-07T18:22:24Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616694,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Western Michigan to score first and win",
+        "englishLabel": "Western Michigan Broncos to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247065,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1530,
+          "type": "OT_YES",
+          "betOfferId": 2700616694,
+          "changedDate": "2026-10-07T18:22:24Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247068,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2300,
+          "type": "OT_NO",
+          "betOfferId": 2700616694,
+          "changedDate": "2026-10-07T18:22:24Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616696,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247071,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1280,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700616696,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247072,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3250,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700616696,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700616697,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Western Michigan",
+        "englishLabel": "Total Points by Western Michigan Broncos - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247073,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 26500,
+          "type": "OT_OVER",
+          "betOfferId": 2700616697,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247074,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2320,
+          "line": 26500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700616697,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616699,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Western Michigan",
+        "englishLabel": "Total Points by Western Michigan Broncos - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247077,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 27500,
+          "type": "OT_OVER",
+          "betOfferId": 2700616699,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247078,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 27500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700616699,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616701,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Western Michigan",
+        "englishLabel": "Total Points by Western Michigan Broncos - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247081,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 29500,
+          "type": "OT_OVER",
+          "betOfferId": 2700616701,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247082,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1820,
+          "line": 29500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700616701,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616703,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247085,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1790,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700616703,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247086,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1960,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700616703,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616707,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247095,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1600,
+          "line": 40500,
+          "type": "OT_OVER",
+          "betOfferId": 2700616707,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247096,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2380,
+          "line": 40500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700616707,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616708,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247098,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1870,
+          "line": -3500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700616708,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247097,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1870,
+          "line": 3500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700616708,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616710,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247101,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1900,
+          "line": -7500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700616710,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247102,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1840,
+          "line": 7500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700616710,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616713,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247107,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1340,
+          "line": -6500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700616713,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247108,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 3300,
+          "line": 6500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700616713,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616714,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247109,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2150,
+          "line": -16500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700616714,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247110,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1720,
+          "line": 16500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700616714,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616715,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247111,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1530,
+          "line": -9500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700616715,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000046942,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247112,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 2550,
+          "line": 9500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700616715,
+          "changedDate": "2026-10-08T13:16:24Z",
+          "participantId": 1000022647,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616716,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247113,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2500,
+          "line": -18500,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700616716,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247114,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1550,
+          "line": 18500,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700616716,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616717,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247115,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2100,
+          "line": -16000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700616717,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247116,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1750,
+          "line": 16000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700616717,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616718,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247117,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 3050,
+          "line": -21000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700616718,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247118,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1400,
+          "line": 21000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700616718,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616719,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247119,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 2430,
+          "line": -18000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700616719,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247120,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 1580,
+          "line": 18000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700616719,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700616720,
+      "closed": "2026-10-10T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027552993,
+      "outcomes": [
+        {
+          "id": 4364247121,
+          "label": "Western Michigan",
+          "englishLabel": "Western Michigan Broncos",
+          "odds": 1370,
+          "line": -7000,
+          "participant": "Western Michigan",
+          "type": "OT_ONE",
+          "betOfferId": 2700616720,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000046942,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364247122,
+          "label": "Kent State",
+          "englishLabel": "Kent State Golden Flashes",
+          "odds": 3150,
+          "line": 7000,
+          "participant": "Kent State",
+          "type": "OT_TWO",
+          "betOfferId": 2700616720,
+          "changedDate": "2026-10-08T13:16:25Z",
+          "participantId": 1000022647,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     }
@@ -274,7 +5306,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 89,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:48.051Z",
+  "generatedAt": "2026-10-08T22:55:47.150Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,7 +10,7 @@
     "start": "2026-10-10T23:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 81,
     "events": 1,
     "prePacks": 0
   },
@@ -37,15 +37,15 @@
           "id": 4362275188,
           "label": "Georgia Southern",
           "englishLabel": "Georgia Southern Eagles",
-          "odds": 1920,
+          "odds": 1820,
           "line": 8500,
           "participant": "Georgia Southern",
           "type": "OT_ONE",
           "betOfferId": 2699984057,
-          "changedDate": "2026-10-04T21:18:26Z",
+          "changedDate": "2026-10-08T01:48:40Z",
           "participantId": 1000668724,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -54,15 +54,15 @@
           "id": 4362275189,
           "label": "James Madison",
           "englishLabel": "James Madison Dukes",
-          "odds": 1910,
+          "odds": 2020,
           "line": -8500,
           "participant": "James Madison",
           "type": "OT_TWO",
           "betOfferId": 2699984057,
-          "changedDate": "2026-10-04T21:18:26Z",
+          "changedDate": "2026-10-08T01:48:40Z",
           "participantId": 1001337417,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,7 +70,61 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699984058,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4362275190,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1610,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699984058,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362275191,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2350,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2699984058,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -97,15 +151,15 @@
           "id": 4362275192,
           "label": "Georgia Southern",
           "englishLabel": "Georgia Southern Eagles",
-          "odds": 1890,
+          "odds": 1790,
           "line": 9000,
           "participant": "Georgia Southern",
           "type": "OT_ONE",
           "betOfferId": 2699984059,
-          "changedDate": "2026-10-04T21:18:26Z",
+          "changedDate": "2026-10-08T01:48:40Z",
           "participantId": 1000668724,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -114,15 +168,188 @@
           "id": 4362275193,
           "label": "James Madison",
           "englishLabel": "James Madison Dukes",
-          "odds": 1940,
+          "odds": 2060,
           "line": -9000,
           "participant": "James Madison",
           "type": "OT_TWO",
           "betOfferId": 2699984059,
-          "changedDate": "2026-10-04T21:18:26Z",
+          "changedDate": "2026-10-08T13:18:31Z",
           "participantId": 1001337417,
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699984060,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4362275194,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2350,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699984060,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362275195,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1600,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2699984060,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699986899,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4362283519,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1700,
+          "line": 10000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2699986899,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362283520,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 2200,
+          "line": -10000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2699986899,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699986900,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4362283521,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 3250,
+          "line": 1500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2699986900,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362283522,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1350,
+          "line": -1500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2699986900,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -156,13 +383,13 @@
           "id": 4362280541,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1930,
+          "odds": 1700,
           "line": 53500,
           "type": "OT_UNDER",
           "betOfferId": 2700015559,
-          "changedDate": "2026-10-04T21:18:26Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -171,13 +398,13 @@
           "id": 4362280542,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1900,
+          "odds": 2180,
           "line": 53500,
           "type": "OT_OVER",
           "betOfferId": 2700015559,
-          "changedDate": "2026-10-04T21:18:26Z",
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -185,7 +412,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -212,14 +438,14 @@
           "id": 4362280543,
           "label": "Georgia Southern",
           "englishLabel": "Georgia Southern Eagles",
-          "odds": 3750,
+          "odds": 3400,
           "participant": "Georgia Southern",
           "type": "OT_ONE",
           "betOfferId": 2700015560,
-          "changedDate": "2026-10-04T21:18:26Z",
+          "changedDate": "2026-10-08T13:18:30Z",
           "participantId": 1000668724,
-          "oddsFractional": "11/4",
-          "oddsAmerican": "275",
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -228,14 +454,14 @@
           "id": 4362280544,
           "label": "James Madison",
           "englishLabel": "James Madison Dukes",
-          "odds": 1280,
+          "odds": 1320,
           "participant": "James Madison",
           "type": "OT_TWO",
           "betOfferId": 2700015560,
-          "changedDate": "2026-10-04T21:18:26Z",
+          "changedDate": "2026-10-08T01:48:39Z",
           "participantId": 1001337417,
-          "oddsFractional": "7/25",
-          "oddsAmerican": "-360",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -245,6 +471,4364 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700015561,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4362280545,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1760,
+          "line": 9500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700015561,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362280546,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 2080,
+          "line": -9500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700015561,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700015562,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4362280547,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 3200,
+          "line": 2000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700015562,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362280548,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1360,
+          "line": -2000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700015562,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700729110,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364608847,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1930,
+          "line": 7500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700729110,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364608848,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1900,
+          "line": -7500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700729110,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1001337417,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700748349,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364626270,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1870,
+          "line": 8000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700748349,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364626271,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1960,
+          "line": -8000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700748349,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750458,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722920,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700750458,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364722921,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2080,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2700750458,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750459,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722922,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2100,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700750459,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364722923,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1750,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2700750459,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750460,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722924,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1540,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700750460,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364722925,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2500,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2700750460,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750461,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722926,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2200,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700750461,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364722927,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700750461,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750462,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722928,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1860,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700750462,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364722929,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1970,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2700750462,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750464,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "James Madison to Score in every Quarter - Regular Time",
+        "englishLabel": "James Madison Dukes to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722942,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1820,
+          "type": "OT_YES",
+          "betOfferId": 2700750464,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364722947,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1850,
+          "type": "OT_NO",
+          "betOfferId": 2700750464,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750465,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Georgia Southern to Score in Both Halves",
+        "englishLabel": "Georgia Southern Eagles to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722950,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1140,
+          "type": "OT_YES",
+          "betOfferId": 2700750465,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "2/15",
+          "oddsAmerican": "-715",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364722953,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 4600,
+          "type": "OT_NO",
+          "betOfferId": 2700750465,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "18/5",
+          "oddsAmerican": "360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750467,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722960,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4900,
+          "type": "OT_YES",
+          "betOfferId": 2700750467,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "390",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364722965,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1120,
+          "type": "OT_NO",
+          "betOfferId": 2700750467,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "1/9",
+          "oddsAmerican": "-835",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750471,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Georgia Southern to Score in every Quarter - Regular Time",
+        "englishLabel": "Georgia Southern Eagles to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722976,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3250,
+          "type": "OT_YES",
+          "betOfferId": 2700750471,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364722981,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1280,
+          "type": "OT_NO",
+          "betOfferId": 2700750471,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750473,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "James Madison to Score in Both Halves",
+        "englishLabel": "James Madison Dukes to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722986,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1020,
+          "type": "OT_YES",
+          "betOfferId": 2700750473,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364722989,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 13000,
+          "type": "OT_NO",
+          "betOfferId": 2700750473,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750474,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722990,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1780,
+          "line": 5500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700750474,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1000668724,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364722991,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1980,
+          "line": -5500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700750474,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1001337417,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750475,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722992,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1810,
+          "line": 4500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700750475,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1000668724,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364722993,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1930,
+          "line": -4500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700750475,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1001337417,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750478,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364722998,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1340,
+          "line": 16500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700750478,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364722999,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 3300,
+          "line": -16500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700750478,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750479,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364723000,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 3450,
+          "line": -500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700750479,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723001,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1320,
+          "line": 500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700750479,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750480,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364723002,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 2350,
+          "line": 5500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700750480,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723003,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1610,
+          "line": -5500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700750480,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750481,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364723004,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1580,
+          "line": 11500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700750481,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723005,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 2400,
+          "line": -11500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700750481,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750482,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364723006,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 3450,
+          "line": 500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700750482,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723007,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1320,
+          "line": -500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700750482,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750483,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364723008,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 2400,
+          "line": 5000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700750483,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723009,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1580,
+          "line": -5000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700750483,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750484,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364723010,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1500,
+          "line": 13000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700750484,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723011,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 2600,
+          "line": -13000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700750484,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750485,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364723012,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 2280,
+          "line": 6000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700750485,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723013,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1650,
+          "line": -6000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700750485,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750486,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364723014,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 2040,
+          "line": 7000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700750486,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723015,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1790,
+          "line": -7000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700750486,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750487,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364723016,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1610,
+          "line": 11000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700750487,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723017,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 2350,
+          "line": -11000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700750487,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761740,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708419,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700761740,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364708420,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700761740,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761741,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708421,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1800,
+          "type": "OT_ODD",
+          "betOfferId": 2700761741,
+          "changedDate": "2026-10-07T23:11:27Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708422,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1870,
+          "type": "OT_EVEN",
+          "betOfferId": 2700761741,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761742,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708423,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700761742,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364708424,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2650,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2700761742,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761743,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708425,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2750,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700761743,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1000668724,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708426,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1430,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700761743,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1001337417,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761745,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by James Madison",
+        "englishLabel": "Total Points by James Madison Dukes - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708433,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1720,
+          "line": 29500,
+          "type": "OT_OVER",
+          "betOfferId": 2700761745,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708434,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1960,
+          "line": 29500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700761745,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761753,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708451,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3150,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700761753,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1000668724,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708452,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700761753,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364708453,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1800,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700761753,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1001337417,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761755,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708456,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 2250,
+          "line": 2500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700761755,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1000668724,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708457,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1600,
+          "line": -2500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700761755,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1001337417,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761756,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708458,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 2000,
+          "line": 3500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700761756,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1000668724,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708459,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1750,
+          "line": -3500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700761756,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1001337417,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761757,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708460,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1680,
+          "line": 6500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700761757,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1000668724,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708461,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 2100,
+          "line": -6500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700761757,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1001337417,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761758,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708462,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 2450,
+          "line": 4500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700761758,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708463,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1560,
+          "line": -4500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700761758,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761759,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708464,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 2170,
+          "line": 6500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700761759,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708465,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1710,
+          "line": -6500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700761759,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761760,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708466,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 2650,
+          "line": 3500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700761760,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708467,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1500,
+          "line": -3500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700761760,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761761,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708468,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 3000,
+          "line": 2500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700761761,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1000668724,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708469,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1400,
+          "line": -2500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700761761,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761762,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708470,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1640,
+          "line": 10500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700761762,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708471,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 2280,
+          "line": -10500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700761762,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761763,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708472,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 2550,
+          "line": 4000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700761763,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708473,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1520,
+          "line": -4000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700761763,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761764,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364708474,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1300,
+          "line": 17000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700761764,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708475,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 3550,
+          "line": -17000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700761764,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764560,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700066,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2600,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764560,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1000668724,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700067,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1470,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764560,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1001337417,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764561,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "James Madison to win both halves",
+        "englishLabel": "James Madison Dukes to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700070,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2320,
+          "type": "OT_YES",
+          "betOfferId": 2700764561,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700073,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1520,
+          "type": "OT_NO",
+          "betOfferId": 2700764561,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764563,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700076,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 5000,
+          "participant": "James Madison",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700764563,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1001337417,
+          "oddsFractional": "4/1",
+          "oddsAmerican": "400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364700077,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 4900,
+          "participant": "Georgia Southern",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700764563,
+          "changedDate": "2026-10-07T23:11:27Z",
+          "participantId": 1000668724,
+          "oddsFractional": "19/5",
+          "oddsAmerican": "390",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4364700078,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 2250,
+          "participant": "James Madison",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700764563,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1001337417,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364700079,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 3750,
+          "participant": "Georgia Southern",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700764563,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1000668724,
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4364700080,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 161000,
+          "participant": "Georgia Southern",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700764563,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1000668724,
+          "oddsFractional": "160/1",
+          "oddsAmerican": "16000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4364700081,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 161000,
+          "participant": "James Madison",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2700764563,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1001337417,
+          "oddsFractional": "160/1",
+          "oddsAmerican": "16000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764566,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Georgia Southern to score first and win",
+        "englishLabel": "Georgia Southern Eagles to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700088,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4700,
+          "type": "OT_YES",
+          "betOfferId": 2700764566,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "18/5",
+          "oddsAmerican": "370",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700091,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1140,
+          "type": "OT_NO",
+          "betOfferId": 2700764566,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "2/15",
+          "oddsAmerican": "-715",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764567,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700092,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2950,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764567,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1000668724,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700093,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 11000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700764567,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "10/1",
+          "oddsAmerican": "1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364700094,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1520,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764567,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1001337417,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764568,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Georgia Southern to win both halves",
+        "englishLabel": "Georgia Southern Eagles to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700097,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 8000,
+          "type": "OT_YES",
+          "betOfferId": 2700764568,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700100,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1050,
+          "type": "OT_NO",
+          "betOfferId": 2700764568,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "1/20",
+          "oddsAmerican": "-2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764569,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700101,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2400,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764569,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1000668724,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700102,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1480,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764569,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1001337417,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700764572,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700109,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 12000,
+          "type": "OT_YES",
+          "betOfferId": 2700764572,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700111,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1030,
+          "type": "OT_NO",
+          "betOfferId": 2700764572,
+          "changedDate": "2026-10-07T23:11:24Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764574,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700114,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1900,
+          "line": 2500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764574,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1000668724,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700115,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1840,
+          "line": -2500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764574,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1001337417,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764575,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700116,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3600,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764575,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1000668724,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700117,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 14000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700764575,
+          "changedDate": "2026-10-07T23:11:24Z",
+          "oddsFractional": "13/1",
+          "oddsAmerican": "1300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364700118,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1340,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764575,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1001337417,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764579,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "James Madison to score first and win",
+        "englishLabel": "James Madison Dukes to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700127,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1890,
+          "type": "OT_YES",
+          "betOfferId": 2700764579,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700130,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1780,
+          "type": "OT_NO",
+          "betOfferId": 2700764579,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764580,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Georgia Southern",
+        "englishLabel": "Total Points by Georgia Southern Eagles - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700131,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1890,
+          "line": 21500,
+          "type": "OT_OVER",
+          "betOfferId": 2700764580,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700132,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1780,
+          "line": 21500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700764580,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764585,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700143,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 4900,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700764585,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "390",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700146,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 30000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700764585,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "29/1",
+          "oddsAmerican": "2900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364700149,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 7500,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700764585,
+          "changedDate": "2026-10-07T23:11:27Z",
+          "oddsFractional": "13/2",
+          "oddsAmerican": "650",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364700152,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 31000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700764585,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364700155,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 81000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700764585,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "80/1",
+          "oddsAmerican": "8000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364700158,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 18000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700764585,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "17/1",
+          "oddsAmerican": "1700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364700161,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 14000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700764585,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "13/1",
+          "oddsAmerican": "1300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364700164,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 36000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700764585,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "35/1",
+          "oddsAmerican": "3500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364700167,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 1710,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700764585,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764586,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700168,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1490,
+          "line": 13500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764586,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700169,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 2650,
+          "line": -13500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764586,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764587,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700170,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1410,
+          "line": 14500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764587,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700171,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 2950,
+          "line": -14500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764587,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1001337417,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764588,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700172,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1550,
+          "line": 12500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764588,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700173,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 2500,
+          "line": -12500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764588,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764589,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700174,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1380,
+          "line": 15500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764589,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700175,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 3100,
+          "line": -15500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764589,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764590,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700176,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 2880,
+          "line": 3000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764590,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700177,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1430,
+          "line": -3000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764590,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764591,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700178,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1430,
+          "line": 14000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764591,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700179,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 2880,
+          "line": -14000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764591,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764592,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700180,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 3400,
+          "line": 1000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764592,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700181,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1330,
+          "line": -1000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764592,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764593,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700182,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 3600,
+          "line": -1000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764593,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700183,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1300,
+          "line": 1000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764593,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764594,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700184,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1560,
+          "line": 12000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764594,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1000668724,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700185,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 2480,
+          "line": -12000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764594,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764595,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700186,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1380,
+          "line": 15000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764595,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700187,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 3100,
+          "line": -15000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764595,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1001337417,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764596,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700188,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 1350,
+          "line": 16000,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2700764596,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "participantId": 1000668724,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700189,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 3250,
+          "line": -16000,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2700764596,
+          "changedDate": "2026-10-08T13:18:31Z",
+          "participantId": 1001337417,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764603,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Georgia Southern - 1st Half",
+        "englishLabel": "Total Points by Georgia Southern Eagles - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700234,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2000,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700764603,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700235,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1680,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700764603,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764633,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4364700347,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2120,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700764633,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700348,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1670,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700764633,
+          "changedDate": "2026-10-07T23:11:27Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701194552,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4366189096,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2750,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701194552,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4366189097,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1470,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2701194552,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701220788,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4366183139,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1820,
+          "line": 26500,
+          "type": "OT_OVER",
+          "betOfferId": 2701220788,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366183140,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 26500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701220788,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701220789,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4366183141,
+          "label": "Georgia Southern",
+          "englishLabel": "Georgia Southern Eagles",
+          "odds": 2300,
+          "line": 1500,
+          "participant": "Georgia Southern",
+          "type": "OT_ONE",
+          "betOfferId": 2701220789,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "participantId": 1000668724,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366183142,
+          "label": "James Madison",
+          "englishLabel": "James Madison Dukes",
+          "odds": 1580,
+          "line": -1500,
+          "participant": "James Madison",
+          "type": "OT_TWO",
+          "betOfferId": 2701220789,
+          "changedDate": "2026-10-08T01:48:39Z",
+          "participantId": 1001337417,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701220790,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4366183143,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2600,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701220790,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4366183144,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2701220790,
+          "changedDate": "2026-10-07T23:11:28Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701226607,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by James Madison - 1st Half",
+        "englishLabel": "Total Points by James Madison Dukes - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508060,
+      "outcomes": [
+        {
+          "id": 4366171002,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1840,
+          "line": 14500,
+          "type": "OT_OVER",
+          "betOfferId": 2701226607,
+          "changedDate": "2026-10-08T01:48:40Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366171003,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1830,
+          "line": 14500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701226607,
+          "changedDate": "2026-10-08T13:18:30Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     }
@@ -274,7 +4858,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 81,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

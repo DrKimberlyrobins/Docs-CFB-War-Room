@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:47.775Z",
+  "generatedAt": "2026-10-08T22:55:46.893Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,7 +10,7 @@
     "start": "2026-10-10T23:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 80,
     "events": 1,
     "prePacks": 0
   },
@@ -37,14 +37,14 @@
           "id": 4362275828,
           "label": "Louisiana Tech",
           "englishLabel": "Louisiana Tech Bulldogs",
-          "odds": 1710,
+          "odds": 1660,
           "participant": "Louisiana Tech",
           "type": "OT_ONE",
           "betOfferId": 2699984227,
-          "changedDate": "2026-10-04T21:34:01Z",
+          "changedDate": "2026-10-07T22:14:11Z",
           "participantId": 1000088417,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-141",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +53,14 @@
           "id": 4362275829,
           "label": "Louisiana",
           "englishLabel": "Louisiana Ragin' Cajuns",
-          "odds": 2150,
+          "odds": 2230,
           "participant": "Louisiana",
           "type": "OT_TWO",
           "betOfferId": 2699984227,
-          "changedDate": "2026-10-04T21:34:01Z",
+          "changedDate": "2026-10-07T22:14:11Z",
           "participantId": 1000058124,
-          "oddsFractional": "23/20",
-          "oddsAmerican": "115",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,6 +70,65 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699984228,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4362275830,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 2020,
+          "line": -3500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2699984228,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362275831,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1820,
+          "line": 3500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2699984228,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -95,15 +154,15 @@
           "id": 4362275832,
           "label": "Louisiana Tech",
           "englishLabel": "Louisiana Tech Bulldogs",
-          "odds": 1900,
+          "odds": 1830,
           "line": -2500,
           "participant": "Louisiana Tech",
           "type": "OT_ONE",
           "betOfferId": 2699984229,
-          "changedDate": "2026-10-04T21:34:01Z",
+          "changedDate": "2026-10-07T22:14:12Z",
           "participantId": 1000088417,
-          "oddsFractional": "9/10",
-          "oddsAmerican": "-112",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -112,15 +171,133 @@
           "id": 4362275833,
           "label": "Louisiana",
           "englishLabel": "Louisiana Ragin' Cajuns",
-          "odds": 1930,
+          "odds": 2000,
           "line": 2500,
           "participant": "Louisiana",
           "type": "OT_TWO",
           "betOfferId": 2699984229,
-          "changedDate": "2026-10-04T21:34:01Z",
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699987071,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4362284027,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 3100,
+          "line": -8000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2699987071,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362284028,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1380,
+          "line": 8000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2699987071,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699987072,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4362284029,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1920,
+          "line": -3000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2699987072,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362284030,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1910,
+          "line": 3000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2699987072,
+          "changedDate": "2026-10-08T13:18:48Z",
           "participantId": 1000058124,
           "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "oddsAmerican": "-110",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -155,15 +332,15 @@
           "id": 4362284031,
           "label": "Louisiana Tech",
           "englishLabel": "Louisiana Tech Bulldogs",
-          "odds": 1830,
+          "odds": 1770,
           "line": -2000,
           "participant": "Louisiana Tech",
           "type": "OT_ONE",
           "betOfferId": 2699987073,
-          "changedDate": "2026-10-04T21:34:01Z",
+          "changedDate": "2026-10-07T22:14:12Z",
           "participantId": 1000088417,
-          "oddsFractional": "41/50",
-          "oddsAmerican": "-121",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -172,15 +349,239 @@
           "id": 4362284032,
           "label": "Louisiana",
           "englishLabel": "Louisiana Ragin' Cajuns",
-          "odds": 2000,
+          "odds": 2070,
           "line": 2000,
           "participant": "Louisiana",
           "type": "OT_TWO",
           "betOfferId": 2699987073,
-          "changedDate": "2026-10-04T21:34:01Z",
+          "changedDate": "2026-10-07T22:14:12Z",
           "participantId": 1000058124,
-          "oddsFractional": "Evens",
-          "oddsAmerican": "100",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699987074,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4362284033,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1660,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699987074,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362284034,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2250,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2699987074,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699987075,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4362284035,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1580,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699987075,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362284036,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2400,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2699987075,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699987076,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4362284037,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1520,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699987076,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362284038,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2600,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2699987076,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700015712,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4362281047,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 3200,
+          "line": -8500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700015712,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362281048,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1360,
+          "line": 8500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700015712,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -214,13 +615,13 @@
           "id": 4362281051,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1920,
+          "odds": 1720,
           "line": 48500,
           "type": "OT_UNDER",
           "betOfferId": 2700015714,
-          "changedDate": "2026-10-04T21:34:01Z",
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -229,13 +630,2116 @@
           "id": 4362281052,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1910,
+          "odds": 2140,
           "line": 48500,
           "type": "OT_OVER",
           "betOfferId": 2700015714,
-          "changedDate": "2026-10-04T21:34:01Z",
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750564,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Louisiana to Score in every Quarter - Regular Time",
+        "englishLabel": "Louisiana Ragin' Cajuns to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723346,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2950,
+          "type": "OT_YES",
+          "betOfferId": 2700750564,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723351,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1330,
+          "type": "OT_NO",
+          "betOfferId": 2700750564,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750565,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Louisiana Tech to Score in every Quarter - Regular Time",
+        "englishLabel": "Louisiana Tech Bulldogs to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723356,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2450,
+          "type": "OT_YES",
+          "betOfferId": 2700750565,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723361,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1460,
+          "type": "OT_NO",
+          "betOfferId": 2700750565,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750568,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Louisiana to score first and win",
+        "englishLabel": "Louisiana Ragin' Cajuns to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723368,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3250,
+          "type": "OT_YES",
+          "betOfferId": 2700750568,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723371,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1270,
+          "type": "OT_NO",
+          "betOfferId": 2700750568,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750569,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723372,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1790,
+          "line": -500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750569,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "participantId": 1000088417,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723373,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1970,
+          "line": 500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750569,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "participantId": 1000058124,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750571,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723379,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1880,
+          "line": -1500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750571,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723380,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1860,
+          "line": 1500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750571,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "participantId": 1000058124,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750572,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723381,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1720,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750572,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723382,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 12500,
+          "type": "OT_CROSS",
+          "betOfferId": 2700750572,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "23/2",
+          "oddsAmerican": "1150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364723383,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2330,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750572,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750577,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Louisiana Tech - 1st Half",
+        "englishLabel": "Total Points by Louisiana Tech Bulldogs - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723392,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1750,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2700750577,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723393,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1930,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700750577,
+          "changedDate": "2026-10-08T13:18:48Z",
           "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750579,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723396,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2020,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700750579,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364723397,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1810,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700750579,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750580,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723398,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1660,
+          "line": -500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750580,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723399,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 2250,
+          "line": 500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750580,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750581,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723400,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 2250,
+          "line": -5500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750581,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723401,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1660,
+          "line": 5500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750581,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750582,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723402,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1610,
+          "line": 1500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750582,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723403,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 2350,
+          "line": -1500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750582,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750583,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723404,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 3350,
+          "line": -9500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750583,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723405,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1340,
+          "line": 9500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750583,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750584,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723406,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1470,
+          "line": 3000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750584,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723407,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 2750,
+          "line": -3000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750584,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750585,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723408,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1680,
+          "line": -1000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750585,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723409,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 2200,
+          "line": 1000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750585,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750586,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723410,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 2080,
+          "line": -4000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750586,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723411,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1770,
+          "line": 4000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750586,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750587,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723412,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 3700,
+          "line": -10000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750587,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723413,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1290,
+          "line": 10000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750587,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750588,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723414,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 2750,
+          "line": -7000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750588,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723415,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1470,
+          "line": 7000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750588,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750589,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723416,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1400,
+          "line": 4000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750589,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723417,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 3000,
+          "line": -4000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750589,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750590,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723418,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1360,
+          "line": 5000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750590,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723419,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 3200,
+          "line": -5000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750590,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750619,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723490,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1520,
+          "line": 1500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750619,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "participantId": 1000088417,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723491,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 2450,
+          "line": -1500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750619,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750661,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723647,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 3800,
+          "line": -10500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750661,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723648,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1280,
+          "line": 10500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750661,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750662,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723649,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1240,
+          "line": 7000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750662,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723650,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 4200,
+          "line": -7000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750662,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "16/5",
+          "oddsAmerican": "320",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700750663,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364723651,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 4000,
+          "line": -11000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700750663,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364723652,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1250,
+          "line": 11000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700750663,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761822,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708720,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4100,
+          "type": "OT_YES",
+          "betOfferId": 2700761822,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708725,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1180,
+          "type": "OT_NO",
+          "betOfferId": 2700761822,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-560",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761825,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708730,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 2100,
+          "line": -500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700761825,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708731,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1680,
+          "line": 500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700761825,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761828,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Louisiana Tech",
+        "englishLabel": "Total Points by Louisiana Tech Bulldogs - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708738,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2700761828,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708739,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700761828,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761831,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Louisiana to win both halves",
+        "englishLabel": "Louisiana Ragin' Cajuns to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708746,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4900,
+          "type": "OT_YES",
+          "betOfferId": 2700761831,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "390",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708749,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1120,
+          "type": "OT_NO",
+          "betOfferId": 2700761831,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "1/9",
+          "oddsAmerican": "-835",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761832,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Louisiana",
+        "englishLabel": "Total Points by Louisiana Ragin' Cajuns - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708750,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1840,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2700761832,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708751,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1830,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700761832,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761833,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Louisiana Tech to Score in Both Halves",
+        "englishLabel": "Louisiana Tech Bulldogs to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708754,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1060,
+          "type": "OT_YES",
+          "betOfferId": 2700761833,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "1/18",
+          "oddsAmerican": "-1667",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708757,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 7000,
+          "type": "OT_NO",
+          "betOfferId": 2700761833,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "6/1",
+          "oddsAmerican": "600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761834,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Louisiana - 1st Half",
+        "englishLabel": "Total Points by Louisiana Ragin' Cajuns - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708758,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700761834,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708759,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1670,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700761834,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761838,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Louisiana to Score in Both Halves",
+        "englishLabel": "Louisiana Ragin' Cajuns to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708769,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1100,
+          "type": "OT_YES",
+          "betOfferId": 2700761838,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708772,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 5500,
+          "type": "OT_NO",
+          "betOfferId": 2700761838,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "9/2",
+          "oddsAmerican": "450",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761839,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708773,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1570,
+          "line": 500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700761839,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "participantId": 1000088417,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708774,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 2300,
+          "line": -500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700761839,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761840,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708775,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700761840,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364708776,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1640,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700761840,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761841,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708777,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1380,
+          "line": 4500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700761841,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708778,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 3100,
+          "line": -4500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700761841,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761842,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708779,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1660,
+          "line": 500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700761842,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708780,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 2250,
+          "line": -500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700761842,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761843,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708781,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2480,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700761843,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364708782,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1550,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700761843,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761844,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708783,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1940,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700761844,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364708784,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1890,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700761844,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -244,6 +2748,1949 @@
       "tags": [
         "OFFERED_PREMATCH",
         "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761845,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708785,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1730,
+          "line": -1500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700761845,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708786,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 2140,
+          "line": 1500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700761845,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761846,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708787,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 2480,
+          "line": -6500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700761846,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708788,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1560,
+          "line": 6500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700761846,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761847,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708789,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 2380,
+          "line": -6000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700761847,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708790,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1600,
+          "line": 6000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700761847,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761848,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708791,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 2200,
+          "line": -5000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700761848,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708792,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1680,
+          "line": 5000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700761848,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761849,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364708793,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 3300,
+          "line": -9000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700761849,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364708794,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1340,
+          "line": 9000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700761849,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700761917,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364709025,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 2160,
+          "line": -3500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700761917,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364709026,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1650,
+          "line": 3500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700761917,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764662,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700450,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1800,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764662,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "participantId": 1000088417,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700451,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 10000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700764662,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364700452,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2320,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764662,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764664,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700465,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1790,
+          "type": "OT_ODD",
+          "betOfferId": 2700764664,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700466,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1890,
+          "type": "OT_EVEN",
+          "betOfferId": 2700764664,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764667,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700471,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1670,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764667,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "participantId": 1000088417,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700472,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2160,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764667,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764668,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Louisiana Tech to score first and win",
+        "englishLabel": "Louisiana Tech Bulldogs to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700475,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2400,
+          "type": "OT_YES",
+          "betOfferId": 2700764668,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700478,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1480,
+          "type": "OT_NO",
+          "betOfferId": 2700764668,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764670,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700482,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 10500,
+          "type": "OT_YES",
+          "betOfferId": 2700764670,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "19/2",
+          "oddsAmerican": "950",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700484,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1030,
+          "type": "OT_NO",
+          "betOfferId": 2700764670,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764672,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Louisiana Tech to win both halves",
+        "englishLabel": "Louisiana Tech Bulldogs to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700489,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3500,
+          "type": "OT_YES",
+          "betOfferId": 2700764672,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700492,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1240,
+          "type": "OT_NO",
+          "betOfferId": 2700764672,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764673,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700493,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1890,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700764673,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700494,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700764673,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764674,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700495,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1910,
+          "line": -2500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764674,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "participantId": 1000088417,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700496,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1830,
+          "line": 2500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764674,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764675,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700497,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1770,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700764675,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700498,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1980,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700764675,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764679,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700505,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1700,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764679,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700506,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2100,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764679,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764680,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700507,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2100,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764680,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700508,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4250,
+          "type": "OT_CROSS",
+          "betOfferId": 2700764680,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "13/4",
+          "oddsAmerican": "325",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364700509,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2600,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764680,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764681,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700510,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1680,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764681,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "participantId": 1000088417,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700511,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2020,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764681,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "participantId": 1000058124,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700764682,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700514,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 2250,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700764682,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700517,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 29000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700764682,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "28/1",
+          "oddsAmerican": "2800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364700520,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 9000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700764682,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "8/1",
+          "oddsAmerican": "800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364700523,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 19000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700764682,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "18/1",
+          "oddsAmerican": "1800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364700526,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 76000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700764682,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "75/1",
+          "oddsAmerican": "7500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364700529,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 21000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700764682,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "20/1",
+          "oddsAmerican": "2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364700532,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 8000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700764682,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364700535,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 29000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700764682,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "28/1",
+          "oddsAmerican": "2800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364700538,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 3250,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700764682,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764685,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700543,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2140,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700764685,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364700544,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1730,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2700764685,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764686,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700545,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700764686,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364700546,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2040,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2700764686,
+          "changedDate": "2026-10-07T22:14:11Z",
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764687,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700547,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1540,
+          "line": 2500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764687,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700548,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 2550,
+          "line": -2500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764687,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764689,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700551,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 2900,
+          "line": -7500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764689,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700552,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1430,
+          "line": 7500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764689,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764690,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700553,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1350,
+          "line": 5500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764690,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700554,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 3250,
+          "line": -5500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764690,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764691,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700555,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 2140,
+          "line": -4500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764691,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700556,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 1730,
+          "line": 4500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764691,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764692,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700557,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1440,
+          "line": 3500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764692,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700558,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 2850,
+          "line": -3500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764692,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764693,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700559,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1300,
+          "line": 6000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764693,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700560,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 3550,
+          "line": -6000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764693,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764694,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700561,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1570,
+          "line": 2000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764694,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700562,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 2450,
+          "line": -2000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764694,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764695,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700563,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1630,
+          "line": 1000,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764695,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000088417,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700564,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 2300,
+          "line": -1000,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764695,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "participantId": 1000058124,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700764761,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4364700732,
+          "label": "Louisiana Tech",
+          "englishLabel": "Louisiana Tech Bulldogs",
+          "odds": 1290,
+          "line": 6500,
+          "participant": "Louisiana Tech",
+          "type": "OT_ONE",
+          "betOfferId": 2700764761,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000088417,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364700733,
+          "label": "Louisiana",
+          "englishLabel": "Louisiana Ragin' Cajuns",
+          "odds": 3650,
+          "line": -6500,
+          "participant": "Louisiana",
+          "type": "OT_TWO",
+          "betOfferId": 2700764761,
+          "changedDate": "2026-10-07T22:14:12Z",
+          "participantId": 1000058124,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701220100,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4366122239,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2850,
+          "line": 40500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701220100,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4366122240,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1440,
+          "line": 40500,
+          "type": "OT_OVER",
+          "betOfferId": 2701220100,
+          "changedDate": "2026-10-07T22:14:14Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701225884,
+      "closed": "2026-10-10T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202603,
+      "outcomes": [
+        {
+          "id": 4366168784,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2630,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701225884,
+          "changedDate": "2026-10-08T13:18:48Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4366168785,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2701225884,
+          "changedDate": "2026-10-07T22:14:14Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -274,7 +4721,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 80,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -286,16 +4733,6 @@
       "state": "NOT_STARTED",
       "participants": [
         {
-          "participantId": 1000088417,
-          "name": "Louisiana Tech",
-          "englishName": "Louisiana Tech Bulldogs",
-          "termKey": "louisiana_tech_bulldogs",
-          "scratched": false,
-          "nonRunner": false,
-          "home": true,
-          "participantType": "TEAM"
-        },
-        {
           "participantId": 1000058124,
           "name": "Louisiana",
           "englishName": "Louisiana Ragin' Cajuns",
@@ -303,6 +4740,16 @@
           "scratched": false,
           "nonRunner": false,
           "home": false,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000088417,
+          "name": "Louisiana Tech",
+          "englishName": "Louisiana Tech Bulldogs",
+          "termKey": "louisiana_tech_bulldogs",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
           "participantType": "TEAM"
         }
       ],

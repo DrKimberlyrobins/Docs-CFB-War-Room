@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:05:40.557Z",
+  "generatedAt": "2026-10-08T22:55:40.173Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,7 +10,7 @@
     "start": "2026-10-10T18:00:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 80,
     "events": 1,
     "prePacks": 0
   },
@@ -37,14 +37,14 @@
           "id": 4362248653,
           "label": "UMass",
           "englishLabel": "Massachusetts Minutemen",
-          "odds": 2150,
+          "odds": 2070,
           "participant": "UMass",
           "type": "OT_ONE",
           "betOfferId": 2699992877,
-          "changedDate": "2026-10-04T21:17:33Z",
+          "changedDate": "2026-10-08T21:57:08Z",
           "participantId": 1001091023,
-          "oddsFractional": "23/20",
-          "oddsAmerican": "115",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +53,14 @@
           "id": 4362248654,
           "label": "Miami (OH)",
           "englishLabel": "Miami Ohio Redhawks",
-          "odds": 1720,
+          "odds": 1760,
           "participant": "Miami (OH)",
           "type": "OT_TWO",
           "betOfferId": 2699992877,
-          "changedDate": "2026-10-04T21:17:33Z",
+          "changedDate": "2026-10-08T21:57:08Z",
           "participantId": 1000084214,
-          "oddsFractional": "7/10",
-          "oddsAmerican": "-139",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -95,15 +95,15 @@
           "id": 4362248655,
           "label": "UMass",
           "englishLabel": "Massachusetts Minutemen",
-          "odds": 1810,
+          "odds": 1790,
           "line": 3000,
           "participant": "UMass",
           "type": "OT_ONE",
           "betOfferId": 2699992878,
-          "changedDate": "2026-10-04T21:17:33Z",
+          "changedDate": "2026-10-08T21:57:08Z",
           "participantId": 1001091023,
-          "oddsFractional": "4/5",
-          "oddsAmerican": "-124",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -112,18 +112,132 @@
           "id": 4362248656,
           "label": "Miami (OH)",
           "englishLabel": "Miami Ohio Redhawks",
-          "odds": 2020,
+          "odds": 2060,
           "line": -3000,
           "participant": "Miami (OH)",
           "type": "OT_TWO",
           "betOfferId": 2699992878,
-          "changedDate": "2026-10-04T21:17:33Z",
+          "changedDate": "2026-10-08T21:57:08Z",
           "participantId": 1000084214,
-          "oddsFractional": "Evens",
-          "oddsAmerican": "102",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699992879,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4362248657,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1600,
+          "line": 5000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2699992879,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362248658,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 2380,
+          "line": -5000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2699992879,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2699998556,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4362266571,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2120,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2699998556,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4362266573,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1740,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2699998556,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
         }
       ],
       "tags": [
@@ -154,13 +268,13 @@
           "id": 4362266570,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1890,
+          "odds": 1790,
           "line": 47500,
           "type": "OT_UNDER",
           "betOfferId": 2699998557,
-          "changedDate": "2026-10-04T21:17:33Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -169,13 +283,13 @@
           "id": 4362266572,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1940,
+          "odds": 2050,
           "line": 47500,
           "type": "OT_OVER",
           "betOfferId": 2699998557,
-          "changedDate": "2026-10-04T21:17:33Z",
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -183,7 +297,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -210,15 +323,15 @@
           "id": 4362242541,
           "label": "UMass",
           "englishLabel": "Massachusetts Minutemen",
-          "odds": 1920,
+          "odds": 1880,
           "line": 2500,
           "participant": "UMass",
           "type": "OT_ONE",
           "betOfferId": 2700024650,
-          "changedDate": "2026-10-04T21:17:33Z",
+          "changedDate": "2026-10-08T21:57:08Z",
           "participantId": 1001091023,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-109",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -227,15 +340,127 @@
           "id": 4362242542,
           "label": "Miami (OH)",
           "englishLabel": "Miami Ohio Redhawks",
-          "odds": 1910,
+          "odds": 1950,
           "line": -2500,
           "participant": "Miami (OH)",
           "type": "OT_TWO",
           "betOfferId": 2700024650,
-          "changedDate": "2026-10-04T21:17:33Z",
+          "changedDate": "2026-10-08T21:57:08Z",
           "participantId": 1000084214,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700024651,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4362242543,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1640,
+          "line": 4500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700024651,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4362242544,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 2280,
+          "line": -4500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700024651,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575587,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by UMass - 1st Half",
+        "englishLabel": "Total Points by Massachusetts Minutemen - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198256,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2700575587,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198257,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700575587,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -244,6 +469,4228 @@
       "tags": [
         "OFFERED_PREMATCH",
         "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575588,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Miami (OH) to score first and win",
+        "englishLabel": "Miami Ohio Redhawks to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198260,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2600,
+          "type": "OT_YES",
+          "betOfferId": 2700575588,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198263,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1420,
+          "type": "OT_NO",
+          "betOfferId": 2700575588,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575589,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "UMass to win both halves",
+        "englishLabel": "Massachusetts Minutemen to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198266,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4600,
+          "type": "OT_YES",
+          "betOfferId": 2700575589,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "18/5",
+          "oddsAmerican": "360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198269,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1140,
+          "type": "OT_NO",
+          "betOfferId": 2700575589,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "2/15",
+          "oddsAmerican": "-715",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575590,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198270,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1940,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575590,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198271,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1830,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575590,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575591,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198272,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2120,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575591,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198273,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 10000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700575591,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364198274,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1940,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575591,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575592,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "UMass to score first and win",
+        "englishLabel": "Massachusetts Minutemen to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198277,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3000,
+          "type": "OT_YES",
+          "betOfferId": 2700575592,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198280,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1320,
+          "type": "OT_NO",
+          "betOfferId": 2700575592,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575593,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Miami (OH) to Score in every Quarter - Regular Time",
+        "englishLabel": "Miami Ohio Redhawks to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198285,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2550,
+          "type": "OT_YES",
+          "betOfferId": 2700575593,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198290,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1440,
+          "type": "OT_NO",
+          "betOfferId": 2700575593,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575594,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198291,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1750,
+          "line": 1500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575594,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198292,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 2020,
+          "line": -1500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575594,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575595,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198294,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 10000,
+          "type": "OT_YES",
+          "betOfferId": 2700575595,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "9/1",
+          "oddsAmerican": "900",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198296,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1030,
+          "type": "OT_NO",
+          "betOfferId": 2700575595,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "1/40",
+          "oddsAmerican": "-3335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575596,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198297,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1710,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700575596,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364198298,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2170,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2700575596,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575597,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198299,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1650,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700575597,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364198300,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2280,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2700575597,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575598,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Miami (OH)",
+        "englishLabel": "Total Points by Miami Ohio Redhawks - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198301,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1760,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700575598,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198302,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700575598,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575599,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198303,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1570,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700575599,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364198304,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2430,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2700575599,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575600,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198305,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700575600,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364198306,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2630,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2700575600,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575604,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198313,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2020,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700575604,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364198314,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1810,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2700575604,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575605,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198315,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1880,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575605,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198316,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1800,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575605,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2700575609,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198323,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1970,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575609,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198324,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1800,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575609,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575612,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198329,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2080,
+          "line": 500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575612,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198330,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1770,
+          "line": -500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575612,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575613,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198331,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1370,
+          "line": 7500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575613,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198332,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 3150,
+          "line": -7500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575613,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575614,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198333,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2800,
+          "line": -4500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575614,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198334,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1450,
+          "line": 4500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575614,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575615,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198335,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1400,
+          "line": 7000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575615,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198336,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 3000,
+          "line": -7000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575615,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575616,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198337,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2500,
+          "line": -3000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575616,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198338,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1550,
+          "line": 3000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575616,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575617,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198339,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1930,
+          "line": 2000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575617,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198340,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1900,
+          "line": -2000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575617,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575618,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198341,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1670,
+          "line": 4000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575618,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198342,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 2230,
+          "line": -4000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575618,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575619,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198343,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1530,
+          "line": 6000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575619,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198344,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 2550,
+          "line": -6000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575619,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700575693,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364198557,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2230,
+          "line": -1500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700575693,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364198558,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1610,
+          "line": 1500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700575693,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584286,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Miami (OH) to win both halves",
+        "englishLabel": "Miami Ohio Redhawks to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160747,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3700,
+          "type": "OT_YES",
+          "betOfferId": 2700584286,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160750,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1220,
+          "type": "OT_NO",
+          "betOfferId": 2700584286,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "11/50",
+          "oddsAmerican": "-455",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584287,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160751,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700584287,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160752,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1890,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700584287,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584292,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "UMass to Score in every Quarter - Regular Time",
+        "englishLabel": "Massachusetts Minutemen to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160774,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2800,
+          "type": "OT_YES",
+          "betOfferId": 2700584292,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160779,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1360,
+          "type": "OT_NO",
+          "betOfferId": 2700584292,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584294,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Miami (OH) - 1st Half",
+        "englishLabel": "Total Points by Miami Ohio Redhawks - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160782,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1820,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2700584294,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160783,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700584294,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584295,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160784,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1930,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700584295,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364160785,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2700584295,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584296,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160786,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2380,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584296,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160787,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4350,
+          "type": "OT_CROSS",
+          "betOfferId": 2700584296,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "10/3",
+          "oddsAmerican": "335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364160788,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2250,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584296,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584297,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160789,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2630,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700584297,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364160790,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2700584297,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584298,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160791,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1550,
+          "line": 3500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584298,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160792,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 2380,
+          "line": -3500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584298,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584299,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160793,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1820,
+          "line": 500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584299,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160794,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1920,
+          "line": -500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584299,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584301,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160797,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2850,
+          "line": 40500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700584301,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364160798,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1440,
+          "line": 40500,
+          "type": "OT_OVER",
+          "betOfferId": 2700584301,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584302,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160799,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2480,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700584302,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364160800,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1560,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2700584302,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584303,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160801,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1760,
+          "type": "OT_ODD",
+          "betOfferId": 2700584303,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160802,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1920,
+          "type": "OT_EVEN",
+          "betOfferId": 2700584303,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584304,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by UMass",
+        "englishLabel": "Total Points by Massachusetts Minutemen - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160803,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1950,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2700584304,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160804,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1730,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700584304,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584305,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160809,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4200,
+          "type": "OT_YES",
+          "betOfferId": 2700584305,
+          "changedDate": "2026-10-06T11:35:24Z",
+          "oddsFractional": "16/5",
+          "oddsAmerican": "320",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160814,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1180,
+          "type": "OT_NO",
+          "betOfferId": 2700584305,
+          "changedDate": "2026-10-06T11:35:24Z",
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-560",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584308,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160822,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1290,
+          "line": 9500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584308,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160823,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 3650,
+          "line": -9500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584308,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584309,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160824,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2330,
+          "line": -2500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584309,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160825,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1620,
+          "line": 2500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584309,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584310,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160826,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1240,
+          "line": 10500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584310,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160827,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 4100,
+          "line": -10500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584310,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584311,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160828,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2180,
+          "line": -1500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584311,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160829,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1700,
+          "line": 1500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584311,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584312,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160830,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1720,
+          "line": 3500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584312,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160831,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 2160,
+          "line": -3500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584312,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584313,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160832,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1580,
+          "line": 5500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584313,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160833,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 2430,
+          "line": -5500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584313,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584314,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160834,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1220,
+          "line": 11000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584314,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "11/50",
+          "oddsAmerican": "-455",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160835,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 4400,
+          "line": -11000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584314,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "17/5",
+          "oddsAmerican": "340",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584315,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160836,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2250,
+          "line": -2000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584315,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160837,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1650,
+          "line": 2000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584315,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584316,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160838,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2140,
+          "line": -1000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584316,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160839,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1730,
+          "line": 1000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584316,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584317,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160840,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1300,
+          "line": 9000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584317,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160841,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 3600,
+          "line": -9000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584317,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584318,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160842,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2750,
+          "line": -4000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584318,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160843,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1470,
+          "line": 4000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584318,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584319,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364160844,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1250,
+          "line": 10000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584319,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364160845,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 4000,
+          "line": -10000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584319,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584435,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364161144,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 3000,
+          "line": -5500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584435,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364161145,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1400,
+          "line": 5500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584435,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700584437,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364161148,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 3200,
+          "line": -6000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700584437,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364161149,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1360,
+          "line": 6000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700584437,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601410,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "UMass to Score in Both Halves",
+        "englishLabel": "Massachusetts Minutemen to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163884,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1090,
+          "type": "OT_YES",
+          "betOfferId": 2700601410,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "1/12",
+          "oddsAmerican": "-1115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163887,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 5750,
+          "type": "OT_NO",
+          "betOfferId": 2700601410,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601414,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163895,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1600,
+          "line": 500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700601414,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163894,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 2230,
+          "line": -500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700601414,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601416,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163898,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2300,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700601416,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364163899,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1640,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2700601416,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601418,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163902,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2180,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700601418,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163903,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 12000,
+          "type": "OT_CROSS",
+          "betOfferId": 2700601418,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364163904,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1830,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700601418,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601420,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163910,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1710,
+          "line": 2500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700601420,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163911,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 2060,
+          "line": -2500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700601420,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601425,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163920,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1320,
+          "line": 8500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700601425,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163921,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 3500,
+          "line": -8500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700601425,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601426,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163922,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2080,
+          "line": -500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700601426,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163923,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1770,
+          "line": 500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700601426,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601427,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163924,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1500,
+          "line": 6500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700601427,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163925,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 2650,
+          "line": -6500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700601427,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601428,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163926,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1980,
+          "line": 1500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700601428,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163927,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1840,
+          "line": -1500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700601428,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601429,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163928,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2600,
+          "line": -3500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700601429,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163929,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1500,
+          "line": 3500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700601429,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601430,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163930,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2900,
+          "line": -5000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700601430,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163931,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1420,
+          "line": 5000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700601430,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601431,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163932,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2040,
+          "line": 1000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700601431,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163933,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1800,
+          "line": -1000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700601431,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601432,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163934,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 1330,
+          "line": 8000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700601432,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163935,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 3400,
+          "line": -8000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700601432,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601433,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163938,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 2880,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2700601433,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163941,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 26000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2700601433,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "25/1",
+          "oddsAmerican": "2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4364163944,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 8000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2700601433,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4364163947,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 23000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2700601433,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "22/1",
+          "oddsAmerican": "2200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4364163950,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 81000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2700601433,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "80/1",
+          "oddsAmerican": "8000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4364163953,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 19000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2700601433,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "18/1",
+          "oddsAmerican": "1800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4364163956,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 9500,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2700601433,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4364163959,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 26000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2700601433,
+          "changedDate": "2026-10-08T13:15:19Z",
+          "oddsFractional": "25/1",
+          "oddsAmerican": "2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4364163962,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 2430,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2700601433,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601435,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Miami (OH) to Score in Both Halves",
+        "englishLabel": "Miami Ohio Redhawks to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364163967,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1060,
+          "type": "OT_YES",
+          "betOfferId": 2700601435,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "1/18",
+          "oddsAmerican": "-1667",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364163970,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 6500,
+          "type": "OT_NO",
+          "betOfferId": 2700601435,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "oddsFractional": "11/2",
+          "oddsAmerican": "550",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601453,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364164007,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 2100,
+          "line": -500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2700601453,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364164008,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1680,
+          "line": 500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2700601453,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2700601454,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4364164009,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2700601454,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4364164010,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2070,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2700601454,
+          "changedDate": "2026-10-07T20:08:15Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701175832,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4366031554,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 3300,
+          "line": -6500,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2701175832,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366031555,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1350,
+          "line": 6500,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2701175832,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701195422,
+      "closed": "2026-10-10T18:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553002,
+      "outcomes": [
+        {
+          "id": 4366083533,
+          "label": "UMass",
+          "englishLabel": "Massachusetts Minutemen",
+          "odds": 3800,
+          "line": -7000,
+          "participant": "UMass",
+          "type": "OT_ONE",
+          "betOfferId": 2701195422,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1001091023,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4366083534,
+          "label": "Miami (OH)",
+          "englishLabel": "Miami Ohio Redhawks",
+          "odds": 1280,
+          "line": 7000,
+          "participant": "Miami (OH)",
+          "type": "OT_TWO",
+          "betOfferId": 2701195422,
+          "changedDate": "2026-10-08T21:57:08Z",
+          "participantId": 1000084214,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -274,7 +4721,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 80,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",

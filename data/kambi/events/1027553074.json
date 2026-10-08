@@ -1,0 +1,661 @@
+{
+  "generatedAt": "2026-10-08T22:55:49.461Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1027553074",
+    "name": "(17) Mississippi State @ (10) LSU",
+    "away": "Mississippi State",
+    "home": "LSU",
+    "start": "2026-10-17T16:00:00Z"
+  },
+  "counts": {
+    "betOffers": 4,
+    "events": 1,
+    "prePacks": 2
+  },
+  "betOffers": [
+    {
+      "id": 2701536786,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553074,
+      "outcomes": [
+        {
+          "id": 4367257756,
+          "label": "(10) LSU",
+          "englishLabel": "(10) LSU Tigers",
+          "odds": 1200,
+          "participant": "(10) LSU",
+          "type": "OT_ONE",
+          "betOfferId": 2701536786,
+          "changedDate": "2026-10-08T18:57:42Z",
+          "participantId": 1000084586,
+          "oddsFractional": "1/5",
+          "oddsAmerican": "-500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367257757,
+          "label": "(17) Mississippi State",
+          "englishLabel": "(17) Mississippi State Bulldogs",
+          "odds": 4700,
+          "participant": "(17) Mississippi State",
+          "type": "OT_TWO",
+          "betOfferId": 2701536786,
+          "changedDate": "2026-10-08T18:57:42Z",
+          "participantId": 1000045692,
+          "oddsFractional": "18/5",
+          "oddsAmerican": "370",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701536787,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553074,
+      "outcomes": [
+        {
+          "id": 4367257758,
+          "label": "(10) LSU",
+          "englishLabel": "(10) LSU Tigers",
+          "odds": 1920,
+          "line": -12000,
+          "participant": "(10) LSU",
+          "type": "OT_ONE",
+          "betOfferId": 2701536787,
+          "changedDate": "2026-10-08T18:57:42Z",
+          "participantId": 1000084586,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367257759,
+          "label": "(17) Mississippi State",
+          "englishLabel": "(17) Mississippi State Bulldogs",
+          "odds": 1900,
+          "line": 12000,
+          "participant": "(17) Mississippi State",
+          "type": "OT_TWO",
+          "betOfferId": 2701536787,
+          "changedDate": "2026-10-08T18:57:42Z",
+          "participantId": 1000045692,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701536788,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553074,
+      "outcomes": [
+        {
+          "id": 4367257760,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 59500,
+          "type": "OT_OVER",
+          "betOfferId": 2701536788,
+          "changedDate": "2026-10-08T18:57:42Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367257761,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 59500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701536788,
+          "changedDate": "2026-10-08T18:57:42Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701556612,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553074,
+      "outcomes": [
+        {
+          "id": 4367249072,
+          "label": "(10) LSU",
+          "englishLabel": "(10) LSU Tigers",
+          "odds": 1880,
+          "line": -11500,
+          "participant": "(10) LSU",
+          "type": "OT_ONE",
+          "betOfferId": 2701556612,
+          "changedDate": "2026-10-08T18:57:42Z",
+          "participantId": 1000084586,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367249073,
+          "label": "(17) Mississippi State",
+          "englishLabel": "(17) Mississippi State Bulldogs",
+          "odds": 1940,
+          "line": 11500,
+          "participant": "(17) Mississippi State",
+          "type": "OT_TWO",
+          "betOfferId": 2701556612,
+          "changedDate": "2026-10-08T18:57:42Z",
+          "participantId": 1000045692,
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1027553074,
+      "name": "(17) Mississippi State @ (10) LSU",
+      "nameDelimiter": "@",
+      "englishName": "(10) LSU Tigers - (17) Mississippi State Bulldogs",
+      "homeName": "(10) LSU",
+      "awayName": "(17) Mississippi State",
+      "start": "2026-10-17T16:00:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 4,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1000045692,
+          "name": "(17) Mississippi State",
+          "englishName": "(17) Mississippi State Bulldogs",
+          "termKey": "_16__mississippi_state_bulldogs",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000084586,
+          "name": "(10) LSU",
+          "englishName": "(10) LSU Tigers",
+          "termKey": "_10__lsu_tigers",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-17T16:00:00Z"
+    }
+  ],
+  "prePacks": [
+    {
+      "id": 7215980,
+      "label": "Spread and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8143966,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3300,
+                "american": "230",
+                "fractional": "23/10"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257758,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536787
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257760,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536788
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8143967,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3300,
+                "american": "230",
+                "fractional": "23/10"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257759,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536787
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257760,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536788
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8143968,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3400,
+                "american": "240",
+                "fractional": "12/5"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257758,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536787
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257761,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536788
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8143969,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3250,
+                "american": "225",
+                "fractional": "9/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257759,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536787
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257761,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536788
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    },
+    {
+      "id": 7215979,
+      "label": "Game Winner and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8143964,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 2100,
+                "american": "110",
+                "fractional": "11/10"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257756,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536786
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257761,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536788
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8143965,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 8000,
+                "american": "700",
+                "fractional": "7/1"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257757,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536786
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257761,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536788
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8143962,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 2080,
+                "american": "108",
+                "fractional": "27/25"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257756,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536786
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257760,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536788
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8143963,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 8000,
+                "american": "700",
+                "fractional": "7/1"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257757,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536786
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367257760,
+                          "eventId": 1027553074,
+                          "betOfferId": 2701536788
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    }
+  ]
+}
