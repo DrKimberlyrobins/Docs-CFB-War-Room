@@ -1890,10 +1890,10 @@ initializeDatabase();
 
 
  </script>
-
-
 <!-- DOC'S CFB HALFTIME CALCULATOR: START -->
+
 <div id="docs-halftime-calculator">
+
   <style>
     #docs-halftime-calculator {
       background: #101827;
@@ -2011,8 +2011,11 @@ initializeDatabase();
   </p>
 
   <div class="hc-inputs">
+
     <div>
-      <label for="hc-favorite">Favorite Team</label>
+      <label for="hc-favorite">
+        Favorite Team
+      </label>
       <input
         id="hc-favorite"
         type="text"
@@ -2021,7 +2024,9 @@ initializeDatabase();
     </div>
 
     <div>
-      <label for="hc-underdog">Underdog Team</label>
+      <label for="hc-underdog">
+        Underdog Team
+      </label>
       <input
         id="hc-underdog"
         type="text"
@@ -2030,7 +2035,9 @@ initializeDatabase();
     </div>
 
     <div>
-      <label for="hc-total">Full-Game Total</label>
+      <label for="hc-total">
+        Full-Game Total
+      </label>
       <input
         id="hc-total"
         type="number"
@@ -2051,30 +2058,46 @@ initializeDatabase();
         value="-9"
       >
     </div>
+
   </div>
 
-  <button type="button" id="hc-calculate">
+  <button
+    type="button"
+    id="hc-calculate"
+  >
     CALCULATE BOTH METHODS
   </button>
 
   <div class="hc-table-wrap">
+
     <table>
+
       <thead>
         <tr>
+
           <th>Projection</th>
+
           <th>
             METHOD 1
-            <div>50% Total / 47% Spread</div>
+            <div>
+              50% Total / 47% Spread
+            </div>
           </th>
+
           <th>
             METHOD 2
-            <div>52% Total / 59% Spread</div>
+            <div>
+              52% Total / 59% Spread
+            </div>
           </th>
+
         </tr>
       </thead>
 
       <tbody id="hc-results"></tbody>
+
     </table>
+
   </div>
 
   <p class="hc-note">
@@ -2083,7 +2106,9 @@ initializeDatabase();
     Neither method is automatically preferred.
     These are not official sportsbook halftime lines.
   </p>
+
 </div>
+
 
 <script>
 (function () {
@@ -2093,7 +2118,10 @@ initializeDatabase();
     "docs-halftime-calculator"
   );
 
-  if (!root || root.dataset.initialized === "true") {
+  if (
+    !root ||
+    root.dataset.initialized === "true"
+  ) {
     return;
   }
 
@@ -2114,15 +2142,30 @@ initializeDatabase();
     }
   ];
 
-  function calculateMethod(total, margin, method) {
-    const halfTotal = total * method.totalRate;
-    const halfMargin = margin * method.spreadRate;
+  function calculateMethod(
+    total,
+    margin,
+    method
+  ) {
+
+    const halfTotal =
+      total * method.totalRate;
+
+    const halfMargin =
+      margin * method.spreadRate;
 
     return {
+
       total: halfTotal,
+
       spread: -halfMargin,
-      favoritePoints: (halfTotal + halfMargin) / 2,
-      underdogPoints: (halfTotal - halfMargin) / 2
+
+      favoritePoints:
+        (halfTotal + halfMargin) / 2,
+
+      underdogPoints:
+        (halfTotal - halfMargin) / 2
+
     };
   }
 
@@ -2131,23 +2174,36 @@ initializeDatabase();
   }
 
   function signed(value) {
-    return (value > 0 ? "+" : "") + format(value);
+    return (
+      (value > 0 ? "+" : "") +
+      format(value)
+    );
   }
 
   function calculate() {
+
     const favorite =
-      get("hc-favorite").value.trim() || "Favorite";
+      get("hc-favorite").value.trim() ||
+      "Favorite";
 
     const underdog =
-      get("hc-underdog").value.trim() || "Underdog";
+      get("hc-underdog").value.trim() ||
+      "Underdog";
 
-    const totalInput = get("hc-total").value.trim();
-    const spreadInput = get("hc-spread").value.trim();
+    const totalInput =
+      get("hc-total").value.trim();
 
-    const total = Number(totalInput);
-    const margin = Math.abs(Number(spreadInput));
+    const spreadInput =
+      get("hc-spread").value.trim();
 
-    const results = get("hc-results");
+    const total =
+      Number(totalInput);
+
+    const margin =
+      Math.abs(Number(spreadInput));
+
+    const results =
+      get("hc-results");
 
     results.textContent = "";
 
@@ -2159,10 +2215,15 @@ initializeDatabase();
       total < 0 ||
       margin > total
     ) {
-      const row = results.insertRow();
-      const cell = row.insertCell();
+
+      const row =
+        results.insertRow();
+
+      const cell =
+        row.insertCell();
 
       cell.colSpan = 3;
+
       cell.textContent =
         "Enter a valid total and spread. " +
         "The spread cannot exceed the total.";
@@ -2183,36 +2244,49 @@ initializeDatabase();
     );
 
     const rows = [
+
       [
         "First-Half Total",
         format(a.total),
         format(b.total)
       ],
+
       [
         favorite + " First-Half Spread",
         signed(a.spread),
         signed(b.spread)
       ],
+
       [
         favorite + " First-Half Points",
         format(a.favoritePoints),
         format(b.favoritePoints)
       ],
+
       [
         underdog + " First-Half Points",
         format(a.underdogPoints),
         format(b.underdogPoints)
       ]
+
     ];
 
     rows.forEach(values => {
-      const row = results.insertRow();
+
+      const row =
+        results.insertRow();
 
       values.forEach(value => {
-        const cell = row.insertCell();
+
+        const cell =
+          row.insertCell();
+
         cell.textContent = value;
+
       });
+
     });
+
   }
 
   get("hc-calculate").addEventListener(
@@ -2226,13 +2300,19 @@ initializeDatabase();
     "hc-total",
     "hc-spread"
   ].forEach(id => {
-    get(id).addEventListener("input", calculate);
+
+    get(id).addEventListener(
+      "input",
+      calculate
+    );
+
   });
 
   calculate();
+
 })();
 </script>
-<!-- DOC'S CFB HALFTIME CALCULATOR: END -->
 
+<!-- DOC'S CFB HALFTIME CALCULATOR: END -->
 </body>
 </html> 
