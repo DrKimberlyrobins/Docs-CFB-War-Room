@@ -1889,24 +1889,348 @@ initializeDatabase();
 
  </script>
 
-<p class="note">
-PPA = Predicted Points Added per play.
-Enter success rates as decimals.
-For example, 45% = 0.45.
-</p>
 
+<!-- DOC'S CFB HALFTIME CALCULATOR: START -->
+<div id="docs-halftime-calculator">
+  <style>
+    #docs-halftime-calculator {
+      background: #101827;
+      color: #f8fafc;
+      padding: 20px;
+      border: 1px solid #e5a33d;
+      border-radius: 14px;
+      font-family: Arial, sans-serif;
+      max-width: 950px;
+      margin: 20px auto;
+    }
+
+    #docs-halftime-calculator * {
+      box-sizing: border-box;
+    }
+
+    #docs-halftime-calculator h2 {
+      color: #f5b942;
+      margin: 0 0 12px;
+    }
+
+    #docs-halftime-calculator .hc-inputs {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin: 18px 0;
+    }
+
+    #docs-halftime-calculator label {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 6px;
+      color: #e2e8f0;
+    }
+
+    #docs-halftime-calculator input {
+      width: 100%;
+      padding: 11px;
+      border-radius: 7px;
+      border: 1px solid #475569;
+      background: #1e293b;
+      color: white;
+      font-size: 16px;
+    }
+
+    #docs-halftime-calculator button {
+      background: #f5b942;
+      color: #111827;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-weight: bold;
+      cursor: pointer;
+      width: 100%;
+      margin: 0 0 16px;
+    }
+
+    #docs-halftime-calculator button:hover {
+      background: #ffd477;
+    }
+
+    #docs-halftime-calculator .hc-table-wrap {
+      overflow-x: auto;
+    }
+
+    #docs-halftime-calculator table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    #docs-halftime-calculator th,
+    #docs-halftime-calculator td {
+      border: 1px solid #334155;
+      padding: 12px 8px;
+      text-align: center;
+    }
+
+    #docs-halftime-calculator th {
+      background: #243b55;
+      color: #f5b942;
+    }
+
+    #docs-halftime-calculator td:first-child {
+      text-align: left;
+      font-weight: bold;
+    }
+
+    #docs-halftime-calculator tbody tr:nth-child(even) {
+      background: #1e293b;
+    }
+
+    #docs-halftime-calculator .hc-note {
+      color: #94a3b8;
+      font-size: 12px;
+      margin-top: 14px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 500px) {
+      #docs-halftime-calculator .hc-inputs {
+        grid-template-columns: 1fr;
+      }
+
+      #docs-halftime-calculator table {
+        font-size: 12px;
+      }
+    }
+  </style>
+
+  <h2>🏈 HALFTIME INTELLIGENCE CALCULATOR</h2>
+
+  <p>
+    Compare both halftime projection methods side by side.
+  </p>
+
+  <div class="hc-inputs">
+    <div>
+      <label for="hc-favorite">Favorite Team</label>
+      <input
+        id="hc-favorite"
+        type="text"
+        value="James Madison"
+      >
+    </div>
+
+    <div>
+      <label for="hc-underdog">Underdog Team</label>
+      <input
+        id="hc-underdog"
+        type="text"
+        value="Georgia State"
+      >
+    </div>
+
+    <div>
+      <label for="hc-total">Full-Game Total</label>
+      <input
+        id="hc-total"
+        type="number"
+        min="0"
+        step="0.5"
+        value="58.5"
+      >
+    </div>
+
+    <div>
+      <label for="hc-spread">
+        Favorite's Full-Game Spread
+      </label>
+      <input
+        id="hc-spread"
+        type="number"
+        step="0.5"
+        value="-9"
+      >
+    </div>
+  </div>
+
+  <button type="button" id="hc-calculate">
+    CALCULATE BOTH METHODS
+  </button>
+
+  <div class="hc-table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Projection</th>
+          <th>
+            METHOD 1
+            <div>50% Total / 47% Spread</div>
+          </th>
+          <th>
+            METHOD 2
+            <div>52% Total / 59% Spread</div>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody id="hc-results"></tbody>
+    </table>
+  </div>
+
+  <p class="hc-note">
+    Method 1 and Method 2 are independent estimates
+    derived from full-game sportsbook lines.
+    Neither method is automatically preferred.
+    These are not official sportsbook halftime lines.
+  </p>
 </div>
 
+<script>
+(function () {
+  "use strict";
 
-<!-- ===================================================== -->
-<!-- HALFTIME INTELLIGENCE CALCULATOR GOES RIGHT HERE      -->
-<!-- Paste the ENTIRE calculator block here                -->
-<!-- ===================================================== -->
+  const root = document.getElementById(
+    "docs-halftime-calculator"
+  );
 
+  if (!root || root.dataset.initialized === "true") {
+    return;
+  }
 
-<div class="panel">
+  root.dataset.initialized = "true";
 
-<h2>Team Statistics Editor</h2>
+  function get(id) {
+    return root.querySelector("#" + id);
+  }
+
+  const methods = [
+    {
+      totalRate: 0.50,
+      spreadRate: 0.47
+    },
+    {
+      totalRate: 0.52,
+      spreadRate: 0.59
+    }
+  ];
+
+  function calculateMethod(total, margin, method) {
+    const halfTotal = total * method.totalRate;
+    const halfMargin = margin * method.spreadRate;
+
+    return {
+      total: halfTotal,
+      spread: -halfMargin,
+      favoritePoints: (halfTotal + halfMargin) / 2,
+      underdogPoints: (halfTotal - halfMargin) / 2
+    };
+  }
+
+  function format(value) {
+    return value.toFixed(2);
+  }
+
+  function signed(value) {
+    return (value > 0 ? "+" : "") + format(value);
+  }
+
+  function calculate() {
+    const favorite =
+      get("hc-favorite").value.trim() || "Favorite";
+
+    const underdog =
+      get("hc-underdog").value.trim() || "Underdog";
+
+    const totalInput = get("hc-total").value.trim();
+    const spreadInput = get("hc-spread").value.trim();
+
+    const total = Number(totalInput);
+    const margin = Math.abs(Number(spreadInput));
+
+    const results = get("hc-results");
+
+    results.textContent = "";
+
+    if (
+      totalInput === "" ||
+      spreadInput === "" ||
+      !Number.isFinite(total) ||
+      !Number.isFinite(margin) ||
+      total < 0 ||
+      margin > total
+    ) {
+      const row = results.insertRow();
+      const cell = row.insertCell();
+
+      cell.colSpan = 3;
+      cell.textContent =
+        "Enter a valid total and spread. " +
+        "The spread cannot exceed the total.";
+
+      return;
+    }
+
+    const a = calculateMethod(
+      total,
+      margin,
+      methods[0]
+    );
+
+    const b = calculateMethod(
+      total,
+      margin,
+      methods[1]
+    );
+
+    const rows = [
+      [
+        "First-Half Total",
+        format(a.total),
+        format(b.total)
+      ],
+      [
+        favorite + " First-Half Spread",
+        signed(a.spread),
+        signed(b.spread)
+      ],
+      [
+        favorite + " First-Half Points",
+        format(a.favoritePoints),
+        format(b.favoritePoints)
+      ],
+      [
+        underdog + " First-Half Points",
+        format(a.underdogPoints),
+        format(b.underdogPoints)
+      ]
+    ];
+
+    rows.forEach(values => {
+      const row = results.insertRow();
+
+      values.forEach(value => {
+        const cell = row.insertCell();
+        cell.textContent = value;
+      });
+    });
+  }
+
+  get("hc-calculate").addEventListener(
+    "click",
+    calculate
+  );
+
+  [
+    "hc-favorite",
+    "hc-underdog",
+    "hc-total",
+    "hc-spread"
+  ].forEach(id => {
+    get(id).addEventListener("input", calculate);
+  });
+
+  calculate();
+})();
+</script>
+<!-- DOC'S CFB HALFTIME CALCULATOR: END -->
 
  </body>
 </html> 
