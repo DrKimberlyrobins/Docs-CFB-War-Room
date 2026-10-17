@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T22:55:49.709Z",
+  "generatedAt": "2026-10-17T07:13:50.632Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,11 +10,180 @@
     "start": "2026-10-17T16:00:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 95,
     "events": 1,
-    "prePacks": 2
+    "prePacks": 0
   },
   "betOffers": [
+    {
+      "id": 2701513181,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4367309872,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2000,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2701513181,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367309873,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1820,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701513181,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701513182,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4367309874,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2800,
+          "line": -9500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2701513182,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367309875,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1440,
+          "line": 9500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2701513182,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701522178,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4367286428,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2140,
+          "line": 57500,
+          "type": "OT_OVER",
+          "betOfferId": 2701522178,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367286429,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1720,
+          "line": 57500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701522178,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2701522179,
       "closed": "2026-10-17T16:00:00Z",
@@ -37,14 +206,14 @@
           "id": 4367286430,
           "label": "Kansas State",
           "englishLabel": "Kansas State Wildcats",
-          "odds": 1320,
+          "odds": 1550,
           "participant": "Kansas State",
           "type": "OT_ONE",
           "betOfferId": 2701522179,
-          "changedDate": "2026-10-08T19:21:01Z",
+          "changedDate": "2026-10-16T22:05:37Z",
           "participantId": 1000005538,
-          "oddsFractional": "8/25",
-          "oddsAmerican": "-315",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +222,14 @@
           "id": 4367286431,
           "label": "Kansas",
           "englishLabel": "Kansas Jayhawks",
-          "odds": 3500,
+          "odds": 2450,
           "participant": "Kansas",
           "type": "OT_TWO",
           "betOfferId": 2701522179,
-          "changedDate": "2026-10-08T19:21:01Z",
+          "changedDate": "2026-10-16T22:05:37Z",
           "participantId": 1000036410,
-          "oddsFractional": "5/2",
-          "oddsAmerican": "250",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,6 +239,183 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701522181,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4367286435,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2150,
+          "line": -5500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2701522181,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367286436,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1710,
+          "line": 5500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2701522181,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701522182,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4367286434,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2120,
+          "line": -5000,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2701522182,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367286437,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1740,
+          "line": 5000,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2701522182,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701551382,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4367271993,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1500,
+          "line": 1500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2701551382,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367271994,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 2600,
+          "line": -1500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2701551382,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -95,13 +441,13 @@
           "id": 4367271997,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1880,
+          "odds": 1930,
           "line": 55500,
           "type": "OT_OVER",
           "betOfferId": 2701551384,
-          "changedDate": "2026-10-08T19:21:01Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-114",
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -110,13 +456,13 @@
           "id": 4367271998,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1940,
+          "odds": 1890,
           "line": 55500,
           "type": "OT_UNDER",
           "betOfferId": 2701551384,
-          "changedDate": "2026-10-08T19:21:01Z",
-          "oddsFractional": "23/25",
-          "oddsAmerican": "-107",
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -151,15 +497,15 @@
           "id": 4367271999,
           "label": "Kansas State",
           "englishLabel": "Kansas State Wildcats",
-          "odds": 1870,
+          "odds": 2550,
           "line": -7500,
           "participant": "Kansas State",
           "type": "OT_ONE",
           "betOfferId": 2701551385,
-          "changedDate": "2026-10-08T19:21:01Z",
+          "changedDate": "2026-10-16T22:05:37Z",
           "participantId": 1000005538,
-          "oddsFractional": "17/20",
-          "oddsAmerican": "-115",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -168,15 +514,133 @@
           "id": 4367272000,
           "label": "Kansas",
           "englishLabel": "Kansas Jayhawks",
-          "odds": 1950,
+          "odds": 1530,
           "line": 7500,
           "participant": "Kansas",
           "type": "OT_TWO",
           "betOfferId": 2701551385,
-          "changedDate": "2026-10-08T19:21:01Z",
+          "changedDate": "2026-10-16T22:05:37Z",
           "participantId": 1000036410,
-          "oddsFractional": "19/20",
-          "oddsAmerican": "-106",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701551386,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4367272001,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2430,
+          "line": -7000,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2701551386,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367272002,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1570,
+          "line": 7000,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2701551386,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701551387,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4367272003,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2800,
+          "line": -9000,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2701551387,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367272004,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1450,
+          "line": 9000,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2701551387,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -210,15 +674,15 @@
           "id": 4367272007,
           "label": "Kansas State",
           "englishLabel": "Kansas State Wildcats",
-          "odds": 1910,
+          "odds": 2650,
           "line": -8000,
           "participant": "Kansas State",
           "type": "OT_ONE",
           "betOfferId": 2701551389,
-          "changedDate": "2026-10-08T19:21:01Z",
+          "changedDate": "2026-10-16T22:05:37Z",
           "participantId": 1000005538,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -227,15 +691,1963 @@
           "id": 4367272008,
           "label": "Kansas",
           "englishLabel": "Kansas Jayhawks",
-          "odds": 1910,
+          "odds": 1490,
           "line": 8000,
           "participant": "Kansas",
           "type": "OT_TWO",
           "betOfferId": 2701551389,
-          "changedDate": "2026-10-08T19:21:01Z",
+          "changedDate": "2026-10-16T22:05:37Z",
           "participantId": 1000036410,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702592134,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4370613622,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1820,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2702592134,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4370613623,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2702592134,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702594029,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4370736626,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2280,
+          "line": -6500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2702594029,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4370736627,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1640,
+          "line": 6500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2702594029,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702625323,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4370762842,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1740,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2702625323,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4370762843,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2120,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2702625323,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702625324,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4370762844,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2230,
+          "line": -6000,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2702625324,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4370762845,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1670,
+          "line": 6000,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2702625324,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703125259,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4372371824,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2000,
+          "line": -4000,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703125259,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372371825,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1830,
+          "line": 4000,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703125259,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703142234,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4372360229,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2070,
+          "line": -4500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703142234,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372360230,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1770,
+          "line": 4500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703142234,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703298162,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Kansas to Score in every Quarter - Regular Time",
+        "englishLabel": "Kansas Jayhawks to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373006289,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2280,
+          "type": "OT_YES",
+          "betOfferId": 2703298162,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373006294,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1480,
+          "type": "OT_NO",
+          "betOfferId": 2703298162,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703298163,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373006295,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1680,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703298163,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373006296,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2150,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703298163,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703298164,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373006297,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1580,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703298164,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373006298,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 16000,
+          "type": "OT_CROSS",
+          "betOfferId": 2703298164,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "15/1",
+          "oddsAmerican": "1500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373006299,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2550,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703298164,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703298168,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373006306,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2000,
+          "line": -3500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703298168,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373006307,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1760,
+          "line": 3500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703298168,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703298169,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373006308,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1790,
+          "line": -1500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703298169,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373006309,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1950,
+          "line": 1500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703298169,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703298171,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Kansas to score first and win",
+        "englishLabel": "Kansas Jayhawks to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373006314,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3250,
+          "type": "OT_YES",
+          "betOfferId": 2703298171,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373006317,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1240,
+          "type": "OT_NO",
+          "betOfferId": 2703298171,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703298173,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373006320,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2550,
+          "line": 60500,
+          "type": "OT_OVER",
+          "betOfferId": 2703298173,
+          "changedDate": "2026-10-17T02:24:59Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373006321,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1530,
+          "line": 60500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703298173,
+          "changedDate": "2026-10-17T02:24:59Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703298176,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373006326,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1670,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703298176,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373006327,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2050,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703298176,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2703298178,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373006330,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1450,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2703298178,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373006331,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2750,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703298178,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703298179,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373006332,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1300,
+          "line": 3500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703298179,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373006333,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 3550,
+          "line": -3500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703298179,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703298183,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373006340,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1800,
+          "line": -3000,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703298183,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373006341,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 2020,
+          "line": 3000,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703298183,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703298185,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373006344,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1650,
+          "line": -2000,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703298185,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373006345,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 2250,
+          "line": 2000,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703298185,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321559,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029163,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2140,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703321559,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029164,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 3950,
+          "type": "OT_CROSS",
+          "betOfferId": 2703321559,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "29/10",
+          "oddsAmerican": "295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373029165,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2700,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703321559,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321565,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029178,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 2000,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2703321565,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029181,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 46000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2703321565,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "45/1",
+          "oddsAmerican": "4500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373029184,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 12500,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2703321565,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "23/2",
+          "oddsAmerican": "1150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4373029187,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 21000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2703321565,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "20/1",
+          "oddsAmerican": "2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4373029190,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 101000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2703321565,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "100/1",
+          "oddsAmerican": "10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4373029193,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 29000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2703321565,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "28/1",
+          "oddsAmerican": "2800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4373029196,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 8000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2703321565,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4373029199,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 34000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2703321565,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "33/1",
+          "oddsAmerican": "3300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4373029202,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 3250,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2703321565,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321566,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Kansas State to Score in Both Halves",
+        "englishLabel": "Kansas State Wildcats to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029205,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1020,
+          "type": "OT_YES",
+          "betOfferId": 2703321566,
+          "changedDate": "2026-10-16T19:03:45Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029208,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 13000,
+          "type": "OT_NO",
+          "betOfferId": 2703321566,
+          "changedDate": "2026-10-16T19:03:45Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321568,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Kansas to Score in Both Halves",
+        "englishLabel": "Kansas Jayhawks to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029213,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1060,
+          "type": "OT_YES",
+          "betOfferId": 2703321568,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "1/18",
+          "oddsAmerican": "-1667",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029216,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 6500,
+          "type": "OT_NO",
+          "betOfferId": 2703321568,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "11/2",
+          "oddsAmerican": "550",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321569,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029217,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2280,
+          "line": 58500,
+          "type": "OT_OVER",
+          "betOfferId": 2703321569,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029218,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1640,
+          "line": 58500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703321569,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321570,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029219,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2200,
+          "line": -4500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703321570,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029220,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1630,
+          "line": 4500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703321570,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321571,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029221,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1740,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703321571,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029222,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 11500,
+          "type": "OT_CROSS",
+          "betOfferId": 2703321571,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "21/2",
+          "oddsAmerican": "1050",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373029223,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2350,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703321571,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321572,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029224,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2430,
+          "line": 59500,
+          "type": "OT_OVER",
+          "betOfferId": 2703321572,
+          "changedDate": "2026-10-17T02:24:59Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029225,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1570,
+          "line": 59500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703321572,
+          "changedDate": "2026-10-17T02:24:59Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321573,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029226,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2703321573,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029227,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2600,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703321573,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321575,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029230,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1560,
+          "line": 500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703321575,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029231,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 2480,
+          "line": -500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703321575,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321576,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029232,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1620,
+          "line": -1500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703321576,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029233,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 2320,
+          "line": 1500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703321576,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321577,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029234,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1700,
+          "line": -2500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703321577,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029235,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 2180,
+          "line": 2500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703321577,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321578,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029236,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 3150,
+          "line": -10500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703321578,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029237,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1370,
+          "line": 10500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703321578,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321579,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029238,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1930,
+          "line": -3500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703321579,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
           "oddsFractional": "10/11",
-          "oddsAmerican": "-110",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029239,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1890,
+          "line": 3500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703321579,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -244,6 +2656,2933 @@
       "tags": [
         "OFFERED_PREMATCH",
         "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321580,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029240,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1560,
+          "line": -500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703321580,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029241,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 2480,
+          "line": 500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703321580,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321584,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029248,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 3250,
+          "line": -11000,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703321584,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029249,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1350,
+          "line": 11000,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703321584,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703321599,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373029280,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 28500,
+          "type": "OT_OVER",
+          "betOfferId": 2703321599,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373029281,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 28500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703321599,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335669,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Kansas State to win both halves",
+        "englishLabel": "Kansas State Wildcats to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023870,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3000,
+          "type": "OT_YES",
+          "betOfferId": 2703335669,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023873,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1280,
+          "type": "OT_NO",
+          "betOfferId": 2703335669,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335670,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023874,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1720,
+          "type": "OT_ODD",
+          "betOfferId": 2703335670,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023875,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1970,
+          "type": "OT_EVEN",
+          "betOfferId": 2703335670,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335671,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023876,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2120,
+          "line": -500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703335671,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023877,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1670,
+          "line": 500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703335671,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335672,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Kansas State to score first and win",
+        "englishLabel": "Kansas State Wildcats to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023882,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2200,
+          "type": "OT_YES",
+          "betOfferId": 2703335672,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023887,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1520,
+          "type": "OT_NO",
+          "betOfferId": 2703335672,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335673,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Kansas to win both halves",
+        "englishLabel": "Kansas Jayhawks to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023883,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5500,
+          "type": "OT_YES",
+          "betOfferId": 2703335673,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "9/2",
+          "oddsAmerican": "450",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023889,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1080,
+          "type": "OT_NO",
+          "betOfferId": 2703335673,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "1/14",
+          "oddsAmerican": "-1250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335674,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Kansas State",
+        "englishLabel": "Total Points by Kansas State Wildcats - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023890,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 30500,
+          "type": "OT_OVER",
+          "betOfferId": 2703335674,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023891,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 30500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703335674,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335676,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023896,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 14000,
+          "type": "OT_YES",
+          "betOfferId": 2703335676,
+          "changedDate": "2026-10-16T19:03:45Z",
+          "oddsFractional": "13/1",
+          "oddsAmerican": "1300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023898,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2703335676,
+          "changedDate": "2026-10-16T19:03:45Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335677,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023903,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5800,
+          "type": "OT_YES",
+          "betOfferId": 2703335677,
+          "changedDate": "2026-10-16T19:03:45Z",
+          "oddsFractional": "24/5",
+          "oddsAmerican": "480",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023908,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1090,
+          "type": "OT_NO",
+          "betOfferId": 2703335677,
+          "changedDate": "2026-10-16T19:03:45Z",
+          "oddsFractional": "1/12",
+          "oddsAmerican": "-1115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335679,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Kansas State to Score in every Quarter - Regular Time",
+        "englishLabel": "Kansas State Wildcats to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023917,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1800,
+          "type": "OT_YES",
+          "betOfferId": 2703335679,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023922,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1780,
+          "type": "OT_NO",
+          "betOfferId": 2703335679,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335683,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023939,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1720,
+          "line": -500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703335683,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023940,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 2040,
+          "line": 500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703335683,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335685,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023943,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2200,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703335685,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373023944,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1640,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703335685,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335686,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023945,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1820,
+          "line": -2500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703335686,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023946,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1920,
+          "line": 2500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703335686,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335687,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023947,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 2750,
+          "participant": "Kansas",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703335687,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4373023948,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 201000,
+          "participant": "Kansas",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703335687,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "participantId": 1000036410,
+          "oddsFractional": "200/1",
+          "oddsAmerican": "20000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4373023949,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 6750,
+          "participant": "Kansas State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703335687,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "participantId": 1000005538,
+          "oddsFractional": "23/4",
+          "oddsAmerican": "575",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4373023950,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 201000,
+          "participant": "Kansas State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703335687,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "participantId": 1000005538,
+          "oddsFractional": "200/1",
+          "oddsAmerican": "20000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4373023951,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 2250,
+          "participant": "Kansas State",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703335687,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4373023952,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 6250,
+          "participant": "Kansas",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703335687,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "participantId": 1000036410,
+          "oddsFractional": "21/4",
+          "oddsAmerican": "525",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335688,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023953,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1670,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2703335688,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023954,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2230,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703335688,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335689,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023955,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1610,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2703335689,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023956,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2350,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703335689,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335690,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023957,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 3450,
+          "line": -12500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703335690,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023958,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1320,
+          "line": 12500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703335690,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335691,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023959,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2750,
+          "line": -8500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703335691,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023960,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1460,
+          "line": 8500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703335691,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335692,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023961,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 3300,
+          "line": -11500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703335692,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023962,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1340,
+          "line": 11500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703335692,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335693,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023963,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1440,
+          "line": 2500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703335693,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023964,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 2800,
+          "line": -2500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703335693,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335695,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023967,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1580,
+          "line": -1000,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703335695,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023968,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 2400,
+          "line": 1000,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703335695,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335697,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023971,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 3050,
+          "line": -10000,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703335697,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023972,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1400,
+          "line": 10000,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703335697,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703335705,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4373023993,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2250,
+          "line": -5500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2703335705,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373023994,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1600,
+          "line": 5500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2703335705,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704288660,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4376172543,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2700,
+          "line": 61500,
+          "type": "OT_OVER",
+          "betOfferId": 2704288660,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4376172544,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1470,
+          "line": 61500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704288660,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704297479,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Kansas",
+        "englishLabel": "Total Points by Kansas Jayhawks - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4376161898,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1740,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2704297479,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4376161899,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1940,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704297479,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704311509,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Kansas - 1st Half",
+        "englishLabel": "Total Points by Kansas Jayhawks - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4376196295,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2050,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704311509,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4376196296,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1660,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2704311509,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704546179,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Kansas - 1st Half",
+        "englishLabel": "Total Points by Kansas Jayhawks - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377077363,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2100,
+          "line": 11500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704546179,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4377077364,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1630,
+          "line": 11500,
+          "type": "OT_OVER",
+          "betOfferId": 2704546179,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704570116,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377108786,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1820,
+          "line": 27500,
+          "type": "OT_OVER",
+          "betOfferId": 2704570116,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377108787,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 27500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704570116,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704570117,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377108788,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 3700,
+          "line": -13500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2704570117,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "27/10",
+          "oddsAmerican": "270",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377108789,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1290,
+          "line": 13500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2704570117,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704570604,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Kansas State",
+        "englishLabel": "Total Points by Kansas State Wildcats - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377110346,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2150,
+          "line": 31500,
+          "type": "OT_OVER",
+          "betOfferId": 2704570604,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377110347,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1600,
+          "line": 31500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704570604,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704570605,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Kansas State",
+        "englishLabel": "Total Points by Kansas State Wildcats - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377110348,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1660,
+          "line": 28500,
+          "type": "OT_OVER",
+          "betOfferId": 2704570605,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377110349,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2050,
+          "line": 28500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704570605,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704570607,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Kansas State - 1st Half",
+        "englishLabel": "Total Points by Kansas State Wildcats - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377110352,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 15500,
+          "type": "OT_OVER",
+          "betOfferId": 2704570607,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377110353,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1840,
+          "line": 15500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704570607,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704570615,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377110368,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1300,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2704570615,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377110369,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3550,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704570615,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704570622,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002393521,
+        "label": "Total Points by Kansas State - Quarter 1",
+        "englishLabel": "Total Points by Kansas State Wildcats - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377110382,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1440,
+          "line": 5500,
+          "type": "OT_OVER",
+          "betOfferId": 2704570622,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377110383,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2500,
+          "line": 5500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704570622,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704570624,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377110386,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1430,
+          "line": 500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2704570624,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377110387,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 2700,
+          "line": -500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2704570624,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704570625,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377110388,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 1410,
+          "line": 1500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2704570625,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377110389,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 2800,
+          "line": -1500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2704570625,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704570654,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377110446,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1460,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2704570654,
+          "changedDate": "2026-10-16T19:03:50Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377110447,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2600,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704570654,
+          "changedDate": "2026-10-16T19:03:50Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704595764,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377105777,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1410,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2704595764,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377105778,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2950,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704595764,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704596225,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Kansas State",
+        "englishLabel": "Total Points by Kansas State Wildcats - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377107367,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1710,
+          "line": 29500,
+          "type": "OT_OVER",
+          "betOfferId": 2704596225,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377107368,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1970,
+          "line": 29500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704596225,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704596233,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377107383,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3100,
+          "line": 63500,
+          "type": "OT_OVER",
+          "betOfferId": 2704596233,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377107384,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1380,
+          "line": 63500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704596233,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704596237,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377107391,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1360,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2704596237,
+          "changedDate": "2026-10-16T19:03:50Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377107392,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3200,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704596237,
+          "changedDate": "2026-10-16T19:03:50Z",
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704596238,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377107393,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2900,
+          "line": 62500,
+          "type": "OT_OVER",
+          "betOfferId": 2704596238,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377107394,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1420,
+          "line": 62500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704596238,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704596245,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377107407,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 2180,
+          "line": -1500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2704596245,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377107408,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1640,
+          "line": 1500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2704596245,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704596270,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1002393522,
+        "label": "Total Points by Kansas - Quarter 1",
+        "englishLabel": "Total Points by Kansas Jayhawks - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377107457,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 5500,
+          "type": "OT_OVER",
+          "betOfferId": 2704596270,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377107458,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2060,
+          "line": 5500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704596270,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704596627,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377158041,
+          "label": "Kansas State",
+          "englishLabel": "Kansas State Wildcats",
+          "odds": 4100,
+          "line": -14500,
+          "participant": "Kansas State",
+          "type": "OT_ONE",
+          "betOfferId": 2704596627,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000005538,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377158042,
+          "label": "Kansas",
+          "englishLabel": "Kansas Jayhawks",
+          "odds": 1240,
+          "line": 14500,
+          "participant": "Kansas",
+          "type": "OT_TWO",
+          "betOfferId": 2704596627,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "participantId": 1000036410,
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704605093,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377130919,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3300,
+          "line": 64500,
+          "type": "OT_OVER",
+          "betOfferId": 2704605093,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377130920,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1340,
+          "line": 64500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704605093,
+          "changedDate": "2026-10-16T19:03:54Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704605125,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377130983,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1930,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2704605125,
+          "changedDate": "2026-10-16T19:03:50Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377130984,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1810,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704605125,
+          "changedDate": "2026-10-16T19:03:50Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704605311,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Kansas",
+        "englishLabel": "Total Points by Kansas Jayhawks - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377131406,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1570,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2704605311,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377131407,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2200,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704605311,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704774387,
+      "closed": "2026-10-17T16:00:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Kansas State - 1st Half",
+        "englishLabel": "Total Points by Kansas State Wildcats - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202600,
+      "outcomes": [
+        {
+          "id": 4377716465,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1820,
+          "line": 14500,
+          "type": "OT_OVER",
+          "betOfferId": 2704774387,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377716466,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 14500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704774387,
+          "changedDate": "2026-10-16T22:05:37Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -274,7 +5613,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 95,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -286,16 +5625,6 @@
       "state": "NOT_STARTED",
       "participants": [
         {
-          "participantId": 1000036410,
-          "name": "Kansas",
-          "englishName": "Kansas Jayhawks",
-          "termKey": "kansas_jayhawks",
-          "scratched": false,
-          "nonRunner": false,
-          "home": false,
-          "participantType": "TEAM"
-        },
-        {
           "participantId": 1000005538,
           "name": "Kansas State",
           "englishName": "Kansas State Wildcats",
@@ -304,358 +5633,21 @@
           "nonRunner": false,
           "home": true,
           "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000036410,
+          "name": "Kansas",
+          "englishName": "Kansas Jayhawks",
+          "termKey": "kansas_jayhawks",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
         }
       ],
       "groupSortOrder": 1003000000000000000,
       "prematchEnd": "2026-10-17T16:00:00Z"
     }
   ],
-  "prePacks": [
-    {
-      "id": 7216266,
-      "label": "Game Winner and Total Points",
-      "prePackSelections": [
-        {
-          "selectionId": 8144288,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 2250,
-                "american": "125",
-                "fractional": "5/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367286430,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701522179
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367271997,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701551384
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8144289,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 5800,
-                "american": "480",
-                "fractional": "24/5"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367286431,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701522179
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367271997,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701551384
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8144290,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 2300,
-                "american": "130",
-                "fractional": "13/10"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367286430,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701522179
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367271998,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701551384
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8144291,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 6250,
-                "american": "525",
-                "fractional": "21/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367286431,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701522179
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367271998,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701551384
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "tags": [
-        "AUTO_BUNDLED"
-      ]
-    },
-    {
-      "id": 7216267,
-      "label": "Spread and Total Points",
-      "prePackSelections": [
-        {
-          "selectionId": 8144292,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367272007,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701551389
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367271997,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701551384
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8144293,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367272008,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701551389
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367271997,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701551384
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8144294,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3350,
-                "american": "235",
-                "fractional": "47/20"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367272007,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701551389
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367271998,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701551384
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8144295,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3350,
-                "american": "235",
-                "fractional": "47/20"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367272008,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701551389
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367271998,
-                          "eventId": 1028202600,
-                          "betOfferId": 2701551384
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "tags": [
-        "AUTO_BUNDLED"
-      ]
-    }
-  ]
+  "prePacks": []
 }

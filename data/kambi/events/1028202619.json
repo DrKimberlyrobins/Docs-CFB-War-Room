@@ -1,0 +1,5134 @@
+{
+  "generatedAt": "2026-10-17T07:14:06.176Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1028202619",
+    "name": "New Mexico @ Hawai’i",
+    "away": "New Mexico",
+    "home": "Hawai’i",
+    "start": "2026-10-18T02:30:00Z"
+  },
+  "counts": {
+    "betOffers": 85,
+    "events": 1,
+    "prePacks": 0
+  },
+  "betOffers": [
+    {
+      "id": 2702718430,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4371107955,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1920,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2702718430,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371107956,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2702718430,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702718431,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4371107957,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1790,
+          "line": 16000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2702718431,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371107958,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2060,
+          "line": -16000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2702718431,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702718434,
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4371107963,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 6000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2702718434,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "5/1",
+          "oddsAmerican": "500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371107964,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1130,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2702718434,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "1/8",
+          "oddsAmerican": "-770",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702741184,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4371116156,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2380,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2702741184,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371116157,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1600,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2702741184,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702741185,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4371116158,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1880,
+          "line": 14500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2702741185,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371116159,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1950,
+          "line": -14500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2702741185,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702741186,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4371116160,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1830,
+          "line": 15500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2702741186,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371116161,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2000,
+          "line": -15500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2702741186,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702741187,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4371116162,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2230,
+          "line": 11000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2702741187,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371116163,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1670,
+          "line": -11000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2702741187,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702746927,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4371110942,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2100,
+          "line": 46500,
+          "type": "OT_OVER",
+          "betOfferId": 2702746927,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371110943,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1750,
+          "line": 46500,
+          "type": "OT_UNDER",
+          "betOfferId": 2702746927,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702746928,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4371110944,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2250,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2702746928,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371110945,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1660,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2702746928,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702746930,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4371110948,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2280,
+          "line": 10500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2702746930,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371110949,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1650,
+          "line": -10500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2702746930,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702746932,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4371110952,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1850,
+          "line": 15000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2702746932,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371110953,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1980,
+          "line": -15000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2702746932,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326043,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "New Mexico to Score in every Quarter - Regular Time",
+        "englishLabel": "New Mexico Lobos to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112482,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1970,
+          "type": "OT_YES",
+          "betOfferId": 2703326043,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112487,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1720,
+          "type": "OT_NO",
+          "betOfferId": 2703326043,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326044,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112488,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1740,
+          "line": 9500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326044,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "participantId": 1000060175,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112489,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2020,
+          "line": -9500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326044,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "participantId": 1000071351,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326046,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112492,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 4250,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326046,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000060175,
+          "oddsFractional": "13/4",
+          "oddsAmerican": "325",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112493,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 12000,
+          "type": "OT_CROSS",
+          "betOfferId": 2703326046,
+          "changedDate": "2026-10-16T21:30:03Z",
+          "oddsFractional": "11/1",
+          "oddsAmerican": "1100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373112494,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1300,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326046,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000071351,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326048,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112497,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2550,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2703326048,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112498,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1530,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703326048,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326049,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112499,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2750,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326049,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000060175,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112500,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1430,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326049,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000071351,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326050,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "New Mexico to Score in Both Halves",
+        "englishLabel": "New Mexico Lobos to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112503,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1020,
+          "type": "OT_YES",
+          "betOfferId": 2703326050,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112506,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 13000,
+          "type": "OT_NO",
+          "betOfferId": 2703326050,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326051,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112507,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1810,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2703326051,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112508,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2020,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703326051,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326052,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112509,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2800,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326052,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000060175,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112510,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1370,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326052,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000071351,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2703326053,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112511,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 40500,
+          "type": "OT_OVER",
+          "betOfferId": 2703326053,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112512,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2400,
+          "line": 40500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703326053,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326054,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by New Mexico",
+        "englishLabel": "Total Points by New Mexico Lobos - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112513,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1960,
+          "line": 30500,
+          "type": "OT_OVER",
+          "betOfferId": 2703326054,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112514,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1720,
+          "line": 30500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703326054,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326055,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112515,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1660,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2703326055,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112516,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2250,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703326055,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326056,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112517,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 6250,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326056,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000060175,
+          "oddsFractional": "21/4",
+          "oddsAmerican": "525",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112518,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 21000,
+          "type": "OT_CROSS",
+          "betOfferId": 2703326056,
+          "changedDate": "2026-10-16T21:30:03Z",
+          "oddsFractional": "20/1",
+          "oddsAmerican": "2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373112519,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1140,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326056,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000071351,
+          "oddsFractional": "2/15",
+          "oddsAmerican": "-715",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326057,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112520,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 2280,
+          "participant": "New Mexico",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703326057,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "participantId": 1000071351,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4373112521,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 4500,
+          "participant": "Hawai’i",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703326057,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "participantId": 1000060175,
+          "oddsFractional": "7/2",
+          "oddsAmerican": "350",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4373112522,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 4600,
+          "participant": "Hawai’i",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703326057,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "participantId": 1000060175,
+          "oddsFractional": "18/5",
+          "oddsAmerican": "360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4373112523,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 121000,
+          "participant": "New Mexico",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703326057,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "participantId": 1000071351,
+          "oddsFractional": "120/1",
+          "oddsAmerican": "12000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4373112524,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 141000,
+          "participant": "Hawai’i",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703326057,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "participantId": 1000060175,
+          "oddsFractional": "140/1",
+          "oddsAmerican": "14000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4373112525,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 4100,
+          "participant": "New Mexico",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703326057,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "participantId": 1000071351,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326059,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by New Mexico - 1st Half",
+        "englishLabel": "Total Points by New Mexico Lobos - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112528,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1780,
+          "line": 16500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703326059,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373112529,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1900,
+          "line": 16500,
+          "type": "OT_OVER",
+          "betOfferId": 2703326059,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326061,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112534,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 9000,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2703326061,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "8/1",
+          "oddsAmerican": "800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112537,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 56000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2703326061,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "55/1",
+          "oddsAmerican": "5500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373112540,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 8000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2703326061,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4373112543,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 51000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2703326061,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "50/1",
+          "oddsAmerican": "5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4373112546,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 126000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2703326061,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "125/1",
+          "oddsAmerican": "12500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4373112549,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 16000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2703326061,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "15/1",
+          "oddsAmerican": "1500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4373112552,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 25000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2703326061,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "24/1",
+          "oddsAmerican": "2400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4373112555,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 71000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2703326061,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "70/1",
+          "oddsAmerican": "7000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4373112558,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 1370,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2703326061,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326062,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112559,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1500,
+          "line": 20500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326062,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112560,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2630,
+          "line": -20500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326062,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326064,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112563,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2120,
+          "line": 12500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326064,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112564,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1740,
+          "line": -12500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326064,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326065,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112565,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2550,
+          "line": 8500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326065,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112566,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1530,
+          "line": -8500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326065,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326066,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112567,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1760,
+          "line": 16500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326066,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112568,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2100,
+          "line": -16500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326066,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326067,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112569,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2020,
+          "line": 13500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326067,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112570,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1820,
+          "line": -13500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326067,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326068,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112571,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2160,
+          "line": 12000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326068,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "116",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112572,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1720,
+          "line": -12000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326068,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326070,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112575,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1950,
+          "line": 14000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326070,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112576,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1880,
+          "line": -14000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326070,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326071,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112577,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1370,
+          "line": 23000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703326071,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112578,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 3150,
+          "line": -23000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703326071,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703326079,
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373112600,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2703326079,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373112601,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1900,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703326079,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345897,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Hawai’i to win both halves",
+        "englishLabel": "Hawaii Rainbow Warriors to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164856,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 15000,
+          "type": "OT_YES",
+          "betOfferId": 2703345897,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "oddsFractional": "14/1",
+          "oddsAmerican": "1400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164859,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2703345897,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345899,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164872,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1480,
+          "line": 11500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345899,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164873,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2550,
+          "line": -11500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345899,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345903,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164880,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1790,
+          "line": 8500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345903,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164881,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1960,
+          "line": -8500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345903,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345905,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "New Mexico to score first and win",
+        "englishLabel": "New Mexico Lobos to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164886,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1620,
+          "type": "OT_YES",
+          "betOfferId": 2703345905,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164889,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2120,
+          "type": "OT_NO",
+          "betOfferId": 2703345905,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345906,
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164890,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1230,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345906,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000071351,
+          "oddsFractional": "2/9",
+          "oddsAmerican": "-435",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373164891,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 4000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345906,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000060175,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345911,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Hawai’i - 1st Half",
+        "englishLabel": "Total Points by Hawaii Rainbow Warriors - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164900,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1640,
+          "line": 6500,
+          "type": "OT_OVER",
+          "betOfferId": 2703345911,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164901,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2080,
+          "line": 6500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703345911,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345912,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164902,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2703345912,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164903,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1820,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703345912,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345915,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164908,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3400,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345915,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000060175,
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164909,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 4300,
+          "type": "OT_CROSS",
+          "betOfferId": 2703345915,
+          "changedDate": "2026-10-16T21:30:03Z",
+          "oddsFractional": "33/10",
+          "oddsAmerican": "330",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373164910,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1770,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345915,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000071351,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345917,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164913,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2180,
+          "line": 11500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345917,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164914,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1700,
+          "line": -11500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345917,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345918,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164915,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2480,
+          "line": 9500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345918,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164916,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1560,
+          "line": -9500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345918,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345919,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164917,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1660,
+          "line": 17500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345919,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164918,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2250,
+          "line": -17500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345919,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345920,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164919,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1600,
+          "line": 18500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345920,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164920,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2380,
+          "line": -18500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345920,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345921,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164921,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1450,
+          "line": 21000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345921,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164922,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2800,
+          "line": -21000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345921,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345922,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164923,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2500,
+          "line": 9000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345922,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164924,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1540,
+          "line": -9000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345922,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345923,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164925,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2630,
+          "line": 8000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345923,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164926,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1500,
+          "line": -8000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345923,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345927,
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164933,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1880,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2703345927,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164934,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1860,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703345927,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345928,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164935,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2120,
+          "line": 6500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345928,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "participantId": 1000060175,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164936,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1680,
+          "line": -6500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345928,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "participantId": 1000071351,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345929,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373164937,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 39500,
+          "type": "OT_OVER",
+          "betOfferId": 2703345929,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373164938,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2630,
+          "line": 39500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703345929,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703345974,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373165045,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1950,
+          "line": 2500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703345974,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000060175,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373165044,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1790,
+          "line": -2500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703345974,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "participantId": 1000071351,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354722,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Hawai’i to Score in Both Halves",
+        "englishLabel": "Hawaii Rainbow Warriors to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167687,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1410,
+          "type": "OT_YES",
+          "betOfferId": 2703354722,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167690,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 2630,
+          "type": "OT_NO",
+          "betOfferId": 2703354722,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354723,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "New Mexico to win both halves",
+        "englishLabel": "New Mexico Lobos to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167693,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1700,
+          "type": "OT_YES",
+          "betOfferId": 2703354723,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167696,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1980,
+          "type": "OT_NO",
+          "betOfferId": 2703354723,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354724,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167697,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1850,
+          "line": 7500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354724,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167698,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1890,
+          "line": -7500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354724,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354725,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Hawai’i to Score in every Quarter - Regular Time",
+        "englishLabel": "Hawaii Rainbow Warriors to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167703,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 5500,
+          "type": "OT_YES",
+          "betOfferId": 2703354725,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "9/2",
+          "oddsAmerican": "450",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167708,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1100,
+          "type": "OT_NO",
+          "betOfferId": 2703354725,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "1/10",
+          "oddsAmerican": "-1000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354726,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167713,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3500,
+          "type": "OT_YES",
+          "betOfferId": 2703354726,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "5/2",
+          "oddsAmerican": "250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167718,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1240,
+          "type": "OT_NO",
+          "betOfferId": 2703354726,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354727,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167719,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1580,
+          "line": 10500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354727,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "participantId": 1000060175,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167720,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2300,
+          "line": -10500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354727,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "participantId": 1000071351,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354728,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167721,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2703354728,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167722,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2180,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703354728,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354731,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Hawai’i to score first and win",
+        "englishLabel": "Hawaii Rainbow Warriors to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167731,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 7000,
+          "type": "OT_YES",
+          "betOfferId": 2703354731,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "oddsFractional": "6/1",
+          "oddsAmerican": "600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167734,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1060,
+          "type": "OT_NO",
+          "betOfferId": 2703354731,
+          "changedDate": "2026-10-16T22:18:40Z",
+          "oddsFractional": "1/18",
+          "oddsAmerican": "-1667",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354732,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167735,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1770,
+          "type": "OT_ODD",
+          "betOfferId": 2703354732,
+          "changedDate": "2026-10-16T17:03:48Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167736,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1900,
+          "type": "OT_EVEN",
+          "betOfferId": 2703354732,
+          "changedDate": "2026-10-16T17:03:48Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354734,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167741,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 21000,
+          "type": "OT_YES",
+          "betOfferId": 2703354734,
+          "changedDate": "2026-10-16T17:40:06Z",
+          "oddsFractional": "20/1",
+          "oddsAmerican": "2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167743,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1010,
+          "type": "OT_NO",
+          "betOfferId": 2703354734,
+          "changedDate": "2026-10-16T17:40:06Z",
+          "oddsFractional": "1/100",
+          "oddsAmerican": "-10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354737,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167748,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1400,
+          "line": 22500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354737,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167749,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 3000,
+          "line": -22500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354737,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354738,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167750,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2700,
+          "line": 7500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354738,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167751,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1480,
+          "line": -7500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354738,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354739,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167752,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1560,
+          "line": 19500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354739,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167753,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2480,
+          "line": -19500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354739,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354740,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167754,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1430,
+          "line": 21500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354740,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167755,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2880,
+          "line": -21500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354740,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "15/8",
+          "oddsAmerican": "188",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354741,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167756,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2080,
+          "line": 13000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354741,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167757,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1770,
+          "line": -13000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354741,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354742,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167758,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1520,
+          "line": 20000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354742,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167759,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2600,
+          "line": -20000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354742,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354744,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167762,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1700,
+          "line": 17000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354744,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167763,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2180,
+          "line": -17000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354744,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354745,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167764,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 2400,
+          "line": 10000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354745,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167765,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 1600,
+          "line": -10000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354745,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354746,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167766,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1620,
+          "line": 18000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354746,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167767,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2330,
+          "line": -18000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354746,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354747,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167768,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1570,
+          "line": 19000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354747,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167769,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2450,
+          "line": -19000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354747,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703354748,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373167770,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1410,
+          "line": 22000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703354748,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373167771,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 2950,
+          "line": -22000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703354748,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703407252,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373324886,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1280,
+          "line": 25500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703407252,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373324887,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 3800,
+          "line": -25500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703407252,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703407253,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373324888,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1260,
+          "line": 26000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703407253,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373324889,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 3950,
+          "line": -26000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703407253,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "29/10",
+          "oddsAmerican": "295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703413108,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373327745,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1300,
+          "line": 24500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703413108,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373327746,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 3550,
+          "line": -24500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703413108,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703413109,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373327747,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1360,
+          "line": 23500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703413109,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-278",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373327748,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 3200,
+          "line": -23500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703413109,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703413110,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373327749,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1320,
+          "line": 24000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703413110,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373327750,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 3450,
+          "line": -24000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703413110,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703413111,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4373327751,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1280,
+          "line": 25000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2703413111,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373327752,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 3750,
+          "line": -25000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2703413111,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704022747,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Hawai’i",
+        "englishLabel": "Total Points by Hawaii Rainbow Warriors - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4375331932,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1770,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2704022747,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4375331933,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1900,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704022747,
+          "changedDate": "2026-10-16T23:39:59Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704051447,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4375299148,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1450,
+          "line": 38500,
+          "type": "OT_OVER",
+          "betOfferId": 2704051447,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4375299149,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2800,
+          "line": 38500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704051447,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704761075,
+      "closed": "2026-10-18T02:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4377637852,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1230,
+          "line": 27000,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2704761075,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "2/9",
+          "oddsAmerican": "-435",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377637853,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 4300,
+          "line": -27000,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2704761075,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "33/10",
+          "oddsAmerican": "330",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704766942,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028202619,
+      "outcomes": [
+        {
+          "id": 4377616706,
+          "label": "Hawai’i",
+          "englishLabel": "Hawaii Rainbow Warriors",
+          "odds": 1250,
+          "line": 26500,
+          "participant": "Hawai’i",
+          "type": "OT_ONE",
+          "betOfferId": 2704766942,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000060175,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377616707,
+          "label": "New Mexico",
+          "englishLabel": "New Mexico Lobos",
+          "odds": 4000,
+          "line": -26500,
+          "participant": "New Mexico",
+          "type": "OT_TWO",
+          "betOfferId": 2704766942,
+          "changedDate": "2026-10-16T23:40:00Z",
+          "participantId": 1000071351,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1028202619,
+      "name": "New Mexico @ Hawai’i",
+      "nameDelimiter": "@",
+      "englishName": "Hawaii Rainbow Warriors - New Mexico Lobos",
+      "homeName": "Hawai’i",
+      "awayName": "New Mexico",
+      "start": "2026-10-18T02:30:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 85,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1000060175,
+          "name": "Hawai’i",
+          "englishName": "Hawaii Rainbow Warriors",
+          "termKey": "hawaii_rainbow_warriors",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000071351,
+          "name": "New Mexico",
+          "englishName": "New Mexico Lobos",
+          "termKey": "new_mexico_lobos",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-18T02:30:00Z"
+    }
+  ],
+  "prePacks": []
+}

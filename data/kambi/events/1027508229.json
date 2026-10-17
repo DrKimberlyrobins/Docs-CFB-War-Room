@@ -1,0 +1,4788 @@
+{
+  "generatedAt": "2026-10-17T07:13:56.608Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1027508229",
+    "name": "Northern Illinois @ Wyoming",
+    "away": "Northern Illinois",
+    "home": "Wyoming",
+    "start": "2026-10-17T19:30:00Z"
+  },
+  "counts": {
+    "betOffers": 79,
+    "events": 1,
+    "prePacks": 0
+  },
+  "betOffers": [
+    {
+      "id": 2702706946,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4371097070,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2170,
+          "line": 39500,
+          "type": "OT_UNDER",
+          "betOfferId": 2702706946,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4371097071,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1710,
+          "line": 39500,
+          "type": "OT_OVER",
+          "betOfferId": 2702706946,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702712674,
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4371080117,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1290,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2702712674,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371080118,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3600,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2702712674,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702720879,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4371085295,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1840,
+          "line": -7000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2702720879,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371085296,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1980,
+          "line": 7000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2702720879,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702720880,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4371085297,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1940,
+          "line": -7500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2702720880,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "23/25",
+          "oddsAmerican": "-107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371085298,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1890,
+          "line": 7500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2702720880,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702720881,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4371085299,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1770,
+          "line": -6500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2702720881,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371085300,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2080,
+          "line": 6500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2702720881,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702720882,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4371085301,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1710,
+          "line": -6000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2702720882,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4371085302,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2170,
+          "line": 6000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2702720882,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702720883,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4371085303,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2020,
+          "line": 40500,
+          "type": "OT_UNDER",
+          "betOfferId": 2702720883,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4371085304,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1810,
+          "line": 40500,
+          "type": "OT_OVER",
+          "betOfferId": 2702720883,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703024804,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4372172585,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2000,
+          "line": -8000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703024804,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372172586,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1840,
+          "line": 8000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703024804,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "5/6",
+          "oddsAmerican": "-120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703049754,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4372178253,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2060,
+          "line": -8500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703049754,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372178254,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1790,
+          "line": 8500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703049754,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-127",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703079665,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4372225090,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2080,
+          "line": -9000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703079665,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372225091,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1770,
+          "line": 9000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703079665,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703082628,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4372245225,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2120,
+          "line": -9500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703082628,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372245226,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1740,
+          "line": 9500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703082628,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328691,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095916,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1640,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703328691,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373095917,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2280,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2703328691,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328692,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095918,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2430,
+          "line": 37500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703328692,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373095919,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 37500,
+          "type": "OT_OVER",
+          "betOfferId": 2703328692,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328693,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Wyoming to score first and win",
+        "englishLabel": "Wyoming Cowboys to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095924,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1820,
+          "type": "OT_YES",
+          "betOfferId": 2703328693,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095927,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1850,
+          "type": "OT_NO",
+          "betOfferId": 2703328693,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328694,
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095921,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1860,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2703328694,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095922,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1890,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703328694,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328695,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095932,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3100,
+          "type": "OT_YES",
+          "betOfferId": 2703328695,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095937,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1300,
+          "type": "OT_NO",
+          "betOfferId": 2703328695,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328696,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Wyoming to Score in Both Halves",
+        "englishLabel": "Wyoming Cowboys to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095940,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1050,
+          "type": "OT_YES",
+          "betOfferId": 2703328696,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "oddsFractional": "1/20",
+          "oddsAmerican": "-2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095943,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 8000,
+          "type": "OT_NO",
+          "betOfferId": 2703328696,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328698,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Wyoming",
+        "englishLabel": "Total Points by Wyoming Cowboys - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095946,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1810,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2703328698,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095947,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703328698,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328699,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Wyoming to Score in every Quarter - Regular Time",
+        "englishLabel": "Wyoming Cowboys to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095952,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2430,
+          "type": "OT_YES",
+          "betOfferId": 2703328699,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095957,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1470,
+          "type": "OT_NO",
+          "betOfferId": 2703328699,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328700,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "Northern Illinois to score first and win",
+        "englishLabel": "Northern Illinois Huskies to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095960,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4900,
+          "type": "OT_YES",
+          "betOfferId": 2703328700,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "390",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095963,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1130,
+          "type": "OT_NO",
+          "betOfferId": 2703328700,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "oddsFractional": "1/8",
+          "oddsAmerican": "-770",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328701,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Wyoming - 1st Half",
+        "englishLabel": "Total Points by Wyoming Cowboys - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095964,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 12500,
+          "type": "OT_OVER",
+          "betOfferId": 2703328701,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095965,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2020,
+          "line": 12500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703328701,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328702,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095966,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1750,
+          "type": "OT_ODD",
+          "betOfferId": 2703328702,
+          "changedDate": "2026-10-16T22:50:11Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095967,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 1930,
+          "type": "OT_EVEN",
+          "betOfferId": 2703328702,
+          "changedDate": "2026-10-16T22:50:11Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328704,
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095970,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1370,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703328704,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095971,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703328704,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328708,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095978,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2430,
+          "line": -11500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703328708,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095979,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1580,
+          "line": 11500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703328708,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328709,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095980,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1530,
+          "line": -3500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703328709,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095981,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2550,
+          "line": 3500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703328709,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328710,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095982,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1380,
+          "line": -2500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703328710,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095983,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3100,
+          "line": 2500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703328710,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328711,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095984,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1610,
+          "line": -4500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703328711,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095985,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2350,
+          "line": 4500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703328711,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328712,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095986,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2230,
+          "line": -10000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703328712,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095987,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1680,
+          "line": 10000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703328712,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328713,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095988,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1430,
+          "line": -3000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703328713,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095989,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2900,
+          "line": 3000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703328713,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328714,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095990,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2480,
+          "line": -12000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703328714,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095991,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1560,
+          "line": 12000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703328714,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328715,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095992,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1300,
+          "line": -1000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703328715,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095993,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3600,
+          "line": 1000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703328715,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328716,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373095994,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1350,
+          "line": -2000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703328716,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373095995,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3300,
+          "line": 2000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703328716,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703328794,
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373096156,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2230,
+          "line": 7500,
+          "type": "OT_OVER",
+          "betOfferId": 2703328794,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373096157,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1610,
+          "line": 7500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703328794,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342428,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082501,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1920,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703342428,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373082502,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1910,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2703342428,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342429,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082503,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1680,
+          "line": -3500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342429,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082504,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2100,
+          "line": 3500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342429,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342430,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082505,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2650,
+          "line": 36500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703342430,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373082506,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1500,
+          "line": 36500,
+          "type": "OT_OVER",
+          "betOfferId": 2703342430,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342431,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by Northern Illinois",
+        "englishLabel": "Total Points by Northern Illinois Huskies - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082507,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 16500,
+          "type": "OT_OVER",
+          "betOfferId": 2703342431,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082508,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 16500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703342431,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342434,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082525,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1530,
+          "line": -2500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342434,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082526,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2400,
+          "line": 2500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342434,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342436,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082529,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2320,
+          "line": 38500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703342436,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373082530,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1630,
+          "line": 38500,
+          "type": "OT_OVER",
+          "betOfferId": 2703342436,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342438,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159733,
+        "label": "1st Half (3-way)",
+        "englishLabel": "1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082533,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1460,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342438,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082534,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 10500,
+          "type": "OT_CROSS",
+          "betOfferId": 2703342438,
+          "changedDate": "2026-10-16T22:50:14Z",
+          "oddsFractional": "19/2",
+          "oddsAmerican": "950",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373082535,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3250,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342438,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342441,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001377298,
+        "label": "Quarter 1 (3-way)",
+        "englishLabel": "Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082540,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1920,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342441,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082541,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 3800,
+          "type": "OT_CROSS",
+          "betOfferId": 2703342441,
+          "changedDate": "2026-10-16T23:30:00Z",
+          "oddsFractional": "14/5",
+          "oddsAmerican": "280",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373082542,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3250,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342441,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342444,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082547,
+          "label": "Home Team Touchdown",
+          "englishLabel": "Home Team Touchdown",
+          "odds": 2650,
+          "participant": "Wyoming",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703342444,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        },
+        {
+          "id": 4373082548,
+          "label": "Home Team Field Goal",
+          "englishLabel": "Home Team Field Goal",
+          "odds": 3550,
+          "participant": "Wyoming",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703342444,
+          "changedDate": "2026-10-16T22:50:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "5/2",
+          "oddsAmerican": "255",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4373082549,
+          "label": "Home Team Safety",
+          "englishLabel": "Home Team Safety",
+          "odds": 91000,
+          "participant": "Wyoming",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703342444,
+          "changedDate": "2026-10-16T22:50:14Z",
+          "participantId": 1000061108,
+          "oddsFractional": "90/1",
+          "oddsAmerican": "9000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4373082550,
+          "label": "Away Team Field Goal",
+          "englishLabel": "Away Team Field Goal",
+          "odds": 4000,
+          "participant": "Northern Illinois",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703342444,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "300",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          }
+        },
+        {
+          "id": 4373082551,
+          "label": "Away Team Safety",
+          "englishLabel": "Away Team Safety",
+          "odds": 101000,
+          "participant": "Northern Illinois",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703342444,
+          "changedDate": "2026-10-16T22:50:14Z",
+          "participantId": 1000064347,
+          "oddsFractional": "100/1",
+          "oddsAmerican": "10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "SAFETY",
+            "occurrenceTypeLabel": "Safety"
+          }
+        },
+        {
+          "id": 4373082552,
+          "label": "Away Team Touchdown",
+          "englishLabel": "Away Team Touchdown",
+          "odds": 4800,
+          "participant": "Northern Illinois",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2703342444,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "19/5",
+          "oddsAmerican": "380",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          }
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342445,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082555,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 1620,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2703342445,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082558,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 46000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2703342445,
+          "changedDate": "2026-10-16T22:50:14Z",
+          "oddsFractional": "45/1",
+          "oddsAmerican": "4500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373082561,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 13000,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2703342445,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "12/1",
+          "oddsAmerican": "1200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4373082564,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 17000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2703342445,
+          "changedDate": "2026-10-16T22:50:14Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4373082567,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 101000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2703342445,
+          "changedDate": "2026-10-16T22:50:14Z",
+          "oddsFractional": "100/1",
+          "oddsAmerican": "10000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4373082570,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 31000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2703342445,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "30/1",
+          "oddsAmerican": "3000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4373082573,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 8000,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2703342445,
+          "changedDate": "2026-10-16T22:50:14Z",
+          "oddsFractional": "7/1",
+          "oddsAmerican": "700",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4373082576,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 41000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2703342445,
+          "changedDate": "2026-10-16T22:50:14Z",
+          "oddsFractional": "40/1",
+          "oddsAmerican": "4000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4373082579,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 5300,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2703342445,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "17/4",
+          "oddsAmerican": "430",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342446,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082580,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1290,
+          "line": 500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342446,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082581,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3650,
+          "line": -500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342446,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342447,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082582,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2700,
+          "line": -13500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342447,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082583,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1480,
+          "line": 13500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342447,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342448,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082584,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2300,
+          "line": -10500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342448,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082585,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1640,
+          "line": 10500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342448,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342449,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082586,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 3000,
+          "line": -14500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342449,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082587,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1400,
+          "line": 14500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342449,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342450,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082588,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1290,
+          "line": -500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342450,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082589,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3650,
+          "line": 500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342450,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "13/5",
+          "oddsAmerican": "265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342451,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082590,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 3150,
+          "line": -15500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342451,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082591,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1370,
+          "line": 15500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342451,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342452,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082592,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1260,
+          "line": 1500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342452,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082593,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3900,
+          "line": -1500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342452,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "29/10",
+          "oddsAmerican": "290",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342453,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082594,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2380,
+          "line": -11000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342453,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082595,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1600,
+          "line": 11000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342453,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-167",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342454,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082596,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2900,
+          "line": -14000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342454,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082597,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1430,
+          "line": 14000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342454,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342455,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082598,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1270,
+          "line": 1000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342455,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082599,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3850,
+          "line": -1000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342455,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "14/5",
+          "oddsAmerican": "285",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703342456,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373082600,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1240,
+          "line": 2000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703342456,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "6/25",
+          "oddsAmerican": "-420",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373082601,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 4100,
+          "line": -2000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703342456,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "3/1",
+          "oddsAmerican": "310",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351205,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119160,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1730,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703351205,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373119161,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2140,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2703351205,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351206,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002471599,
+        "label": "Northern Illinois to win both halves",
+        "englishLabel": "Northern Illinois Huskies to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119164,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 8500,
+          "type": "OT_YES",
+          "betOfferId": 2703351206,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119167,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1040,
+          "type": "OT_NO",
+          "betOfferId": 2703351206,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "oddsFractional": "1/25",
+          "oddsAmerican": "-2500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351207,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119168,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1890,
+          "line": -5500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351207,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119169,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1850,
+          "line": 5500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351207,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351208,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119170,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1850,
+          "line": -4500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351208,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119171,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1890,
+          "line": 4500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351208,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351209,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002471598,
+        "label": "Wyoming to win both halves",
+        "englishLabel": "Wyoming Cowboys to win both halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119174,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2280,
+          "type": "OT_YES",
+          "betOfferId": 2703351209,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119177,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1530,
+          "type": "OT_NO",
+          "betOfferId": 2703351209,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351210,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119178,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703351210,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373119179,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1980,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2703351210,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "49/50",
+          "oddsAmerican": "-103",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351212,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "Northern Illinois to Score in every Quarter - Regular Time",
+        "englishLabel": "Northern Illinois Huskies to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119186,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4800,
+          "type": "OT_YES",
+          "betOfferId": 2703351212,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "19/5",
+          "oddsAmerican": "380",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119191,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1130,
+          "type": "OT_NO",
+          "betOfferId": 2703351212,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "1/8",
+          "oddsAmerican": "-770",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351213,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002230996,
+        "label": "To go into Overtime",
+        "englishLabel": "To go into Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119193,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 16000,
+          "type": "OT_YES",
+          "betOfferId": 2703351213,
+          "changedDate": "2026-10-16T22:50:14Z",
+          "oddsFractional": "15/1",
+          "oddsAmerican": "1500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119195,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1020,
+          "type": "OT_NO",
+          "betOfferId": 2703351213,
+          "changedDate": "2026-10-16T22:50:14Z",
+          "oddsFractional": "1/50",
+          "oddsAmerican": "-5000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351216,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by Northern Illinois - 1st Half",
+        "englishLabel": "Total Points by Northern Illinois Huskies - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119201,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1950,
+          "line": 7500,
+          "type": "OT_OVER",
+          "betOfferId": 2703351216,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119202,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1730,
+          "line": 7500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703351216,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351217,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119203,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351217,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119204,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2550,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351217,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351218,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119205,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1300,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351218,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "3/10",
+          "oddsAmerican": "-335",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119206,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 17000,
+          "type": "OT_CROSS",
+          "betOfferId": 2703351218,
+          "changedDate": "2026-10-16T23:30:00Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373119207,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3750,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351218,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "11/4",
+          "oddsAmerican": "275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351219,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119208,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1440,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351219,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119209,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2550,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351219,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "31/20",
+          "oddsAmerican": "155",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2703351220,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "Northern Illinois to Score in Both Halves",
+        "englishLabel": "Northern Illinois Huskies to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119212,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1270,
+          "type": "OT_YES",
+          "betOfferId": 2703351220,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "27/100",
+          "oddsAmerican": "-375",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119215,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 3250,
+          "type": "OT_NO",
+          "betOfferId": 2703351220,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351221,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119216,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1670,
+          "line": -5500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351221,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119217,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2230,
+          "line": 5500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351221,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351222,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119218,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1340,
+          "line": -1500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351222,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119219,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 3350,
+          "line": 1500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351222,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351224,
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119222,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2500,
+          "line": -12500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351224,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119223,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1540,
+          "line": 12500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351224,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351225,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119224,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 3100,
+          "line": -15000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351225,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "21/10",
+          "oddsAmerican": "210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119225,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1380,
+          "line": 15000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351225,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351226,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119226,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1560,
+          "line": -4000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351226,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119227,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2480,
+          "line": 4000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351226,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351227,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119228,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1640,
+          "line": -5000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351227,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "16/25",
+          "oddsAmerican": "-157",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119229,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 2300,
+          "line": 5000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351227,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351228,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119230,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 3300,
+          "line": -16000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351228,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119231,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1340,
+          "line": 16000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351228,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351229,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119232,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2630,
+          "line": -13000,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351229,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119233,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1500,
+          "line": 13000,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351229,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703351303,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4373119411,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 1910,
+          "line": -500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2703351303,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373119410,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1830,
+          "line": 500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2703351303,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704499813,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4376892349,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2040,
+          "line": -6500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2704499813,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "26/25",
+          "oddsAmerican": "104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4376892350,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1730,
+          "line": 6500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2704499813,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704499814,
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4376892351,
+          "label": "Wyoming",
+          "englishLabel": "Wyoming Cowboys",
+          "odds": 2380,
+          "line": -7500,
+          "participant": "Wyoming",
+          "type": "OT_ONE",
+          "betOfferId": 2704499814,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000061108,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4376892352,
+          "label": "Northern Illinois",
+          "englishLabel": "Northern Illinois Huskies",
+          "odds": 1540,
+          "line": 7500,
+          "participant": "Northern Illinois",
+          "type": "OT_TWO",
+          "betOfferId": 2704499814,
+          "changedDate": "2026-10-17T01:56:07Z",
+          "participantId": 1000064347,
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704522852,
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027508229,
+      "outcomes": [
+        {
+          "id": 4376920812,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1580,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704522852,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4376920813,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2400,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2704522852,
+          "changedDate": "2026-10-17T04:35:18Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "OFFERED_LIVE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1027508229,
+      "name": "Northern Illinois @ Wyoming",
+      "nameDelimiter": "@",
+      "englishName": "Wyoming Cowboys - Northern Illinois Huskies",
+      "homeName": "Wyoming",
+      "awayName": "Northern Illinois",
+      "start": "2026-10-17T19:30:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 79,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1000061108,
+          "name": "Wyoming",
+          "englishName": "Wyoming Cowboys",
+          "termKey": "wyoming_cowboys",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000064347,
+          "name": "Northern Illinois",
+          "englishName": "Northern Illinois Huskies",
+          "termKey": "northern_illinois_huskies",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-17T19:30:00Z"
+    }
+  ],
+  "prePacks": []
+}

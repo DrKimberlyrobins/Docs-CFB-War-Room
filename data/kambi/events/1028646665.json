@@ -1,0 +1,311 @@
+{
+  "generatedAt": "2026-10-17T07:14:02.741Z",
+  "source": "Kambi",
+  "league": "NCAAF",
+  "event": {
+    "id": "1028646665",
+    "name": "Elon @ Stanford",
+    "away": "Elon",
+    "home": "Stanford",
+    "start": "2026-10-17T23:30:00Z"
+  },
+  "counts": {
+    "betOffers": 4,
+    "events": 1,
+    "prePacks": 0
+  },
+  "betOffers": [
+    {
+      "id": 2704643864,
+      "closed": "2026-10-17T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028646665,
+      "outcomes": [
+        {
+          "id": 4377348791,
+          "label": "Stanford",
+          "englishLabel": "Stanford Cardinal",
+          "odds": 1900,
+          "line": -35500,
+          "participant": "Stanford",
+          "type": "OT_ONE",
+          "betOfferId": 2704643864,
+          "changedDate": "2026-10-16T15:23:53Z",
+          "participantId": 1000058806,
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377348792,
+          "label": "Elon",
+          "englishLabel": "Elon Phoenix",
+          "odds": 1920,
+          "line": 35500,
+          "participant": "Elon",
+          "type": "OT_TWO",
+          "betOfferId": 2704643864,
+          "changedDate": "2026-10-16T15:23:53Z",
+          "participantId": 1001321576,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-109",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704668037,
+      "closed": "2026-10-17T23:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1028646665,
+      "outcomes": [
+        {
+          "id": 4377375032,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1910,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2704668037,
+          "changedDate": "2026-10-16T15:23:53Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377375033,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1910,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2704668037,
+          "changedDate": "2026-10-16T15:23:53Z",
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-110",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704687537,
+      "closed": "2026-10-17T23:30:00Z",
+      "criterion": {
+        "id": 1001159990,
+        "label": "Moneyline",
+        "englishLabel": "Moneyline - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1028646665,
+      "outcomes": [
+        {
+          "id": 4377389301,
+          "label": "Stanford",
+          "englishLabel": "Stanford Cardinal",
+          "participant": "Stanford",
+          "type": "OT_ONE",
+          "betOfferId": 2704687537,
+          "changedDate": "2026-10-16T15:23:53Z",
+          "participantId": 1000058806,
+          "status": "SUSPENDED",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377389302,
+          "label": "Elon",
+          "englishLabel": "Elon Phoenix",
+          "odds": 25000,
+          "participant": "Elon",
+          "type": "OT_TWO",
+          "betOfferId": 2704687537,
+          "changedDate": "2026-10-16T15:23:53Z",
+          "participantId": 1001321576,
+          "oddsFractional": "24/1",
+          "oddsAmerican": "2400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER",
+        "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2704715069,
+      "closed": "2026-10-17T23:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1028646665,
+      "outcomes": [
+        {
+          "id": 4377476795,
+          "label": "Stanford",
+          "englishLabel": "Stanford Cardinal",
+          "odds": 1850,
+          "line": -35000,
+          "participant": "Stanford",
+          "type": "OT_ONE",
+          "betOfferId": 2704715069,
+          "changedDate": "2026-10-16T15:23:53Z",
+          "participantId": 1000058806,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4377476796,
+          "label": "Elon",
+          "englishLabel": "Elon Phoenix",
+          "odds": 1970,
+          "line": 35000,
+          "participant": "Elon",
+          "type": "OT_TWO",
+          "betOfferId": 2704715069,
+          "changedDate": "2026-10-16T15:23:53Z",
+          "participantId": 1001321576,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    }
+  ],
+  "events": [
+    {
+      "id": 1028646665,
+      "name": "Elon @ Stanford",
+      "nameDelimiter": "@",
+      "englishName": "Stanford Cardinal - Elon Phoenix",
+      "homeName": "Stanford",
+      "awayName": "Elon",
+      "start": "2026-10-17T23:30:00Z",
+      "group": "NCAAF",
+      "groupId": 1000093655,
+      "path": [
+        {
+          "id": 1000093199,
+          "name": "Football",
+          "englishName": "American Football",
+          "termKey": "american_football"
+        },
+        {
+          "id": 1000093655,
+          "name": "NCAAF",
+          "englishName": "NCAAF",
+          "termKey": "ncaaf"
+        }
+      ],
+      "nonLiveBoCount": 4,
+      "sport": "AMERICAN_FOOTBALL",
+      "tags": [
+        "AMERICAN_DISPLAY_FORMAT",
+        "AWAY_HOME",
+        "OFFERED_LIVE",
+        "BET_BUILDER",
+        "MATCH"
+      ],
+      "state": "NOT_STARTED",
+      "participants": [
+        {
+          "participantId": 1001321576,
+          "name": "Elon",
+          "englishName": "Elon Phoenix",
+          "termKey": "elon_phoenix",
+          "scratched": false,
+          "nonRunner": false,
+          "home": false,
+          "participantType": "TEAM"
+        },
+        {
+          "participantId": 1000058806,
+          "name": "Stanford",
+          "englishName": "Stanford Cardinal",
+          "termKey": "stanford_cardinal",
+          "scratched": false,
+          "nonRunner": false,
+          "home": true,
+          "participantType": "TEAM"
+        }
+      ],
+      "groupSortOrder": 1003000000000000000,
+      "prematchEnd": "2026-10-17T23:30:00Z"
+    }
+  ],
+  "prePacks": []
+}

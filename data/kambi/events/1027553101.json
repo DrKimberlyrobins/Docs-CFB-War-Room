@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T22:55:51.222Z",
+  "generatedAt": "2026-10-17T07:13:57.634Z",
   "source": "Kambi",
   "league": "NCAAF",
   "event": {
@@ -10,11 +10,354 @@
     "start": "2026-10-17T19:30:00Z"
   },
   "counts": {
-    "betOffers": 4,
+    "betOffers": 112,
     "events": 1,
     "prePacks": 2
   },
   "betOffers": [
+    {
+      "id": 2701524749,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367289280,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1340,
+          "line": 55500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701524749,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367289281,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3200,
+          "line": 55500,
+          "type": "OT_OVER",
+          "betOfferId": 2701524749,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701524750,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367289282,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1580,
+          "line": 1000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2701524750,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367289283,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2320,
+          "line": -1000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2701524750,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701524753,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367289288,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1890,
+          "line": -3000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2701524753,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367289289,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1930,
+          "line": 3000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2701524753,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "10/11",
+          "oddsAmerican": "-108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701524755,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367289292,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1480,
+          "line": 52500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701524755,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367289293,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2650,
+          "line": 52500,
+          "type": "OT_OVER",
+          "betOfferId": 2701524755,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "33/20",
+          "oddsAmerican": "165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701524759,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367289300,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1660,
+          "line": 49500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701524759,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367289301,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2250,
+          "line": 49500,
+          "type": "OT_OVER",
+          "betOfferId": 2701524759,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701553802,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367269189,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1550,
+          "line": 1500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2701553802,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367269190,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2350,
+          "line": -1500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2701553802,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
     {
       "id": 2701553803,
       "closed": "2026-10-17T19:30:00Z",
@@ -37,14 +380,14 @@
           "id": 4367269191,
           "label": "Duke",
           "englishLabel": "Duke Blue Devils",
-          "odds": 1500,
+          "odds": 1620,
           "participant": "Duke",
           "type": "OT_ONE",
           "betOfferId": 2701553803,
-          "changedDate": "2026-10-08T19:25:42Z",
+          "changedDate": "2026-10-16T19:23:55Z",
           "participantId": 1000006061,
-          "oddsFractional": "1/2",
-          "oddsAmerican": "-200",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-162",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -53,14 +396,14 @@
           "id": 4367269192,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 2600,
+          "odds": 2300,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2701553803,
-          "changedDate": "2026-10-08T19:25:42Z",
+          "changedDate": "2026-10-16T19:23:55Z",
           "participantId": 1000025215,
-          "oddsFractional": "8/5",
-          "oddsAmerican": "160",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -70,6 +413,348 @@
         "OFFERED_PREMATCH",
         "BET_BUILDER",
         "MAIN"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701553805,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367269195,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1780,
+          "line": -2500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2701553805,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367269196,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2050,
+          "line": 2500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2701553805,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701553807,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367269199,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1730,
+          "line": -2000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2701553807,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367269200,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2140,
+          "line": 2000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2701553807,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701553808,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367269201,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1530,
+          "line": 51500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701553808,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367269202,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2500,
+          "line": 51500,
+          "type": "OT_OVER",
+          "betOfferId": 2701553808,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701553815,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367269216,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 2060,
+          "line": -4000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2701553815,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367269217,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1760,
+          "line": 4000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2701553815,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701553816,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367269218,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1730,
+          "line": 48500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701553816,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367269219,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2120,
+          "line": 48500,
+          "type": "OT_OVER",
+          "betOfferId": 2701553816,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701553817,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367269220,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1810,
+          "line": 47500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701553817,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-124",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367269221,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 47500,
+          "type": "OT_OVER",
+          "betOfferId": 2701553817,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
     },
@@ -95,15 +780,15 @@
           "id": 4367269222,
           "label": "Duke",
           "englishLabel": "Duke Blue Devils",
-          "odds": 1930,
+          "odds": 2170,
           "line": -5000,
           "participant": "Duke",
           "type": "OT_ONE",
           "betOfferId": 2701553818,
-          "changedDate": "2026-10-08T19:25:42Z",
+          "changedDate": "2026-10-16T19:23:55Z",
           "participantId": 1000006061,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "117",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -112,15 +797,15 @@
           "id": 4367269223,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 1890,
+          "odds": 1680,
           "line": 5000,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2701553818,
-          "changedDate": "2026-10-08T19:25:42Z",
+          "changedDate": "2026-10-16T19:23:55Z",
           "participantId": 1000025215,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -128,7 +813,6 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
-        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -155,13 +839,13 @@
           "id": 4367269224,
           "label": "Under",
           "englishLabel": "Under",
-          "odds": 1930,
+          "odds": 1920,
           "line": 46500,
           "type": "OT_UNDER",
           "betOfferId": 2701553819,
-          "changedDate": "2026-10-08T19:25:42Z",
+          "changedDate": "2026-10-16T19:23:55Z",
           "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "oddsAmerican": "-109",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -170,13 +854,13 @@
           "id": 4367269225,
           "label": "Over",
           "englishLabel": "Over",
-          "odds": 1890,
+          "odds": 1900,
           "line": 46500,
           "type": "OT_OVER",
           "betOfferId": 2701553819,
-          "changedDate": "2026-10-08T19:25:42Z",
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "9/10",
+          "oddsAmerican": "-112",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -185,6 +869,175 @@
       "tags": [
         "OFFERED_PREMATCH",
         "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701559403,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367304064,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1440,
+          "line": 53500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701559403,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/25",
+          "oddsAmerican": "-230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367304065,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2800,
+          "line": 53500,
+          "type": "OT_OVER",
+          "betOfferId": 2701559403,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "9/5",
+          "oddsAmerican": "180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701559404,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367304066,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1610,
+          "line": 50500,
+          "type": "OT_UNDER",
+          "betOfferId": 2701559404,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4367304067,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2350,
+          "line": 50500,
+          "type": "OT_OVER",
+          "betOfferId": 2701559404,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2701559408,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4367304074,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 2020,
+          "line": -3500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2701559408,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4367304075,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1820,
+          "line": 3500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2701559408,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-122",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -211,15 +1064,15 @@
           "id": 4367304076,
           "label": "Duke",
           "englishLabel": "Duke Blue Devils",
-          "odds": 1890,
+          "odds": 2150,
           "line": -4500,
           "participant": "Duke",
           "type": "OT_ONE",
           "betOfferId": 2701559409,
-          "changedDate": "2026-10-08T19:25:42Z",
+          "changedDate": "2026-10-16T19:23:55Z",
           "participantId": 1000006061,
-          "oddsFractional": "22/25",
-          "oddsAmerican": "-113",
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 0
@@ -228,15 +1081,15 @@
           "id": 4367304077,
           "label": "North Carolina",
           "englishLabel": "North Carolina Tar Heels",
-          "odds": 1930,
+          "odds": 1710,
           "line": 4500,
           "participant": "North Carolina",
           "type": "OT_TWO",
           "betOfferId": 2701559409,
-          "changedDate": "2026-10-08T19:25:42Z",
+          "changedDate": "2026-10-16T19:23:55Z",
           "participantId": 1000025215,
-          "oddsFractional": "10/11",
-          "oddsAmerican": "-108",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
           "status": "OPEN",
           "cashOutStatus": "ENABLED",
           "displayOrder": 1
@@ -244,6 +1097,5475 @@
       ],
       "tags": [
         "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997362,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1005347341,
+        "label": "First to 25 points (Tie: Neither Team to reach 25)",
+        "englishLabel": "First to 25 Points (Draw: No Teams to Reach 25) - Including Overtime",
+        "order": [
+          25
+        ],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 25
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052498,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 2630,
+          "type": "OT_CROSS",
+          "betOfferId": 2702997362,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372052499,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 2280,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2702997362,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372052500,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 3300,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2702997362,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997363,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001472501,
+        "label": "Half Time/Full Time - End of 4th Quarter",
+        "englishLabel": "Half Time/Full Time - End of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 8,
+        "name": "HT/FT",
+        "englishName": "HT/FT"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052503,
+          "label": "1/1",
+          "englishLabel": "1/1",
+          "odds": 2000,
+          "type": "OT_ONE_ONE",
+          "betOfferId": 2702997363,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372052506,
+          "label": "1/X",
+          "englishLabel": "1/X",
+          "odds": 29000,
+          "type": "OT_ONE_CROSS",
+          "betOfferId": 2702997363,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "28/1",
+          "oddsAmerican": "2800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372052509,
+          "label": "1/2",
+          "englishLabel": "1/2",
+          "odds": 8500,
+          "type": "OT_ONE_TWO",
+          "betOfferId": 2702997363,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "15/2",
+          "oddsAmerican": "750",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        },
+        {
+          "id": 4372052512,
+          "label": "X/1",
+          "englishLabel": "X/1",
+          "odds": 17000,
+          "type": "OT_CROSS_ONE",
+          "betOfferId": 2702997363,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "16/1",
+          "oddsAmerican": "1600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 3
+        },
+        {
+          "id": 4372052515,
+          "label": "X/X",
+          "englishLabel": "X/X",
+          "odds": 61000,
+          "type": "OT_CROSS_CROSS",
+          "betOfferId": 2702997363,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "60/1",
+          "oddsAmerican": "6000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 4
+        },
+        {
+          "id": 4372052518,
+          "label": "X/2",
+          "englishLabel": "X/2",
+          "odds": 21000,
+          "type": "OT_CROSS_TWO",
+          "betOfferId": 2702997363,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "20/1",
+          "oddsAmerican": "2000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 5
+        },
+        {
+          "id": 4372052521,
+          "label": "2/1",
+          "englishLabel": "2/1",
+          "odds": 6750,
+          "type": "OT_TWO_ONE",
+          "betOfferId": 2702997363,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "23/4",
+          "oddsAmerican": "575",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 6
+        },
+        {
+          "id": 4372052524,
+          "label": "2/X",
+          "englishLabel": "2/X",
+          "odds": 29000,
+          "type": "OT_TWO_CROSS",
+          "betOfferId": 2702997363,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "28/1",
+          "oddsAmerican": "2800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 7
+        },
+        {
+          "id": 4372052527,
+          "label": "2/2",
+          "englishLabel": "2/2",
+          "odds": 3000,
+          "type": "OT_TWO_TWO",
+          "betOfferId": 2702997363,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 8
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997364,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052528,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1700,
+          "line": 49000,
+          "type": "OT_UNDER",
+          "betOfferId": 2702997364,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372052529,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2180,
+          "line": 49000,
+          "type": "OT_OVER",
+          "betOfferId": 2702997364,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "59/50",
+          "oddsAmerican": "118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997365,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1005347341,
+        "label": "First to 15 points (Tie: Neither Team to reach 15)",
+        "englishLabel": "First to 15 Points (Draw: No Teams to Reach 15) - Including Overtime",
+        "order": [
+          15
+        ],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 15
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052530,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 19000,
+          "type": "OT_CROSS",
+          "betOfferId": 2702997365,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "18/1",
+          "oddsAmerican": "1800",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372052531,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1660,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2702997365,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372052532,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2140,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2702997365,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "57/50",
+          "oddsAmerican": "114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997366,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393704,
+        "label": "North Carolina to Score in Both Halves",
+        "englishLabel": "North Carolina Tar Heels to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052535,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1170,
+          "type": "OT_YES",
+          "betOfferId": 2702997366,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-590",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372052538,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 4600,
+          "type": "OT_NO",
+          "betOfferId": 2702997366,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "18/5",
+          "oddsAmerican": "360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997367,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159823,
+        "label": "Moneyline - 1st Half",
+        "englishLabel": "Draw No Bet - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052539,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1680,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2702997367,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372052540,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2120,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2702997367,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997368,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1005347341,
+        "label": "First to 30 points (Tie: Neither Team to reach 30)",
+        "englishLabel": "First to 30 Points (Draw: No Teams to Reach 30) - Including Overtime",
+        "order": [
+          30
+        ],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 30
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052541,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 1670,
+          "type": "OT_CROSS",
+          "betOfferId": 2702997368,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372052542,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 3150,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2702997368,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372052543,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 4900,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2702997368,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "19/5",
+          "oddsAmerican": "390",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997369,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052544,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 2250,
+          "line": -5500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2702997369,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372052545,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1650,
+          "line": 5500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2702997369,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997370,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by North Carolina",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052546,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 21500,
+          "type": "OT_OVER",
+          "betOfferId": 2702997370,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372052547,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1870,
+          "line": 21500,
+          "type": "OT_UNDER",
+          "betOfferId": 2702997370,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997371,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052548,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1960,
+          "line": 46000,
+          "type": "OT_UNDER",
+          "betOfferId": 2702997371,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372052549,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1870,
+          "line": 46000,
+          "type": "OT_OVER",
+          "betOfferId": 2702997371,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997372,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052550,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2060,
+          "line": 45000,
+          "type": "OT_UNDER",
+          "betOfferId": 2702997372,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372052552,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1780,
+          "line": 45000,
+          "type": "OT_OVER",
+          "betOfferId": 2702997372,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "10/13",
+          "oddsAmerican": "-129",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997373,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1005347341,
+        "label": "First to 35 points (Tie: Neither Team to reach 35)",
+        "englishLabel": "First to 35 Points (Draw: No Teams to Reach 35) - Including Overtime",
+        "order": [
+          35
+        ],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 35
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052551,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 1190,
+          "type": "OT_CROSS",
+          "betOfferId": 2702997373,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "2/11",
+          "oddsAmerican": "-530",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372052553,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 5750,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2702997373,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "19/4",
+          "oddsAmerican": "475",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372052554,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 9500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2702997373,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "17/2",
+          "oddsAmerican": "850",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2702997374,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393533,
+        "label": "Team to Score 1st Touchdown",
+        "englishLabel": "Team to Score 1st Touchdown - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "TOUCHDOWNS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052555,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1760,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2702997374,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372052556,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2702997374,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2702997376,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001472491,
+        "label": "First Scoring Play",
+        "englishLabel": "First Scoring Play - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "SCORING_PLAY",
+        "occurrenceNumberInLifetime": 1
+      },
+      "betOfferType": {
+        "id": 128,
+        "name": "Occurrence Method",
+        "englishName": "Occurrence Method"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372052559,
+          "label": "North Carolina Touchdown",
+          "englishLabel": "North Carolina Tar Heels Touchdown",
+          "odds": 2850,
+          "participant": "North Carolina",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2702997376,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          },
+          "displayOrder": 4
+        },
+        {
+          "id": 4372052560,
+          "label": "North Carolina Field Goal",
+          "englishLabel": "North Carolina Tar Heels Field Goal",
+          "odds": 6100,
+          "participant": "North Carolina",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2702997376,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "5/1",
+          "oddsAmerican": "510",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          },
+          "displayOrder": 5
+        },
+        {
+          "id": 4372052561,
+          "label": "North Carolina Safety",
+          "englishLabel": "North Carolina Tar Heels Safety",
+          "odds": 76000,
+          "participant": "North Carolina",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2702997376,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "75/1",
+          "oddsAmerican": "7500",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TWO_POINT_SAFETIES",
+            "occurrenceTypeLabel": "Two point safety"
+          },
+          "displayOrder": 6
+        },
+        {
+          "id": 4372052562,
+          "label": "Duke Touchdown",
+          "englishLabel": "Duke Blue Devils Touchdown",
+          "odds": 2500,
+          "participant": "Duke",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2702997376,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TOUCHDOWNS",
+            "occurrenceTypeLabel": "Touchdown"
+          },
+          "displayOrder": 0
+        },
+        {
+          "id": 4372052563,
+          "label": "Duke Field Goal",
+          "englishLabel": "Duke Blue Devils Field Goal",
+          "odds": 5800,
+          "participant": "Duke",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2702997376,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "24/5",
+          "oddsAmerican": "480",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "FIELD_GOALS",
+            "occurrenceTypeLabel": "Field goal"
+          },
+          "displayOrder": 1
+        },
+        {
+          "id": 4372052564,
+          "label": "Duke Safety",
+          "englishLabel": "Duke Blue Devils Safety",
+          "odds": 71000,
+          "participant": "Duke",
+          "type": "OT_OCCURRENCE_METHOD_FIRST",
+          "betOfferId": 2702997376,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "70/1",
+          "oddsAmerican": "7000",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "occurrence": {
+            "occurrenceType": "TWO_POINT_SAFETIES",
+            "occurrenceTypeLabel": "Two point safety"
+          },
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022802,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001377296,
+        "label": "Spread - Quarter 1",
+        "englishLabel": "Handicap - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043565,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 2230,
+          "line": -1500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703022802,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "6/5",
+          "oddsAmerican": "123",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372043567,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1610,
+          "line": 1500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703022802,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022803,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159901,
+        "label": "Total Points - 1st Half",
+        "englishLabel": "Total Points - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043566,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1850,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2703022803,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372043568,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1890,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703022803,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022804,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159841,
+        "label": "Result at end of 4th Quarter",
+        "englishLabel": "Result at end of Quarter 4",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043569,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1660,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703022804,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372043570,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 15000,
+          "type": "OT_CROSS",
+          "betOfferId": 2703022804,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "14/1",
+          "oddsAmerican": "1400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372043571,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2380,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703022804,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022805,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002390403,
+        "label": "Moneyline - Quarter 1",
+        "englishLabel": "Draw No Bet - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043572,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1750,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703022805,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-134",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372043573,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2020,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703022805,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022806,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393703,
+        "label": "Duke to Score in every Quarter - Regular Time",
+        "englishLabel": "Duke Blue Devils to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043578,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3450,
+          "type": "OT_YES",
+          "betOfferId": 2703022806,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372043583,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1280,
+          "type": "OT_NO",
+          "betOfferId": 2703022806,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022807,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043584,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1860,
+          "line": 47000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703022807,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372043585,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1960,
+          "line": 47000,
+          "type": "OT_OVER",
+          "betOfferId": 2703022807,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022808,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043586,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 2330,
+          "line": -6000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703022808,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372043587,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1610,
+          "line": 6000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703022808,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022809,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043588,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1630,
+          "line": 50000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703022809,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "8/13",
+          "oddsAmerican": "-159",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372043589,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2300,
+          "line": 50000,
+          "type": "OT_OVER",
+          "betOfferId": 2703022809,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022810,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001377300,
+        "label": "Total Points - Quarter 1",
+        "englishLabel": "Total Points - Quarter 1",
+        "order": [
+          1
+        ],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043590,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1760,
+          "line": 9500,
+          "type": "OT_OVER",
+          "betOfferId": 2703022810,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372043591,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 9500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703022810,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022811,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393702,
+        "label": "North Carolina to Score in every Quarter - Regular Time",
+        "englishLabel": "North Carolina Tar Heels to Score in every Quarter - Regular Time",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043596,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 4600,
+          "type": "OT_YES",
+          "betOfferId": 2703022811,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "18/5",
+          "oddsAmerican": "360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372043601,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1180,
+          "type": "OT_NO",
+          "betOfferId": 2703022811,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "1/6",
+          "oddsAmerican": "-560",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022812,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Duke",
+        "englishLabel": "Total Points by Duke Blue Devils - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043602,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1950,
+          "line": 25500,
+          "type": "OT_OVER",
+          "betOfferId": 2703022812,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372043603,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 25500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703022812,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022813,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001935119,
+        "label": "Total Points by Duke - 1st Half",
+        "englishLabel": "Total Points by Duke Blue Devils - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043604,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1960,
+          "line": 13500,
+          "type": "OT_OVER",
+          "betOfferId": 2703022813,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-105",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372043605,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 13500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703022813,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703022814,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001935118,
+        "label": "Total Points by North Carolina - 1st Half",
+        "englishLabel": "Total Points by North Carolina Tar Heels - 1st Half",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372043606,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2020,
+          "line": 10500,
+          "type": "OT_OVER",
+          "betOfferId": 2703022814,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "102",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372043607,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1730,
+          "line": 10500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703022814,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-137",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703025664,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393705,
+        "label": "Duke to Score in Both Halves",
+        "englishLabel": "Duke Blue Devils to Score in Both Halves",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372018457,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 1090,
+          "type": "OT_YES",
+          "betOfferId": 2703025664,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "1/12",
+          "oddsAmerican": "-1115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372018464,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 6500,
+          "type": "OT_NO",
+          "betOfferId": 2703025664,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/2",
+          "oddsAmerican": "550",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703025665,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002970941,
+        "label": "First Team to Score",
+        "englishLabel": "First Team to Score - Including Overtime",
+        "order": [
+          1
+        ],
+        "occurrenceType": "SCORING_PLAY",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 1
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372018458,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 1970,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703025665,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-104",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372018459,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1760,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703025665,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "DISABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "DISABLED"
+    },
+    {
+      "id": 2703025667,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372018465,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1770,
+          "line": 48000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703025667,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372018466,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2080,
+          "line": 48000,
+          "type": "OT_OVER",
+          "betOfferId": 2703025667,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703025668,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372018467,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2000,
+          "line": 45500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703025668,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "Evens",
+          "oddsAmerican": "100",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372018468,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1830,
+          "line": 45500,
+          "type": "OT_OVER",
+          "betOfferId": 2703025668,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "41/50",
+          "oddsAmerican": "-121",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703025669,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1005347341,
+        "label": "First to 20 points (Tie: Neither Team to reach 20)",
+        "englishLabel": "First to 20 Points (Draw: No Teams to Reach 20) - Including Overtime",
+        "order": [
+          20
+        ],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME",
+        "raceToValue": 20
+      },
+      "betOfferType": {
+        "id": 2,
+        "name": "Match",
+        "englishName": "Match"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372018469,
+          "label": "X",
+          "englishLabel": "X",
+          "odds": 7000,
+          "type": "OT_CROSS",
+          "betOfferId": 2703025669,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "6/1",
+          "oddsAmerican": "600",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372018470,
+          "label": "1",
+          "englishLabel": "1",
+          "odds": 1770,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703025669,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4372018471,
+          "label": "2",
+          "englishLabel": "2",
+          "odds": 2430,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703025669,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 2
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703025670,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001366855,
+        "label": "Total Points Odd/Even",
+        "englishLabel": "Total Points Odd/Even - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 10,
+        "name": "Odd/Even",
+        "englishName": "Odd/Even"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372018472,
+          "label": "Odd",
+          "englishLabel": "Odd",
+          "odds": 1760,
+          "type": "OT_ODD",
+          "betOfferId": 2703025670,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "3/4",
+          "oddsAmerican": "-132",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372018473,
+          "label": "Even",
+          "englishLabel": "Even",
+          "odds": 2070,
+          "type": "OT_EVEN",
+          "betOfferId": 2703025670,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703081351,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by North Carolina",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372324183,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1950,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2703081351,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "19/20",
+          "oddsAmerican": "-106",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372324184,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1800,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703081351,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "4/5",
+          "oddsAmerican": "-125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703081352,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159797,
+        "label": "Spread - 1st Half",
+        "englishLabel": "Handicap - 1st Half",
+        "order": [],
+        "occurrenceType": "POINTS"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372324185,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1890,
+          "line": -1500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703081352,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372324186,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1850,
+          "line": 1500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703081352,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703084288,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4372292988,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1720,
+          "line": -1500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703084288,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-139",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4372292989,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2150,
+          "line": 1500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703084288,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "23/20",
+          "oddsAmerican": "115",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703343992,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393693,
+        "label": "Duke to score first and win",
+        "englishLabel": "Duke Blue Devils to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373177970,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 2500,
+          "type": "OT_YES",
+          "betOfferId": 2703343992,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373177974,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1490,
+          "type": "OT_NO",
+          "betOfferId": 2703343992,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703343993,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373177969,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2400,
+          "line": 42500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703343993,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373177971,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1580,
+          "line": 42500,
+          "type": "OT_OVER",
+          "betOfferId": 2703343993,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "4/7",
+          "oddsAmerican": "-175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703343994,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373177975,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1560,
+          "line": 51000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703343994,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-180",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373177976,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2450,
+          "line": 51000,
+          "type": "OT_OVER",
+          "betOfferId": 2703343994,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703343995,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373177977,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 42000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703343995,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373177978,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1550,
+          "line": 42000,
+          "type": "OT_OVER",
+          "betOfferId": 2703343995,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703343996,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373177979,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1450,
+          "line": 53000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703343996,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373177980,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2750,
+          "line": 53000,
+          "type": "OT_OVER",
+          "betOfferId": 2703343996,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703343997,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373177981,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1330,
+          "line": 4000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703343997,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373177982,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 3050,
+          "line": -4000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703343997,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703343998,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373177983,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1420,
+          "line": 3000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703343998,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373177984,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2750,
+          "line": -3000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703343998,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "7/4",
+          "oddsAmerican": "175",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703343999,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373177985,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2500,
+          "line": 41500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703343999,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373177986,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1540,
+          "line": 41500,
+          "type": "OT_OVER",
+          "betOfferId": 2703343999,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703344000,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373177987,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2350,
+          "line": 43000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703344000,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373177988,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1610,
+          "line": 43000,
+          "type": "OT_OVER",
+          "betOfferId": 2703344000,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703344001,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373177989,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 2400,
+          "line": -6500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703344001,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "140",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373177990,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1570,
+          "line": 6500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703344001,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703344002,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393692,
+        "label": "North Carolina to score first and win",
+        "englishLabel": "North Carolina Tar Heels to score first and win - Including Overtime",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373177993,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3600,
+          "type": "OT_YES",
+          "betOfferId": 2703344002,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "13/5",
+          "oddsAmerican": "260",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373177996,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1260,
+          "type": "OT_NO",
+          "betOfferId": 2703344002,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-385",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703344003,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373177997,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 3050,
+          "line": -9500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703344003,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373177998,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1340,
+          "line": 9500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703344003,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703352788,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373163581,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 2850,
+          "line": -8000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703352788,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373163582,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1400,
+          "line": 8000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703352788,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703352789,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373163583,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 2600,
+          "line": -7000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703352789,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373163584,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1480,
+          "line": 7000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703352789,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-210",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703352790,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373163585,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2850,
+          "line": 40000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703352790,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "37/20",
+          "oddsAmerican": "185",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373163586,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1430,
+          "line": 40000,
+          "type": "OT_OVER",
+          "betOfferId": 2703352790,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703352791,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373163587,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1370,
+          "line": 3500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703352791,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373163588,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2900,
+          "line": -3500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703352791,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703352792,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373163589,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1400,
+          "line": 54000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703352792,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373163590,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2900,
+          "line": 54000,
+          "type": "OT_OVER",
+          "betOfferId": 2703352792,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703352793,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373163591,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2700,
+          "line": 40500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703352793,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373163592,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1460,
+          "line": 40500,
+          "type": "OT_OVER",
+          "betOfferId": 2703352793,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "4/9",
+          "oddsAmerican": "-220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703352794,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373163593,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2630,
+          "line": 41000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703352794,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "13/8",
+          "oddsAmerican": "163",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373163594,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1490,
+          "line": 41000,
+          "type": "OT_OVER",
+          "betOfferId": 2703352794,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "12/25",
+          "oddsAmerican": "-205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370125,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143364,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1530,
+          "line": 2000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703370125,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373143365,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2430,
+          "line": -2000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703370125,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "7/5",
+          "oddsAmerican": "143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370126,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143366,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 2700,
+          "line": -7500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703370126,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "17/10",
+          "oddsAmerican": "170",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373143367,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1430,
+          "line": 7500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703370126,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "21/50",
+          "oddsAmerican": "-235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370127,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143368,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 52000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703370127,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373143369,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2600,
+          "line": 52000,
+          "type": "OT_OVER",
+          "betOfferId": 2703370127,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "8/5",
+          "oddsAmerican": "160",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370128,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143370,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1610,
+          "line": 500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703370128,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373143371,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2300,
+          "line": -500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703370128,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370129,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143372,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 2900,
+          "line": -8500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703370129,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373143373,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1370,
+          "line": 8500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703370129,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370130,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143374,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2120,
+          "line": 44500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703370130,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373143375,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1740,
+          "line": 44500,
+          "type": "OT_OVER",
+          "betOfferId": 2703370130,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "8/11",
+          "oddsAmerican": "-136",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370131,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143376,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2280,
+          "line": 43500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703370131,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "5/4",
+          "oddsAmerican": "128",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373143377,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1650,
+          "line": 43500,
+          "type": "OT_OVER",
+          "betOfferId": 2703370131,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-155",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370132,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143378,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1610,
+          "line": -500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703370132,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373143379,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2300,
+          "line": 500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703370132,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370133,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143380,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2200,
+          "line": 44000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703370133,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "6/5",
+          "oddsAmerican": "120",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373143385,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 44000,
+          "type": "OT_OVER",
+          "betOfferId": 2703370133,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370134,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143381,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1500,
+          "line": 2500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703370134,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373143382,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2480,
+          "line": -2500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703370134,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "29/20",
+          "oddsAmerican": "148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370135,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143383,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1660,
+          "line": -1000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703370135,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "13/20",
+          "oddsAmerican": "-152",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373143384,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2250,
+          "line": 1000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703370135,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "5/4",
+          "oddsAmerican": "125",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370136,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143386,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1400,
+          "line": 54500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703370136,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-250",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373143387,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2950,
+          "line": 54500,
+          "type": "OT_OVER",
+          "betOfferId": 2703370136,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "39/20",
+          "oddsAmerican": "195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370137,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143388,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 3000,
+          "line": -9000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703370137,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373143389,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1350,
+          "line": 9000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703370137,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370138,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143390,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1350,
+          "line": 55000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703370138,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "7/20",
+          "oddsAmerican": "-286",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4373143391,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3150,
+          "line": 55000,
+          "type": "OT_OVER",
+          "betOfferId": 2703370138,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "43/20",
+          "oddsAmerican": "215",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703370139,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4373143392,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1610,
+          "line": 0,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703370139,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "3/5",
+          "oddsAmerican": "-165",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4373143393,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 2300,
+          "line": 0,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703370139,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "13/10",
+          "oddsAmerican": "130",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703914008,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374956510,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3000,
+          "line": 39000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703914008,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "2/1",
+          "oddsAmerican": "200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4374956511,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1380,
+          "line": 39000,
+          "type": "OT_OVER",
+          "betOfferId": 2703914008,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-265",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703914046,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374956602,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3300,
+          "line": 37500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703914046,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4374956603,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1330,
+          "line": 37500,
+          "type": "OT_OVER",
+          "betOfferId": 2703914046,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "33/100",
+          "oddsAmerican": "-305",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703914628,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by North Carolina",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4375006518,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1540,
+          "line": 19500,
+          "type": "OT_OVER",
+          "betOfferId": 2703914628,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "8/15",
+          "oddsAmerican": "-186",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4375006519,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2380,
+          "line": 19500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703914628,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/8",
+          "oddsAmerican": "138",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703914629,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393700,
+        "label": "Any Quarter to End Scoreless",
+        "englishLabel": "Any Quarter to End Scoreless",
+        "order": []
+      },
+      "betOfferType": {
+        "id": 18,
+        "name": "Yes/No",
+        "englishName": "Yes/No"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4375006524,
+          "label": "Yes",
+          "englishLabel": "Yes",
+          "odds": 3250,
+          "type": "OT_YES",
+          "betOfferId": 2703914629,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4375006529,
+          "label": "No",
+          "englishLabel": "No",
+          "odds": 1290,
+          "type": "OT_NO",
+          "betOfferId": 2703914629,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703914630,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by North Carolina",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4375006530,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1700,
+          "line": 20500,
+          "type": "OT_OVER",
+          "betOfferId": 2703914630,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-143",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4375006531,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2080,
+          "line": 20500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703914630,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "27/25",
+          "oddsAmerican": "108",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703936969,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374959362,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3050,
+          "line": 38500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703936969,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "41/20",
+          "oddsAmerican": "205",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4374959363,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1370,
+          "line": 38500,
+          "type": "OT_OVER",
+          "betOfferId": 2703936969,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "4/11",
+          "oddsAmerican": "-275",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703936970,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374959365,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 3300,
+          "line": -10000,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703936970,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "23/10",
+          "oddsAmerican": "230",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4374959366,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1280,
+          "line": 10000,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703936970,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "7/25",
+          "oddsAmerican": "-360",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703936971,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374959367,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1320,
+          "line": 56500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703936971,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4374959368,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3400,
+          "line": 56500,
+          "type": "OT_OVER",
+          "betOfferId": 2703936971,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "12/5",
+          "oddsAmerican": "240",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703936972,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374959369,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2900,
+          "line": 39500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703936972,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "19/10",
+          "oddsAmerican": "190",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4374959370,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1410,
+          "line": 39500,
+          "type": "OT_OVER",
+          "betOfferId": 2703936972,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "2/5",
+          "oddsAmerican": "-245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703936973,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374959371,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 3200,
+          "line": 38000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703936973,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/5",
+          "oddsAmerican": "220",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4374959372,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1340,
+          "line": 38000,
+          "type": "OT_OVER",
+          "betOfferId": 2703936973,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "1/3",
+          "oddsAmerican": "-295",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703936974,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374959373,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 3450,
+          "line": -10500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703936974,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "49/20",
+          "oddsAmerican": "245",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4374959374,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 1250,
+          "line": 10500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703936974,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "1/4",
+          "oddsAmerican": "-400",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703936975,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159928,
+        "label": "Point Spread",
+        "englishLabel": "Point Spread - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 1,
+        "name": "Handicap",
+        "englishName": "Handicap"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374959375,
+          "label": "Duke",
+          "englishLabel": "Duke Blue Devils",
+          "odds": 1290,
+          "line": 4500,
+          "participant": "Duke",
+          "type": "OT_ONE",
+          "betOfferId": 2703936975,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000006061,
+          "oddsFractional": "2/7",
+          "oddsAmerican": "-345",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4374959376,
+          "label": "North Carolina",
+          "englishLabel": "North Carolina Tar Heels",
+          "odds": 3250,
+          "line": -4500,
+          "participant": "North Carolina",
+          "type": "OT_TWO",
+          "betOfferId": 2703936975,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "participantId": 1000025215,
+          "oddsFractional": "9/4",
+          "oddsAmerican": "225",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703937598,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Duke",
+        "englishLabel": "Total Points by Duke Blue Devils - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4375000531,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2350,
+          "line": 27500,
+          "type": "OT_OVER",
+          "betOfferId": 2703937598,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "27/20",
+          "oddsAmerican": "135",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4375000532,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1550,
+          "line": 27500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703937598,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-182",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703937599,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Duke",
+        "englishLabel": "Total Points by Duke Blue Devils - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4375000533,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1520,
+          "line": 21500,
+          "type": "OT_OVER",
+          "betOfferId": 2703937599,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "13/25",
+          "oddsAmerican": "-195",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4375000534,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2450,
+          "line": 21500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703937599,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "29/20",
+          "oddsAmerican": "145",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703937600,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Duke",
+        "englishLabel": "Total Points by Duke Blue Devils - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4375000535,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2070,
+          "line": 26500,
+          "type": "OT_OVER",
+          "betOfferId": 2703937600,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "21/20",
+          "oddsAmerican": "107",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4375000536,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1710,
+          "line": 26500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703937600,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "7/10",
+          "oddsAmerican": "-141",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703937601,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393521,
+        "label": "Total Points by Duke - Quarter 1",
+        "englishLabel": "Total Points by Duke Blue Devils - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4375000537,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1860,
+          "line": 6500,
+          "type": "OT_OVER",
+          "betOfferId": 2703937601,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-117",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4375000538,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1880,
+          "line": 6500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703937601,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-114",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703948375,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159490,
+        "label": "Total Points",
+        "englishLabel": "Total Points - Including Overtime",
+        "order": [],
+        "occurrenceType": "POINTS",
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374948142,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1320,
+          "line": 56000,
+          "type": "OT_UNDER",
+          "betOfferId": 2703948375,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "8/25",
+          "oddsAmerican": "-315",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        },
+        {
+          "id": 4374948143,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 3350,
+          "line": 56000,
+          "type": "OT_OVER",
+          "betOfferId": 2703948375,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "47/20",
+          "oddsAmerican": "235",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703948441,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Duke",
+        "englishLabel": "Total Points by Duke Blue Devils - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374948357,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1890,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2703948441,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4374948358,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703948441,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703948983,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by North Carolina",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374992234,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2120,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2703948983,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4374992235,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1670,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703948983,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703948984,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Duke",
+        "englishLabel": "Total Points by Duke Blue Devils - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374992236,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1680,
+          "line": 23500,
+          "type": "OT_OVER",
+          "betOfferId": 2703948984,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "4/6",
+          "oddsAmerican": "-148",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4374992237,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2120,
+          "line": 23500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703948984,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/10",
+          "oddsAmerican": "112",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703948986,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159502,
+        "label": "Total Points by North Carolina",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374992239,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 2500,
+          "line": 24500,
+          "type": "OT_OVER",
+          "betOfferId": 2703948986,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "6/4",
+          "oddsAmerican": "150",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4374992240,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1500,
+          "line": 24500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703948986,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "1/2",
+          "oddsAmerican": "-200",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703948987,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1001159692,
+        "label": "Total Points by Duke",
+        "englishLabel": "Total Points by Duke Blue Devils - Including Overtime",
+        "order": [],
+        "lifetime": "FULL_TIME_OVERTIME"
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4374992242,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1570,
+          "line": 22500,
+          "type": "OT_OVER",
+          "betOfferId": 2703948987,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "11/20",
+          "oddsAmerican": "-177",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4374992243,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 2330,
+          "line": 22500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703948987,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "13/10",
+          "oddsAmerican": "133",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "BET_BUILDER"
+      ],
+      "cashOutStatus": "ENABLED"
+    },
+    {
+      "id": 2703949808,
+      "closed": "2026-10-17T19:30:00Z",
+      "criterion": {
+        "id": 1002393522,
+        "label": "Total Points by North Carolina - Quarter 1",
+        "englishLabel": "Total Points by North Carolina Tar Heels - Quarter 1",
+        "order": [
+          1
+        ]
+      },
+      "betOfferType": {
+        "id": 6,
+        "name": "Over/Under",
+        "englishName": "Over/Under"
+      },
+      "eventId": 1027553101,
+      "outcomes": [
+        {
+          "id": 4375039851,
+          "label": "Over",
+          "englishLabel": "Over",
+          "odds": 1890,
+          "line": 4500,
+          "type": "OT_OVER",
+          "betOfferId": 2703949808,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "22/25",
+          "oddsAmerican": "-113",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 0
+        },
+        {
+          "id": 4375039852,
+          "label": "Under",
+          "englishLabel": "Under",
+          "odds": 1850,
+          "line": 4500,
+          "type": "OT_UNDER",
+          "betOfferId": 2703949808,
+          "changedDate": "2026-10-16T19:23:55Z",
+          "oddsFractional": "17/20",
+          "oddsAmerican": "-118",
+          "status": "OPEN",
+          "cashOutStatus": "ENABLED",
+          "displayOrder": 1
+        }
+      ],
+      "tags": [
+        "OFFERED_PREMATCH",
+        "MAIN_LINE",
         "BET_BUILDER"
       ],
       "cashOutStatus": "ENABLED"
@@ -274,7 +6596,7 @@
           "termKey": "ncaaf"
         }
       ],
-      "nonLiveBoCount": 4,
+      "nonLiveBoCount": 112,
       "sport": "AMERICAN_FOOTBALL",
       "tags": [
         "AMERICAN_DISPLAY_FORMAT",
@@ -312,6 +6634,179 @@
   ],
   "prePacks": [
     {
+      "id": 7279316,
+      "label": "Spread and Total Points",
+      "prePackSelections": [
+        {
+          "selectionId": 8211605,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367289289,
+                          "eventId": 1027553101,
+                          "betOfferId": 2701524753
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367269225,
+                          "eventId": 1027553101,
+                          "betOfferId": 2701553819
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8211604,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3250,
+                "american": "225",
+                "fractional": "9/4"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367289288,
+                          "eventId": 1027553101,
+                          "betOfferId": 2701524753
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367269225,
+                          "eventId": 1027553101,
+                          "betOfferId": 2701553819
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8211607,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3350,
+                "american": "235",
+                "fractional": "47/20"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367289289,
+                          "eventId": 1027553101,
+                          "betOfferId": 2701524753
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367269224,
+                          "eventId": 1027553101,
+                          "betOfferId": 2701553819
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "selectionId": 8211606,
+          "label": [],
+          "status": "OPEN",
+          "combinations": [
+            {
+              "odds": {
+                "decimal": 3300,
+                "american": "230",
+                "fractional": "23/10"
+              },
+              "groups": [
+                {
+                  "operation": "AND",
+                  "groups": [
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367289288,
+                          "eventId": 1027553101,
+                          "betOfferId": 2701524753
+                        }
+                      ]
+                    },
+                    {
+                      "operation": "AND",
+                      "outcomes": [
+                        {
+                          "id": 4367269224,
+                          "eventId": 1027553101,
+                          "betOfferId": 2701553819
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "AUTO_BUNDLED"
+      ]
+    },
+    {
       "id": 7216282,
       "label": "Game Winner and Total Points",
       "prePackSelections": [
@@ -322,9 +6817,9 @@
           "combinations": [
             {
               "odds": {
-                "decimal": 2600,
-                "american": "160",
-                "fractional": "8/5"
+                "decimal": 2800,
+                "american": "180",
+                "fractional": "9/5"
               },
               "groups": [
                 {
@@ -363,9 +6858,9 @@
           "combinations": [
             {
               "odds": {
-                "decimal": 4500,
-                "american": "350",
-                "fractional": "7/2"
+                "decimal": 4000,
+                "american": "300",
+                "fractional": "3/1"
               },
               "groups": [
                 {
@@ -404,9 +6899,9 @@
           "combinations": [
             {
               "odds": {
-                "decimal": 2650,
-                "american": "165",
-                "fractional": "33/20"
+                "decimal": 2850,
+                "american": "185",
+                "fractional": "37/20"
               },
               "groups": [
                 {
@@ -445,9 +6940,9 @@
           "combinations": [
             {
               "odds": {
-                "decimal": 4500,
-                "american": "350",
-                "fractional": "7/2"
+                "decimal": 4000,
+                "american": "300",
+                "fractional": "3/1"
               },
               "groups": [
                 {
@@ -460,179 +6955,6 @@
                           "id": 4367269192,
                           "eventId": 1027553101,
                           "betOfferId": 2701553803
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367269224,
-                          "eventId": 1027553101,
-                          "betOfferId": 2701553819
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "tags": [
-        "AUTO_BUNDLED"
-      ]
-    },
-    {
-      "id": 7216283,
-      "label": "Spread and Total Points",
-      "prePackSelections": [
-        {
-          "selectionId": 8144332,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367269222,
-                          "eventId": 1027553101,
-                          "betOfferId": 2701553818
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367269225,
-                          "eventId": 1027553101,
-                          "betOfferId": 2701553819
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8144333,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3300,
-                "american": "230",
-                "fractional": "23/10"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367269223,
-                          "eventId": 1027553101,
-                          "betOfferId": 2701553818
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367269225,
-                          "eventId": 1027553101,
-                          "betOfferId": 2701553819
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8144334,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3450,
-                "american": "245",
-                "fractional": "49/20"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367269222,
-                          "eventId": 1027553101,
-                          "betOfferId": 2701553818
-                        }
-                      ]
-                    },
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367269224,
-                          "eventId": 1027553101,
-                          "betOfferId": 2701553819
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "selectionId": 8144335,
-          "label": [],
-          "status": "OPEN",
-          "combinations": [
-            {
-              "odds": {
-                "decimal": 3250,
-                "american": "225",
-                "fractional": "9/4"
-              },
-              "groups": [
-                {
-                  "operation": "AND",
-                  "groups": [
-                    {
-                      "operation": "AND",
-                      "outcomes": [
-                        {
-                          "id": 4367269223,
-                          "eventId": 1027553101,
-                          "betOfferId": 2701553818
                         }
                       ]
                     },
