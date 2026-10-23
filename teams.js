@@ -3,6 +3,8 @@
 // Team Statistics Database
 
 const teams = {
+  "North Carolina Central": { offense: { ppa: null, successRate: null, explosiveness: null, pointsPerOpportunity: null }, defense: { ppa: null, successRate: null, explosiveness: null } },
+  "Delaware State": { offense: { ppa: null, successRate: null, explosiveness: null, pointsPerOpportunity: null }, defense: { ppa: null, successRate: null, explosiveness: null } },
   "Sam Houston": {
     offense: {
       ppa: null,
